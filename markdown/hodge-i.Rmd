@@ -1,42 +1,3 @@
-## 1 {.unnumbered #section-1}
-
-::: {.rmenv #definition-1.1 title="Definition 1.1" latex="{Definition 1.1}"}
-A *mixed Hodge structure $H$* consists of
-
-a. a $\ZZ$-module $H_\ZZ$ of finite type (the "*integer lattice*");
-
-b. a finite increasing filtration $W$ of $H_\QQ = H_\ZZ\otimes\QQ$ (the "*weight filtration*");
-
-c. a finite decreasing filtration $F$ of $H_\CC = H_\ZZ\otimes\CC$ (the "*Hodge filtration*").
-
-This data is subject to the following condition:
-there exists a (unique) bigradation of $\Gr_W(H_\CC)$ by subspaces $H^{p,q}$ such that
-
-i. $\Gr_W^n(H_\CC) = \bigoplus_{p+q=n}H^{p,q}$
-
-ii. the filtration $F$ induces on $\Gr_W(H_\CC)$ the filtration \[\Gr_W(F)^p = \bigoplus_{p'\geq p} H^{p',q'}\]
-
-iii. $\overline{H^{pq}}=H^{qp}$.
-:::
-
-A *morphism* $f\colon H\to H'$ is a homomorphism $f_\ZZ\colon H_\ZZ\to H'_\ZZ$ such that $f_\QQ\colon H_\QQ\to H'_\QQ$ and $f_\CC\colon H_\CC\to H'_\CC$ are compatible with the filtrations $W$ and $F$ (respectively).
-
-The *Hodge numbers* of $H$ are the integers
-$$
-  h^{pq} = \dim H^{pq} = h^{qp}.
-\tag{1.2}
-$$
-
-We say that $H$ is pure *of weight $n$* if $h^{pq}=0$ for $p+q\neq n$ (i.e. if $\Gr_W^i(H)=0$ for $i\neq n$).
-We also say that $H$ is a *Hodge structure of weight $n$*.
-
-The *Tate Hodge structure* $\ZZ(1)$ is the Hodge structure of weight $-2$, purely of type $(-1,-1)$, for which $\ZZ(1)_\CC=\CC$ and $\ZZ(1)_\ZZ = 2\pi i\ZZ = \Ker(\exp\colon\CC\to\CC^*)\subset\CC$.
-We set $\ZZ(n)=\ZZ(1)^{\otimes n}$.
-
-We can show that mixed Hodge structures form an abelian category.
-If $f\colon H\to H'$ is a morphism, then $f_\QQ$ and $f_\CC$ are strictly compatible with the filtrations $W$ and $F$ (cf. [@1, s. 2.3.5]).
-
-
 ## 2 {.unnumbered #section-2}
 
 Let $A$ be a normal integral ring of finite type over $\ZZ$, with field of fractions $K$, and $\overline{K}$ an algebraic closure of $K$.
@@ -141,14 +102,14 @@ For $Q\subset[1,n]$, we set $D_q=\bigcap_{i\in Q}D_i$.
 In $l$-adic cohomology, we canonically have
 $$
   R^q j_* \ZZ_l = \bigoplus_{\#Q=q} \ZZ_l(-q)_{D_Q}
-\tag{6.1}
+\startverb\tag{6.1}\stopverb
 $$
 and the Leray spectral sequence for $j$ is of the form
 $$
   E_2^{pq}
   = \bigoplus_{\#Q=q} H^p(D_Q,\QQ_l)\otimes\ZZ_l(-q)
   \Rightarrow H^{p+q}(U,\QQ_l).
-\tag{6.2}
+\startverb\tag{6.2}\stopverb
 $$
 
 *By the Weil conjectures* [@5], $H^p(D_Q,\QQ_l)$ is pure of weight $p$, so that $E_2^{pq}$ is pure of weight $p+2q$.
@@ -158,7 +119,7 @@ Thus $E_3^{pq}=E_\infty^{pq}$.
 Up to renumbering, the weight filtration of $H^\bullet(U,\QQ_l)$ is the abutment of (6.2):
 $$
   \Gr_n^W(H^k(U,\QQ_l)) = E_3^{2k-n,n-k}.
-\tag{6.3}
+\startverb\tag{6.3}\stopverb
 $$
 
 
@@ -169,7 +130,7 @@ $$
   'E_2^{pq}
   = \bigoplus_{\#Q=q} H^p(D_Q,\ZZ)
   \Rightarrow H^{p+q}(U,\ZZ).
-\tag{7.1}
+\startverb\tag{7.1}\stopverb
 $$
 
 \oldpage{428}
@@ -210,17 +171,17 @@ For $T\in I_t$, we define $\log T$ by the *finite* sum $-\sum_{n>0}(\Id-T)^n/n$.
 The map $(T,x)\mapsto\log T(x)$ can be identified with a homomorphism
 $$
   M\colon \ZZ_l(1)\otimes H \to H.
-\tag{8.2}
+\startverb\tag{8.2}\stopverb
 $$
 Since $\ZZ_l(1)$ is of weight $-2$, we necessarily have (cf. [§5](#section-5))
 $$
   M(\ZZ_l(1)\otimes W_n(H)) \subset W_{n-2}(H),
-\tag{8.3}
+\startverb\tag{8.3}\stopverb
 $$
 and $M$ induces
 $$
   \Gr(M)\colon \ZZ_l(1)\otimes\Gr_n^W(H) \to \Gr_{n-2}^W(H).
-\tag{8.4}
+\startverb\tag{8.4}\stopverb
 $$
 
 \oldpage{429}
