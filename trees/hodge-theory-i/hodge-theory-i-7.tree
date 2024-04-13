@@ -3,4 +3,34 @@
 
 \import{macros}
 
+\p{
+  In integer cohomology, for the usual topology, the Leray spectral sequence for #{j} is of the form
 
+  \subtree[hodge-theory-i-equation-7.1]{
+    \taxon{equation}
+    \number{7.1}
+    ##{
+      {'E_2}^{pq}
+      = \bigoplus_{\#Q=q} H^p(D_Q,\ZZ)
+      \Rightarrow H^{p+q}(U,\ZZ).
+    \startverb\tag{7.1}\stopverb
+    }
+  }
+
+  \oldpage{428}
+  Since each #{D_Q} is a non-singular projective variety, #{{'E_2}^{pq}} is endowed with a Hodge structure of weight #{p}.
+  We set #{E_2^{pq}={'E_2}^{pq}\otimes\ZZ(-q)} (a Hodge structure of weight #{p+2q}).
+  As an abelian group, #{E_2^{pq}={'E_2}^{pq}};
+  it is interesting to consider \ref{hodge-theory-i-equation-7.1} as a spectral sequence with initial page #{E_2^{pq}}.
+  By \ref{hodge-theory-i-3}, we should expect for #{d_2\colon E_2^{pq}\to E_2^{p+2,q-1}} to be a morphism of Hodge structures.
+  We prove this by thinking of #{d_2} as a Gysin morphism.
+  Then #{E_3^{pq}} is endowed with a Hodge structure of weight #{p+2q}.
+  By \ref{hodge-theory-i-3}, we expect, \em{modulo torsion}, for the spectral sequence\note{The original refers to (6.4) instead of (6.2), but this seems to be a typo.} \ref{hodge-theory-i-equation-6.2} to degenerate at the #{E_3} page (i.e. #{E_3=E_\infty}), and for the vanishing of the #{d_r} (for #{r\geq3}) to be an application of \ref{hodge-theory-i-5}.
+  This programme was successfully completed in [[Hodge Theory II, 3.2]](hodge-theory-ii-3.2).
+  There, we \em{define} the weight filtration of #{H^\bullet(U,\QQ)} as the abutment of \ref{hodge-theory-i-equation-7.1}, up to renumbering \ref{hodge-theory-i-equation-6.3}.
+}
+
+\p{
+  In fact, to endow the cohomology groups #{H^\bullet} with a mixed Hodge structure, the key point has always been, up until now, to find a spectral sequence #{E} abutting to #{H^\bullet} such that the #{l}-adic analogue of #{E_2^{pq}} be conjecturally pure (of weight #{p+2q});
+  #{E_2^{pq}} should then carry a natural Hodge structure (of weight #{p+2q}), and the filtration #{W} is then the abutment of #{E}.
+}
