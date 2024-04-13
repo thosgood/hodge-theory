@@ -1,0 +1,25 @@
+\def\footnote[x]{(\x)}
+\def\note[x]{ \footnote{\em{[Trans.] \x}}}
+\def\todo[x]{\strong{\em{TO-DO: \x}}}
+\def\fref[x]{[\x \strong{(?)}]}
+\def\oldpage[x]{}
+
+\def\proof[body]{
+  \scope{
+    \put\transclude/toc{false}
+    \subtree{
+      \taxon{proof}
+      \body
+    }
+  }
+}
+
+\def\sh[x]{#{\mathscr{\x}}}
+
+\def\from{#{\leftarrow}}
+\def\simto{#{\xrightarrow{\sim}}}
+
+\def\id{#{\operatorname{id}}}
+\def\OO{#{\mathcal{O}}}
+
+\def\Hom{#{\operatorname{Hom}}}
