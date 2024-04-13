@@ -3,4 +3,61 @@
 
 \import{macros}
 
+\p{
+  Let #{A} be a normal integral ring of finite type over #{\ZZ}, with field of fractions #{K}, and #{\overline{K}} an algebraic closure of #{K}.
+  \oldpage{426}
+  Let #{K_\mathrm{nr}} be the largest sub-extension of #{\overline{K}} that is unramified at each prime ideal of #{A}.
+  We know that, or we set,
+  ##{
+    \pi_1(\Spec(A),\overline{K})
+    = \Gal(K_\mathrm{nr}/K).
+  }
+}
 
+\p{
+  For every closed point #{x} of #{\Spec(A)}, defined by some maximal ideal #{m_x} of #{A}, the residue field #{k_x=A/m_x} is finite;
+  the point #{x} defines a conjugation class of "Frobenius substitutions" #{\varphi_x\in\pi_1(\Spec(A),\overline{K})}.
+  We set #{q_x=\#k_x} and #{F_x=\varphi_x^{-1}}.
+}
+
+\p{
+  Let #{K} be a field of finite type over the prime field of characteristic #{p}, let #{\overline{K}} be an algebraic closure of #{K}, let #{l} be a prime number #{\neq p}, and let #{H} be a #{\ZZ_l}-module (or a #{\QQ_l}-module) of finite type endowed with a continuous action #{\rho} of #{\Gal(\overline{K}/K)}.
+  We will still suppose in what follows that there exists an #{A} as above, with #{l} invertible in #{A}, and such that #{\rho} factors through #{\pi_1(\Spec(A),\overline{K}) = \Gal(K_\mathrm{nr}/K)}.
+  We say that #{H} is \em{pure of weight #{n}} if, for every closed point #{x} of an non-empty open subset of #{\Spec(A)}, the eigenvalues #{\alpha} of #{F_x} acting on #{H} are algebraic integers whose complex conjugates are all of absolute value #{|\alpha|=q_x^{n/2}}.
+}
+
+\subtree[hodge-theory-i-principle-2.1]{
+  \taxon{principle}
+  \number{2.1}
+
+  \p{
+    If the Galois module #{H} "comes from algebraic geometry", then there exists a (unique) increasing filtration #{W} on #{H_{\QQ_l}=H\otimes_{\ZZ_l}\QQ_l} (the "\em{weight filtration}") that is Galois invariant and such that #{\Gr_n^W(H)} is pure of weight #{n}.
+  }
+}
+
+\p{
+  We can also further suppose that #{\Gr_n^W(H)} is semi-simple.
+}
+
+\p{
+  When we have a resolution of singularities we can often give a conjectural definition of #{W}, whose validity follows from the Weil conjectures [[W1949]](W1949) (cf. \ref{hodge-theory-i-6}).
+}
+
+\p{
+  Let #{\mu} be the subgroup of #{\overline{K}^*} given by the roots of unity.
+  The \em{Tate module} #{\ZZ_l(1)}, defined by
+  ##{
+    \ZZ_l(1)
+    = \Hom(\QQ_l/\ZZ_l,\mu)
+  }
+  is pure of weight #{-2}.
+  We set #{\ZZ_l(n)=\ZZ_l(1)^\otimes n}.
+}
+
+\p{
+  It is trivial that every morphism #{f\colon H\to H'} is strictly compatible with the weight filtration.
+}
+
+\p{
+  \ref{hodge-theory-i-principle-2.1} agrees with the fact that every extension of #{\mathbb{G}_m} ("weight #{-2}") by an abelian variety ("weight #{-1>-2}") is trivial.
+}

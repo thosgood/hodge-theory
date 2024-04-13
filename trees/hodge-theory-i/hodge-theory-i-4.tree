@@ -3,4 +3,32 @@
 
 \import{macros}
 
+\p{
+  Let #{X} be a complex algebraic variety (i.e. a scheme of finite type over #{\CC} that we assume to be separated).
+  Then there exists a subfield #{K} of #{\CC}, of finite type over #{\QQ}, such that #{X} can be defined over #{K} (i.e. it comes from an extension of scalars of #{K} to #{\CC} applied to a #{K}-scheme #{X'}).
+  Let #{\overline{K}} be the algebraic closure of #{K} in #{\CC}.
+  The Galois group #{\Gal(\overline{K}/K)} then acts on the #{l}-adic cohomology groups #{H^\bullet(X,\ZZ_l)};
+  we have
+  ##{
+    H^\bullet(X(\CC),\ZZ)\otimes\ZZ_l
+    = H^\bullet(X,\ZZ_l)
+    = H^\bullet(X'_{\overline{K}},\ZZ_l).
+  }
+}
 
+\p{
+  \oldpage{427}
+  By \ref{hodge-theory-i-3}, we should expect for the cohomology groups #{H^n(X(\CC),\ZZ)} to carry natural mixed Hodge structures.
+  This is what we can prove (see [[Hodge Theory II, 3.2.5](hodge-theory-ii-3.2.5)] in the case where #{X} is smooth; the proof is algebraic, using classical Hodge theory [[W1958]](W1958)).
+  For #{X} projective and smooth, the Weil conjectures imply that #{H^n(X,\ZZ_l)} is pure of weight #{n}, while classical Hodge theory endows #{H^n(X,\ZZ)} with a Hodge structure of weight #{n}.
+  For every morphism #{f\colon X\to Y}, and for #{K} large enough, #{f^\bullet\colon H^\bullet(Y,\ZZ_l)\to H^\bullet(X,\ZZ_l)} Galois-commutes (by structure transport);
+  similarly, #{f^\bullet\colon H^\bullet(Y,\ZZ)\to H^\bullet(X,\ZZ)} is a morphism of mixed Hodge structures.
+  For #{X} smooth, the cohomology class #{Z} in #{H^{2n}(X,\ZZ_l(n))} of an algebraic cycle of codimension #{n} defined over #{K} is Galois invariant, i.e. it defines
+  ##{
+    c(Z) \in \Hom_{\Gal}(\ZZ_l(-n),H^{2n}(X,\ZZ_l)).
+  }
+  Similarly, the cohomology class #{c(Z)\in H^{2n}(X(\CC),\ZZ)} is purely of type #{(n,n)}, i.e. it corresponds to
+  ##{
+    c(Z) \in \Hom_{\mathrm{H.M.}}(\ZZ(-n),H^{2n}(X(\CC),\ZZ)).
+  }
+}

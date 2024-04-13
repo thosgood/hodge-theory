@@ -6,7 +6,7 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>W1958</fr:addr><fr:route>W1958.xml</fr:route><fr:title>Introduction à l'étude des variétés kählériennes</fr:title><fr:date><fr:year>1958</fr:year></fr:date><fr:authors><fr:author>A. Weil</fr:author></fr:authors><fr:meta
+expanded="true"><fr:frontmatter><fr:anchor>286</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>W1958</fr:addr><fr:route>W1958.xml</fr:route><fr:title>Introduction à l'étude des variétés kählériennes</fr:title><fr:date><fr:year>1958</fr:year></fr:date><fr:authors><fr:author>A. Weil</fr:author></fr:authors><fr:meta
 name="venue">Hermann <fr:em>Act. Sci. et Ind.</fr:em> <fr:strong>1267</fr:strong> (1958)</fr:meta><fr:meta
 name="bibtex">@book{W1958,
   author = {Weil, A},
@@ -15,4 +15,36 @@ name="bibtex">@book{W1958,
   year = {1958},
   series = {Act. Sci. et Ind.},
   volume = {1267},
-}</fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+}</fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:addr>hodge-theory-i-4</fr:addr><fr:route>hodge-theory-i-4.xml</fr:route><fr:number>4</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  Let <fr:tex>X</fr:tex> be a complex algebraic variety (i.e. a scheme of finite type over <fr:tex>\mathbb {C}</fr:tex> that we assume to be separated).
+  Then there exists a subfield <fr:tex>K</fr:tex> of <fr:tex>\mathbb {C}</fr:tex>, of finite type over <fr:tex>\mathbb {Q}</fr:tex>, such that <fr:tex>X</fr:tex> can be defined over <fr:tex>K</fr:tex> (i.e. it comes from an extension of scalars of <fr:tex>K</fr:tex> to <fr:tex>\mathbb {C}</fr:tex> applied to a <fr:tex>K</fr:tex>-scheme <fr:tex>X'</fr:tex>).
+  Let <fr:tex>\overline {K}</fr:tex> be the algebraic closure of <fr:tex>K</fr:tex> in <fr:tex>\mathbb {C}</fr:tex>.
+  The Galois group <fr:tex>\operatorname {Gal} ( \overline {K}/K)</fr:tex> then acts on the <fr:tex>l</fr:tex>-adic cohomology groups <fr:tex>H^ \bullet (X, \mathbb {Z} _l)</fr:tex>;
+  we have
+  <fr:tex
+display="block">     H^ \bullet (X( \mathbb {C} ), \mathbb {Z} ) \otimes \mathbb {Z} _l     = H^ \bullet (X, \mathbb {Z} _l)     = H^ \bullet (X'_{ \overline {K}}, \mathbb {Z} _l).   </fr:tex></fr:p><fr:p>
+  By <fr:ref
+addr="hodge-theory-i-3"
+href="hodge-theory-i-3.xml"
+number="3"></fr:ref>, we should expect for the cohomology groups <fr:tex>H^n(X( \mathbb {C} ), \mathbb {Z} )</fr:tex> to carry natural mixed Hodge structures.
+  This is what we can prove (see [<fr:link
+href="hodge-theory-ii-3.2.5"
+type="external">Hodge Theory II, 3.2.5</fr:link>] in the case where <fr:tex>X</fr:tex> is smooth; the proof is algebraic, using classical Hodge theory <fr:link
+href="W1958.xml"
+type="local"
+addr="W1958">[W1958]</fr:link>).
+  For <fr:tex>X</fr:tex> projective and smooth, the Weil conjectures imply that <fr:tex>H^n(X, \mathbb {Z} _l)</fr:tex> is pure of weight <fr:tex>n</fr:tex>, while classical Hodge theory endows <fr:tex>H^n(X, \mathbb {Z} )</fr:tex> with a Hodge structure of weight <fr:tex>n</fr:tex>.
+  For every morphism <fr:tex>f \colon  X \to  Y</fr:tex>, and for <fr:tex>K</fr:tex> large enough, <fr:tex>f^ \bullet \colon  H^ \bullet (Y, \mathbb {Z} _l) \to  H^ \bullet (X, \mathbb {Z} _l)</fr:tex> Galois-commutes (by structure transport);
+  similarly, <fr:tex>f^ \bullet \colon  H^ \bullet (Y, \mathbb {Z} ) \to  H^ \bullet (X, \mathbb {Z} )</fr:tex> is a morphism of mixed Hodge structures.
+  For <fr:tex>X</fr:tex> smooth, the cohomology class <fr:tex>Z</fr:tex> in <fr:tex>H^{2n}(X, \mathbb {Z} _l(n))</fr:tex> of an algebraic cycle of codimension <fr:tex>n</fr:tex> defined over <fr:tex>K</fr:tex> is Galois invariant, i.e. it defines
+  <fr:tex
+display="block">     c(Z)  \in   \operatorname {Hom} _{ \operatorname {Gal} }( \mathbb {Z} _l(-n),H^{2n}(X, \mathbb {Z} _l)).   </fr:tex>
+  Similarly, the cohomology class <fr:tex>c(Z) \in  H^{2n}(X( \mathbb {C} ), \mathbb {Z} )</fr:tex> is purely of type <fr:tex>(n,n)</fr:tex>, i.e. it corresponds to
+  <fr:tex
+display="block">     c(Z)  \in   \operatorname {Hom} _{ \mathrm {H.M.}}( \mathbb {Z} (-n),H^{2n}(X( \mathbb {C} ), \mathbb {Z} )).   </fr:tex></fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
