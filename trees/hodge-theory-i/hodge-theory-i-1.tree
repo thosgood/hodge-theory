@@ -1,9 +1,9 @@
 \number{1}
-\parent{hodge-i}
+\parent{hodge-theory-i}
 
 \import{macros}
 
-\subtree[hodge-i-definition-1.1]{
+\subtree[hodge-theory-i-definition-1.1]{
   \taxon{definition}
   \number{1.1}
 
@@ -49,7 +49,7 @@
   A \em{morphism} #{f\colon H\to H'} is a homomorphism #{f_\ZZ\colon H_\ZZ\to H'_\ZZ} such that #{f_\QQ\colon H_\QQ\to H'_\QQ} and #{f_\CC\colon H_\CC\to H'_\CC} are compatible with the filtrations #{W} and #{F} (respectively).
 }
 
-\subtree[hodge-i-equation-1.2]{
+\subtree[hodge-theory-i-equation-1.2]{
   \taxon{equation}
   \number{1.2}
 
@@ -68,11 +68,11 @@
 }
 
 \p{
-  The \em{Tate Hodge structure} #{\ZZ(1)} is the Hodge structure of weight #{-2}, purely of type #{(-1,-1)}, for which #{\ZZ(1)_\CC=\CC} and #{\ZZ(1)_\ZZ = 2\pi i\ZZ = \Ker(\exp\colon\CC\to\CC^*)\subset\CC}.
+  The \em{Tate Hodge structure} #{\ZZ(1)} is the Hodge structure of weight #{-2}, of pure type #{(-1,-1)}, for which #{\ZZ(1)_\CC=\CC} and #{\ZZ(1)_\ZZ = 2\pi i\ZZ = \Ker(\exp\colon\CC\to\CC^*)\subset\CC}.
   We set #{\ZZ(n)=\ZZ(1)^{\otimes n}}.
 }
 
 \p{
   We can show that mixed Hodge structures form an abelian category.
-  If #{f\colon H\to H'} is a morphism, then #{f_\QQ} and #{f_\CC} are strictly compatible with the filtrations #{W} and #{F} (cf. [Hodge Theory II, 2.3.5](hodge-ii-2.3.5)).
+  If #{f\colon H\to H'} is a morphism, then #{f_\QQ} and #{f_\CC} are strictly compatible with the filtrations #{W} and #{F} (cf. [[Hodge Theory II, 2.3.5]](hodge-theory-ii-2.3.5)).
 }
