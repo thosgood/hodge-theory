@@ -23,6 +23,10 @@
   }
 }
 
+\def\tikzcd[body]{
+  \tex{\usepackage{amsmath,tikz-cd}}{\begin{tikzcd}\body\end{tikzcd}}
+}
+
 \def\from{#{\leftarrow}}
 \def\simto{#{\xrightarrow{\sim}}}
 

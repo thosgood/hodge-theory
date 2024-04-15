@@ -117,7 +117,29 @@
       = \Gr^{-n}(A)^\op
     }
     which follows from the self-dual diagram
-    **!!\todo{diagram (1.1.7.1)}!!**
+
+    \subtree[hodge-theory-ii-equation-1.1.7.1]{
+      \taxon{equation}
+      \number{1.1.7.1}
+
+      \tikzcd{
+        A/F^n(A)
+        && A/ F^{n+1}(A)
+          \ar[ll]
+        && 0
+      \\& A
+          \ar[ul] \ar[ur]
+        && \Gr^n(A)
+          \ar[ul] \ar[ur]
+        && (1.1.7.1)
+      \\F^{n+1}(A)
+          \ar[ur] \ar[rr]
+        && F^n(A)
+          \ar[ul] \ar[ur]
+        && 0
+          \ar[ul]
+      }
+    }
   }
 }
 
@@ -154,7 +176,19 @@
     \oldpage{8}
     If #{X} and #{Y} are sub-objects of #{A}, with #{X\subset Y}, then on #{Y/X\simto\Ker(A/X\to A/Y)} the quotient filtration of #{Y} agrees with that induced by that of #{A/X}.
     In the diagram
-    **!!\todo{diagram}!!**
+    \tikzcd{
+      A/Y
+      && A/X
+        \ar[ll]
+    \\& A
+        \ar[ul] \ar[ur]
+      && Y/X
+        \ar[ul]
+    \\X
+        \ar[rr] \ar[ur]
+      && Y
+        \ar[ul] \ar[uu] \ar[ur]
+    }
     the arrows are strict.
   }
 }
