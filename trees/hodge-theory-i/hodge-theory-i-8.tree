@@ -3,4 +3,82 @@
 
 \import{macros}
 
+\p{
+  Let #{\Spec(V)} be the spectrum of a Henselian discrete valuation ring (a \em{Henselian trait}) with field of fractions #{K}, and residue field #{k} that is of finite type over the prime field of characteristic #{p}.
+  Let #{\overline{K}} be an algebraic closure of #{K}, and let #{H} be a vector space of finite dimension over #{\QQ_l} (for #{l\neq p}) on which #{\Gal(\overline{K}/K)} acts continuously.
+  By Grothendieck, we know ([[ST1968](ST1968), Appendix]) that a subgroup of finite index of the inertia group #{I} acts unipotently.
+  By replacing #{V} with a finite extension, we arrive to the case where the action of all of #{I} is unipotent (the \em{semi-stable}case);
+  it then factors as the largest pro-#{l}-group #{I_l} that is a quotient of #{I}, and canonically isomorphic to #{\ZZ_l(1)}.
+}
 
+\subtree[hodge-theory-i-principle-8.1]{
+  \taxon{principle}
+  \number{8.1}
+
+  \p{
+    In the semi-stable case, if the Galois module #{H} "comes from algebraic geometry", then there exists a (unique) increasing filtration #{W} of #{H} (the "\em{weight filtration}") such that #{I} acts trivially on #{\Gr_n^W(H)}, and such that #{\Gr_n^W(H)}, as a Galois module under #{\Gal(\overline{k}/k)\simeq\Gal(\overline{K}/K)/I}, is pure of weight #{n}.
+  }
+}
+
+\p{
+  We can compare this with \ref{hodge-theory-i-principle-2.1} and with the appendix of \ref{ST1968}.
+}
+
+\p{
+  If we have a resolution of singularities, then we can sometimes give a conjectural definition of #{W} whose validity follows from the Weil conjectures.
+  With the help of the resolution and of Weil, it is sometimes easy to show that, in any case, #{H} splits into pure Galois modules (under #{\Gal(\overline{k}/k)}).
+}
+
+\p{
+  Suppose that #{H} is semi-stable.
+  For #{T\in I_t}, we define #{\log T} by the \em{finite}sum #{-\sum_{n>0}(\Id-T)^n/n}.
+  The map #{(T,x)\mapsto\log T(x)} can be identified with a homomorphism
+
+  \subtree[hodge-theory-i-equation-8.2]{
+    \taxon{equation}
+    \number{8.2}
+    ##{
+      M\colon \ZZ_l(1)\otimes H \to H.
+    \startverb\tag{8.2}\stopverb
+    }
+  }
+
+  Since #{\ZZ_l(1)} is of weight #{-2}, we necessarily have (cf. \ref{hodge-theory-i-5})
+
+  \subtree[hodge-theory-i-equation-8.3]{
+    \taxon{equation}
+    \number{8.3}
+    ##{
+      M(\ZZ_l(1)\otimes W_n(H)) \subset W_{n-2}(H),
+    \startverb\tag{8.3}\stopverb
+    }
+  }
+
+  and #{M} induces
+
+  \subtree[hodge-theory-i-equation-8.4]{
+    \taxon{equation}
+    \number{8.4}
+    ##{
+      \Gr(M)\colon \ZZ_l(1)\otimes\Gr_n^W(H) \to \Gr_{n-2}^W(H).
+    \startverb\tag{8.4}\stopverb
+    }
+  }
+}
+
+\subtree[hodge-theory-i-8.5]{
+  \number{8.5}
+
+  \p{
+    \oldpage{429}
+    If #{X} is a non-singular projective variety over an algebraically closed field #{k_0}, then we define
+    ##{
+      L\colon \ZZ_l(-1)\otimes H^\bullet(X,\ZZ_l)
+      \to H^\bullet(X,\ZZ_l)
+    }
+    as being the cup product with the cohomology class of a hyperplane section.
+    We note that there is a formal analogy between #{L} and #{M};
+    in the same way that #{M} is defined by an action of #{\ZZ_l(1)}, we can think of #{L} as being defined by an action of #{\ZZ_l(-1)};
+    #{L} increases the degree by #{2}, and #{\Gr M} \ref{hodge-theory-i-equation-8.4} decreases it by #{2}.
+  }
+}

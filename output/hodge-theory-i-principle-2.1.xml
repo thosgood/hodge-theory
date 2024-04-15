@@ -6,7 +6,7 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:taxon>Principle</fr:taxon><fr:addr>hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>hodge-theory-i-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"><fr:frontmatter><fr:anchor>435</fr:anchor><fr:taxon>Principle</fr:taxon><fr:addr>hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>hodge-theory-i-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     If the Galois module <fr:tex>H</fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex>W</fr:tex> on <fr:tex>H_{ \mathbb {Q} _l}=H \otimes _{ \mathbb {Z} _l} \mathbb {Q} _l</fr:tex> (the "<fr:em>weight filtration</fr:em>") that is Galois invariant and such that <fr:tex>\operatorname {Gr} _n^W(H)</fr:tex> is pure of weight <fr:tex>n</fr:tex>.
   </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -14,7 +14,7 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>362</fr:anchor><fr:addr>hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:number>2</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"><fr:frontmatter><fr:anchor>434</fr:anchor><fr:addr>hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:number>2</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Let <fr:tex>A</fr:tex> be a normal integral ring of finite type over <fr:tex>\mathbb {Z}</fr:tex>, with field of fractions <fr:tex>K</fr:tex>, and <fr:tex>\overline {K}</fr:tex> an algebraic closure of <fr:tex>K</fr:tex>.
   
   Let <fr:tex>K_ \mathrm {nr}</fr:tex> be the largest sub-extension of <fr:tex>\overline {K}</fr:tex> that is unramified at each prime ideal of <fr:tex>A</fr:tex>.
@@ -66,7 +66,7 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>361</fr:anchor><fr:addr>hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:number>2</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"><fr:frontmatter><fr:anchor>432</fr:anchor><fr:addr>hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:number>2</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   Let <fr:tex>A</fr:tex> be a normal integral ring of finite type over <fr:tex>\mathbb {Z}</fr:tex>, with field of fractions <fr:tex>K</fr:tex>, and <fr:tex>\overline {K}</fr:tex> an algebraic closure of <fr:tex>K</fr:tex>.
   
   Let <fr:tex>K_ \mathrm {nr}</fr:tex> be the largest sub-extension of <fr:tex>\overline {K}</fr:tex> that is unramified at each prime ideal of <fr:tex>A</fr:tex>.
@@ -112,4 +112,94 @@ addr="hodge-theory-i-principle-2.1"
 href="hodge-theory-i-principle-2.1.xml"
 taxon="Principle"
 number="2.1"></fr:ref> agrees with the fact that every extension of <fr:tex>\mathbb {G}_m</fr:tex> ("weight <fr:tex>-2</fr:tex>") by an abelian variety ("weight <fr:tex>-1&gt;-2</fr:tex>") is trivial.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>433</fr:anchor><fr:addr>hodge-theory-i-8</fr:addr><fr:route>hodge-theory-i-8.xml</fr:route><fr:number>8</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  Let <fr:tex>\operatorname {Spec} (V)</fr:tex> be the spectrum of a Henselian discrete valuation ring (a <fr:em>Henselian trait</fr:em>) with field of fractions <fr:tex>K</fr:tex>, and residue field <fr:tex>k</fr:tex> that is of finite type over the prime field of characteristic <fr:tex>p</fr:tex>.
+  Let <fr:tex>\overline {K}</fr:tex> be an algebraic closure of <fr:tex>K</fr:tex>, and let <fr:tex>H</fr:tex> be a vector space of finite dimension over <fr:tex>\mathbb {Q} _l</fr:tex> (for <fr:tex>l \neq  p</fr:tex>) on which <fr:tex>\operatorname {Gal} ( \overline {K}/K)</fr:tex> acts continuously.
+  By Grothendieck, we know ([<fr:link
+href="ST1968.xml"
+type="local"
+addr="ST1968">ST1968</fr:link>, Appendix]) that a subgroup of finite index of the inertia group <fr:tex>I</fr:tex> acts unipotently.
+  By replacing <fr:tex>V</fr:tex> with a finite extension, we arrive to the case where the action of all of <fr:tex>I</fr:tex> is unipotent (the <fr:em>semi-stable</fr:em>case);
+  it then factors as the largest pro-<fr:tex>l</fr:tex>-group <fr:tex>I_l</fr:tex> that is a quotient of <fr:tex>I</fr:tex>, and canonically isomorphic to <fr:tex>\mathbb {Z} _l(1)</fr:tex>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>275</fr:anchor><fr:taxon>Principle</fr:taxon><fr:addr>hodge-theory-i-principle-8.1</fr:addr><fr:route>hodge-theory-i-principle-8.1.xml</fr:route><fr:number>8.1</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    In the semi-stable case, if the Galois module <fr:tex>H</fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex>W</fr:tex> of <fr:tex>H</fr:tex> (the "<fr:em>weight filtration</fr:em>") such that <fr:tex>I</fr:tex> acts trivially on <fr:tex>\operatorname {Gr} _n^W(H)</fr:tex>, and such that <fr:tex>\operatorname {Gr} _n^W(H)</fr:tex>, as a Galois module under <fr:tex>\operatorname {Gal} ( \overline {k}/k) \simeq \operatorname {Gal} ( \overline {K}/K)/I</fr:tex>, is pure of weight <fr:tex>n</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  We can compare this with <fr:ref
+addr="hodge-theory-i-principle-2.1"
+href="hodge-theory-i-principle-2.1.xml"
+taxon="Principle"
+number="2.1"></fr:ref> and with the appendix of <fr:ref
+addr="ST1968"
+href="ST1968.xml"
+taxon="Reference"></fr:ref>.
+</fr:p><fr:p>
+  If we have a resolution of singularities, then we can sometimes give a conjectural definition of <fr:tex>W</fr:tex> whose validity follows from the Weil conjectures.
+  With the help of the resolution and of Weil, it is sometimes easy to show that, in any case, <fr:tex>H</fr:tex> splits into pure Galois modules (under <fr:tex>\operatorname {Gal} ( \overline {k}/k)</fr:tex>).
+</fr:p><fr:p>
+  Suppose that <fr:tex>H</fr:tex> is semi-stable.
+  For <fr:tex>T \in  I_t</fr:tex>, we define <fr:tex>\log  T</fr:tex> by the <fr:em>finite</fr:em>sum <fr:tex>- \sum _{n&gt;0}( \Id-T )^n/n</fr:tex>.
+  The map <fr:tex>(T,x) \mapsto \log  T(x)</fr:tex> can be identified with a homomorphism
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>276</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-i-equation-8.2</fr:addr><fr:route>hodge-theory-i-equation-8.2.xml</fr:route><fr:number>8.2</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">       M \colon   \mathbb {Z} _l(1) \otimes  H  \to  H.     \tag{8.2}     </fr:tex></fr:mainmatter></fr:tree>
+
+  Since <fr:tex>\mathbb {Z} _l(1)</fr:tex> is of weight <fr:tex>-2</fr:tex>, we necessarily have (cf. <fr:ref
+addr="hodge-theory-i-5"
+href="hodge-theory-i-5.xml"
+number="5"></fr:ref>)
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>277</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-i-equation-8.3</fr:addr><fr:route>hodge-theory-i-equation-8.3.xml</fr:route><fr:number>8.3</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">       M( \mathbb {Z} _l(1) \otimes  W_n(H))  \subset  W_{n-2}(H),     \tag{8.3}     </fr:tex></fr:mainmatter></fr:tree>
+
+  and <fr:tex>M</fr:tex> induces
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-i-equation-8.4</fr:addr><fr:route>hodge-theory-i-equation-8.4.xml</fr:route><fr:number>8.4</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">        \operatorname {Gr} (M) \colon   \mathbb {Z} _l(1) \otimes \operatorname {Gr} _n^W(H)  \to   \operatorname {Gr} _{n-2}^W(H).     \tag{8.4}     </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr>hodge-theory-i-8.5</fr:addr><fr:route>hodge-theory-i-8.5.xml</fr:route><fr:number>8.5</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>X</fr:tex> is a non-singular projective variety over an algebraically closed field <fr:tex>k_0</fr:tex>, then we define
+    <fr:tex
+display="block">       L \colon   \mathbb {Z} _l(-1) \otimes  H^ \bullet (X, \mathbb {Z} _l)        \to  H^ \bullet (X, \mathbb {Z} _l)     </fr:tex>
+    as being the cup product with the cohomology class of a hyperplane section.
+    We note that there is a formal analogy between <fr:tex>L</fr:tex> and <fr:tex>M</fr:tex>;
+    in the same way that <fr:tex>M</fr:tex> is defined by an action of <fr:tex>\mathbb {Z} _l(1)</fr:tex>, we can think of <fr:tex>L</fr:tex> as being defined by an action of <fr:tex>\mathbb {Z} _l(-1)</fr:tex>;
+    <fr:tex>L</fr:tex> increases the degree by <fr:tex>2</fr:tex>, and <fr:tex>\operatorname {Gr}  M</fr:tex> <fr:ref
+addr="hodge-theory-i-equation-8.4"
+href="hodge-theory-i-equation-8.4.xml"
+taxon="Equation"
+number="8.4"></fr:ref> decreases it by <fr:tex>2</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

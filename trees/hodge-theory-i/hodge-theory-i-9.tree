@@ -3,4 +3,108 @@
 
 \import{macros}
 
+\p{
+  Let #{D} be the unit disc, #{D^*=D\setminus\{0\}}, and #{X}
+  ##{
+    \begin{CD}
+      X @>>> \PP^r(\CC)\times D
+    \\@VfVV @VV\mathrm{pr}_2V
+    \\D @= D
+    \end{CD}
+  }
+  a family of projective varieties parameterised by #{D}, with #{f} proper, and #{f|D^*} smooth.
+}
 
+\p{
+  Keeping the notation of \ref{hodge-theory-i-8}, and recalling that, in the analogy between Henselian traits and small neighbourhoods of #{0} in the complex line, we have the following dictionary (note that the spectrum of the ring of germs at #{0} of holomorphic functions is a Henselian trait):
+}
+
+\subtree[hodge-theory-i-dictionary-9.1]{
+  \taxon{dictionary}
+  \number{9.1}
+
+  \<html:table>{
+    \<html:tr>{
+      \<html:td>{#{D}}
+      \<html:td>{#{\Spec(V)}}
+    }
+    \<html:tr>{
+      \<html:td>{#{D^*}}
+      \<html:td>{#{\Spec(K)}}
+    }
+    \<html:tr>{
+      \<html:td>{a universal covering #{\widetilde{D^*}} of #{D^*}}
+      \<html:td>{#{\Spec(\overline{K})}}
+    }
+    \<html:tr>{
+      \<html:td>{the fundamental group #{\pi_1(D^*)}}
+      \<html:td>{the inertia group #{I}}
+    }
+    \<html:tr>{
+      \<html:td>{(with #{\pi_1(D^*)=\ZZ\simeq\ZZ(1)_\ZZ})}
+      \<html:td>{(with #{I_l=\ZZ_l(1)})}
+    }
+    \<html:tr>{
+      \<html:td>{#{X}}
+      \<html:td>{a projective scheme #{X} over #{\Spec(V)}}
+    }
+    \<html:tr>{
+      \<html:td>{#{X^*=f^{-1}(D^*)}}
+      \<html:td>{#{X_K}}
+    }
+    \<html:tr>{
+      \<html:td>{#{\widetilde{X}=X\times_D\widetilde{D^*}}}
+      \<html:td>{#{X_{\overline{K}}}}
+    }
+    \<html:tr>{
+      \<html:td>{the local system #{R^if_*\ZZ|D^*}}
+      \<html:td>{the Galois module #{H^i(X_{\overline{K}},\ZZ_l)}}
+    }
+    \<html:tr>{
+      \<html:td>{#{H^i(\widetilde{X},\ZZ)}}
+      \<html:td>{#{H^i(X_{\overline{K}},\ZZ_l)}}
+    }
+  }
+}
+
+\p{
+  Note that #{\widetilde{X}} is homotopically equivalent to each of the fibres #{X_t=f^{-1}(t)} (for #{t\in D^*}): #{H^i(X_{\overline{K}},\ZZ_l)} is again analogous to #{H^i(X_t,\ZZ)}, and the transformation of the monodromy #{T} corresponds to the action of #{I}.
+}
+
+\p{
+  Here, again, we know that a subgroup of finite index of #{\pi_1(D^*)} acts unipotently on #{H^i(\widetilde{X},\QQ)=H^i(X_t,\QQ)}.
+  We place ourselves in the semi-stable case, where all of #{\pi_1(D^*)} acts unipotently (this reduces to replacing #{D} by a finite covering), and let #{T} be the action of the canonical generator of #{\pi_1(D^*)}.
+}
+
+\p{
+  By \ref{hodge-theory-i-3} and \ref{hodge-theory-i-8}, we expect for #{H^i(\widetilde{X},\QQ)\simeq H^i(X_t,\QQ)} to be endowed with an increasing filtration #{W}, for #{\Gr_n^W(H^i(\widetilde{X},\QQ))} to be endowed with a Hodge structure of weight #{n}, for #{\log T(W_n)\subset W_{n-2}}, and for #{\log T} to induce a morphism of Hodge structures
+  ##{
+    M_n\colon \ZZ(-1)\otimes\Gr_n^W(H^i)
+    \to \Gr_{n-2}^W(H^i).
+  }
+  We would further like for \ref{hodge-theory-i-equation-8.2}, and not just \ref{hodge-theory-i-equation-8.3} and \ref{hodge-theory-i-equation-8.4}, to have an analogue.
+}
+
+\p{
+  We have in fact managed to define, for each vector #{u} of the tangent space to #{D} at #{\{0\}}, a mixed Hodge structure #{\mathscr{H}_u} on #{H^i(\widetilde{X},\ZZ)}.
+  The filtration #{W} and the Hodge structures on the #{\Gr_n^W(H^i)} are independent of #{u}, and the dependence on #{u} of #{\mathscr{H}_u} can be expressed simply in terms of #{T}.
+  \oldpage{430}
+  Analogously to \ref{hodge-theory-i-equation-8.2}, we find that, for any #{u}, #{\log T} induces a homomorphism of mixed Hodge structures
+  ##{
+    M\colon \ZZ(1)\otimes H^i(\widetilde{X},\ZZ)
+    \to H^i(\widetilde{X},\ZZ).
+  }
+}
+
+\p{
+  Finally, the analogy in \ref{hodge-theory-i-8.5} is not misleading (but here, the fact that #{f|D^*} is assumed to be proper and smooth is probably essential).
+  We can prove that
+  ##{
+    (\log T)^k\colon \Gr_{n+k}^W(H^n(\widetilde{X},\QQ))
+    \to \Gr_{n-k}^W(H^n(\widetilde{X},\QQ))
+  }
+  is an isomorphism for all #{k} (cf. [[W1958](W1958), IV 6, Corollary to Theorem 5]).
+  This characterises the filtration #{W}.
+  Until now, we have only had an analogue of the positivity theorem of Hodge (cf. [[W1958](W1958), IV 7, Corollary to Theorem 7]) in very particular cases.
+  We hope that the mixed structures #{\mathscr{H}_u} determine the asymptotic behaviour, for #{t\to0}, of the family of pure structures #{H^i(X,\ZZ)} (for #{t\in D^*}).
+}
