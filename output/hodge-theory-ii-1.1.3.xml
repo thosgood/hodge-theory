@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:addr>hodge-theory-ii-1.1.3</fr:addr><fr:route>hodge-theory-ii-1.1.3.xml</fr:route><fr:number>1.1.3</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>R</fr:tex> is a decreasing (resp. increasing) filtration of <fr:tex>A</fr:tex>, then the <fr:tex>F_n(A)=F^{-n}(A)</fr:tex> (resp the <fr:tex>F^n(A)=F_{-n}(A)</fr:tex>) form an increasing (resp. decreasing) filtration of <fr:tex>A</fr:tex>.
+    
+    This allows us in principal to consider only decreasing filtrations;
+    <fr:em>unless otherwise explicitly mentioned, when we say "filtration" we always mean "decreasing filtration"</fr:em>.
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:addr>hodge-theory-ii-1.1</fr:addr><fr:route>hodge-theory-ii-1.1.xml</fr:route><fr:title><fr:link
+href="hodge-theory-ii-1.xml"
+type="local"
+addr="hodge-theory-ii-1"><fr:link
+href="hodge-theory-ii.xml"
+type="local"
+addr="hodge-theory-ii">Hodge Theory II</fr:link> › Filtrations</fr:link> › Filtered objects</fr:title><fr:number>1.1</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>438</fr:anchor><fr:addr>hodge-theory-ii-1.1.1</fr:addr><fr:route>hodge-theory-ii-1.1.1.xml</fr:route><fr:number>1.1.1</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathscr {A}</fr:tex> be an abelian category.
+  </fr:p><fr:p>
+    We will be considering <fr:tex>\mathbb {Z}</fr:tex>-filtrations, finite, in general, on the objects of <fr:tex>\mathscr {A}</fr:tex>:
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>439</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-ii-definition-1.1.2</fr:addr><fr:route>hodge-theory-ii-definition-1.1.2.xml</fr:route><fr:number>1.1.2</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A <fr:em>decreasing</fr:em> (resp. <fr:em>increasing</fr:em>) <fr:em>filtration</fr:em> <fr:tex>F</fr:tex> of an object <fr:tex>A</fr:tex> of <fr:tex>\mathscr {A}</fr:tex> is a family <fr:tex>(F^n(A))_{n \in \mathbb {Z} }</fr:tex> (resp. <fr:tex>(F_n(A))_{n \in \mathbb {Z} }</fr:tex>) of sub-objects of <fr:tex>A</fr:tex> satisfying
+    <fr:tex
+display="block">        \forall  n,m        \quad  n \leqslant  m  \implies  F^m(A) \subset  F^n(A)     </fr:tex>
+    (resp. <fr:tex>n \leqslant  m \implies  F_n(A) \subset  F_m(A)</fr:tex>).
+  </fr:p><fr:p>
+    A <fr:em>filtered object</fr:em> is an object endowed with a filtration.
+    When there is no chance of confusion, we often denote by the same letter filtrations on different objects of <fr:tex>\mathscr {A}</fr:tex>.
+  </fr:p><fr:p>
+    If <fr:tex>F</fr:tex> is a decreasing (resp. increasing) filtration on <fr:tex>A</fr:tex>, then we set <fr:tex>F^ \infty (A)=0</fr:tex> and <fr:tex>F^{- \infty }(A)=A</fr:tex> (resp. <fr:tex>F_{- \infty }(A)=0</fr:tex> and <fr:tex>F_ \infty (A)=A</fr:tex>).
+  </fr:p><fr:p>
+    The <fr:em>shifted filtrations</fr:em> of a decreasing filtration <fr:tex>W</fr:tex> are defined by
+    <fr:tex
+display="block">       W[n]^p(A)       = W^{n+p}(A)     </fr:tex>
+    for <fr:tex>n \in \mathbb {Z}</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>440</fr:anchor><fr:addr>hodge-theory-ii-1.1.3</fr:addr><fr:route>hodge-theory-ii-1.1.3.xml</fr:route><fr:number>1.1.3</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>R</fr:tex> is a decreasing (resp. increasing) filtration of <fr:tex>A</fr:tex>, then the <fr:tex>F_n(A)=F^{-n}(A)</fr:tex> (resp the <fr:tex>F^n(A)=F_{-n}(A)</fr:tex>) form an increasing (resp. decreasing) filtration of <fr:tex>A</fr:tex>.
+    
+    This allows us in principal to consider only decreasing filtrations;
+    <fr:em>unless otherwise explicitly mentioned, when we say "filtration" we always mean "decreasing filtration"</fr:em>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>441</fr:anchor><fr:addr>hodge-theory-ii-1.1.4</fr:addr><fr:route>hodge-theory-ii-1.1.4.xml</fr:route><fr:number>1.1.4</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A filtration <fr:tex>F</fr:tex> of <fr:tex>A</fr:tex> is said to be <fr:em>finite</fr:em> if there exist <fr:tex>n</fr:tex> and <fr:tex>m</fr:tex> such that <fr:tex>F^n(A)=A</fr:tex> and <fr:tex>F^m(A)=0</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>442</fr:anchor><fr:addr>hodge-theory-ii-1.1.5</fr:addr><fr:route>hodge-theory-ii-1.1.5.xml</fr:route><fr:number>1.1.5</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A <fr:em>morphism</fr:em> from a filtered object <fr:tex>(A,F)</fr:tex> to a filtered object <fr:tex>(B,F)</fr:tex> is a morphism <fr:tex>f</fr:tex> from <fr:tex>A</fr:tex> to <fr:tex>B</fr:tex> that satisfies <fr:tex>f(F^n(A)) \subset  F^n(B)</fr:tex> for all <fr:tex>n \in \mathbb {Z}</fr:tex>.
+  </fr:p><fr:p>
+    Filtered objects (resp. finite filtered objects) of <fr:tex>\mathscr {A}</fr:tex> form an additive category in which inductive limits and finite projective limits exist (and thus kernels, cokernels, images, and coimages of a morphism).
+  </fr:p><fr:p>
+    A morphism <fr:tex>f \colon (A,F) \to (B,F)</fr:tex> is said to be <fr:em>strict</fr:em>, or <fr:em>strictly compatible with the filtrations</fr:em>, if the canonical arrows from <fr:tex>\operatorname {Coim} (f)</fr:tex> to <fr:tex>\operatorname {Im} (f)</fr:tex> is an isomorphism of filtered objects (cf. <fr:ref
+addr="hodge-theory-ii-proposition-1.1.11"
+href="hodge-theory-ii-proposition-1.1.11.xml"
+taxon="Proposition"
+number="1.1.11"></fr:ref>).
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>443</fr:anchor><fr:addr>hodge-theory-ii-1.1.6</fr:addr><fr:route>hodge-theory-ii-1.1.6.xml</fr:route><fr:number>1.1.6</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(-)^ \circ</fr:tex> be the contravariant identity functor from <fr:tex>\mathscr {A}</fr:tex> to the dual category <fr:tex>\mathscr {A}^ \circ</fr:tex>.
+    If <fr:tex>(A,F)</fr:tex> is a filtered object of <fr:tex>\mathscr {A}</fr:tex>, then the <fr:tex>(A/F^n(A))^ \circ</fr:tex> can be identified with sub-objects of <fr:tex>A^ \circ</fr:tex>.
+    The <fr:em>dual</fr:em> filtration on <fr:tex>A^ \circ</fr:tex> is defined by
+    <fr:tex
+display="block">       F^n(A^ \circ )       = (A/F^{1-n})^ \circ .     </fr:tex></fr:p><fr:p>
+    The double dual of <fr:tex>(A,F)</fr:tex> can be identified with <fr:tex>(A,F)</fr:tex>.
+    This construction identifies the dual of the category of filtered objects of <fr:tex>\mathscr {A}</fr:tex> with the category of filtered objects of <fr:tex>\mathscr {A}^ \circ</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>444</fr:anchor><fr:addr>hodge-theory-ii-1.1.7</fr:addr><fr:route>hodge-theory-ii-1.1.7.xml</fr:route><fr:number>1.1.7</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>(A,F)</fr:tex> is a filtered object of <fr:tex>\mathscr {A}</fr:tex>, then its <fr:em>associated graded</fr:em> is the object of <fr:tex>\mathscr {A}^ \mathbb {Z}</fr:tex> defined by
+    <fr:tex
+display="block">        \operatorname {Gr} ^n(A)       = F^n(A)/F^{n+1}(A).     </fr:tex>
+    The convention <fr:ref
+addr="hodge-theory-ii-1.1.6"
+href="hodge-theory-ii-1.1.6.xml"
+number="1.1.6"></fr:ref> is justified by the simple formula
+    <fr:tex
+display="block">        \operatorname {Gr} ^n(A^ \circ )       =  \operatorname {Gr} ^{-n}(A)^ \circ      </fr:tex>
+    which follows from the self-dual diagram
+    **!!<fr:strong><fr:em>TO-DO: diagram (1.1.7.1)</fr:em></fr:strong>!!**
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>445</fr:anchor><fr:addr>hodge-theory-ii-1.1.8</fr:addr><fr:route>hodge-theory-ii-1.1.8.xml</fr:route><fr:number>1.1.8</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(A,F)</fr:tex> be a filtered object, and <fr:tex>j \colon  X \hookrightarrow  A</fr:tex> a sub-object of <fr:tex>A</fr:tex>.
+    The <fr:em>filtration induced by <fr:tex>F</fr:tex></fr:em> (or simply the <fr:em>induced filtration</fr:em>) on <fr:tex>X</fr:tex> is the unique filtration on <fr:tex>X</fr:tex> such that <fr:tex>j</fr:tex> is strictly compatible with the filtrations;
+    we have
+    <fr:tex
+display="block">       F^n(X)       = j^{-1}(F^n(A))       = X \cap  F^n(A).     </fr:tex></fr:p><fr:p>
+    Dually, the <fr:em>quotient filtration</fr:em> on <fr:tex>A/X</fr:tex> (the unique filtration such that <fr:tex>p \colon  A \to  A/X</fr:tex> is strictly compatible with the filtrations) is given by
+    <fr:tex
+display="block">       F^n(A/X)       = p(F^n(A))        \cong  (X+F^n(A))/X        \cong  F^n(A)/(X \cap  F^n(A)).     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>446</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-lemma-1.1.9</fr:addr><fr:route>hodge-theory-ii-lemma-1.1.9.xml</fr:route><fr:number>1.1.9</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> are sub-objects of <fr:tex>A</fr:tex>, with <fr:tex>X \subset  Y</fr:tex>, then on <fr:tex>Y/X \xrightarrow { \sim } \operatorname {Ker} (A/X \to  A/Y)</fr:tex> the quotient filtration of <fr:tex>Y</fr:tex> agrees with that induced by that of <fr:tex>A/X</fr:tex>.
+    In the diagram
+    **!!<fr:strong><fr:em>TO-DO: diagram</fr:em></fr:strong>!!**
+    the arrows are strict.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>447</fr:anchor><fr:addr>hodge-theory-ii-1.1.10</fr:addr><fr:route>hodge-theory-ii-1.1.10.xml</fr:route><fr:number>1.1.10</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We call the filtration <fr:ref
+addr="hodge-theory-ii-lemma-1.1.9"
+href="hodge-theory-ii-lemma-1.1.9.xml"
+taxon="Lemma"
+number="1.1.9"></fr:ref> on <fr:tex>Y/X</fr:tex> the <fr:em>filtration induced by that of <fr:tex>A</fr:tex></fr:em> (or simply the <fr:em>induced filtration</fr:em>).
+    By <fr:ref
+addr="hodge-theory-ii-lemma-1.1.9"
+href="hodge-theory-ii-lemma-1.1.9.xml"
+taxon="Lemma"
+number="1.1.9"></fr:ref>, its definition is self-dual.
+
+    In particular, if <fr:tex>\Sigma \colon  A \xrightarrow {f}B \xrightarrow {G}C</fr:tex> is a **!!<fr:strong><fr:em>TO-DO: o-suite</fr:em></fr:strong>?!!** sequence, and if <fr:tex>B</fr:tex> is filtered, then <fr:tex>\operatorname {H} ( \Sigma )= \operatorname {Ker} (g)/ \operatorname {Im} (f)= \operatorname {Ker} ( \operatorname {Coker} (f) \to \operatorname {Coim} (g))</fr:tex> is endowed with a canonical induced filtration.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  The reader can show that:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>451</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-proposition-1.1.11</fr:addr><fr:route>hodge-theory-ii-proposition-1.1.11.xml</fr:route><fr:number>1.1.11</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot; i.  &quot;">
+      Let <fr:tex>f \colon (A,F) \to (B,F)</fr:tex> be a morphism of filtered objects with finite filtrations.
+      For <fr:tex>f</fr:tex> to be strict, it is necessary and sufficient that the sequence
+      <fr:tex
+display="block">         0          \to   \operatorname {Gr} ( \operatorname {Ker} (f))          \to   \operatorname {Gr} (A)          \to   \operatorname {Gr} (B)          \to   \operatorname {Gr} ( \operatorname {Coker} (f))          \to  0       </fr:tex>
+      be exact.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot; ii.  &quot;">
+      Let <fr:tex>\sigma \colon (A,F) \to (B,F) \to (C,F)</fr:tex> be a **!!<fr:strong><fr:em>TO-DO: o-suite</fr:em></fr:strong>?!!** sequence of strict morphisms.
+      We then have
+      <fr:tex
+display="block">          \operatorname {H} ( \operatorname {Gr} ( \Sigma ))          \cong   \operatorname {Gr} ( \operatorname {H} ( \Sigma ))       </fr:tex>
+      canonically.
+      In particular, if <fr:tex>\Sigma</fr:tex> is exact in <fr:tex>\mathscr {A}</fr:tex>, then <fr:tex>\operatorname {Gr} ( \Sigma )</fr:tex> is exact in <fr:tex>\mathscr {A}^ \mathbb {Z}</fr:tex>.
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:p>
+  In a category of modules, to say that a morphism <fr:tex>f \colon (A,F) \to (B,F)</fr:tex> is strict implies that every <fr:tex>b \in  B</fr:tex> of filtration <fr:tex>\geqslant  n</fr:tex> (i.e. <fr:tex>b \in  F^n(B)</fr:tex>) that is in the image of <fr:tex>A</fr:tex> is already in the image of <fr:tex>F^n(A)</fr:tex>:
+  <fr:tex
+display="block">     f(F^n(A))     = f(A) \cap  F^n(B).   </fr:tex></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>452</fr:anchor><fr:addr>hodge-theory-ii-1.1.12</fr:addr><fr:route>hodge-theory-ii-1.1.12.xml</fr:route><fr:number>1.1.12</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>\otimes \colon \mathscr {A}_1 \times \ldots \times \mathscr {A}_n \to \mathscr {B}</fr:tex> is a multiadditive right-exact functor, and if <fr:tex>A_i</fr:tex> is an object of finite filtration of <fr:tex>\mathscr {A}_i</fr:tex> (for <fr:tex>1 \leqslant  i \leqslant  n</fr:tex>), then we define a filtration on <fr:tex>\bigotimes _{i=1}^n A_i</fr:tex> by
+    <fr:tex
+display="block">       F^k( \bigotimes _{i=1}^n A_i)       =  \sum _{ \sum  k_i=k}  \operatorname {Im} ( \bigotimes _{i=1}^n F^{k_i}(A_i) \to \bigotimes _{i=1}^n A_i)     </fr:tex>
+    (a sum of sub-objects).
+  </fr:p><fr:p>
+    Dually, if <fr:tex>H</fr:tex> is left-exact, then we set
+    <fr:tex
+display="block">       F^k(H(A_i))       =  \bigcap _{ \sum  k_i=k}  \operatorname {Ker} (H(A_i) \to  H(A_i/F^{k_i}(A_i))).     </fr:tex></fr:p><fr:p>
+    If <fr:tex>H</fr:tex> is exact, then the two definitions are equivalent.
+  </fr:p><fr:p>
+    We extend these definitions to contravariant functors in certain variables by <fr:ref
+addr="hodge-theory-ii-1.1.6"
+href="hodge-theory-ii-1.1.6.xml"
+number="1.1.6"></fr:ref>.
+    In particular, for the left-exact functor <fr:tex>\operatorname {Hom}</fr:tex>, we set
+    <fr:tex
+display="block">       F^k( \operatorname {Hom} (A,B))       =  \{ f \colon  A \to  B  \mid  f(F^n(A)) \subset  F^{n+k}(B) \, \, \forall  n \} .     </fr:tex>
+    We thus have
+    <fr:tex
+display="block">        \operatorname {Hom} ((A,F),(B,F))       = F^0( \operatorname {Hom} (A,B)).     </fr:tex>
+
+    Under the above hypotheses, we have obvious morphisms
+    <fr:tex
+display="block">        \begin {aligned}          \bigotimes _{i=1}^n  \operatorname {Gr} (A_i)         &amp; \to   \operatorname {Gr} ( \bigotimes _{i=1}^n A_i)        \\ \operatorname {Gr}  H(A_i)         &amp; \to  H( \operatorname {Gr} (A_i)).        \end {aligned}     </fr:tex>
+    If <fr:tex>H</fr:tex> is exact, then these are isomorphisms and inverse to one another.
+  </fr:p><fr:p>
+    These constructions are compatible with composition of functors, in a sense whose details we leave to the reader.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
