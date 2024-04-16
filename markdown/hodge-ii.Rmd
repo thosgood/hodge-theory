@@ -1,137 +1,180 @@
 ## Opposite filtrations {#section-1.2}
 
 ::: {.rmenv #hodge-theory-ii-1.2.1 title="1.2.1" latex="{1.2.1}"}
-Let $A$ be an object of $\mathscr{A}$ endowed with filtrations $F$ and $G$.
-By definition, $\Gr_F^n(A)$ is a quotient of a sub-object of $A$ and, as such, is endowed with a filtration induced by $G$ [(1.1.10)](#hodge-theory-ii-1.1.10).
-Passing to the associated graded defines a bigraded object $(\Gr_G^n\Gr_F^m(A))_{n,m\in\ZZ}$.
-By a lemma of Zassenhaus, $\Gr_G^n\Gr_F^m(A)$ and $\Gr_F^m\Gr_G^n(A)$ are canonically isomorphic: if we define the induced filtrations [(1.1.10)](#hodge-theory-ii-1.1.10) as quotient filtrations of the induced filtrations on a sub-object, then we have
-$$
-  \begin{aligned}
-    \Gr_G^n\Gr_F^m(A)
-    \cong (F^m(A)\cap G^n(A)) &/ ((F^{m+1}(A)\cap G^n(A)) + (F^m(A)\cap G^{n+1}(A)))
-  \\&=
-  \\\Gr_F^m\Gr_G^n(A)
-    \cong (G^n(A)\cap F^m(A)) &/ ((G^{n+1}(A)\cap F^m(A)) + (G^n(A)\cap F^{m+1}(A)))
-  \end{aligned}
-$$
+  \p{
+    Let $A$ be an object of $\mathscr{A}$ endowed with filtrations $F$ and $G$.
+    By definition, $\Gr_F^n(A)$ is a quotient of a sub-object of $A$ and, as such, is endowed with a filtration induced by $G$ \ref{hodge-theory-ii-1.1.10}.
+    Passing to the associated graded defines a bigraded object $(\Gr_G^n\Gr_F^m(A))_{n,m\in\ZZ}$.
+    By a lemma of Zassenhaus, $\Gr_G^n\Gr_F^m(A)$ and $\Gr_F^m\Gr_G^n(A)$ are canonically isomorphic: if we define the induced filtrations \ref{hodge-theory-ii-1.1.10} as quotient filtrations of the induced filtrations on a sub-object, then we have
+    ##{
+      \begin{aligned}
+        \Gr_G^n\Gr_F^m(A)
+        \cong (F^m(A)\cap G^n(A)) &/ ((F^{m+1}(A)\cap G^n(A)) + (F^m(A)\cap G^{n+1}(A)))
+      \\&=
+      \\\Gr_F^m\Gr_G^n(A)
+        \cong (G^n(A)\cap F^m(A)) &/ ((G^{n+1}(A)\cap F^m(A)) + (G^n(A)\cap F^{m+1}(A)))
+      \end{aligned}
+    }
+  }
 :::
 
 ::: {.rmenv #hodge-theory-ii-1.2.2 title="1.2.2" latex="{1.2.2}"}
-Let $H$ be a third filtration of $A$.
-It induces a filtration on $\Gr_F(A)$, and thus on $\Gr_G\Gr_F(A)$.
-It also induces a filtration on $\Gr_F\Gr_G(A)$.
-We note that these filtrations do not in general correspond to one another under the isomorphism [(1.2.1)](#hodge-theory-ii-1.2.1).
-In the expression $\Gr_H\Gr_G\Gr_F(A)$, $G$ and $H$ thus play a symmetric role, but not $F$ and $G$.
+  \p{
+    Let $H$ be a third filtration of $A$.
+    It induces a filtration on $\Gr_F(A)$, and thus on $\Gr_G\Gr_F(A)$.
+    It also induces a filtration on $\Gr_F\Gr_G(A)$.
+    We note that these filtrations do not in general correspond to one another under the isomorphism \ref{hodge-theory-ii-1.2.1}.
+    In the expression $\Gr_H\Gr_G\Gr_F(A)$, $G$ and $H$ thus play a symmetric role, but not $F$ and $G$.
+  }
 :::
 
 ::: {.rmenv #hodge-theory-ii-definition-1.2.3 title="1.2.3" latex="{1.2.3}"}
-Two *finite* filtrations $F$ and $\overline{F}$ on $A$ are said to be *$n$-opposite* if $\Gr_F^p\Gr_{\overline{F}}^q(A)=0$ for $p+q\neq n$.
+  \p{
+    Two \em{finite} filtrations $F$ and $\overline{F}$ on $A$ are said to be \em{$n$-opposite} if $\Gr_F^p\Gr_{\overline{F}}^q(A)=0$ for $p+q\neq n$.
+  }
 :::
 
 ::: {.rmenv #hodge-theory-ii-1.2.4 title="1.2.4" latex="{1.2.4}"}
-If $A^{p,q}$ is a bigraded object of $\mathscr{A}$ such that
+  \p{
+    If $A^{p,q}$ is a bigraded object of $\mathscr{A}$ such that
 
-a. $A^{p,q}=0$ except for a finite number of pairs $(p,q)$, and
-b. $A^{p,q}=0$ for $p+q\neq n$
+    \olc{
+      \lic{a.}{
+        #{A^{p,q}=0} except for a finite number of pairs $(p,q)$, and
+      }
+      \lic{b.}{
+        #{A^{p,q}=0} for $p+q\neq n$
+      }
+    }
 
-\oldpage{10}
-then we define two $n$-opposite filtrations of $A=\sum_{p,q}A^{p,q}$ by setting
-$$
-  F^p(A)
-  = \sum_{p'\geqslant p} A^{p',q'}
-\tag{1.2.4.1}
-$$
-$$
-  \overline{F}^q(A)
-  = \sum_{q'\geqslant q} A^{p',q'}.
-\tag{1.2.4.2}
-$$
-We have
-$$
-  \Gr_F^p\Gr_{\overline{F}}^q(A)
-  = A^{p,q}.
-\tag{1.2.4.3}
-$$
+    \oldpage{10}
+    then we define two $n$-opposite filtrations of $A=\sum_{p,q}A^{p,q}$ by setting
+
+      ##{
+        F^p(A)
+        = \sum_{p'\geqslant p} A^{p',q'}
+      \startverb\tag{1.2.4.1}\stopverb
+      }
+
+      ##{
+        \overline{F}^q(A)
+        = \sum_{q'\geqslant q} A^{p',q'}.
+      \startverb\tag{1.2.4.2}\stopverb
+      }
+
+    We have
+
+      ##{
+        \Gr_F^p\Gr_{\overline{F}}^q(A)
+        = A^{p,q}.
+      \startverb\tag{1.2.4.3}\stopverb
+      }
+  }
 :::
 
-Conversely:
+\p{
+  Conversely:
+}
 
 ::: {.itenv #hodge-theory-ii-proposition-1.2.5 title="Proposition 1.2.5" latex="{Proposition 1.2.5}"}
-—
+  \olc{
+    \lic{i.}{
+      Let $F$ and $\overline{F}$ be finite filtrations on $A$.
+      For $F$ and $\overline{F}$ to be $n$-opposite, it is necessary and sufficient that, for all $p,q$,
+      ##{
+        [p+q=n+1]
+        \implies [F^p(A)\oplus\overline{F}^q(A) \simto A].
+      }
+    }
 
-i. Let $F$ and $\overline{F}$ be finite filtrations on $A$.
-  For $F$ and $\overline{F}$ to be $n$-opposite, it is necessary and sufficient that, for all $p,q$,
-  $$
-    [p+q=n+1]
-    \implies [F^p(A)\oplus\overline{F}^q(A) \simto A].
-  $$
+    \lic{ii.}{
+      If $F$ and $\overline{F}$ are $n$-opposite, and if we set
+      ##{
+        \begin{cases}
+          A^{p,q} = 0
+          &\text{for }p+q\neq n
+        \\A^{p,q} = F^p(A)\cap\overline{F}^q(A)
+          &\text{for }p+q=n
+        \end{cases}
+      }
+      then $A$ is the direct sum of the $A^{p,q}$, and $F$ and $\overline{F}$ come from the bigrading $A^{p,q}$ of $A$ by the procedure of \ref{hodge-theory-ii-1.2.4}.
+    }
 
-ii. If $F$ and $\overline{F}$ are $n$-opposite, and if we set
-  $$
-    \begin{cases}
-      A^{p,q} = 0
-      &\text{for }p+q\neq n
-    \\A^{p,q} = F^p(A)\cap\overline{F}^q(A)
-      &\text{for }p+q=n
-    \end{cases}
-  $$
-  then $A$ is the direct sum of the $A^{p,q}$, and $F$ and $\overline{F}$ come from the bigrading $A^{p,q}$ of $A$ by the procedure of [(1.2.4)](#hodge-theory-ii-1.2.4).
-:::
+    \proof{
+      \olc{
+        \lic{i.}{
+          The condition $\Gr_F^p\Gr_{\overline{F}}^q(A)=0$ for $p+q>n$ implies that $F^p\cap\overline{F}^q=(F^{p+1}\cap\overline{F}^q)+(F^p\cap\overline{F}^{q+1})$ for $p+q>n$.
+          By hypothesis, $F^p\cap\overline{F}^q$ is zero for large enough $p+q$;
+          by decreasing induction, we thus deduce that the condition $\Gr_F^p\Gr_{\overline{F}}^q(A)=0$ for $p+q>n$ is equivalent to the condition $F^p(A)\cap\overline{F}^q(A)=0$ for $p+q>n$.
+          Dually (\ref{hodge-theory-ii-1.1.6}, \ref{hodge-theory-ii-1.1.7}, \ref{hodge-theory-ii-1.1.10}), the condition $\Gr_F^p\Gr_{\overline{F}}^q(A)=0$ for $p+q<n$ is equivalent to the condition $A=F^p(A)+\overline{F}^q(A)$ for $(1-p)+(1-q)>-n$, i.e. for $p+q\leqslant n+1$, and the claim then follows.
+        }
 
-::: {.proof}
-—
+        \lic{ii.}{
+          If $F$ and $\overline{F}$ are $n$-opposite, then we can prove by decreasing induction on $p$ that
 
-i. The condition $\Gr_F^p\Gr_{\overline{F}}^q(A)=0$ for $p+q>n$ implies that $F^p\cap\overline{F}^q=(F^{p+1}\cap\overline{F}^q)+(F^p\cap\overline{F}^{q+1})$ for $p+q>n$.
-  By hypothesis, $F^p\cap\overline{F}^q$ is zero for large enough $p+q$;
-  by decreasing induction, we thus deduce that the condition $\Gr_F^p\Gr_{\overline{F}}^q(A)=0$ for $p+q>n$ is equivalent to the condition $F^p(A)\cap\overline{F}^q(A)=0$ for $p+q>n$.
-  Dually ([(1.1.6)](#hodge-theory-ii-1.1.6), [(1.1.7)](#hodge-theory-ii-1.1.7), [(1.1.10)](#hodge-theory-ii-1.1.10)), the condition $\Gr_F^p\Gr_{\overline{F}}^q(A)=0$ for $p+q<n$ is equivalent to the condition $A=F^p(A)+\overline{F}^q(A)$ for $(1-p)+(1-q)>-n$, i.e. for $p+q\leqslant n+1$, and the claim then follows.
+            ##{
+              \bigoplus_{p'\geqslant p} A^{p',q'}
+              \simto F^p(A).
+            \startverb\tag{1.2.5.1}\stopverb
+            }
 
-ii. If $F$ and $\overline{F}$ are $n$-opposite, then we can prove by decreasing induction on $p$ that
-  $$
-    \bigoplus_{p'\geqslant p} A^{p',q'}
-    \simto F^p(A).
-  \tag{1.2.5.1}
-  $$
-    a. For $F^p(A)=0$, the claim is evident.
-    b. The decomposition $A=F^{p+1}(A)\oplus\overline{F}^{n-p}(A)$ induces on $F^p(A)\supset F^{p+1}(A)$ a decomposition
-    $$
-      F^p(A)
-      = F^{p+1}(A)\oplus(F^p(A)\cap\overline{F}^{n-p}(A))
-    $$
-    and we conclude by induction.
-  For $p$ small enough, we have $F^p(A)=A$.
-  By (1.2.5.1), the $A^{p,q}$ thus form a bigrading of $A$, and $F$ satisfies (1.2.4.1).
-  The fact that $\overline{F}$ satisfies (1.2.4.2) then follows by symmetry.
+          \olc{
+            \lic{a.}{
+              For $F^p(A)=0$, the claim is evident.
+            }
+            \lic{b.}{
+              The decomposition $A=F^{p+1}(A)\oplus\overline{F}^{n-p}(A)$ induces on $F^p(A)\supset F^{p+1}(A)$ a decomposition
+              ##{
+                F^p(A)
+                = F^{p+1}(A)\oplus(F^p(A)\cap\overline{F}^{n-p}(A))
+              }
+              and we conclude by induction.
+            }
+          }
+
+          For $p$ small enough, we have $F^p(A)=A$.
+          By \ref{hodge-theory-ii-equation-1.2.5.1}, the $A^{p,q}$ thus form a bigrading of $A$, and $F$ satisfies \ref{hodge-theory-ii-equation-1.2.4.1}.
+          The fact that $\overline{F}$ satisfies \ref{hodge-theory-ii-equation-1.2.4.2} then follows by symmetry.
+        }
+      }
+    }
+  }
 :::
 
 ::: {.rmenv #hodge-theory-ii-1.2.6 title="1.2.6" latex="{1.2.6}"}
-The constructions [(1.2.4)](#hodge-theory-ii-1.2.4) and [(1.2.5)](#hodge-theory-ii-proposition-1.2.5) establish equivalences of categories that are quasi-inverse to one another between objects of $\mathscr{A}$ endowed with two finite $n$-opposite filtrations and bigraded objects of $\mathscr{A}$ of the type considered in [(1.2.4)](#hodge-theory-ii-1.2.4).
+  \p{
+    The constructions \ref{hodge-theory-ii-1.2.4} and \ref{hodge-theory-ii-proposition-1.2.5} establish equivalences of categories that are quasi-inverse to one another between objects of $\mathscr{A}$ endowed with two finite $n$-opposite filtrations and bigraded objects of $\mathscr{A}$ of the type considered in \ref{hodge-theory-ii-1.2.4}.
+  }
 :::
 
 ::: {.itenv #hodge-theory-ii-definition-1.2.7 title="Definition 1.2.7" latex="{Definition 1.2.7}"}
 \oldpage{11}
-Three *finite* filtrations $W$, $F$, and $\overline{F}$ on $A$ are said to be *opposite* if
-$$
-  \Gr_F^p\Gr_{\overline{F}}^q\Gr_W^n(A)
-  = 0
-$$
-for $p+q+n\neq0$.
+  \p{
+    Three \em{finite} filtrations $W$, $F$, and $\overline{F}$ on $A$ are said to be \em{opposite} if
+    ##{
+      \Gr_F^p\Gr_{\overline{F}}^q\Gr_W^n(A)
+      = 0
+    }
+    for $p+q+n\neq0$.
+  }
 :::
 
-This condition is symmetric in $F$ and $\overline{F}$.
-It implies that $F$ and $\overline{F}$ induce on $W^n(A)/W^{n+1}(A)$ two $(-n)$-opposite filtrations.
-We set
-$$
-  A^{p,q}
-  = \Gr_F^p\Gr_{\overline{F}}^q\Gr_F^{-p-q}(A)
-$$
-whence decompositions [(1.2.4)](#hodge-theory-ii-1.2.4), [(1.2.5)](#hodge-theory-ii-proposition-1.2.5)
-$$
-  W^n(A)/W^{n+1}(A)
-  = \bigoplus_{p+q=-n} A^{p,q}
-\tag{1.2.7.1}
-$$
-which makes $\Gr_W(A)$ into a bigraded object.
+\p{
+  This condition is symmetric in $F$ and $\overline{F}$.
+  It implies that $F$ and $\overline{F}$ induce on $W^n(A)/W^{n+1}(A)$ two $(-n)$-opposite filtrations.
+  We set
+  ##{
+    A^{p,q}
+    = \Gr_F^p\Gr_{\overline{F}}^q\Gr_F^{-p-q}(A)
+  }
+  whence decompositions \ref{hodge-theory-ii-1.2.4}, \ref{hodge-theory-ii-proposition-1.2.5}
+  ##{
+    W^n(A)/W^{n+1}(A)
+    = \bigoplus_{p+q=-n} A^{p,q}
+  \startverb\tag{1.2.7.1}\stopverb
+  }
+  which makes $\Gr_W(A)$ into a bigraded object.
+}
 
 ::: {.itenv #hodge-theory-ii-lemma-1.2.8 title="Lemma 1.2.8" latex="{Lemma 1.2.8}"}
 Let $W$, $F$, and $\overline{F}$ be three finite opposite filtrations, and $\sigma$ a sequence $(p_i,q_i)_{i\geqslant0}$ pairs of integers satisfying
@@ -170,7 +213,7 @@ By [(1.2.5), (i)](#hodge-theory-ii-proposition-1.2.5) we have
 $$
   F^{p_k}(\Gr_W^{n+k}(A)) \oplus \overline{F}^{q_k}(\Gr_W^{n+k}(A))
   \simto \Gr_W^{n+k}(A).
-\tag{1.2.8.1}
+\startverb\tag{1.2.8.1}\stopverb
 $$
 Set
 $$
@@ -312,7 +355,7 @@ $$
   f(A_i^{p,q})
   \subset B_i^{p,q}
   \qquad\text{(for }i=0,1\text{)}.
-\tag{1.2.10.1}
+\startverb\tag{1.2.10.1}\stopverb
 $$
 Claim (iii) then follows from the following lemma:
 
@@ -323,17 +366,17 @@ $$
   W^n(A)
   = \sum_{n+p+q\leqslant 0} A_i^{p,q}
   \qquad\text{(for }i=0,1\text{)}
-\tag{1.2.11.1}
+\startverb\tag{1.2.11.1}\stopverb
 $$
 $$
   F^p(A)
   = \sum_{p'\geqslant p} A_0^{p',q'}
-\tag{1.2.11.2}
+\startverb\tag{1.2.11.2}\stopverb
 $$
 $$
   \overline{F}^q(A)
   = \sum_{q'\geqslant q} A_1^{p',q'}.
-\tag{1.2.11.3}
+\startverb\tag{1.2.11.3}\stopverb
 $$
 :::
 
@@ -346,7 +389,7 @@ $$
   \sum_{p+q=n} A_0^{p,q}
   \simto \Gr_W^{-n}(A)
   = \sum_{p+q=n} A^{p,q}.
-\tag{1.2.11.4}
+\startverb\tag{1.2.11.4}\stopverb
 $$
 The morphism $i$ is thus an isomorphism, and the $A_0^{p,q}$ give a bigrading of $A$.
 
@@ -438,15 +481,15 @@ We have, by definition:
 $$
   E_r^{pq}
   = \Im(Z_r^{pq}\to K^{p+q}/B_r^{pq})
-\tag{1.3.1.1}
+\startverb\tag{1.3.1.1}\stopverb
 $$
 $$
   = Z_r^{pq}/(B_r^{pq}\cap Z_r^{pq})
-\tag{1.3.1.2}
+\startverb\tag{1.3.1.2}\stopverb
 $$
 $$
   = \Ker(K^{p+q}/B_r^{pq}\to K^{p+q}/(Z_r^{pq}+B_r^{pq})).
-\tag{1.3.1.3}
+\startverb\tag{1.3.1.3}\stopverb
 $$
 We can thus write
 $$
@@ -455,7 +498,7 @@ $$
     &\coloneqq (dF^{p-r+1}+F^{p+1}) \cap (d^{-1}F^{p+r}\cap F^p)
   \\&= (dF^{p-r+1}\cap F^p) + (F^{p+1}\cap d^{-1}F^{p+r})
   \end{aligned}
-\tag{1.3.1.4}
+\startverb\tag{1.3.1.4}\stopverb
 $$
 since $dF^{p-r+1}\subset d^{-1}F^{p+r}$ and $F^{p+1}\subset F^p$.
 
@@ -464,14 +507,14 @@ For $r<\infty$, the $E_r$ form a complex graded by the degree $p-r(p+q)$, and $E
 $$
   E_{r+1}^{pq}
   = \HH(E_r^{p-r,q+r-1} \xrightarrow{d_r} E_r^{pq} \xrightarrow{d_r} E_r^{p+r,q-r+1}).
-\tag{1.3.1.5}
+\startverb\tag{1.3.1.5}\stopverb
 $$
 
 For $r=0$, we have
 $$
   E_0^{\bullet\bullet}
   = \Gr_F^\bullet(K^\bullet).
-\tag{1.3.1.6}
+\startverb\tag{1.3.1.6}\stopverb
 $$
 :::
 
@@ -498,7 +541,7 @@ or, in other words,
 $$
   F^{p+1}(K^{p+q+1}) \cap dF^p(K^{p+q})
   = dF^{p+1}(K^{p+q}).
-\tag{1}
+\startverb\tag{1}\stopverb
 $$
 
 If this condition is satisfied for arbitrary $p$ and $q$, then by induction on $r$ we have
@@ -510,7 +553,7 @@ which, for large $p+r$, can be written as
 $$
   F^p \cap dK
   = dF^p.
-\tag{2}
+\startverb\tag{2}\stopverb
 $$
 
 Claim (2) trivially implies (1), and is equivalent to (ii), which proves the proposition.
@@ -541,12 +584,12 @@ $$
   \\&\subset B_1^{p+n,-p}
   \\&\subset Z_1^{p+n,-p}
   \end{aligned}
-\tag{1.3.3.1}
+\startverb\tag{1.3.3.1}\stopverb
 $$
 the evident arrow from $Z_1^{p+n,-p}/Z_1^{p+1+n,-p-1}$ to $Z_1^{p+n,-p}/B_1^{p+n,-p}$ is a morphism
 $$
   u\colon E_0^{p,n-p}(\Dec(K)) \to E_1^{p+n,-p}(K).
-\tag{1.3.3.2}
+\startverb\tag{1.3.3.2}\stopverb
 $$
 :::
 
@@ -570,7 +613,7 @@ We trivially have isomorphisms
 $$
   E_r^{p,n-p}(\Dec(K))
   = E_{r+1}^{p+n,-p}(K,F')
-\tag{1.3.4.1}
+\startverb\tag{1.3.4.1}\stopverb
 $$
 that are compatible with the $d_r$ and with (1.3.1.5).
 The map $u$ comes from (1.3.4.1) and from the identity map
@@ -831,7 +874,7 @@ $$
 is thus exact, and
 $$
   \Gr_{FT}TA \simto T\Gr_FA.
-\tag{1.4.2.1}
+\startverb\tag{1.4.2.1}\stopverb
 $$
 :::
 
