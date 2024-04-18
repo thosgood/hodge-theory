@@ -6,7 +6,7 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>634</fr:anchor><fr:addr>hodge-theory-ii-1.3.1</fr:addr><fr:route>hodge-theory-ii-1.3.1.xml</fr:route><fr:number>1.3.1</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:addr>hodge-theory-ii-1.3.1</fr:addr><fr:route>hodge-theory-ii-1.3.1.xml</fr:route><fr:number>1.3.1</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>K</fr:tex> be a differential complex of objects of <fr:tex>\mathscr {A}</fr:tex>, endowed with a filtration <fr:tex>F</fr:tex>.
     The filtration is said to be <fr:em>biregular</fr:em> if it induces a finite filtration on each component of <fr:tex>K</fr:tex>.
   </fr:p><fr:p>
@@ -91,7 +91,7 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>633</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title><fr:link
+expanded="true"><fr:frontmatter><fr:anchor>637</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-1.xml"
 type="local"
 addr="hodge-theory-ii-1"><fr:link
@@ -711,6 +711,129 @@ hash="a2a9ad845170368ac5389f6d4ad2a1e3"><fr:embedded-tex-preamble>\usepackage {a
       they are thus filtered isomorphisms, since <fr:tex>(3)</fr:tex> is a filtered isomorphism.
       The fact that <fr:tex>(5)</fr:tex> is a filtered isomorphism implies that <fr:tex>d</fr:tex> is strict.
       This proves the lemma.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>634</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-theorem-1.3.16</fr:addr><fr:route>hodge-theory-ii-theorem-1.3.16.xml</fr:route><fr:number>1.3.16</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex endowed with two filtrations, <fr:tex>W</fr:tex> and <fr:tex>F</fr:tex>, with the filtration <fr:tex>F</fr:tex> biregular.
+    Let <fr:tex>r_0 \geqslant0</fr:tex> be an integer, and suppose that, for <fr:tex>0 \leqslant  r&lt;r_0</fr:tex>, the differentials of the graded complex <fr:tex>E_r(K,W)</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
+    Then, for <fr:tex>r \leqslant  r_0+1</fr:tex>, <fr:tex>F_d=F_r=F_{d^*}</fr:tex> on <fr:tex>E_r^{pq}</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>633</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-theorem-1.3.16</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We will prove the theorem by induction on <fr:tex>r_0</fr:tex>.
+      For <fr:tex>r_0=0</fr:tex>, the hypothesis is empty, and we apply <fr:ref
+addr="hodge-theory-ii-lemma-1.3.10"
+href="hodge-theory-ii-lemma-1.3.10.xml"
+taxon="Lemma"
+number="1.3.10"></fr:ref> and (iii) of <fr:ref
+addr="hodge-theory-ii-proposition-1.3.13"
+href="hodge-theory-ii-proposition-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>.
+      For <fr:tex>r_0 \geqslant1</fr:tex>, by the inductive hypothesis, we have <fr:tex>F_d=F_r=F_{d^*}</fr:tex> on <fr:tex>E_r^{pq}</fr:tex> for <fr:tex>r \leqslant  r_0</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      By <fr:ref
+addr="hodge-theory-ii-lemma-1.3.15"
+href="hodge-theory-ii-lemma-1.3.15.xml"
+taxon="Lemma"
+number="1.3.15"></fr:ref>, the morphism <fr:tex>u \colon  E_0( \operatorname {Dec} (K)) \to  E_1(K)</fr:tex> is a filtered quasi-isomorphism.
+      It thus induces a filtered isomorphism from <fr:tex>\operatorname {H} ^ \bullet ( \operatorname {Dec} (K))</fr:tex> to <fr:tex>\operatorname {H} ^ \bullet (E_1(K))</fr:tex>:
+      <fr:tex
+display="block">         u \colon  (E_1( \operatorname {Dec} (K)),F_r)          \xrightarrow { \sim }  (E_2(K),F_r).       </fr:tex>
+      Step-by-step, we thus deduce that the canonical isomorphism from <fr:tex>E_s( \operatorname {Dec} (K))</fr:tex> to <fr:tex>E_{s+1}</fr:tex> (for <fr:tex>s \geqslant1</fr:tex>) is a filtered isomorphism for the recurrent filtration.
+    </fr:p>
+
+    <fr:p>
+      On <fr:tex>E_1( \operatorname {Dec} (K))</fr:tex>, <fr:tex>F_r=F_d</fr:tex> (<fr:ref
+addr="hodge-theory-ii-lemma-1.3.10"
+href="hodge-theory-ii-lemma-1.3.10.xml"
+taxon="Lemma"
+number="1.3.10"></fr:ref>), and we already know (<fr:ref
+addr="hodge-theory-ii-1.3.14"
+href="hodge-theory-ii-1.3.14.xml"
+number="1.3.14"></fr:ref>) that <fr:tex>u'</fr:tex> is a filtered isomorphism
+      <fr:tex
+display="block">         u' \colon  (E_1( \operatorname {Dec} (K)),F_d)          \xrightarrow { \sim }  (E_2(K),F_d).       </fr:tex></fr:p>
+
+    <fr:p>
+      On <fr:tex>E_2(K)</fr:tex>, we thus have <fr:tex>F_d=F_r</fr:tex>.
+      This, combined with the dual result, proves the theorem for <fr:tex>r_0=1</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Suppose that <fr:tex>r_0 \geqslant2</fr:tex>.
+      Then the arrows <fr:tex>d_1</fr:tex> of <fr:tex>E_1(K)</fr:tex> are strictly compatible with the filtrations, and thus so too are the arrows <fr:tex>d_0</fr:tex> of <fr:tex>E_0( \operatorname {Dec} (K))</fr:tex> (indeed, <fr:tex>u</fr:tex> induces an isomorphism of spectral sequences, and we apply the criterion from <fr:ref
+addr="hodge-theory-ii-proposition-1.3.2"
+href="hodge-theory-ii-proposition-1.3.2.xml"
+taxon="Proposition"
+number="1.3.2"></fr:ref>).
+    </fr:p>
+
+    <fr:p>
+      For <fr:tex>0&lt;s&lt;r_0-1</fr:tex>, the isomorphism <fr:tex>(E_s( \operatorname {Dec} (K)),F_r) \cong (E_{s+1}(K),F_r)</fr:tex> shows that the <fr:tex>d_s</fr:tex> are strictly compatible with the recurrent filtrations.
+    </fr:p>
+
+    <fr:p>
+      By the induction hypothesis, we thus have <fr:tex>F_d=F_r</fr:tex> on <fr:tex>E_s( \operatorname {Dec} (K))</fr:tex> for <fr:tex>s \leqslant  s_0</fr:tex>.
+      The isomorphism <fr:tex>(E_s( \operatorname {Dec} (K)),F_d) \cong (E_{s+1}(K),F_d)</fr:tex> (<fr:ref
+addr="hodge-theory-ii-proposition-1.3.13"
+href="hodge-theory-ii-proposition-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>) then shows that <fr:tex>F_d=F_r</fr:tex> on <fr:tex>E_r(K)</fr:tex> for <fr:tex>r \leqslant  r_0+1</fr:tex>.
+      This, combined with the dual result, proves the theorem.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>636</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-corollary-1.3.17</fr:addr><fr:route>hodge-theory-ii-corollary-1.3.17.xml</fr:route><fr:number>1.3.17</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the general hypotheses of <fr:ref
+addr="hodge-theory-ii-theorem-1.3.16"
+href="hodge-theory-ii-theorem-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref>, suppose that, for all <fr:tex>r</fr:tex>, the differentials <fr:tex>d_r</fr:tex> are strictly compatible with the recurrent filtrations on the <fr:tex>E_r</fr:tex>.
+    Then, on <fr:tex>E_ \infty</fr:tex>, the filtrations <fr:tex>F_d</fr:tex>, <fr:tex>F_r</fr:tex>, and <fr:tex>F_{d^*}</fr:tex> agree, and coincide with the filtration induced by the filtration <fr:tex>F</fr:tex> of <fr:tex>\operatorname {H} ^ \bullet (K)</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>635</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-corollary-1.3.17</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      This follows immediately from <fr:ref
+addr="hodge-theory-ii-theorem-1.3.16"
+href="hodge-theory-ii-theorem-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref> and (iv) of <fr:ref
+addr="hodge-theory-ii-proposition-1.3.13"
+href="hodge-theory-ii-proposition-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
