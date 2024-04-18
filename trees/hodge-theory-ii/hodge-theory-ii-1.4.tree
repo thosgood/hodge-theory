@@ -345,3 +345,134 @@
     }
   }
 }
+
+\subtree[hodge-theory-ii-1.4.10]{
+  \number{1.4.10}
+
+  \p{
+    We can also interpret the #{{}_{W,F}d_1} are the initial morphisms of a morphism of spectral sequences \ref{hodge-theory-ii-equation-1.4.9.2}, abutting to #{{}_Wd_1}.
+  }
+
+  \p{
+    Indeed, let #{C^q} be the cone of the morphism
+    ##{
+      W^q(K)/W^{q+2}(K) \to \Gr_W^q(K).
+    }
+    In the diagram
+    ##{
+      \Sigma\colon \Gr_W^{q+1}(K)[1]
+      \xrightarrow{u} C^q
+      \xleftarrow{i} \Gr_W^q(K)
+    }
+    the morphism #{u} is a quasi-isomorphism, and we have
+    ##{
+      {}_Wd_1
+      = \HH(u)^{-1}\circ\HH(i).
+    }
+  }
+
+  \p{
+    In fact, #{u} is even a filtered (for #{F}) quasi-isomorphism, and the above construction defines a morphism from the spectral sequence defined by #{(\Gr_W^q(K),F)} to that defined by #{(\Gr_W^{q+1}(K)[1],F)}, and it abuts to #{{}_Wd_1}.
+    The initial term of this morphism, induced by #{\Gr_F(\Sigma)} is exactly #{{}_{W,F}d_1}.
+  }
+}
+
+\subtree[hodge-theory-ii-1.4.11]{
+  \number{1.4.11}
+
+  \p{
+    These constructions pass as they are to hypercohomology.
+    Let #{K} be a complex endowed with two biregular filtrations #{F} and #{W}.
+  }
+
+  \p{
+    A \em{bifiltered #{T}-acyclic resolution} of #{K} is a bifiltered quasi-isomorphism #{i\colon K\to K'} such that the #{\Gr_F^p\Gr_W^n({K'}^m)} are #{T}-acyclic.
+    Such a morphism always exists.
+    In the particular case where #{\mathscr{A}} is the category of sheaves of #{A}-modules on a topological space #{X}, and where #{T} is the functor #{\Gamma} from #{\mathscr{A}} to the category of #{A}-modules, then an example of a bifiltered #{T}-acyclic resolution of #{K} is the simple complex associated to the double complex given by the Godement resolution #{\mathscr{C}^\bullet(K)} of #{K}, filtered by the #{\mathscr{C}^\bullet(F^p(K))} and the #{\mathscr{C}^\bullet(W^n(K))}.
+    Since #{\mathscr{C}^\bullet} is exact, we have
+    ##{
+      \Gr_F\Gr_W(\mathscr{C}^\bullet(K))
+      \simeq \mathscr{C}^\bullet(\Gr_F\Gr_W(K)).
+    }
+    We will not have need here of any other case.
+  }
+
+  \p{
+    If #{K'} is a bifiltered #{T}-acyclic resolution of #{K}, then the complex #{TK'} is filtered by the #{TF^pK'} and the #{TW^qK'} (\ref{hodge-theory-ii-1.4.3}).
+    Furthermore, #{\Gr_W^n(K')} is a #{T}-acyclic filtered (for #{F}) resolution of #{\Gr_F^n(K)}, and #{\Gr_F^n\Gr_W^m(K')} is a #{T}-acyclic resolution of #{\Gr_F^n\Gr_W^m(K)}, and
+    ##{
+      \begin{gathered}
+        T\Gr_F K'
+        \approx \Gr_F TK'
+        \qquad\text{as }W\text{-filtered complexes}
+      \\T\Gr_W K'
+        \approx \Gr_W TK'
+        \qquad\text{as }F\text{-filtered complexes}
+      \\T\Gr_F\Gr_W K'
+        \approx \Gr_F\Gr_W TK'.
+      \end{gathered}
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-lemma-1.4.12]{
+  \taxon{lemma}
+  \number{1.4.12}
+
+  \p{
+    Under the hypotheses of \ref{hodge-theory-ii-1.4.11}:
+
+    \olc{
+      \lic{i.}{
+        The initial terms of the hypercohomology spectral sequences
+        ##{
+          {}_WE_1^{q,n-q}
+          = \RR^nT(\Gr_W^qK)
+          \To \RR^nT(K)
+        \startverb\tag{1}\stopverb
+        }
+        ##{
+          {}_FE_1^{p,n-p}
+          = \RR^nT(\Gr_F^pK)
+          \To \RR^nT(K)
+        \startverb\tag{2}\stopverb
+        }
+        \oldpage{24}
+        are abutments of the hypercohomology spectral sequences of the filtered complexes #{\Gr_W^qK} and #{\Gr_F^pK}, with #{E_1} pages given by
+        ##{
+          E_1^{p,q,n-p-q}
+          \coloneqq \RR^nT(\Gr_F^p\Gr_W^qK)
+          \To {}_WE_1^{q,n-q}
+          \qquad\text{for fixed }q
+        \startverb\tag{3}\stopverb
+        }
+        ##{
+          E_1^{p,q,n-p-q}
+          \coloneqq \RR^nT(\Gr_F^p\Gr_W^qK)
+          \To {}_FE_1^{p,n-p}
+          \qquad\text{for fixed }p
+        \startverb\tag{4}\stopverb
+        }
+      }
+
+      \lic{ii.}{
+        The filtration of #{{}_WE_1^{p,n-p}}, abutting to the spectral sequence #{(3)}, is the filtration of #{{}_WE_1^{p,n-p}(TK')} induced by the filtration #{F} of #{TK'}.
+      }
+
+      \lic{iii.}{
+        For the differentials of the complexes #{\Gr_W^n(T(K'))} to be strictly compatible with the filtration #{F}, it is necessary and sufficient that the hypercohomology spectral sequences #{(3)} degenerate on the #{E_1} page.
+      }
+
+      \lic{iv.}{
+        The morphisms #{d_1} of the spectral sequence #{(4)} are the initial terms of the degree-1 morphisms of the spectral sequences #{(3)} that abut to the morphisms #{d_1} of the spectral sequence #{(1)}.
+      }
+    }
+  }
+
+  \proof{
+    \p{
+      Claims (i) and (iv) follow from \ref{hodge-theory-ii-1.4.9} and \ref{hodge-theory-ii-1.4.10} applied to #{TK'} via the isomorphisms \ref{hodge-theory-ii-1.4.11}.
+      Claim (ii) is then trivial by the definition of the recurrent filtration #{F} (identical to the discrete filtrations by \ref{hodge-theory-ii-lemma-1.3.10} and (iii) of \ref{hodge-theory-ii-proposition-1.3.13}), and claim (iii) follows from \ref{hodge-theory-ii-proposition-1.3.2}.
+    }
+  }
+}

@@ -6,7 +6,7 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>844</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-proposition-1.3.13</fr:addr><fr:route>hodge-theory-ii-proposition-1.3.13.xml</fr:route><fr:number>1.3.13</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="true"><fr:frontmatter><fr:anchor>874</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-proposition-1.3.13</fr:addr><fr:route>hodge-theory-ii-proposition-1.3.13.xml</fr:route><fr:number>1.3.13</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -63,7 +63,7 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>843</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title><fr:link
+expanded="true"><fr:frontmatter><fr:anchor>873</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-1.xml"
 type="local"
 addr="hodge-theory-ii-1"><fr:link
@@ -815,7 +815,7 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>842</fr:anchor><fr:addr>hodge-theory-ii-1.3.12</fr:addr><fr:route>hodge-theory-ii-1.3.12.xml</fr:route><fr:number>1.3.12</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"><fr:frontmatter><fr:anchor>872</fr:anchor><fr:addr>hodge-theory-ii-1.3.12</fr:addr><fr:route>hodge-theory-ii-1.3.12.xml</fr:route><fr:number>1.3.12</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Definitions <fr:ref
 addr="hodge-theory-ii-1.3.8"
 href="hodge-theory-ii-1.3.8.xml"
@@ -833,7 +833,7 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>840</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-corollary-1.3.17</fr:addr><fr:route>hodge-theory-ii-corollary-1.3.17.xml</fr:route><fr:number>1.3.17</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"><fr:frontmatter><fr:anchor>869</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-corollary-1.3.17</fr:addr><fr:route>hodge-theory-ii-corollary-1.3.17.xml</fr:route><fr:number>1.3.17</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Under the general hypotheses of <fr:ref
 addr="hodge-theory-ii-theorem-1.3.16"
 href="hodge-theory-ii-theorem-1.3.16.xml"
@@ -869,7 +869,96 @@ toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>841</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-theorem-1.3.16</fr:addr><fr:route>hodge-theory-ii-theorem-1.3.16.xml</fr:route><fr:number>1.3.16</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"><fr:frontmatter><fr:anchor>870</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-lemma-1.4.12</fr:addr><fr:route>hodge-theory-ii-lemma-1.4.12.xml</fr:route><fr:number>1.4.12</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the hypotheses of <fr:ref
+addr="hodge-theory-ii-1.4.11"
+href="hodge-theory-ii-1.4.11.xml"
+number="1.4.11"></fr:ref>:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; i.  &quot;">
+        The initial terms of the hypercohomology spectral sequences
+        <fr:tex
+display="block">           {}_WE_1^{q,n-q}           =  \operatorname {R} ^nT( \operatorname {Gr} _W^qK)            \Rightarrow   \operatorname {R} ^nT(K)         \tag{1}         </fr:tex>
+        <fr:tex
+display="block">           {}_FE_1^{p,n-p}           =  \operatorname {R} ^nT( \operatorname {Gr} _F^pK)            \Rightarrow   \operatorname {R} ^nT(K)         \tag{2}         </fr:tex>
+        
+        are abutments of the hypercohomology spectral sequences of the filtered complexes <fr:tex>\operatorname {Gr} _W^qK</fr:tex> and <fr:tex>\operatorname {Gr} _F^pK</fr:tex>, with <fr:tex>E_1</fr:tex> pages given by
+        <fr:tex
+display="block">           E_1^{p,q,n-p-q}            \coloneqq   \operatorname {R} ^nT( \operatorname {Gr} _F^p \operatorname {Gr} _W^qK)            \Rightarrow  {}_WE_1^{q,n-q}            \qquad \text {for fixed }q         \tag{3}         </fr:tex>
+        <fr:tex
+display="block">           E_1^{p,q,n-p-q}            \coloneqq   \operatorname {R} ^nT( \operatorname {Gr} _F^p \operatorname {Gr} _W^qK)            \Rightarrow  {}_FE_1^{p,n-p}            \qquad \text {for fixed }p         \tag{4}         </fr:tex>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot; ii.  &quot;">
+        The filtration of <fr:tex>{}_WE_1^{p,n-p}</fr:tex>, abutting to the spectral sequence <fr:tex>(3)</fr:tex>, is the filtration of <fr:tex>{}_WE_1^{p,n-p}(TK')</fr:tex> induced by the filtration <fr:tex>F</fr:tex> of <fr:tex>TK'</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot; iii.  &quot;">
+        For the differentials of the complexes <fr:tex>\operatorname {Gr} _W^n(T(K'))</fr:tex> to be strictly compatible with the filtration <fr:tex>F</fr:tex>, it is necessary and sufficient that the hypercohomology spectral sequences <fr:tex>(3)</fr:tex> degenerate on the <fr:tex>E_1</fr:tex> page.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot; iv.  &quot;">
+        The morphisms <fr:tex>d_1</fr:tex> of the spectral sequence <fr:tex>(4)</fr:tex> are the initial terms of the degree-1 morphisms of the spectral sequences <fr:tex>(3)</fr:tex> that abut to the morphisms <fr:tex>d_1</fr:tex> of the spectral sequence <fr:tex>(1)</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>698</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-lemma-1.4.12</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Claims (i) and (iv) follow from <fr:ref
+addr="hodge-theory-ii-1.4.9"
+href="hodge-theory-ii-1.4.9.xml"
+number="1.4.9"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-1.4.10"
+href="hodge-theory-ii-1.4.10.xml"
+number="1.4.10"></fr:ref> applied to <fr:tex>TK'</fr:tex> via the isomorphisms <fr:ref
+addr="hodge-theory-ii-1.4.11"
+href="hodge-theory-ii-1.4.11.xml"
+number="1.4.11"></fr:ref>.
+      Claim (ii) is then trivial by the definition of the recurrent filtration <fr:tex>F</fr:tex> (identical to the discrete filtrations by <fr:ref
+addr="hodge-theory-ii-lemma-1.3.10"
+href="hodge-theory-ii-lemma-1.3.10.xml"
+taxon="Lemma"
+number="1.3.10"></fr:ref> and (iii) of <fr:ref
+addr="hodge-theory-ii-proposition-1.3.13"
+href="hodge-theory-ii-proposition-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>), and claim (iii) follows from <fr:ref
+addr="hodge-theory-ii-proposition-1.3.2"
+href="hodge-theory-ii-proposition-1.3.2.xml"
+taxon="Proposition"
+number="1.3.2"></fr:ref>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>871</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-theorem-1.3.16</fr:addr><fr:route>hodge-theory-ii-theorem-1.3.16.xml</fr:route><fr:number>1.3.16</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>K</fr:tex> be a complex endowed with two filtrations, <fr:tex>W</fr:tex> and <fr:tex>F</fr:tex>, with the filtration <fr:tex>F</fr:tex> biregular.
     Let <fr:tex>r_0 \geqslant0</fr:tex> be an integer, and suppose that, for <fr:tex>0 \leqslant  r&lt;r_0</fr:tex>, the differentials of the graded complex <fr:tex>E_r(K,W)</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
     Then, for <fr:tex>r \leqslant  r_0+1</fr:tex>, <fr:tex>F_d=F_r=F_{d^*}</fr:tex> on <fr:tex>E_r^{pq}</fr:tex>.
