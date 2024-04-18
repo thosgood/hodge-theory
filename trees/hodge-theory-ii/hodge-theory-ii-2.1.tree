@@ -127,3 +127,103 @@
     A \em{real Hodge structure} is a real vector space #{V} of finite dimension endowed with an action of the real algebraic group #{S}.
   }
 }
+
+\subtree[hodge-theory-ii-2.1.5]{
+  \number{2.1.5}
+
+  \p{
+    By the general theory of groups of multiplicative type, giving a real Hodge structure on #{V} is equivalent to giving a bigrading #{V^{p,q}} of #{V_\CC=\CC\otimes_\RR V} that satisfies #{\overline{V^{pq}}=V^{qp}}.
+    The action of #{S} and the bigrading are mutually determined via the condition:
+
+    \subtree[hodge-theory-ii-2.1.5.1]{
+      \number{2.1.5.1}
+    
+      \p{
+        On #{V^{pq}}, #{S} acts by multiplication by #{z^p\bar{z}^q}.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.6]{
+  \number{2.1.6}
+
+  \p{
+    Let #{(\CC,\times)} be the multiplicative monoid, and let
+    ##{
+      \bar{S}
+      = \prod_{\CC{/}\RR} (\CC,\times).
+    }
+    If #{V} is a real vector space, then we can show that it is equivalent to either give an action of #{\bar{S}} on #{V} or to give a bigrading #{V^{pq}} on #{V} such that #{\overline{V^{pq}}=V^{qp}} and #{V^{pq}=0} for #{p<0} or #{q<0}.
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.7]{
+  \number{2.1.7}
+
+  \p{
+    Let #{V} be a real Hodge structure, defined by a representation #{\sigma} of #{S} and a bigrading #{V^{pq}}.
+    The grading of #{V_\CC} by the #{V_\CC^n=\sum_{p+q=n}V^{pq}} is then defined over #{\RR}.
+    We call this the \em{weight grading}.
+    On #{V^n=V\cap V_\CC^n}, the representation #{\sigma w} of #{\Gm} is multiplication by #{x^n}.
+  }
+
+  \p{
+    We say that #{V} is \em{of weight #{n}} if #{V^{pq}=0} for #{p+q\neq n}, i.e. if #{\sigma w} is multiplication by #{x^n}.
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.8]{
+  \number{2.1.8}
+
+  \p{
+    Let #{V} be a real Hodge structure.
+    The \em{Hodge filtration} on #{V_\CC} is defined by
+    ##{
+      F^p(V_\CC)
+      = \sum_{p'\geqslant p} V^{p'q'}.
+    }
+  }
+}
+
+\p{
+  By \ref{hodge-theory-ii-1.2.6}, we have:
+}
+
+\subtree[hodge-theory-ii-2.1.9]{
+  \taxon{proposition}
+  \number{2.1.9}
+
+  \p{
+    Let #{n} be an integer.
+    The construction \ref{hodge-theory-ii-2.1.8} establishes an equivalence of categories between:
+
+    \olc{
+      \lic{a.}{
+        the category of real Hodge structures of weight #{n};
+      }
+      \lic{b.}{
+        the category of pairs consisting of a real vector space #{V} of finite dimension and of a filtration #{F} on #{V_\CC=\CC\otimes_\RR V} that is #{n}-opposite to its complex conjugate #{\bar{F}}.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.10]{
+  \taxon{definition}
+  \number{2.1.10}
+
+  \p{
+    \oldpage{26}
+    A \em{Hodge structure} #{H}, of weight #{n}, consists of
+
+    \olc{
+      \lic{a.}{
+        a #{\ZZ}-module #{H_\ZZ} of finite type (the "\em{integral lattice}");
+      }
+      \lic{b.}{
+        a real Hodge structure of weight #{n} on #{H_\RR=\RR\otimes_\ZZ H_\ZZ}.
+      }
+    }
+  }
+}
