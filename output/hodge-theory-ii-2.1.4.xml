@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>923</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-ii-2.1.4</fr:addr><fr:route>hodge-theory-ii-2.1.4.xml</fr:route><fr:number>2.1.4</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A <fr:em>real Hodge structure</fr:em> is a real vector space <fr:tex>V</fr:tex> of finite dimension endowed with an action of the real algebraic group <fr:tex>S</fr:tex>.
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>922</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title><fr:link
+href="hodge-theory-ii-2.xml"
+type="local"
+addr="hodge-theory-ii-2"><fr:link
+href="hodge-theory-ii.xml"
+type="local"
+addr="hodge-theory-ii">Hodge Theory II</fr:link> › Hodge structures</fr:link> › Pure structures</fr:title><fr:number>2.1</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>897</fr:anchor><fr:addr>hodge-theory-ii-2.1.1</fr:addr><fr:route>hodge-theory-ii-2.1.1.xml</fr:route><fr:number>2.1.1</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    In all the following, we denote by <fr:tex>\mathbb {C}</fr:tex> an algebraic closure of <fr:tex>\mathbb {R}</fr:tex>, and we do not suppose to have chosen a root <fr:tex>i</fr:tex> of the equation <fr:tex>x^2+1=0</fr:tex>.
+    The theory will be invariant under complex conjugation (cf. [hodge-theory-ii-2.1.14 <fr:strong>(?)</fr:strong>]).
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>898</fr:anchor><fr:addr>hodge-theory-ii-2.1.2</fr:addr><fr:route>hodge-theory-ii-2.1.2.xml</fr:route><fr:number>2.1.2</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We denote by <fr:tex>S</fr:tex> the real algebraic group <fr:tex>\mathbb {C} ^*</fr:tex>, given by restriction of scalars à la Weil from <fr:tex>\mathbb {C}</fr:tex> to <fr:tex>\mathbb {R}</fr:tex> of the group <fr:tex>\mathbb {G}_ \mathrm {m}</fr:tex>:
+    <fr:tex
+display="block">        \begin {aligned}         S         &amp;=  \prod _{ \mathbb {C} {/} \mathbb {R} } \mathbb {G}_ \mathrm {m}         \\ S( \mathbb {R} )         &amp;=  \mathbb {C} ^*.        \end {aligned}     </fr:tex></fr:p><fr:p>
+    The group <fr:tex>S</fr:tex> is a torus, i.e. it is connected and of multiplicative type.
+    It is thus described by the free abelian group of finite type
+    <fr:tex
+display="block">       X(S)       =  \operatorname {Hom} (S_ \mathbb {C} , \mathbb {G}_ \mathrm {m} )       =  \operatorname {Hom} (S, \mathbb {G}_ \mathrm {m} )( \mathbb {C} )     </fr:tex>
+    of its complex characters, endowed with the action of <fr:tex>\operatorname {Gal} ( \mathbb {C} {/} \mathbb {R} )= \mathbb {Z} {/}(2)</fr:tex>.
+  </fr:p><fr:p>
+    The group <fr:tex>X(S)</fr:tex> has generators <fr:tex>z</fr:tex> and <fr:tex>\bar {z}</fr:tex>, which induce (respectively) the identity and complex conjugation:
+    <fr:tex
+display="block">        \mathbb {C} ^*       = S( \mathbb {R} )        \to  S( \mathbb {C} )        \to   \mathbb {G}_ \mathrm {m} ( \mathbb {C} )       =  \mathbb {C} ^*.     </fr:tex>
+    Complex conjugation exchanges <fr:tex>z</fr:tex> and <fr:tex>\bar {z}</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>904</fr:anchor><fr:addr>hodge-theory-ii-2.1.3</fr:addr><fr:route>hodge-theory-ii-2.1.3.xml</fr:route><fr:number>2.1.3</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We have a canonical map
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>899</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-2.1.3.1</fr:addr><fr:route>hodge-theory-ii-2.1.3.1.xml</fr:route><fr:number>2.1.3.1</fr:number><fr:parent>hodge-theory-ii-2.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         w \colon   \mathbb {G}_ \mathrm {m} \to  S       \tag{2.1.3.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    
+    that, on the real points, induces the inclusion of <fr:tex>\mathbb {R} ^*</fr:tex> into <fr:tex>\mathbb {C} ^*</fr:tex>.
+    We have
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>900</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-2.1.3.2</fr:addr><fr:route>hodge-theory-ii-2.1.3.2.xml</fr:route><fr:number>2.1.3.2</fr:number><fr:parent>hodge-theory-ii-2.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         zw         =  \bar {z}w         =  \mathrm {Id} .       \tag{2.1.3.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    We also have a map
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>901</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-2.1.3.3</fr:addr><fr:route>hodge-theory-ii-2.1.3.3.xml</fr:route><fr:number>2.1.3.3</fr:number><fr:parent>hodge-theory-ii-2.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N \colon  S \to \mathbb {G}_ \mathrm {m}        \tag{2.1.3.3}       </fr:tex></fr:mainmatter></fr:tree>
+
+    that on the real points can be identified with the norm <fr:tex>N_{ \mathbb {C} {/} \mathbb {R} } \colon \mathbb {C} ^* \to \mathbb {R} ^*</fr:tex>.
+    We have
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>902</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-2.1.3.4</fr:addr><fr:route>hodge-theory-ii-2.1.3.4.xml</fr:route><fr:number>2.1.3.4</fr:number><fr:parent>hodge-theory-ii-2.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N = z \bar {z}       \tag{2.1.3.4}       </fr:tex></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>903</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-2.1.3.5</fr:addr><fr:route>hodge-theory-ii-2.1.3.5.xml</fr:route><fr:number>2.1.3.5</fr:number><fr:parent>hodge-theory-ii-2.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N \circ  w         = (x \mapsto  x^2).       \tag{2.1.3.5}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>905</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-ii-2.1.4</fr:addr><fr:route>hodge-theory-ii-2.1.4.xml</fr:route><fr:number>2.1.4</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A <fr:em>real Hodge structure</fr:em> is a real vector space <fr:tex>V</fr:tex> of finite dimension endowed with an action of the real algebraic group <fr:tex>S</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

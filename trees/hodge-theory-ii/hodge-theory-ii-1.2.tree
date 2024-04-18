@@ -37,7 +37,7 @@
   }
 }
 
-\subtree[hodge-theory-ii-definition-1.2.3]{
+\subtree[hodge-theory-ii-1.2.3]{
   \taxon{definition}
   \number{1.2.3}
 
@@ -64,7 +64,7 @@
     \oldpage{10}
     then we define two #{n}-opposite filtrations of #{A=\sum_{p,q}A^{p,q}} by setting
 
-    \subtree[hodge-theory-ii-equation-1.2.4.1]{
+    \subtree[hodge-theory-ii-1.2.4.1]{
       \taxon{equation}
       \number{1.2.4.1}
       ##{
@@ -74,7 +74,7 @@
       }
     }
 
-    \subtree[hodge-theory-ii-equation-1.2.4.2]{
+    \subtree[hodge-theory-ii-1.2.4.2]{
       \taxon{equation}
       \number{1.2.4.2}
       ##{
@@ -86,7 +86,7 @@
 
     We have
 
-    \subtree[hodge-theory-ii-equation-1.2.4.3]{
+    \subtree[hodge-theory-ii-1.2.4.3]{
       \taxon{equation}
       \number{1.2.4.3}
       ##{
@@ -102,7 +102,7 @@
   Conversely:
 }
 
-\subtree[hodge-theory-ii-proposition-1.2.5]{
+\subtree[hodge-theory-ii-1.2.5]{
   \taxon{proposition}
   \number{1.2.5}
 
@@ -141,7 +141,7 @@
         \lic{ii.}{
           If #{F} and #{\overline{F}} are #{n}-opposite, then we can prove by decreasing induction on #{p} that
 
-          \subtree[hodge-theory-ii-equation-1.2.5.1]{
+          \subtree[hodge-theory-ii-1.2.5.1]{
             \taxon{equation}
             \number{1.2.5.1}
             ##{
@@ -166,8 +166,8 @@
           }
 
           For #{p} small enough, we have #{F^p(A)=A}.
-          By \ref{hodge-theory-ii-equation-1.2.5.1}, the #{A^{p,q}} thus form a bigrading of #{A}, and #{F} satisfies \ref{hodge-theory-ii-equation-1.2.4.1}.
-          The fact that #{\overline{F}} satisfies \ref{hodge-theory-ii-equation-1.2.4.2} then follows by symmetry.
+          By \ref{hodge-theory-ii-1.2.5.1}, the #{A^{p,q}} thus form a bigrading of #{A}, and #{F} satisfies \ref{hodge-theory-ii-1.2.4.1}.
+          The fact that #{\overline{F}} satisfies \ref{hodge-theory-ii-1.2.4.2} then follows by symmetry.
         }
       }
     }
@@ -178,11 +178,11 @@
   \number{1.2.6}
 
   \p{
-    The constructions \ref{hodge-theory-ii-1.2.4} and \ref{hodge-theory-ii-proposition-1.2.5} establish equivalences of categories that are quasi-inverse to one another between objects of #{\mathscr{A}} endowed with two finite #{n}-opposite filtrations and bigraded objects of #{\mathscr{A}} of the type considered in \ref{hodge-theory-ii-1.2.4}.
+    The constructions \ref{hodge-theory-ii-1.2.4} and \ref{hodge-theory-ii-1.2.5} establish equivalences of categories that are quasi-inverse to one another between objects of #{\mathscr{A}} endowed with two finite #{n}-opposite filtrations and bigraded objects of #{\mathscr{A}} of the type considered in \ref{hodge-theory-ii-1.2.4}.
   }
 }
 
-\subtree[hodge-theory-ii-definition-1.2.7]{
+\subtree[hodge-theory-ii-1.2.7]{
   \taxon{definition}
   \number{1.2.7}
 
@@ -205,7 +205,7 @@
     A^{p,q}
     = \Gr_F^p\Gr_{\overline{F}}^q\Gr_F^{-p-q}(A)
   }
-  whence decompositions \ref{hodge-theory-ii-1.2.4}, \ref{hodge-theory-ii-proposition-1.2.5}
+  whence decompositions \ref{hodge-theory-ii-1.2.4}, \ref{hodge-theory-ii-1.2.5}
   ##{
     W^n(A)/W^{n+1}(A)
     = \bigoplus_{p+q=-n} A^{p,q}
@@ -214,7 +214,7 @@
   which makes #{\Gr_W(A)} into a bigraded object.
 }
 
-\subtree[hodge-theory-ii-lemma-1.2.8]{
+\subtree[hodge-theory-ii-1.2.8]{
   \taxon{lemma}
   \number{1.2.8}
 
@@ -270,9 +270,9 @@
     }
 
     \p{
-      By (i) of \ref{hodge-theory-ii-proposition-1.2.5} we have
+      By (i) of \ref{hodge-theory-ii-1.2.5} we have
 
-      \subtree[hodge-theory-ii-equation-1.2.8.1]{
+      \subtree[hodge-theory-ii-1.2.8.1]{
         \taxon{equation}
         \number{1.2.8.1}
         ##{
@@ -296,7 +296,7 @@
 
     \p{
       \oldpage{12}
-      \ref{hodge-theory-ii-equation-1.2.8.1} can then be written as
+      \ref{hodge-theory-ii-1.2.8.1} can then be written as
       ##{
         \begin{aligned}
           B'+C' &= D
@@ -323,7 +323,7 @@
   }
 }
 
-\subtree[hodge-theory-ii-lemma-1.2.9]{
+\subtree[hodge-theory-ii-1.2.9]{
   \taxon{lemma}
   \number{1.2.9}
 
@@ -391,10 +391,10 @@
 }
 
 \p{
-  This finishes the proof of \ref{hodge-theory-ii-lemma-1.2.8}, noting that \ref{hodge-theory-ii-lemma-1.2.8} is equivalent to (#{*_k}) for large #{k}.
+  This finishes the proof of \ref{hodge-theory-ii-1.2.8}, noting that \ref{hodge-theory-ii-1.2.8} is equivalent to (#{*_k}) for large #{k}.
 }
 
-\subtree[hodge-theory-ii-theorem-1.2.10]{
+\subtree[hodge-theory-ii-1.2.10]{
   \taxon{theorem}
   \number{1.2.10}
 
@@ -442,7 +442,7 @@
       &= (p,q), (p,q), (p-1,q), (p-2,q), (p-3,q), \ldots
     \end{aligned}
   }
-  and, with the notation of \ref{hodge-theory-ii-lemma-1.2.8}, set
+  and, with the notation of \ref{hodge-theory-ii-1.2.8}, set
   ##{
     A_i^{p,q}
     = A_{\sigma_i(p,q)}
@@ -453,7 +453,7 @@
 \p{
   If #{f\colon A\to B} is compatible with #{W}, #{F}, and #{\overline{F}}, then we have
 
-  \subtree[hodge-theory-ii-equation-1.2.10.1]{
+  \subtree[hodge-theory-ii-1.2.10.1]{
     \taxon{equation}
     \number{1.2.10.1}
     ##{
@@ -467,7 +467,7 @@
   Claim (iii) then follows from the following lemma:
 }
 
-\subtree[hodge-theory-ii-lemma-1.2.11]{
+\subtree[hodge-theory-ii-1.2.11]{
   \taxon{lemma}
   \number{1.2.11}
 
@@ -475,7 +475,7 @@
     The #{A_i^{p,q}} give a bigrading of #{A}.
     We have
 
-    \subtree[hodge-theory-ii-equation-1.2.11.1]{
+    \subtree[hodge-theory-ii-1.2.11.1]{
       \taxon{equation}
       \number{1.2.11.1}
       ##{
@@ -486,7 +486,7 @@
       }
     }
 
-    \subtree[hodge-theory-ii-equation-1.2.11.2]{
+    \subtree[hodge-theory-ii-1.2.11.2]{
       \taxon{equation}
       \number{1.2.11.2}
       ##{
@@ -496,7 +496,7 @@
       }
     }
 
-    \subtree[hodge-theory-ii-equation-1.2.11.3]{
+    \subtree[hodge-theory-ii-1.2.11.3]{
       \taxon{equation}
       \number{1.2.11.3}
       ##{
@@ -510,11 +510,11 @@
   \proof{
     \p{
       By symmetry, it suffices to prove the claims concerning #{i=0}.
-      Set #{A_0=\bigoplus A_0^{p,q}} and define filtrations #{W} and #{F} on #{A_0} by the equations of \ref{hodge-theory-ii-lemma-1.2.11}.
+      Set #{A_0=\bigoplus A_0^{p,q}} and define filtrations #{W} and #{F} on #{A_0} by the equations of \ref{hodge-theory-ii-1.2.11}.
       The canonical map #{i} from #{A_0} to #{A} is compatible with the filtrations #{W} and #{F}.
-      Furthermore, by \ref{hodge-theory-ii-lemma-1.2.8}, #{\Gr_W(i)} is an isomorphism, and induces isomorphisms of graded objects
+      Furthermore, by \ref{hodge-theory-ii-1.2.8}, #{\Gr_W(i)} is an isomorphism, and induces isomorphisms of graded objects
 
-      \subtree[hodge-theory-ii-equation-1.2.11.4]{
+      \subtree[hodge-theory-ii-1.2.11.4]{
         \taxon{equation}
         \number{1.2.11.4}
         ##{
@@ -529,9 +529,9 @@
     }
 
     \p{
-      \ref{hodge-theory-ii-equation-1.2.11.1} then says that #{\Gr_W(i)} is an isomorphism.
-      By \ref{hodge-theory-ii-equation-1.2.11.4}, #{\Gr_F\Gr_W(i)} is an isomorphism, and thus so too are #{\Gr_W\Gr_F(i)} and #{\Gr_F(i)}.
-      Equation \ref{hodge-theory-ii-equation-1.2.11.2} then follows.
+      \ref{hodge-theory-ii-1.2.11.1} then says that #{\Gr_W(i)} is an isomorphism.
+      By \ref{hodge-theory-ii-1.2.11.4}, #{\Gr_F\Gr_W(i)} is an isomorphism, and thus so too are #{\Gr_W\Gr_F(i)} and #{\Gr_F(i)}.
+      Equation \ref{hodge-theory-ii-1.2.11.2} then follows.
     }
   }
 }
@@ -540,9 +540,9 @@
   \number{1.2.12}
 
   \p{
-    We now prove \ref{hodge-theory-ii-theorem-1.2.10}.
+    We now prove \ref{hodge-theory-ii-1.2.10}.
     Let #{f\colon A\to B} in #{\mathscr{A}'} and endow #{K=\Ker(f)} with the filtrations induced by those of #{A}.
-    By \ref{hodge-theory-ii-lemma-1.2.11}, #{\Gr_W(K)\hookrightarrow\Gr_W(A)};
+    By \ref{hodge-theory-ii-1.2.11}, #{\Gr_W(K)\hookrightarrow\Gr_W(A)};
     furthermore, the filtration #{F} (resp. #{\overline{F}}) on #{K} induces on #{\Gr_W(K)} the inverse image filtration of the filtration #{F} on #{\Gr_W(A)}.
     The sub-object #{\Gr_W(K)} of #{\Gr_W(A)} is then compatible with the bigrading of #{\Gr_W(A)}:
     ##{
@@ -569,7 +569,7 @@
 
   \p{
     The "forget the filtrations" functor is exact by (ii).
-    The exactness of the other functors in (iv) follows immediately from (ii), (iii), and (i) or (ii) of \ref{hodge-theory-ii-proposition-1.1.11}.
+    The exactness of the other functors in (iv) follows immediately from (ii), (iii), and (i) or (ii) of \ref{hodge-theory-ii-1.1.11}.
   }
 }
 
@@ -588,6 +588,6 @@
   }
 
   \p{
-    \ref{hodge-theory-ii-theorem-1.2.10} translates trivially to this variation.
+    \ref{hodge-theory-ii-1.2.10} translates trivially to this variation.
   }
 }
