@@ -6,14 +6,14 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>786</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-equation-1.4.9.2</fr:addr><fr:route>hodge-theory-ii-equation-1.4.9.2.xml</fr:route><fr:number>1.4.9.2</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+expanded="true"><fr:frontmatter><fr:anchor>806</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-equation-1.4.9.2</fr:addr><fr:route>hodge-theory-ii-equation-1.4.9.2.xml</fr:route><fr:number>1.4.9.2</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">         E_1^{p,q,n-p-q}          \coloneqq   \operatorname {H} ^n( \operatorname {Gr} _F^p \operatorname {Gr} _W^q K)          \Rightarrow   \operatorname {H} ^n( \operatorname {Gr} _F^p K).       \tag{1.4.9.1}       </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>785</fr:anchor><fr:addr>hodge-theory-ii-1.4.9</fr:addr><fr:route>hodge-theory-ii-1.4.9.xml</fr:route><fr:number>1.4.9</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="true"><fr:frontmatter><fr:anchor>805</fr:anchor><fr:addr>hodge-theory-ii-1.4.9</fr:addr><fr:route>hodge-theory-ii-1.4.9.xml</fr:route><fr:number>1.4.9</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>(K,W,F)</fr:tex> be a biregular bifiltered complex.
     To this complex, we associate:
 
@@ -121,4 +121,28 @@ hash="9d64632865746983fbabb519a01411e4"><fr:embedded-tex-preamble>\usepackage {a
     
     These constructions are symmetric in <fr:tex>F</fr:tex> and <fr:tex>W</fr:tex> via the isomorphism
     <fr:tex
-display="block">        \operatorname {Gr} _F^p \operatorname {Gr} _W^q        \sim   \operatorname {Gr} _W^q \operatorname {Gr} _F^p.     </fr:tex></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+display="block">        \operatorname {Gr} _F^p \operatorname {Gr} _W^q        \sim   \operatorname {Gr} _W^q \operatorname {Gr} _F^p.     </fr:tex></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>804</fr:anchor><fr:addr>hodge-theory-ii-1.4.10</fr:addr><fr:route>hodge-theory-ii-1.4.10.xml</fr:route><fr:number>1.4.10</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We can also interpret the <fr:tex>{}_{W,F}d_1</fr:tex> are the initial morphisms of a morphism of spectral sequences <fr:ref
+addr="hodge-theory-ii-equation-1.4.9.2"
+href="hodge-theory-ii-equation-1.4.9.2.xml"
+taxon="Equation"
+number="1.4.9.2"></fr:ref>, abutting to <fr:tex>{}_Wd_1</fr:tex>.
+  </fr:p><fr:p>
+    Indeed, let <fr:tex>C^q</fr:tex> be the cone of the morphism
+    <fr:tex
+display="block">       W^q(K)/W^{q+2}(K)  \to   \operatorname {Gr} _W^q(K).     </fr:tex>
+    In the diagram
+    <fr:tex
+display="block">        \Sigma \colon   \operatorname {Gr} _W^{q+1}(K)[1]        \xrightarrow {u} C^q        \xleftarrow {i}  \operatorname {Gr} _W^q(K)     </fr:tex>
+    the morphism <fr:tex>u</fr:tex> is a quasi-isomorphism, and we have
+    <fr:tex
+display="block">       {}_Wd_1       =  \operatorname {H} (u)^{-1} \circ \operatorname {H} (i).     </fr:tex></fr:p><fr:p>
+    In fact, <fr:tex>u</fr:tex> is even a filtered (for <fr:tex>F</fr:tex>) quasi-isomorphism, and the above construction defines a morphism from the spectral sequence defined by <fr:tex>( \operatorname {Gr} _W^q(K),F)</fr:tex> to that defined by <fr:tex>( \operatorname {Gr} _W^{q+1}(K)[1],F)</fr:tex>, and it abuts to <fr:tex>{}_Wd_1</fr:tex>.
+    The initial term of this morphism, induced by <fr:tex>\operatorname {Gr} _F( \Sigma )</fr:tex> is exactly <fr:tex>{}_{W,F}d_1</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
