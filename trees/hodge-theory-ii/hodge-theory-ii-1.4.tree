@@ -19,8 +19,8 @@
   \p{
     Let #{T} be a left-exact functor from an abelian category #{\mathscr{A}} to an abelian category #{\mathscr{B}}.
     Suppose that every object of #{\mathscr{A}} injects into an injective object;
-    the derived functors #{\RR^iT\colon\mathscr{A}\to\mathscr{B}} are then defined.
-    An object #{A} of #{\mathscr{A}} is said to be *acyclic* for #{T} if #{\RR^iT(A)=0} for #{i>0}.
+    the derived functors #{\Rd^iT\colon\mathscr{A}\to\mathscr{B}} are then defined.
+    An object #{A} of #{\mathscr{A}} is said to be *acyclic* for #{T} if #{\Rd^iT(A)=0} for #{i>0}.
   }
 }
 
@@ -84,7 +84,7 @@
 
   \p{
     Let #{K} be a complex of objects of #{\mathscr{A}}.
-    The \em{hypercohomology objects} #{\RR^iT(K)} are calculated as follows:
+    The \em{hypercohomology objects} #{\Rd^iT(K)} are calculated as follows:
 
     \olc{
       \lic{a.}{
@@ -94,17 +94,17 @@
       \lic{b.}{
         We set
         ##{
-          \RR^iT(K)
+          \Rd^iT(K)
           = \HH^i(T(K')).
         }
       }
     }
 
-    We can show that #{\RR^iT(K)} does not depend on the choice of #{K'}, but depends functorially on #{K}, and that a quasi-isomorphism #{f\colon K_1\to K_2} induces *isomorphisms*
+    We can show that #{\Rd^iT(K)} does not depend on the choice of #{K'}, but depends functorially on #{K}, and that a quasi-isomorphism #{f\colon K_1\to K_2} induces *isomorphisms*
     ##{
-      \RR^iT(f)\colon
-      \RR^iT(K_1)
-      \to \RR^iT(K_2).
+      \Rd^iT(f)\colon
+      \Rd^iT(K_1)
+      \to \Rd^iT(K_2).
     }
   }
 }
@@ -118,8 +118,8 @@
     If #{K'} is such a resolution, then the #{{K'}^n} are acyclic for #{T}, and the filtered complex (cf. \ref{hodge-theory-ii-1.4.2}) #{T(K')} defines a spectral sequence
     ##{
       E_1^{pq}
-      = \RR^{p+q}T(\Gr^p(K))
-      \To \RR^{p+q}T(K).
+      = \Rd^{p+q}T(\Gr^p(K))
+      \To \Rd^{p+q}T(K).
     }
     This is independent of the choice of #{K'}.
     We call this the \em{hypercohomology spectral sequence of the filtered complex #{K}}.
@@ -202,12 +202,12 @@
   \p{
     Let #{f\colon X\to Y} be a continuous map between topological spaces, and let #{\mathscr{F}} be an abelian sheaf on #{X}.
     Let #{\mathscr{F}^\bullet} be a resolution of #{\mathscr{F}} by #{f_*}-acyclic sheaves.
-    We have #{\RR^i f_*\mathscr{F}\simeq\sHH^i(f_*\mathscr{F}^\bullet)}.
+    We have #{\Rd^i f_*\mathscr{F}\simeq\sHH^i(f_*\mathscr{F}^\bullet)}.
     We take the functor #{T} to be the functor #{\Gamma(Y,-)}.
     The hypercohomology spectral sequence of the complex #{f_*\mathscr{F}^\bullet} endowed with its canonical filtration \ref{hodge-theory-ii-1.4.6}
     ##{
       E_1^{pq}
-      = \HH^{2p+q}(Y,\RR^{-p}f_*\mathscr{F})
+      = \HH^{2p+q}(Y,\Rd^{-p}f_*\mathscr{F})
       \To \HH^{p+q}(X,\mathscr{F})
     }
     is exactly, up to the renumbering #{E_r^{pq}\mapsto E_{r+1}^{2p+q,-p}}, the \em{Leray spectral sequence} for #{f} and #{\mathscr{F}}.
@@ -427,28 +427,28 @@
         The initial terms of the hypercohomology spectral sequences
         ##{
           {}_WE_1^{q,n-q}
-          = \RR^nT(\Gr_W^qK)
-          \To \RR^nT(K)
+          = \Rd^nT(\Gr_W^qK)
+          \To \Rd^nT(K)
         \startverb\tag{1}\stopverb
         }
         ##{
           {}_FE_1^{p,n-p}
-          = \RR^nT(\Gr_F^pK)
-          \To \RR^nT(K)
+          = \Rd^nT(\Gr_F^pK)
+          \To \Rd^nT(K)
         \startverb\tag{2}\stopverb
         }
         \oldpage{24}
         are abutments of the hypercohomology spectral sequences of the filtered complexes #{\Gr_W^qK} and #{\Gr_F^pK}, with #{E_1} pages given by
         ##{
           E_1^{p,q,n-p-q}
-          \coloneqq \RR^nT(\Gr_F^p\Gr_W^qK)
+          \coloneqq \Rd^nT(\Gr_F^p\Gr_W^qK)
           \To {}_WE_1^{q,n-q}
           \qquad\text{for fixed }q
         \startverb\tag{3}\stopverb
         }
         ##{
           E_1^{p,q,n-p-q}
-          \coloneqq \RR^nT(\Gr_F^p\Gr_W^qK)
+          \coloneqq \Rd^nT(\Gr_F^p\Gr_W^qK)
           \To {}_FE_1^{p,n-p}
           \qquad\text{for fixed }p
         \startverb\tag{4}\stopverb
