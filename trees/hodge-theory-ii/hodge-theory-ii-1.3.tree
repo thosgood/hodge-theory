@@ -4,4 +4,323 @@
 
 \import{macros}
 
+\subtree[hodge-theory-ii-1.3.1]{
+  \number{1.3.1}
 
+  \p{
+    Let #{K} be a differential complex of objects of #{\mathscr{A}}, endowed with a filtration #{F}.
+    The filtration is said to be \em{biregular} if it induces a finite filtration on each component of #{K}.
+  }
+
+  \p{
+    We recall the definition of the terms #{E_r^{pq}(K,F)}, or simply #{E_r^{pq}}, of the spectral sequence defined by #{F}.
+    We set
+    ##{
+      Z_r^{pq}
+      = \Ker(d\colon F^p(K^{p+q})\to F^{p+q+1}/F^{p+r}(K^{p+q+1}))
+    }
+    and dually we define #{B_r^{pq}} by the formula
+    ##{
+      K^{p+q}/B_r^{pq}
+      = \Coker(d\colon F^{p-r+1}(K^{p+q+1})\to K^{p+q}/F^{p+1}(K^{p+q})).
+    }
+    These formulas still make sense for #{r=\infty}.
+  }
+
+  \p{
+    We note that the use here of the notation #{B_r^{pq}} is different to that of Godement [[G1958]](G1958).
+  }
+
+  \p{
+    We have, by definition:
+
+    \subtree[hodge-theory-ii-equation-1.3.1.1]{
+      \taxon{equation}
+      \number{1.3.1.1}
+      ##{
+        E_r^{pq}
+        = \Im(Z_r^{pq}\to K^{p+q}/B_r^{pq})
+      \startverb\tag{1.3.1.1}\stopverb
+      }
+    }
+
+    \subtree[hodge-theory-ii-equation-1.3.1.2]{
+      \taxon{equation}
+      \number{1.3.1.2}
+      ##{
+        = Z_r^{pq}/(B_r^{pq}\cap Z_r^{pq})
+      \startverb\tag{1.3.1.2}\stopverb
+      }
+    }
+
+    \subtree[hodge-theory-ii-equation-1.3.1.3]{
+      \taxon{equation}
+      \number{1.3.1.3}
+      ##{
+        = \Ker(K^{p+q}/B_r^{pq}\to K^{p+q}/(Z_r^{pq}+B_r^{pq})).
+      \startverb\tag{1.3.1.3}\stopverb
+      }
+    }
+
+    We can thus write
+
+    \subtree[hodge-theory-ii-equation-1.3.1.4]{
+      \taxon{equation}
+      \number{1.3.1.4}
+      ##{
+        \begin{aligned}
+          B_r^{p\bullet}\cap Z_r^{p\bullet}
+          &\coloneqq (dF^{p-r+1}+F^{p+1}) \cap (d^{-1}F^{p+r}\cap F^p)
+        \\&= (dF^{p-r+1}\cap F^p) + (F^{p+1}\cap d^{-1}F^{p+r})
+        \end{aligned}
+      \startverb\tag{1.3.1.4}\stopverb
+      }
+    }
+
+    since #{dF^{p-r+1}\subset d^{-1}F^{p+r}} and #{F^{p+1}\subset F^p}.
+  }
+
+  \p{
+    \oldpage{15}
+    For #{r<\infty}, the #{E_r} form a complex graded by the degree #{p-r(p+q)}, and #{E_{r+1}} can be expressed as the cohomology of this complex:
+
+    \subtree[hodge-theory-ii-equation-1.3.1.5]{
+      \taxon{equation}
+      \number{1.3.1.5}
+      ##{
+        E_{r+1}^{pq}
+        = \HH(E_r^{p-r,q+r-1} \xrightarrow{d_r} E_r^{pq} \xrightarrow{d_r} E_r^{p+r,q-r+1}).
+      \startverb\tag{1.3.1.5}\stopverb
+      }
+    }
+  }
+
+  \p{
+    For #{r=0}, we have
+
+    \subtree[hodge-theory-ii-equation-1.3.1.6]{
+      \taxon{equation}
+      \number{1.3.1.6}
+      ##{
+        E_0^{\bullet\bullet}
+        = \Gr_F^\bullet(K^\bullet).
+      \startverb\tag{1.3.1.6}\stopverb
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-proposition-1.3.2]{
+  \taxon{proposition}
+  \number{1.3.2}
+
+  \p{
+    Let #{K} be a complex endowed with a biregular filtration #{F}.
+    The following conditions are equivalent:
+
+    \olc{
+      \lic{i.}{
+        The spectral sequence defined by #{F} degenerates (#{E_1=E_\infty}).
+      }
+      \lic{ii.}{
+        The morphisms #{d\colon K^i\to K^{i+1}} are strictly compatible with the filtrations.
+      }
+    }
+  }
+
+  \proof{
+    \p{
+      We will prove this in the case where #{\mathscr{A}} is a category of modules.
+      For fixed #{p} and #{q}, the hypothesis that the arrows #{d_r} with domains #{E_r^{pq}} be zero for #{r\geqslant1} implies that, if #{x\in F^p(K^{p+q})} satisfies #{dx\in F^{p+1}(K^{p+q+1})}, then there exists #{y\in K^{p+q}} such that #{dy=0} and such that #{x} and #{y} have the same image in #{E_1^{pq}}.
+      Modifying #{y} by a boundary, and setting #{z=x-y}, we then have
+      ##{
+        \forall x\in F^p(K^{p+q})
+        \left[
+          dx\in F^{p+1}(K^{p+q+1})
+          \implies \exists z\text{ s.t. } z\in F^{p+1}(K^{p+q}) \text{ and } dz=dx
+        \right]
+      }
+      or, in other words,
+      ##{
+        F^{p+1}(K^{p+q+1}) \cap dF^p(K^{p+q})
+        = dF^{p+1}(K^{p+q}).
+      \startverb\tag{1}\stopverb
+      }    
+    }
+
+    \p{
+      If this condition is satisfied for arbitrary #{p} and #{q}, then by induction on #{r} we have
+      ##{
+        F^{p+r} \cap dF^p
+        = dF^{p+r}
+      }
+      which, for large #{p+r}, can be written as
+      ##{
+        F^p \cap dK
+        = dF^p.
+      \startverb\tag{2}\stopverb
+      }
+    }
+
+    \p{
+      Claim (2) trivially implies (1), and is equivalent to (ii), which proves the proposition.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-1.3.3]{
+  \number{1.3.3}
+
+  \p{
+    If #{(K,F)} is a filtered complex, we denote by #{\Dec(K)} the complex #{K} endowed with the \em{shifted filtration}
+    ##{
+      \Dec(F)^p K^n
+      = Z_1^{p+n,-p}.
+    }
+  }
+
+  \p{
+    This filtration is compatible with the differentials:
+    ##{
+      \begin{aligned}
+        dZ_1^{p+n,-p}
+        &\subset F^{p+n+1}(K^{n+1}) \cap \Ker(d)
+      \\&\subset Z_\infty^{p+n+1,-p}
+      \\&\subset Z_1^{p+n+1,-p}.
+      \end{aligned}
+    }
+
+    Since
+
+    \subtree[hodge-theory-ii-equation-1.3.3.1]{
+      \taxon{equation}
+      \number{1.3.3.1}
+      ##{
+        \begin{aligned}
+          Z_1^{p+1+n,-p-1}
+          &\subset F^{p+1+n}(K^n)
+        \\&\subset B_1^{p+n,-p}
+        \\&\subset Z_1^{p+n,-p}
+        \end{aligned}
+      \startverb\tag{1.3.3.1}\stopverb
+      }
+    }
+
+    the evident arrow from #{Z_1^{p+n,-p}/Z_1^{p+1+n,-p-1}} to #{Z_1^{p+n,-p}/B_1^{p+n,-p}} is a morphism
+
+    \subtree[hodge-theory-ii-equation-1.3.3.2]{
+      \taxon{equation}
+      \number{1.3.3.2}
+      ##{
+        u\colon E_0^{p,n-p}(\Dec(K)) \to E_1^{p+n,-p}(K).
+      \startverb\tag{1.3.3.2}\stopverb
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-proposition-1.3.4]{
+  \taxon{proposition}
+  \number{1.3.4}
+
+  \olc{
+    \lic{i.}{
+      The morphisms in \ref{hodge-theory-ii-equation-1.3.3.2} form a morphism of graded complexes from #{E_0(\Dec(K))} to #{E_1(K)}.
+    }
+    \lic{ii.}{
+      This morphism induces an isomorphism on cohomology.
+    }
+    \lic{iii.}{
+      This morphism induces step-by-step (via \ref{hodge-theory-ii-equation-1.3.1.5}) isomorphisms of graded complexes #{E_r(\Dec(K))\simto E_{r+1}(K)} (for #{r\geqslant1}).
+    }
+  }
+
+  \proof{
+    \p{
+      \oldpage{16}
+      Let #{F'} be the filtration on #{K} defined by
+      ##{
+        {F'}^p(K^n)
+        = \Dec(F)^{p-n}(K^n)
+        = Z_1^{p,n-p}.
+      }
+      We trivially have isomorphisms
+
+      \subtree[hodge-theory-ii-equation-1.3.4.1]{
+        \taxon{equation}
+        \number{1.3.4.1}
+        ##{
+          E_r^{p,n-p}(\Dec(K))
+          = E_{r+1}^{p+n,-p}(K,F')
+        \startverb\tag{1.3.4.1}\stopverb
+        }
+      }
+
+      that are compatible with the #{d_r} and with \ref{hodge-theory-ii-equation-1.3.1.5}.
+      The map #{u} comes from \ref{hodge-theory-ii-equation-1.3.4.1} and from the identity map
+      ##{
+        (K,F') \to (K,F).
+      }
+      This proves (i), and it remains to show that, for #{r\geqslant2},
+      ##{
+        E_r^{pq}(K,F')
+        \simto E_r^{pq}(K,F).
+      }
+      We have
+      ##{
+        \begin{aligned}
+          Z_r^{pq}(K,F')
+          &= Z_r^{pq}(K,F)
+          \qquad\text{for }r\geqslant1
+        \\Z_r^{pq}(K,F') \cap B_r^{pq}(K,F')
+          &= Z_r^{pq}(K,F) \cap B_r^{pq}(K,F)
+          \qquad\text{for }r\geqslant2
+        \end{aligned}
+      }
+      and we can then apply \ref{hodge-theory-ii-equation-1.3.1.2}.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-1.3.5]{
+  \number{1.3.5}
+
+  \p{
+    The construction in \ref{hodge-theory-ii-1.3.3} is not self-dual.
+    The dual construction consists of defining
+    ##{
+      \Dec^\bullet(F)^pK^n
+      = B_1^{p+n-1,-p+1}.
+    }
+    We then have morphisms
+    ##{
+      E_0^{p,n-p}(\Dec(K))
+      \to E_1^{p+n,p}(K)
+      \to E_0^{p,n-p}(\Dec^\bullet(K))
+    }
+    and, for #{r\geqslant1}, isomorphisms
+    ##{
+      E_r^{p,n-p}(\Dec(K))
+      \simto E_{r+1}^{p+n,p}(K)
+      \simto E_{r}^{p,n-p}(\Dec^\bullet(K)).
+    }
+  }
+}
+
+\p{
+  Recall that a morphism of complexes is said to be a \em{quasi-isomorphism} if it induces an isomorphism on cohomology.
+}
+
+\subtree[hodge-theory-ii-definition-1.3.6]{
+  \taxon{definition}
+  \number{1.3.6}
+
+  \olc{
+    \lic{i.}{
+      A morphism #{f\colon(K,F)\to(K',F')} of filtered complexes with biregular filtrations is a \em{filtered quasi-isomorphism} if #{\Gr_F(f)} is a quasi-isomorphism, i.e. if the #{E_1^{pq}(f)} are isomorphisms.
+    }
+    \lic{ii.}{
+      A morphism #{f\colon(K,F,W)\to(K,F',W')} of biregular bifiltered complexes is a \em{bifiltered quasi-isomorphism} if #{\Gr_F\Gr_W(f)} is a quasi-isomorphism.
+    }
+  }
+}
