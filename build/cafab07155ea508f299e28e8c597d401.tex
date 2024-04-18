@@ -1,0 +1,28 @@
+\documentclass[crop,dvisvgm]{standalone}
+\usepackage {amsmath,tikz-cd}
+\begin{document}
+\begin {tikzcd} 
+        B^p/Z^{p+1}
+           \ar [rrr,"d"]
+           \ar [dr]
+        &&& B^{p+1}/Z^{p+1}
+           \ar [dd]
+       \\ &  \operatorname {Coim} (d)
+           \ar [r,"(5)"]
+        &  \operatorname {Im} (d)
+           \ar [ur]  \ar [dr]
+       \\ W^{p+1}/Z^{p+1}
+           \ar [uu]
+           \ar [ur]
+           \ar [rrr,near start,swap,"(3)"]
+           \ar [urr,near end,swap,"(4)"]
+        &&& B^{p+1}/W^{p+2}
+           \ar [d]
+       \\ W^{p+1}/W^{p+2}
+           \ar [u]
+           \ar [rrr,near start,swap,"(1)"]
+           \ar [urrr,"(2)"description]
+           \ar [urrr,crossing over]
+        &&& W^{p+1}/W^{p+2}
+       \end {tikzcd}
+\end{document}
