@@ -119,7 +119,7 @@
     ##{
       E_1^{pq}
       = \RR^{p+q}T(\Gr^p(K))
-      \Rightarrow \RR^{p+q}T(K).
+      \To \RR^{p+q}T(K).
     }
     This is independent of the choice of #{K'}.
     We call this the \em{hypercohomology spectral sequence of the filtered complex #{K}}.
@@ -208,8 +208,140 @@
     ##{
       E_1^{pq}
       = \HH^{2p+q}(Y,\RR^{-p}f_*\mathscr{F})
-      \Rightarrow \HH^{p+q}(X,\mathscr{F})
+      \To \HH^{p+q}(X,\mathscr{F})
     }
     is exactly, up to the renumbering #{E_r^{pq}\mapsto E_{r+1}^{2p+q,-p}}, the \em{Leray spectral sequence} for #{f} and #{\mathscr{F}}.
+  }
+}
+
+\subtree[hodge-theory-ii-1.4.9]{
+  \number{1.4.9}
+
+  \p{
+    Let #{(K,W,F)} be a biregular bifiltered complex.
+    To this complex, we associate:
+
+    \olc{
+      \lic{a.}{
+        A spectral sequence
+        ##{
+          {}_W E_1^{p,n-p}
+          = \HH^n(\Gr_W^p(K)) \To \HH^n(K)
+        }
+        with differentials #{{}_W d_1} being the connecting morphisms induced by the short exact sequences
+        ##{
+          0
+          \to \Gr_W^{p+1}(K)
+          \to W^p(K)/W^{p+2}(K)
+          \to \Gr_W^p(K)
+          \to 0;
+        }
+      }
+
+      \lic{b.}{
+        \oldpage{22}
+        An analogous spectral sequence for the filtration #{F};
+      }
+
+      \lic{c.}{
+        Exact squares
+
+        \tikzcd{
+          & 0 \dar
+          & 0 \dar
+          & 0 \dar
+        \\0 \rar
+          & \Gr_F^{p+1}\Gr_W^{q+1}K \rar \dar
+          & F^p/F^{p+2}(\Gr_W^{q+1}K) \rar \dar
+          & \Gr_F^p\Gr_W^{q+1}K \rar \dar
+          & 0
+        \\0 \rar
+          & \Gr_F^{p+1}(W^q/W^{q+2}(K)) \rar \dar
+          & F^p/F^{p+2}(W^q/W^{q+2}(K)) \rar \dar
+          & \Gr_F^p(W^q/W^{q+2}(K)) \rar \dar
+          & 0
+        \\0 \rar
+          & \Gr_F^{p+1}\Gr_W^q K \rar \dar
+          & F^p/F^{p+2}\Gr_W^q K \rar \dar
+          & \Gr_F^p\Gr_W^q K \rar \dar
+          & 0
+        \\& 0
+          & 0
+          & 0
+        }
+      }
+    }
+  }
+
+  \p{
+    The exterior rows and columns of this square define connection morphisms
+    ##{
+      \begin{aligned}
+        {}_{F,W}d_1\colon \HH^n\Gr_F^p\Gr_W^q K
+        &\to \HH^{n+1}\Gr_F^{p+1}\Gr_W^q K
+      \\{}_{W,F}d_1\colon \HH^n\Gr_F^p\Gr_W^q K
+        &\to \HH^{n+1}\Gr_F^p\Gr_W^{q+1} K.
+      \end{aligned}
+    }
+    These morphisms satisfy
+    ##{
+      \begin{gathered}
+        {}_{FW}d_1 \circ {}_{WF}d_1 + {}_{WF}d_1 \circ {}_{FW}d_1
+        = 0
+      \\ {}_{FW}d_1^2
+        = 0
+      \\ {}_{WF}d_1^2
+        = 0
+      \end{gathered}
+    }
+  }
+
+  \p{
+    The morphisms #{{}_{FW}d_1} are the morphisms #{d_1} of the spectral sequences #{E^{(q)}}, with the #{E_1^{(q)p,n-p}} term equal to
+
+    \subtree[hodge-theory-ii-equation-1.4.9.1]{
+      \taxon{equation}
+      \number{1.4.9.1}
+      ##{
+        E_1^{p,q,n-p-q}
+        \coloneqq \HH^n(\Gr_F^p\Gr_W^q K)
+        \To \HH^n(\Gr_W^q K)
+        = {}_WE_1^{q,n-q}
+      \startverb\tag{1.4.9.1}\stopverb
+      }
+    }
+
+    defined by the filtered complex #{\Gr_W^q(K)}.
+    This spectral sequence abuts to the filtration induced by #{F} on #{\HH^\bullet\Gr_W^q K}.
+    Similarly, the #{{}_{WF}d_1} are the #{d_1} of spectral sequences with the same initial terms
+
+    \subtree[hodge-theory-ii-equation-1.4.9.2]{
+      \taxon{equation}
+      \number{1.4.9.2}
+      ##{
+        E_1^{p,q,n-p-q}
+        \coloneqq \HH^n(\Gr_F^p\Gr_W^q K)
+        \To \HH^n(\Gr_F^p K).
+      \startverb\tag{1.4.9.1}\stopverb
+      }
+    }
+
+    \tikzcd{
+      & \HH^n\Gr_W^q K
+        \ar[Rightarrow,dr,"{}_Wd_1"]
+    \\\HH^n\Gr_F^p\Gr_W^q K
+        \ar[Rightarrow,ur,"{}_{F,W}d_1"]
+        \ar[Rightarrow,dr,swap,"{}_{W,F}d_1"]
+      && \HH^n K
+    \\& \HH^n\Gr_F^p K
+        \ar[Rightarrow,ur,swap,"{}_Fd_1"]
+    }
+
+    \oldpage{23}
+    These constructions are symmetric in #{F} and #{W} via the isomorphism
+    ##{
+      \Gr_F^p\Gr_W^q
+      \sim \Gr_W^q\Gr_F^p.
+    }
   }
 }

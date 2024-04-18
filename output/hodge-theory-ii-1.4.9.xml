@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>710</fr:anchor><fr:addr>hodge-theory-ii-1.4.9</fr:addr><fr:route>hodge-theory-ii-1.4.9.xml</fr:route><fr:number>1.4.9</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(K,W,F)</fr:tex> be a biregular bifiltered complex.
+    To this complex, we associate:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; a.  &quot;">
+        A spectral sequence
+        <fr:tex
+display="block">           {}_W E_1^{p,n-p}           =  \operatorname {H} ^n( \operatorname {Gr} _W^p(K))  \Rightarrow   \operatorname {H} ^n(K)         </fr:tex>
+        with differentials <fr:tex>{}_W d_1</fr:tex> being the connecting morphisms induced by the short exact sequences
+        <fr:tex
+display="block">           0            \to   \operatorname {Gr} _W^{p+1}(K)            \to  W^p(K)/W^{p+2}(K)            \to   \operatorname {Gr} _W^p(K)            \to  0;         </fr:tex>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot; b.  &quot;">
+        
+        An analogous spectral sequence for the filtration <fr:tex>F</fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot; c.  &quot;">
+        Exact squares
+
+        
+  <fr:embedded-tex
+hash="e989746339b66a82cd405095b1ca5ed0"><fr:embedded-tex-preamble>\usepackage {amsmath,tikz-cd}</fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+          &amp; 0  \dar 
+          &amp; 0  \dar 
+          &amp; 0  \dar 
+         \\ 0  \rar 
+          &amp;  \operatorname {Gr} _F^{p+1} \operatorname {Gr} _W^{q+1}K  \rar   \dar 
+          &amp; F^p/F^{p+2}( \operatorname {Gr} _W^{q+1}K)  \rar   \dar 
+          &amp;  \operatorname {Gr} _F^p \operatorname {Gr} _W^{q+1}K  \rar   \dar 
+          &amp; 0
+         \\ 0  \rar 
+          &amp;  \operatorname {Gr} _F^{p+1}(W^q/W^{q+2}(K))  \rar   \dar 
+          &amp; F^p/F^{p+2}(W^q/W^{q+2}(K))  \rar   \dar 
+          &amp;  \operatorname {Gr} _F^p(W^q/W^{q+2}(K))  \rar   \dar 
+          &amp; 0
+         \\ 0  \rar 
+          &amp;  \operatorname {Gr} _F^{p+1} \operatorname {Gr} _W^q K  \rar   \dar 
+          &amp; F^p/F^{p+2} \operatorname {Gr} _W^q K  \rar   \dar 
+          &amp;  \operatorname {Gr} _F^p \operatorname {Gr} _W^q K  \rar   \dar 
+          &amp; 0
+         \\ &amp; 0
+          &amp; 0
+          &amp; 0
+         \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    The exterior rows and columns of this square define connection morphisms
+    <fr:tex
+display="block">        \begin {aligned}         {}_{F,W}d_1 \colon   \operatorname {H} ^n \operatorname {Gr} _F^p \operatorname {Gr} _W^q K         &amp; \to   \operatorname {H} ^{n+1} \operatorname {Gr} _F^{p+1} \operatorname {Gr} _W^q K        \\ {}_{W,F}d_1 \colon   \operatorname {H} ^n \operatorname {Gr} _F^p \operatorname {Gr} _W^q K         &amp; \to   \operatorname {H} ^{n+1} \operatorname {Gr} _F^p \operatorname {Gr} _W^{q+1} K.        \end {aligned}     </fr:tex>
+    These morphisms satisfy
+    <fr:tex
+display="block">        \begin {gathered}         {}_{FW}d_1  \circ  {}_{WF}d_1 + {}_{WF}d_1  \circ  {}_{FW}d_1         = 0        \\  {}_{FW}d_1^2         = 0        \\  {}_{WF}d_1^2         = 0        \end {gathered}     </fr:tex></fr:p><fr:p>
+    The morphisms <fr:tex>{}_{FW}d_1</fr:tex> are the morphisms <fr:tex>d_1</fr:tex> of the spectral sequences <fr:tex>E^{(q)}</fr:tex>, with the <fr:tex>E_1^{(q)p,n-p}</fr:tex> term equal to
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-equation-1.4.9.1</fr:addr><fr:route>hodge-theory-ii-equation-1.4.9.1.xml</fr:route><fr:number>1.4.9.1</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{p,q,n-p-q}          \coloneqq   \operatorname {H} ^n( \operatorname {Gr} _F^p \operatorname {Gr} _W^q K)          \Rightarrow   \operatorname {H} ^n( \operatorname {Gr} _W^q K)         = {}_WE_1^{q,n-q}       \tag{1.4.9.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    defined by the filtered complex <fr:tex>\operatorname {Gr} _W^q(K)</fr:tex>.
+    This spectral sequence abuts to the filtration induced by <fr:tex>F</fr:tex> on <fr:tex>\operatorname {H} ^ \bullet \operatorname {Gr} _W^q K</fr:tex>.
+    Similarly, the <fr:tex>{}_{WF}d_1</fr:tex> are the <fr:tex>d_1</fr:tex> of spectral sequences with the same initial terms
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>689</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-equation-1.4.9.2</fr:addr><fr:route>hodge-theory-ii-equation-1.4.9.2.xml</fr:route><fr:number>1.4.9.2</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{p,q,n-p-q}          \coloneqq   \operatorname {H} ^n( \operatorname {Gr} _F^p \operatorname {Gr} _W^q K)          \Rightarrow   \operatorname {H} ^n( \operatorname {Gr} _F^p K).       \tag{1.4.9.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    
+  <fr:embedded-tex
+hash="9d64632865746983fbabb519a01411e4"><fr:embedded-tex-preamble>\usepackage {amsmath,tikz-cd}</fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+      &amp;  \operatorname {H} ^n \operatorname {Gr} _W^q K
+         \ar [Rightarrow,dr,"{}_Wd_1"]
+     \\ \operatorname {H} ^n \operatorname {Gr} _F^p \operatorname {Gr} _W^q K
+         \ar [Rightarrow,ur,"{}_{F,W}d_1"]
+         \ar [Rightarrow,dr,swap,"{}_{W,F}d_1"]
+      &amp;&amp;  \operatorname {H} ^n K
+     \\ &amp;  \operatorname {H} ^n \operatorname {Gr} _F^p K
+         \ar [Rightarrow,ur,swap,"{}_Fd_1"]
+     \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+    
+    These constructions are symmetric in <fr:tex>F</fr:tex> and <fr:tex>W</fr:tex> via the isomorphism
+    <fr:tex
+display="block">        \operatorname {Gr} _F^p \operatorname {Gr} _W^q        \sim   \operatorname {Gr} _W^q \operatorname {Gr} _F^p.     </fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>709</fr:anchor><fr:addr>hodge-theory-ii-1.4</fr:addr><fr:route>hodge-theory-ii-1.4.xml</fr:route><fr:title><fr:link
+href="hodge-theory-ii-1.xml"
+type="local"
+addr="hodge-theory-ii-1"><fr:link
+href="hodge-theory-ii.xml"
+type="local"
+addr="hodge-theory-ii">Hodge Theory II</fr:link> › Filtrations</fr:link> › Hypercohomology of filtered complexes</fr:title><fr:number>1.4</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  In this section, we recall some standard constructions in hypercohomology.
+  We do not use the language of derived categories, which would be more natural here.
+</fr:p><fr:p><fr:em>Throughout this entire section, by "complex" we mean "bounded-below complex".</fr:em></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:addr>hodge-theory-ii-1.4.1</fr:addr><fr:route>hodge-theory-ii-1.4.1.xml</fr:route><fr:number>1.4.1</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>T</fr:tex> be a left-exact functor from an abelian category <fr:tex>\mathscr {A}</fr:tex> to an abelian category <fr:tex>\mathscr {B}</fr:tex>.
+    Suppose that every object of <fr:tex>\mathscr {A}</fr:tex> injects into an injective object;
+    the derived functors <fr:tex>\operatorname {R} ^iT \colon \mathscr {A} \to \mathscr {B}</fr:tex> are then defined.
+    An object <fr:tex>A</fr:tex> of <fr:tex>\mathscr {A}</fr:tex> is said to be *acyclic* for <fr:tex>T</fr:tex> if <fr:tex>\operatorname {R} ^iT(A)=0</fr:tex> for <fr:tex>i&gt;0</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>674</fr:anchor><fr:addr>hodge-theory-ii-1.4.2</fr:addr><fr:route>hodge-theory-ii-1.4.2.xml</fr:route><fr:number>1.4.2</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(A,F)</fr:tex> be a filtered object with finite filtration, and <fr:tex>TF</fr:tex> the filtration of <fr:tex>TA</fr:tex> by its sub-objects <fr:tex>TF^p(A)</fr:tex> (these are sub-objects since <fr:tex>T</fr:tex> is left exact).
+    If <fr:tex>\operatorname {Gr} _F(A)</fr:tex> is <fr:tex>T</fr:tex>-acyclic, then the <fr:tex>F^p(A)</fr:tex> are <fr:tex>T</fr:tex>-acyclic as successive extensions of <fr:tex>T</fr:tex>-acyclic objects.
+    The image under <fr:tex>T</fr:tex> of the sequence
+    <fr:tex
+display="block">       0        \to  F^{p+1}(A)        \to  F^p(A)        \to   \operatorname {Gr} ^p(A)        \to  0     </fr:tex>
+    
+    is thus exact, and
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>673</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-equation-1.4.2.1</fr:addr><fr:route>hodge-theory-ii-equation-1.4.2.1.xml</fr:route><fr:number>1.4.2.1</fr:number><fr:parent>hodge-theory-ii-1.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">          \operatorname {Gr} _{FT}TA  \xrightarrow { \sim }  T \operatorname {Gr} _FA.       \tag{1.4.2.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>675</fr:anchor><fr:addr>hodge-theory-ii-1.4.3</fr:addr><fr:route>hodge-theory-ii-1.4.3.xml</fr:route><fr:number>1.4.3</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A</fr:tex> be an object endowed with finite filtrations <fr:tex>F</fr:tex> and <fr:tex>W</fr:tex> such that <fr:tex>\operatorname {Gr} _F \operatorname {Gr} _W A</fr:tex> are <fr:tex>T</fr:tex>-acyclic.
+    The objects <fr:tex>\operatorname {Gr} _FA</fr:tex> and <fr:tex>\operatorname {Gr} _WA</fr:tex> are then <fr:tex>T</fr:tex>-acyclic, as well as the <fr:tex>F^q(A) \cap  W^p(A)</fr:tex>.
+    The sequences
+    <fr:tex
+display="block">       0        \to  T(F^q \cap  W^{p+1})        \to  T(F^q \cap  W^p)        \to  T((F^q \cap  W^p)/(F^q \cap  W^{p+1}))        \to  0     </fr:tex>
+    are thus exact, and <fr:tex>T(F^q( \operatorname {Gr} _W^p(A)))</fr:tex> is the image in <fr:tex>T( \operatorname {Gr} _W^p(A))</fr:tex> of <fr:tex>T(F^p \cap  W^q)</fr:tex>.
+    The diagram
+    <fr:tex
+display="block">        \begin {CD}         T(F^q \cap  W^p) @&gt;&gt;&gt; T(F^q \operatorname {Gr} _W^pA) @&gt;&gt;&gt; T \operatorname {Gr} _W^pA        \\ @V{ \cong }VV @. @VV{ \cong }V        \\ TF^q \cap  TW^p @= TF^q \cap  TW^p @&gt;&gt;&gt;  \operatorname {Gr} _{TW}^pTA        \end {CD}     </fr:tex>
+    then shows that the isomorphism in <fr:ref
+addr="hodge-theory-ii-equation-1.4.2.1"
+href="hodge-theory-ii-equation-1.4.2.1.xml"
+taxon="Equation"
+number="1.4.2.1"></fr:ref> relative to <fr:tex>W</fr:tex> sends the filtration <fr:tex>\operatorname {Gr} _{TW}(TF)</fr:tex> to the filtration <fr:tex>T( \operatorname {Gr} _W(F))</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:addr>hodge-theory-ii-1.4.4</fr:addr><fr:route>hodge-theory-ii-1.4.4.xml</fr:route><fr:number>1.4.4</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex of objects of <fr:tex>\mathscr {A}</fr:tex>.
+    The <fr:em>hypercohomology objects</fr:em> <fr:tex>\operatorname {R} ^iT(K)</fr:tex> are calculated as follows:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; a.  &quot;">
+        We choose a quasi-isomorphism <fr:tex>i \colon  K \to  K</fr:tex> such that the components of <fr:tex>K'</fr:tex> are acyclic for <fr:tex>T</fr:tex>.
+        For example, we can take <fr:tex>K'</fr:tex> to be the simple complex associated to an injective Cartan–Eilenberg resolution of <fr:tex>K</fr:tex>.
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot; b.  &quot;">
+        We set
+        <fr:tex
+display="block">            \operatorname {R} ^iT(K)           =  \operatorname {H} ^i(T(K')).         </fr:tex>
+      </html:li>
+
+    </html:ol>
+
+
+    We can show that <fr:tex>\operatorname {R} ^iT(K)</fr:tex> does not depend on the choice of <fr:tex>K'</fr:tex>, but depends functorially on <fr:tex>K</fr:tex>, and that a quasi-isomorphism <fr:tex>f \colon  K_1 \to  K_2</fr:tex> induces *isomorphisms*
+    <fr:tex
+display="block">        \operatorname {R} ^iT(f) \colon         \operatorname {R} ^iT(K_1)        \to   \operatorname {R} ^iT(K_2).     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>680</fr:anchor><fr:addr>hodge-theory-ii-1.4.5</fr:addr><fr:route>hodge-theory-ii-1.4.5.xml</fr:route><fr:number>1.4.5</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>F</fr:tex> be a biregular filtration of <fr:tex>K</fr:tex>.
+    A <fr:em>{#T}-acyclic filtered resolution</fr:em> of <fr:tex>K</fr:tex> is a filtered quasi-isomorphism <fr:tex>i \colon  K \to  K'</fr:tex> from <fr:tex>K</fr:tex> to a filtered biregular complex such that the <fr:tex>\operatorname {Gr} ^p({K'}^n)</fr:tex> are acyclic for <fr:tex>T</fr:tex>.
+    If <fr:tex>K'</fr:tex> is such a resolution, then the <fr:tex>{K'}^n</fr:tex> are acyclic for <fr:tex>T</fr:tex>, and the filtered complex (cf. <fr:ref
+addr="hodge-theory-ii-1.4.2"
+href="hodge-theory-ii-1.4.2.xml"
+number="1.4.2"></fr:ref>) <fr:tex>T(K')</fr:tex> defines a spectral sequence
+    <fr:tex
+display="block">       E_1^{pq}       =  \operatorname {R} ^{p+q}T( \operatorname {Gr} ^p(K))        \Rightarrow   \operatorname {R} ^{p+q}T(K).     </fr:tex>
+    This is independent of the choice of <fr:tex>K'</fr:tex>.
+    We call this the <fr:em>hypercohomology spectral sequence of the filtered complex <fr:tex>K</fr:tex></fr:em>.
+    It depends functorially on <fr:tex>K</fr:tex>, and a filtered quasi-isomorphism induces an isomorphism of spectral sequences.
+  </fr:p><fr:p>
+    The differentials <fr:tex>d_1</fr:tex> of this spectral sequence are the connection morphisms defined by the short exact sequences
+    <fr:tex
+display="block">       0        \to   \operatorname {Gr} ^{p+1}K        \to  F^pK/F^{p+2}K        \to   \operatorname {Gr} ^pK        \to  0.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>681</fr:anchor><fr:addr>hodge-theory-ii-1.4.6</fr:addr><fr:route>hodge-theory-ii-1.4.6.xml</fr:route><fr:number>1.4.6</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex.
+    We denote by <fr:tex>\tau _{ \leqslant  p}(K)</fr:tex> the following subcomplex:
+    <fr:tex
+display="block">        \tau _{ \leqslant  p}(K)^n       =  \begin {cases}         K^n         &amp; \text {for }n&lt;p        \\ \operatorname {Ker} (d)         &amp; \text {for }n=p        \\ 0         &amp; \text {for }n&gt;p.        \end {cases}     </fr:tex></fr:p><fr:p>
+    The <fr:em>filtration</fr:em>, said to be <fr:em>canonical</fr:em>, of <fr:tex>K</fr:tex> by the <fr:tex>\tau _{ \leqslant  p}(K)</fr:tex> is induced by shifting the trivial filtration <fr:tex>G</fr:tex> for which <fr:tex>G^0(K)=K</fr:tex> and <fr:tex>G^1(K)=0</fr:tex>.
+    We have, for the canonical filtration,
+    <fr:tex
+display="block">        \begin {aligned}         E_1^{pq} = 0         &amp; \qquad \text {if }p+q \neq-p         \\ \\ H^{-p}         &amp; \qquad \text {if }p+q=-p.        \end {aligned}     </fr:tex>
+    A quasi-isomorphism <fr:tex>f \colon  K \to  K'</fr:tex> is automatically a filtered quasi-isomorphism for the canonical filtrations.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>682</fr:anchor><fr:addr>hodge-theory-ii-1.4.7</fr:addr><fr:route>hodge-theory-ii-1.4.7.xml</fr:route><fr:number>1.4.7</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The subcomplexes <fr:tex>\sigma _{ \geqslant  p}(K)</fr:tex> of <fr:tex>K</fr:tex>
+    <fr:tex
+display="block">        \sigma _{ \geqslant  p}(K)^n       =  \begin {cases}         0         &amp; \text {if }n&lt;p        \\ K^n         &amp; \text {if }n \geqslant  p        \end {cases}     </fr:tex>
+    define a biregular filtration, called the <fr:em>stupid filtration</fr:em> of <fr:tex>K</fr:tex>.
+  </fr:p><fr:p>
+    The hypercohomology spectral sequences attached to the stupid or canonical filtrations of <fr:tex>K</fr:tex> are the two <fr:em>hypercohomology spectral sequences</fr:em> of <fr:tex>K</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>683</fr:anchor><fr:taxon>Example</fr:taxon><fr:addr>hodge-theory-ii-example-1.4.8</fr:addr><fr:route>hodge-theory-ii-example-1.4.8.xml</fr:route><fr:number>1.4.8</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  Y</fr:tex> be a continuous map between topological spaces, and let <fr:tex>\mathscr {F}</fr:tex> be an abelian sheaf on <fr:tex>X</fr:tex>.
+    Let <fr:tex>\mathscr {F}^ \bullet</fr:tex> be a resolution of <fr:tex>\mathscr {F}</fr:tex> by <fr:tex>f_*</fr:tex>-acyclic sheaves.
+    We have <fr:tex>\operatorname {R} ^i f_* \mathscr {F} \simeq \operatorname { \mathscr {H}} ^i(f_* \mathscr {F}^ \bullet )</fr:tex>.
+    We take the functor <fr:tex>T</fr:tex> to be the functor <fr:tex>\Gamma (Y,-)</fr:tex>.
+    The hypercohomology spectral sequence of the complex <fr:tex>f_* \mathscr {F}^ \bullet</fr:tex> endowed with its canonical filtration <fr:ref
+addr="hodge-theory-ii-1.4.6"
+href="hodge-theory-ii-1.4.6.xml"
+number="1.4.6"></fr:ref>
+    <fr:tex
+display="block">       E_1^{pq}       =  \operatorname {H} ^{2p+q}(Y, \operatorname {R} ^{-p}f_* \mathscr {F})        \Rightarrow   \operatorname {H} ^{p+q}(X, \mathscr {F})     </fr:tex>
+    is exactly, up to the renumbering <fr:tex>E_r^{pq} \mapsto  E_{r+1}^{2p+q,-p}</fr:tex>, the <fr:em>Leray spectral sequence</fr:em> for <fr:tex>f</fr:tex> and <fr:tex>\mathscr {F}</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>690</fr:anchor><fr:addr>hodge-theory-ii-1.4.9</fr:addr><fr:route>hodge-theory-ii-1.4.9.xml</fr:route><fr:number>1.4.9</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(K,W,F)</fr:tex> be a biregular bifiltered complex.
+    To this complex, we associate:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; a.  &quot;">
+        A spectral sequence
+        <fr:tex
+display="block">           {}_W E_1^{p,n-p}           =  \operatorname {H} ^n( \operatorname {Gr} _W^p(K))  \Rightarrow   \operatorname {H} ^n(K)         </fr:tex>
+        with differentials <fr:tex>{}_W d_1</fr:tex> being the connecting morphisms induced by the short exact sequences
+        <fr:tex
+display="block">           0            \to   \operatorname {Gr} _W^{p+1}(K)            \to  W^p(K)/W^{p+2}(K)            \to   \operatorname {Gr} _W^p(K)            \to  0;         </fr:tex>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot; b.  &quot;">
+        
+        An analogous spectral sequence for the filtration <fr:tex>F</fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot; c.  &quot;">
+        Exact squares
+
+        
+  <fr:embedded-tex
+hash="e989746339b66a82cd405095b1ca5ed0"><fr:embedded-tex-preamble>\usepackage {amsmath,tikz-cd}</fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+          &amp; 0  \dar 
+          &amp; 0  \dar 
+          &amp; 0  \dar 
+         \\ 0  \rar 
+          &amp;  \operatorname {Gr} _F^{p+1} \operatorname {Gr} _W^{q+1}K  \rar   \dar 
+          &amp; F^p/F^{p+2}( \operatorname {Gr} _W^{q+1}K)  \rar   \dar 
+          &amp;  \operatorname {Gr} _F^p \operatorname {Gr} _W^{q+1}K  \rar   \dar 
+          &amp; 0
+         \\ 0  \rar 
+          &amp;  \operatorname {Gr} _F^{p+1}(W^q/W^{q+2}(K))  \rar   \dar 
+          &amp; F^p/F^{p+2}(W^q/W^{q+2}(K))  \rar   \dar 
+          &amp;  \operatorname {Gr} _F^p(W^q/W^{q+2}(K))  \rar   \dar 
+          &amp; 0
+         \\ 0  \rar 
+          &amp;  \operatorname {Gr} _F^{p+1} \operatorname {Gr} _W^q K  \rar   \dar 
+          &amp; F^p/F^{p+2} \operatorname {Gr} _W^q K  \rar   \dar 
+          &amp;  \operatorname {Gr} _F^p \operatorname {Gr} _W^q K  \rar   \dar 
+          &amp; 0
+         \\ &amp; 0
+          &amp; 0
+          &amp; 0
+         \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    The exterior rows and columns of this square define connection morphisms
+    <fr:tex
+display="block">        \begin {aligned}         {}_{F,W}d_1 \colon   \operatorname {H} ^n \operatorname {Gr} _F^p \operatorname {Gr} _W^q K         &amp; \to   \operatorname {H} ^{n+1} \operatorname {Gr} _F^{p+1} \operatorname {Gr} _W^q K        \\ {}_{W,F}d_1 \colon   \operatorname {H} ^n \operatorname {Gr} _F^p \operatorname {Gr} _W^q K         &amp; \to   \operatorname {H} ^{n+1} \operatorname {Gr} _F^p \operatorname {Gr} _W^{q+1} K.        \end {aligned}     </fr:tex>
+    These morphisms satisfy
+    <fr:tex
+display="block">        \begin {gathered}         {}_{FW}d_1  \circ  {}_{WF}d_1 + {}_{WF}d_1  \circ  {}_{FW}d_1         = 0        \\  {}_{FW}d_1^2         = 0        \\  {}_{WF}d_1^2         = 0        \end {gathered}     </fr:tex></fr:p><fr:p>
+    The morphisms <fr:tex>{}_{FW}d_1</fr:tex> are the morphisms <fr:tex>d_1</fr:tex> of the spectral sequences <fr:tex>E^{(q)}</fr:tex>, with the <fr:tex>E_1^{(q)p,n-p}</fr:tex> term equal to
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-equation-1.4.9.1</fr:addr><fr:route>hodge-theory-ii-equation-1.4.9.1.xml</fr:route><fr:number>1.4.9.1</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{p,q,n-p-q}          \coloneqq   \operatorname {H} ^n( \operatorname {Gr} _F^p \operatorname {Gr} _W^q K)          \Rightarrow   \operatorname {H} ^n( \operatorname {Gr} _W^q K)         = {}_WE_1^{q,n-q}       \tag{1.4.9.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    defined by the filtered complex <fr:tex>\operatorname {Gr} _W^q(K)</fr:tex>.
+    This spectral sequence abuts to the filtration induced by <fr:tex>F</fr:tex> on <fr:tex>\operatorname {H} ^ \bullet \operatorname {Gr} _W^q K</fr:tex>.
+    Similarly, the <fr:tex>{}_{WF}d_1</fr:tex> are the <fr:tex>d_1</fr:tex> of spectral sequences with the same initial terms
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>689</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-equation-1.4.9.2</fr:addr><fr:route>hodge-theory-ii-equation-1.4.9.2.xml</fr:route><fr:number>1.4.9.2</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{p,q,n-p-q}          \coloneqq   \operatorname {H} ^n( \operatorname {Gr} _F^p \operatorname {Gr} _W^q K)          \Rightarrow   \operatorname {H} ^n( \operatorname {Gr} _F^p K).       \tag{1.4.9.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    
+  <fr:embedded-tex
+hash="9d64632865746983fbabb519a01411e4"><fr:embedded-tex-preamble>\usepackage {amsmath,tikz-cd}</fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+      &amp;  \operatorname {H} ^n \operatorname {Gr} _W^q K
+         \ar [Rightarrow,dr,"{}_Wd_1"]
+     \\ \operatorname {H} ^n \operatorname {Gr} _F^p \operatorname {Gr} _W^q K
+         \ar [Rightarrow,ur,"{}_{F,W}d_1"]
+         \ar [Rightarrow,dr,swap,"{}_{W,F}d_1"]
+      &amp;&amp;  \operatorname {H} ^n K
+     \\ &amp;  \operatorname {H} ^n \operatorname {Gr} _F^p K
+         \ar [Rightarrow,ur,swap,"{}_Fd_1"]
+     \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+    
+    These constructions are symmetric in <fr:tex>F</fr:tex> and <fr:tex>W</fr:tex> via the isomorphism
+    <fr:tex
+display="block">        \operatorname {Gr} _F^p \operatorname {Gr} _W^q        \sim   \operatorname {Gr} _W^q \operatorname {Gr} _F^p.     </fr:tex></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
