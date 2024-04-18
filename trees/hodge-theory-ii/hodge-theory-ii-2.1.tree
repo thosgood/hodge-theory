@@ -51,3 +51,79 @@
     Complex conjugation exchanges #{z} and #{\bar{z}}.
   }
 }
+
+\subtree[hodge-theory-ii-2.1.3]{
+  \number{2.1.3}
+
+  \p{
+    We have a canonical map
+
+    \subtree[hodge-theory-ii-equation-2.1.3.1]{
+      \taxon{equation}
+      \number{2.1.3.1}
+      ##{
+        w\colon \Gm\to S
+      \startverb\tag{2.1.3.1}\stopverb
+      }
+    }
+
+    \oldpage{25}
+    that, on the real points, induces the inclusion of #{\RR^*} into #{\CC^*}.
+    We have
+
+    \subtree[hodge-theory-ii-equation-2.1.3.2]{
+      \taxon{equation}
+      \number{2.1.3.2}
+      ##{
+        zw
+        = \bar{z}w
+        = \Id.
+      \startverb\tag{2.1.3.2}\stopverb
+      }
+    }
+  }
+
+  \p{
+    We also have a map
+
+    \subtree[hodge-theory-ii-equation-2.1.3.3]{
+      \taxon{equation}
+      \number{2.1.3.3}
+      ##{
+        N\colon S\to\Gm
+      \startverb\tag{2.1.3.3}\stopverb
+      }
+    }
+
+    that on the real points can be identified with the norm #{N_{\CC{/}\RR}\colon\CC^*\to\RR^*}.
+    We have
+
+    \subtree[hodge-theory-ii-equation-2.1.3.4]{
+      \taxon{equation}
+      \number{2.1.3.4}
+      ##{
+        N = z\bar{z}
+      \startverb\tag{2.1.3.4}\stopverb
+      }
+    }
+
+    \subtree[hodge-theory-ii-equation-2.1.3.5]{
+      \taxon{equation}
+      \number{2.1.3.5}
+      ##{
+        N\circ w
+        = (x\mapsto x^2).
+      \startverb\tag{2.1.3.5}\stopverb
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-definition-2.1.4]{
+  \taxon{definition}
+  \number{2.1.4}
+
+  \p{
+    A \em{real Hodge structure} is a real vector space #{V} of finite dimension endowed with an action of the real algebraic group #{S}.
+  }
+}
