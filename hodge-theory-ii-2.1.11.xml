@@ -6,18 +6,59 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>978</fr:anchor><fr:addr>hodge-theory-ii-2.1.6</fr:addr><fr:route>hodge-theory-ii-2.1.6.xml</fr:route><fr:number>2.1.6</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>( \mathbb {C} , \times )</fr:tex> be the multiplicative monoid, and let
+expanded="true"><fr:frontmatter><fr:anchor>938</fr:anchor><fr:addr>hodge-theory-ii-2.1.11</fr:addr><fr:route>hodge-theory-ii-2.1.11.xml</fr:route><fr:number>2.1.11</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A morphism <fr:tex>f \colon  H \to  H'</fr:tex> is a homomorphism <fr:tex>f \colon  H_ \mathbb {Z} \to  H'_ \mathbb {Z}</fr:tex> such that <fr:tex>f_ \mathbb {R} \colon  H_ \mathbb {R} \to  H'_ \mathbb {R}</fr:tex> is compatible with the action of <fr:tex>S</fr:tex> (i.e. such that <fr:tex>f_ \mathbb {C}</fr:tex> is compatible with the bigrading, or with the Hodge filtration).
+  </fr:p><fr:p>
+    Hodge structures of weight <fr:tex>n</fr:tex> form an abelian category.
+    If <fr:tex>H</fr:tex> is of weight <fr:tex>n</fr:tex>, and <fr:tex>H'</fr:tex> is of weight <fr:tex>n'</fr:tex>, then we define a Hodge structure <fr:tex>H \otimes  H'</fr:tex> of weight <fr:tex>n+n'</fr:tex> by the equations:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; a.  &quot;">
+        <fr:tex>(H \otimes  H')_ \mathbb {Z} =H_ \mathbb {Z} \otimes  H'_ \mathbb {Z}</fr:tex>;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot; b.  &quot;">
+        the action of <fr:tex>S</fr:tex> on <fr:tex>(H \otimes  H')_ \mathbb {R} =H_ \mathbb {R} \otimes  H'_ \mathbb {R}</fr:tex> is the tensor product of the actions of <fr:tex>S</fr:tex> on <fr:tex>H_ \mathbb {R}</fr:tex> and on <fr:tex>H'_ \mathbb {R}</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    The bigrading (resp. Hodge filtration) of <fr:tex>(H \otimes  H')_ \mathbb {C} =H_ \mathbb {C} \otimes  H'_ \mathbb {C}</fr:tex> is the tensor product of the bigradings (resp. Hodge filtrations (cf. <fr:ref
+addr="hodge-theory-ii-1.1.12"
+href="hodge-theory-ii-1.1.12.xml"
+number="1.1.12"></fr:ref>)) of <fr:tex>H_ \mathbb {C}</fr:tex> and of <fr:tex>H'_ \mathbb {C}</fr:tex>.
+  </fr:p><fr:p>
+    We define in an analogous manner the Hodge structure <fr:tex>\underline { \operatorname {Hom} } (H,H')</fr:tex> (of weight <fr:tex>n'-n</fr:tex>), the Hodge structures <fr:tex>\wedge ^p H</fr:tex> (of weight <fr:tex>pn</fr:tex>), and the dual Hodge structure <fr:tex>H^*</fr:tex>.
+  </fr:p><fr:p>
+    The <fr:em>internal hom</fr:em> <fr:tex>\underline { \operatorname {Hom} }</fr:tex> above and the homomorphism group, are related by:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"><fr:frontmatter><fr:anchor>511</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hodge-theory-ii-2.1.11.1</fr:addr><fr:route>hodge-theory-ii-2.1.11.1.xml</fr:route><fr:number>2.1.11.1</fr:number><fr:parent>hodge-theory-ii-2.1.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:tex>\operatorname {Hom} (H,H')</fr:tex> is the subgroup of
+        <fr:tex
+display="block">            \underline { \operatorname {Hom} } (H,H')_ \mathbb {Z}            =  \operatorname {Hom} _ \mathbb {Z} (H_ \mathbb {Z} ,H'_ \mathbb {Z} )         </fr:tex>
+        consisting of elements of degree <fr:tex>(0,0)</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree></fr:p><fr:p>
+    The actions of <fr:tex>S</fr:tex> on <fr:tex>H_ \mathbb {R}</fr:tex>, <fr:tex>H'_ \mathbb {R}</fr:tex>, and <fr:tex>\underline { \operatorname {Hom} } (H,H')_ \mathbb {R} = \operatorname {Hom} (H_ \mathbb {R} ,H'_ \mathbb {R} )</fr:tex> are related by
     <fr:tex
-display="block">        \bar {S}       =  \prod _{ \mathbb {C} {/} \mathbb {R} } ( \mathbb {C} , \times ).     </fr:tex>
-    If <fr:tex>V</fr:tex> is a real vector space, then we can show that it is equivalent to either give an action of <fr:tex>\bar {S}</fr:tex> on <fr:tex>V</fr:tex> or to give a bigrading <fr:tex>V^{pq}</fr:tex> on <fr:tex>V</fr:tex> such that <fr:tex>\overline {V^{pq}}=V^{qp}</fr:tex> and <fr:tex>V^{pq}=0</fr:tex> for <fr:tex>p&lt;0</fr:tex> or <fr:tex>q&lt;0</fr:tex>.
+display="block">       s(f(x))       = s(f)(s(x)).     </fr:tex>
+    This means that if <fr:tex>f</fr:tex> is of degree <fr:tex>(0,0)</fr:tex>, i.e. invariant under <fr:tex>S</fr:tex>, then it commutes with the action of <fr:tex>S</fr:tex>.
   </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>977</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title><fr:link
+expanded="true"><fr:frontmatter><fr:anchor>937</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-2.xml"
 type="local"
 addr="hodge-theory-ii-2"><fr:link
@@ -365,4 +406,38 @@ expanded="true"><fr:frontmatter><fr:anchor>684</fr:anchor><fr:addr>hodge-theory-
 addr="hodge-theory-ii-2.1.12"
 href="hodge-theory-ii-2.1.12.xml"
 number="2.1.12"></fr:ref>).
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"><fr:frontmatter><fr:anchor>936</fr:anchor><fr:addr>hodge-theory-ii-1.1.12</fr:addr><fr:route>hodge-theory-ii-1.1.12.xml</fr:route><fr:number>1.1.12</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>\otimes \colon \mathscr {A}_1 \times \ldots \times \mathscr {A}_n \to \mathscr {B}</fr:tex> is a multiadditive right-exact functor, and if <fr:tex>A_i</fr:tex> is an object of finite filtration of <fr:tex>\mathscr {A}_i</fr:tex> (for <fr:tex>1 \leqslant  i \leqslant  n</fr:tex>), then we define a filtration on <fr:tex>\bigotimes _{i=1}^n A_i</fr:tex> by
+    <fr:tex
+display="block">       F^k( \bigotimes _{i=1}^n A_i)       =  \sum _{ \sum  k_i=k}  \operatorname {Im} ( \bigotimes _{i=1}^n F^{k_i}(A_i) \to \bigotimes _{i=1}^n A_i)     </fr:tex>
+    (a sum of sub-objects).
+  </fr:p><fr:p>
+    Dually, if <fr:tex>H</fr:tex> is left-exact, then we set
+    <fr:tex
+display="block">       F^k(H(A_i))       =  \bigcap _{ \sum  k_i=k}  \operatorname {Ker} (H(A_i) \to  H(A_i/F^{k_i}(A_i))).     </fr:tex></fr:p><fr:p>
+    If <fr:tex>H</fr:tex> is exact, then the two definitions are equivalent.
+  </fr:p><fr:p>
+    We extend these definitions to contravariant functors in certain variables by <fr:ref
+addr="hodge-theory-ii-1.1.6"
+href="hodge-theory-ii-1.1.6.xml"
+number="1.1.6"></fr:ref>.
+    In particular, for the left-exact functor <fr:tex>\operatorname {Hom}</fr:tex>, we set
+    <fr:tex
+display="block">       F^k( \operatorname {Hom} (A,B))       =  \{ f \colon  A \to  B  \mid  f(F^n(A)) \subset  F^{n+k}(B) \, \, \forall  n \} .     </fr:tex>
+    We thus have
+    <fr:tex
+display="block">        \operatorname {Hom} ((A,F),(B,F))       = F^0( \operatorname {Hom} (A,B)).     </fr:tex>
+
+    Under the above hypotheses, we have obvious morphisms
+    <fr:tex
+display="block">        \begin {aligned}          \bigotimes _{i=1}^n  \operatorname {Gr} (A_i)         &amp; \to   \operatorname {Gr} ( \bigotimes _{i=1}^n A_i)        \\ \operatorname {Gr}  H(A_i)         &amp; \to  H( \operatorname {Gr} (A_i)).        \end {aligned}     </fr:tex>
+    If <fr:tex>H</fr:tex> is exact, then these are isomorphisms and inverse to one another.
+  </fr:p><fr:p>
+    These constructions are compatible with composition of functors, in a sense whose details we leave to the reader.
+  </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -6,18 +6,26 @@ toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>978</fr:anchor><fr:addr>hodge-theory-ii-2.1.6</fr:addr><fr:route>hodge-theory-ii-2.1.6.xml</fr:route><fr:number>2.1.6</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>( \mathbb {C} , \times )</fr:tex> be the multiplicative monoid, and let
+expanded="true"><fr:frontmatter><fr:anchor>952</fr:anchor><fr:addr>hodge-theory-ii-2.1.16</fr:addr><fr:route>hodge-theory-ii-2.1.16.xml</fr:route><fr:number>2.1.16</fr:number><fr:parent>hodge-theory-ii-2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The <fr:em>real Tate Hodge structure</fr:em> is the real Hodge structure <fr:tex>\mathbb {R} (1)</fr:tex> underlying <fr:tex>\mathbb {Z} (1)</fr:tex>.
+    We similarly define <fr:tex>\mathbb {R} (n)</fr:tex> as underlying <fr:tex>\mathbb {Z} (1)</fr:tex>.
+    A polarisation of a <fr:em>real</fr:em> Hodge structure of weight <fr:tex>n</fr:tex> is a homomorphism
     <fr:tex
-display="block">        \bar {S}       =  \prod _{ \mathbb {C} {/} \mathbb {R} } ( \mathbb {C} , \times ).     </fr:tex>
-    If <fr:tex>V</fr:tex> is a real vector space, then we can show that it is equivalent to either give an action of <fr:tex>\bar {S}</fr:tex> on <fr:tex>V</fr:tex> or to give a bigrading <fr:tex>V^{pq}</fr:tex> on <fr:tex>V</fr:tex> such that <fr:tex>\overline {V^{pq}}=V^{qp}</fr:tex> and <fr:tex>V^{pq}=0</fr:tex> for <fr:tex>p&lt;0</fr:tex> or <fr:tex>q&lt;0</fr:tex>.
+display="block">       (x,y) \colon  H \otimes  H \to   \mathbb {R} (-n)     </fr:tex>
+    such that the real bilinear form <fr:tex>(2 \pi  i)^n(x,Cy)</fr:tex> on <fr:tex>H_ \mathbb {R}</fr:tex> is symmetric and positive definite.
+    A polarisation is entirely defined by the positive definite quadratic form <fr:tex>(2 \pi  i)^n(x,Cy)</fr:tex> on <fr:tex>H_ \mathbb {R}</fr:tex>, imposed with only the condition of being invariant under the compact sub-torus of <fr:tex>S</fr:tex> given by the kernel of <fr:tex>N</fr:tex>.
+  </fr:p><fr:p>
+    We have
+    <fr:tex
+display="block">       (x,y)       = (Cx,Cy)       = (y,C^2x)       = (-1)^n(y,x).     </fr:tex>
+    The form <fr:tex>(x,y)</fr:tex> is thus symmetric or alternating, depending on the parity of <fr:tex>n</fr:tex>.
   </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"><fr:frontmatter><fr:anchor>977</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title><fr:link
+expanded="true"><fr:frontmatter><fr:anchor>951</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-2.xml"
 type="local"
 addr="hodge-theory-ii-2"><fr:link
