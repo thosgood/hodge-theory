@@ -34,7 +34,7 @@
     ##{
       X(S)
       = \Hom(S_\CC,\Gm)
-      = \Hom(S,\Gm)(\CC)
+      = \iHom(S,\Gm)(\CC)
     }
     of its complex characters, endowed with the action of #{\Gal(\CC{/}\RR)=\ZZ{/}(2)}.
   }
@@ -225,5 +225,163 @@
         a real Hodge structure of weight #{n} on #{H_\RR=\RR\otimes_\ZZ H_\ZZ}.
       }
     }
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.11]{
+  \number{2.1.11}
+
+  \p{
+    A morphism #{f\colon H\to H'} is a homomorphism #{f\colon H_\ZZ\to H'_\ZZ} such that #{f_\RR\colon H_\RR\to H'_\RR} is compatible with the action of #{S} (i.e. such that #{f_\CC} is compatible with the bigrading, or with the Hodge filtration).
+  }
+
+  \p{
+    Hodge structures of weight #{n} form an abelian category.
+    If #{H} is of weight #{n}, and #{H'} is of weight #{n'}, then we define a Hodge structure #{H\otimes H'} of weight #{n+n'} by the equations:
+
+    \olc{
+      \lic{a.}{
+        #{(H\otimes H')_\ZZ=H_\ZZ\otimes H'_\ZZ};
+      }
+      \lic{b.}{
+        the action of #{S} on #{(H\otimes H')_\RR=H_\RR\otimes H'_\RR} is the tensor product of the actions of #{S} on #{H_\RR} and on #{H'_\RR}.
+      }
+    }
+  }
+
+  \p{
+    The bigrading (resp. Hodge filtration) of #{(H\otimes H')_\CC=H_\CC\otimes H'_\CC} is the tensor product of the bigradings (resp. Hodge filtrations (cf. \ref{hodge-theory-ii-1.1.12})) of #{H_\CC} and of #{H'_\CC}.
+  }
+
+  \p{
+    We define in an analogous manner the Hodge structure #{\iHom(H,H')} (of weight #{n'-n}), the Hodge structures #{\wedge^p H} (of weight #{pn}), and the dual Hodge structure #{H^*}.
+  }
+
+  \p{
+    The \em{internal hom} #{\iHom} above and the homomorphism group, are related by:
+
+    \subtree[hodge-theory-ii-2.1.11.1]{
+      \taxon{remark}
+      \number{2.1.11.1}
+
+      \p{
+        #{\Hom(H,H')} is the subgroup of
+        ##{
+          \iHom(H,H')_\ZZ
+          = \Hom_\ZZ(H_\ZZ,H'_\ZZ)
+        }
+        consisting of elements of degree #{(0,0)}.
+      }
+    }
+  }
+
+  \p{
+    The actions of #{S} on #{H_\RR}, #{H'_\RR}, and #{\iHom(H,H')_\RR=\Hom(H_\RR,H'_\RR)} are related by
+    ##{
+      s(f(x))
+      = s(f)(s(x)).
+    }
+    This means that if #{f} is of degree #{(0,0)}, i.e. invariant under #{S}, then it commutes with the action of #{S}.
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.12]{
+  \number{2.1.12}
+
+  \p{
+    If #{A} is a Noetherian subring of #{\RR}, then we define a \em{Hodge #{A}-structure of weight #{n}} to consist of an #{A}-module #{H_A} of finite type along with a real Hodge structure of weight #{n} on #{H_\RR=H_A\otimes_A\RR}.
+    This definition is mostly used for #{A=\QQ}.
+    A Hodge #{A}-structure consists of an #{A}-module #{H_A} of finite type along with a real Hodge structure on #{H_\RR=H_A\otimes_A\RR} such that the weight grading is defined over the field of fractions of #{A}.
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.13]{
+  \taxon{definition}
+  \number{2.1.13}
+
+  \p{
+    The \em{Tate Hodge structure #{\ZZ(1)}} is the Hodge structure of weight #{-2}, of rank #{1}, of pure bidegree #{(-1,-1)}, with integral lattice #{2\pi i\ZZ\subset\CC}.
+  }
+
+  \p{
+    The action of #{S} is thus given by multiplication with the inverse of the norm (\ref{hodge-theory-ii-2.1.3.3}).
+  }
+
+  \p{
+    For #{n\in\ZZ}, we define #{\ZZ(n)} as the #{n}-th tensor power of #{\ZZ(1)}, so #{\ZZ(n)} is the Hodge structure of weight #{-2n}, of rank #{1}, of pure bidegree #{(-n,-n)}, with integral lattice #{(2\pi i)^n\ZZ\subset\CC}.
+    THe action of #{S} is multiplication by #{N(x)^{-n}}.
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.14]{
+  \number{2.1.14}
+
+  \p{
+    \oldpage{27}
+    The choice in #{\CC} of a solution #{i} of the equation #{x^2+1=0} determines, on each complex variety #{X} of pure dimension #{n}, an orientation #{\or_i(X)}.
+    Replace #{i} by #{-i} gives
+    ##{
+      \or_{-i}(X)
+      = (-1)^n\or_i(X).
+    }
+  }
+
+  \p{
+    The choice of #{i} also defines an element #{C} of order 4 in #{S(\RR)}, given by the image of #{i} under the isomorphism #{S(\RR)\simeq\CC^*}.
+  }
+
+  \p{
+    Finally, it also defines an isomorphism between #{\ZZ} and the integral lattice of #{\ZZ(n)}, given by multiplication by #{(2\pi i)^n}.
+  }
+
+  \p{
+    When #{i}, an orientation of #{X}, #{C}, or an identification #{\ZZ\sim\ZZ(n)_\ZZ} appear in an equation, it is implicitly understood that they all follow from a single choice of the same #{i}, and that by replacing #{i} with #{-i} we obtain an equivalent equation.
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.15]{
+  \taxon{definition}
+  \number{2.1.15}
+
+  \p{
+    A \em{polarisation} of a Hodge structure #{H} of weight #{n} is a homomorphism
+    ##{
+      (x,y)\colon H\otimes H \to \ZZ(-n)
+    }
+    such that the real bilinear form #{(2\pi i)^n(x,Cy)} on #{H_\RR} is symmetric and positive definite.
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.16]{
+  \number{2.1.16}
+
+  \p{
+    The \em{real Tate Hodge structure} is the real Hodge structure #{\RR(1)} underlying #{\ZZ(1)}.
+    We similarly define #{\RR(n)} as underlying #{\ZZ(1)}.
+    A polarisation of a \em{real} Hodge structure of weight #{n} is a homomorphism
+    ##{
+      (x,y)\colon H\otimes H\to \RR(-n)
+    }
+    such that the real bilinear form #{(2\pi i)^n(x,Cy)} on #{H_\RR} is symmetric and positive definite.
+    A polarisation is entirely defined by the positive definite quadratic form #{(2\pi i)^n(x,Cy)} on #{H_\RR}, imposed with only the condition of being invariant under the compact sub-torus of #{S} given by the kernel of #{N}.
+  }
+
+  \p{
+    We have
+    ##{
+      (x,y)
+      = (Cx,Cy)
+      = (y,C^2x)
+      = (-1)^n(y,x).
+    }
+    The form #{(x,y)} is thus symmetric or alternating, depending on the parity of #{n}.
+  }
+}
+
+\subtree[hodge-theory-ii-2.1.17]{
+  \number{2.1.17}
+
+  \p{
+    The reader can generalise these definitions to Hodge #{A}-structures of weight #{n} (\ref{hodge-theory-ii-2.1.12}).
   }
 }
