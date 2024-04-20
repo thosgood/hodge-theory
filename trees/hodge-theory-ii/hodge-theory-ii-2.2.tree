@@ -45,3 +45,113 @@
     }
   }
 }
+
+\subtree[hodge-theory-ii-2.2.2]{
+  \number{2.2.2}
+
+  \p{
+    Let #{V} be a local system of real vector spaces over #{X}, i.e. a sheaf of #{\RR}-vector spaces that is locally isomorphic to a constant sheaf #{\RR^n}.
+    Suppose that there exists on #{V} a bilinear form
+    ##{
+      Q\colon V\otimes V\to\RR
+    }
+    that is locally constant and \em{defined}.
+    If #{X} is connected, this is the case if #{V} is defined by a representation of a finite quotient of the fundamental group of #{X}.
+  }
+
+  \p{
+    Statements (A) and (B) [above](hodge-theory-ii-2.2.1) remain true as they are, without needing to change the proofs, for cohomology with coefficients in #{V_\CC=V\otimes_\RR\CC}, since the spectral sequence
+    ##{
+      E_1^{pq}
+      = \HH^q(X,\Omega_X^p(V))
+      \To \HH^{p+q}(X,V_\CC)
+    }
+    induced by the de Rham resolution of #{V_\CC} by #{\Omega_X^\bullet(V_\CC)} degenerates, and abuts to a filtration on #{\HH^n(X,V_\CC)} that is #{n}-opposite to the complex conjugate filtration.
+  }
+
+  \p{
+    The vector space #{\HH^n(X,V)} is thus endowed with a canonical real Hodge structure of weight #{n}.
+  }
+}
+
+\subtree[hodge-theory-ii-2.2.3]{
+  \number{2.2.3}
+
+  \p{
+    We show in [[D1968](D1968)] that the statements in \ref{hodge-theory-ii-2.2.1} remain true when #{X} is a non-singular complete algebraic, not necessarily Kähler, variety.
+    The proof from \em{loc. cit.}, based on a reduction to the projective case by Chow's lemma and resolution of singularities, extends to the case of \ref{hodge-theory-ii-2.2.2}.
+  }
+}
+
+\subtree[hodge-theory-ii-2.2.4]{
+  \number{2.2.4}
+
+  \p{
+    Let #{\mathcal{L}} be an invertible sheaf.
+    Here are two ways of defining the class #{c_1(\mathcal{L})}.
+  }
+
+  \subtree[hodge-theory-ii-2.2.4.1]{
+    \number{2.2.4.1}
+  
+    \p{
+      The sheaf #{\mathcal{L}} defines an element #{c} in #{\HH^1(X,\OO^*)}.
+      Its image under #{\dd f/f\colon\OO^*\to\Omega^1} lies in #{\HH^1(X,\Omega^1)}.
+      More precisely, #{\dd f/f} defines a morphism of complexes
+      ##{
+        \dd\log\colon
+        \OO^*[-1]
+        \to (0\to\Omega_X^1\to\Omega_X^2\to\ldots)
+        = \sigma_{\geqslant1}(\Omega_X^\bullet).
+      }
+      This complex maps to #{\Omega_X^\bullet}, whence
+      ##{
+        \dd\log\colon \OO^*[-1]\to\Omega_X^\bullet
+      }
+      and the image of #{c} under #{\dd\log} is in #{\bHH^2(\Omega_X^\bullet)}.
+      This construction still makes sense for an algebraic variety over an arbitrary field #{k}.
+      For #{k=\CC}, we further have
+      ##{
+        \HH^2(X,\CC)
+        \simto \bHH^2(X,\Omega_X^\bullet)
+      }
+      whence a class
+      ##{
+        c'_1(\mathcal{L}) \in \HH^2(X,\CC).
+      }
+    }
+  }
+
+  \subtree[hodge-theory-ii-2.2.4.2]{
+    \number{2.2.4.2}
+  
+    \p{
+      The exponential exact sequence
+      ##{
+        0
+        \to \ZZ(1)
+        \to \OO
+        \to \OO^*
+        \to 0
+      }
+      \oldpage{29}
+      defines a homomorphism
+      ##{
+        \partial\colon \HH^1(X,\OO^*)\to\HH^2(X,\ZZ(1))
+      }
+      whence a class
+      ##{
+        \partial c
+        = c''_1(\mathcal{L}) \in \HH^2(X,\ZZ(1)).
+      }
+    }
+
+    \p{
+      If we have a choice of #{i}, then this class is identified with
+      ##{
+        c'''_1(\mathcal{L}) \in \HH^2(X,\ZZ)
+      }
+      and for #{\mathcal{L}=\OO(D)}, this #{c'''_1(\mathcal{L})} is exactly the integer cohomology class defined by #{D} (with the orientations being defined by #{i}).
+    }
+  }
+}
