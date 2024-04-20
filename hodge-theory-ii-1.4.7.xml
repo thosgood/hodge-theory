@@ -235,7 +235,11 @@ style="list-style-type: &quot;c. &quot;">
 
         
   <fr:embedded-tex
-hash="e989746339b66a82cd405095b1ca5ed0"><fr:embedded-tex-preamble>\usepackage {amsmath,tikz-cd}</fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+hash="4ad6b68f13797b6492447c03b536d8b5"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
           &amp; 0  \dar 
           &amp; 0  \dar 
           &amp; 0  \dar 
@@ -296,7 +300,11 @@ display="block">         E_1^{p,q,n-p-q}          \coloneqq   \operatorname {H} 
 
     
   <fr:embedded-tex
-hash="9d64632865746983fbabb519a01411e4"><fr:embedded-tex-preamble>\usepackage {amsmath,tikz-cd}</fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+hash="5f97366cd87b12a1620d174a81ef6ac3"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
       &amp;  \operatorname {H} ^n \operatorname {Gr} _W^q K
          \ar [Rightarrow,dr,"{}_Wd_1"]
      \\ \operatorname {H} ^n \operatorname {Gr} _F^p \operatorname {Gr} _W^q K
