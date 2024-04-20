@@ -1,0 +1,25 @@
+\documentclass[crop,dvisvgm]{standalone}
+\usepackage {amsmath,tikz-cd}
+\begin{document}
+\begin {tikzcd} 
+       \mathbb {C}
+         \ar [r," \approx "]
+         \ar [d,equal]
+      &  \Omega _X^ \bullet 
+      &  \sigma _{ \geqslant1 }( \Omega _X^ \bullet )
+         \ar [l]
+         \ar [d,equal]
+     \\ \mathbb {C}
+      & [ \mathbb {C} \to \mathcal {O} ]
+         \ar [l]
+         \ar [r,squiggly," \mathrm {d} "]
+      &  \sigma _{ \geqslant1 }( \Omega _X^ \bullet )
+     \\ \mathbb {Z} (1)
+         \ar [u]
+      & [ \mathbb {Z} (1) \to \mathcal {O} ]
+         \ar [l]
+         \ar [r,squiggly,swap," \exp "]
+      &  \mathcal {O} ^*[-1]
+         \ar [u,swap," \mathrm {d} \log "]
+     \end {tikzcd}
+\end{document}

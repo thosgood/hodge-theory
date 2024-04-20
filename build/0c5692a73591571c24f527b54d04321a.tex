@@ -1,0 +1,25 @@
+\documentclass[crop,dvisvgm]{standalone}
+
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  
+\begin{document}
+\begin {tikzcd} 
+        A/F^n(A)
+        && A/ F^{n+1}(A)
+           \ar [ll]
+        && 0
+       \\ & A
+           \ar [ul]  \ar [ur]
+        &&  \operatorname {Gr} ^n(A)
+           \ar [ul]  \ar [ur]
+        && (1.1.7.1)
+       \\ F^{n+1}(A)
+           \ar [ur]  \ar [rr]
+        && F^n(A)
+           \ar [ul]  \ar [ur]
+        && 0
+           \ar [ul]
+       \end {tikzcd}
+\end{document}

@@ -24,7 +24,11 @@
 }
 
 \def\tikzcd[body]{
-  \tex{\usepackage{amsmath,tikz-cd}}{\begin{tikzcd}\body\end{tikzcd}}
+  \tex{
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{tikz-cd}
+  }{\begin{tikzcd}\body\end{tikzcd}}
 }
 
 \def\from{#{\leftarrow}}
@@ -47,6 +51,7 @@
 \def\HH{#{\operatorname{H}}}
 \def\bHH{#{\operatorname{\mathbb{H}}}}
 \def\sHH{#{\operatorname{\mathscr{H}}}}
+\def\Im{#{\operatorname{Im}}}
 \def\Coim{#{\operatorname{Coim}}}
 \def\Coker{#{\operatorname{Coker}}}
 \def\simto{#{\xrightarrow{\sim}}}
@@ -55,10 +60,6 @@
 \def\iHom{#{\underline{\Hom}}}
 \def\Dec{#{\operatorname{Dec}}}
 \def\Rd{#{\operatorname{R}}}
-
-\def\Im{#{\operatorname{Im}}}
-\def\Coim{#{\operatorname{Coim}}}
-\def\Ker{#{\operatorname{Ker}}}
 
 \def\Gm{#{\mathbb{G}_\mathrm{m}}}
 \def\Gal{#{\operatorname{Gal}}}

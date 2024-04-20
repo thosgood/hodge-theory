@@ -155,3 +155,80 @@
     }
   }
 }
+
+\subtree[hodge-theory-ii-2.2.5]{
+  \number{2.2.5}
+
+  \p{
+    We will prove:
+
+    \subtree[hodge-theory-ii-2.2.5.1]{
+      \number{2.2.5.1}
+      \p{
+        For #{\alpha} the natural injection of #{\ZZ(1)} into #{\CC}, we have
+        ##{
+          -\alpha c''_1(\mathcal{L})
+          = c'_1(\mathcal{L}).
+        }
+      }
+    }
+
+    \subtree[hodge-theory-ii-2.2.5.2]{
+      \number{2.2.5.2}
+      \p{
+        For #{\bta} the natural injection of #{\ZZ} into #{\CC}, we have
+        ##{
+          -\beta c'''_1(\mathcal{L})
+          = \frac{1}{2\pi i}c'_1(\mathcal{L}).
+        }
+      }
+    }
+  }
+
+  \p{
+    We prove this by considering the following diagram of complexes, in which #{\approx} denotes a quasi-isomorphism, and whose upper triangle anti-commutes up to homotopy:
+    ##{
+      \begin{CD}
+        \CC @>\approx>> \Omega_X^\bullet @<<< \sigma_{\geqslant1}(\Omega_X^\bullet)
+      \\@| @. @|
+      \\\CC @<<< (\CC\to\OO) @>\approx>\dd> \sigma_{\geqslant1}(\Omega_X^\bullet)
+      \\@AAA @AAA @AA{\dd\log}A
+      \\\ZZ(1) @<<< (\ZZ(1)\to\OO) @>\approx>\exp> \OO^*[-1]
+      \end{CD}
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-2.2.6]{
+  \number{2.2.6}
+
+  \p{
+    Let #{X} be a non-singular projective variety of pure dimension #{n}.
+    A choice of #{i} defines an orientation of #{X} and an isomorphism #{\ZZ(1)\simeq\ZZ}.
+    The corresponding trace morphism
+    ##{
+      \HH^{2n}(X,\ZZ(n)) \to \ZZ
+    }
+    that is induced does not depend on the choice of #{i}.
+  }
+
+  \p{
+    By Hodge, for #{i\leqslant n}, the morphism
+    ##{
+      L^{n-i}
+      = -\wedge c''_1(\OO(1))^{n-i}\colon
+      \HH^i(X,\ZZ) \to \HH^{2n-i}(X,\ZZ(n-i))
+    }
+    is an isomorphism, and, combined with Poincaré duality
+    ##{
+      \HH^i(X,\ZZ)\otimes\HH^{2n-i}(X,\ZZ(n-i))
+      \to \HH^{2n}(X,\ZZ(n-i))
+      \to \ZZ(-i)
+    }
+    gives a polarisation on the \em{primitive part} #{\Ker(L^{n-i+1})} of #{\HH^i(X,\ZZ)}.
+  }
+
+  \p{
+    We thus deduce that the rational Hodge structures #{\HH^i(X,\QQ)} are polarisable.
+  }
+}

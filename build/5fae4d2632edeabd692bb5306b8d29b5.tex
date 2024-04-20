@@ -1,0 +1,14 @@
+\documentclass[crop,dvisvgm]{standalone}
+\usepackage {amsmath,amssymb,tikz-cd}
+\begin{document}
+\begin {tikzcd} 
+      &  \operatorname {H} ^n \operatorname {Gr} _W^q K
+         \ar [Rightarrow,dr,"{}_Wd_1"]
+     \\ \operatorname {H} ^n \operatorname {Gr} _F^p \operatorname {Gr} _W^q K
+         \ar [Rightarrow,ur,"{}_{F,W}d_1"]
+         \ar [Rightarrow,dr,swap,"{}_{W,F}d_1"]
+      &&  \operatorname {H} ^n K
+     \\ &  \operatorname {H} ^n \operatorname {Gr} _F^p K
+         \ar [Rightarrow,ur,swap,"{}_Fd_1"]
+     \end {tikzcd}
+\end{document}
