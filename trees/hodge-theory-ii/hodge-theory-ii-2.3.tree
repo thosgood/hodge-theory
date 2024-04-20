@@ -10,5 +10,20 @@
 
   \p{
     \oldpage{30}
+    A \em{mixed Hodge structure #{H} consists of}
+
+    \olc{
+      \lic{a.}{
+        A #{\ZZ}-module #{H_\ZZ} of finite type, called the "\em{integral lattice}";
+      }
+      \lic{b.}{
+        A finite increasing filtration #{W_n} on #{H_\QQ=\QQ\otimes_\ZZ H_\ZZ}, called the \em{weight filtration};
+      }
+      \lic{c.}{
+        A finite filtration #{F^p} on #{H_\CC=\CC\otimes_\ZZ H_\ZZ}, called the \em{Hodge filtration}.
+      }
+    }
+
+    We demand that, on #{H_\CC}, the filtration #{W_\CC} induced by extension of scalars of #{W}, the filtration #{F}, and the complex conjugate #{\bar{F}} form a system #{(W_\CC,F,\bar{F})} of three opposite filtrations (\ref{hodge-theory-ii-1.2.7} and \ref{hodge-theory-ii-1.2.13}).
   }
 }
