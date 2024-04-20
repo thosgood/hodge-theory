@@ -8,6 +8,40 @@
   \number{2.2.1}
 
   \p{
-    Let
+    Let #{X} be a compact Kähler variety (for example, smooth and projective).
+    By the holomorphic Poincaré lemma, the de Rham complex #{\Omega_X^\bullet} is a resolution of the constant sheaf #{\CC}.
+    We thus have an isomorphism (\ref{hodge-theory-ii-1.4.2})
+    ##{
+      \HH^\bullet(X,\CC)
+      \sim \bHH^\bullet(X,\Omega_X^\bullet)
+    }
+    and the stupid filtration on #{\Omega_X^\bullet} (\ref{hodge-theory-ii-1.4.5}) defines the hypercohomology spectral sequence
+
+    \subtree[hodge-theory-ii-2.2.1.1]{
+      \taxon{equation}
+      \number{2.2.1.1}
+      ##{
+        E_1^{pq}
+        = \HH^q(X,\Omega_X^q)
+        \To \HH^{p+q}(X,\CC)
+      \startverb\tag{2.2.1.1}\stopverb
+      }
+    }
+
+    which abuts to the \em{Hodge filtration} of #{\HH^\bullet(X,\CC)}.
+  }
+
+  \p{
+    \oldpage{28}
+    By Hodge theory [[H1952](H1952); [W1958](W1958)], we have:
+
+    \olc{
+      \lic{A.}{
+        The spectral sequence \ref{hodge-theory-ii-2.2.1.1} degenerates: #{E_1=E_\infty}.
+      }
+      \lic{B.}{
+        The Hodge filtration of #{\HH^n(X,\CC)} is #{n}-opposite to the complex conjugate filtration.
+      }
+    }
   }
 }
