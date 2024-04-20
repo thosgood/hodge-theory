@@ -1,4 +1,4 @@
-# Deligne's Hodge Theory I, II, and III
+# Deligne's "Hodge Theory I, II, and III"
 
 This is an English translation of P. Deligne's three papers on Hodge theory:
 
