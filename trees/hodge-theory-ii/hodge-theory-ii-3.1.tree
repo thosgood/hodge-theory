@@ -68,7 +68,7 @@
     We have
     ##{
       \varepsilon^n
-      \simeq \wedge^n \CC^{E_n}.
+      \simeq \bigwedge^n \CC^{E_n}.
     }
   }
 
@@ -91,7 +91,7 @@
       \number{3.1.4.1}
       ##{
         \varepsilon_X^n
-        \simeq \wedge^n\varepsilon_X^1
+        \simeq \bigwedge^n\varepsilon_X^1
         \qquad\text{for }n\geqslant0.
       \startverb\tag{3.1.4.1}\stopverb
       }
@@ -154,7 +154,7 @@
   \number{3.1.6}
 
   \p{
-    The interpretation that follows, in terms of \ref{hodge-theory-ii-3.1.5.2}, of the Leray spectral sequence for the inclusion of #{X^*} into #{X}, was pointed out to me by N. Katz.
+    The interpretation that follows, in terms of \fref{hodge-theory-ii-3.1.5.2}, of the Leray spectral sequence for the inclusion of #{X^*} into #{X}, was pointed out to me by N. Katz.
     It will allow us to prove a point that I had initially considered as evident (the first part of (ii) of \fref{hodge-theory-ii-3.2.5}).
   }
 }
@@ -165,7 +165,7 @@
   \p{
     \oldpage{33}
     Every point of #{X} admits a fundamental system of Stein open neighbourhoods whose intersections on #{X^*} are again Stein.
-    For a coherent analytic sheaf #{\mathscr{F}} on #{X^*}, we thus have #{\Rd^i j_*\mathscr{F}=0} for #{i>0}.
+    For a coherent analytic sheaf #{\sh{F}} on #{X^*}, we thus have #{\Rd^i j_*\sh{F}=0} for #{i>0}.
     The de Rham complex #{\Omega_{X^*}^\bullet} is thus a resolution of the constant sheaf #{\CC} by sheaves acyclic for the functor #{j_*}.
     Then
 
@@ -180,5 +180,190 @@
     }
 
     and the Leray spectral sequence for the morphism #{j} can be identified with the hypercohomology spectral sequence for #{j_*\Omega_{X^*}^\bullet} corresponding to the filtration #{\tau} by the subcomplexes #{\tau_{\leqslant -n}(j_*\Omega_{X^*}^\bullet)} (\ref{hodge-theory-ii-1.4.6}).
+  }
+}
+
+\subtree[hodge-theory-ii-3.1.8]{
+  \taxon{proposition}
+  \number{3.1.8}
+
+  \p{
+    The morphisms of filtered complexes
+    ##{
+      (\Omega_X^\bullet\langle Y\rangle, W)
+      \xleftarrow{\alpha} (\Omega_X^\bullet\langle Y\rangle, \tau)
+      \xhookrightarrow{\beta} (j_*\Omega_{X^*}^\bullet, \tau)
+    }
+    are filtered quasi-isomorphisms.
+    They define an isomorphism between the Leray spectral sequence for #{j} in complex cohomology and the hypercohomology spectral sequence of the filtered complex #{(\Omega_X^\bullet\langle Y\rangle, W)} on #{X}.
+  }
+
+  \proof{
+    \p{
+      By \ref{hodge-theory-ii-1.4.5} and \ref{hodge-theory-ii-3.1.7}, it suffices to prove the first claim.
+      In [[D1970](D1970), II, (6.9)] or [[AH1955](AH1955)], one can find a proof of the fact that #{\beta} is a quasi-isomorphism, and thus a filtered quasi-isomorphism.
+      We can also directly calculate the cohomology sheaves of the two sides: those of #{\Omega_X^\bullet\langle Y\rangle} are determined by \fref{hodge-theory-ii-3.1.5.2}, while those of #{j_*\Omega_{X^*}^\bullet} are the #{\Rd^ij_*\CC}, which can be calculated by topological methods.
+    }
+
+    \p{
+      For #{n\geqslant p}, we have
+      ##{
+        W_n(\Omega_X^p\langle Y\rangle)
+        = \Omega_X^p\langle Y\rangle
+      }
+      and so #{\alpha} is a morphism from #{\Omega_X^\bullet\langle Y\rangle}, endowed with #{\tau}, to #{\Omega_X^\bullet\langle Y\rangle}, endowed with the decreasing filtration associated to #{W} (\ref{hodge-theory-ii-1.1.3}).
+      By \fref{hodge-theory-ii-3.1.5.2}, we have
+
+      \subtree[hodge-theory-ii-3.1.8.1]{
+        \taxon{equation}
+        \number{3.1.8.1}
+        ##{
+          \sHH^i(\Gr_n^W(\Omega_X^\bullet\langle Y\rangle)) =
+          \begin{cases}
+            0 &\text{for }i\neq n
+          \\\varepsilon_X^n &\text{for }i=n
+          \end{cases}
+        \startverb\tag{3.1.8.1}\stopverb
+        }
+      }
+
+      and we deduce from the first line of this equation that #{\alpha} is a filtered quasi-isomorphism.
+      This proves \ref{hodge-theory-ii-3.1.8}.
+    }
+  }
+
+  \p{
+    By \ref{hodge-theory-ii-3.1.7}, the isomorphism \ref{hodge-theory-ii-3.1.8.1} defines an isomorphism
+
+    \subtree[hodge-theory-ii-3.1.8.2]{
+      \taxon{equation}
+      \number{3.1.8.2}
+      ##{
+        \Rd^n j_*\CC
+        \simeq \sHH^n(j_*\Omega_{X^*}^\bullet)
+        \simeq \sHH^n(\Omega_X^\bullet\langle Y\rangle)
+        \simeq \varepsilon_X^n.
+      \startverb\tag{3.1.8.2}\stopverb
+      }
+    }
+
+    The isomorphisms \ref{hodge-theory-ii-3.1.4.1} correspond, via \ref{hodge-theory-ii-3.1.8.1}, to the cup product.
+  }
+}
+
+\subtree[hodge-theory-ii-3.1.9]{
+  \taxon{proposition}
+  \number{3.1.9}
+
+  \p{
+    The canonical morphism from #{\Rd^nj_*\ZZ} to #{\Rd^nj_*\CC} identifies, via \ref{hodge-theory-ii-3.1.8.2}, the sheaf #{\Rd^nj_*\ZZ} with #{(\varepsilon_X^n)_\ZZ} (\ref{hodge-theory-ii-3.1.4}).
+  }
+
+  \proof{
+    \p{
+      The question is local on #{X}.
+      We can thus suppose that #{X} is an open polycylinder #{D^m}, with
+      ##{
+        D
+        = \{z\in\CC \mid |z|<1\}
+      }
+      and also that #{Y=\bigcup_{k=1}^\ell Y_k} with #{Y_k=\pr_k^{-1}(0)}.
+      The fibre at #{0} of #{\Rd^nj_*\ZZ} is then the integer cohomology of #{X^*=(D^*)^\ell\times D^{m-\ell}}, with
+      ##{
+        D^*
+        = \{z\in\CC \mid 0<|z|<1\}.
+      }
+      \oldpage{34}
+      The space #{X^*} has the homotopy type of a torus;
+      its cohomology is thus torsion free, and the cup product defines isomorphisms
+      ##{
+        \bigwedge^n(\Rd^1j_*\ZZ)
+        \simto (\Rd^nj_*\ZZ)_0.
+      }
+      It thus suffices to prove \ref{hodge-theory-ii-3.1.9} for #{n=1}.
+    }
+
+    \p{
+      The integer homology #{\HH_1(X^*)} is generated by the loops #{\gamma_k} that go around the various #{Y_k}.
+      We have
+      ##{
+        \oint_{\gamma_k} \frac{\dd z_k}{z_k}
+        = \pm2\pi i
+      }
+      and so the integer cohomology is generated by the #{\frac{1}{2\pi i}\frac{\dd z_k}{z_k}}, and this proves \ref{hodge-theory-ii-3.1.9}.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-3.1.10]{
+  \number{3.1.10}
+
+  \p{
+    Let #{\sh{F}} be a coherent analytic sheaf on #{X^*}, given as the restriction to #{X^*} of a coherent analytic sheaf #{\sh{F}'} on #{X}.
+    We define the \em{meromorphic direct image} #{j_*^\mm\sh{F}} of #{\sh{F}} to be the inductive limit
+    ##{
+      j_*^\mm\sh{F}
+      = \varinjlim\sh{F}'(nY).
+    }
+  }
+
+  \p{
+    Locally on #{X}, #{Y} is the sum of a finite family #{(Y_i)_{i\in I}} of smooth divisors, and we define the \em{pole-order filtration} #{P} on #{j_*^\mm\OO_X^*} by the equation
+
+    \subtree[hodge-theory-ii-3.1.10.1]{
+      \taxon{equation}
+      \number{3.1.10.1}
+      ##{
+        P^p(j_*^\mm\OO_{X^*})
+        = \sum_{n\in A_p} \OO_X\left(\sum(n_i+1)Y_i\right)
+      \startverb\tag{3.1.10.1}\stopverb
+      }
+    }
+
+    where
+    ##{
+      A_p
+      = \left\{(n_i)_{i\in I} \mid \sum_i n_i\leqslant -p \text{ and } n_i\geqslant0\text{ for all } i\right\}.
+    }
+    This construction globalises by endowing #{j_*^\mm\OO_{X^*}} with an exhaustive filtration such that #{P^p=0} for #{p>0}.
+  }
+
+  \p{
+    We define the \em{pole-order filtration} of the complex #{j_*^\mm\Omega_{X^*}^\bullet=j_*^\mm\OO_{X^*}\otimes\Omega_X^\bullet} to be the filtration
+
+    \subtree[hodge-theory-ii-3.1.10.2]{
+      \taxon{equation}
+      \number{3.1.10.2}
+      ##{
+        P^p(j_*^\mm\Omega_{X^*}^k)
+        = P^{p-k}(j_*^\mm\OO_X)\otimes\Omega_X^k.
+      \startverb\tag{3.1.10.2}\stopverb
+      }
+    }
+  }
+
+  \p{
+    The filtration #{P} induces, on the subcomplex #{\Omega_X^\bullet\langle Y\rangle} of #{j_*^\mm\Omega_{X^*}^\bullet}, the stupid filtration by the #{\sigma_{\geqslant p}(\Omega_X^\bullet\langle Y\rangle)}, which we also call the \em{Hodge filtration} #{F}.
+  }
+}
+
+\subtree[hodge-theory-ii-3.1.11]{
+  \taxon{proposition}
+  \number{3.1.11}
+
+  \p{
+    The inclusion morphism
+    ##{
+      (\Omega_X^\bullet\langle Y\rangle, F)
+      \to (j_*^\mm\Omega_{X_*}^\bullet, P)
+    }
+    is a filtered quasi-isomorphism.
+  }
+
+  \proof{
+    \p{
+      This statement was suggested to me by [[G1969](G1969)].
+      A proof can be found in [[D1970](D1970), II, (3.13)].
+    }
   }
 }
