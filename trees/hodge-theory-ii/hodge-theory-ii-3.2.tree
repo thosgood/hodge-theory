@@ -8,7 +8,7 @@
 
 \p{
   \em{
-    We recall that, from here on, we say "scheme" to mean a scheme of finite typo over #{\CC}, and "sheaf on #{S}" to mean a sheaf on #{S^\an}.
+    We recall that, from here on, we say "scheme" to mean a scheme of finite type over #{\CC}, and "sheaf on #{S}" to mean a sheaf on #{S^\an}.
   }
 }
 
@@ -26,5 +26,100 @@
     \oldpage{35}
     The smooth completion #{\bar{X}} can then be chosen to be projective and such that #{Y} is the union of smooth divisors.
     If we limit ourselves to such compactifications, then we only need Hodge theory in its standard form (\ref{hodge-theory-ii-2.2.1}).
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.2]{
+  \number{3.2.2}
+
+  \p{
+    By \ref{hodge-theory-ii-3.1.7} and \ref{hodge-theory-ii-3.1.8}, we have
+    ##{
+      \HH^\bullet(X,\CC)
+      \simeq \bHH^\bullet(\bar{X},\Omega_{\bar{X}}^\bullet\langle Y\rangle).
+    }
+    We define the \em{Hodge filtration} #{F} on the complex #{\Omega_{\bar{X}}^\bullet\langle Y\rangle} as the filtration #{F^p=\sigma_{\geqslant p}} given by the stupid truncations (\ref{hodge-theory-ii-1.4.5}).
+    On #{\Omega_{\bar{X}}^\bullet\langle Y\rangle}, we thus have two filtrations: #{F} and #{W} (\ref{hodge-theory-ii-3.1.5}).
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.3]{
+  \number{3.2.3}
+
+  \p{
+    We will need to make use of the fact that there exist bifiltered resolutions #{i\colon\Omega_{\bar{X}}^\bullet\langle Y\rangle\to K^\bullet} such that the #{\Gr_F^p\Gr_n^W(K^j)} are #{\Gamma}-acyclic sheaves:
+    ##{
+      \HH^i(\bar{X},\Gr_F^p\Gr_n^W(K^j))
+      = 0
+      \qquad\text{for }i>0.
+    }
+  }
+
+  \p{
+    Here are two methods to construct such a resolution:
+
+    \olc{
+      \lic{a.}{
+        We can take #{K^\bullet} to be the canonical Godement resolution #{\mathscr{C}^\bullet(\Omega_{\bar{X}}^\bullet\langle Y\rangle)}, filtered by the #{\mathscr{C}^\bullet(W_n(\Omega_{\bar{X}}\langle Y\rangle))} and the #{\mathscr{C}^\bullet(F^p(\Omega_{\bar{X}}^\bullet\langle Y\rangle))}.
+        This is a bifiltered resolution since #{\mathscr{C}^\bullet} is an exact functor.
+      }
+
+      \lic{b.}{
+        We can take #{K^\bullet} to be the #{\dd''}-resolution of #{\Omega_{\bar{X}}^\bullet\langle Y\rangle}.
+        Let #{\Omega_{\bar{X}}^{pq}} be the sheaf of #{C^\infty} forms of type #{(p,q)};
+        then #{K^\bullet} is the simple complex associated to the double complex of the #{\Omega_{\bar{X}}^p\langle Y\rangle\otimes_\OO\Omega_{\bar{X}}^{0,q}} (a subcomplex of the #{j_*\Omega_X^{\bullet\bullet}}).
+        This complex is filtered by the #{F^p(\Omega_{\bar{X}}^\bullet\langle Y\rangle)\otimes\Omega_{\bar{X}}^{0,\bullet}} and by the #{W_n(\Omega_{\bar{X}}^\bullet\langle Y\rangle)\otimes\Omega_{\bar{X}}^{0,\bullet}};
+        to prove that this is a bifiltered resolution, we use the fact that the sheaf #{\OO_\infty} of complex #{C^\infty} functions on #{\bar{X}} is flat over #{\OO} (a corollary of the Malgrange #{C^\infty} preparation theorem).
+        The sheaves #{\Gr_F\Gr_W(K^\bullet)} are fine, since they are sheaves of modules over the soft sheaf #{\OO_\infty}.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.4]{
+  \number{3.2.4}
+
+  \p{
+    With the notation of \ref{hodge-theory-ii-3.2.3}, the complex cohomology of #{X} appears as the cohomology of the bifiltered complex #{\Gamma(\bar{X},K^\bullet)}.
+    We thus have two spectral sequences abutting to #{\HH^\bullet(X,\CC)}.
+    They can be written, with the notation of \ref{hodge-theory-ii-3.1.4}, as:
+
+    \subtree[hodge-theory-ii-3.2.4.1]{
+      \taxon{equation}
+      \number{3.2.4.1}
+      ##{
+        {}_WE_1^{pq}
+        = \bHH^{p+q}(\bar{X},\varepsilon_{\bar{X}}^{-p}[p])
+        = \bHH^{2p+q}(\widetilde{Y}^p,\varepsilon^{-q})
+        \To \HH^n(X,\CC)
+      \startverb\tag{3.2.4.1}\stopverb
+      }
+    }
+
+    \subtree[hodge-theory-ii-3.2.4.2]{
+      \taxon{equation}
+      \number{3.2.4.2}
+      ##{
+        {}_FE_1^{pq}
+        = \HH^q(\bar{X},\Omega_{\bar{X}}^p\langle Y\rangle)
+        \To \HH^n(X,\CC).
+      \startverb\tag{3.2.4.2}\stopverb
+      }
+    }
+
+    The first of these, up to the renumbering #{{}_WE_1^{pq}\mapsto E_2^{2p+q,-p}}, is exactly the Leray spectral sequence of the inclusion #{j}.
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.5]{
+  \taxon{theorem}
+  \number{3.2.5}
+
+  \olc{
+    \lic{i.}{}
+
+    \lic{ii.}{}
+
+    \lic{iii.}{}
   }
 }
