@@ -133,5 +133,43 @@
 
 \p{
     \oldpage{36}
-    By
+    By \ref{hodge-theory-ii-3.1.7}, the spectral sequence #{{}_WE} is the Leray spectral sequence for #{j_*} (up to renumbering).
+    It is thus induced by tensoring a #{\QQ}-vectorial spectral sequence with #{\CC}, and so the first claim of (ii) is true.
+    Complex conjugation acts on the #{{}_WE};
+    it can be calculated via \ref{hodge-theory-ii-3.1.10}.
+}
+
+\subtree[hodge-theory-ii-3.2.6]{
+  \taxon{lemma}
+  \number{3.2.6}
+
+  \p{
+    The hypercohomology spectral sequences of the filtered complexes #{\Gr_n^W(\Omega_{\bar{X}}^\bullet\langle Y\rangle)}, endowed with the filtration induced by the Hodge filtration, degenerate at the #{E_1} page.
+  }
+
+  \proof{
+    \p{
+      Define the #{Y^n} and the #{\widetilde{Y}^n} as in \ref{hodge-theory-ii-3.1.4}, and let #{i_n\colon\widetilde{Y}^n\to X}.
+      By \fref{hodge-theory-ii-3.1.5.2}, we have
+      ##{
+        \Gr_n^W(\Omega_{\bar{X}}^\bullet\langle Y\rangle)
+        \sim (i_n)_*\Omega_{\widetilde{Y}^n}^\bullet(\varepsilon^n)[-n].
+      }
+      Furthermore, the Hodge filtration induces the stupid filtration (\ref{hodge-theory-ii-1.4.5}), and so the spectral sequence in \ref{hodge-theory-ii-3.2.6} is given by translations of the degrees of the classical spectral sequence
+      ##{
+        E_1^{pq}
+        = \HH^q(\widetilde{Y}^n,\Omega_{\widetilde{Y}^n}^p(\varepsilon^n))
+        \To \HH^{p+q}(\widetilde{Y}^n,\varepsilon^n).
+      }
+    }
+
+    \p{
+      If #{\bar{X}} is projective and #{Y} the union of smooth divisors, then #{\widetilde{Y}^n} is projective, #{\varepsilon^n} is a trivial local system, and classical Hodge theory (\ref{hodge-theory-ii-2.2.1}) gives the degeneration claimed in \ref{hodge-theory-ii-3.2.6}.
+      For the general case, refer to [[D1968](D1968)] (see also \ref{hodge-theory-ii-2.2.2} and \ref{hodge-theory-ii-2.2.3}).
+    }
+  }
+}
+
+\p{
+  Hodge theory also
 }
