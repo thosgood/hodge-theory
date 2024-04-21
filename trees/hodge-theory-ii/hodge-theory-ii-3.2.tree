@@ -6,4 +6,25 @@
 
 \put\transclude/numbered{false}
 
+\p{
+  \em{
+    We recall that, from here on, we say "scheme" to mean a scheme of finite typo over #{\CC}, and "sheaf on #{S}" to mean a sheaf on #{S^\an}.
+  }
+}
 
+\subtree[hodge-theory-ii-3.2.1]{
+  \number{3.2.1}
+
+  \p{
+    Let #{X} be a smooth and separated scheme.
+    By Nagata [[N1962](N1962)], #{X} is a Zariski open of a complete scheme #{\bar{X}}.
+    By Hironaka [[H1964](H1964)], we can take #{\bar{X}} to be smooth and such that #{Y=\bar{X}\setminus X} is a normal crossing divisor.
+  }
+
+  \p{
+    The reader who wishes to avoid the reference to Nagata can suppose #{X} to be quasi-projective.
+    \oldpage{35}
+    The smooth completion #{\bar{X}} can then be chosen to be projective and such that #{Y} is the union of smooth divisors.
+    If we limit ourselves to such compactifications, then we only need Hodge theory in its standard form (\ref{hodge-theory-ii-2.2.1}).
+  }
+}
