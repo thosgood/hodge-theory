@@ -171,5 +171,163 @@
 }
 
 \p{
-  Hodge theory also
+  Hodge theory also tells us that the Hodge filtration on #{\HH^k(\widetilde{Y}^n,\varepsilon^n)} is #{k}-opposite to its complex conjugate (the complex conjugate being defined in terms of #{\varepsilon_\ZZ^n} (\ref{hodge-theory-ii-3.1.4})).
+  We have, taking into account the translations of the degrees:
+}
+
+\subtree[hodge-theory-ii-3.2.7]{
+  \taxon{lemma}
+  \number{3.2.7}
+
+  \p{
+    The filtration on
+    ##{
+      {}_WE_1^{-n,k+n}
+      = \bHH^k(\bar{X},\Gr_n^W(\Omega_{\bar{X}}^\bullet\langle Y\rangle))
+      \approx \HH^{k-n}(\widetilde{Y}^n,\varepsilon^n)
+    }
+    which is the abutment of the spectral sequence in \ref{hodge-theory-ii-3.2.6} is #{(k+n)}-opposite to its complex conjugate.
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.8]{
+  \taxon{lemma}
+  \number{3.2.8}
+
+  \p{
+    The differentials #{d_1} of the spectral sequence #{{}_WE} are strictly compatible with the filtration #{F}.
+  }
+
+  \proof{
+    \p{
+      On the #{E_1} pages, there is only the filtration induced by #{F} to consider (\ref{hodge-theory-ii-1.3.10} and (iii) of \ref{hodge-theory-ii-1.3.13}), and #{d_1} is compatible with this filtration ((i) of \ref{hodge-theory-ii-1.3.13}).
+      This filtration is the abutment of the spectral sequence in \ref{hodge-theory-ii-3.2.6} ((ii) of \ref{hodge-theory-ii-1.4.8}).
+      By \ref{hodge-theory-ii-3.2.7}, the arrow
+      ##{
+        d_1\colon
+        \bHH^k(\bar{X},\Gr_n^W(\Omega_{\bar{X}}^\bullet\langle Y\rangle))
+        \to \bHH^{k+1}(\bar{X},\Gr_{n-1}^W(\Omega_{\bar{X}}^\bullet\langle Y\rangle))
+      }
+      or
+
+      \subtree[hodge-theory-ii-3.2.8.1]{
+        \taxon{equation}
+        \number{3.2.8.1}
+        ##{
+          d_1\colon
+          \HH^{k-n}(\widetilde{Y}^n,\varepsilon^n)
+          \to \HH^{k-n+1}(\widetilde{Y}^{n-1},\varepsilon^{n-1})
+        \startverb\tag{3.2.8.1}\stopverb
+        }
+      }
+
+      is compatible with the filtrations that are #{(k+n)}-opposite to their complex conjugate.
+      Since #{d_1} commutes up to complex conjugation, #{d_1} respects the bigrading (of weight #{k+n}) defined by #{F} and #{\bar{F}}, which proves \ref{hodge-theory-ii-3.2.8}.
+    }
+  }
+}
+
+\p{
+  Furthermore, the cohomology of the complex #{E_1} is again bigraded:
+}
+
+\subtree[hodge-theory-ii-3.2.9]{
+  \taxon{lemma}
+  \number{3.2.9}
+
+  \p{
+    The recurrent filtration #{F} on #{{}_WE_2^{pq}} is #{q}-opposite to its complex conjugate.
+  }
+}
+
+\p{
+  We prove by induction on #{r} that:
+}
+
+\subtree[hodge-theory-ii-3.2.10]{
+  \taxon{lemma}
+  \number{3.2.10}
+
+  \p{
+    For #{r\geqslant0}, the differentials #{d_r} of the spectral sequence #{{}_WE} are strictly compatible with the recurrent filtration #{F}.
+    For #{r\geqslant2}, they are zero.
+  }
+
+  \proof{
+    \p{
+      \oldpage{37}
+      For #{r=0} (resp. #{r=1}) we apply \ref{hodge-theory-ii-3.2.6} and (iii) of \ref{hodge-theory-ii-1.4.8} (resp. \ref{hodge-theory-ii-3.2.8}).
+      For #{r\geqslant2}, it suffices to prove that #{d_r=0}.
+      By induction, and following \ref{hodge-theory-ii-1.3.16}, we can assume that, on the pages #{{}_WE^s} (for #{s\geqslant r+1}), we have #{F_d=F_r=F_{d^*}}, and that #{{}_WE_r={}_WE_2}.
+      By (i) of \ref{hodge-theory-ii-1.3.13}, #{d_r} is thus compatible with the filtration #{F_r}.
+    }
+
+    \p{
+      On #{{}_WE_r^{pq}={}_WE_2^{pq}}, the filtration #{F_r} is #{q}-opposite to its complex conjugate.
+      The morphism
+      ##{
+        d_r\colon {}_WE_r^{pq}
+        \to {}_WE_r^{p+r,q-r+1}
+      }
+      thus satisfies, for #{r-1>0},
+      ##{
+        \begin{aligned}
+          d_r({}_WE_r^{pq})
+          &= d_r\left(
+            \sum_{a+b=q} \Big(
+              F^a({}_WE_r^{pq}) \cap \bar{F}^b({}_WE_r^{pq})
+            \Big)
+          \right)
+        \\&\subset \sum_{a+b=q} \Big(
+            F^a({}_WE_r^{p+r,q-r+1}) \cap \bar{F}^b({}_WE_r^{p+r,q-r+1})
+          \Big)
+        \\&= 0.
+        \end{aligned}
+      }
+    }
+
+    \p{
+      This proves \ref{hodge-theory-ii-3.2.10}.
+    }
+  }
+}
+
+\p{
+  \ref{hodge-theory-ii-3.2.10}, using \ref{hodge-theory-ii-1.3.16}, proves (i) of \ref{hodge-theory-ii-3.2.5}.
+}
+
+\p{
+  By \ref{hodge-theory-ii-1.3.17}, the filtration on #{{}_WE_\infty^{pq}} induced by the filtration #{F} of #{\HH^{p+q}(X,\CC)} is #{q}-opposite to its complex conjugate.
+  Since #{q=-p+(p+q)}, this proves the first part of (iii) of \ref{hodge-theory-ii-3.2.5}
+}
+
+\subtree[hodge-theory-ii-3.2.11]{
+  \number{3.2.11}
+
+  \p{
+    We now prove (ii) and (iii) of \ref{hodge-theory-ii-3.2.5}, which will finish the proof.
+  }
+
+  \olc{
+    \lic{A.}{
+      \p{
+        \em{Independence from the choice of #{K^\bullet}.}
+      }
+
+      \p{
+        The filtrations #{F} and #{W} of #{\HH^\bullet(X,\CC)} are the abutments of the hypercohomology spectral sequences of #{\Omega_{\bar{X}}^\bullet\langle Y\rangle} for the filtrations #{F} and #{W}.
+        These whole spectral sequences do not depend on the choice of #{K^\bullet}.
+      }
+    }
+
+    \lic{B.}{
+      \p{
+        \em{Functoriality.}
+      }
+
+      \p{
+        Let
+      }
+    }
+  }
 }
