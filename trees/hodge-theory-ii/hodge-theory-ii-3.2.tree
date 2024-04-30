@@ -353,8 +353,82 @@
       }
 
       \p{
-        With
+        With the notation of (B), if #{f} is an isomorphism, then #{f^*} is a bijective morphism of mixed Hodge structures, and thus an isomorphism (\ref{hodge-theory-ii-2.3.5}).
       }
+
+      \p{
+        If #{\bar{X}_1} and #{\bar{X}_2} are two smooth compactifications of #{X}, with #{Y_i=\bar{X}_i\setminus X} smooth crossing divisors, then there exists a third smooth compactification #{\bar{X}}, with #{Y=\bar{X}\setminus X} a smooth crossing divisor, that fits into a commutative diagram
+        \oldpage{38}
+        \tikzcd{
+          & X \ar[dl,hook] \ar[d,hook] \ar[dr,hook]
+        \\\bar{X}_1
+          & \bar{X} \ar[l] \ar[r]
+          & \bar{X}_2
+        }
+        Namely, we can take #{\bar{X}} to be a resolution of singularities of the closure of the diagonal image of #{X} in #{\bar{X}_1\times\bar{X}_2}.
+        The identity map from #{\HH^n(X,\ZZ)} endowed with the mixed Hodge structure defined by #{\bar{X}_1} to #{\HH^n(X,\ZZ)} endowed with the mixed Hodge structure defined by #{\bar{X}_2} is thus the composite of two isomorphisms.
+      }
+    }
+  }
+
+  \p{
+    To finish the proof of (ii) and (iii), we note that every morphism #{f} fits into a diagram of the form in \ref{hodge-theory-ii-3.2.11.1}: we choose compactifications #{\bar{X}'_1} and #{\bar{X}_2} of #{X_1} and #{X_2}, then we take #{\bar{X}_1} to be a resolution of singularities of the closure of the image of #{X_1} in #{\bar{X}'_1\times\bar{X}_2}.
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.12]{
+  \taxon{definition}
+  \number{3.2.12}
+
+  \p{
+    The \em{mixed Hodge structure of the cohomology of a smooth separated algebraic variety} is the mixed Hodge structure from (iii) of \ref{hodge-theory-ii-3.2.5}.
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.13]{
+  \taxon{corollary}
+  \number{3.2.13}
+
+  \p{
+    With the above notation:
+
+    \olc{
+      \lic{i.}{
+        The spectral sequence in \ref{hodge-theory-ii-3.2.4.1} degenerates at #{E_2}, i.e. the Leray spectral sequence for the inclusion #{j\colon X^*\hookrightarrow X} degenerates at #{E_3} (i.e. #{E_3=E_\infty}).
+      }
+
+      \lic{ii.}{
+        The spectral sequence in \ref{hodge-theory-ii-3.2.4.2}
+        ##{
+          {}_FE_1^{pq}
+          = \HH^q(\bar{X},\Omega_{\bar{X}}^p\langle Y\rangle)
+          \To \HH^{p+q}(X,\CC)
+        }
+        degenerates at #{E_1}.
+      }
+
+      \lic{iii.}{
+        The spectral sequence defined by the sheaf #{\Omega_X^p\langle Y\rangle}, endowed with the filtration #{W}
+        ##{
+          \begin{aligned}
+            E_1^{-n,k+n}
+            &= \HH^k(\bar{X},\Gr_n^W(\Omega_X^p\langle Y\rangle))
+          \\&\approx \HH^k(\widetilde{Y}^n,\Omega_{\widetilde{Y}^n}^{p-n}(\varepsilon^n))
+            \To \HH^k(\bar{X},\Omega_X^p\langle Y\rangle)
+          \end{aligned}
+        }
+        degenerates at #{E_2}.
+      }
+    }
+  }
+
+  \proof{
+    \p{
+      Claim (i) is proven in \ref{hodge-theory-ii-3.2.10}.
+    }
+
+    \p{
+      Consider
     }
   }
 }
