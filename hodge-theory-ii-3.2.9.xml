@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1337</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.9</fr:addr><fr:route>hodge-theory-ii-3.2.9.xml</fr:route><fr:number>3.2.9</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1343</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.9</fr:addr><fr:route>hodge-theory-ii-3.2.9.xml</fr:route><fr:number>3.2.9</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The recurrent filtration <fr:tex>F</fr:tex> on <fr:tex>{}_WE_2^{pq}</fr:tex> is <fr:tex>q</fr:tex>-opposite to its complex conjugate.
   </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -16,7 +16,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1336</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1342</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-3.xml"
 type="local"
 addr="hodge-theory-ii-3"><fr:link
@@ -463,7 +463,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>482</fr:anchor><fr:addr>hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>484</fr:anchor><fr:addr>hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     We now prove (ii) and (iii) of <fr:ref
 addr="hodge-theory-ii-3.2.5"
 href="hodge-theory-ii-3.2.5.xml"
@@ -490,7 +490,37 @@ style="list-style-type: &quot;B. &quot;">
       <fr:p><fr:em>Functoriality.</fr:em></fr:p>
 
       <fr:p>
-        Let
+        Let <fr:tex>f \colon  X_1 \to  X_2</fr:tex> be a morphism of schemes.
+        Suppose that we are given a morphism of smooth compactifications
+
+        <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>482</fr:anchor><fr:addr>hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">              \begin {CD}               X_1 @&gt;f&gt;&gt; X_2              \\ @V{j_1}VV @VV{j_2}V              \\ \bar {X}_1 @&gt;&gt;{ \bar {f}}&gt;  \bar {X}_2              \end {CD}           \tag{3.2.11.1}           </fr:tex></fr:mainmatter></fr:tree>
+
+        with the <fr:tex>Y_i= \bar {X}_i \setminus  X_i</fr:tex> normal crossing divisors.
+        The canonical morphism (cf. <fr:ref
+addr="hodge-theory-ii-3.1.3"
+href="hodge-theory-ii-3.1.3.xml"
+taxon="Proposition"
+number="3.1.3"></fr:ref>) from <fr:tex>\bar {f}^* \Omega _{ \bar {X}_2}^ \bullet \langle  Y_2 \rangle</fr:tex> to <fr:tex>\Omega _{ \bar {X}_1}^ \bullet \langle  Y_1 \rangle</fr:tex> is then a morphism of bifiltered complexes;
+        on hypercohomology, it induces a morphism compatible with <fr:tex>F</fr:tex> and <fr:tex>W</fr:tex>, and thus <fr:tex>f^* \colon \operatorname {H} ^n(X_2, \mathbb {Z} ) \to \operatorname {H} ^n(X_1, \mathbb {Z} )</fr:tex> is a morphism of mixed Hodge structures, for the structures defined by the compactifications <fr:tex>\bar {X}_i</fr:tex>.
+      </fr:p>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;C. &quot;">
+      <fr:p><fr:em>Independence from the choice of compactification.</fr:em></fr:p>
+
+      <fr:p>
+        With
       </fr:p>
     </html:li>
 
