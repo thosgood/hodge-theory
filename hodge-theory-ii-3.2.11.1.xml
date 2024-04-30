@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1286</fr:anchor><fr:addr>hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>1298</fr:anchor><fr:addr>hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">              \begin {CD}               X_1 @&gt;f&gt;&gt; X_2              \\ @V{j_1}VV @VV{j_2}V              \\ \bar {X}_1 @&gt;&gt;{ \bar {f}}&gt;  \bar {X}_2              \end {CD}           \tag{3.2.11.1}           </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -15,7 +15,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1285</fr:anchor><fr:addr>hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1297</fr:anchor><fr:addr>hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     We now prove (ii) and (iii) of <fr:ref
 addr="hodge-theory-ii-3.2.5"
 href="hodge-theory-ii-3.2.5.xml"
@@ -72,9 +72,136 @@ style="list-style-type: &quot;C. &quot;">
       <fr:p><fr:em>Independence from the choice of compactification.</fr:em></fr:p>
 
       <fr:p>
-        With
+        With the notation of (B), if <fr:tex>f</fr:tex> is an isomorphism, then <fr:tex>f^*</fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref
+addr="hodge-theory-ii-2.3.5"
+href="hodge-theory-ii-2.3.5.xml"
+taxon="Theorem"
+number="2.3.5"></fr:ref>).
+      </fr:p>
+
+      <fr:p>
+        If <fr:tex>\bar {X}_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> are two smooth compactifications of <fr:tex>X</fr:tex>, with <fr:tex>Y_i= \bar {X}_i \setminus  X</fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex>\bar {X}</fr:tex>, with <fr:tex>Y= \bar {X} \setminus  X</fr:tex> a smooth crossing divisor, that fits into a commutative diagram
+        
+        
+  <fr:embedded-tex
+hash="5e238105a1ffab3b108e9c7b64b1d114"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+          &amp; X  \ar [dl,hook]  \ar [d,hook]  \ar [dr,hook]
+         \\ \bar {X}_1
+          &amp;  \bar {X}  \ar [l]  \ar [r]
+          &amp;  \bar {X}_2
+         \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+        Namely, we can take <fr:tex>\bar {X}</fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex>X</fr:tex> in <fr:tex>\bar {X}_1 \times \bar {X}_2</fr:tex>.
+        The identity map from <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_1</fr:tex> to <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_2</fr:tex> is thus the composite of two isomorphisms.
       </fr:p>
     </html:li>
 
   </html:ol>
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+<fr:p>
+    To finish the proof of (ii) and (iii), we note that every morphism <fr:tex>f</fr:tex> fits into a diagram of the form in <fr:ref
+addr="hodge-theory-ii-3.2.11.1"
+href="hodge-theory-ii-3.2.11.1.xml"
+number="3.2.11.1"></fr:ref>: we choose compactifications <fr:tex>\bar {X}'_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> of <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex>, then we take <fr:tex>\bar {X}_1</fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex>X_1</fr:tex> in <fr:tex>\bar {X}'_1 \times \bar {X}_2</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1296</fr:anchor><fr:addr>hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We now prove (ii) and (iii) of <fr:ref
+addr="hodge-theory-ii-3.2.5"
+href="hodge-theory-ii-3.2.5.xml"
+taxon="Theorem"
+number="3.2.5"></fr:ref>, which will finish the proof.
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;A. &quot;">
+      <fr:p><fr:em>Independence from the choice of <fr:tex>K^ \bullet</fr:tex>.</fr:em></fr:p>
+
+      <fr:p>
+        The filtrations <fr:tex>F</fr:tex> and <fr:tex>W</fr:tex> of <fr:tex>\operatorname {H} ^ \bullet (X, \mathbb {C} )</fr:tex> are the abutments of the hypercohomology spectral sequences of <fr:tex>\Omega _{ \bar {X}}^ \bullet \langle  Y \rangle</fr:tex> for the filtrations <fr:tex>F</fr:tex> and <fr:tex>W</fr:tex>.
+        These whole spectral sequences do not depend on the choice of <fr:tex>K^ \bullet</fr:tex>.
+      </fr:p>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;B. &quot;">
+      <fr:p><fr:em>Functoriality.</fr:em></fr:p>
+
+      <fr:p>
+        Let <fr:tex>f \colon  X_1 \to  X_2</fr:tex> be a morphism of schemes.
+        Suppose that we are given a morphism of smooth compactifications
+
+        <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>482</fr:anchor><fr:addr>hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">              \begin {CD}               X_1 @&gt;f&gt;&gt; X_2              \\ @V{j_1}VV @VV{j_2}V              \\ \bar {X}_1 @&gt;&gt;{ \bar {f}}&gt;  \bar {X}_2              \end {CD}           \tag{3.2.11.1}           </fr:tex></fr:mainmatter></fr:tree>
+
+        with the <fr:tex>Y_i= \bar {X}_i \setminus  X_i</fr:tex> normal crossing divisors.
+        The canonical morphism (cf. <fr:ref
+addr="hodge-theory-ii-3.1.3"
+href="hodge-theory-ii-3.1.3.xml"
+taxon="Proposition"
+number="3.1.3"></fr:ref>) from <fr:tex>\bar {f}^* \Omega _{ \bar {X}_2}^ \bullet \langle  Y_2 \rangle</fr:tex> to <fr:tex>\Omega _{ \bar {X}_1}^ \bullet \langle  Y_1 \rangle</fr:tex> is then a morphism of bifiltered complexes;
+        on hypercohomology, it induces a morphism compatible with <fr:tex>F</fr:tex> and <fr:tex>W</fr:tex>, and thus <fr:tex>f^* \colon \operatorname {H} ^n(X_2, \mathbb {Z} ) \to \operatorname {H} ^n(X_1, \mathbb {Z} )</fr:tex> is a morphism of mixed Hodge structures, for the structures defined by the compactifications <fr:tex>\bar {X}_i</fr:tex>.
+      </fr:p>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;C. &quot;">
+      <fr:p><fr:em>Independence from the choice of compactification.</fr:em></fr:p>
+
+      <fr:p>
+        With the notation of (B), if <fr:tex>f</fr:tex> is an isomorphism, then <fr:tex>f^*</fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref
+addr="hodge-theory-ii-2.3.5"
+href="hodge-theory-ii-2.3.5.xml"
+taxon="Theorem"
+number="2.3.5"></fr:ref>).
+      </fr:p>
+
+      <fr:p>
+        If <fr:tex>\bar {X}_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> are two smooth compactifications of <fr:tex>X</fr:tex>, with <fr:tex>Y_i= \bar {X}_i \setminus  X</fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex>\bar {X}</fr:tex>, with <fr:tex>Y= \bar {X} \setminus  X</fr:tex> a smooth crossing divisor, that fits into a commutative diagram
+        
+        
+  <fr:embedded-tex
+hash="5e238105a1ffab3b108e9c7b64b1d114"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+          &amp; X  \ar [dl,hook]  \ar [d,hook]  \ar [dr,hook]
+         \\ \bar {X}_1
+          &amp;  \bar {X}  \ar [l]  \ar [r]
+          &amp;  \bar {X}_2
+         \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+        Namely, we can take <fr:tex>\bar {X}</fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex>X</fr:tex> in <fr:tex>\bar {X}_1 \times \bar {X}_2</fr:tex>.
+        The identity map from <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_1</fr:tex> to <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_2</fr:tex> is thus the composite of two isomorphisms.
+      </fr:p>
+    </html:li>
+
+  </html:ol>
+<fr:p>
+    To finish the proof of (ii) and (iii), we note that every morphism <fr:tex>f</fr:tex> fits into a diagram of the form in <fr:ref
+addr="hodge-theory-ii-3.2.11.1"
+href="hodge-theory-ii-3.2.11.1.xml"
+number="3.2.11.1"></fr:ref>: we choose compactifications <fr:tex>\bar {X}'_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> of <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex>, then we take <fr:tex>\bar {X}_1</fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex>X_1</fr:tex> in <fr:tex>\bar {X}'_1 \times \bar {X}_2</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

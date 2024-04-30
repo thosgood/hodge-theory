@@ -7,42 +7,78 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1315</fr:anchor><fr:addr>hodge-theory-ii-3.2.3</fr:addr><fr:route>hodge-theory-ii-3.2.3.xml</fr:route><fr:number>3.2.3</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We will need to make use of the fact that there exist bifiltered resolutions <fr:tex>i \colon \Omega _{ \bar {X}}^ \bullet \langle  Y \rangle \to  K^ \bullet</fr:tex> such that the <fr:tex>\operatorname {Gr} _F^p \operatorname {Gr} _n^W(K^j)</fr:tex> are <fr:tex>\Gamma</fr:tex>-acyclic sheaves:
-    <fr:tex
-display="block">        \operatorname {H} ^i( \bar {X}, \operatorname {Gr} _F^p \operatorname {Gr} _n^W(K^j))       = 0        \qquad \text {for }i&gt;0.     </fr:tex></fr:p><fr:p>
-    Here are two methods to construct such a resolution:
+root="false"><fr:frontmatter><fr:anchor>1306</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-3.2.13</fr:addr><fr:route>hodge-theory-ii-3.2.13.xml</fr:route><fr:number>3.2.13</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    With the above notation:
 
     
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
-style="list-style-type: &quot;a. &quot;">
-        We can take <fr:tex>K^ \bullet</fr:tex> to be the canonical Godement resolution <fr:tex>\mathscr {C}^ \bullet ( \Omega _{ \bar {X}}^ \bullet \langle  Y \rangle )</fr:tex>, filtered by the <fr:tex>\mathscr {C}^ \bullet (W_n( \Omega _{ \bar {X}} \langle  Y \rangle ))</fr:tex> and the <fr:tex>\mathscr {C}^ \bullet (F^p( \Omega _{ \bar {X}}^ \bullet \langle  Y \rangle ))</fr:tex>.
-        This is a bifiltered resolution since <fr:tex>\mathscr {C}^ \bullet</fr:tex> is an exact functor.
+style="list-style-type: &quot;i. &quot;">
+        The spectral sequence in <fr:ref
+addr="hodge-theory-ii-3.2.4.1"
+href="hodge-theory-ii-3.2.4.1.xml"
+taxon="Equation"
+number="3.2.4.1"></fr:ref> degenerates at <fr:tex>E_2</fr:tex>, i.e. the Leray spectral sequence for the inclusion <fr:tex>j \colon  X^* \hookrightarrow  X</fr:tex> degenerates at <fr:tex>E_3</fr:tex> (i.e. <fr:tex>E_3=E_ \infty</fr:tex>).
       </html:li>
 
 
       
  <html:li
-style="list-style-type: &quot;b. &quot;">
-        We can take <fr:tex>K^ \bullet</fr:tex> to be the <fr:tex>\mathrm {d} ''</fr:tex>-resolution of <fr:tex>\Omega _{ \bar {X}}^ \bullet \langle  Y \rangle</fr:tex>.
-        Let <fr:tex>\Omega _{ \bar {X}}^{pq}</fr:tex> be the sheaf of <fr:tex>C^ \infty</fr:tex> forms of type <fr:tex>(p,q)</fr:tex>;
-        then <fr:tex>K^ \bullet</fr:tex> is the simple complex associated to the double complex of the <fr:tex>\Omega _{ \bar {X}}^p \langle  Y \rangle \otimes _ \mathcal {O} \Omega _{ \bar {X}}^{0,q}</fr:tex> (a subcomplex of the <fr:tex>j_* \Omega _X^{ \bullet \bullet }</fr:tex>).
-        This complex is filtered by the <fr:tex>F^p( \Omega _{ \bar {X}}^ \bullet \langle  Y \rangle ) \otimes \Omega _{ \bar {X}}^{0, \bullet }</fr:tex> and by the <fr:tex>W_n( \Omega _{ \bar {X}}^ \bullet \langle  Y \rangle ) \otimes \Omega _{ \bar {X}}^{0, \bullet }</fr:tex>;
-        to prove that this is a bifiltered resolution, we use the fact that the sheaf <fr:tex>\mathcal {O} _ \infty</fr:tex> of complex <fr:tex>C^ \infty</fr:tex> functions on <fr:tex>\bar {X}</fr:tex> is flat over <fr:tex>\mathcal {O}</fr:tex> (a corollary of the Malgrange <fr:tex>C^ \infty</fr:tex> preparation theorem).
-        The sheaves <fr:tex>\operatorname {Gr} _F \operatorname {Gr} _W(K^ \bullet )</fr:tex> are fine, since they are sheaves of modules over the soft sheaf <fr:tex>\mathcal {O} _ \infty</fr:tex>.
+style="list-style-type: &quot;ii. &quot;">
+        The spectral sequence in <fr:ref
+addr="hodge-theory-ii-3.2.4.2"
+href="hodge-theory-ii-3.2.4.2.xml"
+taxon="Equation"
+number="3.2.4.2"></fr:ref>
+        <fr:tex
+display="block">           {}_FE_1^{pq}           =  \operatorname {H} ^q( \bar {X}, \Omega _{ \bar {X}}^p \langle  Y \rangle )            \Rightarrow   \operatorname {H} ^{p+q}(X, \mathbb {C} )         </fr:tex>
+        degenerates at <fr:tex>E_1</fr:tex>.
       </html:li>
 
-    </html:ol></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+
+      
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
+        The spectral sequence defined by the sheaf <fr:tex>\Omega _X^p \langle  Y \rangle</fr:tex>, endowed with the filtration <fr:tex>W</fr:tex>
+        <fr:tex
+display="block">            \begin {aligned}             E_1^{-n,k+n}             &amp;=  \operatorname {H} ^k( \bar {X}, \operatorname {Gr} _n^W( \Omega _X^p \langle  Y \rangle ))            \\ &amp; \approx   \operatorname {H} ^k( \widetilde {Y}^n, \Omega _{ \widetilde {Y}^n}^{p-n}( \varepsilon ^n))              \Rightarrow   \operatorname {H} ^k( \bar {X}, \Omega _X^p \langle  Y \rangle )            \end {aligned}         </fr:tex>
+        degenerates at <fr:tex>E_2</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-3.2.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Claim (i) is proven in <fr:ref
+addr="hodge-theory-ii-3.2.10"
+href="hodge-theory-ii-3.2.10.xml"
+taxon="Lemma"
+number="3.2.10"></fr:ref>.
+    </fr:p>
+
+    <fr:p>
+      Consider
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1314</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1305</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-3.xml"
 type="local"
 addr="hodge-theory-ii-3"><fr:link
@@ -664,43 +700,86 @@ number="3.2.10"></fr:ref>.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1313</fr:anchor><fr:addr>hodge-theory-ii-3.2.4</fr:addr><fr:route>hodge-theory-ii-3.2.4.xml</fr:route><fr:number>3.2.4</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    With the notation of <fr:ref
-addr="hodge-theory-ii-3.2.3"
-href="hodge-theory-ii-3.2.3.xml"
-number="3.2.3"></fr:ref>, the complex cohomology of <fr:tex>X</fr:tex> appears as the cohomology of the bifiltered complex <fr:tex>\Gamma ( \bar {X},K^ \bullet )</fr:tex>.
-    We thus have two spectral sequences abutting to <fr:tex>\operatorname {H} ^ \bullet (X, \mathbb {C} )</fr:tex>.
-    They can be written, with the notation of <fr:ref
-addr="hodge-theory-ii-3.1.4"
-href="hodge-theory-ii-3.1.4.xml"
-number="3.1.4"></fr:ref>, as:
-
+root="false"><fr:frontmatter><fr:anchor>1302</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.10</fr:addr><fr:route>hodge-theory-ii-3.2.10.xml</fr:route><fr:number>3.2.10</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For <fr:tex>r \geqslant0</fr:tex>, the differentials <fr:tex>d_r</fr:tex> of the spectral sequence <fr:tex>{}_WE</fr:tex> are strictly compatible with the recurrent filtration <fr:tex>F</fr:tex>.
+    For <fr:tex>r \geqslant2</fr:tex>, they are zero.
+  </fr:p>
+  
+    
     <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
+toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>467</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.2.4.1</fr:addr><fr:route>hodge-theory-ii-3.2.4.1.xml</fr:route><fr:number>3.2.4.1</fr:number><fr:parent>hodge-theory-ii-3.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         {}_WE_1^{pq}         =  \operatorname { \mathbb {H}} ^{p+q}( \bar {X}, \varepsilon _{ \bar {X}}^{-p}[p])         =  \operatorname { \mathbb {H}} ^{2p+q}( \widetilde {Y}^p, \varepsilon ^{-q})          \Rightarrow   \operatorname {H} ^n(X, \mathbb {C} )       \tag{3.2.4.1}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>477</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-3.2.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      For <fr:tex>r=0</fr:tex> (resp. <fr:tex>r=1</fr:tex>) we apply <fr:ref
+addr="hodge-theory-ii-3.2.6"
+href="hodge-theory-ii-3.2.6.xml"
+taxon="Lemma"
+number="3.2.6"></fr:ref> and (iii) of <fr:ref
+addr="hodge-theory-ii-1.4.8"
+href="hodge-theory-ii-1.4.8.xml"
+taxon="Example"
+number="1.4.8"></fr:ref> (resp. <fr:ref
+addr="hodge-theory-ii-3.2.8"
+href="hodge-theory-ii-3.2.8.xml"
+taxon="Lemma"
+number="3.2.8"></fr:ref>).
+      For <fr:tex>r \geqslant2</fr:tex>, it suffices to prove that <fr:tex>d_r=0</fr:tex>.
+      By induction, and following <fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref>, we can assume that, on the pages <fr:tex>{}_WE^s</fr:tex> (for <fr:tex>s \geqslant  r+1</fr:tex>), we have <fr:tex>F_d=F_r=F_{d^*}</fr:tex>, and that <fr:tex>{}_WE_r={}_WE_2</fr:tex>.
+      By (i) of <fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>, <fr:tex>d_r</fr:tex> is thus compatible with the filtration <fr:tex>F_r</fr:tex>.
+    </fr:p>
 
-    <fr:tree
+    <fr:p>
+      On <fr:tex>{}_WE_r^{pq}={}_WE_2^{pq}</fr:tex>, the filtration <fr:tex>F_r</fr:tex> is <fr:tex>q</fr:tex>-opposite to its complex conjugate.
+      The morphism
+      <fr:tex
+display="block">         d_r \colon  {}_WE_r^{pq}          \to  {}_WE_r^{p+r,q-r+1}       </fr:tex>
+      thus satisfies, for <fr:tex>r-1&gt;0</fr:tex>,
+      <fr:tex
+display="block">          \begin {aligned}           d_r({}_WE_r^{pq})           &amp;= d_r \left (              \sum _{a+b=q}  \Big (               F^a({}_WE_r^{pq})  \cap   \bar {F}^b({}_WE_r^{pq})              \Big )            \right )          \\ &amp; \subset   \sum _{a+b=q}  \Big (             F^a({}_WE_r^{p+r,q-r+1})  \cap   \bar {F}^b({}_WE_r^{p+r,q-r+1})            \Big )          \\ &amp;= 0.          \end {aligned}       </fr:tex></fr:p>
+
+    <fr:p>
+      This proves <fr:ref
+addr="hodge-theory-ii-3.2.10"
+href="hodge-theory-ii-3.2.10.xml"
+taxon="Lemma"
+number="3.2.10"></fr:ref>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
-show-metadata="false"
+show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>468</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.2.4.2</fr:addr><fr:route>hodge-theory-ii-3.2.4.2.xml</fr:route><fr:number>3.2.4.2</fr:number><fr:parent>hodge-theory-ii-3.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         {}_FE_1^{pq}         =  \operatorname {H} ^q( \bar {X}, \Omega _{ \bar {X}}^p \langle  Y \rangle )          \Rightarrow   \operatorname {H} ^n(X, \mathbb {C} ).       \tag{3.2.4.2}       </fr:tex></fr:mainmatter></fr:tree>
-
-    The first of these, up to the renumbering <fr:tex>{}_WE_1^{pq} \mapsto  E_2^{2p+q,-p}</fr:tex>, is exactly the Leray spectral sequence of the inclusion <fr:tex>j</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1303</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.2.4.1</fr:addr><fr:route>hodge-theory-ii-3.2.4.1.xml</fr:route><fr:number>3.2.4.1</fr:number><fr:parent>hodge-theory-ii-3.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         {}_WE_1^{pq}         =  \operatorname { \mathbb {H}} ^{p+q}( \bar {X}, \varepsilon _{ \bar {X}}^{-p}[p])         =  \operatorname { \mathbb {H}} ^{2p+q}( \widetilde {Y}^p, \varepsilon ^{-q})          \Rightarrow   \operatorname {H} ^n(X, \mathbb {C} )       \tag{3.2.4.1}       </fr:tex></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1304</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.2.4.2</fr:addr><fr:route>hodge-theory-ii-3.2.4.2.xml</fr:route><fr:number>3.2.4.2</fr:number><fr:parent>hodge-theory-ii-3.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         {}_FE_1^{pq}         =  \operatorname {H} ^q( \bar {X}, \Omega _{ \bar {X}}^p \langle  Y \rangle )          \Rightarrow   \operatorname {H} ^n(X, \mathbb {C} ).       \tag{3.2.4.2}       </fr:tex></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

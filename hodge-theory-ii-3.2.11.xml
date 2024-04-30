@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1284</fr:anchor><fr:addr>hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1295</fr:anchor><fr:addr>hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     We now prove (ii) and (iii) of <fr:ref
 addr="hodge-theory-ii-3.2.5"
 href="hodge-theory-ii-3.2.5.xml"
@@ -64,19 +64,48 @@ style="list-style-type: &quot;C. &quot;">
       <fr:p><fr:em>Independence from the choice of compactification.</fr:em></fr:p>
 
       <fr:p>
-        With
+        With the notation of (B), if <fr:tex>f</fr:tex> is an isomorphism, then <fr:tex>f^*</fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref
+addr="hodge-theory-ii-2.3.5"
+href="hodge-theory-ii-2.3.5.xml"
+taxon="Theorem"
+number="2.3.5"></fr:ref>).
+      </fr:p>
+
+      <fr:p>
+        If <fr:tex>\bar {X}_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> are two smooth compactifications of <fr:tex>X</fr:tex>, with <fr:tex>Y_i= \bar {X}_i \setminus  X</fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex>\bar {X}</fr:tex>, with <fr:tex>Y= \bar {X} \setminus  X</fr:tex> a smooth crossing divisor, that fits into a commutative diagram
+        
+        
+  <fr:embedded-tex
+hash="5e238105a1ffab3b108e9c7b64b1d114"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+          &amp; X  \ar [dl,hook]  \ar [d,hook]  \ar [dr,hook]
+         \\ \bar {X}_1
+          &amp;  \bar {X}  \ar [l]  \ar [r]
+          &amp;  \bar {X}_2
+         \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+        Namely, we can take <fr:tex>\bar {X}</fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex>X</fr:tex> in <fr:tex>\bar {X}_1 \times \bar {X}_2</fr:tex>.
+        The identity map from <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_1</fr:tex> to <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_2</fr:tex> is thus the composite of two isomorphisms.
       </fr:p>
     </html:li>
 
   </html:ol>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+<fr:p>
+    To finish the proof of (ii) and (iii), we note that every morphism <fr:tex>f</fr:tex> fits into a diagram of the form in <fr:ref
+addr="hodge-theory-ii-3.2.11.1"
+href="hodge-theory-ii-3.2.11.1.xml"
+number="3.2.11.1"></fr:ref>: we choose compactifications <fr:tex>\bar {X}'_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> of <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex>, then we take <fr:tex>\bar {X}_1</fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex>X_1</fr:tex> in <fr:tex>\bar {X}'_1 \times \bar {X}_2</fr:tex>.
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1283</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1294</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-3.xml"
 type="local"
 addr="hodge-theory-ii-3"><fr:link
@@ -580,11 +609,124 @@ style="list-style-type: &quot;C. &quot;">
       <fr:p><fr:em>Independence from the choice of compactification.</fr:em></fr:p>
 
       <fr:p>
-        With
+        With the notation of (B), if <fr:tex>f</fr:tex> is an isomorphism, then <fr:tex>f^*</fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref
+addr="hodge-theory-ii-2.3.5"
+href="hodge-theory-ii-2.3.5.xml"
+taxon="Theorem"
+number="2.3.5"></fr:ref>).
+      </fr:p>
+
+      <fr:p>
+        If <fr:tex>\bar {X}_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> are two smooth compactifications of <fr:tex>X</fr:tex>, with <fr:tex>Y_i= \bar {X}_i \setminus  X</fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex>\bar {X}</fr:tex>, with <fr:tex>Y= \bar {X} \setminus  X</fr:tex> a smooth crossing divisor, that fits into a commutative diagram
+        
+        
+  <fr:embedded-tex
+hash="5e238105a1ffab3b108e9c7b64b1d114"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+          &amp; X  \ar [dl,hook]  \ar [d,hook]  \ar [dr,hook]
+         \\ \bar {X}_1
+          &amp;  \bar {X}  \ar [l]  \ar [r]
+          &amp;  \bar {X}_2
+         \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+        Namely, we can take <fr:tex>\bar {X}</fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex>X</fr:tex> in <fr:tex>\bar {X}_1 \times \bar {X}_2</fr:tex>.
+        The identity map from <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_1</fr:tex> to <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_2</fr:tex> is thus the composite of two isomorphisms.
       </fr:p>
     </html:li>
 
   </html:ol>
+<fr:p>
+    To finish the proof of (ii) and (iii), we note that every morphism <fr:tex>f</fr:tex> fits into a diagram of the form in <fr:ref
+addr="hodge-theory-ii-3.2.11.1"
+href="hodge-theory-ii-3.2.11.1.xml"
+number="3.2.11.1"></fr:ref>: we choose compactifications <fr:tex>\bar {X}'_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> of <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex>, then we take <fr:tex>\bar {X}_1</fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex>X_1</fr:tex> in <fr:tex>\bar {X}'_1 \times \bar {X}_2</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>485</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-ii-3.2.12</fr:addr><fr:route>hodge-theory-ii-3.2.12.xml</fr:route><fr:number>3.2.12</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The <fr:em>mixed Hodge structure of the cohomology of a smooth separated algebraic variety</fr:em> is the mixed Hodge structure from (iii) of <fr:ref
+addr="hodge-theory-ii-3.2.5"
+href="hodge-theory-ii-3.2.5.xml"
+taxon="Theorem"
+number="3.2.5"></fr:ref>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>491</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-3.2.13</fr:addr><fr:route>hodge-theory-ii-3.2.13.xml</fr:route><fr:number>3.2.13</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    With the above notation:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+        The spectral sequence in <fr:ref
+addr="hodge-theory-ii-3.2.4.1"
+href="hodge-theory-ii-3.2.4.1.xml"
+taxon="Equation"
+number="3.2.4.1"></fr:ref> degenerates at <fr:tex>E_2</fr:tex>, i.e. the Leray spectral sequence for the inclusion <fr:tex>j \colon  X^* \hookrightarrow  X</fr:tex> degenerates at <fr:tex>E_3</fr:tex> (i.e. <fr:tex>E_3=E_ \infty</fr:tex>).
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+        The spectral sequence in <fr:ref
+addr="hodge-theory-ii-3.2.4.2"
+href="hodge-theory-ii-3.2.4.2.xml"
+taxon="Equation"
+number="3.2.4.2"></fr:ref>
+        <fr:tex
+display="block">           {}_FE_1^{pq}           =  \operatorname {H} ^q( \bar {X}, \Omega _{ \bar {X}}^p \langle  Y \rangle )            \Rightarrow   \operatorname {H} ^{p+q}(X, \mathbb {C} )         </fr:tex>
+        degenerates at <fr:tex>E_1</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
+        The spectral sequence defined by the sheaf <fr:tex>\Omega _X^p \langle  Y \rangle</fr:tex>, endowed with the filtration <fr:tex>W</fr:tex>
+        <fr:tex
+display="block">            \begin {aligned}             E_1^{-n,k+n}             &amp;=  \operatorname {H} ^k( \bar {X}, \operatorname {Gr} _n^W( \Omega _X^p \langle  Y \rangle ))            \\ &amp; \approx   \operatorname {H} ^k( \widetilde {Y}^n, \Omega _{ \widetilde {Y}^n}^{p-n}( \varepsilon ^n))              \Rightarrow   \operatorname {H} ^k( \bar {X}, \Omega _X^p \langle  Y \rangle )            \end {aligned}         </fr:tex>
+        degenerates at <fr:tex>E_2</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-3.2.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Claim (i) is proven in <fr:ref
+addr="hodge-theory-ii-3.2.10"
+href="hodge-theory-ii-3.2.10.xml"
+taxon="Lemma"
+number="3.2.10"></fr:ref>.
+    </fr:p>
+
+    <fr:p>
+      Consider
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
 </fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -592,7 +734,59 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1281</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-3.1.3</fr:addr><fr:route>hodge-theory-ii-3.1.3.xml</fr:route><fr:number>3.1.3</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1290</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-2.3.5</fr:addr><fr:route>hodge-theory-ii-2.3.5.xml</fr:route><fr:number>2.3.5</fr:number><fr:parent>hodge-theory-ii-2.3</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+      The category of mixed Hodge structures is abelian.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+      The integral lattice of the kernel (resp. cokernel) of a morphism <fr:tex>f \colon  H \to  H'</fr:tex> is the kernel (resp. cokernel) <fr:tex>K</fr:tex> of <fr:tex>f \colon  H_ \mathbb {Z} \to  H'_ \mathbb {Z}</fr:tex>, with <fr:tex>K \otimes \mathbb {Q}</fr:tex> and <fr:tex>K \otimes \mathbb {C}</fr:tex> being endowed with the induced filtrations (resp. quotient filtrations) of the filtrations <fr:tex>W</fr:tex> and <fr:tex>F</fr:tex> of <fr:tex>H_ \mathbb {Q}</fr:tex> and <fr:tex>H_ \mathbb {C}</fr:tex> (resp. of <fr:tex>H'_ \mathbb {Q}</fr:tex> and <fr:tex>H'_ \mathbb {C}</fr:tex>).
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
+      Every morphism <fr:tex>f \colon  H \to  H'</fr:tex> is strictly compatible with the filtration <fr:tex>W</fr:tex> of <fr:tex>H_ \mathbb {Q}</fr:tex> and <fr:tex>H'_ \mathbb {Q}</fr:tex> and with the filtration <fr:tex>F</fr:tex> of <fr:tex>H_ \mathbb {C}</fr:tex> and <fr:tex>H'_ \mathbb {C}</fr:tex>.
+      It induces morphisms of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures
+      <fr:tex
+display="block">          \operatorname {Gr} _n^w(f) \colon           \operatorname {Gr} _n^W(H_ \mathbb {Q} )          \to   \operatorname {Gr} _n^W(H'_ \mathbb {Q} ).       </fr:tex>
+      It also induces morphisms
+      <fr:tex
+display="block">          \operatorname {Gr} _F^p(F) \colon           \operatorname {Gr} _F^p(H_ \mathbb {C} )          \to   \operatorname {Gr} _F^p(H'_ \mathbb {C} )       </fr:tex>
+      that are strictly compatible with the filtration induced by <fr:tex>W_ \mathbb {C}</fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;iv. &quot;">
+      The functor <fr:tex>\operatorname {Gr} _n^W</fr:tex> is an exact functor from the category of mixed Hodge structures to the category of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures of weight <fr:tex>n</fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;v. &quot;">
+      The functor <fr:tex>\operatorname {Gr} _F^p</fr:tex> is an exact functor.
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1291</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-3.1.3</fr:addr><fr:route>hodge-theory-ii-3.1.3.xml</fr:route><fr:number>3.1.3</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -615,7 +809,15 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1282</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-3.2.5</fr:addr><fr:route>hodge-theory-ii-3.2.5.xml</fr:route><fr:number>3.2.5</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1292</fr:anchor><fr:addr>hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">              \begin {CD}               X_1 @&gt;f&gt;&gt; X_2              \\ @V{j_1}VV @VV{j_2}V              \\ \bar {X}_1 @&gt;&gt;{ \bar {f}}&gt;  \bar {X}_2              \end {CD}           \tag{3.2.11.1}           </fr:tex></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1293</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-3.2.5</fr:addr><fr:route>hodge-theory-ii-3.2.5.xml</fr:route><fr:number>3.2.5</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     

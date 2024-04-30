@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1339</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1362</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The differentials <fr:tex>d_1</fr:tex> of the spectral sequence <fr:tex>{}_WE</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
   </fr:p>
   
@@ -78,7 +78,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1338</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1361</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-3.xml"
 type="local"
 addr="hodge-theory-ii-3"><fr:link
@@ -582,11 +582,124 @@ style="list-style-type: &quot;C. &quot;">
       <fr:p><fr:em>Independence from the choice of compactification.</fr:em></fr:p>
 
       <fr:p>
-        With
+        With the notation of (B), if <fr:tex>f</fr:tex> is an isomorphism, then <fr:tex>f^*</fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref
+addr="hodge-theory-ii-2.3.5"
+href="hodge-theory-ii-2.3.5.xml"
+taxon="Theorem"
+number="2.3.5"></fr:ref>).
+      </fr:p>
+
+      <fr:p>
+        If <fr:tex>\bar {X}_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> are two smooth compactifications of <fr:tex>X</fr:tex>, with <fr:tex>Y_i= \bar {X}_i \setminus  X</fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex>\bar {X}</fr:tex>, with <fr:tex>Y= \bar {X} \setminus  X</fr:tex> a smooth crossing divisor, that fits into a commutative diagram
+        
+        
+  <fr:embedded-tex
+hash="5e238105a1ffab3b108e9c7b64b1d114"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+          &amp; X  \ar [dl,hook]  \ar [d,hook]  \ar [dr,hook]
+         \\ \bar {X}_1
+          &amp;  \bar {X}  \ar [l]  \ar [r]
+          &amp;  \bar {X}_2
+         \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+        Namely, we can take <fr:tex>\bar {X}</fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex>X</fr:tex> in <fr:tex>\bar {X}_1 \times \bar {X}_2</fr:tex>.
+        The identity map from <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_1</fr:tex> to <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> endowed with the mixed Hodge structure defined by <fr:tex>\bar {X}_2</fr:tex> is thus the composite of two isomorphisms.
       </fr:p>
     </html:li>
 
   </html:ol>
+<fr:p>
+    To finish the proof of (ii) and (iii), we note that every morphism <fr:tex>f</fr:tex> fits into a diagram of the form in <fr:ref
+addr="hodge-theory-ii-3.2.11.1"
+href="hodge-theory-ii-3.2.11.1.xml"
+number="3.2.11.1"></fr:ref>: we choose compactifications <fr:tex>\bar {X}'_1</fr:tex> and <fr:tex>\bar {X}_2</fr:tex> of <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex>, then we take <fr:tex>\bar {X}_1</fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex>X_1</fr:tex> in <fr:tex>\bar {X}'_1 \times \bar {X}_2</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>485</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-ii-3.2.12</fr:addr><fr:route>hodge-theory-ii-3.2.12.xml</fr:route><fr:number>3.2.12</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The <fr:em>mixed Hodge structure of the cohomology of a smooth separated algebraic variety</fr:em> is the mixed Hodge structure from (iii) of <fr:ref
+addr="hodge-theory-ii-3.2.5"
+href="hodge-theory-ii-3.2.5.xml"
+taxon="Theorem"
+number="3.2.5"></fr:ref>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>491</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-3.2.13</fr:addr><fr:route>hodge-theory-ii-3.2.13.xml</fr:route><fr:number>3.2.13</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    With the above notation:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+        The spectral sequence in <fr:ref
+addr="hodge-theory-ii-3.2.4.1"
+href="hodge-theory-ii-3.2.4.1.xml"
+taxon="Equation"
+number="3.2.4.1"></fr:ref> degenerates at <fr:tex>E_2</fr:tex>, i.e. the Leray spectral sequence for the inclusion <fr:tex>j \colon  X^* \hookrightarrow  X</fr:tex> degenerates at <fr:tex>E_3</fr:tex> (i.e. <fr:tex>E_3=E_ \infty</fr:tex>).
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+        The spectral sequence in <fr:ref
+addr="hodge-theory-ii-3.2.4.2"
+href="hodge-theory-ii-3.2.4.2.xml"
+taxon="Equation"
+number="3.2.4.2"></fr:ref>
+        <fr:tex
+display="block">           {}_FE_1^{pq}           =  \operatorname {H} ^q( \bar {X}, \Omega _{ \bar {X}}^p \langle  Y \rangle )            \Rightarrow   \operatorname {H} ^{p+q}(X, \mathbb {C} )         </fr:tex>
+        degenerates at <fr:tex>E_1</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
+        The spectral sequence defined by the sheaf <fr:tex>\Omega _X^p \langle  Y \rangle</fr:tex>, endowed with the filtration <fr:tex>W</fr:tex>
+        <fr:tex
+display="block">            \begin {aligned}             E_1^{-n,k+n}             &amp;=  \operatorname {H} ^k( \bar {X}, \operatorname {Gr} _n^W( \Omega _X^p \langle  Y \rangle ))            \\ &amp; \approx   \operatorname {H} ^k( \widetilde {Y}^n, \Omega _{ \widetilde {Y}^n}^{p-n}( \varepsilon ^n))              \Rightarrow   \operatorname {H} ^k( \bar {X}, \Omega _X^p \langle  Y \rangle )            \end {aligned}         </fr:tex>
+        degenerates at <fr:tex>E_2</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-3.2.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Claim (i) is proven in <fr:ref
+addr="hodge-theory-ii-3.2.10"
+href="hodge-theory-ii-3.2.10.xml"
+taxon="Lemma"
+number="3.2.10"></fr:ref>.
+    </fr:p>
+
+    <fr:p>
+      Consider
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
 </fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -594,7 +707,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1332</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.3.10</fr:addr><fr:route>hodge-theory-ii-1.3.10.xml</fr:route><fr:number>1.3.10</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1355</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.3.10</fr:addr><fr:route>hodge-theory-ii-1.3.10.xml</fr:route><fr:number>1.3.10</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     On <fr:tex>E_0</fr:tex> and <fr:tex>E_1</fr:tex>, we have <fr:tex>F_d=F_{d^*}</fr:tex>.
   </fr:p>
   
@@ -606,7 +719,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>607</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-1.3.10</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>614</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-1.3.10</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       For <fr:tex>r=0,1</fr:tex>, we have <fr:tex>B_r^{pq} \subset  Z_r^{pq}</fr:tex>, and we apply <fr:ref
 addr="hodge-theory-ii-1.1.9"
@@ -623,7 +736,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1333</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.3.13</fr:addr><fr:route>hodge-theory-ii-1.3.13.xml</fr:route><fr:number>1.3.13</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1356</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.3.13</fr:addr><fr:route>hodge-theory-ii-1.3.13.xml</fr:route><fr:number>1.3.13</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -668,7 +781,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>814</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-1.3.13</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>821</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-1.3.13</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       Claim (i) is evident, (ii) is its dual, and (iii) follows by induction.
       The first claim of (iv) is easy to verify, and the second is its dual.
@@ -682,7 +795,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1334</fr:anchor><fr:taxon>Example</fr:taxon><fr:addr>hodge-theory-ii-1.4.8</fr:addr><fr:route>hodge-theory-ii-1.4.8.xml</fr:route><fr:number>1.4.8</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1357</fr:anchor><fr:taxon>Example</fr:taxon><fr:addr>hodge-theory-ii-1.4.8</fr:addr><fr:route>hodge-theory-ii-1.4.8.xml</fr:route><fr:number>1.4.8</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  Y</fr:tex> be a continuous map between topological spaces, and let <fr:tex>\mathscr {F}</fr:tex> be an abelian sheaf on <fr:tex>X</fr:tex>.
     Let <fr:tex>\mathscr {F}^ \bullet</fr:tex> be a resolution of <fr:tex>\mathscr {F}</fr:tex> by <fr:tex>f_*</fr:tex>-acyclic sheaves.
     We have <fr:tex>\operatorname {R} ^i f_* \mathscr {F} \simeq \operatorname { \mathscr {H}} ^i(f_* \mathscr {F}^ \bullet )</fr:tex>.
@@ -701,7 +814,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1335</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.6</fr:addr><fr:route>hodge-theory-ii-3.2.6.xml</fr:route><fr:number>3.2.6</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1358</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.6</fr:addr><fr:route>hodge-theory-ii-3.2.6.xml</fr:route><fr:number>3.2.6</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The hypercohomology spectral sequences of the filtered complexes <fr:tex>\operatorname {Gr} _n^W( \Omega _{ \bar {X}}^ \bullet \langle  Y \rangle )</fr:tex>, endowed with the filtration induced by the Hodge filtration, degenerate at the <fr:tex>E_1</fr:tex> page.
   </fr:p>
   
@@ -762,7 +875,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1336</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.7</fr:addr><fr:route>hodge-theory-ii-3.2.7.xml</fr:route><fr:number>3.2.7</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1359</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.7</fr:addr><fr:route>hodge-theory-ii-3.2.7.xml</fr:route><fr:number>3.2.7</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The filtration on
     <fr:tex
 display="block">       {}_WE_1^{-n,k+n}       =  \operatorname { \mathbb {H}} ^k( \bar {X}, \operatorname {Gr} _n^W( \Omega _{ \bar {X}}^ \bullet \langle  Y \rangle ))        \approx   \operatorname {H} ^{k-n}( \widetilde {Y}^n, \varepsilon ^n)     </fr:tex>
@@ -778,7 +891,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1337</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1360</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The differentials <fr:tex>d_1</fr:tex> of the spectral sequence <fr:tex>{}_WE</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
   </fr:p>
   
@@ -849,7 +962,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1330</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.10</fr:addr><fr:route>hodge-theory-ii-3.2.10.xml</fr:route><fr:number>3.2.10</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1353</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.10</fr:addr><fr:route>hodge-theory-ii-3.2.10.xml</fr:route><fr:number>3.2.10</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     For <fr:tex>r \geqslant0</fr:tex>, the differentials <fr:tex>d_r</fr:tex> of the spectral sequence <fr:tex>{}_WE</fr:tex> are strictly compatible with the recurrent filtration <fr:tex>F</fr:tex>.
     For <fr:tex>r \geqslant2</fr:tex>, they are zero.
   </fr:p>
@@ -915,7 +1028,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1331</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1354</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The differentials <fr:tex>d_1</fr:tex> of the spectral sequence <fr:tex>{}_WE</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
   </fr:p>
   
