@@ -1,0 +1,49 @@
+\title{The fixed set theorem}
+\parent{hodge-theory-ii-4}
+\number{4.1}
+
+\import{macros}
+
+\put\transclude/numbered{false}
+
+\subtree[hodge-theory-ii-4.1.1]{
+  \taxon{theorem}
+  \number{4.1.1}
+
+  \p{
+    Let #{S} be a smooth separated scheme, and #{f\colon X\to S} a smooth proper morphism.
+  }
+
+  \olc{
+    \lic{i.}{
+      In rational cohomology, the Leray spectral sequence
+      ##{
+        E_2^{pq}
+        = \HH^p(S,\Rd^qf_*\QQ)
+        \To \HH^{p+q}(X,\QQ)
+      }
+      degenerates (#{E_2=E_\infty}).
+    }
+
+    \lic{ii.}{
+      If #{\bar{X}} is a non-singular compactification of #{X}, then the canonical morphism
+      ##{
+        \HH^n(\bar{X},\QQ)
+        \to \HH^0(S,\Rd^nf_*\QQ)
+      }
+      is surjective.
+    }
+  }
+
+  \proof{
+    \p{
+      For #{f} smooth and projective, claim (i) is proven in [D1968](D1968).
+      The proof in [D1968](D1968) is rewritten in a more readable manner in [G1970](G1970);
+      it does not use the smoothness of #{S}.
+    }
+
+    \p{
+      Let us fix #{f}, and prove that (i)#{\implies}(ii).
+    }
+  }
+}
