@@ -428,7 +428,137 @@
     }
 
     \p{
-      Consider
+      Consider the four spectral sequences in \ref{hodge-theory-ii-1.4.2}, with respect to the bifiltered complex #{\Omega_{\bar{X}}^\bullet\langle Y\rangle}.
+      By (i), we have
+      ##{
+        \sum_n \dim\HH^n(X,\CC)
+        = \sum_{p,q} \dim {}_WE_2^{p,q}.
+      }
+      The #{{}_WE_1^{n,k-n}} pages are, for fixed #{n}, the abutments of a spectral sequence \em{that degenerates at #{E_1}} (\ref{hodge-theory-ii-3.2.6}) with initial pages #{E_1^{p,n,k-p-n}} (with the notation of \ref{hodge-theory-ii-1.4.12}) the initial pages of the spectral sequence in (iii).
+      \oldpage{39}
+      Since #{{}_Wd_1} is strictly compatible with the filtration #{F} which is the abutment of this spectral sequence (\ref{hodge-theory-ii-3.2.7}), and is (\ref{hodge-theory-ii-1.4.12}) the abutment of a morphism between these spectral sequences, which starts with the differentials from (iii), we have
+      ##{
+        \Gr_F^p({}_WE_2^{n,k-n})
+        \approx \HH^\bullet(E_1^{p,n-1,k-n-p} \to E_1^{p,n,k-n-p} \to E_1^{p,n+1,k-n-p})
+      }
+      and #{\Gr_F^\bullet({}_WE_2^{\bullet\bullet})} is the sum of the pages #{E_2^{\bullet\bullet\bullet}} of the spectral sequences in (iii).
+      We thus have
+
+      \subtree[hodge-theory-ii-3.2.13.1]{
+        \taxon{equation}
+        \number{3.2.13.1}
+        ##{
+          \sum_n \dim \HH^n(X,\CC)
+          = \sum \dim E_2^{\bullet\bullet\bullet}.
+        \startverb\tag{3.2.13.1}\stopverb
+        }
+      }
+
+      We also have
+      ##{
+        \sum_n \dim \HH^n(X,\CC)
+        \leqslant \dim {}_FE_1^{\bullet\bullet}
+      }
+      with equality if and only if the spectral sequence in (ii) degenerates at #{E_1}, and
+      ##{
+        \sum \dim {}_FE_1^{\bullet\bullet}
+        \leqslant \sum \dim E_2^{\bullet\bullet\bullet}
+      }
+      with equality if and only if the spectral sequences in (iii) degenerate at #{E_2}.
+      Comparing with \ref{hodge-theory-ii-3.2.13.1}, we obtain \ref{hodge-theory-ii-3.2.13}.
     }
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.14]{
+  \taxon{corollary}
+  \number{3.2.14}
+
+  \p{
+    Let #{\omega} be a meromorphic differential #{p}-form on #{\bar{X}} that is holomorphic on #{X} and presents at worst logarithmic poles along #{Y}.
+    Then the restriction #{\omega|X} of #{\omega} to #{X} is closed, and if the cohomology class in #{\HH^p(X,\CC)} defined by #{\omega} is zero then #{\omega=0}.
+  }
+
+  \proof{
+    \p{
+      This is the particular case of (ii) of \ref{hodge-theory-ii-3.2.13} where #{{}_FE_1^{p0}={}_FE_\infty^{p0}}.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.15]{
+  \taxon{corollary}
+  \number{3.2.15}
+
+  \olc{
+    \lic{i.}{
+      If #{X} is a smooth complete algebraic variety, then the mixed Hodge structure on #{\HH^n(X,\ZZ)} is the classical Hodge structure of weight #{n}.
+    }
+
+    \lic{ii.}{
+      The Hodge numbers #{h^{pq}} of the mixed Hodge structure of #{\HH^n(X,\ZZ)} (with #{X} algebraic and smooth) can only be zero for #{p\leqslant n}, #{q\leqslant n}, and #{p+q\geqslant n}
+    }
+  }
+
+  \proof{
+    \p{
+      Claim (i) is clear;
+      to prove (ii), note that, if #{Y} is the union of smooth divisors, then the rational Hodge structure #{\Gr_k^W(\HH^n(X,\QQ))} is the quotient of a sub-object of a Hodge structure of weight #{n+k}, namely
+      ##{
+        \HH^{n-k}(\widetilde{Y}^n,\QQ)\otimes\QQ(-k).
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.16]{
+  \number{3.2.16}
+
+  \p{
+    Let #{X} be a smooth separated scheme.
+    We know that #{X} admits smooth compactifications #{\bar{X}} and that the subgroup of #{\HH^n(X,\ZZ)} given by the image of #{\HH^n(\bar{X},\ZZ)} is independent of the choice of #{\bar{X}} (cf. [[G1968](G1968), (9.1) to (9.4)]).
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.17]{
+  \taxon{corollary}
+  \number{3.2.17}
+
+  \p{
+    Under the hypotheses of \ref{hodge-theory-ii-3.2.16}, the image of #{\HH^n(\bar{X},\QQ)} in #{\HH^n(X,\QQ)} is #{W_n(\HH^n(X,\QQ))} (where #{W} denotes the weight filtration (\ref{hodge-theory-ii-3.2.12})).
+  }
+
+  \proof{
+    \p{
+      We can suppose that #{\bar{X}\setminus X} is a normal crossing divisor.
+      The claim then follows from the fact that #{W[-n]} is the abutment of the Leray spectral sequence for the inclusion #{j\colon X\hookrightarrow\bar{X}}.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.18]{
+  \taxon{corollary}
+  \number{3.2.18}
+
+  \p{
+    Let #{f} be a morphism from a smooth proper scheme #{Y} to a smooth scheme #{X}, with #{X} admitting a smooth compactification #{j\colon X\hookrightarrow\bar{X}}.
+    Then the groups #{\HH^n(X,\QQ)} and #{\HH^n(\bar{X},\QQ)} have the same image in #{\HH^n(Y,\QQ)}.
+  }
+
+  \proof{
+    \p{
+      \oldpage{40}
+      Since #{f^*} and #{(jf)^*} are strictly compatible with the weight filtration ((iii) of \ref{hodge-theory-ii-3.2.5}), it suffices to prove that #{\Gr^W(f^*)} and #{\Gr^W(f^*j^*)} have the same image in #{\Gr^W(\HH^n(Y,\QQ))}.
+      By \ref{hodge-theory-ii-3.2.17} and \ref{hodge-theory-ii-3.2.15}, #{\Gr_n^W(j^*)} is an isomorphism, while #{\Gr_m^W(f^*)=0} for #{m\neq n} since #{\Gr_m^W(\HH^n(Y,\QQ))=0} for #{m\neq n}.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-3.2.19]{
+  \taxon{remark}
+  \number{3.2.19}
+
+  \p{
+    By \ref{hodge-theory-ii-3.1.11} and \ref{hodge-theory-ii-1.4.5}, under the hypotheses of \ref{hodge-theory-ii-3.2.5}, the Hodge filtration on #{\HH^n(X,\CC)} is the abutment of the hypercohomology spectral sequence of the complex #{j_*^m\Omega_{X^*}^\bullet} endowed with the filtration given by the pole-order filtration (\ref{hodge-theory-ii-3.1.10}): this spectral sequence coincides with \ref{hodge-theory-ii-3.2.4.2}.
   }
 }
