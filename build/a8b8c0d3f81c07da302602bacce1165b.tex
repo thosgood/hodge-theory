@@ -1,0 +1,27 @@
+\documentclass[crop,dvisvgm]{standalone}
+
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  
+\begin{document}
+\begin {tikzcd} 
+         \bar {X}
+        &&  \bar {X}'_1
+           \ar [l," \bar {p}"]
+       \\ X
+           \ar [u,hook]
+           \ar [d,swap,"f"]
+        & X_1
+           \ar [l,hook]
+           \ar [d,swap,"f_1"]
+        & X'_1
+           \ar [l,"p"]
+           \ar [d,swap,"f'_1"]
+       \\ S
+        & S_1
+           \ar [l,hook,swap,"i"]
+        & S_1
+           \ar [l,equal]
+       \end {tikzcd}
+\end{document}

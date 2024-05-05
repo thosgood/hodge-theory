@@ -44,6 +44,68 @@
 
     \p{
       Let us fix #{f}, and prove that (i)#{\implies}(ii).
+      We can reduce to supposing that #{S} is non-empty and connected.
+      If #{s\in S} is a point, then the local system #{\Rd^nf_*\QQ} is entirely described by its fibre #{(\Rd^nf_*\QQ)_s} at #{s} and the action of the fundamental group #{\pi=\pi_1(S,s)} on this fibre.
+      We have
+      ##{
+        \HH^0(S,\Rd^n f_*\QQ)
+        \simto [(\Rd^n f_*\QQ)_s]^\pi.
+      }
+      If #{X_s=f^{-1}(s)}, then the composite arrow
+      ##{
+        \HH^0(S,\Rd^n f_*\QQ)
+        \to (\Rd^n f_*\QQ)
+        \approx \HH^n(X_s,\QQ)
+      }
+      is thus injective.
+      Consider the arrows
+      ##{
+        \HH^n(\bar{X},\QQ)
+        \xrightarrow{a} \HH^n(X,\QQ)
+        \xrightarrow{b} \HH^0(S,\Rd^n f_*\QQ)
+        \xhookrightarrow{c} \HH^n(X_s,\QQ).
+      }
+      The arrows #{cb} and #{cba} have the same image, by \ref{hodge-theory-ii-3.2.18}.
+      The arrow #{b} is an "edge homomorphism" of the Leray spectral sequence, and is thus surjective by hypothesis.
+      Since #{c} is injective, #{b} and #{ba} have the same image, and #{ba} is surjective.
+    }
+
+    \p{
+      This proves (ii) for #{f} projective.
+      From this we will deduce the general case.
+      We can again reduce to supposing that #{S} is non-empty and connected.
+    }
+
+    \p{
+      By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme #{X'} and a projective birational morphism #{p\colon X'\to X}.
+      \oldpage{41}
+      There thus exists (by Bertini, or Sard) a non-empty Zariski open #{S_1} of #{S} such that #{X'_1=(fp)^{-1}(S_1)} is smooth over #{S_1}.
+      Finally, let #{X_1=f^{-1}(S_1)}, let #{\bar{X}} be a smooth compactification of #{X}, and let #{\bar{X}'_1} be a smooth compactification of #{X'_1} that dominates #{\bar{X}}.
+
+      \tikzcd{
+        \bar{X}
+        && \bar{X}'_1
+          \ar[ll,swap,"\bar{p}"]
+      \\X
+          \ar[u,hook]
+          \ar[d,swap,"f"]
+        & X_1
+          \ar[l,hook']
+          \ar[d,swap,"f_1"]
+        & X'_1
+          \ar[u,hook]
+          \ar[l,swap,"p"]
+          \ar[d,swap,"f'_1"]
+      \\S
+        & S_1
+          \ar[l,hook',"i"]
+        & S_1
+          \ar[l,equals]
+      }
+    }
+
+    \p{
+      If #{s\in S_1}, then
     }
   }
 }
