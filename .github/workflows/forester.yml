@@ -23,6 +23,9 @@ jobs:
       - name: Install dependencies
         run: sudo apt install libev-dev
 
+      - name: Install TinyTeX
+        uses: r-lib/actions/setup-tinytex@v2
+
       - name: Install Forester
         run: opam install forester
 

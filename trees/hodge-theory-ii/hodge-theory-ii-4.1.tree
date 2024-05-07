@@ -120,7 +120,24 @@
     }
 
     \p{
-      The
+      The vertical arrows in the diagram
+      ##{
+        \begin{CD}
+          \HH^n(\bar{X},\QQ) @>>> \HH^n(X_1,\QQ) @>>> \HH^0(S_1,\Rd^n{f_1}_*\QQ)
+        \\@VV{\bar{p}^*}V @VV{p^*}V @VV{p^*}V
+        \\\HH^n(\bar{X}'_1,\QQ) @>>> \HH^n(X'_1,\QQ) @>>> \HH^0(S_1,\Rd{f'_1}_*\QQ)
+        \end{CD}
+      }
+      admit left inverses given by the \em{Gysin morphisms} #{\bar{p}_!}, #{p_!}, and #{p_!} (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
+      Furthermore, the diagram
+      ##{
+        \begin{CD}
+          \HH^n(\bar{X},\QQ) @>{u}>> \HH^0(S_1,\Rd^n{f_1}_*\QQ)
+        \\@A{\bar{p}_!}AA @AA{p_!}A
+        \\\HH^n(\bar{X}',\QQ) @>>{v}> \HH^0(S_1,\Rd^n{f'_1}_*\QQ)
+        \end{CD}
+      }
+      commutes.
     }
   }
 }
