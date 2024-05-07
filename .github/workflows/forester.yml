@@ -30,7 +30,7 @@ jobs:
         run: |
           tlmgr update --self
           tlmgr install standalone
-          tlmgr install tikz
+          tlmgr install pgf
           tlmgr install tikz-cd
 
       - name: Install Forester
