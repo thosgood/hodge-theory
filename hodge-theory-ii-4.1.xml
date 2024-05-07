@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1759</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1808</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -20,7 +20,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1445</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1458</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth separated scheme, and <fr:tex>f \colon  X \to  S</fr:tex> a smooth proper morphism.
   </fr:p>
  <html:ol
@@ -55,7 +55,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       For <fr:tex>f</fr:tex> smooth and projective, claim (i) is proven in <fr:link
 href="D1968.xml"
@@ -188,7 +188,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">            \operatorname {R}  f_* \mathbb {Q}             \approx   \sum _p  \operatorname {R} ^p f_* \mathbb {Q} [-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
 
       in <fr:tex>D^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
@@ -202,16 +202,146 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1446</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1459</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, with <fr:tex>S</fr:tex> reduced, connected, and separated.
+    Let <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )^0</fr:tex> be the largest constant local system on <fr:tex>\operatorname {R} ^n f_* \mathbb {Q}</fr:tex>, with fibre <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex>.
+    Then, for each <fr:tex>s \in  S</fr:tex>, <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> is a Hodge sub-structure of <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} ) \simeq \operatorname {H} ^n(X_s, \mathbb {Q} )</fr:tex>, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex> is independent of <fr:tex>s</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1455</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Let <fr:tex>s \in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
+      If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1"></fr:ref>, the subspace <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> of <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s</fr:tex> is the image of <fr:tex>\operatorname {H} ^n( \bar {X}, \mathbb {Q} )</fr:tex>.
+      Since the restriction map
+      <fr:tex
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )  \to   \operatorname {H} ^n(X_s, \mathbb {Q} )       </fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex>, given by the quotient of that on <fr:tex>\operatorname {H} ^n( \bar {X}, \mathbb {Q} )</fr:tex>, is independent of <fr:tex>s</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:p>
+  In the general case, <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref> also implies that, if <fr:tex>a</fr:tex> is a global section of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>, then its components <fr:tex>a^{p,q}</fr:tex> of type <fr:tex>(p,q)</fr:tex>, which are a priori only continuous sections of the complex bundle defined by <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>, are in fact locally constant, i.e. are sections of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>.
+  This is the case because <fr:tex>a^{p,q}</fr:tex> is continuous, and further locally constant on the (dense) open subset of smooth points of <fr:tex>S</fr:tex>, by the above.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1460</fr:anchor><fr:addr>hodge-theory-ii-4.1.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.xml</fr:route><fr:number>4.1.3</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    In the case where <fr:tex>S</fr:tex> is compact, a generalisation of <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref> is proven by analytic methods in [<fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>].
+  </fr:p><fr:p>
+    As a corollary to <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref>, we note:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>268</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.1</fr:addr><fr:route>hodge-theory-ii-4.1.3.1.xml</fr:route><fr:number>4.1.3.1</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>]).
+        Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, as in <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref>.
+        If a global section <fr:tex>a</fr:tex> of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex> is of Hodge type <fr:tex>(p,q)</fr:tex> at a point, then <fr:tex>a</fr:tex> is everywhere of type <fr:tex>(p,q)</fr:tex>.
+        In particular, if <fr:tex>n=2</fr:tex> and if <fr:tex>a</fr:tex> is, at some point <fr:tex>s</fr:tex>, the cohomology class of a divisor of <fr:tex>X_s</fr:tex>, then <fr:tex>a</fr:tex> is everywhere the cohomology class of a divisor, and, if <fr:tex>S</fr:tex> is smooth, is even defined by a divisor <fr:tex>D</fr:tex> on <fr:tex>X</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="G1966.xml"
+type="local"
+addr="G1966">G1966</fr:link>]).
+        Let <fr:tex>S</fr:tex> be a reduced connected scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>, and let <fr:tex>f_1 \colon  X_1 \to  S</fr:tex> and <fr:tex>f_2 \colon  X_2 \to  S</fr:tex> be abelian schemes over <fr:tex>S</fr:tex>.
+        If a morphism <fr:tex>u \colon \operatorname {R} ^1{f_2}_* \mathbb {Z} \to \operatorname {R} ^1{f_1}_* \mathbb {Z}</fr:tex> comes from a morphism <fr:tex>\widetilde {u}_s \colon (X_1)_s \to (X_2)_s</fr:tex> of abelian varieties at some point <fr:tex>s \in  S</fr:tex>, then <fr:tex>u</fr:tex> comes from a (unique) morphism of abelian schemes <fr:tex>\widetilde {u} \colon  X_1 \to  X_2</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.3.xml</fr:route><fr:number>4.1.3.3</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="K1971.xml"
+type="local"
+addr="K1971">K1971</fr:link>]).
+        Let <fr:tex>S</fr:tex> be a smooth connected scheme, <fr:tex>s \in  S</fr:tex> a point, <fr:tex>f \colon  X \to  S</fr:tex> a proper smooth morphism, and <fr:tex>P</fr:tex> a direct factor of the local system <fr:tex>\operatorname {R} ^i f_* \mathbb {Q}</fr:tex>, which is pointwise a Hodge sub-structure.
+        Then the following conditions are equivalent:
+
+        
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+          
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+            The Hodge structure of <fr:tex>P</fr:tex> is locally constant.
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+            The representation <fr:tex>P_s</fr:tex> of <fr:tex>\pi _1(S,s)</fr:tex> factors through a finite quotient of <fr:tex>\pi _1(S,s)</fr:tex>.
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;c. &quot;">
+            There exists a finite non-empty étale covering <fr:tex>u \colon  S' \to  S</fr:tex> such that <fr:tex>u^*P</fr:tex> is a constant family of Hodge structures.
+          </html:li>
+
+        </html:ol></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1758</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1807</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:title><fr:number>4</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -221,14 +351,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1509</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1553</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1445</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1458</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth separated scheme, and <fr:tex>f \colon  X \to  S</fr:tex> a smooth proper morphism.
   </fr:p>
  <html:ol
@@ -263,7 +393,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       For <fr:tex>f</fr:tex> smooth and projective, claim (i) is proven in <fr:link
 href="D1968.xml"
@@ -396,7 +526,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">            \operatorname {R}  f_* \mathbb {Q}             \approx   \sum _p  \operatorname {R} ^p f_* \mathbb {Q} [-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
 
       in <fr:tex>D^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
@@ -410,37 +540,203 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1446</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1459</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, with <fr:tex>S</fr:tex> reduced, connected, and separated.
+    Let <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )^0</fr:tex> be the largest constant local system on <fr:tex>\operatorname {R} ^n f_* \mathbb {Q}</fr:tex>, with fibre <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex>.
+    Then, for each <fr:tex>s \in  S</fr:tex>, <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> is a Hodge sub-structure of <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} ) \simeq \operatorname {H} ^n(X_s, \mathbb {Q} )</fr:tex>, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex> is independent of <fr:tex>s</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1455</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Let <fr:tex>s \in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
+      If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1"></fr:ref>, the subspace <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> of <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s</fr:tex> is the image of <fr:tex>\operatorname {H} ^n( \bar {X}, \mathbb {Q} )</fr:tex>.
+      Since the restriction map
+      <fr:tex
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )  \to   \operatorname {H} ^n(X_s, \mathbb {Q} )       </fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex>, given by the quotient of that on <fr:tex>\operatorname {H} ^n( \bar {X}, \mathbb {Q} )</fr:tex>, is independent of <fr:tex>s</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:p>
+  In the general case, <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref> also implies that, if <fr:tex>a</fr:tex> is a global section of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>, then its components <fr:tex>a^{p,q}</fr:tex> of type <fr:tex>(p,q)</fr:tex>, which are a priori only continuous sections of the complex bundle defined by <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>, are in fact locally constant, i.e. are sections of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>.
+  This is the case because <fr:tex>a^{p,q}</fr:tex> is continuous, and further locally constant on the (dense) open subset of smooth points of <fr:tex>S</fr:tex>, by the above.
+</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1510</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1460</fr:anchor><fr:addr>hodge-theory-ii-4.1.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.xml</fr:route><fr:number>4.1.3</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    In the case where <fr:tex>S</fr:tex> is compact, a generalisation of <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref> is proven by analytic methods in [<fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>].
+  </fr:p><fr:p>
+    As a corollary to <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref>, we note:
+
+    <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1511</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>268</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.1</fr:addr><fr:route>hodge-theory-ii-4.1.3.1.xml</fr:route><fr:number>4.1.3.1</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>]).
+        Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, as in <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref>.
+        If a global section <fr:tex>a</fr:tex> of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex> is of Hodge type <fr:tex>(p,q)</fr:tex> at a point, then <fr:tex>a</fr:tex> is everywhere of type <fr:tex>(p,q)</fr:tex>.
+        In particular, if <fr:tex>n=2</fr:tex> and if <fr:tex>a</fr:tex> is, at some point <fr:tex>s</fr:tex>, the cohomology class of a divisor of <fr:tex>X_s</fr:tex>, then <fr:tex>a</fr:tex> is everywhere the cohomology class of a divisor, and, if <fr:tex>S</fr:tex> is smooth, is even defined by a divisor <fr:tex>D</fr:tex> on <fr:tex>X</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1512</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="G1966.xml"
+type="local"
+addr="G1966">G1966</fr:link>]).
+        Let <fr:tex>S</fr:tex> be a reduced connected scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>, and let <fr:tex>f_1 \colon  X_1 \to  S</fr:tex> and <fr:tex>f_2 \colon  X_2 \to  S</fr:tex> be abelian schemes over <fr:tex>S</fr:tex>.
+        If a morphism <fr:tex>u \colon \operatorname {R} ^1{f_2}_* \mathbb {Z} \to \operatorname {R} ^1{f_1}_* \mathbb {Z}</fr:tex> comes from a morphism <fr:tex>\widetilde {u}_s \colon (X_1)_s \to (X_2)_s</fr:tex> of abelian varieties at some point <fr:tex>s \in  S</fr:tex>, then <fr:tex>u</fr:tex> comes from a (unique) morphism of abelian schemes <fr:tex>\widetilde {u} \colon  X_1 \to  X_2</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.3.xml</fr:route><fr:number>4.1.3.3</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="K1971.xml"
+type="local"
+addr="K1971">K1971</fr:link>]).
+        Let <fr:tex>S</fr:tex> be a smooth connected scheme, <fr:tex>s \in  S</fr:tex> a point, <fr:tex>f \colon  X \to  S</fr:tex> a proper smooth morphism, and <fr:tex>P</fr:tex> a direct factor of the local system <fr:tex>\operatorname {R} ^i f_* \mathbb {Q}</fr:tex>, which is pointwise a Hodge sub-structure.
+        Then the following conditions are equivalent:
+
+        
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+          
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+            The Hodge structure of <fr:tex>P</fr:tex> is locally constant.
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+            The representation <fr:tex>P_s</fr:tex> of <fr:tex>\pi _1(S,s)</fr:tex> factors through a finite quotient of <fr:tex>\pi _1(S,s)</fr:tex>.
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;c. &quot;">
+            There exists a finite non-empty étale covering <fr:tex>u \colon  S' \to  S</fr:tex> such that <fr:tex>u^*P</fr:tex> is a constant family of Hodge structures.
+          </html:li>
+
+        </html:ol></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1554</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1555</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1556</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1757</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1805</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, with <fr:tex>S</fr:tex> reduced, connected, and separated.
+    Let <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )^0</fr:tex> be the largest constant local system on <fr:tex>\operatorname {R} ^n f_* \mathbb {Q}</fr:tex>, with fibre <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex>.
+    Then, for each <fr:tex>s \in  S</fr:tex>, <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> is a Hodge sub-structure of <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} ) \simeq \operatorname {H} ^n(X_s, \mathbb {Q} )</fr:tex>, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex> is independent of <fr:tex>s</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1455</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Let <fr:tex>s \in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
+      If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1"></fr:ref>, the subspace <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> of <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s</fr:tex> is the image of <fr:tex>\operatorname {H} ^n( \bar {X}, \mathbb {Q} )</fr:tex>.
+      Since the restriction map
+      <fr:tex
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )  \to   \operatorname {H} ^n(X_s, \mathbb {Q} )       </fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex>, given by the quotient of that on <fr:tex>\operatorname {H} ^n( \bar {X}, \mathbb {Q} )</fr:tex>, is independent of <fr:tex>s</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1806</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:title><fr:number>4</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -450,14 +746,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1509</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1553</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1445</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1458</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth separated scheme, and <fr:tex>f \colon  X \to  S</fr:tex> a smooth proper morphism.
   </fr:p>
  <html:ol
@@ -492,7 +788,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       For <fr:tex>f</fr:tex> smooth and projective, claim (i) is proven in <fr:link
 href="D1968.xml"
@@ -625,7 +921,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">            \operatorname {R}  f_* \mathbb {Q}             \approx   \sum _p  \operatorname {R} ^p f_* \mathbb {Q} [-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
 
       in <fr:tex>D^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
@@ -639,37 +935,167 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1446</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1459</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, with <fr:tex>S</fr:tex> reduced, connected, and separated.
+    Let <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )^0</fr:tex> be the largest constant local system on <fr:tex>\operatorname {R} ^n f_* \mathbb {Q}</fr:tex>, with fibre <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex>.
+    Then, for each <fr:tex>s \in  S</fr:tex>, <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> is a Hodge sub-structure of <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} ) \simeq \operatorname {H} ^n(X_s, \mathbb {Q} )</fr:tex>, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex> is independent of <fr:tex>s</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1455</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Let <fr:tex>s \in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
+      If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1"></fr:ref>, the subspace <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> of <fr:tex>( \operatorname {R} ^n f_* \mathbb {Q} )_s</fr:tex> is the image of <fr:tex>\operatorname {H} ^n( \bar {X}, \mathbb {Q} )</fr:tex>.
+      Since the restriction map
+      <fr:tex
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )  \to   \operatorname {H} ^n(X_s, \mathbb {Q} )       </fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )</fr:tex>, given by the quotient of that on <fr:tex>\operatorname {H} ^n( \bar {X}, \mathbb {Q} )</fr:tex>, is independent of <fr:tex>s</fr:tex>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:p>
+  In the general case, <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref> also implies that, if <fr:tex>a</fr:tex> is a global section of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>, then its components <fr:tex>a^{p,q}</fr:tex> of type <fr:tex>(p,q)</fr:tex>, which are a priori only continuous sections of the complex bundle defined by <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>, are in fact locally constant, i.e. are sections of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex>.
+  This is the case because <fr:tex>a^{p,q}</fr:tex> is continuous, and further locally constant on the (dense) open subset of smooth points of <fr:tex>S</fr:tex>, by the above.
+</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1510</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1460</fr:anchor><fr:addr>hodge-theory-ii-4.1.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.xml</fr:route><fr:number>4.1.3</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    In the case where <fr:tex>S</fr:tex> is compact, a generalisation of <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref> is proven by analytic methods in [<fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>].
+  </fr:p><fr:p>
+    As a corollary to <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref>, we note:
+
+    <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1511</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>268</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.1</fr:addr><fr:route>hodge-theory-ii-4.1.3.1.xml</fr:route><fr:number>4.1.3.1</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>]).
+        Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, as in <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref>.
+        If a global section <fr:tex>a</fr:tex> of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex> is of Hodge type <fr:tex>(p,q)</fr:tex> at a point, then <fr:tex>a</fr:tex> is everywhere of type <fr:tex>(p,q)</fr:tex>.
+        In particular, if <fr:tex>n=2</fr:tex> and if <fr:tex>a</fr:tex> is, at some point <fr:tex>s</fr:tex>, the cohomology class of a divisor of <fr:tex>X_s</fr:tex>, then <fr:tex>a</fr:tex> is everywhere the cohomology class of a divisor, and, if <fr:tex>S</fr:tex> is smooth, is even defined by a divisor <fr:tex>D</fr:tex> on <fr:tex>X</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1512</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="G1966.xml"
+type="local"
+addr="G1966">G1966</fr:link>]).
+        Let <fr:tex>S</fr:tex> be a reduced connected scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>, and let <fr:tex>f_1 \colon  X_1 \to  S</fr:tex> and <fr:tex>f_2 \colon  X_2 \to  S</fr:tex> be abelian schemes over <fr:tex>S</fr:tex>.
+        If a morphism <fr:tex>u \colon \operatorname {R} ^1{f_2}_* \mathbb {Z} \to \operatorname {R} ^1{f_1}_* \mathbb {Z}</fr:tex> comes from a morphism <fr:tex>\widetilde {u}_s \colon (X_1)_s \to (X_2)_s</fr:tex> of abelian varieties at some point <fr:tex>s \in  S</fr:tex>, then <fr:tex>u</fr:tex> comes from a (unique) morphism of abelian schemes <fr:tex>\widetilde {u} \colon  X_1 \to  X_2</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.3.xml</fr:route><fr:number>4.1.3.3</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (cf. [<fr:link
+href="K1971.xml"
+type="local"
+addr="K1971">K1971</fr:link>]).
+        Let <fr:tex>S</fr:tex> be a smooth connected scheme, <fr:tex>s \in  S</fr:tex> a point, <fr:tex>f \colon  X \to  S</fr:tex> a proper smooth morphism, and <fr:tex>P</fr:tex> a direct factor of the local system <fr:tex>\operatorname {R} ^i f_* \mathbb {Q}</fr:tex>, which is pointwise a Hodge sub-structure.
+        Then the following conditions are equivalent:
+
+        
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+          
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+            The Hodge structure of <fr:tex>P</fr:tex> is locally constant.
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+            The representation <fr:tex>P_s</fr:tex> of <fr:tex>\pi _1(S,s)</fr:tex> factors through a finite quotient of <fr:tex>\pi _1(S,s)</fr:tex>.
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;c. &quot;">
+            There exists a finite non-empty étale covering <fr:tex>u \colon  S' \to  S</fr:tex> such that <fr:tex>u^*P</fr:tex> is a constant family of Hodge structures.
+          </html:li>
+
+        </html:ol></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1554</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1555</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1556</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>1756</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>1804</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>
       "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
@@ -972,7 +1398,23 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1752</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1796</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>K1971</fr:addr><fr:route>K1971.xml</fr:route><fr:title>Nilpotent connections and the monodromy theorem. Applications of a result of Turritin</fr:title><fr:date><fr:year>1971</fr:year></fr:date><fr:authors><fr:author>N. Katz</fr:author></fr:authors><fr:meta
+name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>39</fr:strong> pp. 175–232</fr:meta><fr:meta
+name="bibtex">@article{10,
+  author = {Katz, N.},
+  title = {{Nilpotent connections and the monodromy theorem. Applications of a result of Turritin}},
+  journal = {Publ. Math. IH\'{E}S},
+  volume = {39},
+  year = {1971},
+  pages = {175--232},
+}</fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1798</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>38</fr:strong> pp. 125–180</fr:meta><fr:meta
 name="bibtex">@article{5,
   author = {Griffiths, P.A.},
@@ -988,7 +1430,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1754</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1968</fr:addr><fr:route>D1968.xml</fr:route><fr:title>Théorème de Lefschetz et critères de dégénérescence de suites spectrales</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1800</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1968</fr:addr><fr:route>D1968.xml</fr:route><fr:title>Théorème de Lefschetz et critères de dégénérescence de suites spectrales</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>35</fr:strong> pp.107–126</fr:meta><fr:meta
 name="bibtex">@article{2,
   author = {Deligne, P.},
@@ -997,4 +1439,20 @@ name="bibtex">@article{2,
   volume = {35},
   year = {1968},
   pages = {107--126},
+}</fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1802</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1966</fr:addr><fr:route>G1966.xml</fr:route><fr:title>Un théorème sur les homomorphismes de schémas abéliens</fr:title><fr:date><fr:year>1966</fr:year></fr:date><fr:authors><fr:author>A. Grothendieck</fr:author></fr:authors><fr:meta
+name="venue"><fr:em>Inv. Math.</fr:em> <fr:strong>2</fr:strong> pp. 59–78</fr:meta><fr:meta
+name="bibtex">@article{7,
+  author = {Grothendieck, A.},
+  title = {Un th\'{e}or\`{e}me sur les homomorphismes de sch\'{e}mas ab\'{e}liens},
+  journal = {Inv. Math.},
+  volume = {2},
+  year = {1966},
+  pages = {59--78},
 }</fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
