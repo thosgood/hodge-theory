@@ -44,7 +44,7 @@
 
     \p{
       Let us fix #{f}, and prove that (i)#{\implies}(ii).
-      We can reduce to supposing that #{S} is non-empty and connected.
+      We can reduce to the case where #{S} is non-empty and connected.
       If #{s\in S} is a point, then the local system #{\Rd^nf_*\QQ} is entirely described by its fibre #{(\Rd^nf_*\QQ)_s} at #{s} and the action of the fundamental group #{\pi=\pi_1(S,s)} on this fibre.
       We have
       ##{
@@ -73,7 +73,7 @@
     \p{
       This proves (ii) for #{f} projective.
       From this we will deduce the general case.
-      We can again reduce to supposing that #{S} is non-empty and connected.
+      We can again reduce to the case where #{S} is non-empty and connected.
     }
 
     \p{
@@ -138,6 +138,57 @@
         \end{CD}
       }
       commutes.
+      The arrow #{u} is thus a direct factor of the arrow #{v}.
+      Since #{v} is surjective (because #{f'_1} is projective), so too is #{u}.
     }
+
+    \p{
+      \oldpage{42}
+      We now prove (i) in the general case.
+      We can reduce to the case where #{f} is of pure relative dimension #{n}.
+      Let #{f\times f} be the projection of #{X\times_S X} to #{S}.
+    }
+
+    \p{
+      Let #{\delta} be the image of the cohomology class of the diagonal of #{X\times_S X} in #{\HH^0(S,\Rd^n(f\times f)_*,\QQ)}.
+      We have, by Künneth,
+      ##{
+        \Rd^n(f\times f)_*\QQ
+        = \sum_{p+q=n} (\Rd^p f_*\QQ\otimes\Rd^q f_*\QQ).
+      }
+      We denote by #{\delta'_{pq}} (for #{p+q=n}) the components of #{\delta} in this decomposition, and by #{\delta_{pq}} the classes in #{\HH^n(X\times_S X)} given by the images of the #{\delta'_{pq}}.
+    }
+
+    \p{
+      The #{\delta_{pq}} define, in the derived category #{D^+(S)}, homomorphisms
+      ##{
+        \delta_p\colon
+        \Rd f_*\QQ
+        \to \Rd f_*\QQ
+      }
+      such that #{\sHH^q(\delta_p)} is zero for #{p\neq q}, and is the identity for #{p=q}.
+      By [[D1968](D1968)], we thus have
+
+      \subtree[hodge-theory-ii-4.1.1.1]{
+        \taxon{equation}
+        \number{4.1.1.1}
+        ##{
+          \Rd f_*\QQ
+          \approx \sum_p \Rd^p f_*\QQ[-p]
+        \startverb\tag{4.1.1.1}\stopverb
+        }
+      }
+
+      in #{D^+(S)}, and the Leray spectral sequence degenerates.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.1.2]{
+  \taxon{corollary}
+  \number{4.1.2}
+
+  \p{
+    Let
   }
 }
