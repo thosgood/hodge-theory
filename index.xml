@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>1618</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>1627</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>
       "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
@@ -192,7 +192,7 @@ style="list-style-type: &quot;4.1 &quot;">
             <fr:link
 href="hodge-theory-ii-4.1.xml"
 type="local"
-addr="hodge-theory-ii-4.1">The fixed set theorem</fr:link>
+addr="hodge-theory-ii-4.1">The fixed set theorem</fr:link> ✓
           </html:li>
 
           
@@ -310,7 +310,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1597</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:title><fr:number>4</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -320,7 +320,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1553</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1562</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -648,28 +648,70 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1554</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1563</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1555</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1496</fr:anchor><fr:addr>hodge-theory-ii-4.2.1</fr:addr><fr:route>hodge-theory-ii-4.2.1.xml</fr:route><fr:number>4.2.1</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a topological space.
+    A <fr:em>continuous family of Hodge structures</fr:em> on <fr:tex>S</fr:tex> consists of:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        A local system <fr:tex>H_ \mathbb {Z}</fr:tex> on <fr:tex>S</fr:tex> of <fr:tex>\mathbb {Z}</fr:tex>-modules of finite type.
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        For every point <fr:tex>s \in  S</fr:tex>, a Hodge structure on the fibre <fr:tex>(H_ \mathbb {Z} )</fr:tex> that varies continuously in <fr:tex>s</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    A continuous family <fr:tex>H</fr:tex> of Hodge structures on <fr:tex>S</fr:tex> is said to be <fr:em>of weight <fr:tex>n</fr:tex></fr:em> if the fibres <fr:tex>H_s</fr:tex> (for <fr:tex>s \in  S</fr:tex>) are all of weight <fr:tex>n</fr:tex>.
+  </fr:p><fr:p>
+    We similarly define a <fr:em>continuous family of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures</fr:em> as a local system of <fr:tex>\mathbb {Q}</fr:tex>-vector spaces, endowed at each point with a Hodge <fr:tex>\mathbb {Q}</fr:tex>-structure, varying continuously.
+  </fr:p><fr:p>
+    A <fr:em>polarisation</fr:em> of a continuous family <fr:tex>H</fr:tex> of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures of weight <fr:tex>n</fr:tex> is a morphism of local systems from <fr:tex>H_ \mathbb {Q} \otimes  H_ \mathbb {Q}</fr:tex> to the constant local system <fr:tex>\mathbb {Q} (-n)_ \mathbb {Q}</fr:tex>, which defines at each point <fr:tex>s \in  S</fr:tex> a polarisation of <fr:tex>H_s</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1556</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1497</fr:anchor><fr:addr>hodge-theory-ii-4.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.xml</fr:route><fr:number>4.2.2</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Suppose that <fr:tex>S</fr:tex> is connected, and let <fr:tex>\mathcal {C}</fr:tex> be a strictly full subcategory of the category of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex>.
+    We will need to consider the following conditions:
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1564</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1565</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1598</fr:anchor><fr:taxon>Bibliography</fr:taxon><fr:addr>hodge-theory-bibliography</fr:addr><fr:route>hodge-theory-bibliography.xml</fr:route><fr:title>Complete list of references</fr:title></fr:frontmatter><fr:mainmatter><fr:p><fr:em>Click anywhere on an entry to see the corresponding BibTeX.</fr:em></fr:p>
+root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:taxon>Bibliography</fr:taxon><fr:addr>hodge-theory-bibliography</fr:addr><fr:route>hodge-theory-bibliography.xml</fr:route><fr:title>Complete list of references</fr:title></fr:frontmatter><fr:mainmatter><fr:p><fr:em>Click anywhere on an entry to see the corresponding BibTeX.</fr:em></fr:p>
   <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
@@ -677,14 +719,14 @@ numbered="true"
 show-heading="false"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1595</fr:anchor></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1604</fr:anchor></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1559</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>K1971</fr:addr><fr:route>K1971.xml</fr:route><fr:title>Nilpotent connections and the monodromy theorem. Applications of a result of Turritin</fr:title><fr:date><fr:year>1971</fr:year></fr:date><fr:authors><fr:author>N. Katz</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1568</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>K1971</fr:addr><fr:route>K1971.xml</fr:route><fr:title>Nilpotent connections and the monodromy theorem. Applications of a result of Turritin</fr:title><fr:date><fr:year>1971</fr:year></fr:date><fr:authors><fr:author>N. Katz</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>39</fr:strong> pp. 175–232</fr:meta><fr:meta
 name="bibtex">@article{10,
   author = {Katz, N.},
@@ -700,7 +742,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1561</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1970</fr:addr><fr:route>D1970.xml</fr:route><fr:title>Equations différentielles à points singuliers réguliers</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1570</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1970</fr:addr><fr:route>D1970.xml</fr:route><fr:title>Equations différentielles à points singuliers réguliers</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
 name="venue">Springer</fr:meta><fr:meta
 name="bibtex">@book{3,
   author = {Deligne, P.},
@@ -714,7 +756,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1563</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1572</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>38</fr:strong> pp. 125–180</fr:meta><fr:meta
 name="bibtex">@article{5,
   author = {Griffiths, P.A.},
@@ -730,7 +772,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1565</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1969</fr:addr><fr:route>D1969.xml</fr:route><fr:title>Motifs des variétés algébriques</fr:title><fr:date><fr:year>1969</fr:year></fr:date><fr:authors><fr:author>M. Demazure</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1574</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1969</fr:addr><fr:route>D1969.xml</fr:route><fr:title>Motifs des variétés algébriques</fr:title><fr:date><fr:year>1969</fr:year></fr:date><fr:authors><fr:author>M. Demazure</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Sém. Bourbaki</fr:em> (1969–70) no. 365</fr:meta><fr:meta
 name="bibtex">@article{D1969,
   author = {Demazure, M},
@@ -745,7 +787,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1567</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1969</fr:addr><fr:route>G1969.xml</fr:route><fr:title>On the periods of certain rational integrals, I</fr:title><fr:date><fr:year>1969</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1576</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1969</fr:addr><fr:route>G1969.xml</fr:route><fr:title>On the periods of certain rational integrals, I</fr:title><fr:date><fr:year>1969</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Ann. of Math.</fr:em> <fr:strong>90</fr:strong> pp. 460–495</fr:meta><fr:meta
 name="bibtex">@article{4,
   author = {Griffiths, P.A.},
@@ -761,7 +803,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1569</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>ST1968</fr:addr><fr:route>ST1968.xml</fr:route><fr:title>Good reduction of abelian varieties</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>J.-P. Serre</fr:author><fr:author>J. Tate</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1578</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>ST1968</fr:addr><fr:route>ST1968.xml</fr:route><fr:title>Good reduction of abelian varieties</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>J.-P. Serre</fr:author><fr:author>J. Tate</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Ann. of Math</fr:em> <fr:strong>88</fr:strong> pp. 492–517</fr:meta><fr:meta
 name="bibtex">@article{ST1968,
   author = {Serre, J-P and Tate, J},
@@ -777,7 +819,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1572</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1968</fr:addr><fr:route>G1968.xml</fr:route><fr:title>Le groupe de Brauer, III: Exemples et compléments</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>A. Grothendieck</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1581</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1968</fr:addr><fr:route>G1968.xml</fr:route><fr:title>Le groupe de Brauer, III: Exemples et compléments</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>A. Grothendieck</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Dix exposés sur la cohomologie des schémas</fr:em> North-Holland Publ. Co.</fr:meta><fr:meta
 name="bibtex">@incollection{6,
   author = {Grothendieck, A.},
@@ -792,7 +834,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1574</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1968</fr:addr><fr:route>D1968.xml</fr:route><fr:title>Théorème de Lefschetz et critères de dégénérescence de suites spectrales</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1583</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1968</fr:addr><fr:route>D1968.xml</fr:route><fr:title>Théorème de Lefschetz et critères de dégénérescence de suites spectrales</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>35</fr:strong> pp.107–126</fr:meta><fr:meta
 name="bibtex">@article{2,
   author = {Deligne, P.},
@@ -808,7 +850,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1576</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1966</fr:addr><fr:route>G1966.xml</fr:route><fr:title>Un théorème sur les homomorphismes de schémas abéliens</fr:title><fr:date><fr:year>1966</fr:year></fr:date><fr:authors><fr:author>A. Grothendieck</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1585</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1966</fr:addr><fr:route>G1966.xml</fr:route><fr:title>Un théorème sur les homomorphismes de schémas abéliens</fr:title><fr:date><fr:year>1966</fr:year></fr:date><fr:authors><fr:author>A. Grothendieck</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Inv. Math.</fr:em> <fr:strong>2</fr:strong> pp. 59–78</fr:meta><fr:meta
 name="bibtex">@article{7,
   author = {Grothendieck, A.},
@@ -824,7 +866,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1578</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>H1964</fr:addr><fr:route>H1964.xml</fr:route><fr:title>Resolution of singularities of an algebraic variety over a field of characteristic zero</fr:title><fr:date><fr:year>1964</fr:year></fr:date><fr:authors><fr:author>H. Hironaka</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1587</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>H1964</fr:addr><fr:route>H1964.xml</fr:route><fr:title>Resolution of singularities of an algebraic variety over a field of characteristic zero</fr:title><fr:date><fr:year>1964</fr:year></fr:date><fr:authors><fr:author>H. Hironaka</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Ann. of Math.</fr:em> <fr:strong>79</fr:strong> pp. 109–326</fr:meta><fr:meta
 name="bibtex">@article{8,
   author = {Hironaka, H.},
@@ -840,7 +882,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1580</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>N1962</fr:addr><fr:route>N1962.xml</fr:route><fr:title>Imbedding of an abstract variety in a complete variety</fr:title><fr:date><fr:year>1962</fr:year></fr:date><fr:authors><fr:author>M. Nagata</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1589</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>N1962</fr:addr><fr:route>N1962.xml</fr:route><fr:title>Imbedding of an abstract variety in a complete variety</fr:title><fr:date><fr:year>1962</fr:year></fr:date><fr:authors><fr:author>M. Nagata</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>J. Math. Kyoto</fr:em> <fr:strong>2</fr:strong> pp. 1–10</fr:meta><fr:meta
 name="bibtex">@article{11,
   author = {Nagata, M.},
@@ -856,7 +898,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1582</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>S1960</fr:addr><fr:route>S1960.xml</fr:route><fr:title>Analogues kählériens de certaines conjectures de Weil</fr:title><fr:date><fr:year>1960</fr:year></fr:date><fr:authors><fr:author>J.-P. Serre</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1591</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>S1960</fr:addr><fr:route>S1960.xml</fr:route><fr:title>Analogues kählériens de certaines conjectures de Weil</fr:title><fr:date><fr:year>1960</fr:year></fr:date><fr:authors><fr:author>J.-P. Serre</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Ann. of Math</fr:em> <fr:strong>71</fr:strong> pp. 392–294</fr:meta><fr:meta
 name="bibtex">@article{3,
   author = {Serre, J-P},
@@ -872,7 +914,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1584</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>W1958</fr:addr><fr:route>W1958.xml</fr:route><fr:title>Introduction à L'Étude des Variétés Kählériennes</fr:title><fr:date><fr:year>1958</fr:year></fr:date><fr:authors><fr:author>A. Weil</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1593</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>W1958</fr:addr><fr:route>W1958.xml</fr:route><fr:title>Introduction à L'Étude des Variétés Kählériennes</fr:title><fr:date><fr:year>1958</fr:year></fr:date><fr:authors><fr:author>A. Weil</fr:author></fr:authors><fr:meta
 name="venue">Hermann <fr:em>Act. Sci. et Ind.</fr:em> <fr:strong>1267</fr:strong></fr:meta><fr:meta
 name="bibtex">@book{W1958,
   author = {Weil, A},
@@ -888,7 +930,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1586</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1958</fr:addr><fr:route>G1958.xml</fr:route><fr:title>Topologie algébrique et théorie des faisceaux</fr:title><fr:date><fr:year>1958</fr:year></fr:date><fr:authors><fr:author>R. Godement</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1595</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1958</fr:addr><fr:route>G1958.xml</fr:route><fr:title>Topologie algébrique et théorie des faisceaux</fr:title><fr:date><fr:year>1958</fr:year></fr:date><fr:authors><fr:author>R. Godement</fr:author></fr:authors><fr:meta
 name="venue">Hermann</fr:meta><fr:meta
 name="bibtex">@book{15,
   author = {Godement, R.},
@@ -902,7 +944,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1588</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>AH1955</fr:addr><fr:route>AH1955.xml</fr:route><fr:title>Integrals of the second kind on an algebraic variety</fr:title><fr:date><fr:year>1955</fr:year></fr:date><fr:authors><fr:author>M.F. Atiyah</fr:author><fr:author>W.V.D. Hodge</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1597</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>AH1955</fr:addr><fr:route>AH1955.xml</fr:route><fr:title>Integrals of the second kind on an algebraic variety</fr:title><fr:date><fr:year>1955</fr:year></fr:date><fr:authors><fr:author>M.F. Atiyah</fr:author><fr:author>W.V.D. Hodge</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Ann. of Math.</fr:em> <fr:strong>62</fr:strong> pp. 56–91</fr:meta><fr:meta
 name="bibtex">@article{1,
   author = {Atiyah, M.F. and Hodge, W.V.D.},
@@ -918,7 +960,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1591</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>H1952</fr:addr><fr:route>H1952.xml</fr:route><fr:title>The theory and applications of harmonic integrals</fr:title><fr:date><fr:year>1952</fr:year></fr:date><fr:authors><fr:author>W.V.D. Hodge</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1600</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>H1952</fr:addr><fr:route>H1952.xml</fr:route><fr:title>The theory and applications of harmonic integrals</fr:title><fr:date><fr:year>1952</fr:year></fr:date><fr:authors><fr:author>W.V.D. Hodge</fr:author></fr:authors><fr:meta
 name="venue">Cambridge Univ. Press</fr:meta><fr:meta
 name="bibtex">@book{9,
   author = {Hodge, W.V.D.},
@@ -932,7 +974,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1593</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>W1949</fr:addr><fr:route>W1949.xml</fr:route><fr:title>Number of solutions of equations in finite fields</fr:title><fr:date><fr:year>1949</fr:year></fr:date><fr:authors><fr:author>A. Weil</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1602</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>W1949</fr:addr><fr:route>W1949.xml</fr:route><fr:title>Number of solutions of equations in finite fields</fr:title><fr:date><fr:year>1949</fr:year></fr:date><fr:authors><fr:author>A. Weil</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Bull. Amer. Math. Soc.</fr:em> <fr:strong>55</fr:strong> pp. 497–508</fr:meta><fr:meta
 name="bibtex">@article{W1949,
   author = {Weil, A},
@@ -949,7 +991,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1599</fr:anchor><fr:addr>hodge-theory-ii-1.1</fr:addr><fr:route>hodge-theory-ii-1.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1608</fr:anchor><fr:addr>hodge-theory-ii-1.1</fr:addr><fr:route>hodge-theory-ii-1.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-1.xml"
 type="local"
 addr="hodge-theory-ii-1"><fr:link
@@ -1236,7 +1278,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1600</fr:anchor><fr:addr>hodge-theory-ii-1</fr:addr><fr:route>hodge-theory-ii-1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1609</fr:anchor><fr:addr>hodge-theory-ii-1</fr:addr><fr:route>hodge-theory-ii-1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Filtrations</fr:title><fr:number>1</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -1246,7 +1288,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1540</fr:anchor><fr:addr>hodge-theory-ii-1.1</fr:addr><fr:route>hodge-theory-ii-1.1.xml</fr:route><fr:title>Filtered objects</fr:title><fr:number>1.1</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1549</fr:anchor><fr:addr>hodge-theory-ii-1.1</fr:addr><fr:route>hodge-theory-ii-1.1.xml</fr:route><fr:title>Filtered objects</fr:title><fr:number>1.1</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -1527,7 +1569,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1541</fr:anchor><fr:addr>hodge-theory-ii-1.2</fr:addr><fr:route>hodge-theory-ii-1.2.xml</fr:route><fr:title>Opposite filtrations</fr:title><fr:number>1.2</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1550</fr:anchor><fr:addr>hodge-theory-ii-1.2</fr:addr><fr:route>hodge-theory-ii-1.2.xml</fr:route><fr:title>Opposite filtrations</fr:title><fr:number>1.2</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -2188,7 +2230,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1542</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title>The two filtrations lemma</fr:title><fr:number>1.3</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1551</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title>The two filtrations lemma</fr:title><fr:number>1.3</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -2972,7 +3014,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1543</fr:anchor><fr:addr>hodge-theory-ii-1.4</fr:addr><fr:route>hodge-theory-ii-1.4.xml</fr:route><fr:title>Hypercohomology of filtered complexes</fr:title><fr:number>1.4</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1552</fr:anchor><fr:addr>hodge-theory-ii-1.4</fr:addr><fr:route>hodge-theory-ii-1.4.xml</fr:route><fr:title>Hypercohomology of filtered complexes</fr:title><fr:number>1.4</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   In this section, we recall some standard constructions in hypercohomology.
   We do not use the language of derived categories, which would be more natural here.
 </fr:p><fr:p><fr:em>Throughout this entire section, by "complex" we mean "bounded-below complex".</fr:em></fr:p><fr:tree
@@ -3412,7 +3454,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1601</fr:anchor><fr:addr>hodge-theory-i</fr:addr><fr:route>hodge-theory-i.xml</fr:route><fr:title>Hodge Theory I</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1610</fr:anchor><fr:addr>hodge-theory-i</fr:addr><fr:route>hodge-theory-i.xml</fr:route><fr:title>Hodge Theory I</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   P. Deligne.
   "Théorie de Hodge I".
   <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
@@ -4010,7 +4052,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1602</fr:anchor><fr:addr>hodge-theory-ii</fr:addr><fr:route>hodge-theory-ii.xml</fr:route><fr:title>Hodge Theory II</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:addr>hodge-theory-ii</fr:addr><fr:route>hodge-theory-ii.xml</fr:route><fr:title>Hodge Theory II</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   P. Deligne.
   "Théorie de Hodge II".
   <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>40</fr:strong> (1971) pp. 5–58.
@@ -4023,7 +4065,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1539</fr:anchor><fr:addr>hodge-theory-ii-introduction</fr:addr><fr:route>hodge-theory-ii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>Work presented as a doctoral thesis at l'Université d'Orsay.</fr:em></fr:p><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1548</fr:anchor><fr:addr>hodge-theory-ii-introduction</fr:addr><fr:route>hodge-theory-ii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>Work presented as a doctoral thesis at l'Université d'Orsay.</fr:em></fr:p><fr:p>
   By Hodge, the cohomology space <fr:tex>\operatorname {H} ^n(X, \mathbb {C} )</fr:tex> of a compact Kähler variety <fr:tex>X</fr:tex> is endowed with a "Hodge structure" of weight <fr:tex>n</fr:tex>, i.e. a natural bigrading
   <fr:tex
 display="block">      \operatorname {H} ^n(X, \mathbb {C} )     =  \bigoplus _{p+q=n}  \operatorname {H} ^{p,q}   </fr:tex>
@@ -4072,14 +4114,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1544</fr:anchor><fr:addr>hodge-theory-ii-1</fr:addr><fr:route>hodge-theory-ii-1.xml</fr:route><fr:title>Filtrations</fr:title><fr:number>1</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1553</fr:anchor><fr:addr>hodge-theory-ii-1</fr:addr><fr:route>hodge-theory-ii-1.xml</fr:route><fr:title>Filtrations</fr:title><fr:number>1</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1540</fr:anchor><fr:addr>hodge-theory-ii-1.1</fr:addr><fr:route>hodge-theory-ii-1.1.xml</fr:route><fr:title>Filtered objects</fr:title><fr:number>1.1</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1549</fr:anchor><fr:addr>hodge-theory-ii-1.1</fr:addr><fr:route>hodge-theory-ii-1.1.xml</fr:route><fr:title>Filtered objects</fr:title><fr:number>1.1</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -4360,7 +4402,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1541</fr:anchor><fr:addr>hodge-theory-ii-1.2</fr:addr><fr:route>hodge-theory-ii-1.2.xml</fr:route><fr:title>Opposite filtrations</fr:title><fr:number>1.2</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1550</fr:anchor><fr:addr>hodge-theory-ii-1.2</fr:addr><fr:route>hodge-theory-ii-1.2.xml</fr:route><fr:title>Opposite filtrations</fr:title><fr:number>1.2</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -5021,7 +5063,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1542</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title>The two filtrations lemma</fr:title><fr:number>1.3</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1551</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title>The two filtrations lemma</fr:title><fr:number>1.3</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -5805,7 +5847,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1543</fr:anchor><fr:addr>hodge-theory-ii-1.4</fr:addr><fr:route>hodge-theory-ii-1.4.xml</fr:route><fr:title>Hypercohomology of filtered complexes</fr:title><fr:number>1.4</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1552</fr:anchor><fr:addr>hodge-theory-ii-1.4</fr:addr><fr:route>hodge-theory-ii-1.4.xml</fr:route><fr:title>Hypercohomology of filtered complexes</fr:title><fr:number>1.4</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   In this section, we recall some standard constructions in hypercohomology.
   We do not use the language of derived categories, which would be more natural here.
 </fr:p><fr:p><fr:em>Throughout this entire section, by "complex" we mean "bounded-below complex".</fr:em></fr:p><fr:tree
@@ -6245,14 +6287,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1548</fr:anchor><fr:addr>hodge-theory-ii-2</fr:addr><fr:route>hodge-theory-ii-2.xml</fr:route><fr:title>Hodge structures</fr:title><fr:number>2</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1557</fr:anchor><fr:addr>hodge-theory-ii-2</fr:addr><fr:route>hodge-theory-ii-2.xml</fr:route><fr:title>Hodge structures</fr:title><fr:number>2</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1545</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title>Pure structures</fr:title><fr:number>2.1</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1554</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title>Pure structures</fr:title><fr:number>2.1</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -6625,7 +6667,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1546</fr:anchor><fr:addr>hodge-theory-ii-2.2</fr:addr><fr:route>hodge-theory-ii-2.2.xml</fr:route><fr:title>Hodge theory</fr:title><fr:number>2.2</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1555</fr:anchor><fr:addr>hodge-theory-ii-2.2</fr:addr><fr:route>hodge-theory-ii-2.2.xml</fr:route><fr:title>Hodge theory</fr:title><fr:number>2.2</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -6849,7 +6891,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1547</fr:anchor><fr:addr>hodge-theory-ii-2.3</fr:addr><fr:route>hodge-theory-ii-2.3.xml</fr:route><fr:title>Mixed structures</fr:title><fr:number>2.3</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1556</fr:anchor><fr:addr>hodge-theory-ii-2.3</fr:addr><fr:route>hodge-theory-ii-2.3.xml</fr:route><fr:title>Mixed structures</fr:title><fr:number>2.3</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
@@ -7036,14 +7078,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1551</fr:anchor><fr:addr>hodge-theory-ii-3</fr:addr><fr:route>hodge-theory-ii-3.xml</fr:route><fr:title>Hodge theory of non-singular algebraic varieties</fr:title><fr:number>3</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1560</fr:anchor><fr:addr>hodge-theory-ii-3</fr:addr><fr:route>hodge-theory-ii-3.xml</fr:route><fr:title>Hodge theory of non-singular algebraic varieties</fr:title><fr:number>3</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1549</fr:anchor><fr:addr>hodge-theory-ii-3.1</fr:addr><fr:route>hodge-theory-ii-3.1.xml</fr:route><fr:title>Logarithmic poles and residues</fr:title><fr:number>3.1</fr:number><fr:parent>hodge-theory-ii-3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1558</fr:anchor><fr:addr>hodge-theory-ii-3.1</fr:addr><fr:route>hodge-theory-ii-3.1.xml</fr:route><fr:title>Logarithmic poles and residues</fr:title><fr:number>3.1</fr:number><fr:parent>hodge-theory-ii-3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -7452,7 +7494,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1550</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title>Mixed Hodge theory</fr:title><fr:number>3.2</fr:number><fr:parent>hodge-theory-ii-3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>
+root="false"><fr:frontmatter><fr:anchor>1559</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title>Mixed Hodge theory</fr:title><fr:number>3.2</fr:number><fr:parent>hodge-theory-ii-3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>
     We recall that, from here on, we say "scheme" to mean a scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>, and "sheaf on <fr:tex>S</fr:tex>" to mean a sheaf on <fr:tex>S^ \mathrm {an}</fr:tex>.
   </fr:em></fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -8315,7 +8357,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1603</fr:anchor><fr:addr>hodge-theory-ii-2</fr:addr><fr:route>hodge-theory-ii-2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1612</fr:anchor><fr:addr>hodge-theory-ii-2</fr:addr><fr:route>hodge-theory-ii-2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Hodge structures</fr:title><fr:number>2</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -8325,7 +8367,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1545</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title>Pure structures</fr:title><fr:number>2.1</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1554</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title>Pure structures</fr:title><fr:number>2.1</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -8698,7 +8740,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1546</fr:anchor><fr:addr>hodge-theory-ii-2.2</fr:addr><fr:route>hodge-theory-ii-2.2.xml</fr:route><fr:title>Hodge theory</fr:title><fr:number>2.2</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1555</fr:anchor><fr:addr>hodge-theory-ii-2.2</fr:addr><fr:route>hodge-theory-ii-2.2.xml</fr:route><fr:title>Hodge theory</fr:title><fr:number>2.2</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -8922,7 +8964,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1547</fr:anchor><fr:addr>hodge-theory-ii-2.3</fr:addr><fr:route>hodge-theory-ii-2.3.xml</fr:route><fr:title>Mixed structures</fr:title><fr:number>2.3</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1556</fr:anchor><fr:addr>hodge-theory-ii-2.3</fr:addr><fr:route>hodge-theory-ii-2.3.xml</fr:route><fr:title>Mixed structures</fr:title><fr:number>2.3</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
@@ -9109,7 +9151,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1604</fr:anchor><fr:addr>hodge-theory-ii-2.2</fr:addr><fr:route>hodge-theory-ii-2.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1613</fr:anchor><fr:addr>hodge-theory-ii-2.2</fr:addr><fr:route>hodge-theory-ii-2.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-2.xml"
 type="local"
 addr="hodge-theory-ii-2"><fr:link
@@ -9339,7 +9381,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1605</fr:anchor><fr:addr>hodge-theory-ii-3</fr:addr><fr:route>hodge-theory-ii-3.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1614</fr:anchor><fr:addr>hodge-theory-ii-3</fr:addr><fr:route>hodge-theory-ii-3.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Hodge theory of non-singular algebraic varieties</fr:title><fr:number>3</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -9349,7 +9391,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1549</fr:anchor><fr:addr>hodge-theory-ii-3.1</fr:addr><fr:route>hodge-theory-ii-3.1.xml</fr:route><fr:title>Logarithmic poles and residues</fr:title><fr:number>3.1</fr:number><fr:parent>hodge-theory-ii-3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1558</fr:anchor><fr:addr>hodge-theory-ii-3.1</fr:addr><fr:route>hodge-theory-ii-3.1.xml</fr:route><fr:title>Logarithmic poles and residues</fr:title><fr:number>3.1</fr:number><fr:parent>hodge-theory-ii-3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -9758,7 +9800,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1550</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title>Mixed Hodge theory</fr:title><fr:number>3.2</fr:number><fr:parent>hodge-theory-ii-3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>
+root="false"><fr:frontmatter><fr:anchor>1559</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title>Mixed Hodge theory</fr:title><fr:number>3.2</fr:number><fr:parent>hodge-theory-ii-3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>
     We recall that, from here on, we say "scheme" to mean a scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>, and "sheaf on <fr:tex>S</fr:tex>" to mean a sheaf on <fr:tex>S^ \mathrm {an}</fr:tex>.
   </fr:em></fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -10621,7 +10663,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1615</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -10634,7 +10676,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:addr>hodge-theory-ii-1.4</fr:addr><fr:route>hodge-theory-ii-1.4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1616</fr:anchor><fr:addr>hodge-theory-ii-1.4</fr:addr><fr:route>hodge-theory-ii-1.4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-1.xml"
 type="local"
 addr="hodge-theory-ii-1"><fr:link
@@ -11080,7 +11122,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1608</fr:anchor><fr:addr>hodge-theory-ii-introduction</fr:addr><fr:route>hodge-theory-ii-introduction.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1617</fr:anchor><fr:addr>hodge-theory-ii-introduction</fr:addr><fr:route>hodge-theory-ii-introduction.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Introduction</fr:title><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>Work presented as a doctoral thesis at l'Université d'Orsay.</fr:em></fr:p><fr:p>
@@ -11132,7 +11174,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1609</fr:anchor><fr:addr>hodge-theory-ii-3.1</fr:addr><fr:route>hodge-theory-ii-3.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1618</fr:anchor><fr:addr>hodge-theory-ii-3.1</fr:addr><fr:route>hodge-theory-ii-3.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-3.xml"
 type="local"
 addr="hodge-theory-ii-3"><fr:link
@@ -11547,7 +11589,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1610</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1619</fr:anchor><fr:addr>hodge-theory-ii-3.2</fr:addr><fr:route>hodge-theory-ii-3.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-3.xml"
 type="local"
 addr="hodge-theory-ii-3"><fr:link
@@ -12416,7 +12458,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:addr>hodge-theory-ii-2.3</fr:addr><fr:route>hodge-theory-ii-2.3.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1620</fr:anchor><fr:addr>hodge-theory-ii-2.3</fr:addr><fr:route>hodge-theory-ii-2.3.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-2.xml"
 type="local"
 addr="hodge-theory-ii-2"><fr:link
@@ -12609,7 +12651,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1612</fr:anchor><fr:addr>hodge-theory-ii-1.2</fr:addr><fr:route>hodge-theory-ii-1.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1621</fr:anchor><fr:addr>hodge-theory-ii-1.2</fr:addr><fr:route>hodge-theory-ii-1.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-1.xml"
 type="local"
 addr="hodge-theory-ii-1"><fr:link
@@ -13276,7 +13318,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1613</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1622</fr:anchor><fr:addr>hodge-theory-ii-2.1</fr:addr><fr:route>hodge-theory-ii-2.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-2.xml"
 type="local"
 addr="hodge-theory-ii-2"><fr:link
@@ -13655,7 +13697,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1614</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1623</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -13668,7 +13710,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1615</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1624</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -14002,20 +14044,62 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1616</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1625</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
 href="hodge-theory-ii.xml"
 type="local"
-addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:link> › The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:link> › The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1496</fr:anchor><fr:addr>hodge-theory-ii-4.2.1</fr:addr><fr:route>hodge-theory-ii-4.2.1.xml</fr:route><fr:number>4.2.1</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a topological space.
+    A <fr:em>continuous family of Hodge structures</fr:em> on <fr:tex>S</fr:tex> consists of:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        A local system <fr:tex>H_ \mathbb {Z}</fr:tex> on <fr:tex>S</fr:tex> of <fr:tex>\mathbb {Z}</fr:tex>-modules of finite type.
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        For every point <fr:tex>s \in  S</fr:tex>, a Hodge structure on the fibre <fr:tex>(H_ \mathbb {Z} )</fr:tex> that varies continuously in <fr:tex>s</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    A continuous family <fr:tex>H</fr:tex> of Hodge structures on <fr:tex>S</fr:tex> is said to be <fr:em>of weight <fr:tex>n</fr:tex></fr:em> if the fibres <fr:tex>H_s</fr:tex> (for <fr:tex>s \in  S</fr:tex>) are all of weight <fr:tex>n</fr:tex>.
+  </fr:p><fr:p>
+    We similarly define a <fr:em>continuous family of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures</fr:em> as a local system of <fr:tex>\mathbb {Q}</fr:tex>-vector spaces, endowed at each point with a Hodge <fr:tex>\mathbb {Q}</fr:tex>-structure, varying continuously.
+  </fr:p><fr:p>
+    A <fr:em>polarisation</fr:em> of a continuous family <fr:tex>H</fr:tex> of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures of weight <fr:tex>n</fr:tex> is a morphism of local systems from <fr:tex>H_ \mathbb {Q} \otimes  H_ \mathbb {Q}</fr:tex> to the constant local system <fr:tex>\mathbb {Q} (-n)_ \mathbb {Q}</fr:tex>, which defines at each point <fr:tex>s \in  S</fr:tex> a polarisation of <fr:tex>H_s</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1497</fr:anchor><fr:addr>hodge-theory-ii-4.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.xml</fr:route><fr:number>4.2.2</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Suppose that <fr:tex>S</fr:tex> is connected, and let <fr:tex>\mathcal {C}</fr:tex> be a strictly full subcategory of the category of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex>.
+    We will need to consider the following conditions:
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1617</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1626</fr:anchor><fr:addr>hodge-theory-ii-1.3</fr:addr><fr:route>hodge-theory-ii-1.3.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-1.xml"
 type="local"
 addr="hodge-theory-ii-1"><fr:link
