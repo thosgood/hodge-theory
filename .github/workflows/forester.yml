@@ -21,7 +21,7 @@ jobs:
           ocaml-compiler: "5.1"
 
       - name: Install dependencies
-        run: sudo apt install libev-dev dvisvgm
+        run: sudo apt install libev-dev
 
       - name: Install TinyTeX
         uses: r-lib/actions/setup-tinytex@v2
@@ -32,6 +32,9 @@ jobs:
           tlmgr install standalone
           tlmgr install pgf
           tlmgr install tikz-cd
+          tlmgr install dvips
+          tlmgr install dvisvgm
+          tlmgr path add
 
       - name: Install Forester
         run: opam install forester
