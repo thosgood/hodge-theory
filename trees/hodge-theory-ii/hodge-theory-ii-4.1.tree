@@ -105,7 +105,22 @@
     }
 
     \p{
-      If #{s\in S_1}, then
+      If #{s\in S_1}, then the morphism #{i_*\colon\pi_1(S_1,s)\to\pi_1(S,s)} is surjective, since the topological codimension of #{S\setminus S_1} is #{\geqslant2}.
+      We thus have
+      ##{
+        \HH^0(S,\Rd^n f_*\QQ)
+        \simto \HH^0(S_1,\Rd^n {f_1}_*\QQ)
+      }
+      and it suffices to prove that
+      ##{
+        \HH^n(\bar{X},\QQ)
+        \to \HH^0(S_1,\Rd^n {f_1}_*\QQ)
+      }
+      is surjective.
+    }
+
+    \p{
+      The
     }
   }
 }
