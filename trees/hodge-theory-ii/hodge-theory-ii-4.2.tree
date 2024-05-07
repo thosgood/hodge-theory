@@ -5,3 +5,42 @@
 \import{macros}
 
 \put\transclude/numbered{false}
+
+\subtree[hodge-theory-ii-4.2.1]{
+  \number{4.2.1}
+
+  \p{
+    Let #{S} be a topological space.
+    A \em{continuous family of Hodge structures} on #{S} consists of:
+
+    \olc{
+      \lic{a.}{
+        A local system #{H_\ZZ} on #{S} of #{\ZZ}-modules of finite type.
+      }
+      \lic{b.}{
+        For every point #{s\in S}, a Hodge structure on the fibre #{(H_\ZZ)} that varies continuously in #{s}.
+      }
+    }
+  }
+
+  \p{
+    A continuous family #{H} of Hodge structures on #{S} is said to be \em{of weight #{n}} if the fibres #{H_s} (for #{s\in S}) are all of weight #{n}.
+  }
+
+  \p{
+    We similarly define a \em{continuous family of Hodge #{\QQ}-structures} as a local system of #{\QQ}-vector spaces, endowed at each point with a Hodge #{\QQ}-structure, varying continuously.
+  }
+
+  \p{
+    A \em{polarisation} of a continuous family #{H} of Hodge #{\QQ}-structures of weight #{n} is a morphism of local systems from #{H_\QQ\otimes H_\QQ} to the constant local system #{\QQ(-n)_\QQ}, which defines at each point #{s\in S} a polarisation of #{H_s}.
+  }
+}
+
+\subtree[hodge-theory-ii-4.2.2]{
+  \number{4.2.2}
+
+  \p{
+    Suppose that #{S} is connected, and let #{\mathcal{C}} be a strictly full subcategory of the category of continuous families of Hodge #{\QQ}-structures on #{S}.
+    We will need to consider the following conditions:
+  }
+}
