@@ -41,6 +41,69 @@
 
   \p{
     Suppose that #{S} is connected, and let #{\mathcal{C}} be a strictly full subcategory of the category of continuous families of Hodge #{\QQ}-structures on #{S}.
-    We will need to consider the following conditions:
+    We will have need of the following conditions:
+
+    \subtree[hodge-theory-ii-4.2.2.1]{
+      \taxon{condition}
+      \number{4.2.2.1}
+    
+      \p{
+        #{\mathcal{C}} is stable under direct factors, direct sums, and tensor products;
+        the Tate constant families #{\QQ(n)} (for #{n\in\ZZ}) are in #{\mathcal{C}}.
+      }
+    }
+
+    \subtree[hodge-theory-ii-4.2.2.2]{
+      \taxon{condition}
+      \number{4.2.2.2}
+    
+      \p{
+        Every homogeneous (of some weight #{n}) Hodge structure in #{\mathcal{C}} is polarisable.
+      }
+    }
+
+    \subtree[hodge-theory-ii-4.2.2.3]{
+      \taxon{condition}
+      \number{4.2.2.3}
+    
+      \p{
+        For every #{H\in\Ob\mathcal{C}}, there exists a local system #{H'_\ZZ} on #{S} of free #{\ZZ}-modules such that #{H'_\ZZ\otimes\QQ\approx H_\QQ}.
+      }
+    }
+
+    \subtree[hodge-theory-ii-4.2.2.4]{
+      \taxon{condition}
+      \number{4.2.2.4}
+    
+      \p{
+        \oldpage{44}
+        For every #{H\in\Ob\mathcal{C}}, the largest constant local system #{H^f} of #{H} is a constant family of Hodge sub-structures of #{H}.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.2.3]{
+  \taxon{lemma}
+  \number{4.2.3}
+
+  \p{
+    If #{\mathcal{C}} satisfies \ref{hodge-theory-ii-4.2.2.1} and \ref{hodge-theory-ii-4.2.2.2}, then:
+
+    \olc{
+      \lic{i.}{
+        #{\mathcal{C}} is a semi-simple abelian subcategory of the abelian subcategory of continuous families of Hodge #{\QQ}-structures on #{S}.
+      }
+      \lic{ii.}{
+        If #{H\in\Ob\mathcal{C}}, then its dual #{H^*} and the #{\wedge^p H} are also in #{\mathcal{C}};
+        if #{H_1,H_2\in\Ob\mathcal{C}}, then #{\Hom(H_1,H_2)\in\Ob\mathcal{C}}.
+      }
+    }
+  }
+
+  \proof{
+    \p{
+      If
+    }
   }
 }
