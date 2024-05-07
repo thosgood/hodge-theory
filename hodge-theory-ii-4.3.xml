@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1743</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1751</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -20,7 +20,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1742</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1750</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:title><fr:number>4</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -30,14 +30,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1501</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1509</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1442</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1445</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth separated scheme, and <fr:tex>f \colon  X \to  S</fr:tex> a smooth proper morphism.
   </fr:p>
  <html:ol
@@ -72,7 +72,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       For <fr:tex>f</fr:tex> smooth and projective, claim (i) is proven in <fr:link
 href="D1968.xml"
@@ -90,38 +90,166 @@ addr="G1970">G1970</fr:link>;
 
     <fr:p>
       Let us fix <fr:tex>f</fr:tex>, and prove that (i)<fr:tex>\implies</fr:tex>(ii).
+      We can reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+      If <fr:tex>s \in  S</fr:tex> is a point, then the local system <fr:tex>\operatorname {R} ^nf_* \mathbb {Q}</fr:tex> is entirely described by its fibre <fr:tex>( \operatorname {R} ^nf_* \mathbb {Q} )_s</fr:tex> at <fr:tex>s</fr:tex> and the action of the fundamental group <fr:tex>\pi = \pi _1(S,s)</fr:tex> on this fibre.
+      We have
+      <fr:tex
+display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xrightarrow { \sim }  [( \operatorname {R} ^n f_* \mathbb {Q} )_s]^ \pi .       </fr:tex>
+      If <fr:tex>X_s=f^{-1}(s)</fr:tex>, then the composite arrow
+      <fr:tex
+display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \to  ( \operatorname {R} ^n f_* \mathbb {Q} )          \approx   \operatorname {H} ^n(X_s, \mathbb {Q} )       </fr:tex>
+      is thus injective.
+      Consider the arrows
+      <fr:tex
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \xrightarrow {a}  \operatorname {H} ^n(X, \mathbb {Q} )          \xrightarrow {b}  \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xhookrightarrow {c}  \operatorname {H} ^n(X_s, \mathbb {Q} ).       </fr:tex>
+      The arrows <fr:tex>cb</fr:tex> and <fr:tex>cba</fr:tex> have the same image, by <fr:ref
+addr="hodge-theory-ii-3.2.18"
+href="hodge-theory-ii-3.2.18.xml"
+taxon="Corollary"
+number="3.2.18"></fr:ref>.
+      The arrow <fr:tex>b</fr:tex> is an "edge homomorphism" of the Leray spectral sequence, and is thus surjective by hypothesis.
+      Since <fr:tex>c</fr:tex> is injective, <fr:tex>b</fr:tex> and <fr:tex>ba</fr:tex> have the same image, and <fr:tex>ba</fr:tex> is surjective.
+    </fr:p>
+
+    <fr:p>
+      This proves (ii) for <fr:tex>f</fr:tex> projective.
+      From this we will deduce the general case.
+      We can again reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+    </fr:p>
+
+    <fr:p>
+      By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme <fr:tex>X'</fr:tex> and a projective birational morphism <fr:tex>p \colon  X' \to  X</fr:tex>.
+      
+      There thus exists (by Bertini, or Sard) a non-empty Zariski open <fr:tex>S_1</fr:tex> of <fr:tex>S</fr:tex> such that <fr:tex>X'_1=(fp)^{-1}(S_1)</fr:tex> is smooth over <fr:tex>S_1</fr:tex>.
+      Finally, let <fr:tex>X_1=f^{-1}(S_1)</fr:tex>, let <fr:tex>\bar {X}</fr:tex> be a smooth compactification of <fr:tex>X</fr:tex>, and let <fr:tex>\bar {X}'_1</fr:tex> be a smooth compactification of <fr:tex>X'_1</fr:tex> that dominates <fr:tex>\bar {X}</fr:tex>.
+
+      
+  <fr:embedded-tex
+hash="d41654bb4e0d234603e78824a045c108"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+         \bar {X}
+        &amp;&amp;  \bar {X}'_1
+           \ar [ll,swap," \bar {p}"]
+       \\ X
+           \ar [u,hook]
+           \ar [d,swap,"f"]
+        &amp; X_1
+           \ar [l,hook']
+           \ar [d,swap,"f_1"]
+        &amp; X'_1
+           \ar [u,hook]
+           \ar [l,swap,"p"]
+           \ar [d,swap,"f'_1"]
+       \\ S
+        &amp; S_1
+           \ar [l,hook',"i"]
+        &amp; S_1
+           \ar [l,equals]
+       \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex></fr:p>
+
+    <fr:p>
+      If <fr:tex>s \in  S_1</fr:tex>, then the morphism <fr:tex>i_* \colon \pi _1(S_1,s) \to \pi _1(S,s)</fr:tex> is surjective, since the topological codimension of <fr:tex>S \setminus  S_1</fr:tex> is <fr:tex>\geqslant2</fr:tex>.
+      We thus have
+      <fr:tex
+display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xrightarrow { \sim }   \operatorname {H} ^0(S_1, \operatorname {R} ^n {f_1}_* \mathbb {Q} )       </fr:tex>
+      and it suffices to prove that
+      <fr:tex
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \to   \operatorname {H} ^0(S_1, \operatorname {R} ^n {f_1}_* \mathbb {Q} )       </fr:tex>
+      is surjective.
+    </fr:p>
+
+    <fr:p>
+      The vertical arrows in the diagram
+      <fr:tex
+display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X}, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^n(X_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f_1}_* \mathbb {Q} )          \\ @VV{ \bar {p}^*}V @VV{p^*}V @VV{p^*}V          \\ \operatorname {H} ^n( \bar {X}'_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^n(X'_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} {f'_1}_* \mathbb {Q} )          \end {CD}       </fr:tex>
+      admit left inverses given by the <fr:em>Gysin morphisms</fr:em> <fr:tex>\bar {p}_!</fr:tex>, <fr:tex>p_!</fr:tex>, and <fr:tex>p_!</fr:tex> (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
+      Furthermore, the diagram
+      <fr:tex
+display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X}, \mathbb {Q} ) @&gt;{u}&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f_1}_* \mathbb {Q} )          \\ @A{ \bar {p}_!}AA @AA{p_!}A          \\ \operatorname {H} ^n( \bar {X}', \mathbb {Q} ) @&gt;&gt;{v}&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f'_1}_* \mathbb {Q} )          \end {CD}       </fr:tex>
+      commutes.
+      The arrow <fr:tex>u</fr:tex> is thus a direct factor of the arrow <fr:tex>v</fr:tex>.
+      Since <fr:tex>v</fr:tex> is surjective (because <fr:tex>f'_1</fr:tex> is projective), so too is <fr:tex>u</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      We now prove (i) in the general case.
+      We can reduce to the case where <fr:tex>f</fr:tex> is of pure relative dimension <fr:tex>n</fr:tex>.
+      Let <fr:tex>f \times  f</fr:tex> be the projection of <fr:tex>X \times _S X</fr:tex> to <fr:tex>S</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Let <fr:tex>\delta</fr:tex> be the image of the cohomology class of the diagonal of <fr:tex>X \times _S X</fr:tex> in <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n(f \times  f)_*, \mathbb {Q} )</fr:tex>.
+      We have, by Künneth,
+      <fr:tex
+display="block">          \operatorname {R} ^n(f \times  f)_* \mathbb {Q}          =  \sum _{p+q=n} ( \operatorname {R} ^p f_* \mathbb {Q} \otimes \operatorname {R} ^q f_* \mathbb {Q} ).       </fr:tex>
+      We denote by <fr:tex>\delta '_{pq}</fr:tex> (for <fr:tex>p+q=n</fr:tex>) the components of <fr:tex>\delta</fr:tex> in this decomposition, and by <fr:tex>\delta _{pq}</fr:tex> the classes in <fr:tex>\operatorname {H} ^n(X \times _S X)</fr:tex> given by the images of the <fr:tex>\delta '_{pq}</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The <fr:tex>\delta _{pq}</fr:tex> define, in the derived category <fr:tex>D^+(S)</fr:tex>, homomorphisms
+      <fr:tex
+display="block">          \delta _p \colon           \operatorname {R}  f_* \mathbb {Q}           \to   \operatorname {R}  f_* \mathbb {Q}        </fr:tex>
+      such that <fr:tex>\operatorname { \mathscr {H}} ^q( \delta _p)</fr:tex> is zero for <fr:tex>p \neq  q</fr:tex>, and is the identity for <fr:tex>p=q</fr:tex>.
+      By [<fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link>], we thus have
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">            \operatorname {R}  f_* \mathbb {Q}             \approx   \sum _p  \operatorname {R} ^p f_* \mathbb {Q} [-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
+
+      in <fr:tex>D^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1502</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1446</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1503</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1510</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1504</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1511</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1512</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1741</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1749</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:title><fr:number>4</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -131,14 +259,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1501</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1509</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1442</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1445</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth separated scheme, and <fr:tex>f \colon  X \to  S</fr:tex> a smooth proper morphism.
   </fr:p>
  <html:ol
@@ -173,7 +301,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       For <fr:tex>f</fr:tex> smooth and projective, claim (i) is proven in <fr:link
 href="D1968.xml"
@@ -191,38 +319,166 @@ addr="G1970">G1970</fr:link>;
 
     <fr:p>
       Let us fix <fr:tex>f</fr:tex>, and prove that (i)<fr:tex>\implies</fr:tex>(ii).
+      We can reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+      If <fr:tex>s \in  S</fr:tex> is a point, then the local system <fr:tex>\operatorname {R} ^nf_* \mathbb {Q}</fr:tex> is entirely described by its fibre <fr:tex>( \operatorname {R} ^nf_* \mathbb {Q} )_s</fr:tex> at <fr:tex>s</fr:tex> and the action of the fundamental group <fr:tex>\pi = \pi _1(S,s)</fr:tex> on this fibre.
+      We have
+      <fr:tex
+display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xrightarrow { \sim }  [( \operatorname {R} ^n f_* \mathbb {Q} )_s]^ \pi .       </fr:tex>
+      If <fr:tex>X_s=f^{-1}(s)</fr:tex>, then the composite arrow
+      <fr:tex
+display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \to  ( \operatorname {R} ^n f_* \mathbb {Q} )          \approx   \operatorname {H} ^n(X_s, \mathbb {Q} )       </fr:tex>
+      is thus injective.
+      Consider the arrows
+      <fr:tex
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \xrightarrow {a}  \operatorname {H} ^n(X, \mathbb {Q} )          \xrightarrow {b}  \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xhookrightarrow {c}  \operatorname {H} ^n(X_s, \mathbb {Q} ).       </fr:tex>
+      The arrows <fr:tex>cb</fr:tex> and <fr:tex>cba</fr:tex> have the same image, by <fr:ref
+addr="hodge-theory-ii-3.2.18"
+href="hodge-theory-ii-3.2.18.xml"
+taxon="Corollary"
+number="3.2.18"></fr:ref>.
+      The arrow <fr:tex>b</fr:tex> is an "edge homomorphism" of the Leray spectral sequence, and is thus surjective by hypothesis.
+      Since <fr:tex>c</fr:tex> is injective, <fr:tex>b</fr:tex> and <fr:tex>ba</fr:tex> have the same image, and <fr:tex>ba</fr:tex> is surjective.
+    </fr:p>
+
+    <fr:p>
+      This proves (ii) for <fr:tex>f</fr:tex> projective.
+      From this we will deduce the general case.
+      We can again reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+    </fr:p>
+
+    <fr:p>
+      By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme <fr:tex>X'</fr:tex> and a projective birational morphism <fr:tex>p \colon  X' \to  X</fr:tex>.
+      
+      There thus exists (by Bertini, or Sard) a non-empty Zariski open <fr:tex>S_1</fr:tex> of <fr:tex>S</fr:tex> such that <fr:tex>X'_1=(fp)^{-1}(S_1)</fr:tex> is smooth over <fr:tex>S_1</fr:tex>.
+      Finally, let <fr:tex>X_1=f^{-1}(S_1)</fr:tex>, let <fr:tex>\bar {X}</fr:tex> be a smooth compactification of <fr:tex>X</fr:tex>, and let <fr:tex>\bar {X}'_1</fr:tex> be a smooth compactification of <fr:tex>X'_1</fr:tex> that dominates <fr:tex>\bar {X}</fr:tex>.
+
+      
+  <fr:embedded-tex
+hash="d41654bb4e0d234603e78824a045c108"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+         \bar {X}
+        &amp;&amp;  \bar {X}'_1
+           \ar [ll,swap," \bar {p}"]
+       \\ X
+           \ar [u,hook]
+           \ar [d,swap,"f"]
+        &amp; X_1
+           \ar [l,hook']
+           \ar [d,swap,"f_1"]
+        &amp; X'_1
+           \ar [u,hook]
+           \ar [l,swap,"p"]
+           \ar [d,swap,"f'_1"]
+       \\ S
+        &amp; S_1
+           \ar [l,hook',"i"]
+        &amp; S_1
+           \ar [l,equals]
+       \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex></fr:p>
+
+    <fr:p>
+      If <fr:tex>s \in  S_1</fr:tex>, then the morphism <fr:tex>i_* \colon \pi _1(S_1,s) \to \pi _1(S,s)</fr:tex> is surjective, since the topological codimension of <fr:tex>S \setminus  S_1</fr:tex> is <fr:tex>\geqslant2</fr:tex>.
+      We thus have
+      <fr:tex
+display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xrightarrow { \sim }   \operatorname {H} ^0(S_1, \operatorname {R} ^n {f_1}_* \mathbb {Q} )       </fr:tex>
+      and it suffices to prove that
+      <fr:tex
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \to   \operatorname {H} ^0(S_1, \operatorname {R} ^n {f_1}_* \mathbb {Q} )       </fr:tex>
+      is surjective.
+    </fr:p>
+
+    <fr:p>
+      The vertical arrows in the diagram
+      <fr:tex
+display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X}, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^n(X_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f_1}_* \mathbb {Q} )          \\ @VV{ \bar {p}^*}V @VV{p^*}V @VV{p^*}V          \\ \operatorname {H} ^n( \bar {X}'_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^n(X'_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} {f'_1}_* \mathbb {Q} )          \end {CD}       </fr:tex>
+      admit left inverses given by the <fr:em>Gysin morphisms</fr:em> <fr:tex>\bar {p}_!</fr:tex>, <fr:tex>p_!</fr:tex>, and <fr:tex>p_!</fr:tex> (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
+      Furthermore, the diagram
+      <fr:tex
+display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X}, \mathbb {Q} ) @&gt;{u}&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f_1}_* \mathbb {Q} )          \\ @A{ \bar {p}_!}AA @AA{p_!}A          \\ \operatorname {H} ^n( \bar {X}', \mathbb {Q} ) @&gt;&gt;{v}&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f'_1}_* \mathbb {Q} )          \end {CD}       </fr:tex>
+      commutes.
+      The arrow <fr:tex>u</fr:tex> is thus a direct factor of the arrow <fr:tex>v</fr:tex>.
+      Since <fr:tex>v</fr:tex> is surjective (because <fr:tex>f'_1</fr:tex> is projective), so too is <fr:tex>u</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      We now prove (i) in the general case.
+      We can reduce to the case where <fr:tex>f</fr:tex> is of pure relative dimension <fr:tex>n</fr:tex>.
+      Let <fr:tex>f \times  f</fr:tex> be the projection of <fr:tex>X \times _S X</fr:tex> to <fr:tex>S</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Let <fr:tex>\delta</fr:tex> be the image of the cohomology class of the diagonal of <fr:tex>X \times _S X</fr:tex> in <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n(f \times  f)_*, \mathbb {Q} )</fr:tex>.
+      We have, by Künneth,
+      <fr:tex
+display="block">          \operatorname {R} ^n(f \times  f)_* \mathbb {Q}          =  \sum _{p+q=n} ( \operatorname {R} ^p f_* \mathbb {Q} \otimes \operatorname {R} ^q f_* \mathbb {Q} ).       </fr:tex>
+      We denote by <fr:tex>\delta '_{pq}</fr:tex> (for <fr:tex>p+q=n</fr:tex>) the components of <fr:tex>\delta</fr:tex> in this decomposition, and by <fr:tex>\delta _{pq}</fr:tex> the classes in <fr:tex>\operatorname {H} ^n(X \times _S X)</fr:tex> given by the images of the <fr:tex>\delta '_{pq}</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The <fr:tex>\delta _{pq}</fr:tex> define, in the derived category <fr:tex>D^+(S)</fr:tex>, homomorphisms
+      <fr:tex
+display="block">          \delta _p \colon           \operatorname {R}  f_* \mathbb {Q}           \to   \operatorname {R}  f_* \mathbb {Q}        </fr:tex>
+      such that <fr:tex>\operatorname { \mathscr {H}} ^q( \delta _p)</fr:tex> is zero for <fr:tex>p \neq  q</fr:tex>, and is the identity for <fr:tex>p=q</fr:tex>.
+      By [<fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link>], we thus have
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">            \operatorname {R}  f_* \mathbb {Q}             \approx   \sum _p  \operatorname {R} ^p f_* \mathbb {Q} [-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
+
+      in <fr:tex>D^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1502</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1446</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1503</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1510</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1504</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1511</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1512</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms from abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>1740</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>1748</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>
       "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.

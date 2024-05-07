@@ -7,8 +7,106 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>802</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>803</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">           F^{p_k}( \operatorname {Gr} _W^{n+k}(A))  \oplus   \bar {F}^{q_k}( \operatorname {Gr} _W^{n+k}(A))            \xrightarrow { \sim }   \operatorname {Gr} _W^{n+k}(A).         \tag{1.2.8.1}         </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>802</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.2.8</fr:addr><fr:route>hodge-theory-ii-1.2.8.xml</fr:route><fr:number>1.2.8</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>W</fr:tex>, <fr:tex>F</fr:tex>, and <fr:tex>\bar {F}</fr:tex> be three finite opposite filtrations, and <fr:tex>\sigma</fr:tex> a sequence <fr:tex>(p_i,q_i)_{i \geqslant0 }</fr:tex> pairs of integers satisfying
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>p_i \leqslant  p_j</fr:tex> and <fr:tex>q_i \leqslant  q_j</fr:tex> for <fr:tex>i \geqslant  j</fr:tex>, and
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        <fr:tex>p_i+q_i=p_0+q_0-i+1</fr:tex> for <fr:tex>i&gt;0</fr:tex>.
+      </html:li>
+
+    </html:ol>
+
+
+    Set <fr:tex>p=p_0</fr:tex>, <fr:tex>q=q_0</fr:tex>, <fr:tex>n=-p-q</fr:tex>, and
+    <fr:tex
+display="block">       A_ \sigma        =  \left (  \sum _{0 \leqslant  i}(W^{n+i}(A) \cap  F^{p_i}(A))  \right )        \cap   \left (  \sum _{0 \leqslant  i}(W^{n+i}(A) \cap \bar {F}^{q_i}(A))  \right ).     </fr:tex>
+    Then the projection from <fr:tex>W^n(A)</fr:tex> to <fr:tex>\operatorname {Gr} _W^n(A)</fr:tex> induces an isomorphism
+    <fr:tex
+display="block">       A_ \sigma         \xrightarrow { \sim }  A^{p,q}  \subset   \operatorname {Gr} _W^n(A).     </fr:tex></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>659</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We will prove by induction on <fr:tex>k</fr:tex> the following claim:
+    </fr:p>
+
+    <fr:p><fr:em>
+        The projection from <fr:tex>W^n(A)/W^{n+k}</fr:tex> to <fr:tex>\operatorname {Gr} _W^n(A)</fr:tex> induces an isomorphism from
+        <fr:tex
+display="block">            \begin {aligned}              \Bigg [             &amp; \left (  \sum _{i&lt;k} (W^{n+i}(A) \cap  F^{p_i}(A)) + W^{n+k}(A)  \right )            \\ \cap              &amp; \left (  \sum _{i&lt;k} (W^{n+i}(A) \cap \bar {F}^{q_i}(A)) + W^{n+k}(A)  \right )              \Bigg ] / W^{n+k}(A)            \end {aligned}           \tag{$*_k$}         </fr:tex>
+        to <fr:tex>A^{p,q} \subset \operatorname {Gr} _W^n(A)</fr:tex>.
+      </fr:em></fr:p>
+
+    <fr:p>
+      For <fr:tex>k=1</fr:tex>, this is exactly the definition of <fr:tex>A^{p,q}</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      By (i) of <fr:ref
+addr="hodge-theory-ii-1.2.5"
+href="hodge-theory-ii-1.2.5.xml"
+taxon="Proposition"
+number="1.2.5"></fr:ref> we have
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>658</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           F^{p_k}( \operatorname {Gr} _W^{n+k}(A))  \oplus   \bar {F}^{q_k}( \operatorname {Gr} _W^{n+k}(A))            \xrightarrow { \sim }   \operatorname {Gr} _W^{n+k}(A).         \tag{1.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
+      Set
+      <fr:tex
+display="block">          \begin {aligned}           B &amp;=  \sum _{i&lt;k} (W^{n+i}(A) \cap  F^{p_i}(A))          \\ C &amp;=  \sum _{i&lt;k} (W^{n+i}(A) \cap \bar {F}^{q_i}(A))          \\ B' &amp;= (W^{n+k}(A) \cap  F^{p_k}(A)) + W^{n+k+1}(A)          \\ C' &amp;= (W^{n+k}(A) \cap \bar {F}^{q_k}(A)) + W^{n+k+1}(A)          \\ D &amp;= W^{n+k}(A)          \\ E &amp;= W^{n+k+1}(A).          \end {aligned}       </fr:tex></fr:p>
+
+    <fr:p><fr:ref
+addr="hodge-theory-ii-1.2.8.1"
+href="hodge-theory-ii-1.2.8.1.xml"
+taxon="Equation"
+number="1.2.8.1"></fr:ref> can then be written as
+      <fr:tex
+display="block">          \begin {aligned}           B'+C' &amp;= D          \\ B' \cap  C' &amp;= E.          \end {aligned}       </fr:tex>
+      We also have, since <fr:tex>p_k \leqslant  p_i</fr:tex> (for <fr:tex>i \leqslant  k</fr:tex>),
+      <fr:tex
+display="block">         B \cap  D          \subset  F^{p_k}(A)  \cap  W^{n+k}(A)          \subset  B'       </fr:tex>
+      and, since <fr:tex>q_k \leqslant  q_i</fr:tex> (for <fr:tex>i \leqslant  k</fr:tex>),
+      <fr:tex
+display="block">         C \cap  D          \subset   \bar {F}^{q_k}(A) \cap  W^{n+k}(A)          \subset  C'.       </fr:tex></fr:p>
+
+    <fr:p>
+      The claim (<fr:tex>*_{k+1}</fr:tex>) and then follows from (<fr:tex>*_k</fr:tex>) and the following lemma.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -51,7 +149,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>658</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>659</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       We will prove by induction on <fr:tex>k</fr:tex> the following claim:
     </fr:p>
@@ -81,105 +179,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>657</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           F^{p_k}( \operatorname {Gr} _W^{n+k}(A))  \oplus   \bar {F}^{q_k}( \operatorname {Gr} _W^{n+k}(A))            \xrightarrow { \sim }   \operatorname {Gr} _W^{n+k}(A).         \tag{1.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
-      Set
-      <fr:tex
-display="block">          \begin {aligned}           B &amp;=  \sum _{i&lt;k} (W^{n+i}(A) \cap  F^{p_i}(A))          \\ C &amp;=  \sum _{i&lt;k} (W^{n+i}(A) \cap \bar {F}^{q_i}(A))          \\ B' &amp;= (W^{n+k}(A) \cap  F^{p_k}(A)) + W^{n+k+1}(A)          \\ C' &amp;= (W^{n+k}(A) \cap \bar {F}^{q_k}(A)) + W^{n+k+1}(A)          \\ D &amp;= W^{n+k}(A)          \\ E &amp;= W^{n+k+1}(A).          \end {aligned}       </fr:tex></fr:p>
-
-    <fr:p><fr:ref
-addr="hodge-theory-ii-1.2.8.1"
-href="hodge-theory-ii-1.2.8.1.xml"
-taxon="Equation"
-number="1.2.8.1"></fr:ref> can then be written as
-      <fr:tex
-display="block">          \begin {aligned}           B'+C' &amp;= D          \\ B' \cap  C' &amp;= E.          \end {aligned}       </fr:tex>
-      We also have, since <fr:tex>p_k \leqslant  p_i</fr:tex> (for <fr:tex>i \leqslant  k</fr:tex>),
-      <fr:tex
-display="block">         B \cap  D          \subset  F^{p_k}(A)  \cap  W^{n+k}(A)          \subset  B'       </fr:tex>
-      and, since <fr:tex>q_k \leqslant  q_i</fr:tex> (for <fr:tex>i \leqslant  k</fr:tex>),
-      <fr:tex
-display="block">         C \cap  D          \subset   \bar {F}^{q_k}(A) \cap  W^{n+k}(A)          \subset  C'.       </fr:tex></fr:p>
-
-    <fr:p>
-      The claim (<fr:tex>*_{k+1}</fr:tex>) and then follows from (<fr:tex>*_k</fr:tex>) and the following lemma.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>800</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.2.8</fr:addr><fr:route>hodge-theory-ii-1.2.8.xml</fr:route><fr:number>1.2.8</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>W</fr:tex>, <fr:tex>F</fr:tex>, and <fr:tex>\bar {F}</fr:tex> be three finite opposite filtrations, and <fr:tex>\sigma</fr:tex> a sequence <fr:tex>(p_i,q_i)_{i \geqslant0 }</fr:tex> pairs of integers satisfying
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;a. &quot;">
-        <fr:tex>p_i \leqslant  p_j</fr:tex> and <fr:tex>q_i \leqslant  q_j</fr:tex> for <fr:tex>i \geqslant  j</fr:tex>, and
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;b. &quot;">
-        <fr:tex>p_i+q_i=p_0+q_0-i+1</fr:tex> for <fr:tex>i&gt;0</fr:tex>.
-      </html:li>
-
-    </html:ol>
-
-
-    Set <fr:tex>p=p_0</fr:tex>, <fr:tex>q=q_0</fr:tex>, <fr:tex>n=-p-q</fr:tex>, and
-    <fr:tex
-display="block">       A_ \sigma        =  \left (  \sum _{0 \leqslant  i}(W^{n+i}(A) \cap  F^{p_i}(A))  \right )        \cap   \left (  \sum _{0 \leqslant  i}(W^{n+i}(A) \cap \bar {F}^{q_i}(A))  \right ).     </fr:tex>
-    Then the projection from <fr:tex>W^n(A)</fr:tex> to <fr:tex>\operatorname {Gr} _W^n(A)</fr:tex> induces an isomorphism
-    <fr:tex
-display="block">       A_ \sigma         \xrightarrow { \sim }  A^{p,q}  \subset   \operatorname {Gr} _W^n(A).     </fr:tex></fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>658</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We will prove by induction on <fr:tex>k</fr:tex> the following claim:
-    </fr:p>
-
-    <fr:p><fr:em>
-        The projection from <fr:tex>W^n(A)/W^{n+k}</fr:tex> to <fr:tex>\operatorname {Gr} _W^n(A)</fr:tex> induces an isomorphism from
-        <fr:tex
-display="block">            \begin {aligned}              \Bigg [             &amp; \left (  \sum _{i&lt;k} (W^{n+i}(A) \cap  F^{p_i}(A)) + W^{n+k}(A)  \right )            \\ \cap              &amp; \left (  \sum _{i&lt;k} (W^{n+i}(A) \cap \bar {F}^{q_i}(A)) + W^{n+k}(A)  \right )              \Bigg ] / W^{n+k}(A)            \end {aligned}           \tag{$*_k$}         </fr:tex>
-        to <fr:tex>A^{p,q} \subset \operatorname {Gr} _W^n(A)</fr:tex>.
-      </fr:em></fr:p>
-
-    <fr:p>
-      For <fr:tex>k=1</fr:tex>, this is exactly the definition of <fr:tex>A^{p,q}</fr:tex>.
-    </fr:p>
-
-    <fr:p>
-      By (i) of <fr:ref
-addr="hodge-theory-ii-1.2.5"
-href="hodge-theory-ii-1.2.5.xml"
-taxon="Proposition"
-number="1.2.5"></fr:ref> we have
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>657</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>658</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">           F^{p_k}( \operatorname {Gr} _W^{n+k}(A))  \oplus   \bar {F}^{q_k}( \operatorname {Gr} _W^{n+k}(A))            \xrightarrow { \sim }   \operatorname {Gr} _W^{n+k}(A).         \tag{1.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
       Set
       <fr:tex
