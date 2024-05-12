@@ -103,7 +103,22 @@
 
   \proof{
     \p{
-      If
+      Let #{H\in\Ob\mathcal{C}}, and let #{H_1} be a sub-object of #{H}, in the category of continuous families of Hodge #{\QQ}-structures.
+      We will show that #{H_1} is a direct factor of #{H} in this category.
+      We can suppose #{H} to be homogeneous.
+      If #{\psi} is a polarisation form for #{H}, then the orthogonal of #{H_1} with respect to #{\psi} is indeed a sub-object of #{H} that is a supplement to #{H_1}.
+      This proves (i)
+    }
+
+    \p{
+      If #{H\in\Ob\mathcal{C}} is of weight #{n}, then a polarisation of #{H} defines an isomorphism between #{H^*} and #{H\otimes\QQ(n)}.
+      By \ref{hodge-theory-ii-4.2.2.1}, we thus have that #{H^*\in\Ob\mathcal{C}}.
+      For arbitrary #{H\in\Ob\mathcal{C}}, if we decompose #{H} into its homogeneous components, then #{H^*=\bigoplus_n(H^n)^*}, whence again #{H^*\in\Ob\mathcal{C}}.
+      Finally, #{\wedge^p H} is a direct factor in #{\bigotimes^p H}, and #{\Hom(H_1,H_2)\simeq H_1^*\otimes H_2}.
     }
   }
+}
+
+\p{
+  Let
 }
