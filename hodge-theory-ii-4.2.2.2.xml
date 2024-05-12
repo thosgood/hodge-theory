@@ -108,7 +108,22 @@ show-metadata="false"
 expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1505</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.2.3</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      If
+      Let <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex>, and let <fr:tex>H_1</fr:tex> be a sub-object of <fr:tex>H</fr:tex>, in the category of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures.
+      We will show that <fr:tex>H_1</fr:tex> is a direct factor of <fr:tex>H</fr:tex> in this category.
+      We can suppose <fr:tex>H</fr:tex> to be homogeneous.
+      If <fr:tex>\psi</fr:tex> is a polarisation form for <fr:tex>H</fr:tex>, then the orthogonal of <fr:tex>H_1</fr:tex> with respect to <fr:tex>\psi</fr:tex> is indeed a sub-object of <fr:tex>H</fr:tex> that is a supplement to <fr:tex>H_1</fr:tex>.
+      This proves (i)
+    </fr:p>
+
+    <fr:p>
+      If <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex> is of weight <fr:tex>n</fr:tex>, then a polarisation of <fr:tex>H</fr:tex> defines an isomorphism between <fr:tex>H^*</fr:tex> and <fr:tex>H \otimes \mathbb {Q} (n)</fr:tex>.
+      By <fr:ref
+addr="hodge-theory-ii-4.2.2.1"
+href="hodge-theory-ii-4.2.2.1.xml"
+taxon="Condition"
+number="4.2.2.1"></fr:ref>, we thus have that <fr:tex>H^* \in \operatorname {Ob} \mathcal {C}</fr:tex>.
+      For arbitrary <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex>, if we decompose <fr:tex>H</fr:tex> into its homogeneous components, then <fr:tex>H^*= \bigoplus _n(H^n)^*</fr:tex>, whence again <fr:tex>H^* \in \operatorname {Ob} \mathcal {C}</fr:tex>.
+      Finally, <fr:tex>\wedge ^p H</fr:tex> is a direct factor in <fr:tex>\bigotimes ^p H</fr:tex>, and <fr:tex>\operatorname {Hom} (H_1,H_2) \simeq  H_1^* \otimes  H_2</fr:tex>.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
