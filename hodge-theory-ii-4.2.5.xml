@@ -7,39 +7,57 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1515</fr:anchor><fr:addr>hodge-theory-ii-4.2.1</fr:addr><fr:route>hodge-theory-ii-4.2.1.xml</fr:route><fr:number>4.2.1</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a topological space.
-    A <fr:em>continuous family of Hodge structures</fr:em> on <fr:tex>S</fr:tex> consists of:
-
-    
+root="false"><fr:frontmatter><fr:anchor>1537</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.2.5</fr:addr><fr:route>hodge-theory-ii-4.2.5.xml</fr:route><fr:number>4.2.5</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
-      
+    
  <html:li
-style="list-style-type: &quot;a. &quot;">
-        A local system <fr:tex>H_ \mathbb {Z}</fr:tex> on <fr:tex>S</fr:tex> of <fr:tex>\mathbb {Z}</fr:tex>-modules of finite type.
-      </html:li>
+style="list-style-type: &quot;i. &quot;">
+      The category of algebraic continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex> satisfies the conditions of <fr:ref
+addr="hodge-theory-ii-4.2.2"
+href="hodge-theory-ii-4.2.2.xml"
+number="4.2.2"></fr:ref>.
+    </html:li>
 
-      
+    
  <html:li
-style="list-style-type: &quot;b. &quot;">
-        For every point <fr:tex>s \in  S</fr:tex>, a Hodge structure on the fibre <fr:tex>(H_ \mathbb {Z} )</fr:tex> that varies continuously in <fr:tex>s</fr:tex>.
-      </html:li>
+style="list-style-type: &quot;ii. &quot;">
+      If a continuous family <fr:tex>H</fr:tex> of Hodge structures on <fr:tex>S</fr:tex> is such that its restriction to a dense Zariski open <fr:tex>U</fr:tex> of <fr:tex>S</fr:tex> is algebraic, then <fr:tex>H</fr:tex> is algebraic.
+    </html:li>
 
-    </html:ol></fr:p><fr:p>
-    A continuous family <fr:tex>H</fr:tex> of Hodge structures on <fr:tex>S</fr:tex> is said to be <fr:em>of weight <fr:tex>n</fr:tex></fr:em> if the fibres <fr:tex>H_s</fr:tex> (for <fr:tex>s \in  S</fr:tex>) are all of weight <fr:tex>n</fr:tex>.
-  </fr:p><fr:p>
-    We similarly define a <fr:em>continuous family of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures</fr:em> as a local system of <fr:tex>\mathbb {Q}</fr:tex>-vector spaces, endowed at each point with a Hodge <fr:tex>\mathbb {Q}</fr:tex>-structure, varying continuously.
-  </fr:p><fr:p>
-    A <fr:em>polarisation</fr:em> of a continuous family <fr:tex>H</fr:tex> of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures of weight <fr:tex>n</fr:tex> is a morphism of local systems from <fr:tex>H_ \mathbb {Q} \otimes  H_ \mathbb {Q}</fr:tex> to the constant local system <fr:tex>\mathbb {Q} (-n)_ \mathbb {Q}</fr:tex>, which defines at each point <fr:tex>s \in  S</fr:tex> a polarisation of <fr:tex>H_s</fr:tex>.
-  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+    
+ <html:li
+style="list-style-type: &quot;iii. &quot;">
+      If <fr:tex>f \colon  X \to  S</fr:tex> is smooth and proper, then <fr:tex>\operatorname {R}  f_* \mathbb {Q}</fr:tex> is algebraic.
+    </html:li>
+
+  </html:ol>
+
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1512</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Claim (ii) is evident.
+      We will prove (i).
+      Let
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1514</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1536</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -258,4 +276,57 @@ root="false"><fr:frontmatter><fr:anchor>1512</fr:anchor><fr:taxon>Proof</fr:taxo
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1535</fr:anchor><fr:addr>hodge-theory-ii-4.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.xml</fr:route><fr:number>4.2.2</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Suppose that <fr:tex>S</fr:tex> is connected, and let <fr:tex>\mathcal {C}</fr:tex> be a strictly full subcategory of the category of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex>.
+    We will have need of the following conditions:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1497</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.1</fr:addr><fr:route>hodge-theory-ii-4.2.2.1.xml</fr:route><fr:number>4.2.2.1</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:tex>\mathcal {C}</fr:tex> is stable under direct factors, direct sums, and tensor products;
+        the Tate constant families <fr:tex>\mathbb {Q} (n)</fr:tex> (for <fr:tex>n \in \mathbb {Z}</fr:tex>) are in <fr:tex>\mathcal {C}</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1498</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.2.xml</fr:route><fr:number>4.2.2.2</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Every homogeneous (of some weight <fr:tex>n</fr:tex>) Hodge structure in <fr:tex>\mathcal {C}</fr:tex> is polarisable.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1499</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.2.3.xml</fr:route><fr:number>4.2.2.3</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        For every <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex>, there exists a local system <fr:tex>H'_ \mathbb {Z}</fr:tex> on <fr:tex>S</fr:tex> of free <fr:tex>\mathbb {Z}</fr:tex>-modules such that <fr:tex>H'_ \mathbb {Z} \otimes \mathbb {Q} \approx  H_ \mathbb {Q}</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1500</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.4</fr:addr><fr:route>hodge-theory-ii-4.2.2.4.xml</fr:route><fr:number>4.2.2.4</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        For every <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex>, the largest constant local system <fr:tex>H^f</fr:tex> of <fr:tex>H</fr:tex> is a constant family of Hodge sub-structures of <fr:tex>H</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
