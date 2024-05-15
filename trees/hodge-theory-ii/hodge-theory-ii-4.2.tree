@@ -46,7 +46,7 @@
     \subtree[hodge-theory-ii-4.2.2.1]{
       \taxon{condition}
       \number{4.2.2.1}
-    
+
       \p{
         #{\mathcal{C}} is stable under direct factors, direct sums, and tensor products;
         the Tate constant families #{\QQ(n)} (for #{n\in\ZZ}) are in #{\mathcal{C}}.
@@ -56,7 +56,7 @@
     \subtree[hodge-theory-ii-4.2.2.2]{
       \taxon{condition}
       \number{4.2.2.2}
-    
+
       \p{
         Every homogeneous (of some weight #{n}) Hodge structure in #{\mathcal{C}} is polarisable.
       }
@@ -65,7 +65,7 @@
     \subtree[hodge-theory-ii-4.2.2.3]{
       \taxon{condition}
       \number{4.2.2.3}
-    
+
       \p{
         For every #{H\in\Ob\mathcal{C}}, there exists a local system #{H'_\ZZ} on #{S} of free #{\ZZ}-modules such that #{H'_\ZZ\otimes\QQ\approx H_\QQ}.
       }
@@ -74,7 +74,7 @@
     \subtree[hodge-theory-ii-4.2.2.4]{
       \taxon{condition}
       \number{4.2.2.4}
-    
+
       \p{
         \oldpage{44}
         For every #{H\in\Ob\mathcal{C}}, the largest constant local system #{H^f} of #{H} is a constant family of Hodge sub-structures of #{H}.
@@ -114,11 +114,47 @@
       If #{H\in\Ob\mathcal{C}} is of weight #{n}, then a polarisation of #{H} defines an isomorphism between #{H^*} and #{H\otimes\QQ(n)}.
       By \ref{hodge-theory-ii-4.2.2.1}, we thus have that #{H^*\in\Ob\mathcal{C}}.
       For arbitrary #{H\in\Ob\mathcal{C}}, if we decompose #{H} into its homogeneous components, then #{H^*=\bigoplus_n(H^n)^*}, whence again #{H^*\in\Ob\mathcal{C}}.
-      Finally, #{\wedge^p H} is a direct factor in #{\bigotimes^p H}, and #{\Hom(H_1,H_2)\simeq H_1^*\otimes H_2}.
+      Finally, #{\wedge^p H} is a direct factor of #{\bigotimes^p H}, and #{\Hom(H_1,H_2)\simeq H_1^*\otimes H_2}.
     }
   }
 }
 
 \p{
-  Let
+  Let #{f\colon X\to S} be a smooth proper morphism of reduced schemes.
+  The sheaf #{\Rd^i f_*\QQ} is then a local system, and, for #{s\in S}, #{(\Rd^i f_*\QQ)_s\simeq\HH^i(X_s,\QQ)} is endowed with a Hodge #{\QQ}-structure, which varies continuously in #{s}.
+}
+
+\subtree[hodge-theory-ii-4.2.4]{
+  \taxon{definition}
+  \number{4.2.4}
+
+  \p{
+    Let #{S} be a smooth connected scheme.
+    A continuous family #{H} of Hodge #{\QQ}-structures on #{S^\an} is said to be \em{algebraic} if there exists a non-empty Zariski open #{U} of #{S}, an integer #{k}, and a smooth projective morphism #{f\colon X\to U} such that #{H|U} is a direct factor of #{\Rd f_*\QQ\otimes\QQ(k)}.
+  }
+}
+
+\subtree[hodge-theory-ii-4.2.5]{
+  \taxon{proposition}
+  \number{4.2.5}
+
+  \olc{
+    \lic{i.}{
+      The category of algebraic continuous families of Hodge #{\QQ}-structures on #{S} satisfies the conditions of \ref{hodge-theory-ii-4.2.2}.
+    }
+    \lic{ii.}{
+      If a continuous family #{H} of Hodge structures on #{S} is such that its restriction to a dense Zariski open #{U} of #{S} is algebraic, then #{H} is algebraic.
+    }
+    \lic{iii.}{
+      If #{f\colon X\to S} is smooth and proper, then #{\Rd f_*\QQ} is algebraic.
+    }
+  }
+
+  \proof{
+    \p{
+      Claim (ii) is evident.
+      We will prove (i).
+      Let
+    }
+  }
 }
