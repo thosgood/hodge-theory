@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>277</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>38</fr:strong> pp. 125–180</fr:meta><fr:meta
 name="bibtex">@article{5,
   author = {Griffiths, P.A.},
@@ -33,7 +33,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 style="list-style-type: &quot;i. &quot;">
       In rational cohomology, the Leray spectral sequence
       <fr:tex
-display="block">         E_2^{pq}         =  \operatorname {H} ^p(S, \operatorname {R} ^qf_* \mathbb {Q} )          \Rightarrow   \operatorname {H} ^{p+q}(X, \mathbb {Q} )       </fr:tex>
+display="block">         E_2^{pq}         =  \operatorname {H} ^p(S, \mathrm {R} ^qf_* \mathbb {Q} )          \Rightarrow   \operatorname {H} ^{p+q}(X, \mathbb {Q} )       </fr:tex>
       degenerates (<fr:tex>E_2=E_ \infty</fr:tex>).
     </html:li>
 
@@ -43,7 +43,7 @@ display="block">         E_2^{pq}         =  \operatorname {H} ^p(S, \operatorna
 style="list-style-type: &quot;ii. &quot;">
       If <fr:tex>\bar {X}</fr:tex> is a non-singular compactification of <fr:tex>X</fr:tex>, then the canonical morphism
       <fr:tex
-display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \to   \operatorname {H} ^0(S, \operatorname {R} ^nf_* \mathbb {Q} )       </fr:tex>
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \to   \operatorname {H} ^0(S, \mathrm {R} ^nf_* \mathbb {Q} )       </fr:tex>
       is surjective.
     </html:li>
 
@@ -77,17 +77,17 @@ addr="G1970">G1970</fr:link>;
     <fr:p>
       Let us fix <fr:tex>f</fr:tex>, and prove that (i)<fr:tex>\implies</fr:tex>(ii).
       We can reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
-      If <fr:tex>s \in  S</fr:tex> is a point, then the local system <fr:tex>\operatorname {R} ^nf_* \mathbb {Q}</fr:tex> is entirely described by its fibre <fr:tex>( \operatorname {R} ^nf_* \mathbb {Q} )_s</fr:tex> at <fr:tex>s</fr:tex> and the action of the fundamental group <fr:tex>\pi = \pi _1(S,s)</fr:tex> on this fibre.
+      If <fr:tex>s \in  S</fr:tex> is a point, then the local system <fr:tex>\mathrm {R} ^nf_* \mathbb {Q}</fr:tex> is entirely described by its fibre <fr:tex>( \mathrm {R} ^nf_* \mathbb {Q} )_s</fr:tex> at <fr:tex>s</fr:tex> and the action of the fundamental group <fr:tex>\pi = \pi _1(S,s)</fr:tex> on this fibre.
       We have
       <fr:tex
-display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xrightarrow { \sim }  [( \operatorname {R} ^n f_* \mathbb {Q} )_s]^ \pi .       </fr:tex>
+display="block">          \operatorname {H} ^0(S, \mathrm {R} ^n f_* \mathbb {Q} )          \xrightarrow { \sim }  [( \mathrm {R} ^n f_* \mathbb {Q} )_s]^ \pi .       </fr:tex>
       If <fr:tex>X_s=f^{-1}(s)</fr:tex>, then the composite arrow
       <fr:tex
-display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \to  ( \operatorname {R} ^n f_* \mathbb {Q} )          \approx   \operatorname {H} ^n(X_s, \mathbb {Q} )       </fr:tex>
+display="block">          \operatorname {H} ^0(S, \mathrm {R} ^n f_* \mathbb {Q} )          \to  ( \mathrm {R} ^n f_* \mathbb {Q} )          \approx   \operatorname {H} ^n(X_s, \mathbb {Q} )       </fr:tex>
       is thus injective.
       Consider the arrows
       <fr:tex
-display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \xrightarrow {a}  \operatorname {H} ^n(X, \mathbb {Q} )          \xrightarrow {b}  \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xhookrightarrow {c}  \operatorname {H} ^n(X_s, \mathbb {Q} ).       </fr:tex>
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \xrightarrow {a}  \operatorname {H} ^n(X, \mathbb {Q} )          \xrightarrow {b}  \operatorname {H} ^0(S, \mathrm {R} ^n f_* \mathbb {Q} )          \xhookrightarrow {c}  \operatorname {H} ^n(X_s, \mathbb {Q} ).       </fr:tex>
       The arrows <fr:tex>cb</fr:tex> and <fr:tex>cba</fr:tex> have the same image, by <fr:ref
 addr="hodge-theory-ii-3.2.18"
 href="hodge-theory-ii-3.2.18.xml"
@@ -140,21 +140,21 @@ hash="d41654bb4e0d234603e78824a045c108"><fr:embedded-tex-preamble>
       If <fr:tex>s \in  S_1</fr:tex>, then the morphism <fr:tex>i_* \colon \pi _1(S_1,s) \to \pi _1(S,s)</fr:tex> is surjective, since the topological codimension of <fr:tex>S \setminus  S_1</fr:tex> is <fr:tex>\geqslant2</fr:tex>.
       We thus have
       <fr:tex
-display="block">          \operatorname {H} ^0(S, \operatorname {R} ^n f_* \mathbb {Q} )          \xrightarrow { \sim }   \operatorname {H} ^0(S_1, \operatorname {R} ^n {f_1}_* \mathbb {Q} )       </fr:tex>
+display="block">          \operatorname {H} ^0(S, \mathrm {R} ^n f_* \mathbb {Q} )          \xrightarrow { \sim }   \operatorname {H} ^0(S_1, \mathrm {R} ^n {f_1}_* \mathbb {Q} )       </fr:tex>
       and it suffices to prove that
       <fr:tex
-display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \to   \operatorname {H} ^0(S_1, \operatorname {R} ^n {f_1}_* \mathbb {Q} )       </fr:tex>
+display="block">          \operatorname {H} ^n( \bar {X}, \mathbb {Q} )          \to   \operatorname {H} ^0(S_1, \mathrm {R} ^n {f_1}_* \mathbb {Q} )       </fr:tex>
       is surjective.
     </fr:p>
 
     <fr:p>
       The vertical arrows in the diagram
       <fr:tex
-display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X}, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^n(X_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f_1}_* \mathbb {Q} )          \\ @VV{ \bar {p}^*}V @VV{p^*}V @VV{p^*}V          \\ \operatorname {H} ^n( \bar {X}'_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^n(X'_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} {f'_1}_* \mathbb {Q} )          \end {CD}       </fr:tex>
+display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X}, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^n(X_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^0(S_1, \mathrm {R} ^n{f_1}_* \mathbb {Q} )          \\ @VV{ \bar {p}^*}V @VV{p^*}V @VV{p^*}V          \\ \operatorname {H} ^n( \bar {X}'_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^n(X'_1, \mathbb {Q} ) @&gt;&gt;&gt;  \operatorname {H} ^0(S_1, \mathrm {R} {f'_1}_* \mathbb {Q} )          \end {CD}       </fr:tex>
       admit left inverses given by the <fr:em>Gysin morphisms</fr:em> <fr:tex>\bar {p}_!</fr:tex>, <fr:tex>p_!</fr:tex>, and <fr:tex>p_!</fr:tex> (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
       Furthermore, the diagram
       <fr:tex
-display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X}, \mathbb {Q} ) @&gt;{u}&gt;&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f_1}_* \mathbb {Q} )          \\ @A{ \bar {p}_!}AA @AA{p_!}A          \\ \operatorname {H} ^n( \bar {X}', \mathbb {Q} ) @&gt;&gt;{v}&gt;  \operatorname {H} ^0(S_1, \operatorname {R} ^n{f'_1}_* \mathbb {Q} )          \end {CD}       </fr:tex>
+display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X}, \mathbb {Q} ) @&gt;{u}&gt;&gt;  \operatorname {H} ^0(S_1, \mathrm {R} ^n{f_1}_* \mathbb {Q} )          \\ @A{ \bar {p}_!}AA @AA{p_!}A          \\ \operatorname {H} ^n( \bar {X}', \mathbb {Q} ) @&gt;&gt;{v}&gt;  \operatorname {H} ^0(S_1, \mathrm {R} ^n{f'_1}_* \mathbb {Q} )          \end {CD}       </fr:tex>
       commutes.
       The arrow <fr:tex>u</fr:tex> is thus a direct factor of the arrow <fr:tex>v</fr:tex>.
       Since <fr:tex>v</fr:tex> is surjective (because <fr:tex>f'_1</fr:tex> is projective), so too is <fr:tex>u</fr:tex>.
@@ -167,17 +167,17 @@ display="block">          \begin {CD}            \operatorname {H} ^n( \bar {X},
     </fr:p>
 
     <fr:p>
-      Let <fr:tex>\delta</fr:tex> be the image of the cohomology class of the diagonal of <fr:tex>X \times _S X</fr:tex> in <fr:tex>\operatorname {H} ^0(S, \operatorname {R} ^n(f \times  f)_*, \mathbb {Q} )</fr:tex>.
+      Let <fr:tex>\delta</fr:tex> be the image of the cohomology class of the diagonal of <fr:tex>X \times _S X</fr:tex> in <fr:tex>\operatorname {H} ^0(S, \mathrm {R} ^n(f \times  f)_*, \mathbb {Q} )</fr:tex>.
       We have, by Künneth,
       <fr:tex
-display="block">          \operatorname {R} ^n(f \times  f)_* \mathbb {Q}          =  \sum _{p+q=n} ( \operatorname {R} ^p f_* \mathbb {Q} \otimes \operatorname {R} ^q f_* \mathbb {Q} ).       </fr:tex>
+display="block">          \mathrm {R} ^n(f \times  f)_* \mathbb {Q}          =  \sum _{p+q=n} ( \mathrm {R} ^p f_* \mathbb {Q} \otimes \mathrm {R} ^q f_* \mathbb {Q} ).       </fr:tex>
       We denote by <fr:tex>\delta '_{pq}</fr:tex> (for <fr:tex>p+q=n</fr:tex>) the components of <fr:tex>\delta</fr:tex> in this decomposition, and by <fr:tex>\delta _{pq}</fr:tex> the classes in <fr:tex>\operatorname {H} ^n(X \times _S X)</fr:tex> given by the images of the <fr:tex>\delta '_{pq}</fr:tex>.
     </fr:p>
 
     <fr:p>
       The <fr:tex>\delta _{pq}</fr:tex> define, in the derived category <fr:tex>D^+(S)</fr:tex>, homomorphisms
       <fr:tex
-display="block">          \delta _p \colon           \operatorname {R}  f_* \mathbb {Q}           \to   \operatorname {R}  f_* \mathbb {Q}        </fr:tex>
+display="block">          \delta _p \colon           \mathrm {R}  f_* \mathbb {Q}           \to   \mathrm {R}  f_* \mathbb {Q}        </fr:tex>
       such that <fr:tex>\operatorname { \mathscr {H}} ^q( \delta _p)</fr:tex> is zero for <fr:tex>p \neq  q</fr:tex>, and is the identity for <fr:tex>p=q</fr:tex>.
       By [<fr:link
 href="D1968.xml"
@@ -192,7 +192,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">            \operatorname {R}  f_* \mathbb {Q}             \approx   \sum _p  \operatorname {R} ^p f_* \mathbb {Q} [-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
+display="block">            \mathrm {R}  f_* \mathbb {Q}             \approx   \sum _p  \mathrm {R} ^p f_* \mathbb {Q} [-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
 
       in <fr:tex>D^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
     </fr:p>
@@ -238,7 +238,7 @@ addr="hodge-theory-ii-4.1.2"
 href="hodge-theory-ii-4.1.2.xml"
 taxon="Corollary"
 number="4.1.2"></fr:ref>.
-        If a global section <fr:tex>a</fr:tex> of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex> is of Hodge type <fr:tex>(p,q)</fr:tex> at a point, then <fr:tex>a</fr:tex> is everywhere of type <fr:tex>(p,q)</fr:tex>.
+        If a global section <fr:tex>a</fr:tex> of <fr:tex>\mathrm {R} ^n f_* \mathbb {C}</fr:tex> is of Hodge type <fr:tex>(p,q)</fr:tex> at a point, then <fr:tex>a</fr:tex> is everywhere of type <fr:tex>(p,q)</fr:tex>.
         In particular, if <fr:tex>n=2</fr:tex> and if <fr:tex>a</fr:tex> is, at some point <fr:tex>s</fr:tex>, the cohomology class of a divisor of <fr:tex>X_s</fr:tex>, then <fr:tex>a</fr:tex> is everywhere the cohomology class of a divisor, and, if <fr:tex>S</fr:tex> is smooth, is even defined by a divisor <fr:tex>D</fr:tex> on <fr:tex>X</fr:tex>.
       </fr:p></fr:mainmatter></fr:tree>
 
@@ -255,7 +255,7 @@ href="G1966.xml"
 type="local"
 addr="G1966">G1966</fr:link>]).
         Let <fr:tex>S</fr:tex> be a reduced connected scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>, and let <fr:tex>f_1 \colon  X_1 \to  S</fr:tex> and <fr:tex>f_2 \colon  X_2 \to  S</fr:tex> be abelian schemes over <fr:tex>S</fr:tex>.
-        If a morphism <fr:tex>u \colon \operatorname {R} ^1{f_2}_* \mathbb {Z} \to \operatorname {R} ^1{f_1}_* \mathbb {Z}</fr:tex> comes from a morphism <fr:tex>\widetilde {u}_s \colon (X_1)_s \to (X_2)_s</fr:tex> of abelian varieties at some point <fr:tex>s \in  S</fr:tex>, then <fr:tex>u</fr:tex> comes from a (unique) morphism of abelian schemes <fr:tex>\widetilde {u} \colon  X_1 \to  X_2</fr:tex>.
+        If a morphism <fr:tex>u \colon \mathrm {R} ^1{f_2}_* \mathbb {Z} \to \mathrm {R} ^1{f_1}_* \mathbb {Z}</fr:tex> comes from a morphism <fr:tex>\widetilde {u}_s \colon (X_1)_s \to (X_2)_s</fr:tex> of abelian varieties at some point <fr:tex>s \in  S</fr:tex>, then <fr:tex>u</fr:tex> comes from a (unique) morphism of abelian schemes <fr:tex>\widetilde {u} \colon  X_1 \to  X_2</fr:tex>.
       </fr:p></fr:mainmatter></fr:tree>
 
     <fr:tree
@@ -270,7 +270,7 @@ root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:addr>hodge-theory-ii-
 href="K1971.xml"
 type="local"
 addr="K1971">K1971</fr:link>]).
-        Let <fr:tex>S</fr:tex> be a smooth connected scheme, <fr:tex>s \in  S</fr:tex> a point, <fr:tex>f \colon  X \to  S</fr:tex> a proper smooth morphism, and <fr:tex>P</fr:tex> a direct factor of the local system <fr:tex>\operatorname {R} ^i f_* \mathbb {Q}</fr:tex>, which is pointwise a Hodge sub-structure.
+        Let <fr:tex>S</fr:tex> be a smooth connected scheme, <fr:tex>s \in  S</fr:tex> a point, <fr:tex>f \colon  X \to  S</fr:tex> a proper smooth morphism, and <fr:tex>P</fr:tex> a direct factor of the local system <fr:tex>\mathrm {R} ^i f_* \mathbb {Q}</fr:tex>, which is pointwise a Hodge sub-structure.
         Then the following conditions are equivalent:
 
         
@@ -311,6 +311,64 @@ addr="hodge-theory-ii-4.1.2"
 href="hodge-theory-ii-4.1.2.xml"
 taxon="Corollary"
 number="4.1.2"></fr:ref>.
-        If a global section <fr:tex>a</fr:tex> of <fr:tex>\operatorname {R} ^n f_* \mathbb {C}</fr:tex> is of Hodge type <fr:tex>(p,q)</fr:tex> at a point, then <fr:tex>a</fr:tex> is everywhere of type <fr:tex>(p,q)</fr:tex>.
+        If a global section <fr:tex>a</fr:tex> of <fr:tex>\mathrm {R} ^n f_* \mathbb {C}</fr:tex> is of Hodge type <fr:tex>(p,q)</fr:tex> at a point, then <fr:tex>a</fr:tex> is everywhere of type <fr:tex>(p,q)</fr:tex>.
         In particular, if <fr:tex>n=2</fr:tex> and if <fr:tex>a</fr:tex> is, at some point <fr:tex>s</fr:tex>, the cohomology class of a divisor of <fr:tex>X_s</fr:tex>, then <fr:tex>a</fr:tex> is everywhere the cohomology class of a divisor, and, if <fr:tex>S</fr:tex> is smooth, is even defined by a divisor <fr:tex>D</fr:tex> on <fr:tex>X</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+      </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>276</fr:anchor><fr:taxon>Footnote</fr:taxon><fr:addr>hodge-theory-ii-4.2.6-footnote-1</fr:addr><fr:route>hodge-theory-ii-4.2.6-footnote-1.xml</fr:route><fr:number>1</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a smooth connected scheme.
+    A <fr:em>family of Hodge structures</fr:em> on <fr:tex>S</fr:tex> is a continuous family <fr:tex>H</fr:tex> of Hodge structures on <fr:tex>S</fr:tex> that satisfies the following conditions:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        The Hodge filtration on <fr:tex>(H_ \mathbb {C} )_s</fr:tex> varies holomorphically with <fr:tex>s</fr:tex>, i.e. it corresponds to a filtration <fr:tex>F</fr:tex> of <fr:tex>H_ \mathcal {O} =H_ \mathbb {Z} \otimes \mathcal {O}</fr:tex>.
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        The covariant derivative <fr:tex>\nabla</fr:tex> satisfies <fr:tex>\nabla  F^p \subset \Omega _S^1 \otimes  F^{p-1}</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    Let <fr:tex>\mathcal {C}</fr:tex> be the category of such continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex> that underlie a family of Hodge structures and whose homogeneous direct factors are polarisable.
+    It is clear that <fr:tex>\mathcal {C}</fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-4.2.2.1"
+href="hodge-theory-ii-4.2.2.1.xml"
+taxon="Condition"
+number="4.2.2.1"></fr:ref>, <fr:ref
+addr="hodge-theory-ii-4.2.2.2"
+href="hodge-theory-ii-4.2.2.2.xml"
+taxon="Condition"
+number="4.2.2.2"></fr:ref>, and <fr:ref
+addr="hodge-theory-ii-4.2.2.3"
+href="hodge-theory-ii-4.2.2.3.xml"
+taxon="Condition"
+number="4.2.2.3"></fr:ref>.
+    We can deduce from results of W. Schmid (August 1970, unpublished) and P.A. Griffiths [<fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>] that <fr:tex>\mathcal {C}</fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-4.2.2.4"
+href="hodge-theory-ii-4.2.2.4.xml"
+taxon="Condition"
+number="4.2.2.4"></fr:ref>.
+    This theorem, of which <fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2"></fr:ref> is a corollary, allows us to apply <fr:ref
+addr="hodge-theory-ii-4.2.6"
+href="hodge-theory-ii-4.2.6.xml"
+taxon="Theorem"
+number="4.2.6"></fr:ref> and its corollaries to the objects of <fr:tex>\mathcal {C}</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
