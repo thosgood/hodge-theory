@@ -154,7 +154,130 @@
     \p{
       Claim (ii) is evident.
       We will prove (i).
-      Let
+      Let #{\mathcal{C}_0} be the set of continuous families of Hodge structures on #{S} that are of the form #{\Rd f_*\QQ} (with #{f} smooth and projective).
+      Then:
+
+      \olc{
+        \lic{a.}{
+          By the Künneth formula
+          ##{
+            \Rd(f\times g)_*\QQ
+            \simeq \Rd f_*\QQ\otimes\Rd g_*\QQ,
+          }
+          #{\mathcal{C}_0} is stable under tensor products.
+        }
+        
+        \lic{b.}{
+          Since
+          ##{
+            \Rd(f\sqcup g)_*\QQ
+            \simeq \Rd f_*\QQ\oplus\Rd g_*\QQ,
+          }
+          #{\mathcal{C}_0} is stable under direct sums.
+        }
+
+        \lic{c.}{
+          \oldpage{45}
+          The homogeneous components of each #{H\in\Ob\mathcal{C}_0} are polarisable (cf. \ref{hodge-theory-ii-2.2.6}).
+        }
+
+        \lic{d.}{
+          The objects #{H\in\Ob\mathcal{C}_0} satisfy \ref{hodge-theory-ii-4.2.2.3}, since
+          ##{
+            \Rd f_*\QQ
+            \simeq \Rd f_*\ZZ\otimes\QQ.
+          }
+        }
+
+        \lic{e.}{
+          The objects #{H\in\Ob\mathcal{C}_0} satisfy \ref{hodge-theory-ii-4.2.2.4}, by \ref{hodge-theory-ii-4.1.2}.
+        }
+      }
     }
+
+    \p{
+      Let #{\mathcal{C}_1} be the set of direct factors of objects of #{\mathcal{C}_0}.
+      Then #{\mathcal{C}_1} is stable under tensor products, direct sums, and direct factors, and satisfies \ref{hodge-theory-ii-4.2.2.2}, \ref{hodge-theory-ii-4.2.2.3}, and \ref{hodge-theory-ii-4.2.2.4}.
+      Furthermore, #{\QQ(-1)} is in #{\mathcal{C}_1}, in the form of #{\Rd^2 f_*\QQ} for #{f\colon\PP_S^1\to S} the projective bundle.
+      The category #{\mathcal{C}_2} consisting of the #{H\otimes\QQ(k)} (for #{k\in\NN}) thus satisfy all the conditions of \ref{hodge-theory-ii-4.2.2}.
+    }
+
+    \p{
+      To thus deduce (i), it suffices to note that, if #{H} is a continuous family of Hodge structures, and #{U} a dense Zariski open of #{S}, then a sub-object of, a polarisation on, or an integer lattice of #{H|U} uniquely extend to #{H}.
+    }
+
+    \p{
+      We now prove (iii).
+      If #{f\colon X\to S} is smooth and projective, then there exists a dense Zariski open subset #{U} of #{S} along with a commutative diagram
+      \tikzcd{
+        X' \ar[rr,"p"] \ar[dr,swap,"f'"]
+        && X|U \ar[dl,"f|U"]
+      \\& U
+      }
+      with #{f'} smooth and projective, and #{p} birational and surjective (by applying Chow's lemma and the resolution of singularities to the generic fibre of #{f}).
+      The restriction map
+      ##{
+        p^*\colon (\Rd f_*\QQ)|U \to \Rd f'_*\QQ
+      }
+      is thus a direct injection of continuous families of Hodge structures, with left inverse given by the Gysin morphism #{p_!}, whence the algebraicity of #{\Rd f_*\QQ}.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.2.6]{
+  \taxon{theorem}
+  \number{4.2.6}
+
+  \p{
+    Let #{S} be a connected topological space that is locally connected and locally simply connected, endowed with a basepoint #{s}.
+    Let #{\mathcal{C}} be a category of continuous Hodge structures on #{S} that satisfy the conditions of \ref{hodge-theory-ii-4.2.2}.
+    Then, if #{H\in\Ob\mathcal{C}}, the representation of #{\pi_1(S,s)} on the fibre #{(H_\QQ)_s} is semisimple.
+  }
+}
+
+\subtree[hodge-theory-ii-4.2.6-footnote-1]{
+  \taxon{footnote}
+  \number{1}
+
+  \p{
+    Let #{S} be a smooth connected scheme.
+    A \em{family of Hodge structures} on #{S} is a continuous family #{H} of Hodge structures on #{S} that satisfies the following conditions:
+
+    \olc{
+      \lic{a.}{
+        The Hodge filtration on #{(H_\CC)_s} varies holomorphically with #{s}, i.e. it corresponds to a filtration #{F} of #{H_\OO=H_\ZZ\otimes\OO}.
+      }
+      \lic{b.}{
+        The covariant derivative #{\nabla} satisfies #{\nabla F^p\subset\Omega_S^1\otimes F^{p-1}}.
+      }
+    }
+  }
+
+  \p{
+    Let #{\mathcal{C}} be the category of such continuous families of Hodge #{\QQ}-structures on #{S} that underlie a family of Hodge structures and whose homogeneous direct factors are polarisable.
+    It is clear that #{\mathcal{C}} satisfies \ref{hodge-theory-ii-4.2.2.1}, \ref{hodge-theory-ii-4.2.2.2}, and \ref{hodge-theory-ii-4.2.2.3}.
+    We can deduce from results of W. Schmid (August 1970, unpublished) and P.A. Griffiths [[G1970](G1970)] that #{\mathcal{C}} satisfies \ref{hodge-theory-ii-4.2.2.4}.
+    This theorem, of which \ref{hodge-theory-ii-4.1.2} is a corollary, allows us to apply \ref{hodge-theory-ii-4.2.6} and its corollaries to the objects of #{\mathcal{C}}.
+  }
+}
+
+\p{
+  \oldpage{46}
+  Let #{H\in\Ob\mathcal{C}}.
+  The local system #{H_\QQ} defines a complex local system #{H_\CC=H_\QQ\otimes\CC}.
+  For every complex local system #{V} on #{S}, we denote by #{V^c} the complex vector bundle that it defines, identified with the sheaf of its continuous sections.
+}
+
+\p{
+  By definition, the group #{S} (from \ref{hodge-theory-ii-2.1.2}) acts on #{H_\CC^c}.
+  A sub-bundle of #{H_\CC^c} is said to be \em{horizontal}, or \em{locally constant}, if it is defined by a local subsystem of #{H_\CC}.
+}
+
+\subtree[hodge-theory-ii-4.2.7]{
+  \taxon{lemma}
+  \number{4.2.7}
+
+  \p{
+    Let
   }
 }
