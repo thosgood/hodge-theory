@@ -369,7 +369,17 @@
 
   \proof{
     \p{
-      The algebra #{A}
+      The algebra #{A} is the commutator of #{\pi_1(S,s)} in #{(H_\QQ)_s}.
+      Its semi-simplicity thus follows from \ref{hodge-theory-ii-4.2.6} and from Bourbaki, \em{Algèbre commutative}, Chapter 8, §5.2, Proposition 4.
+      The algebra #{A} is also the fibre of the largest constant local subsystem of #{\iHom(H_\QQ,H_\QQ)}.
+      Since #{\iHom(H,H)\in\CC} (by (ii) of \ref{hodge-theory-ii-4.2.3}), the existence of the Hodge structure in (i) follows from the hypotheses (\ref{hodge-theory-ii-4.2.2.4}).
+      It is clear that the composition law is a morphism of Hodge structures.
+      It thus follows that the centre #{Z} of #{A} is a Hodge substructure: #{Z_\CC} is bigraded, as the intersection of kernels of bihomogeneous morphisms #{[x,-]}, for #{x} bihomogeneous.
+      Finally, #{Z}, and thus #{Z_\CC}, is semi-simple, and, for #{(p,q)\neq(0,0)}, #{Z^{pq}} is zero and thus nilpotent.
+    }
+
+    \p{
+      A
     }
   }
 }
