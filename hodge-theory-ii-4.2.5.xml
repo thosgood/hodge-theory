@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1580</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.2.5</fr:addr><fr:route>hodge-theory-ii-4.2.5.xml</fr:route><fr:number>4.2.5</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1585</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.2.5</fr:addr><fr:route>hodge-theory-ii-4.2.5.xml</fr:route><fr:number>4.2.5</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -168,7 +168,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1579</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1584</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -657,7 +657,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1138</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.2.8</fr:addr><fr:route>hodge-theory-ii-4.2.8.xml</fr:route><fr:number>4.2.8</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1142</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.2.8</fr:addr><fr:route>hodge-theory-ii-4.2.8.xml</fr:route><fr:number>4.2.8</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Under the hypotheses of <fr:ref
 addr="hodge-theory-ii-4.2.6"
 href="hodge-theory-ii-4.2.6.xml"
@@ -718,7 +718,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1137</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1141</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       The algebra <fr:tex>A</fr:tex> is the commutator of <fr:tex>\pi _1(S,s)</fr:tex> in <fr:tex>(H_ \mathbb {Q} )_s</fr:tex>.
       Its semi-simplicity thus follows from <fr:ref
@@ -742,18 +742,104 @@ number="4.2.2.4"></fr:ref>).
     </fr:p>
 
     <fr:p>
-      A
+      A complex local subsystem <fr:tex>W</fr:tex> of <fr:tex>H_ \mathbb {C}</fr:tex> is defined by a projector <fr:tex>e</fr:tex> of <fr:tex>A_ \mathbb {C}</fr:tex>.
+      For <fr:tex>t \in  S</fr:tex>, <fr:tex>tW^ \mathrm {c}</fr:tex> is defined by the projector <fr:tex>t \cdot  e</fr:tex>, and is thus locally constant.
+      Since the group <fr:tex>S</fr:tex> is connected, to show that <fr:tex>tW</fr:tex> is isomorphic to <fr:tex>W</fr:tex>, it suffices to show that, for <fr:tex>t</fr:tex> in a small enough neighbourhood of <fr:tex>1</fr:tex>, the <fr:tex>\mathbb {C} [ \pi _1(S,s)]</fr:tex> module <fr:tex>tW_s</fr:tex> is isomorphic to <fr:tex>W_s</fr:tex>.
+      Let <fr:tex>H_i</fr:tex> be the isotypic components of the <fr:tex>\mathbb {C} [ \pi _1(S,s)]</fr:tex>-module <fr:tex>(H_ \mathbb {C} )_s</fr:tex>.
+      We have
+      <fr:tex
+display="block">          \begin {aligned}           W_s           &amp;=  \bigoplus _i(W_s \cap  H_i)          \\ tW_s           &amp;=  \bigoplus _i(tW_s \cap  H_i).          \end {aligned}       </fr:tex></fr:p>
+
+    <fr:p>
+      Furthermore, for <fr:tex>t</fr:tex> close enough to <fr:tex>1</fr:tex>, <fr:tex>tW_s</fr:tex> is close to <fr:tex>W_s</fr:tex> in the Grassmannian, and thus
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1137</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.2.8.1</fr:addr><fr:route>hodge-theory-ii-4.2.8.1.xml</fr:route><fr:number>4.2.8.1</fr:number><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">            \dim (tW_s \cap  H_i)            \leqslant   \dim (W_s \cap  H_i).         \tag{4.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
+
+      In fact, since <fr:tex>\dim (tW_s)= \dim (W_s)</fr:tex>, we have equality in <fr:ref
+addr="hodge-theory-ii-4.2.8.1"
+href="hodge-theory-ii-4.2.8.1.xml"
+taxon="Equation"
+number="4.2.8.1"></fr:ref>.
+      The various isotypic components of <fr:tex>W_s</fr:tex> and <fr:tex>tW_s</fr:tex> thus have, respectively, the same length, and <fr:tex>W_s</fr:tex> is isomorphic to <fr:tex>tW_s</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      We now prove (iii.b).
+      It suffices to consider the case where <fr:tex>H</fr:tex> is homogeneous and <fr:tex>W_s</fr:tex> is a simple <fr:tex>\mathbb {C} [ \pi _1(S,s)]</fr:tex>-module.
+      Let <fr:tex>H_1</fr:tex> be the isotypic component of <fr:tex>(H_ \mathbb {C} )_s</fr:tex> that contains <fr:tex>W_s</fr:tex>.
+      By (a), <fr:tex>H_1</fr:tex> is stable under <fr:tex>S</fr:tex>.
+      If <fr:tex>W_s</fr:tex> is of dimension <fr:tex>d</fr:tex>, and <fr:tex>H_1</fr:tex> of length <fr:tex>k</fr:tex>, then
+      <fr:tex
+display="block">          \bigwedge ^{kd}H_1          \approx   \left ( \bigwedge ^d W_s \right )^{ \otimes  k}       </fr:tex>
+      as <fr:tex>\mathbb {C} [ \pi _1(S,s)]</fr:tex>-modules.
+      If <fr:tex>\chi</fr:tex> is the character of <fr:tex>\pi _1(S,s)</fr:tex> defined by <fr:tex>\wedge ^d W</fr:tex>, then the character <fr:tex>\chi _1</fr:tex> defined by <fr:tex>\wedge ^{kd}H_1</fr:tex> is thus <fr:tex>\chi ^k</fr:tex>.
+      Let <fr:tex>H_2=H_1+ \bar {H}_1</fr:tex>.
+      Since <fr:tex>H_1</fr:tex> is stable under <fr:tex>S</fr:tex>, <fr:tex>H_2</fr:tex> is defined by a real Hodge substructure of <fr:tex>(H_ \mathbb {R} )_s</fr:tex>.
+      Every polarisation form on <fr:tex>H</fr:tex> thus induces on <fr:tex>H_2</fr:tex> a non-degenerate bilinear form that is <fr:tex>\pi _1(S,s)</fr:tex>-invariant.
+      
+      If <fr:tex>\dim (H_2)=e</fr:tex>, then the representation <fr:tex>( \wedge ^e H_2)^{ \otimes2 }</fr:tex> of <fr:tex>\pi _1(S,s)</fr:tex> is thus trivial.
+      From this:
+
+      
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+          For real <fr:tex>H_1</fr:tex>, <fr:tex>\chi ^{2k}</fr:tex> is trivial.
+        </html:li>
+
+        
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+          For non-real <fr:tex>H_1</fr:tex> (so <fr:tex>H_1 \neq \bar {H}_1</fr:tex>), <fr:tex>\chi ^{2k} \cdot \bar { \chi }^{2k}</fr:tex> is trivial.
+        </html:li>
+
+      </html:ol></fr:p>
+
+    <fr:p>
+      In both cases, <fr:tex>| \chi |=1</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The representation of <fr:tex>\pi _1(S,s)</fr:tex> on <fr:tex>(H_ \mathbb {C} )_s</fr:tex> comes from extension of scalars of a representation defined over <fr:tex>\mathbb {Q}</fr:tex> (namely <fr:tex>(H_ \mathbb {Q} )_s</fr:tex>).
+      The conjugate representations of <fr:tex>W</fr:tex> thus appear in <fr:tex>(H_ \mathbb {C} )_s</fr:tex>;
+      there are at most <fr:tex>N= \dim (H)</fr:tex> of them, and for every automorphism <fr:tex>\sigma</fr:tex> of <fr:tex>\mathbb {C}</fr:tex> we have
+      <fr:tex
+display="block">         | \sigma ( \chi )|         = 1.       </fr:tex></fr:p>
+
+    <fr:p>
+      For <fr:tex>\gamma \in \pi _1(S,s)</fr:tex>, <fr:tex>\chi ( \gamma )</fr:tex> is an algebraic integer with at most <fr:tex>N</fr:tex> complex conjugates, and these are all of absolute value <fr:tex>1</fr:tex>;
+      thus <fr:tex>\chi ( \gamma )</fr:tex> is a <fr:tex>k</fr:tex>-th root of unity, with <fr:tex>k \leqslant  N</fr:tex>.
+      Thus <fr:tex>\chi ^{N!}=1</fr:tex>, which proves (b).
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1143</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.2.9</fr:addr><fr:route>hodge-theory-ii-4.2.9.xml</fr:route><fr:number>4.2.9</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1573</fr:anchor><fr:addr>hodge-theory-ii-2.2.6</fr:addr><fr:route>hodge-theory-ii-2.2.6.xml</fr:route><fr:number>2.2.6</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1578</fr:anchor><fr:addr>hodge-theory-ii-2.2.6</fr:addr><fr:route>hodge-theory-ii-2.2.6.xml</fr:route><fr:number>2.2.6</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>X</fr:tex> be a non-singular projective variety of pure dimension <fr:tex>n</fr:tex>.
     A choice of <fr:tex>i</fr:tex> defines an orientation of <fr:tex>X</fr:tex> and an isomorphism <fr:tex>\mathbb {Z} (1) \simeq \mathbb {Z}</fr:tex>.
     The corresponding trace morphism
@@ -777,7 +863,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1574</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1579</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, with <fr:tex>S</fr:tex> reduced, connected, and separated.
     Let <fr:tex>( \mathrm {R} ^n f_* \mathbb {Q} )^0</fr:tex> be the largest constant local system on <fr:tex>\mathrm {R} ^n f_* \mathbb {Q}</fr:tex>, with fibre <fr:tex>\operatorname {H} ^0(S, \mathrm {R} ^n f_* \mathbb {Q} )</fr:tex>.
     Then, for each <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> is a Hodge sub-structure of <fr:tex>( \mathrm {R} ^n f_* \mathbb {Q} ) \simeq \operatorname {H} ^n(X_s, \mathbb {Q} )</fr:tex>, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \mathrm {R} ^n f_* \mathbb {Q} )</fr:tex> is independent of <fr:tex>s</fr:tex>.
@@ -791,7 +877,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1501</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1506</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       Let <fr:tex>s \in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
       If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
@@ -813,7 +899,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1575</fr:anchor><fr:addr>hodge-theory-ii-4.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.xml</fr:route><fr:number>4.2.2</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1580</fr:anchor><fr:addr>hodge-theory-ii-4.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.xml</fr:route><fr:number>4.2.2</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Suppose that <fr:tex>S</fr:tex> is connected, and let <fr:tex>\mathcal {C}</fr:tex> be a strictly full subcategory of the category of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex>.
     We will have need of the following conditions:
 
@@ -866,7 +952,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1576</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.2.xml</fr:route><fr:number>4.2.2.2</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1581</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.2.xml</fr:route><fr:number>4.2.2.2</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Every homogeneous (of some weight <fr:tex>n</fr:tex>) Hodge structure in <fr:tex>\mathcal {C}</fr:tex> is polarisable.
       </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -875,7 +961,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1577</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.2.3.xml</fr:route><fr:number>4.2.2.3</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1582</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.2.3.xml</fr:route><fr:number>4.2.2.3</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         For every <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex>, there exists a local system <fr:tex>H'_ \mathbb {Z}</fr:tex> on <fr:tex>S</fr:tex> of free <fr:tex>\mathbb {Z}</fr:tex>-modules such that <fr:tex>H'_ \mathbb {Z} \otimes \mathbb {Q} \approx  H_ \mathbb {Q}</fr:tex>.
       </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -884,6 +970,6 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1578</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.4</fr:addr><fr:route>hodge-theory-ii-4.2.2.4.xml</fr:route><fr:number>4.2.2.4</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1583</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.4</fr:addr><fr:route>hodge-theory-ii-4.2.2.4.xml</fr:route><fr:number>4.2.2.4</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         For every <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex>, the largest constant local system <fr:tex>H^f</fr:tex> of <fr:tex>H</fr:tex> is a constant family of Hodge sub-structures of <fr:tex>H</fr:tex>.
       </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
