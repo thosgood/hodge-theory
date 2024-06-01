@@ -379,7 +379,94 @@
     }
 
     \p{
-      A
+      A complex local subsystem #{W} of #{H_\CC} is defined by a projector #{e} of #{A_\CC}.
+      For #{t\in S}, #{tW^\cc} is defined by the projector #{t\cdot e}, and is thus locally constant.
+      Since the group #{S} is connected, to show that #{tW} is isomorphic to #{W}, it suffices to show that, for #{t} in a small enough neighbourhood of #{1}, the #{\CC[\pi_1(S,s)]} module #{tW_s} is isomorphic to #{W_s}.
+      Let #{H_i} be the isotypic components of the #{\CC[\pi_1(S,s)]}-module #{(H_\CC)_s}.
+      We have
+      ##{
+        \begin{aligned}
+          W_s
+          &= \bigoplus_i(W_s\cap H_i)
+        \\tW_s
+          &= \bigoplus_i(tW_s\cap H_i).
+        \end{aligned}
+      }
     }
+
+    \p{
+      Furthermore, for #{t} close enough to #{1}, #{tW_s} is close to #{W_s} in the Grassmannian, and thus
+
+      \subtree[hodge-theory-ii-4.2.8.1]{
+        \taxon{equation}
+        \number{4.2.8.1}
+        ##{
+          \dim(tW_s\cap H_i)
+          \leqslant \dim(W_s\cap H_i).
+        \startverb\tag{4.2.8.1}\stopverb
+        }
+      }
+
+      In fact, since #{\dim(tW_s)=\dim(W_s)}, we have equality in \ref{hodge-theory-ii-4.2.8.1}.
+      The various isotypic components of #{W_s} and #{tW_s} thus have, respectively, the same length, and #{W_s} is isomorphic to #{tW_s}.
+    }
+
+    \p{
+      We now prove (iii.b).
+      It suffices to consider the case where #{H} is homogeneous and #{W_s} is a simple #{\CC[\pi_1(S,s)]}-module.
+      Let #{H_1} be the isotypic component of #{(H_\CC)_s} that contains #{W_s}.
+      By (a), #{H_1} is stable under #{S}.
+      If #{W_s} is of dimension #{d}, and #{H_1} of length #{k}, then
+      ##{
+        \bigwedge^{kd}H_1
+        \approx \left(\bigwedge^d W_s\right)^{\otimes k}
+      }
+      as #{\CC[\pi_1(S,s)]}-modules.
+      If #{\chi} is the character of #{\pi_1(S,s)} defined by #{\wedge^d W}, then the character #{\chi_1} defined by #{\wedge^{kd}H_1} is thus #{\chi^k}.
+      Let #{H_2=H_1+\bar{H}_1}.
+      Since #{H_1} is stable under #{S}, #{H_2} is defined by a real Hodge substructure of #{(H_\RR)_s}.
+      Every polarisation form on #{H} thus induces on #{H_2} a non-degenerate bilinear form that is #{\pi_1(S,s)}-invariant.
+      \oldpage{48}
+      If #{\dim(H_2)=e}, then the representation #{(\wedge^e H_2)^{\otimes2}} of #{\pi_1(S,s)} is thus trivial.
+      From this:
+
+      \olc{
+        \lic{a.}{
+          For real #{H_1}, #{\chi^{2k}} is trivial.
+        }
+        \lic{b.}{
+          For non-real #{H_1} (so #{H_1\neq\bar{H}_1}), #{\chi^{2k}\cdot\bar{\chi}^{2k}} is trivial.
+        }
+      }
+    }
+
+    \p{
+      In both cases, #{|\chi|=1}.
+    }
+
+    \p{
+      The representation of #{\pi_1(S,s)} on #{(H_\CC)_s} comes from extension of scalars of a representation defined over #{\QQ} (namely #{(H_\QQ)_s}).
+      The conjugate representations of #{W} thus appear in #{(H_\CC)_s};
+      there are at most #{N=\dim(H)} of them, and for every automorphism #{\sigma} of #{\CC} we have
+      ##{
+        |\sigma(\chi)|
+        = 1.
+      }
+    }
+
+    \p{
+      For #{\gamma\in\pi_1(S,s)}, #{\chi(\gamma)} is an algebraic integer with at most #{N} complex conjugates, and these are all of absolute value #{1};
+      thus #{\chi(\gamma)} is a #{k}-th root of unity, with #{k\leqslant N}.
+      Thus #{\chi^{N!}=1}, which proves (b).
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.2.9]{
+  \taxon{corollary}
+  \number{4.2.9}
+
+  \p{
+    Let
   }
 }
