@@ -467,6 +467,139 @@
   \number{4.2.9}
 
   \p{
-    Let
+    Let #{S} be a smooth, connected, separated scheme, endowed with a base point #{s\in S}.
+    Let #{f\colon X\to S} be a morphism of schemes such that #{\Rd^nf_*\QQ} is a local system on #{S}.
+    Let #{G} be the Zariski closure of the image of #{\pi_1(S,s)} in #{\Aut_\CC((\Rd^nf_*\CC)_s)}, and #{G^0} the identity component of #{G}.
+    Then:
+
+    \olc{
+      \lic{a.}{
+        If #{f} is smooth and proper, then #{G^0} is semi-simple.
+      }
+      \lic{b.}{
+        In general, #{G^0} does not admit any quotient of multiplicative type (i.e. the radical of #{G^0} is unipotent).
+      }
+    }
+  }
+
+  \proof{
+    \p{
+      We first prove (a).
+      By replacing #{S} by a finite étale cover, if necessary, we can reduce to the case where #{G=G^0}.
+      By (iii) of \ref{hodge-theory-ii-4.2.5}, the local system #{\Rd^nf_*\QQ} underlies an algebraic family #{H} of Hodge structures, and so we can apply \ref{hodge-theory-ii-4.2.8} (by (i) of \ref{hodge-theory-ii-4.2.5}).
+      The group #{G} is reductive, since it admits a faithful semi-simple representation (namely #{(\Rd^nf_*\CC)_s}).
+      If #{G} (which we assume to be connected) were not semi-simple, then it would admit a non-trivial complex representation #{\rho} of rank #{1};
+      since #{H_s} is faithful, #{\rho} would then be a direct factor of #{((H+H^*)_\CC^{\otimes m})_s} for some #{m}.
+      But this would contradict (iii.b) of \ref{hodge-theory-ii-4.2.8}, since #{(H+H^*)^{\otimes m}} is algebraic, and no tensor power of #{\rho} is trivial.
+    }
+  }
+}
+
+\p{
+  Let #{\pi} be a group, and consider the following property of a representation #{\rho} of #{\pi} in a complex vector space #{V} of finite dimension:
+
+  \subtree[hodge-theory-ii-4.2.star]{
+    \taxon{property}
+    \number{*}
+  
+    \p{
+      \em{
+        #{(*)} The identity component #{G^0} of the Zariski closure #{G} of #{\rho(\pi)} in #{\Aut(V)} does not admit any quotient of multiplicative type.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.2.10]{
+  \taxon{lemma}
+  \number{4.2.10}
+
+  \p{
+    Let #{0\to V'\to V\to V''\to0} be an exact sequence of representations of the above type.
+    Then #{V} satisfies \ref{hodge-theory-ii-4.2.star} if (and only if) #{V'} and #{V''} satisfy \ref{hodge-theory-ii-4.2.star}.
+  }
+
+  \proof{
+    \p{
+      Let #{G}, #{G'}, and #{G''} be the groups defined by #{V}, #{V'}, and #{V''}, respectively.
+      Then #{V'} is stable under #{G}, just as it is under #{\pi}, whence a morphism
+      ##{
+        u
+        = (u',u'')\colon G\to G'\times G''
+      }
+      with unipotent kernel, and such that #{u'} and #{u''} are surjective.
+      Let #{N} be the identity component of the kernel of #{u''}.
+      Since #{u'} is surjective, #{u'(N)} is distinguished in #{G'}, and thus does not admit any quotient of multiplicative type.
+      \oldpage{49}
+      If #{\chi} is a character of #{G^0}, then #{\chi} factors through #{u(G^0)} and vanishes on #{N};
+      then a power of #{\chi} factors through #{{G''}^0}, and so #{\chi} is trivial.
+    }
+  }
+}
+
+\proof{
+  \p{
+    We now prove part (b) of \ref{hodge-theory-ii-4.2.9} by dévissage, and by induction on the relative dimension of #{f}.
+    We can suppose #{X} to be reduced.
+  }
+
+  \p{
+    Suppose first of all that #{X} is quasi-projective.
+    Then there exists a non-empty open #{U} of #{S}, a dense open #{X'} of #{X_U=f^{-1}(U)} that is smooth over #{U}, and a compactification #{\bar{X}'} of #{X'} that is smooth and proper over #{U}.
+    We can choose #{\bar{X}'} to be such that some open #{X''} of #{\bar{X}'} contains #{X'} and is proper over #{X_U}.
+
+    \bigtikzcd{
+      X_U
+        \ar[ddr,swap,"f_U"]
+      && X''
+        \ar[r,hook,"k"]
+        \ar[ll,swap,"p"]
+        \ar[ddl,"f''"]
+      & \bar{X}'
+        \ar[ddll,"\bar{f}'"]
+    \\&X'
+        \ar[ul,hook',swap,"i"]
+        \ar[ur,hook,"j"]
+        \ar[d,"f'"]
+    \\&U
+    }
+
+    We have long exact sequences of sheaves
+    ##{
+      \begin{gathered}
+        \ldots
+        \to \Rd^i{f_U}_*(i_!\QQ)
+        \to \Rd^i{f_U}_*\QQ
+        \to \Rd^i{f_U}_*(\QQ{/}i_!\QQ)
+        \to \ldots
+      \\\ldots
+        \to \Rd^i{f''_U}_*(j_!\QQ)
+        \to \Rd^i{f''_U}_*\QQ
+        \to \Rd^i{f''_U}_*(\QQ{/}j_!\QQ)
+        \to \ldots
+      \\\ldots
+        \to \Rd^i f''_!\QQ
+        \to \Rd^i\bar{f}'_*\QQ
+        \to \Rd^i\bar{f}'_*(\QQ{/}k_!\QQ)
+        \to \ldots
+      \end{gathered}
+    }
+  }
+
+  \p{
+    For small enough #{U}, these sheaves are local systems, and the induction hypothesis applies to #{\Rd^\bullet{f_U}_*(\QQ{/}i_!\QQ)}, to #{\Rd^\bullet{f''}_*(\QQ{/}j_!\QQ)}, and to #{\Rd^\bullet\bar{f}'_*(\QQ{/}k_!\QQ)}.
+    By (a) of \ref{hodge-theory-ii-4.2.9}, \ref{hodge-theory-ii-4.2.star} is satisfied by #{\Rd^\bullet\bar{f}'_*\QQ}.
+    By \ref{hodge-theory-ii-4.2.10}, \ref{hodge-theory-ii-4.2.star} is then also satisfied by #{\Rd^\bullet{f''}_!\QQ}, and by the dual local system #{\Rd^\bullet\bar{f}'_*\QQ} (Poincaré duality).
+    By \ref{hodge-theory-ii-4.2.10}, \ref{hodge-theory-ii-4.2.star} is satisfied by #{\Rd^\bullet{f''}_*(j_!\QQ)}, which is isomorphic to #{\Rd^\bullet{f_U}_*(i_!\QQ)}, since #{p} is proper, as well as by #{\Rd^\bullet{f_U}_*\QQ}.
+    Since the morphism #{\pi_1(U)\to\pi_1(S)} is surjective, #{\Rd^if_*\QQ} satisfies (b) of \ref{hodge-theory-ii-4.2.9}.
+  }
+
+  \p{
+    To pass from the case where #{f} is quasi-projective to the general case, it suffices to use the Leray spectral sequence for a cover #{(U_i)} of #{X} by quasi-projective opens:
+    ##{
+      \Rd^\bullet f_*\left(\bigcap_i U_i,\QQ\right)
+      \To \Rd^\bullet f_*\QQ
+    }
+    along with \ref{hodge-theory-ii-4.2.10}
   }
 }

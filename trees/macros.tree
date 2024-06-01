@@ -30,6 +30,13 @@
     \usepackage{tikz-cd}
   }{\begin{tikzcd}\body\end{tikzcd}}
 }
+\def\bigtikzcd[body]{
+  \tex{
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{tikz-cd}
+  }{\begin{tikzcd}[sep=huge]\body\end{tikzcd}}
+}
 
 \def\from{#{\leftarrow}}
 \def\simto{#{\xrightarrow{\sim}}}
@@ -49,6 +56,7 @@
 \def\Gal{#{\operatorname{Gal}}}
 \def\Spec{#{\operatorname{Spec}}}
 \def\Hom{#{\operatorname{Hom}}}
+\def\Aut{#{\operatorname{Aut}}}
 
 \def\HH{#{\operatorname{H}}}
 \def\bHH{#{\operatorname{\mathbb{H}}}}
