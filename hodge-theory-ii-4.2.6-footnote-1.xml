@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1600</fr:anchor><fr:taxon>Footnote</fr:taxon><fr:addr>hodge-theory-ii-4.2.6-footnote-1</fr:addr><fr:route>hodge-theory-ii-4.2.6-footnote-1.xml</fr:route><fr:number>1</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1613</fr:anchor><fr:taxon>Footnote</fr:taxon><fr:addr>hodge-theory-ii-4.2.6-footnote-1</fr:addr><fr:route>hodge-theory-ii-4.2.6-footnote-1.xml</fr:route><fr:number>1</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth connected scheme.
     A <fr:em>family of Hodge structures</fr:em> on <fr:tex>S</fr:tex> is a continuous family <fr:tex>H</fr:tex> of Hodge structures on <fr:tex>S</fr:tex> that satisfies the following conditions:
 
@@ -65,7 +65,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1599</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1612</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -727,16 +727,226 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1143</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.2.9</fr:addr><fr:route>hodge-theory-ii-4.2.9.xml</fr:route><fr:number>4.2.9</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1147</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.2.9</fr:addr><fr:route>hodge-theory-ii-4.2.9.xml</fr:route><fr:number>4.2.9</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a smooth, connected, separated scheme, endowed with a base point <fr:tex>s \in  S</fr:tex>.
+    Let <fr:tex>f \colon  X \to  S</fr:tex> be a morphism of schemes such that <fr:tex>\mathrm {R} ^nf_* \mathbb {Q}</fr:tex> is a local system on <fr:tex>S</fr:tex>.
+    Let <fr:tex>G</fr:tex> be the Zariski closure of the image of <fr:tex>\pi _1(S,s)</fr:tex> in <fr:tex>\operatorname {Aut} _ \mathbb {C} (( \mathrm {R} ^nf_* \mathbb {C} )_s)</fr:tex>, and <fr:tex>G^0</fr:tex> the identity component of <fr:tex>G</fr:tex>.
+    Then:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        If <fr:tex>f</fr:tex> is smooth and proper, then <fr:tex>G^0</fr:tex> is semi-simple.
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        In general, <fr:tex>G^0</fr:tex> does not admit any quotient of multiplicative type (i.e. the radical of <fr:tex>G^0</fr:tex> is unipotent).
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1146</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.2.9</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We first prove (a).
+      By replacing <fr:tex>S</fr:tex> by a finite étale cover, if necessary, we can reduce to the case where <fr:tex>G=G^0</fr:tex>.
+      By (iii) of <fr:ref
+addr="hodge-theory-ii-4.2.5"
+href="hodge-theory-ii-4.2.5.xml"
+taxon="Proposition"
+number="4.2.5"></fr:ref>, the local system <fr:tex>\mathrm {R} ^nf_* \mathbb {Q}</fr:tex> underlies an algebraic family <fr:tex>H</fr:tex> of Hodge structures, and so we can apply <fr:ref
+addr="hodge-theory-ii-4.2.8"
+href="hodge-theory-ii-4.2.8.xml"
+taxon="Corollary"
+number="4.2.8"></fr:ref> (by (i) of <fr:ref
+addr="hodge-theory-ii-4.2.5"
+href="hodge-theory-ii-4.2.5.xml"
+taxon="Proposition"
+number="4.2.5"></fr:ref>).
+      The group <fr:tex>G</fr:tex> is reductive, since it admits a faithful semi-simple representation (namely <fr:tex>( \mathrm {R} ^nf_* \mathbb {C} )_s</fr:tex>).
+      If <fr:tex>G</fr:tex> (which we assume to be connected) were not semi-simple, then it would admit a non-trivial complex representation <fr:tex>\rho</fr:tex> of rank <fr:tex>1</fr:tex>;
+      since <fr:tex>H_s</fr:tex> is faithful, <fr:tex>\rho</fr:tex> would then be a direct factor of <fr:tex>((H+H^*)_ \mathbb {C} ^{ \otimes  m})_s</fr:tex> for some <fr:tex>m</fr:tex>.
+      But this would contradict (iii.b) of <fr:ref
+addr="hodge-theory-ii-4.2.8"
+href="hodge-theory-ii-4.2.8.xml"
+taxon="Corollary"
+number="4.2.8"></fr:ref>, since <fr:tex>(H+H^*)^{ \otimes  m}</fr:tex> is algebraic, and no tensor power of <fr:tex>\rho</fr:tex> is trivial.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:p>
+  Let <fr:tex>\pi</fr:tex> be a group, and consider the following property of a representation <fr:tex>\rho</fr:tex> of <fr:tex>\pi</fr:tex> in a complex vector space <fr:tex>V</fr:tex> of finite dimension:
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1148</fr:anchor><fr:taxon>Property</fr:taxon><fr:addr>hodge-theory-ii-4.2.star</fr:addr><fr:route>hodge-theory-ii-4.2.star.xml</fr:route><fr:number>*</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex>(*)</fr:tex> The identity component <fr:tex>G^0</fr:tex> of the Zariski closure <fr:tex>G</fr:tex> of <fr:tex>\rho ( \pi )</fr:tex> in <fr:tex>\operatorname {Aut} (V)</fr:tex> does not admit any quotient of multiplicative type.
+      </fr:em></fr:p></fr:mainmatter></fr:tree></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1150</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-4.2.10</fr:addr><fr:route>hodge-theory-ii-4.2.10.xml</fr:route><fr:number>4.2.10</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>0 \to  V' \to  V \to  V'' \to0</fr:tex> be an exact sequence of representations of the above type.
+    Then <fr:tex>V</fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-4.2.star"
+href="hodge-theory-ii-4.2.star.xml"
+taxon="Property"
+number="*"></fr:ref> if (and only if) <fr:tex>V'</fr:tex> and <fr:tex>V''</fr:tex> satisfy <fr:ref
+addr="hodge-theory-ii-4.2.star"
+href="hodge-theory-ii-4.2.star.xml"
+taxon="Property"
+number="*"></fr:ref>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1149</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.2.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Let <fr:tex>G</fr:tex>, <fr:tex>G'</fr:tex>, and <fr:tex>G''</fr:tex> be the groups defined by <fr:tex>V</fr:tex>, <fr:tex>V'</fr:tex>, and <fr:tex>V''</fr:tex>, respectively.
+      Then <fr:tex>V'</fr:tex> is stable under <fr:tex>G</fr:tex>, just as it is under <fr:tex>\pi</fr:tex>, whence a morphism
+      <fr:tex
+display="block">         u         = (u',u'') \colon  G \to  G' \times  G''       </fr:tex>
+      with unipotent kernel, and such that <fr:tex>u'</fr:tex> and <fr:tex>u''</fr:tex> are surjective.
+      Let <fr:tex>N</fr:tex> be the identity component of the kernel of <fr:tex>u''</fr:tex>.
+      Since <fr:tex>u'</fr:tex> is surjective, <fr:tex>u'(N)</fr:tex> is distinguished in <fr:tex>G'</fr:tex>, and thus does not admit any quotient of multiplicative type.
+      
+      If <fr:tex>\chi</fr:tex> is a character of <fr:tex>G^0</fr:tex>, then <fr:tex>\chi</fr:tex> factors through <fr:tex>u(G^0)</fr:tex> and vanishes on <fr:tex>N</fr:tex>;
+      then a power of <fr:tex>\chi</fr:tex> factors through <fr:tex>{G''}^0</fr:tex>, and so <fr:tex>\chi</fr:tex> is trivial.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1151</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We now prove part (b) of <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9"></fr:ref> by dévissage, and by induction on the relative dimension of <fr:tex>f</fr:tex>.
+    We can suppose <fr:tex>X</fr:tex> to be reduced.
+  </fr:p>
+
+  <fr:p>
+    Suppose first of all that <fr:tex>X</fr:tex> is quasi-projective.
+    Then there exists a non-empty open <fr:tex>U</fr:tex> of <fr:tex>S</fr:tex>, a dense open <fr:tex>X'</fr:tex> of <fr:tex>X_U=f^{-1}(U)</fr:tex> that is smooth over <fr:tex>U</fr:tex>, and a compactification <fr:tex>\bar {X}'</fr:tex> of <fr:tex>X'</fr:tex> that is smooth and proper over <fr:tex>U</fr:tex>.
+    We can choose <fr:tex>\bar {X}'</fr:tex> to be such that some open <fr:tex>X''</fr:tex> of <fr:tex>\bar {X}'</fr:tex> contains <fr:tex>X'</fr:tex> and is proper over <fr:tex>X_U</fr:tex>.
+
+    
+  <fr:embedded-tex
+hash="bb6b632f388cc3652d797a564b820520"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}[sep=huge] 
+      X_U
+         \ar [ddr,swap,"f_U"]
+      &amp;&amp; X''
+         \ar [r,hook,"k"]
+         \ar [ll,swap,"p"]
+         \ar [ddl,"f''"]
+      &amp;  \bar {X}'
+         \ar [ddll," \bar {f}'"]
+     \\ &amp;X'
+         \ar [ul,hook',swap,"i"]
+         \ar [ur,hook,"j"]
+         \ar [d,"f'"]
+     \\ &amp;U
+     \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+    We have long exact sequences of sheaves
+    <fr:tex
+display="block">        \begin {gathered}          \ldots           \to   \mathrm {R} ^i{f_U}_*(i_! \mathbb {Q} )          \to   \mathrm {R} ^i{f_U}_* \mathbb {Q}           \to   \mathrm {R} ^i{f_U}_*( \mathbb {Q} {/}i_! \mathbb {Q} )          \to   \ldots         \\ \ldots           \to   \mathrm {R} ^i{f''_U}_*(j_! \mathbb {Q} )          \to   \mathrm {R} ^i{f''_U}_* \mathbb {Q}           \to   \mathrm {R} ^i{f''_U}_*( \mathbb {Q} {/}j_! \mathbb {Q} )          \to   \ldots         \\ \ldots           \to   \mathrm {R} ^i f''_! \mathbb {Q}           \to   \mathrm {R} ^i \bar {f}'_* \mathbb {Q}           \to   \mathrm {R} ^i \bar {f}'_*( \mathbb {Q} {/}k_! \mathbb {Q} )          \to   \ldots         \end {gathered}     </fr:tex></fr:p>
+
+  <fr:p>
+    For small enough <fr:tex>U</fr:tex>, these sheaves are local systems, and the induction hypothesis applies to <fr:tex>\mathrm {R} ^ \bullet {f_U}_*( \mathbb {Q} {/}i_! \mathbb {Q} )</fr:tex>, to <fr:tex>\mathrm {R} ^ \bullet {f''}_*( \mathbb {Q} {/}j_! \mathbb {Q} )</fr:tex>, and to <fr:tex>\mathrm {R} ^ \bullet \bar {f}'_*( \mathbb {Q} {/}k_! \mathbb {Q} )</fr:tex>.
+    By (a) of <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9"></fr:ref>, <fr:ref
+addr="hodge-theory-ii-4.2.star"
+href="hodge-theory-ii-4.2.star.xml"
+taxon="Property"
+number="*"></fr:ref> is satisfied by <fr:tex>\mathrm {R} ^ \bullet \bar {f}'_* \mathbb {Q}</fr:tex>.
+    By <fr:ref
+addr="hodge-theory-ii-4.2.10"
+href="hodge-theory-ii-4.2.10.xml"
+taxon="Lemma"
+number="4.2.10"></fr:ref>, <fr:ref
+addr="hodge-theory-ii-4.2.star"
+href="hodge-theory-ii-4.2.star.xml"
+taxon="Property"
+number="*"></fr:ref> is then also satisfied by <fr:tex>\mathrm {R} ^ \bullet {f''}_! \mathbb {Q}</fr:tex>, and by the dual local system <fr:tex>\mathrm {R} ^ \bullet \bar {f}'_* \mathbb {Q}</fr:tex> (Poincaré duality).
+    By <fr:ref
+addr="hodge-theory-ii-4.2.10"
+href="hodge-theory-ii-4.2.10.xml"
+taxon="Lemma"
+number="4.2.10"></fr:ref>, <fr:ref
+addr="hodge-theory-ii-4.2.star"
+href="hodge-theory-ii-4.2.star.xml"
+taxon="Property"
+number="*"></fr:ref> is satisfied by <fr:tex>\mathrm {R} ^ \bullet {f''}_*(j_! \mathbb {Q} )</fr:tex>, which is isomorphic to <fr:tex>\mathrm {R} ^ \bullet {f_U}_*(i_! \mathbb {Q} )</fr:tex>, since <fr:tex>p</fr:tex> is proper, as well as by <fr:tex>\mathrm {R} ^ \bullet {f_U}_* \mathbb {Q}</fr:tex>.
+    Since the morphism <fr:tex>\pi _1(U) \to \pi _1(S)</fr:tex> is surjective, <fr:tex>\mathrm {R} ^if_* \mathbb {Q}</fr:tex> satisfies (b) of <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9"></fr:ref>.
+  </fr:p>
+
+  <fr:p>
+    To pass from the case where <fr:tex>f</fr:tex> is quasi-projective to the general case, it suffices to use the Leray spectral sequence for a cover <fr:tex>(U_i)</fr:tex> of <fr:tex>X</fr:tex> by quasi-projective opens:
+    <fr:tex
+display="block">        \mathrm {R} ^ \bullet  f_* \left ( \bigcap _i U_i, \mathbb {Q} \right )        \Rightarrow   \mathrm {R} ^ \bullet  f_* \mathbb {Q}      </fr:tex>
+    along with <fr:ref
+addr="hodge-theory-ii-4.2.10"
+href="hodge-theory-ii-4.2.10.xml"
+taxon="Lemma"
+number="4.2.10"></fr:ref></fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1593</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, with <fr:tex>S</fr:tex> reduced, connected, and separated.
     Let <fr:tex>( \mathrm {R} ^n f_* \mathbb {Q} )^0</fr:tex> be the largest constant local system on <fr:tex>\mathrm {R} ^n f_* \mathbb {Q}</fr:tex>, with fibre <fr:tex>\operatorname {H} ^0(S, \mathrm {R} ^n f_* \mathbb {Q} )</fr:tex>.
     Then, for each <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} ^n f_* \mathbb {Q} )_s^0</fr:tex> is a Hodge sub-structure of <fr:tex>( \mathrm {R} ^n f_* \mathbb {Q} ) \simeq \operatorname {H} ^n(X_s, \mathbb {Q} )</fr:tex>, and the induced Hodge structure on <fr:tex>\operatorname {H} ^0(S, \mathrm {R} ^n f_* \mathbb {Q} )</fr:tex> is independent of <fr:tex>s</fr:tex>.
@@ -750,7 +960,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1506</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1514</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       Let <fr:tex>s \in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
       If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
@@ -772,7 +982,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1594</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.1</fr:addr><fr:route>hodge-theory-ii-4.2.2.1.xml</fr:route><fr:number>4.2.2.1</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:tex>\mathcal {C}</fr:tex> is stable under direct factors, direct sums, and tensor products;
+root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.1</fr:addr><fr:route>hodge-theory-ii-4.2.2.1.xml</fr:route><fr:number>4.2.2.1</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:tex>\mathcal {C}</fr:tex> is stable under direct factors, direct sums, and tensor products;
         the Tate constant families <fr:tex>\mathbb {Q} (n)</fr:tex> (for <fr:tex>n \in \mathbb {Z}</fr:tex>) are in <fr:tex>\mathcal {C}</fr:tex>.
       </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -781,7 +991,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1595</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.2.xml</fr:route><fr:number>4.2.2.2</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1608</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.2.xml</fr:route><fr:number>4.2.2.2</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Every homogeneous (of some weight <fr:tex>n</fr:tex>) Hodge structure in <fr:tex>\mathcal {C}</fr:tex> is polarisable.
       </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -790,7 +1000,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1596</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.2.3.xml</fr:route><fr:number>4.2.2.3</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1609</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.2.3.xml</fr:route><fr:number>4.2.2.3</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         For every <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex>, there exists a local system <fr:tex>H'_ \mathbb {Z}</fr:tex> on <fr:tex>S</fr:tex> of free <fr:tex>\mathbb {Z}</fr:tex>-modules such that <fr:tex>H'_ \mathbb {Z} \otimes \mathbb {Q} \approx  H_ \mathbb {Q}</fr:tex>.
       </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -799,7 +1009,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1597</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.4</fr:addr><fr:route>hodge-theory-ii-4.2.2.4.xml</fr:route><fr:number>4.2.2.4</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1610</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.4</fr:addr><fr:route>hodge-theory-ii-4.2.2.4.xml</fr:route><fr:number>4.2.2.4</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         For every <fr:tex>H \in \operatorname {Ob} \mathcal {C}</fr:tex>, the largest constant local system <fr:tex>H^f</fr:tex> of <fr:tex>H</fr:tex> is a constant family of Hodge sub-structures of <fr:tex>H</fr:tex>.
       </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -808,7 +1018,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1598</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.2.6</fr:addr><fr:route>hodge-theory-ii-4.2.6.xml</fr:route><fr:number>4.2.6</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.2.6</fr:addr><fr:route>hodge-theory-ii-4.2.6.xml</fr:route><fr:number>4.2.6</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a connected topological space that is locally connected and locally simply connected, endowed with a basepoint <fr:tex>s</fr:tex>.
     Let <fr:tex>\mathcal {C}</fr:tex> be a category of continuous Hodge structures on <fr:tex>S</fr:tex> that satisfy the conditions of <fr:ref
 addr="hodge-theory-ii-4.2.2"
@@ -822,7 +1032,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1591</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1604</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>38</fr:strong> pp. 125–180</fr:meta><fr:meta
 name="bibtex">@article{5,
   author = {Griffiths, P.A.},
