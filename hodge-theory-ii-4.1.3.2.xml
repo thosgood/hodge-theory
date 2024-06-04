@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1553</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1562</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         (cf. [<fr:link
 href="G1966.xml"
 type="local"
@@ -21,7 +21,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1552</fr:anchor><fr:addr>hodge-theory-ii-4.1.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.xml</fr:route><fr:number>4.1.3</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1561</fr:anchor><fr:addr>hodge-theory-ii-4.1.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.xml</fr:route><fr:number>4.1.3</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     In the case where <fr:tex>S</fr:tex> is compact, a generalisation of <fr:ref
 addr="hodge-theory-ii-4.1.2"
 href="hodge-theory-ii-4.1.2.xml"
@@ -110,7 +110,115 @@ style="list-style-type: &quot;c. &quot;">
             There exists a finite non-empty étale covering <fr:tex>u \colon  S' \to  S</fr:tex> such that <fr:tex>u^*P</fr:tex> is a constant family of Hodge structures.
           </html:li>
 
-        </html:ol></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
+        </html:ol></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1560</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
+href="hodge-theory-ii-4.xml"
+type="local"
+addr="hodge-theory-ii-4"><fr:link
+href="hodge-theory-ii.xml"
+type="local"
+addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:link> › Homomorphisms of abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  We intend to show how, in some cases, we can remove from <fr:ref
+addr="hodge-theory-ii-4.1.3.2"
+href="hodge-theory-ii-4.1.3.2.xml"
+number="4.1.3.2"></fr:ref> the assumption of algebraicity at a point.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1552</fr:anchor><fr:addr>hodge-theory-ii-4.4.1</fr:addr><fr:route>hodge-theory-ii-4.4.1.xml</fr:route><fr:number>4.4.1</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  S</fr:tex> be a smooth proper morphism;
+    we denote by <fr:tex>\mathrm {R} _i f_* \mathbb {Z}</fr:tex> the local system on <fr:tex>S^ \mathrm {an}</fr:tex> whose homology is the fibres of <fr:tex>f</fr:tex>.
+    At each point <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} _i f_* \mathbb {Z} )_s \simeq \operatorname {H} _i(X_s, \mathbb {Z} )</fr:tex> is endowed with a Hodge structure of weight <fr:tex>-i</fr:tex>, dual to the Hodge structure of <fr:tex>\operatorname {H} ^i(X_s, \mathbb {Z} )</fr:tex>.
+    This structure varies continuously with <fr:tex>s \in  S</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1553</fr:anchor><fr:addr>hodge-theory-ii-4.4.2</fr:addr><fr:route>hodge-theory-ii-4.4.2.xml</fr:route><fr:number>4.4.2</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>f \colon  X \to  S</fr:tex> is an abelian scheme, then the exponential defines an exact sequence
+    <fr:tex
+display="block">       0        \to   \mathrm {R} _1f_* \mathbb {Z}         \to   \operatorname {Lie} (X)        \to  X        \to  0     </fr:tex>
+    of sheaves on <fr:tex>S^ \mathrm {an}</fr:tex>, and the Hodge filtration is the short exact sequence
+    <fr:tex
+display="block">       0        \to   \operatorname {Ker} ( \alpha )        \to   \mathrm {R} _1f_* \mathbb {Z} \otimes \mathcal {O}         \xrightarrow { \alpha }  \operatorname {Lie} (X)        \to  0.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:p>
+  It is known that:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1558</fr:anchor><fr:taxon>Reminder</fr:taxon><fr:addr>hodge-theory-ii-4.4.3</fr:addr><fr:route>hodge-theory-ii-4.4.3.xml</fr:route><fr:number>4.4.3</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a smooth scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>.
+    The construction of <fr:ref
+addr="hodge-theory-ii-4.4.2"
+href="hodge-theory-ii-4.4.2.xml"
+number="4.4.2"></fr:ref> establishes an equivalence of categories between
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        the category of abelian schemes over <fr:tex>S</fr:tex>; and
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        the category of polarisable continuous families of Hodge structures <fr:tex>H</fr:tex> of type <fr:tex>(-1,0)+(0,-1)</fr:tex> on <fr:tex>S</fr:tex> such that <fr:tex>H_ \mathbb {Z}</fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex>S</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1557</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
+      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex> over <fr:tex>S</fr:tex>, the <fr:tex>S</fr:tex>-scheme <fr:tex>\underline { \operatorname {Hom} } _S(X_1,X_2)</fr:tex> is unramified over <fr:tex>S</fr:tex>, and thus has the same algebraic and holomorphic sections.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1559</fr:anchor><fr:addr>hodge-theory-ii-4.4.4</fr:addr><fr:route>hodge-theory-ii-4.4.4.xml</fr:route><fr:number>4.4.4</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>Z</fr:tex> be a commutative field, <fr:tex>H</fr:tex> a simple central algebra over <fr:tex>Z</fr:tex>, and <fr:tex>*</fr:tex> a <fr:tex>Z</fr:tex>-linear anti-automorphism of <fr:tex>H</fr:tex>.
+    After extension of scalars, we have <fr:tex>H \simeq \End (V)</fr:tex> for some vector space <fr:tex>V</fr:tex> over <fr:tex>Z</fr:tex>, and <fr:tex>*</fr:tex> is then the transposition with respect to a bilinear form <fr:tex>\Phi</fr:tex> on <fr:tex>V</fr:tex>, unique up to a factor.
+    Suppose that <fr:tex>*</fr:tex> is involutive;
+    the forms <fr:tex>\Phi (X,Y)</fr:tex> and <fr:tex>\Phi (Y,X)</fr:tex> are then proportional, i.e. <fr:tex>\Phi (X,Y)= \lambda \Phi (Y,X)</fr:tex> for some <fr:tex>\lambda ^2=1</fr:tex>.
+    <fr:em>We set <fr:tex>\varepsilon _*= \lambda</fr:tex></fr:em>.
+    If <fr:tex>[H:Z]=d^2</fr:tex>, then
+    <fr:tex
+display="block">        \operatorname {Tr} (* \colon  H \to  H)       =  \varepsilon _* \cdot  d.     </fr:tex></fr:p><fr:p>
+    Every
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
