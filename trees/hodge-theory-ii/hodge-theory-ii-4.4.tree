@@ -390,6 +390,105 @@
   }
 
   \p{
-    In case (a) (resp. (b)) of \ref{hodge-theory-ii-4.4.8}, we
+    In case (a) (resp. (b)) of \ref{hodge-theory-ii-4.4.8}, we normalise the bigradings so that #{V_\rho} (resp. #{T_\rho}) is of bidegree #{(0,0)}.
+    We then have, for non-zero #{x\in V_\rho} and non-zero #{y\in T_\rho}, the two cases:
+
+    \olc{
+      \lic{a.}{
+        #{A_\rho(x,\sigma_1 x)B_\rho(y,C\sigma_2 y)
+          >0};
+      }
+      \lic{b.}{
+        #{A_\rho(x,C\sigma_1 x)B_\rho(y,\sigma_2 y)
+          >0}.
+      }
+    }
+  }
+
+  \p{
+    \oldpage{54}
+    By normalising #{A_\rho} and #{B_\rho} (of which only their tensor product is given), we can suppose, in each respective case, that
+
+    \olc{
+      \lic{a.}{
+        #{A_\rho(x,\sigma_1x)>0} and #{B_\rho(y,C\sigma_2y)>0};
+      }
+      \lic{b.}{
+        #{A_\rho(x,C\sigma_1x)>0} and #{B_\rho(y,\sigma_2y)}.
+      }
+    }
+  }
+
+  \p{
+    Furthermore, #{A_\rho} and #{B_\rho}, just like #{\Phi}, are invariant under the compact sub-torus #{\Ker(N)} of #{S}, and in particular under #{C}.
+    In case (a), we have that
+    ##{
+      0
+      < A_\rho(\sigma_1x,\sigma_1\sigma_1x)
+      = \varepsilon_V\cdot\varepsilon_{H,\rho}A_\rho(x,\sigma_1x)
+    }
+    whence #{\varepsilon_V\cdot\varepsilon_{H\rho}=1}.
+    Similarly, in case (b), we see that #{\varepsilon_T\cdot\varepsilon_{H\rho}=1}.
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.10]{
+  \taxon{lemma}
+  \number{4.4.10}
+
+  \p{
+    For #{\varepsilon_T=\varepsilon_{H\rho}}, we are in case (b);
+    for #{\varepsilon_T=-\varepsilon_{H\rho}}, we are in case (a).
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.11]{
+  \taxon{proposition}
+  \number{4.4.11}
+
+  \p{
+    Let #{S} be a non-empty, connected, smooth scheme, with generic point #{\eta}, and let #{f\colon X\to S} be an abelian scheme over #{S}.
+    Let #{H=\End(\RR_1f_*\QQ)}, and let #{Z} be the centre of #{H}.
+    Suppose that
+
+    \olc{
+      \lic{a.}{
+        #{X_\eta} is simple over #{k(\eta)}.
+      }
+
+      \lic{b.}{
+        #{X} does not become constant on any finite covering of #{S}.
+      }
+
+      \lic{c.}{
+        One of the following conditions is satisfied (cf. \ref{hodge-theory-ii-4.4.5}):
+
+        \olc{
+          \lic{1.}{
+            #{Z} is imaginary \em{quadratic};
+          }
+          \lic{2.}{
+            #{Z} is completely real, and for each real embedding #{\varphi\colon Z\to\RR}, #{H\otimes_{Z,\varphi}\RR} is an algebra of matrices over #{\RR};
+          }
+          \lic{3.}{
+            #{Z} is completely real, and for each real embedding #{\varphi\colon Z\to\RR}, #{H\otimes_{Z,\varphi}\RR} is an algebra of matrices over #{\mathbb{H}}.
+          }
+        }
+      }
+    }
+  }
+
+  \p{
+    Then
+    ##{
+      \End(X)
+      \simto \End(\Rd_1f_*\ZZ).
+    }
+  }
+
+  \proof{
+    \p{
+      We
+    }
   }
 }
