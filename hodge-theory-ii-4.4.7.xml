@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1684</fr:anchor><fr:addr>hodge-theory-ii-4.4.7</fr:addr><fr:route>hodge-theory-ii-4.4.7.xml</fr:route><fr:number>4.4.7</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1693</fr:anchor><fr:addr>hodge-theory-ii-4.4.7</fr:addr><fr:route>hodge-theory-ii-4.4.7.xml</fr:route><fr:number>4.4.7</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex>\eta</fr:tex>, and let <fr:tex>f \colon  X \to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex>.
     The centre <fr:tex>Z</fr:tex> of <fr:tex>H= \operatorname {End} ( \mathrm {R} _1f_* \mathbb {Z} )</fr:tex> is then of degree <fr:tex>(0,0)</fr:tex> (<fr:ref
 addr="hodge-theory-ii-4.2.8"
@@ -15,15 +15,33 @@ href="hodge-theory-ii-4.2.8.xml"
 taxon="Corollary"
 number="4.2.8"></fr:ref>), and thus contained in <fr:tex>\operatorname {End} _S(X) \simeq \operatorname {End} _{k( \eta )}(X_ \eta )</fr:tex>.
   </fr:p><fr:p>
-    A polarisation
-  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+    A polarisation of <fr:tex>X</fr:tex> defines an involution <fr:tex>*</fr:tex> of <fr:tex>H</fr:tex>.
+    The restriction of this to <fr:tex>\operatorname {End} _S(X)</fr:tex> is positive, so that <fr:tex>Z</fr:tex> is the product of completely real fields or quadratic imaginary extensions of completely real fields.
+  </fr:p><fr:p>
+    Denote by <fr:tex>C</fr:tex> the actions of <fr:tex>i \in  S( \mathbb {R} )</fr:tex> on <fr:tex>H_ \mathbb {R} =H \otimes \mathbb {R}</fr:tex> and on the <fr:tex>( \mathrm {R} _1f_* \mathbb {R} )_s</fr:tex> for <fr:tex>s \in  S</fr:tex>.
+    On <fr:tex>H_ \mathbb {R}</fr:tex>, <fr:tex>C^2=1</fr:tex>, and <fr:tex>C</fr:tex> commutes with <fr:tex>*</fr:tex>;
+    on <fr:tex>( \mathrm {R} _1f_* \mathbb {R} )_s</fr:tex>, <fr:tex>C^2=-1</fr:tex>.
+    If <fr:tex>\psi</fr:tex> is the alternating form on <fr:tex>\mathrm {R} _1f_* \mathbb {Z}</fr:tex> with integer values induced by the polarisation of <fr:tex>X</fr:tex>, then
+    <fr:tex
+display="block">        \psi (hx,Cy)       =  \psi (x,h^*Cy)       =  \psi (x,C \cdot  C(h^*) \cdot  y).     </fr:tex>
+    We thus deduce that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1567</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.7.1</fr:addr><fr:route>hodge-theory-ii-4.4.7.1.xml</fr:route><fr:number>4.4.7.1</fr:number><fr:parent>hodge-theory-ii-4.4.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">          \operatorname {Tr} (h \cdot  C(h^*)) &gt; 0          \quad \text {for }h \neq0 .       \tag{4.4.7.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1683</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1692</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -201,7 +219,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1567</fr:anchor><fr:addr>hodge-theory-ii-4.4.7</fr:addr><fr:route>hodge-theory-ii-4.4.7.xml</fr:route><fr:number>4.4.7</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1568</fr:anchor><fr:addr>hodge-theory-ii-4.4.7</fr:addr><fr:route>hodge-theory-ii-4.4.7.xml</fr:route><fr:number>4.4.7</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex>\eta</fr:tex>, and let <fr:tex>f \colon  X \to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex>.
     The centre <fr:tex>Z</fr:tex> of <fr:tex>H= \operatorname {End} ( \mathrm {R} _1f_* \mathbb {Z} )</fr:tex> is then of degree <fr:tex>(0,0)</fr:tex> (<fr:ref
 addr="hodge-theory-ii-4.2.8"
@@ -209,7 +227,123 @@ href="hodge-theory-ii-4.2.8.xml"
 taxon="Corollary"
 number="4.2.8"></fr:ref>), and thus contained in <fr:tex>\operatorname {End} _S(X) \simeq \operatorname {End} _{k( \eta )}(X_ \eta )</fr:tex>.
   </fr:p><fr:p>
-    A polarisation
+    A polarisation of <fr:tex>X</fr:tex> defines an involution <fr:tex>*</fr:tex> of <fr:tex>H</fr:tex>.
+    The restriction of this to <fr:tex>\operatorname {End} _S(X)</fr:tex> is positive, so that <fr:tex>Z</fr:tex> is the product of completely real fields or quadratic imaginary extensions of completely real fields.
+  </fr:p><fr:p>
+    Denote by <fr:tex>C</fr:tex> the actions of <fr:tex>i \in  S( \mathbb {R} )</fr:tex> on <fr:tex>H_ \mathbb {R} =H \otimes \mathbb {R}</fr:tex> and on the <fr:tex>( \mathrm {R} _1f_* \mathbb {R} )_s</fr:tex> for <fr:tex>s \in  S</fr:tex>.
+    On <fr:tex>H_ \mathbb {R}</fr:tex>, <fr:tex>C^2=1</fr:tex>, and <fr:tex>C</fr:tex> commutes with <fr:tex>*</fr:tex>;
+    on <fr:tex>( \mathrm {R} _1f_* \mathbb {R} )_s</fr:tex>, <fr:tex>C^2=-1</fr:tex>.
+    If <fr:tex>\psi</fr:tex> is the alternating form on <fr:tex>\mathrm {R} _1f_* \mathbb {Z}</fr:tex> with integer values induced by the polarisation of <fr:tex>X</fr:tex>, then
+    <fr:tex
+display="block">        \psi (hx,Cy)       =  \psi (x,h^*Cy)       =  \psi (x,C \cdot  C(h^*) \cdot  y).     </fr:tex>
+    We thus deduce that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1567</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.7.1</fr:addr><fr:route>hodge-theory-ii-4.4.7.1.xml</fr:route><fr:number>4.4.7.1</fr:number><fr:parent>hodge-theory-ii-4.4.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">          \operatorname {Tr} (h \cdot  C(h^*)) &gt; 0          \quad \text {for }h \neq0 .       \tag{4.4.7.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1574</fr:anchor><fr:addr>hodge-theory-ii-4.4.8</fr:addr><fr:route>hodge-theory-ii-4.4.8.xml</fr:route><fr:number>4.4.8</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Now suppose that <fr:tex>X_ \eta</fr:tex> is simple, so that <fr:tex>Z</fr:tex> is a field.
+    Let <fr:tex>\rho \colon  Z \to \mathbb {C}</fr:tex> be a complex embedding.
+    Then the algebra
+    <fr:tex
+display="block">       H_ \rho        = H \otimes _{Z, \rho } \mathbb {C}      </fr:tex>
+    is an algebra of matrices and a bigraded direct factor of <fr:tex>H_ \mathbb {C} =H \otimes _ \mathbb {Q} \mathbb {C}</fr:tex>.
+    Pick an isomorphism
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1569</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.8.1</fr:addr><fr:route>hodge-theory-ii-4.4.8.1.xml</fr:route><fr:number>4.4.8.1</fr:number><fr:parent>hodge-theory-ii-4.4.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         H_ \rho           \simeq   \operatorname {End} (V_ \rho ).       \tag{4.4.8.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    From the fact that the infinitesimal generators of <fr:tex>S</fr:tex> act on <fr:tex>H_ \rho</fr:tex>, by derivations, which are necessarily interior, we deduce that <fr:tex>V_ \rho</fr:tex> admits a bigrading, unique up to translation, such that <fr:ref
+addr="hodge-theory-ii-4.4.8.1"
+href="hodge-theory-ii-4.4.8.1.xml"
+taxon="Equation"
+number="4.4.8.1"></fr:ref> is a bigraded isomorphism.
+    Let <fr:tex>( \mathrm {R} _1f_* \mathbb {C} )_ \rho</fr:tex> be the bigraded local system
+    <fr:tex
+display="block">       ( \mathrm {R} _1f_* \mathbb {C} ) \otimes _{Z \otimes \mathbb {C} , \rho } \mathbb {C}      </fr:tex>
+    which is a direct factor of <fr:tex>\mathrm {R} _1f_* \mathbb {C}</fr:tex>.
+    Denote by <fr:tex>T_ \rho</fr:tex> the local system
+    <fr:tex
+display="block">       T_ \rho        =  \operatorname {Hom} _{H_ \rho }(V_ \rho ,( \mathrm {R} _1f_* \mathbb {C} )_ \rho ).     </fr:tex></fr:p><fr:p>
+    We have the bigraded isomorphism
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1570</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.8.2</fr:addr><fr:route>hodge-theory-ii-4.4.8.2.xml</fr:route><fr:number>4.4.8.2</fr:number><fr:parent>hodge-theory-ii-4.4.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         V_ \rho \otimes _ \mathbb {C}  T_ \rho           \xrightarrow { \sim }  ( \mathrm {R} _1f_* \mathbb {C} )_ \rho .       \tag{4.4.8.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    Since <fr:tex>( \mathrm {R} _1f_* \mathbb {C} )_ \rho</fr:tex> is of degree <fr:tex>(-1,0)+(0,-1)</fr:tex>, one of the following conditions is satisfied:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>V_ \rho</fr:tex> is bihomogeneous;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        <fr:tex>T_ \rho</fr:tex> is bihomogeneous.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    It is clear that condition (a) (resp. (b)) is simultaneously satisfied by <fr:tex>\rho</fr:tex> and <fr:tex>\bar { \rho }</fr:tex>.
+    If condition (a) is satisfied at each place, then <fr:tex>H</fr:tex> is of degree <fr:tex>(0,0)</fr:tex>.
+    If condition (b) is satisfied at each place, then the Hodge structure on <fr:tex>\mathrm {R} _1f_* \mathbb {Q}</fr:tex> is locally constant.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1576</fr:anchor><fr:addr>hodge-theory-ii-4.4.9</fr:addr><fr:route>hodge-theory-ii-4.4.9.xml</fr:route><fr:number>4.4.9</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Now suppose that <fr:tex>Z</fr:tex> is completely real.
+    For each real embedding <fr:tex>\varphi</fr:tex> of <fr:tex>Z</fr:tex>, we set <fr:tex>\varepsilon _{H, \varphi }=+1</fr:tex> if <fr:tex>H \otimes _{Z, \varphi } \mathbb {R}</fr:tex> is an algebra of matrices; we set <fr:tex>\varepsilon _{H, \varphi }=-1</fr:tex> otherwise.
+    If a complex embedding <fr:tex>\rho</fr:tex> induces a real embedding <fr:tex>\varphi</fr:tex>, then we set <fr:tex>\varepsilon _{H \rho }= \varepsilon _{H \varphi }</fr:tex>.
+  </fr:p><fr:p>
+    Let <fr:tex>\rho \colon  Z \to \mathbb {C}</fr:tex> factor through <fr:tex>\varphi \colon  Z \to \mathbb {R}</fr:tex>.
+    Complex conjugation on <fr:tex>H_ \rho</fr:tex> is induced by an antilinear automorphism <fr:tex>\sigma _1</fr:tex> of <fr:tex>V_ \rho</fr:tex>, unique up to real scalar, with scalar square.
+    Since <fr:tex>\sigma _1</fr:tex> commutes with <fr:tex>\sigma _1^2</fr:tex>, <fr:tex>\sigma _1^2</fr:tex> is real and, by normalising <fr:tex>\sigma _1</fr:tex>, we can assume that <fr:tex>\sigma _1^2= \pm1</fr:tex>.
+    We then have that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1575</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.1</fr:addr><fr:route>hodge-theory-ii-4.4.9.1.xml</fr:route><fr:number>4.4.9.1</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">          \sigma _1^2         =  \varepsilon _{H \rho }.       \tag{4.4.9.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    The
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -217,7 +351,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1682</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.2.8</fr:addr><fr:route>hodge-theory-ii-4.2.8.xml</fr:route><fr:number>4.2.8</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1691</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.2.8</fr:addr><fr:route>hodge-theory-ii-4.2.8.xml</fr:route><fr:number>4.2.8</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Under the hypotheses of <fr:ref
 addr="hodge-theory-ii-4.2.6"
 href="hodge-theory-ii-4.2.6.xml"
