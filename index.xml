@@ -210,7 +210,7 @@ style="list-style-type: &quot;4.3 &quot;">
             <fr:link
 href="hodge-theory-ii-4.3.xml"
 type="local"
-addr="hodge-theory-ii-4.3">Supplement to [D1968]</fr:link>
+addr="hodge-theory-ii-4.3">Supplement to [D1968]</fr:link> ✓
           </html:li>
 
           
@@ -1566,8 +1566,55 @@ number="1.3.2"></fr:ref>).
     </fr:p>
 
     <fr:p>
-      Let
+      Let <fr:tex>\gamma</fr:tex> be a form satisfying <fr:tex>\mathrm {d} ' \gamma = \mathrm {d} '' \gamma =0</fr:tex> in the cohomology class of <fr:tex>\beta _1- \beta _2</fr:tex> (<fr:em>loc. cit.</fr:em>).
+      Let <fr:tex>\gamma _1</fr:tex> (resp. <fr:tex>\gamma _2</fr:tex>) be the sum of the components of <fr:tex>\gamma</fr:tex> of degree <fr:tex>(p',q')</fr:tex> for <fr:tex>p' \geqslant  p</fr:tex> (resp. <fr:tex>q' \geqslant  q</fr:tex>).
+      If we set <fr:tex>\beta '_1= \beta _1- \gamma _1</fr:tex> and <fr:tex>\beta '_2= \beta _2+ \gamma _2</fr:tex>, then we still have that <fr:tex>\mathrm {d} \beta '_1= \mathrm {d} \beta '_2= \alpha</fr:tex>;
+      furthermore, <fr:tex>\beta '_1- \beta '_2= \beta _1- \beta _2- \gamma</fr:tex> is cohomologous to zero: there exists <fr:tex>\delta</fr:tex> such that
+      <fr:tex
+display="block">          \mathrm {d} \delta          =  \beta '_1 -  \beta '_2.       </fr:tex>
+      Let <fr:tex>\delta _1</fr:tex> (resp. <fr:tex>\delta _2</fr:tex>) be the sum of the components of <fr:tex>\delta</fr:tex> of degree <fr:tex>(p',q')</fr:tex> for <fr:tex>p'&lt;p-1</fr:tex> (resp. <fr:tex>q'&gt;q-1</fr:tex>);
+      let <fr:tex>\beta</fr:tex> be the component of <fr:tex>\delta</fr:tex> of degree <fr:tex>(p-1,q-1)</fr:tex>.
     </fr:p>
+
+    
+  <fr:embedded-tex
+hash="3cb592cebfc5caf0b6d02e1ea95b69f4"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}] 
+             \draw [-&gt;] (0,0) to (2,0) node[label={below:$p$}]{};
+       \draw [-&gt;] (0,0) to (0,2) node[label={left:$q$}]{};
+             \node [point, label={below:$ \beta $}] at (1.5,1.5) {};
+       \node [point, label={right:$(p,q)$}] at (3,2.5) {};
+             \begin {scope}[shift={(2.5,0.5)}, rotate=-45]
+         \node [point, label={[rotate=-45]right:$ \delta _1$}] at (0,0) {};
+         \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+       \end {scope}
+             \begin {scope}[shift={(0.5,2.5)}, rotate=135]
+         \node [point, label={[rotate=-45]left:$ \delta _2$}] at (0,0) {};
+         \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+       \end {scope}
+             \begin {scope}[shift={(4,1)}, rotate=-45]
+         \node [point, label={[rotate=-45]right:$ \beta _1, \gamma _1, \beta '_1$}] at (0,0) {};
+         \node [point] at (1.75,0) {};
+         \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+       \end {scope}
+             \begin {scope}[shift={(2,3)}, rotate=135]
+         \node [point, label={[rotate=-45]left:$ \beta _2, \gamma _2, \beta '_2$}] at (0,0) {};
+         \node [point] at (01.75,0) {};
+         \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+       \end {scope}
+     \end {tikzpicture}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+    <fr:p>
+      We have that
+      <fr:tex
+display="block">          \beta '_2         = \mathrm {d} \delta _2 +  \mathrm {d} '' \beta        </fr:tex>
+      and
+      <fr:tex
+display="block">          \begin {aligned}            \alpha            =  \mathrm {d} \beta '_2           &amp;=  \mathrm {d} \mathrm {d} \delta _2 +  \mathrm {d} \mathrm {d} '' \beta           \\ &amp;=  \mathrm {d} ' \mathrm {d} '' \beta .          \end {aligned}       </fr:tex></fr:p>
   </fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
@@ -14619,8 +14666,55 @@ number="1.3.2"></fr:ref>).
     </fr:p>
 
     <fr:p>
-      Let
+      Let <fr:tex>\gamma</fr:tex> be a form satisfying <fr:tex>\mathrm {d} ' \gamma = \mathrm {d} '' \gamma =0</fr:tex> in the cohomology class of <fr:tex>\beta _1- \beta _2</fr:tex> (<fr:em>loc. cit.</fr:em>).
+      Let <fr:tex>\gamma _1</fr:tex> (resp. <fr:tex>\gamma _2</fr:tex>) be the sum of the components of <fr:tex>\gamma</fr:tex> of degree <fr:tex>(p',q')</fr:tex> for <fr:tex>p' \geqslant  p</fr:tex> (resp. <fr:tex>q' \geqslant  q</fr:tex>).
+      If we set <fr:tex>\beta '_1= \beta _1- \gamma _1</fr:tex> and <fr:tex>\beta '_2= \beta _2+ \gamma _2</fr:tex>, then we still have that <fr:tex>\mathrm {d} \beta '_1= \mathrm {d} \beta '_2= \alpha</fr:tex>;
+      furthermore, <fr:tex>\beta '_1- \beta '_2= \beta _1- \beta _2- \gamma</fr:tex> is cohomologous to zero: there exists <fr:tex>\delta</fr:tex> such that
+      <fr:tex
+display="block">          \mathrm {d} \delta          =  \beta '_1 -  \beta '_2.       </fr:tex>
+      Let <fr:tex>\delta _1</fr:tex> (resp. <fr:tex>\delta _2</fr:tex>) be the sum of the components of <fr:tex>\delta</fr:tex> of degree <fr:tex>(p',q')</fr:tex> for <fr:tex>p'&lt;p-1</fr:tex> (resp. <fr:tex>q'&gt;q-1</fr:tex>);
+      let <fr:tex>\beta</fr:tex> be the component of <fr:tex>\delta</fr:tex> of degree <fr:tex>(p-1,q-1)</fr:tex>.
     </fr:p>
+
+    
+  <fr:embedded-tex
+hash="3cb592cebfc5caf0b6d02e1ea95b69f4"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}] 
+             \draw [-&gt;] (0,0) to (2,0) node[label={below:$p$}]{};
+       \draw [-&gt;] (0,0) to (0,2) node[label={left:$q$}]{};
+             \node [point, label={below:$ \beta $}] at (1.5,1.5) {};
+       \node [point, label={right:$(p,q)$}] at (3,2.5) {};
+             \begin {scope}[shift={(2.5,0.5)}, rotate=-45]
+         \node [point, label={[rotate=-45]right:$ \delta _1$}] at (0,0) {};
+         \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+       \end {scope}
+             \begin {scope}[shift={(0.5,2.5)}, rotate=135]
+         \node [point, label={[rotate=-45]left:$ \delta _2$}] at (0,0) {};
+         \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+       \end {scope}
+             \begin {scope}[shift={(4,1)}, rotate=-45]
+         \node [point, label={[rotate=-45]right:$ \beta _1, \gamma _1, \beta '_1$}] at (0,0) {};
+         \node [point] at (1.75,0) {};
+         \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+       \end {scope}
+             \begin {scope}[shift={(2,3)}, rotate=135]
+         \node [point, label={[rotate=-45]left:$ \beta _2, \gamma _2, \beta '_2$}] at (0,0) {};
+         \node [point] at (01.75,0) {};
+         \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+       \end {scope}
+     \end {tikzpicture}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+    <fr:p>
+      We have that
+      <fr:tex
+display="block">          \beta '_2         = \mathrm {d} \delta _2 +  \mathrm {d} '' \beta        </fr:tex>
+      and
+      <fr:tex
+display="block">          \begin {aligned}            \alpha            =  \mathrm {d} \beta '_2           &amp;=  \mathrm {d} \mathrm {d} \delta _2 +  \mathrm {d} \mathrm {d} '' \beta           \\ &amp;=  \mathrm {d} ' \mathrm {d} '' \beta .          \end {aligned}       </fr:tex></fr:p>
   </fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
