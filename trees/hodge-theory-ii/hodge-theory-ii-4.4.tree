@@ -92,6 +92,75 @@
   }
 
   \p{
-    Every
+    Every #{Z}-linear automorphism #{C} of #{H} is interior: #{Cx=cxc^{-1}}.
+    If #{C} is involutive and commutes with #{*}, then the elements #{c^2} and #{cc^*} are central, so that #{c^*=\lambda c} with #{\lambda} central.
+    Since #{c^{**}=c}, we have that #{\lambda^2=1}.
+    \em{We set #{\varepsilon_C=\lambda}}.
+  }
+
+  \p{
+    We easily see that the involution #{C\circ *} satisfies
+    ##{
+      \varepsilon_{C\circ *}
+      = \varepsilon_C\cdot\varepsilon_*.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.5]{
+  \taxon{reminder}
+  \number{4.4.5}
+
+  \p{
+    Let #{X} be a simple abelian variety over a field #{K}, and let #{H} be the field #{\End_K(X)\otimes\QQ}.
+    Every polarisation of #{X} defines a positive involution #{*} of #{H}, i.e.
+    ##{
+      \Tr(hh^*) > 0
+      \quad\text{if }h\neq0.
+    }
+    If #{Z_0} is the #{*}-invariant subfield of the centre #{Z} of #{H}, then #{Z_0} is completely real and we are in one of the following cases:
+
+    \olc{
+      \lic{a.}{
+        #{Z=Z_0} and, for every real place #{\rho} of #{Z}, #{H\otimes_\rho\RR} is an algebra of matrices over #{\RR}, and #{\varepsilon_*=1}.
+      }
+
+      \lic{b.}{
+        #{Z=Z_0} and, for every real place #{\rho} of #{Z}, #{H\otimes_\rho\RR} is an algebra of matrices over #{\mathbb{H}}, and #{\varepsilon_*=-1}.
+      }
+
+      \lic{c.}{
+        #{Z} is a completely imaginary quadratic extension of #{Z_0}.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.6]{
+  \number{4.4.6}
+
+  \p{
+    Let #{f_i\colon X_i\to S} (for #{i=1,2}) be an abelian scheme over a smooth scheme #{S}.
+    The free abelian group
+    ##{
+      \Hom(\Rd_1{f_1}_*\ZZ,\Rd_1{f_2}_*\ZZ)
+      \simeq \Gamma(S,\iHom(\Rd_1{f_1}_*\ZZ,\Rd_1{f_2}_*\ZZ))
+    }
+    \oldpage{52}
+    is then endowed with a Hodge structure of weight #{0} (\ref{hodge-theory-ii-4.2.8}).
+    Further, by \ref{hodge-theory-ii-2.1.11.1} and \ref{hodge-theory-ii-4.4.3}, the group #{\Hom_S(X_1,X_2)} is the degree #{(0,0)} component of this group.
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.7]{
+  \number{4.4.7}
+
+  \p{
+    Let #{S} be a non-empty, connected, smooth scheme, with generic point #{\eta}, and let #{f\colon X\to S} be an abelian scheme over #{S}.
+    The centre #{Z} of #{H=\End(\Rd_1f_*\ZZ)} is then of degree #{(0,0)} (\ref{hodge-theory-ii-4.2.8}), and thus contained in #{\End_S(X)\simeq\End_{k(\eta)}(X_\eta)}.
+  }
+
+  \p{
+    A polarisation
   }
 }
