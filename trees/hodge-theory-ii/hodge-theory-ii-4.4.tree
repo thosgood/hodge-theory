@@ -286,6 +286,110 @@
   }
 
   \p{
-    The
+    The complex conjugation automorphism on
+    ##{
+      (\Rd_1f_*\CC)_\rho
+      =((\Rd_1f_*\QQ)\otimes_{Z,\varphi}\RR)\otimes_\RR\CC
+    }
+    is "compatible" with \ref{hodge-theory-ii-4.4.8.2} and can be written as
+    ##{
+      \sigma
+      = \sigma_1\otimes\sigma_2.
+    }
+    Since #{\sigma^2=1}, we have, by \ref{hodge-theory-ii-4.4.9.1}, that
+
+    \subtree[hodge-theory-ii-4.4.9.2]{
+      \taxon{equation}
+      \number{4.4.9.2}
+      ##{
+        \sigma_1^2
+        = \sigma_2^2
+        = \varepsilon_{H\rho}.
+      \startverb\tag{4.4.9.2}\stopverb
+      }
+    }
+  }
+
+  \p{
+    Let #{\Phi} be a polarisation form on #{\Rd_1f_*\ZZ}.
+    This form is necessarily of the form
+    ##{
+      \Phi
+      = \Tr_{Z/\QQ}(\psi)
+    }
+    where #{\psi} is an alternating #{Z}-bilinear form on #{\Rd_1f_*\QQ}.
+  }
+
+  \p{
+    Let #{\psi_\rho} be the form induced on #{V_\rho\otimes_\CC T_\rho}.
+    The alternating form #{\psi_\rho} is invariant under #{\pi_1(S,s)}.
+    Since #{T_\rho} is irreducible, we can write #{\psi_\rho} as
+
+    \subtree[hodge-theory-ii-4.4.9.3]{
+      \taxon{equation}
+      \number{4.4.9.3}
+      ##{
+        \psi_\rho
+        = A_\rho\otimes B_\rho
+      \startverb\tag{4.4.9.3}\stopverb
+      }
+    }
+
+    with #{A_\rho} on #{V_\rho}, and #{B_\rho} on #{T_\rho} invariant under #{\pi_1(S,s)}.
+  }
+
+  \p{
+    Since #{T_\rho} is irreducible, #{B_\rho} is either symmetric or alternating.
+    Since #{\psi_\rho} is alternating, #{A_\rho} is either symmetric or alternating.
+    Since the #{T_\rho} are conjugate to one another, whether we are in one case or the other does not depend on #{\rho}.
+    We set
+
+    \subtree[hodge-theory-ii-4.4.9.4]{
+      \taxon{equation}
+      \number{4.4.9.4}
+      ##{
+        A_\rho(X,Y)
+        = \varepsilon_V A_\rho(Y,X)
+      \startverb\tag{4.4.9.4}\stopverb
+      }
+    }
+
+    \subtree[hodge-theory-ii-4.4.9.5]{
+      \taxon{equation}
+      \number{4.4.9.5}
+      ##{
+        B_\rho(X,Y)
+        = \varepsilon_T B_\rho(Y,X).
+      \startverb\tag{4.4.9.5}\stopverb
+      }
+    }
+
+    We thus have
+
+    \subtree[hodge-theory-ii-4.4.9.6]{
+      \taxon{equation}
+      \number{4.4.9.6}
+      ##{
+        \varepsilon_V\varepsilon_T
+        = -1
+      \startverb\tag{4.4.9.6}\stopverb
+      }
+    }
+
+    and it is clear by \ref{hodge-theory-ii-4.4.4} that if #{*} is the involution of #{H} induced by #{\psi}, then
+
+    \subtree[hodge-theory-ii-4.4.9.7]{
+      \taxon{equation}
+      \number{4.4.9.7}
+      ##{
+        \varepsilon_*
+        = \varepsilon_V.
+      \startverb\tag{4.4.9.7}\stopverb
+      }
+    }
+  }
+
+  \p{
+    In case (a) (resp. (b)) of \ref{hodge-theory-ii-4.4.8}, we
   }
 }
