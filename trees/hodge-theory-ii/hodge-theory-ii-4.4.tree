@@ -161,6 +161,131 @@
   }
 
   \p{
-    A polarisation
+    A polarisation of #{X} defines an involution #{*} of #{H}.
+    The restriction of this to #{\End_S(X)} is positive, so that #{Z} is the product of completely real fields or quadratic imaginary extensions of completely real fields.
+  }
+
+  \p{
+    Denote by #{C} the actions of #{i\in S(\RR)} on #{H_\RR=H\otimes\RR} and on the #{(\Rd_1f_*\RR)_s} for #{s\in S}.
+    On #{H_\RR}, #{C^2=1}, and #{C} commutes with #{*};
+    on #{(\Rd_1f_*\RR)_s}, #{C^2=-1}.
+    If #{\psi} is the alternating form on #{\Rd_1f_*\ZZ} with integer values induced by the polarisation of #{X}, then
+    ##{
+      \psi(hx,Cy)
+      = \psi(x,h^*Cy)
+      = \psi(x,C\cdot C(h^*)\cdot y).
+    }
+    We thus deduce that
+
+    \subtree[hodge-theory-ii-4.4.7.1]{
+      \taxon{equation}
+      \number{4.4.7.1}
+      ##{
+        \Tr(h\cdot C(h^*)) > 0
+        \quad\text{for }h\neq0.
+      \startverb\tag{4.4.7.1}\stopverb
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.8]{
+  \number{4.4.8}
+
+  \p{
+    Now suppose that #{X_\eta} is simple, so that #{Z} is a field.
+    Let #{\rho\colon Z\to\CC} be a complex embedding.
+    Then the algebra
+    ##{
+      H_\rho
+      = H\otimes_{Z,\rho}\CC
+    }
+    is an algebra of matrices and a bigraded direct factor of #{H_\CC=H\otimes_\QQ\CC}.
+    Pick an isomorphism
+
+    \subtree[hodge-theory-ii-4.4.8.1]{
+      \taxon{equation}
+      \number{4.4.8.1}
+      ##{
+        H_\rho
+        \simeq \End(V_\rho).
+      \startverb\tag{4.4.8.1}\stopverb
+      }
+    }
+
+    From the fact that the infinitesimal generators of #{S} act on #{H_\rho}, by derivations, which are necessarily interior, we deduce that #{V_\rho} admits a bigrading, unique up to translation, such that \ref{hodge-theory-ii-4.4.8.1} is a bigraded isomorphism.
+    Let #{(\Rd_1f_*\CC)_\rho} be the bigraded local system
+    ##{
+      (\Rd_1f_*\CC)\otimes_{Z\otimes\CC,\rho}\CC
+    }
+    which is a direct factor of #{\Rd_1f_*\CC}.
+    Denote by #{T_\rho} the local system
+    ##{
+      T_\rho
+      = \Hom_{H_\rho}(V_\rho,(\Rd_1f_*\CC)_\rho).
+    }
+  }
+
+  \p{
+    We have the bigraded isomorphism
+
+    \subtree[hodge-theory-ii-4.4.8.2]{
+      \taxon{equation}
+      \number{4.4.8.2}
+      ##{
+        V_\rho\otimes_\CC T_\rho
+        \simto (\Rd_1f_*\CC)_\rho.
+      \startverb\tag{4.4.8.2}\stopverb
+      }
+    }
+
+    Since #{(\Rd_1f_*\CC)_\rho} is of degree #{(-1,0)+(0,-1)}, one of the following conditions is satisfied:
+
+    \olc{
+      \lic{a.}{
+        #{V_\rho} is bihomogeneous;
+      }
+      \lic{b.}{
+        #{T_\rho} is bihomogeneous.
+      }
+    }
+  }
+
+  \p{
+    It is clear that condition (a) (resp. (b)) is simultaneously satisfied by #{\rho} and #{\bar{\rho}}.
+    If condition (a) is satisfied at each place, then #{H} is of degree #{(0,0)}.
+    If condition (b) is satisfied at each place, then the Hodge structure on #{\Rd_1f_*\QQ} is locally constant.
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.9]{
+  \number{4.4.9}
+
+  \p{
+    \oldpage{53}
+    Now suppose that #{Z} is completely real.
+    For each real embedding #{\varphi} of #{Z}, we set #{\varepsilon_{H,\varphi}=+1} if #{H\otimes_{Z,\varphi}\RR} is an algebra of matrices; we set #{\varepsilon_{H,\varphi}=-1} otherwise.
+    If a complex embedding #{\rho} induces a real embedding #{\varphi}, then we set #{\varepsilon_{H\rho}=\varepsilon_{H\varphi}}.
+  }
+
+  \p{
+    Let #{\rho\colon Z\to\CC} factor through #{\varphi\colon Z\to\RR}.
+    Complex conjugation on #{H_\rho} is induced by an antilinear automorphism #{\sigma_1} of #{V_\rho}, unique up to real scalar, with scalar square.
+    Since #{\sigma_1} commutes with #{\sigma_1^2}, #{\sigma_1^2} is real and, by normalising #{\sigma_1}, we can assume that #{\sigma_1^2=\pm1}.
+    We then have that
+
+    \subtree[hodge-theory-ii-4.4.9.1]{
+      \taxon{equation}
+      \number{4.4.9.1}
+      ##{
+        \sigma_1^2
+        = \varepsilon_{H\rho}.
+      \startverb\tag{4.4.9.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    The
   }
 }
