@@ -25,6 +25,73 @@
   \number{4.4.2}
 
   \p{
-    If
+    If #{f\colon X\to S} is an abelian scheme, then the exponential defines an exact sequence
+    ##{
+      0
+      \to \Rd_1f_*\ZZ
+      \to \Lie(X)
+      \to X
+      \to 0
+    }
+    of sheaves on #{S^\an}, and the Hodge filtration is the short exact sequence
+    ##{
+      0
+      \to \Ker(\alpha)
+      \to \Rd_1f_*\ZZ\otimes\OO
+      \xrightarrow{\alpha} \Lie(X)
+      \to 0.
+    }
+  }
+}
+
+\p{
+  \oldpage{51}
+  It is known that:
+}
+
+\subtree[hodge-theory-ii-4.4.3]{
+  \taxon{reminder}
+  \number{4.4.3}
+
+  \p{
+    Let #{S} be a smooth scheme of finite type over #{\CC}.
+    The construction of \ref{hodge-theory-ii-4.4.2} establishes an equivalence of categories between
+
+    \olc{
+      \lic{a.}{
+        the category of abelian schemes over #{S}; and
+      }
+      \lic{b.}{
+        the category of polarisable continuous families of Hodge structures #{H} of type #{(-1,0)+(0,-1)} on #{S} such that #{H_\ZZ} is torsion free and the Hodge filtration varies holomorphically on #{S}.
+      }
+    }
+  }
+
+  \proof{
+    \p{
+      The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (\em{unpublished});
+      the full faithfulness follows from the fact that, for two abelian schemes #{X_1} and #{X_2} over #{S}, the #{S}-scheme #{\iHom_S(X_1,X_2)} is unramified over #{S}, and thus has the same algebraic and holomorphic sections.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.4]{
+  \number{4.4.4}
+
+  \p{
+    Let #{Z} be a commutative field, #{H} a simple central algebra over #{Z}, and #{*} a #{Z}-linear anti-automorphism of #{H}.
+    After extension of scalars, we have #{H\simeq\End(V)} for some vector space #{V} over #{Z}, and #{*} is then the transposition with respect to a bilinear form #{\Phi} on #{V}, unique up to a factor.
+    Suppose that #{*} is involutive;
+    the forms #{\Phi(X,Y)} and #{\Phi(Y,X)} are then proportional, i.e. #{\Phi(X,Y)=\lambda\Phi(Y,X)} for some #{\lambda^2=1}.
+    \em{We set #{\varepsilon_*=\lambda}}.
+    If #{[H:Z]=d^2}, then
+    ##{
+      \Tr(*\colon H\to H)
+      = \varepsilon_*\cdot d.
+    }
+  }
+
+  \p{
+    Every
   }
 }
