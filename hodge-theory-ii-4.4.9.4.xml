@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1727</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.4</fr:addr><fr:route>hodge-theory-ii-4.4.9.4.xml</fr:route><fr:number>4.4.9.4</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>1750</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.4</fr:addr><fr:route>hodge-theory-ii-4.4.9.4.xml</fr:route><fr:number>4.4.9.4</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">         A_ \rho (X,Y)         =  \varepsilon _V A_ \rho (Y,X)       \tag{4.4.9.4}       </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -15,7 +15,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1726</fr:anchor><fr:addr>hodge-theory-ii-4.4.9</fr:addr><fr:route>hodge-theory-ii-4.4.9.xml</fr:route><fr:number>4.4.9</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1749</fr:anchor><fr:addr>hodge-theory-ii-4.4.9</fr:addr><fr:route>hodge-theory-ii-4.4.9.xml</fr:route><fr:number>4.4.9</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Now suppose that <fr:tex>Z</fr:tex> is completely real.
     For each real embedding <fr:tex>\varphi</fr:tex> of <fr:tex>Z</fr:tex>, we set <fr:tex>\varepsilon _{H, \varphi }=+1</fr:tex> if <fr:tex>H \otimes _{Z, \varphi } \mathbb {R}</fr:tex> is an algebra of matrices; we set <fr:tex>\varepsilon _{H, \varphi }=-1</fr:tex> otherwise.
     If a complex embedding <fr:tex>\rho</fr:tex> induces a real embedding <fr:tex>\varphi</fr:tex>, then we set <fr:tex>\varepsilon _{H \rho }= \varepsilon _{H \varphi }</fr:tex>.
@@ -135,5 +135,47 @@ display="block">          \varepsilon _*         =  \varepsilon _V.       \tag{4
     In case (a) (resp. (b)) of <fr:ref
 addr="hodge-theory-ii-4.4.8"
 href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref>, we
+number="4.4.8"></fr:ref>, we normalise the bigradings so that <fr:tex>V_ \rho</fr:tex> (resp. <fr:tex>T_ \rho</fr:tex>) is of bidegree <fr:tex>(0,0)</fr:tex>.
+    We then have, for non-zero <fr:tex>x \in  V_ \rho</fr:tex> and non-zero <fr:tex>y \in  T_ \rho</fr:tex>, the two cases:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>A_ \rho (x, \sigma _1 x)B_ \rho (y,C \sigma _2 y)           &gt;0</fr:tex>;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        <fr:tex>A_ \rho (x,C \sigma _1 x)B_ \rho (y, \sigma _2 y)           &gt;0</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    By normalising <fr:tex>A_ \rho</fr:tex> and <fr:tex>B_ \rho</fr:tex> (of which only their tensor product is given), we can suppose, in each respective case, that
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>A_ \rho (x, \sigma _1x)&gt;0</fr:tex> and <fr:tex>B_ \rho (y,C \sigma _2y)&gt;0</fr:tex>;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        <fr:tex>A_ \rho (x,C \sigma _1x)&gt;0</fr:tex> and <fr:tex>B_ \rho (y, \sigma _2y)</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    Furthermore, <fr:tex>A_ \rho</fr:tex> and <fr:tex>B_ \rho</fr:tex>, just like <fr:tex>\Phi</fr:tex>, are invariant under the compact sub-torus <fr:tex>\operatorname {Ker} (N)</fr:tex> of <fr:tex>S</fr:tex>, and in particular under <fr:tex>C</fr:tex>.
+    In case (a), we have that
+    <fr:tex
+display="block">       0       &lt; A_ \rho ( \sigma _1x, \sigma _1 \sigma _1x)       =  \varepsilon _V \cdot \varepsilon _{H, \rho }A_ \rho (x, \sigma _1x)     </fr:tex>
+    whence <fr:tex>\varepsilon _V \cdot \varepsilon _{H \rho }=1</fr:tex>.
+    Similarly, in case (b), we see that <fr:tex>\varepsilon _T \cdot \varepsilon _{H \rho }=1</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
