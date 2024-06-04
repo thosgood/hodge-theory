@@ -34,7 +34,64 @@
     }
 
     \p{
-      Let
+      Let #{\gamma} be a form satisfying #{\dd'\gamma=\dd''\gamma=0} in the cohomology class of #{\beta_1-\beta_2} (\em{loc. cit.}).
+      Let #{\gamma_1} (resp. #{\gamma_2}) be the sum of the components of #{\gamma} of degree #{(p',q')} for #{p'\geqslant p} (resp. #{q'\geqslant q}).
+      If we set #{\beta'_1=\beta_1-\gamma_1} and #{\beta'_2=\beta_2+\gamma_2}, then we still have that #{\dd\beta'_1=\dd\beta'_2=\alpha};
+      furthermore, #{\beta'_1-\beta'_2=\beta_1-\beta_2-\gamma} is cohomologous to zero: there exists #{\delta} such that
+      ##{
+        \dd\delta
+        = \beta'_1 - \beta'_2.
+      }
+      Let #{\delta_1} (resp. #{\delta_2}) be the sum of the components of #{\delta} of degree #{(p',q')} for #{p'<p-1} (resp. #{q'>q-1});
+      let #{\beta} be the component of #{\delta} of degree #{(p-1,q-1)}.
+    }
+
+    \tikzpicture{
+      % p- and q-axes
+      \draw[->] (0,0) to (2,0) node[label={below:$p$}]{};
+      \draw[->] (0,0) to (0,2) node[label={left:$q$}]{};
+      % unbounded points
+      \node[point, label={below:$\beta$}] at (1.5,1.5) {};
+      \node[point, label={right:$(p,q)$}] at (3,2.5) {};
+      % delta_1
+      \begin{scope}[shift={(2.5,0.5)}, rotate=-45]
+        \node[point, label={[rotate=-45]right:$\delta_1$}] at (0,0) {};
+        \draw (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end{scope}
+      % delta_2
+      \begin{scope}[shift={(0.5,2.5)}, rotate=135]
+        \node[point, label={[rotate=-45]left:$\delta_2$}] at (0,0) {};
+        \draw (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end{scope}
+      % beta_1, gamma_1, beta'_1
+      \begin{scope}[shift={(4,1)}, rotate=-45]
+        \node[point, label={[rotate=-45]right:$\beta_1,\gamma_1,\beta'_1$}] at (0,0) {};
+        \node[point] at (1.75,0) {};
+        \draw (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end{scope}
+      % beta_2, gamma_2, beta'_2
+      \begin{scope}[shift={(2,3)}, rotate=135]
+        \node[point, label={[rotate=-45]left:$\beta_2,\gamma_2,\beta'_2$}] at (0,0) {};
+        \node[point] at (01.75,0) {};
+        \draw (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end{scope}
+    }
+
+    \p{
+      We have that
+      ##{
+        \beta'_2
+        =\dd\delta_2 + \dd''\beta
+      }
+      and
+      ##{
+        \begin{aligned}
+          \alpha
+          = \dd\beta'_2
+          &= \dd\dd\delta_2 + \dd\dd''\beta
+        \\&= \dd'\dd''\beta.
+        \end{aligned}
+      }
     }
   }
 }
