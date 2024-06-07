@@ -7,117 +7,55 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        (cf. [<fr:link
-href="G1966.xml"
-type="local"
-addr="G1966">G1966</fr:link>]).
-        Let <fr:tex>S</fr:tex> be a reduced connected scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>, and let <fr:tex>f_1 \colon  X_1 \to  S</fr:tex> and <fr:tex>f_2 \colon  X_2 \to  S</fr:tex> be abelian schemes over <fr:tex>S</fr:tex>.
-        If a morphism <fr:tex>u \colon \mathrm {R} ^1{f_2}_* \mathbb {Z} \to \mathrm {R} ^1{f_1}_* \mathbb {Z}</fr:tex> comes from a morphism <fr:tex>\widetilde {u}_s \colon (X_1)_s \to (X_2)_s</fr:tex> of abelian varieties at some point <fr:tex>s \in  S</fr:tex>, then <fr:tex>u</fr:tex> comes from a (unique) morphism of abelian schemes <fr:tex>\widetilde {u} \colon  X_1 \to  X_2</fr:tex>.
-      </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1725</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a smooth connected scheme with generic point <fr:tex>\eta</fr:tex>, and let <fr:tex>f \colon  X \to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex> of relative dimension <fr:tex>g \leqslant3</fr:tex>.
+    Suppose that, on any finite étale covering of <fr:tex>S</fr:tex>, <fr:tex>X</fr:tex> does not admit a constant abelian subscheme.
+    Then, for every abelian scheme <fr:tex>g \colon  Y \to  S</fr:tex>, we have
+    <fr:tex
+display="block">        \begin {aligned}          \operatorname {Hom} (X,Y)         &amp; \xrightarrow { \sim }   \operatorname {Hom} ( \mathrm {R} _1f_* \mathbb {Z} , \mathrm {R} _1g_* \mathbb {Z} )        \\ \operatorname {Hom} (Y,X)         &amp; \xrightarrow { \sim }   \operatorname {Hom} ( \mathrm {R} _1g_* \mathbb {Z} , \mathrm {R} _1f_* \mathbb {Z} ).        \end {aligned}     </fr:tex></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      By duality, it suffices to prove the first claim.
+      We can also suppose <fr:tex>X_ \eta</fr:tex> to be simple.
+      We will show that <fr:tex>X</fr:tex> satisfies one of the conditions of (c) in <fr:ref
+addr="hodge-theory-ii-4.4.11"
+href="hodge-theory-ii-4.4.11.xml"
+taxon="Proposition"
+number="4.4.11"></fr:ref>.
+    </fr:p>
+
+    <fr:p>
+      Set <fr:tex>H= \mathbb {M} _c(D)</fr:tex>, with <fr:tex>D</fr:tex> a skew field of rank <fr:tex>b^2</fr:tex> over its centre <fr:tex>Z</fr:tex>, which we know to be either completely real or completely imaginary.
+      If we set <fr:tex>a=[Z: \mathbb {Q} ]</fr:tex>, then we have
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           ab^2c  \divides  2g  \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1610</fr:anchor><fr:addr>hodge-theory-ii-4.1.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.xml</fr:route><fr:number>4.1.3</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    In the case where <fr:tex>S</fr:tex> is compact, a generalisation of <fr:ref
-addr="hodge-theory-ii-4.1.2"
-href="hodge-theory-ii-4.1.2.xml"
-taxon="Corollary"
-number="4.1.2"></fr:ref> is proven by analytic methods in [<fr:link
-href="G1970.xml"
-type="local"
-addr="G1970">G1970</fr:link>].
-  </fr:p><fr:p>
-    As a corollary to <fr:ref
-addr="hodge-theory-ii-4.1.2"
-href="hodge-theory-ii-4.1.2.xml"
-taxon="Corollary"
-number="4.1.2"></fr:ref>, we note:
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>268</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.1</fr:addr><fr:route>hodge-theory-ii-4.1.3.1.xml</fr:route><fr:number>4.1.3.1</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        (cf. [<fr:link
-href="G1970.xml"
-type="local"
-addr="G1970">G1970</fr:link>]).
-        Let <fr:tex>f \colon  X \to  S</fr:tex> be a proper smooth morphism, as in <fr:ref
-addr="hodge-theory-ii-4.1.2"
-href="hodge-theory-ii-4.1.2.xml"
-taxon="Corollary"
-number="4.1.2"></fr:ref>.
-        If a global section <fr:tex>a</fr:tex> of <fr:tex>\mathrm {R} ^n f_* \mathbb {C}</fr:tex> is of Hodge degree <fr:tex>(p,q)</fr:tex> at a point, then <fr:tex>a</fr:tex> is everywhere of degree <fr:tex>(p,q)</fr:tex>.
-        In particular, if <fr:tex>n=2</fr:tex> and if <fr:tex>a</fr:tex> is, at some point <fr:tex>s</fr:tex>, the cohomology class of a divisor of <fr:tex>X_s</fr:tex>, then <fr:tex>a</fr:tex> is everywhere the cohomology class of a divisor, and, if <fr:tex>S</fr:tex> is smooth, is even defined by a divisor <fr:tex>D</fr:tex> on <fr:tex>X</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree>
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        (cf. [<fr:link
-href="G1966.xml"
-type="local"
-addr="G1966">G1966</fr:link>]).
-        Let <fr:tex>S</fr:tex> be a reduced connected scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>, and let <fr:tex>f_1 \colon  X_1 \to  S</fr:tex> and <fr:tex>f_2 \colon  X_2 \to  S</fr:tex> be abelian schemes over <fr:tex>S</fr:tex>.
-        If a morphism <fr:tex>u \colon \mathrm {R} ^1{f_2}_* \mathbb {Z} \to \mathrm {R} ^1{f_1}_* \mathbb {Z}</fr:tex> comes from a morphism <fr:tex>\widetilde {u}_s \colon (X_1)_s \to (X_2)_s</fr:tex> of abelian varieties at some point <fr:tex>s \in  S</fr:tex>, then <fr:tex>u</fr:tex> comes from a (unique) morphism of abelian schemes <fr:tex>\widetilde {u} \colon  X_1 \to  X_2</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree>
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.3.xml</fr:route><fr:number>4.1.3.3</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        (cf. [<fr:link
-href="K1971.xml"
-type="local"
-addr="K1971">K1971</fr:link>]).
-        Let <fr:tex>S</fr:tex> be a smooth connected scheme, <fr:tex>s \in  S</fr:tex> a point, <fr:tex>f \colon  X \to  S</fr:tex> a proper smooth morphism, and <fr:tex>P</fr:tex> a direct factor of the local system <fr:tex>\mathrm {R} ^i f_* \mathbb {Q}</fr:tex>, which is pointwise a Hodge sub-structure.
-        Then the following conditions are equivalent:
-
-        
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-          
- <html:li
-style="list-style-type: &quot;a. &quot;">
-            The Hodge structure of <fr:tex>P</fr:tex> is locally constant.
-          </html:li>
-
-          
- <html:li
-style="list-style-type: &quot;b. &quot;">
-            The representation <fr:tex>P_s</fr:tex> of <fr:tex>\pi _1(S,s)</fr:tex> factors through a finite quotient of <fr:tex>\pi _1(S,s)</fr:tex>.
-          </html:li>
-
-          
- <html:li
-style="list-style-type: &quot;c. &quot;">
-            There exists a finite non-empty étale covering <fr:tex>u \colon  S' \to  S</fr:tex> such that <fr:tex>u^*P</fr:tex> is a constant family of Hodge structures.
-          </html:li>
-
-        </html:ol></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1609</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1724</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -826,20 +764,119 @@ root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:taxon>Equation</fr:t
 display="block">           ab^2c  \divides  2g  \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references><fr:tree
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1556</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1966</fr:addr><fr:route>G1966.xml</fr:route><fr:title>Un théorème sur les homomorphismes de schémas abéliens</fr:title><fr:date><fr:year>1966</fr:year></fr:date><fr:authors><fr:author>A. Grothendieck</fr:author></fr:authors><fr:meta
-name="venue"><fr:em>Inv. Math.</fr:em> <fr:strong>2</fr:strong> pp. 59–78</fr:meta><fr:meta
-name="bibtex">@article{7,
-  author = {Grothendieck, A.},
-  title = {Un th\'{e}or\`{e}me sur les homomorphismes de sch\'{e}mas ab\'{e}liens},
-  journal = {Inv. Math.},
-  volume = {2},
-  year = {1966},
-  pages = {59--78},
-}</fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1723</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.4.11</fr:addr><fr:route>hodge-theory-ii-4.4.11.xml</fr:route><fr:number>4.4.11</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex>\eta</fr:tex>, and let <fr:tex>f \colon  X \to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex>.
+    Let <fr:tex>H= \operatorname {End} ( \mathbb {R} _1f_* \mathbb {Q} )</fr:tex>, and let <fr:tex>Z</fr:tex> be the centre of <fr:tex>H</fr:tex>.
+    Suppose that
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>X_ \eta</fr:tex> is simple over <fr:tex>k( \eta )</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        <fr:tex>X</fr:tex> does not become constant on any finite covering of <fr:tex>S</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;c. &quot;">
+        One of the following conditions is satisfied (cf. <fr:ref
+addr="hodge-theory-ii-4.4.5"
+href="hodge-theory-ii-4.4.5.xml"
+taxon="Reminder"
+number="4.4.5"></fr:ref>):
+
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;1. &quot;">
+            <fr:tex>Z</fr:tex> is imaginary <fr:em>quadratic</fr:em>;
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;2. &quot;">
+            <fr:tex>Z</fr:tex> is completely real, and for each real embedding <fr:tex>\varphi \colon  Z \to \mathbb {R}</fr:tex>, <fr:tex>H \otimes _{Z, \varphi } \mathbb {R}</fr:tex> is an algebra of matrices over <fr:tex>\mathbb {R}</fr:tex>;
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;3. &quot;">
+            <fr:tex>Z</fr:tex> is completely real, and for each real embedding <fr:tex>\varphi \colon  Z \to \mathbb {R}</fr:tex>, <fr:tex>H \otimes _{Z, \varphi } \mathbb {R}</fr:tex> is an algebra of matrices over <fr:tex>\mathbb {H}</fr:tex>.
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    Then
+    <fr:tex
+display="block">        \operatorname {End} (X)        \xrightarrow { \sim }   \operatorname {End} ( \mathrm {R} _1f_* \mathbb {Z} ).     </fr:tex></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1603</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We will show that we are either in case (a) or case (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>, for every place of <fr:tex>Z</fr:tex> simultaneously.
+      This is clear (<fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>) under the hypothesis (c.1), and follows from <fr:ref
+addr="hodge-theory-ii-4.4.10"
+href="hodge-theory-ii-4.4.10.xml"
+taxon="Lemma"
+number="4.4.10"></fr:ref> under the hypotheses (c.2) or (c.3), since not only <fr:tex>\varepsilon _T</fr:tex>, but also <fr:tex>\varepsilon _{H \rho }</fr:tex>, is then independent of <fr:tex>\rho</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Condition (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref> cannot be satisfied at every place of <fr:tex>Z</fr:tex>, since the Hodge structure would then be locally constant, which (by <fr:ref
+addr="hodge-theory-ii-4.1.3.3"
+href="hodge-theory-ii-4.1.3.3.xml"
+number="4.1.3.3"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3"></fr:ref>) contradicts (b).
+      Condition (a) is thus satisfied at each place of <fr:tex>Z</fr:tex>, and so <fr:tex>H</fr:tex> is of degree <fr:tex>(0,0)</fr:tex> (<fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>).
+      Taking <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3"></fr:ref> into account, this finishes the proof.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

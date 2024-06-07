@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.3.xml</fr:route><fr:number>4.1.3.3</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1616</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.3.xml</fr:route><fr:number>4.1.3.3</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         (cf. [<fr:link
 href="K1971.xml"
 type="local"
@@ -43,7 +43,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1605</fr:anchor><fr:addr>hodge-theory-ii-4.1.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.xml</fr:route><fr:number>4.1.3</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1615</fr:anchor><fr:addr>hodge-theory-ii-4.1.3</fr:addr><fr:route>hodge-theory-ii-4.1.3.xml</fr:route><fr:number>4.1.3</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     In the case where <fr:tex>S</fr:tex> is compact, a generalisation of <fr:ref
 addr="hodge-theory-ii-4.1.2"
 href="hodge-theory-ii-4.1.2.xml"
@@ -132,14 +132,129 @@ style="list-style-type: &quot;c. &quot;">
             There exists a finite non-empty étale covering <fr:tex>u \colon  S' \to  S</fr:tex> such that <fr:tex>u^*P</fr:tex> is a constant family of Hodge structures.
           </html:li>
 
-        </html:ol></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
+        </html:ol></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1603</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>K1971</fr:addr><fr:route>K1971.xml</fr:route><fr:title>Nilpotent connections and the monodromy theorem. Applications of a result of Turritin</fr:title><fr:date><fr:year>1971</fr:year></fr:date><fr:authors><fr:author>N. Katz</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1614</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.4.11</fr:addr><fr:route>hodge-theory-ii-4.4.11.xml</fr:route><fr:number>4.4.11</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex>\eta</fr:tex>, and let <fr:tex>f \colon  X \to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex>.
+    Let <fr:tex>H= \operatorname {End} ( \mathbb {R} _1f_* \mathbb {Q} )</fr:tex>, and let <fr:tex>Z</fr:tex> be the centre of <fr:tex>H</fr:tex>.
+    Suppose that
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>X_ \eta</fr:tex> is simple over <fr:tex>k( \eta )</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        <fr:tex>X</fr:tex> does not become constant on any finite covering of <fr:tex>S</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;c. &quot;">
+        One of the following conditions is satisfied (cf. <fr:ref
+addr="hodge-theory-ii-4.4.5"
+href="hodge-theory-ii-4.4.5.xml"
+taxon="Reminder"
+number="4.4.5"></fr:ref>):
+
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;1. &quot;">
+            <fr:tex>Z</fr:tex> is imaginary <fr:em>quadratic</fr:em>;
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;2. &quot;">
+            <fr:tex>Z</fr:tex> is completely real, and for each real embedding <fr:tex>\varphi \colon  Z \to \mathbb {R}</fr:tex>, <fr:tex>H \otimes _{Z, \varphi } \mathbb {R}</fr:tex> is an algebra of matrices over <fr:tex>\mathbb {R}</fr:tex>;
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;3. &quot;">
+            <fr:tex>Z</fr:tex> is completely real, and for each real embedding <fr:tex>\varphi \colon  Z \to \mathbb {R}</fr:tex>, <fr:tex>H \otimes _{Z, \varphi } \mathbb {R}</fr:tex> is an algebra of matrices over <fr:tex>\mathbb {H}</fr:tex>.
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    Then
+    <fr:tex
+display="block">        \operatorname {End} (X)        \xrightarrow { \sim }   \operatorname {End} ( \mathrm {R} _1f_* \mathbb {Z} ).     </fr:tex></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1603</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We will show that we are either in case (a) or case (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>, for every place of <fr:tex>Z</fr:tex> simultaneously.
+      This is clear (<fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>) under the hypothesis (c.1), and follows from <fr:ref
+addr="hodge-theory-ii-4.4.10"
+href="hodge-theory-ii-4.4.10.xml"
+taxon="Lemma"
+number="4.4.10"></fr:ref> under the hypotheses (c.2) or (c.3), since not only <fr:tex>\varepsilon _T</fr:tex>, but also <fr:tex>\varepsilon _{H \rho }</fr:tex>, is then independent of <fr:tex>\rho</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Condition (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref> cannot be satisfied at every place of <fr:tex>Z</fr:tex>, since the Hodge structure would then be locally constant, which (by <fr:ref
+addr="hodge-theory-ii-4.1.3.3"
+href="hodge-theory-ii-4.1.3.3.xml"
+number="4.1.3.3"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3"></fr:ref>) contradicts (b).
+      Condition (a) is thus satisfied at each place of <fr:tex>Z</fr:tex>, and so <fr:tex>H</fr:tex> is of degree <fr:tex>(0,0)</fr:tex> (<fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>).
+      Taking <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3"></fr:ref> into account, this finishes the proof.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1612</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>K1971</fr:addr><fr:route>K1971.xml</fr:route><fr:title>Nilpotent connections and the monodromy theorem. Applications of a result of Turritin</fr:title><fr:date><fr:year>1971</fr:year></fr:date><fr:authors><fr:author>N. Katz</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>39</fr:strong> pp. 175–232</fr:meta><fr:meta
 name="bibtex">@article{10,
   author = {Katz, N.},
