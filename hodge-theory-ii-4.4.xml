@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2025</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2045</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii-4.xml"
 type="local"
 addr="hodge-theory-ii-4"><fr:link
@@ -28,7 +28,7 @@ expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1558</fr:anchor><fr:addr>hodge-theory-ii-4.4.1</fr:addr><fr:route>hodge-theory-ii-4.4.1.xml</fr:route><fr:number>4.4.1</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  S</fr:tex> be a smooth proper morphism;
     we denote by <fr:tex>\mathrm {R} _i f_* \mathbb {Z}</fr:tex> the local system on <fr:tex>S^ \mathrm {an}</fr:tex> whose homology is the fibres of <fr:tex>f</fr:tex>.
-    At each point <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} _i f_* \mathbb {Z} )_s \simeq \operatorname {H} _i(X_s, \mathbb {Z} )</fr:tex> is endowed with a Hodge structure of weight <fr:tex>-i</fr:tex>, dual to the Hodge structure of <fr:tex>\operatorname {H} ^i(X_s, \mathbb {Z} )</fr:tex>.
+    At each point <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} _i f_* \mathbb {Z} )_s \simeq \operatorname {H} _i(X_s, \mathbb {Z} )</fr:tex> is endowed with a Hodge structure of weight <fr:tex>-i</fr:tex>, dual to the Hodge structure on <fr:tex>\operatorname {H} ^i(X_s, \mathbb {Z} )</fr:tex>.
     This structure varies continuously with <fr:tex>s \in  S</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -675,7 +675,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1608</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth connected scheme with generic point <fr:tex>\eta</fr:tex>, and let <fr:tex>f \colon  X \to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex> of relative dimension <fr:tex>g \leqslant3</fr:tex>.
     Suppose that, on any finite étale covering of <fr:tex>S</fr:tex>, <fr:tex>X</fr:tex> does not admit a constant abelian subscheme.
     Then, for every abelian scheme <fr:tex>g \colon  Y \to  S</fr:tex>, we have
@@ -690,7 +690,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1610</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       By duality, it suffices to prove the first claim.
       We can also suppose <fr:tex>X_ \eta</fr:tex> to be simple.
@@ -713,17 +713,87 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           ab^2c  \divides  2g  \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
+display="block">           ab^2c  \mathbin { \vert } 2g  \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+        <fr:p>
+          If <fr:tex>Z</fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex>a=2g=4</fr:tex>.
+          For <fr:tex>s \in  S</fr:tex>, the centraliser of <fr:tex>Z</fr:tex> acting on <fr:tex>( \mathrm {R} _1f_* \mathbb {Q} )_s</fr:tex> is thus commutative, and so the action of <fr:tex>\pi _1(S,s)</fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
+addr="hodge-theory-ii-4.2.8"
+href="hodge-theory-ii-4.2.8.xml"
+taxon="Corollary"
+number="4.2.8"></fr:ref> or <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9"></fr:ref>).
+          This is a contradiction (<fr:ref
+addr="hodge-theory-ii-4.1.3.3"
+href="hodge-theory-ii-4.1.3.3.xml"
+number="4.1.3.3"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3"></fr:ref>).
+        </fr:p>
+
+        <fr:p>
+          With the notation of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>, we can also note that the <fr:tex>T_ \rho</fr:tex> are then of rank <fr:tex>1</fr:tex>, and so condition (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref> is satisfied at each place, and the Hodge structure is locally constant.
+        </fr:p>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+        If <fr:tex>Z</fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex>a \geqslant2</fr:tex> and <fr:tex>b \geqslant2</fr:tex>, which is a contradiction.
+      </html:li>
+
+    </html:ol>
+
+
+    <fr:p>
+      We will show that <fr:tex>X</fr:tex> satisfies the conditions of <fr:ref
+addr="hodge-theory-ii-4.4.12"
+href="hodge-theory-ii-4.4.12.xml"
+taxon="Proposition"
+number="4.4.12"></fr:ref>.
+      If <fr:tex>Z</fr:tex> is imaginary quadratic, and if there exists <fr:tex>\rho \colon  Z \to \mathbb {C}</fr:tex> such that <fr:tex>\mathrm {R} _1f_* \mathbb {Q} \otimes _{Z, \rho } \mathbb {C}</fr:tex> is of pure Hodge type <fr:tex>(-1,0)</fr:tex>, then the Hodge structure on <fr:tex>\mathrm {R} _1f_* \mathbb {Q}</fr:tex> is locally constant, which is a contradiction.
+      This proves <fr:ref
+addr="hodge-theory-ii-4.4.13"
+href="hodge-theory-ii-4.4.13.xml"
+taxon="Corollary"
+number="4.4.13"></fr:ref>.
+    </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1612</fr:anchor><fr:addr>hodge-theory-ii-4.4.14</fr:addr><fr:route>hodge-theory-ii-4.4.14.xml</fr:route><fr:number>4.4.14</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  S</fr:tex></fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2024</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2044</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:title><fr:number>4</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -733,7 +803,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1845</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1865</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -1061,7 +1131,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1846</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1866</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -1936,7 +2006,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1847</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1867</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   In the footnote to (5.4) in [<fr:link
 href="D1968.xml"
 type="local"
@@ -2037,7 +2107,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1848</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms of abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1868</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms of abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   We intend to show how, in some cases, we can remove from <fr:ref
 addr="hodge-theory-ii-4.1.3.2"
 href="hodge-theory-ii-4.1.3.2.xml"
@@ -2052,7 +2122,7 @@ expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1558</fr:anchor><fr:addr>hodge-theory-ii-4.4.1</fr:addr><fr:route>hodge-theory-ii-4.4.1.xml</fr:route><fr:number>4.4.1</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  S</fr:tex> be a smooth proper morphism;
     we denote by <fr:tex>\mathrm {R} _i f_* \mathbb {Z}</fr:tex> the local system on <fr:tex>S^ \mathrm {an}</fr:tex> whose homology is the fibres of <fr:tex>f</fr:tex>.
-    At each point <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} _i f_* \mathbb {Z} )_s \simeq \operatorname {H} _i(X_s, \mathbb {Z} )</fr:tex> is endowed with a Hodge structure of weight <fr:tex>-i</fr:tex>, dual to the Hodge structure of <fr:tex>\operatorname {H} ^i(X_s, \mathbb {Z} )</fr:tex>.
+    At each point <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} _i f_* \mathbb {Z} )_s \simeq \operatorname {H} _i(X_s, \mathbb {Z} )</fr:tex> is endowed with a Hodge structure of weight <fr:tex>-i</fr:tex>, dual to the Hodge structure on <fr:tex>\operatorname {H} ^i(X_s, \mathbb {Z} )</fr:tex>.
     This structure varies continuously with <fr:tex>s \in  S</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -2699,7 +2769,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1608</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth connected scheme with generic point <fr:tex>\eta</fr:tex>, and let <fr:tex>f \colon  X \to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex> of relative dimension <fr:tex>g \leqslant3</fr:tex>.
     Suppose that, on any finite étale covering of <fr:tex>S</fr:tex>, <fr:tex>X</fr:tex> does not admit a constant abelian subscheme.
     Then, for every abelian scheme <fr:tex>g \colon  Y \to  S</fr:tex>, we have
@@ -2714,7 +2784,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1610</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       By duality, it suffices to prove the first claim.
       We can also suppose <fr:tex>X_ \eta</fr:tex> to be simple.
@@ -2737,17 +2807,87 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           ab^2c  \divides  2g  \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
+display="block">           ab^2c  \mathbin { \vert } 2g  \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+        <fr:p>
+          If <fr:tex>Z</fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex>a=2g=4</fr:tex>.
+          For <fr:tex>s \in  S</fr:tex>, the centraliser of <fr:tex>Z</fr:tex> acting on <fr:tex>( \mathrm {R} _1f_* \mathbb {Q} )_s</fr:tex> is thus commutative, and so the action of <fr:tex>\pi _1(S,s)</fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
+addr="hodge-theory-ii-4.2.8"
+href="hodge-theory-ii-4.2.8.xml"
+taxon="Corollary"
+number="4.2.8"></fr:ref> or <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9"></fr:ref>).
+          This is a contradiction (<fr:ref
+addr="hodge-theory-ii-4.1.3.3"
+href="hodge-theory-ii-4.1.3.3.xml"
+number="4.1.3.3"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3"></fr:ref>).
+        </fr:p>
+
+        <fr:p>
+          With the notation of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>, we can also note that the <fr:tex>T_ \rho</fr:tex> are then of rank <fr:tex>1</fr:tex>, and so condition (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref> is satisfied at each place, and the Hodge structure is locally constant.
+        </fr:p>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+        If <fr:tex>Z</fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex>a \geqslant2</fr:tex> and <fr:tex>b \geqslant2</fr:tex>, which is a contradiction.
+      </html:li>
+
+    </html:ol>
+
+
+    <fr:p>
+      We will show that <fr:tex>X</fr:tex> satisfies the conditions of <fr:ref
+addr="hodge-theory-ii-4.4.12"
+href="hodge-theory-ii-4.4.12.xml"
+taxon="Proposition"
+number="4.4.12"></fr:ref>.
+      If <fr:tex>Z</fr:tex> is imaginary quadratic, and if there exists <fr:tex>\rho \colon  Z \to \mathbb {C}</fr:tex> such that <fr:tex>\mathrm {R} _1f_* \mathbb {Q} \otimes _{Z, \rho } \mathbb {C}</fr:tex> is of pure Hodge type <fr:tex>(-1,0)</fr:tex>, then the Hodge structure on <fr:tex>\mathrm {R} _1f_* \mathbb {Q}</fr:tex> is locally constant, which is a contradiction.
+      This proves <fr:ref
+addr="hodge-theory-ii-4.4.13"
+href="hodge-theory-ii-4.4.13.xml"
+taxon="Corollary"
+number="4.4.13"></fr:ref>.
+    </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1612</fr:anchor><fr:addr>hodge-theory-ii-4.4.14</fr:addr><fr:route>hodge-theory-ii-4.4.14.xml</fr:route><fr:number>4.4.14</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  S</fr:tex></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2022</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2042</fr:anchor><fr:addr>hodge-theory-ii-4.1.3.2</fr:addr><fr:route>hodge-theory-ii-4.1.3.2.xml</fr:route><fr:number>4.1.3.2</fr:number><fr:parent>hodge-theory-ii-4.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         (cf. [<fr:link
 href="G1966.xml"
 type="local"
@@ -2761,7 +2901,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2023</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2043</fr:anchor><fr:addr>hodge-theory-ii-4</fr:addr><fr:route>hodge-theory-ii-4.xml</fr:route><fr:title><fr:link
 href="hodge-theory-ii.xml"
 type="local"
 addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:title><fr:number>4</fr:number><fr:parent>hodge-theory-ii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -2771,7 +2911,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1845</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1865</fr:anchor><fr:addr>hodge-theory-ii-4.1</fr:addr><fr:route>hodge-theory-ii-4.1.xml</fr:route><fr:title>The fixed set theorem</fr:title><fr:number>4.1</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -3099,7 +3239,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1846</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1866</fr:anchor><fr:addr>hodge-theory-ii-4.2</fr:addr><fr:route>hodge-theory-ii-4.2.xml</fr:route><fr:title>The semi-simplicity theorem</fr:title><fr:number>4.2</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -3974,7 +4114,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1847</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1867</fr:anchor><fr:addr>hodge-theory-ii-4.3</fr:addr><fr:route>hodge-theory-ii-4.3.xml</fr:route><fr:title>Supplement to [D1968]</fr:title><fr:number>4.3</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   In the footnote to (5.4) in [<fr:link
 href="D1968.xml"
 type="local"
@@ -4075,7 +4215,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1848</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms of abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1868</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title>Homomorphisms of abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   We intend to show how, in some cases, we can remove from <fr:ref
 addr="hodge-theory-ii-4.1.3.2"
 href="hodge-theory-ii-4.1.3.2.xml"
@@ -4090,7 +4230,7 @@ expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1558</fr:anchor><fr:addr>hodge-theory-ii-4.4.1</fr:addr><fr:route>hodge-theory-ii-4.4.1.xml</fr:route><fr:number>4.4.1</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>f \colon  X \to  S</fr:tex> be a smooth proper morphism;
     we denote by <fr:tex>\mathrm {R} _i f_* \mathbb {Z}</fr:tex> the local system on <fr:tex>S^ \mathrm {an}</fr:tex> whose homology is the fibres of <fr:tex>f</fr:tex>.
-    At each point <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} _i f_* \mathbb {Z} )_s \simeq \operatorname {H} _i(X_s, \mathbb {Z} )</fr:tex> is endowed with a Hodge structure of weight <fr:tex>-i</fr:tex>, dual to the Hodge structure of <fr:tex>\operatorname {H} ^i(X_s, \mathbb {Z} )</fr:tex>.
+    At each point <fr:tex>s \in  S</fr:tex>, <fr:tex>( \mathrm {R} _i f_* \mathbb {Z} )_s \simeq \operatorname {H} _i(X_s, \mathbb {Z} )</fr:tex> is endowed with a Hodge structure of weight <fr:tex>-i</fr:tex>, dual to the Hodge structure on <fr:tex>\operatorname {H} ^i(X_s, \mathbb {Z} )</fr:tex>.
     This structure varies continuously with <fr:tex>s \in  S</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -4737,7 +4877,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1608</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S</fr:tex> be a smooth connected scheme with generic point <fr:tex>\eta</fr:tex>, and let <fr:tex>f \colon  X \to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex> of relative dimension <fr:tex>g \leqslant3</fr:tex>.
     Suppose that, on any finite étale covering of <fr:tex>S</fr:tex>, <fr:tex>X</fr:tex> does not admit a constant abelian subscheme.
     Then, for every abelian scheme <fr:tex>g \colon  Y \to  S</fr:tex>, we have
@@ -4752,7 +4892,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1610</fr:anchor><fr:taxon>Proof</fr:taxon><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
       By duality, it suffices to prove the first claim.
       We can also suppose <fr:tex>X_ \eta</fr:tex> to be simple.
@@ -4775,17 +4915,87 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1606</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           ab^2c  \divides  2g  \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
+display="block">           ab^2c  \mathbin { \vert } 2g  \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;i. &quot;">
+        <fr:p>
+          If <fr:tex>Z</fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex>a=2g=4</fr:tex>.
+          For <fr:tex>s \in  S</fr:tex>, the centraliser of <fr:tex>Z</fr:tex> acting on <fr:tex>( \mathrm {R} _1f_* \mathbb {Q} )_s</fr:tex> is thus commutative, and so the action of <fr:tex>\pi _1(S,s)</fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
+addr="hodge-theory-ii-4.2.8"
+href="hodge-theory-ii-4.2.8.xml"
+taxon="Corollary"
+number="4.2.8"></fr:ref> or <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9"></fr:ref>).
+          This is a contradiction (<fr:ref
+addr="hodge-theory-ii-4.1.3.3"
+href="hodge-theory-ii-4.1.3.3.xml"
+number="4.1.3.3"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3"></fr:ref>).
+        </fr:p>
+
+        <fr:p>
+          With the notation of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref>, we can also note that the <fr:tex>T_ \rho</fr:tex> are then of rank <fr:tex>1</fr:tex>, and so condition (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8"></fr:ref> is satisfied at each place, and the Hodge structure is locally constant.
+        </fr:p>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;ii. &quot;">
+        If <fr:tex>Z</fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex>a \geqslant2</fr:tex> and <fr:tex>b \geqslant2</fr:tex>, which is a contradiction.
+      </html:li>
+
+    </html:ol>
+
+
+    <fr:p>
+      We will show that <fr:tex>X</fr:tex> satisfies the conditions of <fr:ref
+addr="hodge-theory-ii-4.4.12"
+href="hodge-theory-ii-4.4.12.xml"
+taxon="Proposition"
+number="4.4.12"></fr:ref>.
+      If <fr:tex>Z</fr:tex> is imaginary quadratic, and if there exists <fr:tex>\rho \colon  Z \to \mathbb {C}</fr:tex> such that <fr:tex>\mathrm {R} _1f_* \mathbb {Q} \otimes _{Z, \rho } \mathbb {C}</fr:tex> is of pure Hodge type <fr:tex>(-1,0)</fr:tex>, then the Hodge structure on <fr:tex>\mathrm {R} _1f_* \mathbb {Q}</fr:tex> is locally constant, which is a contradiction.
+      This proves <fr:ref
+addr="hodge-theory-ii-4.4.13"
+href="hodge-theory-ii-4.4.13.xml"
+taxon="Corollary"
+number="4.4.13"></fr:ref>.
+    </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1612</fr:anchor><fr:addr>hodge-theory-ii-4.4.14</fr:addr><fr:route>hodge-theory-ii-4.4.14.xml</fr:route><fr:number>4.4.14</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f \colon  X \to  S</fr:tex></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>2021</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>2041</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>
       "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
