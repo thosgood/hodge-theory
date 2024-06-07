@@ -16,7 +16,7 @@
   \p{
     Let #{f\colon X\to S} be a smooth proper morphism;
     we denote by #{\Rd_i f_*\ZZ} the local system on #{S^\an} whose homology is the fibres of #{f}.
-    At each point #{s\in S}, #{(\Rd_i f_*\ZZ)_s\simeq\HH_i(X_s,\ZZ)} is endowed with a Hodge structure of weight #{-i}, dual to the Hodge structure of #{\HH^i(X_s,\ZZ)}.
+    At each point #{s\in S}, #{(\Rd_i f_*\ZZ)_s\simeq\HH_i(X_s,\ZZ)} is endowed with a Hodge structure of weight #{-i}, dual to the Hodge structure on #{\HH^i(X_s,\ZZ)}.
     This structure varies continuously with #{s\in S}.
   }
 }
@@ -603,10 +603,43 @@
         \taxon{equation}
         \number{4.4.13.1}
         ##{
-          ab^2c \divides 2g \leqslant 6.
+          ab^2c \mathbin{\vert} 2g \leqslant 6.
         \startverb\tag{4.4.13.1}\stopverb
         }
       }
     }
+
+    \olc{
+      \lic{i.}{
+        \p{
+          \oldpage{56}
+          If #{Z} is completely imaginary, and not imaginary quadratic, then we must have #{a=2g=4}.
+          For #{s\in S}, the centraliser of #{Z} acting on #{(\Rd_1f_*\QQ)_s} is thus commutative, and so the action of #{\pi_1(S,s)} is abelian, and thus factors through a finite group ((iii.b) of \ref{hodge-theory-ii-4.2.8} or \ref{hodge-theory-ii-4.2.9}).
+          This is a contradiction (\ref{hodge-theory-ii-4.1.3.3} and \ref{hodge-theory-ii-4.4.3}).
+        }
+
+        \p{
+          With the notation of \ref{hodge-theory-ii-4.4.8}, we can also note that the #{T_\rho} are then of rank #{1}, and so condition (b) of \ref{hodge-theory-ii-4.4.8} is satisfied at each place, and the Hodge structure is locally constant.
+        }
+      }
+
+      \lic{ii.}{
+        If #{Z} is completely real, and if conditions (c.1) and (c.2) are not satisfied, then #{a\geqslant2} and #{b\geqslant2}, which is a contradiction.
+      }
+    }
+
+    \p{
+      We will show that #{X} satisfies the conditions of \ref{hodge-theory-ii-4.4.12}.
+      If #{Z} is imaginary quadratic, and if there exists #{\rho\colon Z\to\CC} such that #{\Rd_1f_*\QQ\otimes_{Z,\rho}\CC} is of pure Hodge type #{(-1,0)}, then the Hodge structure on #{\Rd_1f_*\QQ} is locally constant, which is a contradiction.
+      This proves \ref{hodge-theory-ii-4.4.13}.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.14]{
+  \number{4.4.14}
+
+  \p{
+    Let #{f\colon X\to S}
   }
 }
