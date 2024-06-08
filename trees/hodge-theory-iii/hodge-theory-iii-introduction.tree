@@ -20,5 +20,31 @@
 \p{
   In \ref{hodge-theory-ii}, we introduced the Hodge theory of non-singular (not necessarily complete) algebraic varieties.
   Here we treat the case of arbitrary singularities.
-  From \fref{hodge-theory-iii-7} onwards,
+  From \fref{hodge-theory-iii-7} onwards, we will make essential use of results from \ref{hodge-theory-ii-1} to \ref{hodge-theory-ii-3}.
+}
+
+\p{
+  In the case of a \em{complete} singular algebraic variety #{X}, the fundamental idea is to use the resolution of singularities to replace #{X} by a simplicial system of smooth projective schemes
+  \tikzcd{
+    X_\bullet = \Big(\ldots\quad
+    X_2
+      \ar[r]
+      \ar[r,shift left=4]
+      \ar[r,shift right=4]
+    & X_1
+      \ar[r,shift left=2]
+      \ar[r,shift right=2]
+      \ar[l,shift right=2]
+      \ar[l,shift left=2]
+    & X_0\Big)
+      \ar[l]
+  }
+  (or, as we will say, by a smooth projective simplicial scheme).
+  The results of \fref{hodge-theory-iii-5} and \fref{hodge-theory-iii-6} allow us to find such simplicial schemes #{X_\bullet} that have, in a suitable sense, the same cohomology as #{X}.
+  We can then "express", via a spectral sequence, the cohomology of #{X} in terms of the cohomology of the #{X_n}.
+  Following the general principles of \ref{hodge-theory-i}, we can then, on each #{X_n}, use classical Hodge theory, and obtain an induced mixed Hodge structure on the cohomology of #{X}.
+}
+
+\p{
+  In
 }
