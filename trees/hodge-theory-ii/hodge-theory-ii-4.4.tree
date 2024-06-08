@@ -640,6 +640,104 @@
   \number{4.4.14}
 
   \p{
-    Let #{f\colon X\to S}
+    Let #{f\colon X\to S} be a polarised abelian scheme of dimension #{g} over a smooth connected base #{S}.
+    For #{s\in S}, the fundamental group #{\pi_1(S,s)} acts on the fibre #{\HH^1(X_s,\ZZ)} of #{\Rd_1f_*\ZZ} over #{s}.
+    The polarisation of #{X} defines an alternating form on #{\HH^1(X_s,\ZZ)}, with values in #{\ZZ(-1)}, that is non-degenerate over #{\QQ}, and the action of #{\pi_1(S,s)} respects this form.
+    Consider the hypothesis:
+
+    \subtree[hodge-theory-ii-4.4.14.1]{
+      \taxon{hypothesis}
+      \number{4.4.14.1}
+
+      \p{
+        The morphism defined by #{X} from #{S} to one of the irreducible components of the corresponding scheme of modules of polarised abelian varieties is a dominant morphism.
+      }
+    }
+
+    \p{
+      The following result was suggested to me by J.-P. Serre.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.15]{
+  \taxon{corollary}
+  \number{4.4.15}
+
+  \p{
+    Let #{S} be a smooth connected scheme, and #{f\colon X\to S} a polarised abelian scheme over #{S} that satisfies \ref{hodge-theory-ii-4.4.14.1}.
+    Then, for every abelian scheme #{g\colon Y\to S}, we have
+    ##{
+      \Hom(X,Y)
+      \simto \Hom(\Rd_1f_*\ZZ,\Rd_1g_*\ZZ).
+    }
+  }
+
+  \proof{
+    \p{
+      Let #{s\in S}.
+      By \ref{hodge-theory-ii-4.4.11} and \ref{hodge-theory-ii-4.4.12}, it suffices to show that the representation of #{\pi_1(S,s)} on #{(\Rd_1f_*\QQ)_s} is absolutely irreducible, so that #{H=\QQ}.
+      This follows from the following lemma.
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.16]{
+  \taxon{lemma}
+  \number{4.4.16}
+
+  \p{
+    If #{X} satisfies \ref{hodge-theory-ii-4.4.14.1}, then the image of #{\pi_1(S,s)} in the group of symplectic automorphisms of #{\HH^1(X_s,\ZZ)} is of finite index.
+  }
+
+  \proof{
+    \p{
+      Let #{n} be an integer.
+      Replacing #{S} by a surjective étale covering, defined by a finite-index subgroup of #{\pi_1(S,s)}, if necessary, we can assume that the local system #{{}_nX=\Ker(n\cdot\Id\colon X\to X)} is trivial on #{S}.
+      Replacing #{X} by an isogenous abelian scheme, we can then assume that #{X} is polarised in the principal series.
+      Suppose that #{n\geqslant 3}.
+    }
+
+    \p{
+      The abelian scheme #{X} then defines a dominant morphism #{x} from the #{S} to the scheme of "Jacobi" modules #{M_n} of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between #{{}_nX} and #{(\ZZ{/}n)^{2g}};
+      furthermore, #{X} is an inverse image under #{x} of the universal abelian scheme on #{M_n}.
+      \oldpage{57}
+      We know that #{\pi_1(M_n,x(s))} is sent isomorphically to the subgroup of #{\Sp(\HH^1(X_s,\ZZ))} given by the kernel of the reduction #{\operatorname{mod}{n}} map.
+      It thus remains to show that:
+    }
+  }
+}
+
+\subtree[hodge-theory-ii-4.4.17]{
+  \taxon{lemma}
+  \number{4.4.17}
+
+  \p{
+    Let #{p\colon S\to M} be a dominant morphism of smooth connected schemes.
+    The subgroup #{p(\pi_1(S,s))} of #{\pi_1(M,p(s))} is then of finite index.
+  }
+
+  \proof{
+    \p{
+      Let #{t} be a closed point of the generic fibre of #{p}, and let #{T'} be its closure in #{S}.
+      There exists a dense Zariski open #{U} of #{M} such that #{T=p^{-1}(U)\cap T'} is an étale covering of #{U}.
+    }
+
+    \p{
+      We lose no generality by assuming that #{s\in T}.
+      In the diagram
+      \tikzcd{
+        \pi_1(T,s)
+          \ar[r]
+          \ar[d,swap,"a"]
+        & \pi_1(S,s)
+          \ar[d,"c"]
+      \\\pi_1(U,p(s))
+        \ar[r,swap,"b"]
+        & \pi_1(M,p(s))
+      }
+      the image of the arrow #{a} is of finite index, since #{T} is a finite étale covering, and the arrow #{b} is surjective, since #{M\setminus U} is of real codimension #{\geqslant2}.
+      The image of the arrow #{c} is thus of finite index.
+    }
   }
 }
