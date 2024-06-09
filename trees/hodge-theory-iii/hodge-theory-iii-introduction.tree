@@ -47,4 +47,75 @@
 
 \p{
   In the case of an arbitrary algebraic variety #{X}, we "replace" #{X} by a smooth simplicial scheme #{X_\bullet} with compactification given by a smooth projective simplicial scheme #{\bar{X}_\bullet}.
+  We can further arrange things so that #{\bar{X}_n\setminus X_n} is a normal crossing divisor, given by a union of smooth divisors #{D_{n,i}}.
+  We thus "express", via a spectral sequence, the cohomology of #{X} in terms of the cohomology of the #{p}-fold intersections of the #{D_{n,i}} (for #{n,p\geqslant0}), and we obtain an induced mixed Hodge structure on #{H^\bullet(X)}.
+}
+
+\p{
+  \fref{hodge-theory-iii-5} and \fref{hodge-theory-iii-6} constitute a summary (without proofs) of the theory of "cohomological descent".
+  This theory, in the more general framework of a topos, is laid out in [[SD]](SD).
+}
+
+\p{
+  In \fref{hodge-theory-iii-7.1}, we restate certain results obtained previously, but in the language of filtered derived categories;
+  \fref{hodge-theory-iii-7.2} contains a simpler proof of the two-filtrations lemma than that of \ref{hodge-theory-ii-1.3}.
+}
+
+\p{
+  The unappealing \fref{hodge-theory-iii-8.1} is the heart of this work.
+  The essential result is \fref{hodge-theory-iii-8.1.15}.
+  \oldpage{7}
+  In its proof, to be able to apply the two-filtrations lemma, we use the fact that every morphism of mixed Hodge structures is \em{strictly} compatible with the filtrations #{W} and #{W} (\ref{hodge-theory-ii-2.3.5}).
+  In \fref{hodge-theory-iii-8.2}, we define the mixed Hodge structure of #{\HH^n(X,\ZZ)} (for #{X} a separated scheme).
+  We show that the Hodge numbers #{h^{pq}} of #{\HH^n(X,\ZZ)} can only be non-zero for #{(p,q)\in[0,n]\times[0,n]}.
+  For #{n>\dim X}, we have a more precise result (\fref{hodge-theory-iii-8.2.4}).
+  If #{X} is smooth (resp. complete), they can only be non-zero if, further, #{p+q\geqslant n} (resp. #{p+q\leqslant n}).
+  If #{X} is a complete subscheme of #{Z}, with complement #{U}, with #{Z} complete and smooth of dimension #{n}, then we can, by N. Katz, interpret this "duality" between the complete case and the smooth case as coming from the "Alexander duality"
+  ##{
+    \to \ldots
+    \to \HH^i(Z,\QQ)
+    \to \HH^i(X,\QQ)
+    \to (\HH^{2n-i-1}(U,\QQ))^*
+    \to \HH^{i+1}(Z,\QQ)
+    \to\ldots.
+  }
+}
+
+\p{
+  From the functorial properties of the theory thus constructed, we obtain the useful corollaries \fref{hodge-theory-iii-8.2.5} to \fref{hodge-theory-iii-8.2.8}, which we state in terms independent of any Hodge theory.
+}
+
+\p{
+  In \fref{hodge-theory-iii-8.3}, we endow the cohomology of any simplicial scheme #{X_\bullet} with a mixed Hodge structure.
+  This generality is not illusory.
+
+  \olc{
+    \lic{a.}{
+      We can interpret relative cohomology spaces as being the cohomology of suitable simplicial schemes.
+    }
+    \lic{b.}{
+      Let #{B_G} be the classifying space of the underlying Lie group of an algebraic group #{G}.
+      We can interpret the cohomology of #{B_G} as being the cohomology of a suitable simplicial scheme.
+    }
+  }
+}
+
+\p{
+  In \fref{hodge-theory-iii-9.1}, after having calculated the mixed Hodge structure on the cohomology of #{B_G} (for #{G} linear), we thus obtain that of #{G}.
+  As a corollary, we find that, if a linear group #{G} acts on a non-singular complete variety #{X}, then the map
+  ##{
+    \HH^\bullet(X,\QQ)
+    \to \HH^\bullet(X,\QQ)\otimes\HH^\bullet(G,\QQ)
+  }
+  factors through #{\HH^\bullet(X,\QQ)\otimes\HH^0(G,\QQ)\subset\HH^\bullet(X,\QQ)\otimes\HH^\bullet(G,\QQ)}.
+}
+
+\p{
+  In \fref{hodge-theory-iii-10}, we interpret in terms of abelian schemes the mixed Hodge structures of pure degree #{\{(-1,-1),(-1,0),(0,-1),(0,0)\}} (see \fref{hodge-theory-iii-0.5}), and we consider in detail the #{\HH^1} of curves.
+}
+
+\p{
+  The theory developed up until here is an absolute theory (we do not study the functors #{\Rd f_*}), and deals only with constant coefficients.
+  I conjecture that, if #{\mathscr{H}} is a variation of polarisable Hodge structures (in the sense of Griffiths [[G1970a]](G1970a)) on a scheme #{X}, then the cohomology of #{X} with coefficients in the local system #{\mathscr{H}} is endowed with a natural mixed Hodge structure.
+  I can only prove this when #{X} is complete.
 }
