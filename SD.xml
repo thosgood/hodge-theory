@@ -7,10 +7,183 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2244</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>SD</fr:addr><fr:route>SD.xml</fr:route><fr:title>Techniques de descente cohomologique</fr:title><fr:authors><fr:author>B. Saint-Donat</fr:author></fr:authors><fr:meta
-name="venue"><fr:em>SGA 4.V</fr:em></fr:meta><fr:meta
+root="false"><fr:frontmatter><fr:anchor>2304</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>SD</fr:addr><fr:route>SD.xml</fr:route><fr:title>Techniques de descente cohomologique</fr:title><fr:authors><fr:author>B. Saint-Donat</fr:author></fr:authors><fr:meta
+name="venue"><fr:em>SGA 4.V bis</fr:em></fr:meta><fr:meta
 name="bibtex">@incollection{SD,
   author = {Saint-Donat, B.},
   title = {Techniques de descente cohomologique},
-  booktitle = {SGA 4.V},
-}</fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+  booktitle = {SGA 4.V bis},
+}</fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2303</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  This article follows <fr:link
+href="hodge-theory-i.xml"
+type="local"
+addr="hodge-theory-i">Hodge Theory I</fr:link> and <fr:link
+href="hodge-theory-ii.xml"
+type="local"
+addr="hodge-theory-ii">Hodge Theory II</fr:link>;
+  the numbering of the sections here follows that of <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Hodge Theory"
+number="II"></fr:ref> (which contains <fr:ref
+addr="hodge-theory-ii-1"
+href="hodge-theory-ii-1.xml"
+number="1"></fr:ref> to <fr:ref
+addr="hodge-theory-ii-4"
+href="hodge-theory-ii-4.xml"
+number="4"></fr:ref>).
+</fr:p><fr:p>
+  In <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Hodge Theory"
+number="II"></fr:ref>, we gave an introduction to the yoga that underlies <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Hodge Theory"
+number="II"></fr:ref> and the present article <fr:ref
+addr="hodge-theory-iii"
+href="hodge-theory-iii.xml"
+taxon="Hodge Theory"
+number="III"></fr:ref>.
+  However, <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Hodge Theory"
+number="II"></fr:ref> and <fr:ref
+addr="hodge-theory-iii"
+href="hodge-theory-iii.xml"
+taxon="Hodge Theory"
+number="III"></fr:ref> are logically independent of <fr:ref
+addr="hodge-theory-i"
+href="hodge-theory-i.xml"
+taxon="Hodge Theory"
+number="I"></fr:ref>;
+  they also do not contain all the results that were stated in <fr:ref
+addr="hodge-theory-i"
+href="hodge-theory-i.xml"
+taxon="Hodge Theory"
+number="I"></fr:ref>.
+</fr:p><fr:p>
+  In <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Hodge Theory"
+number="II"></fr:ref>, we introduced the Hodge theory of non-singular (not necessarily complete) algebraic varieties.
+  Here we treat the case of arbitrary singularities.
+  From [hodge-theory-iii-7 <fr:strong>(?)</fr:strong>] onwards, we will make essential use of results from <fr:ref
+addr="hodge-theory-ii-1"
+href="hodge-theory-ii-1.xml"
+number="1"></fr:ref> to <fr:ref
+addr="hodge-theory-ii-3"
+href="hodge-theory-ii-3.xml"
+number="3"></fr:ref>.
+</fr:p><fr:p>
+  In the case of a <fr:em>complete</fr:em> singular algebraic variety <fr:tex>X</fr:tex>, the fundamental idea is to use the resolution of singularities to replace <fr:tex>X</fr:tex> by a simplicial system of smooth projective schemes
+  
+  <fr:embedded-tex
+hash="8951aea5b0a008d2dca1292914af55ed"><fr:embedded-tex-preamble>
+     \usepackage {amsmath}
+     \usepackage {amssymb}
+     \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+    X_ \bullet  =  \Big ( \ldots \quad 
+    X_2
+       \ar [r]
+       \ar [r,shift left=4]
+       \ar [r,shift right=4]
+    &amp; X_1
+       \ar [r,shift left=2]
+       \ar [r,shift right=2]
+       \ar [l,shift right=2]
+       \ar [l,shift left=2]
+    &amp; X_0 \Big )
+       \ar [l]
+   \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+  (or, as we will say, by a smooth projective simplicial scheme).
+  The results of [hodge-theory-iii-5 <fr:strong>(?)</fr:strong>] and [hodge-theory-iii-6 <fr:strong>(?)</fr:strong>] allow us to find such simplicial schemes <fr:tex>X_ \bullet</fr:tex> that have, in a suitable sense, the same cohomology as <fr:tex>X</fr:tex>.
+  We can then "express", via a spectral sequence, the cohomology of <fr:tex>X</fr:tex> in terms of the cohomology of the <fr:tex>X_n</fr:tex>.
+  Following the general principles of <fr:ref
+addr="hodge-theory-i"
+href="hodge-theory-i.xml"
+taxon="Hodge Theory"
+number="I"></fr:ref>, we can then, on each <fr:tex>X_n</fr:tex>, use classical Hodge theory, and obtain an induced mixed Hodge structure on the cohomology of <fr:tex>X</fr:tex>.
+</fr:p><fr:p>
+  In the case of an arbitrary algebraic variety <fr:tex>X</fr:tex>, we "replace" <fr:tex>X</fr:tex> by a smooth simplicial scheme <fr:tex>X_ \bullet</fr:tex> with compactification given by a smooth projective simplicial scheme <fr:tex>\bar {X}_ \bullet</fr:tex>.
+  We can further arrange things so that <fr:tex>\bar {X}_n \setminus  X_n</fr:tex> is a normal crossing divisor, given by a union of smooth divisors <fr:tex>D_{n,i}</fr:tex>.
+  We thus "express", via a spectral sequence, the cohomology of <fr:tex>X</fr:tex> in terms of the cohomology of the <fr:tex>p</fr:tex>-fold intersections of the <fr:tex>D_{n,i}</fr:tex> (for <fr:tex>n,p \geqslant0</fr:tex>), and we obtain an induced mixed Hodge structure on <fr:tex>H^ \bullet (X)</fr:tex>.
+</fr:p><fr:p>[hodge-theory-iii-5 <fr:strong>(?)</fr:strong>] and [hodge-theory-iii-6 <fr:strong>(?)</fr:strong>] constitute a summary (without proofs) of the theory of "cohomological descent".
+  This theory, in the more general framework of a topos, is laid out in <fr:link
+href="SD.xml"
+type="local"
+addr="SD">[SD]</fr:link>.
+</fr:p><fr:p>
+  In [hodge-theory-iii-7.1 <fr:strong>(?)</fr:strong>], we restate certain results obtained previously, but in the language of filtered derived categories;
+  [hodge-theory-iii-7.2 <fr:strong>(?)</fr:strong>] contains a simpler proof of the two-filtrations lemma than that of <fr:ref
+addr="hodge-theory-ii-1.3"
+href="hodge-theory-ii-1.3.xml"
+number="1.3"></fr:ref>.
+</fr:p><fr:p>
+  The unappealing [hodge-theory-iii-8.1 <fr:strong>(?)</fr:strong>] is the heart of this work.
+  The essential result is [hodge-theory-iii-8.1.15 <fr:strong>(?)</fr:strong>].
+  
+  In its proof, to be able to apply the two-filtrations lemma, we use the fact that every morphism of mixed Hodge structures is <fr:em>strictly</fr:em> compatible with the filtrations <fr:tex>W</fr:tex> and <fr:tex>W</fr:tex> (<fr:ref
+addr="hodge-theory-ii-2.3.5"
+href="hodge-theory-ii-2.3.5.xml"
+taxon="Theorem"
+number="2.3.5"></fr:ref>).
+  In [hodge-theory-iii-8.2 <fr:strong>(?)</fr:strong>], we define the mixed Hodge structure of <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> (for <fr:tex>X</fr:tex> a separated scheme).
+  We show that the Hodge numbers <fr:tex>h^{pq}</fr:tex> of <fr:tex>\operatorname {H} ^n(X, \mathbb {Z} )</fr:tex> can only be non-zero for <fr:tex>(p,q) \in [0,n] \times [0,n]</fr:tex>.
+  For <fr:tex>n&gt; \dim  X</fr:tex>, we have a more precise result ([hodge-theory-iii-8.2.4 <fr:strong>(?)</fr:strong>]).
+  If <fr:tex>X</fr:tex> is smooth (resp. complete), they can only be non-zero if, further, <fr:tex>p+q \geqslant  n</fr:tex> (resp. <fr:tex>p+q \leqslant  n</fr:tex>).
+  If <fr:tex>X</fr:tex> is a complete subscheme of <fr:tex>Z</fr:tex>, with complement <fr:tex>U</fr:tex>, with <fr:tex>Z</fr:tex> complete and smooth of dimension <fr:tex>n</fr:tex>, then we can, by N. Katz, interpret this "duality" between the complete case and the smooth case as coming from the "Alexander duality"
+  <fr:tex
+display="block">      \to   \ldots       \to   \operatorname {H} ^i(Z, \mathbb {Q} )      \to   \operatorname {H} ^i(X, \mathbb {Q} )      \to  ( \operatorname {H} ^{2n-i-1}(U, \mathbb {Q} ))^*      \to   \operatorname {H} ^{i+1}(Z, \mathbb {Q} )      \to \ldots .   </fr:tex></fr:p><fr:p>
+  From the functorial properties of the theory thus constructed, we obtain the useful corollaries [hodge-theory-iii-8.2.5 <fr:strong>(?)</fr:strong>] to [hodge-theory-iii-8.2.8 <fr:strong>(?)</fr:strong>], which we state in terms independent of any Hodge theory.
+</fr:p><fr:p>
+  In [hodge-theory-iii-8.3 <fr:strong>(?)</fr:strong>], we endow the cohomology of any simplicial scheme <fr:tex>X_ \bullet</fr:tex> with a mixed Hodge structure.
+  This generality is not illusory.
+
+  
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+      We can interpret relative cohomology spaces as being the cohomology of suitable simplicial schemes.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+      Let <fr:tex>B_G</fr:tex> be the classifying space of the underlying Lie group of an algebraic group <fr:tex>G</fr:tex>.
+      We can interpret the cohomology of <fr:tex>B_G</fr:tex> as being the cohomology of a suitable simplicial scheme.
+    </html:li>
+
+  </html:ol></fr:p><fr:p>
+  In [hodge-theory-iii-9.1 <fr:strong>(?)</fr:strong>], after having calculated the mixed Hodge structure on the cohomology of <fr:tex>B_G</fr:tex> (for <fr:tex>G</fr:tex> linear), we thus obtain that of <fr:tex>G</fr:tex>.
+  As a corollary, we find that, if a linear group <fr:tex>G</fr:tex> acts on a non-singular complete variety <fr:tex>X</fr:tex>, then the map
+  <fr:tex
+display="block">      \operatorname {H} ^ \bullet (X, \mathbb {Q} )      \to   \operatorname {H} ^ \bullet (X, \mathbb {Q} ) \otimes \operatorname {H} ^ \bullet (G, \mathbb {Q} )   </fr:tex>
+  factors through <fr:tex>\operatorname {H} ^ \bullet (X, \mathbb {Q} ) \otimes \operatorname {H} ^0(G, \mathbb {Q} ) \subset \operatorname {H} ^ \bullet (X, \mathbb {Q} ) \otimes \operatorname {H} ^ \bullet (G, \mathbb {Q} )</fr:tex>.
+</fr:p><fr:p>
+  In [hodge-theory-iii-10 <fr:strong>(?)</fr:strong>], we interpret in terms of abelian schemes the mixed Hodge structures of pure degree <fr:tex>\{ (-1,-1),(-1,0),(0,-1),(0,0) \}</fr:tex> (see [hodge-theory-iii-0.5 <fr:strong>(?)</fr:strong>]), and we consider in detail the <fr:tex>\operatorname {H} ^1</fr:tex> of curves.
+</fr:p><fr:p>
+  The theory developed up until here is an absolute theory (we do not study the functors <fr:tex>\mathrm {R}  f_*</fr:tex>), and deals only with constant coefficients.
+  I conjecture that, if <fr:tex>\mathscr {H}</fr:tex> is a variation of polarisable Hodge structures (in the sense of Griffiths <fr:link
+href="G1970a.xml"
+type="local"
+addr="G1970a">[G1970a]</fr:link>) on a scheme <fr:tex>X</fr:tex>, then the cohomology of <fr:tex>X</fr:tex> with coefficients in the local system <fr:tex>\mathscr {H}</fr:tex> is endowed with a natural mixed Hodge structure.
+  I can only prove this when <fr:tex>X</fr:tex> is complete.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
