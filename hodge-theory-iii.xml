@@ -296,7 +296,38 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1903</fr:anchor><fr:addr>hodge-theory-iii-5.1.1</fr:addr><fr:route>hodge-theory-iii-5.1.1.xml</fr:route><fr:number>5.1.1</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We
+    We will us the following notation, where <fr:tex>n,k \geqslant-1</fr:tex> are integers.
+
+    <fr:ul><fr:li><fr:tex>\mathscr { A } ^ \circ</fr:tex>
+        = the opposite category of a category <fr:tex>\mathscr { A }</fr:tex></fr:li>
+      <fr:li><fr:tex>\underline { \operatorname {Hom} } ( \mathscr { A } , \mathscr { B } )</fr:tex>
+        = the category of functors from <fr:tex>\mathscr { A }</fr:tex> to <fr:tex>\mathscr { B }</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>\Delta _n</fr:tex>
+        = the finite totally ordered set <fr:tex>[0,n]</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>\delta _i \colon \Delta _n \to \Delta _{n+1}</fr:tex>
+        = the increasing injection such that <fr:tex>i \not \in \delta _i( \Delta _n)</fr:tex> (for <fr:tex>0 \leqslant  i \leqslant  n+1</fr:tex>).
+      </fr:li>
+      <fr:li><fr:tex>s_i \colon \Delta _{n+1} \to \Delta _n</fr:tex>
+        = the increasing surjection such that <fr:tex>s_i(i)=s_i(i+1)</fr:tex> (for <fr:tex>0 \leqslant  i \leqslant  n</fr:tex>).
+      </fr:li>
+      <fr:li><fr:tex>\varepsilon \colon \Delta _{-1} \to \Delta _n</fr:tex>
+        = the unique map from <fr:tex>\Delta _{-1}</fr:tex> to <fr:tex>\Delta _n</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>( \Delta ^+)</fr:tex>
+        = the category whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n \geqslant-1</fr:tex>) and whose morphisms are the increasing maps between the <fr:tex>\Delta _n</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>( \Delta )</fr:tex>
+        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n \geqslant0</fr:tex>).
+      </fr:li>
+      <fr:li><fr:tex>( \Delta ^+)_k</fr:tex>
+        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n</fr:tex>).
+      </fr:li>
+      <fr:li><fr:tex>( \Delta )_k</fr:tex>
+        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n \geqslant0</fr:tex>).
+      </fr:li></fr:ul></fr:p><fr:p>
+    For
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -324,7 +355,38 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"><fr:frontmatter><fr:anchor>1903</fr:anchor><fr:addr>hodge-theory-iii-5.1.1</fr:addr><fr:route>hodge-theory-iii-5.1.1.xml</fr:route><fr:number>5.1.1</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We
+    We will us the following notation, where <fr:tex>n,k \geqslant-1</fr:tex> are integers.
+
+    <fr:ul><fr:li><fr:tex>\mathscr { A } ^ \circ</fr:tex>
+        = the opposite category of a category <fr:tex>\mathscr { A }</fr:tex></fr:li>
+      <fr:li><fr:tex>\underline { \operatorname {Hom} } ( \mathscr { A } , \mathscr { B } )</fr:tex>
+        = the category of functors from <fr:tex>\mathscr { A }</fr:tex> to <fr:tex>\mathscr { B }</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>\Delta _n</fr:tex>
+        = the finite totally ordered set <fr:tex>[0,n]</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>\delta _i \colon \Delta _n \to \Delta _{n+1}</fr:tex>
+        = the increasing injection such that <fr:tex>i \not \in \delta _i( \Delta _n)</fr:tex> (for <fr:tex>0 \leqslant  i \leqslant  n+1</fr:tex>).
+      </fr:li>
+      <fr:li><fr:tex>s_i \colon \Delta _{n+1} \to \Delta _n</fr:tex>
+        = the increasing surjection such that <fr:tex>s_i(i)=s_i(i+1)</fr:tex> (for <fr:tex>0 \leqslant  i \leqslant  n</fr:tex>).
+      </fr:li>
+      <fr:li><fr:tex>\varepsilon \colon \Delta _{-1} \to \Delta _n</fr:tex>
+        = the unique map from <fr:tex>\Delta _{-1}</fr:tex> to <fr:tex>\Delta _n</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>( \Delta ^+)</fr:tex>
+        = the category whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n \geqslant-1</fr:tex>) and whose morphisms are the increasing maps between the <fr:tex>\Delta _n</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>( \Delta )</fr:tex>
+        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n \geqslant0</fr:tex>).
+      </fr:li>
+      <fr:li><fr:tex>( \Delta ^+)_k</fr:tex>
+        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n</fr:tex>).
+      </fr:li>
+      <fr:li><fr:tex>( \Delta )_k</fr:tex>
+        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n \geqslant0</fr:tex>).
+      </fr:li></fr:ul></fr:p><fr:p>
+    For
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
