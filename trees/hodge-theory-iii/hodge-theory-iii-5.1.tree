@@ -14,6 +14,54 @@
   \number{5.1.1}
 
   \p{
-    We
+    We will us the following notation, where #{n,k\geqslant-1} are integers.
+
+    \ul{
+      \li{
+        #{\cat{A}^\op}
+        = the opposite category of a category #{\cat{A}}
+      }
+      \li{
+        #{\iHom(\cat{A},\cat{B})}
+        = the category of functors from #{\cat{A}} to #{\cat{B}}.
+      }
+      \li{
+        #{\Delta_n}
+        = the finite totally ordered set #{[0,n]}.
+      }
+      \li{
+        #{\delta_i\colon\Delta_n\to\Delta_{n+1}}
+        = the increasing injection such that #{i\not\in\delta_i(\Delta_n)} (for #{0\leqslant i\leqslant n+1}).
+      }
+      \li{
+        #{s_i\colon\Delta_{n+1}\to\Delta_n}
+        = the increasing surjection such that #{s_i(i)=s_i(i+1)} (for #{0\leqslant i\leqslant n}).
+      }
+      \li{
+        #{\varepsilon\colon\Delta_{-1}\to\Delta_n}
+        = the unique map from #{\Delta_{-1}} to #{\Delta_n}.
+      }
+      \li{
+        #{(\Delta^+)}
+        = the category whose objects are the #{\Delta_n} (for #{n\geqslant-1}) and whose morphisms are the increasing maps between the #{\Delta_n}.
+      }
+      \li{
+        #{(\Delta)}
+        = the full subcategory of #{(\Delta^+)} whose objects are the #{\Delta_n} (for #{n\geqslant0}).
+      }
+      \li{
+        #{(\Delta^+)_k}
+        = the full subcategory of #{(\Delta^+)} whose objects are the #{\Delta_n} (for #{k\geqslant n}).
+      }
+      \li{
+        #{(\Delta)_k}
+        = the full subcategory of #{(\Delta^+)} whose objects are the #{\Delta_n} (for #{k\geqslant n\geqslant0}).
+      }
+    }
+  }
+
+  \p{
+    \oldpage{9}
+    For
   }
 }
