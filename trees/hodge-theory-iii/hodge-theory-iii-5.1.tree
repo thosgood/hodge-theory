@@ -62,6 +62,55 @@
 
   \p{
     \oldpage{9}
-    For
+    For any category #{\cat{C}}, we define a \em{simplicial object} (resp. \em{#{k}-truncated simplicial object}) of #{\cat{C}} to be an object of #{\iHom((\Delta)^0,\cat{C})} (resp. of #{\iHom((\Delta)^0_k,\cat{C})}).
+    Similarly, a \em{cosimplicial object} (resp. \em{#{k}-truncated cosimplicial object}) is an object of #{\iHom((\Delta),\cat{C})} (resp. of #{\iHom((\Delta)_k,\cat{C})}).
+  }
+
+  \p{
+    For #{k\geqslant-1}, the \em{#{k}-skeleton} functor is the restriction functor
+    ##{
+      \sq_k\colon
+      \iHom((\Delta)^0,\cat{C})
+      \to \iHom((\Delta)_k^0,\cat{C})
+    }
+    and the \em{#{k}-coskeleton} functor
+    ##{
+      \cosq_k\colon
+      \iHom((\Delta)_k^0,\cat{C})
+      \to \iHom((\Delta)^0,\cat{C}).
+    }
+    is the right adjoint to #{\sq_k}.
+    Let #{Y} be a simplicial object of #{\cat{C}}.
+    We also call the functor
+    ##{
+      \sq_k\colon
+      \iHom((\Delta)^0,\cat{C})/Y
+      \to \iHom((\Delta)_k^0,\cat{C})/\sq_k(Y)
+    }
+    the \em{skeleton}, and its right adjoint
+    ##{
+      \cosq_k^Y\colon
+      \iHom((\Delta)_k^0,\cat{C})/\sq_k(Y)
+      \to \iHom((\Delta)^0,\cat{C})/Y
+    }
+    is called the \em{coskeleton with respect to #{Y}}.
+  }
+
+  \p{
+    The coskeleton functors exist if finite projective limits exist in #{\cat{C}};
+    the relative coskeleton functors exist if fibred products do;
+    we have
+    ##{
+      \cosq_k^Y(X)
+      = \cosq_k(X) \times_{\cosq_k\sq_k(Y)}Y.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-5.1.2]{
+  \number{5.1.2}
+
+  \p{
+    If
   }
 }
