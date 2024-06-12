@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2008</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2011</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii.xml"
 type="local"
 addr="hodge-theory-iii">Hodge Theory III</fr:link> › Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -17,7 +17,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2004</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2007</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This section starts with some reminders for which we can refer to the homotopical seminar of Strasbourg, 1963/64.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -58,7 +58,38 @@ root="false"><fr:frontmatter><fr:anchor>1903</fr:anchor><fr:addr>hodge-theory-ii
       <fr:li><fr:tex>( \Delta )_k</fr:tex>
         = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n \geqslant0</fr:tex>).
       </fr:li></fr:ul></fr:p><fr:p>
-    For
+    For any category <fr:tex>\mathscr { C }</fr:tex>, we define a <fr:em>simplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated simplicial object</fr:em>) of <fr:tex>\mathscr { C }</fr:tex> to be an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0_k, \mathscr { C } )</fr:tex>).
+    Similarly, a <fr:em>cosimplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated cosimplicial object</fr:em>) is an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta ), \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )_k, \mathscr { C } )</fr:tex>).
+  </fr:p><fr:p>
+    For <fr:tex>k \geqslant-1</fr:tex>, the <fr:em><fr:tex>k</fr:tex>-skeleton</fr:em> functor is the restriction functor
+    <fr:tex
+display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )     </fr:tex>
+    and the <fr:em><fr:tex>k</fr:tex>-coskeleton</fr:em> functor
+    <fr:tex
+display="block">        \operatorname {cosq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } ).     </fr:tex>
+    is the right adjoint to <fr:tex>\operatorname {sq} _k</fr:tex>.
+    Let <fr:tex>Y</fr:tex> be a simplicial object of <fr:tex>\mathscr { C }</fr:tex>.
+    We also call the functor
+    <fr:tex
+display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)     </fr:tex>
+    the <fr:em>skeleton</fr:em>, and its right adjoint
+    <fr:tex
+display="block">        \operatorname {cosq} _k^Y \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y     </fr:tex>
+    is called the <fr:em>coskeleton with respect to <fr:tex>Y</fr:tex></fr:em>.
+  </fr:p><fr:p>
+    The coskeleton functors exist if finite projective limits exist in <fr:tex>\mathscr { C }</fr:tex>;
+    the relative coskeleton functors exist if fibred products do;
+    we have
+    <fr:tex
+display="block">        \operatorname {cosq} _k^Y(X)       =  \operatorname {cosq} _k(X)  \times _{ \operatorname {cosq} _k \operatorname {sq} _k(Y)}Y.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1904</fr:anchor><fr:addr>hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -66,12 +97,12 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2007</fr:anchor><fr:taxon>Volume</fr:taxon><fr:addr>hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title>Hodge Theory III</fr:title><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2010</fr:anchor><fr:taxon>Volume</fr:taxon><fr:addr>hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title>Hodge Theory III</fr:title><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>
   P. Deligne.
   "Théorie de Hodge II".
   <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>44</fr:strong> (1974) pp. 5–77.
   <fr:link
-href="https://publications.ias.edu/node/361"
+href="https://publications.ias.edu/node/373"
 type="external">publications.ias.edu/node/361</fr:link></fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -79,7 +110,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2002</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2005</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This article follows <fr:link
 href="hodge-theory-i.xml"
 type="local"
@@ -249,7 +280,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2003</fr:anchor><fr:addr>hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title>Terminology and notation</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2006</fr:anchor><fr:addr>hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title>Terminology and notation</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -338,14 +369,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2005</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title>Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2008</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title>Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2004</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2007</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This section starts with some reminders for which we can refer to the homotopical seminar of Strasbourg, 1963/64.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -386,7 +417,38 @@ root="false"><fr:frontmatter><fr:anchor>1903</fr:anchor><fr:addr>hodge-theory-ii
       <fr:li><fr:tex>( \Delta )_k</fr:tex>
         = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n \geqslant0</fr:tex>).
       </fr:li></fr:ul></fr:p><fr:p>
-    For
+    For any category <fr:tex>\mathscr { C }</fr:tex>, we define a <fr:em>simplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated simplicial object</fr:em>) of <fr:tex>\mathscr { C }</fr:tex> to be an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0_k, \mathscr { C } )</fr:tex>).
+    Similarly, a <fr:em>cosimplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated cosimplicial object</fr:em>) is an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta ), \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )_k, \mathscr { C } )</fr:tex>).
+  </fr:p><fr:p>
+    For <fr:tex>k \geqslant-1</fr:tex>, the <fr:em><fr:tex>k</fr:tex>-skeleton</fr:em> functor is the restriction functor
+    <fr:tex
+display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )     </fr:tex>
+    and the <fr:em><fr:tex>k</fr:tex>-coskeleton</fr:em> functor
+    <fr:tex
+display="block">        \operatorname {cosq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } ).     </fr:tex>
+    is the right adjoint to <fr:tex>\operatorname {sq} _k</fr:tex>.
+    Let <fr:tex>Y</fr:tex> be a simplicial object of <fr:tex>\mathscr { C }</fr:tex>.
+    We also call the functor
+    <fr:tex
+display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)     </fr:tex>
+    the <fr:em>skeleton</fr:em>, and its right adjoint
+    <fr:tex
+display="block">        \operatorname {cosq} _k^Y \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y     </fr:tex>
+    is called the <fr:em>coskeleton with respect to <fr:tex>Y</fr:tex></fr:em>.
+  </fr:p><fr:p>
+    The coskeleton functors exist if finite projective limits exist in <fr:tex>\mathscr { C }</fr:tex>;
+    the relative coskeleton functors exist if fibred products do;
+    we have
+    <fr:tex
+display="block">        \operatorname {cosq} _k^Y(X)       =  \operatorname {cosq} _k(X)  \times _{ \operatorname {cosq} _k \operatorname {sq} _k(Y)}Y.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1904</fr:anchor><fr:addr>hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -394,12 +456,12 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2006</fr:anchor><fr:taxon>Volume</fr:taxon><fr:addr>hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title>Hodge Theory III</fr:title><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2009</fr:anchor><fr:taxon>Volume</fr:taxon><fr:addr>hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title>Hodge Theory III</fr:title><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>
   P. Deligne.
   "Théorie de Hodge II".
   <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>44</fr:strong> (1974) pp. 5–77.
   <fr:link
-href="https://publications.ias.edu/node/361"
+href="https://publications.ias.edu/node/373"
 type="external">publications.ias.edu/node/361</fr:link></fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -407,7 +469,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2002</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2005</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This article follows <fr:link
 href="hodge-theory-i.xml"
 type="local"
@@ -577,7 +639,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2003</fr:anchor><fr:addr>hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title>Terminology and notation</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2006</fr:anchor><fr:addr>hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title>Terminology and notation</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -666,14 +728,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2005</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title>Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2008</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title>Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2004</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2007</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This section starts with some reminders for which we can refer to the homotopical seminar of Strasbourg, 1963/64.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -714,7 +776,38 @@ root="false"><fr:frontmatter><fr:anchor>1903</fr:anchor><fr:addr>hodge-theory-ii
       <fr:li><fr:tex>( \Delta )_k</fr:tex>
         = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n \geqslant0</fr:tex>).
       </fr:li></fr:ul></fr:p><fr:p>
-    For
+    For any category <fr:tex>\mathscr { C }</fr:tex>, we define a <fr:em>simplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated simplicial object</fr:em>) of <fr:tex>\mathscr { C }</fr:tex> to be an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0_k, \mathscr { C } )</fr:tex>).
+    Similarly, a <fr:em>cosimplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated cosimplicial object</fr:em>) is an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta ), \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )_k, \mathscr { C } )</fr:tex>).
+  </fr:p><fr:p>
+    For <fr:tex>k \geqslant-1</fr:tex>, the <fr:em><fr:tex>k</fr:tex>-skeleton</fr:em> functor is the restriction functor
+    <fr:tex
+display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )     </fr:tex>
+    and the <fr:em><fr:tex>k</fr:tex>-coskeleton</fr:em> functor
+    <fr:tex
+display="block">        \operatorname {cosq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } ).     </fr:tex>
+    is the right adjoint to <fr:tex>\operatorname {sq} _k</fr:tex>.
+    Let <fr:tex>Y</fr:tex> be a simplicial object of <fr:tex>\mathscr { C }</fr:tex>.
+    We also call the functor
+    <fr:tex
+display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)     </fr:tex>
+    the <fr:em>skeleton</fr:em>, and its right adjoint
+    <fr:tex
+display="block">        \operatorname {cosq} _k^Y \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y     </fr:tex>
+    is called the <fr:em>coskeleton with respect to <fr:tex>Y</fr:tex></fr:em>.
+  </fr:p><fr:p>
+    The coskeleton functors exist if finite projective limits exist in <fr:tex>\mathscr { C }</fr:tex>;
+    the relative coskeleton functors exist if fibred products do;
+    we have
+    <fr:tex
+display="block">        \operatorname {cosq} _k^Y(X)       =  \operatorname {cosq} _k(X)  \times _{ \operatorname {cosq} _k \operatorname {sq} _k(Y)}Y.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1904</fr:anchor><fr:addr>hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -722,7 +815,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>2000</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>2003</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>
       "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
@@ -1206,7 +1299,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2001</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2004</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii-5.xml"
 type="local"
 addr="hodge-theory-iii-5"><fr:link
@@ -1253,5 +1346,36 @@ root="false"><fr:frontmatter><fr:anchor>1903</fr:anchor><fr:addr>hodge-theory-ii
       <fr:li><fr:tex>( \Delta )_k</fr:tex>
         = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n \geqslant0</fr:tex>).
       </fr:li></fr:ul></fr:p><fr:p>
-    For
+    For any category <fr:tex>\mathscr { C }</fr:tex>, we define a <fr:em>simplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated simplicial object</fr:em>) of <fr:tex>\mathscr { C }</fr:tex> to be an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0_k, \mathscr { C } )</fr:tex>).
+    Similarly, a <fr:em>cosimplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated cosimplicial object</fr:em>) is an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta ), \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )_k, \mathscr { C } )</fr:tex>).
+  </fr:p><fr:p>
+    For <fr:tex>k \geqslant-1</fr:tex>, the <fr:em><fr:tex>k</fr:tex>-skeleton</fr:em> functor is the restriction functor
+    <fr:tex
+display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )     </fr:tex>
+    and the <fr:em><fr:tex>k</fr:tex>-coskeleton</fr:em> functor
+    <fr:tex
+display="block">        \operatorname {cosq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } ).     </fr:tex>
+    is the right adjoint to <fr:tex>\operatorname {sq} _k</fr:tex>.
+    Let <fr:tex>Y</fr:tex> be a simplicial object of <fr:tex>\mathscr { C }</fr:tex>.
+    We also call the functor
+    <fr:tex
+display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)     </fr:tex>
+    the <fr:em>skeleton</fr:em>, and its right adjoint
+    <fr:tex
+display="block">        \operatorname {cosq} _k^Y \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y     </fr:tex>
+    is called the <fr:em>coskeleton with respect to <fr:tex>Y</fr:tex></fr:em>.
+  </fr:p><fr:p>
+    The coskeleton functors exist if finite projective limits exist in <fr:tex>\mathscr { C }</fr:tex>;
+    the relative coskeleton functors exist if fibred products do;
+    we have
+    <fr:tex
+display="block">        \operatorname {cosq} _k^Y(X)       =  \operatorname {cosq} _k(X)  \times _{ \operatorname {cosq} _k \operatorname {sq} _k(Y)}Y.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1904</fr:anchor><fr:addr>hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

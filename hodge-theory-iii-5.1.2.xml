@@ -7,69 +7,16 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1906</fr:anchor><fr:addr>hodge-theory-iii-5.1.1</fr:addr><fr:route>hodge-theory-iii-5.1.1.xml</fr:route><fr:number>5.1.1</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We will us the following notation, where <fr:tex>n,k \geqslant-1</fr:tex> are integers.
-
-    <fr:ul><fr:li><fr:tex>\mathscr { A } ^ \circ</fr:tex>
-        = the opposite category of a category <fr:tex>\mathscr { A }</fr:tex></fr:li>
-      <fr:li><fr:tex>\underline { \operatorname {Hom} } ( \mathscr { A } , \mathscr { B } )</fr:tex>
-        = the category of functors from <fr:tex>\mathscr { A }</fr:tex> to <fr:tex>\mathscr { B }</fr:tex>.
-      </fr:li>
-      <fr:li><fr:tex>\Delta _n</fr:tex>
-        = the finite totally ordered set <fr:tex>[0,n]</fr:tex>.
-      </fr:li>
-      <fr:li><fr:tex>\delta _i \colon \Delta _n \to \Delta _{n+1}</fr:tex>
-        = the increasing injection such that <fr:tex>i \not \in \delta _i( \Delta _n)</fr:tex> (for <fr:tex>0 \leqslant  i \leqslant  n+1</fr:tex>).
-      </fr:li>
-      <fr:li><fr:tex>s_i \colon \Delta _{n+1} \to \Delta _n</fr:tex>
-        = the increasing surjection such that <fr:tex>s_i(i)=s_i(i+1)</fr:tex> (for <fr:tex>0 \leqslant  i \leqslant  n</fr:tex>).
-      </fr:li>
-      <fr:li><fr:tex>\varepsilon \colon \Delta _{-1} \to \Delta _n</fr:tex>
-        = the unique map from <fr:tex>\Delta _{-1}</fr:tex> to <fr:tex>\Delta _n</fr:tex>.
-      </fr:li>
-      <fr:li><fr:tex>( \Delta ^+)</fr:tex>
-        = the category whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n \geqslant-1</fr:tex>) and whose morphisms are the increasing maps between the <fr:tex>\Delta _n</fr:tex>.
-      </fr:li>
-      <fr:li><fr:tex>( \Delta )</fr:tex>
-        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n \geqslant0</fr:tex>).
-      </fr:li>
-      <fr:li><fr:tex>( \Delta ^+)_k</fr:tex>
-        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n</fr:tex>).
-      </fr:li>
-      <fr:li><fr:tex>( \Delta )_k</fr:tex>
-        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n \geqslant0</fr:tex>).
-      </fr:li></fr:ul></fr:p><fr:p>
-    For any category <fr:tex>\mathscr { C }</fr:tex>, we define a <fr:em>simplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated simplicial object</fr:em>) of <fr:tex>\mathscr { C }</fr:tex> to be an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0_k, \mathscr { C } )</fr:tex>).
-    Similarly, a <fr:em>cosimplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated cosimplicial object</fr:em>) is an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta ), \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )_k, \mathscr { C } )</fr:tex>).
-  </fr:p><fr:p>
-    For <fr:tex>k \geqslant-1</fr:tex>, the <fr:em><fr:tex>k</fr:tex>-skeleton</fr:em> functor is the restriction functor
-    <fr:tex
-display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )     </fr:tex>
-    and the <fr:em><fr:tex>k</fr:tex>-coskeleton</fr:em> functor
-    <fr:tex
-display="block">        \operatorname {cosq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } ).     </fr:tex>
-    is the right adjoint to <fr:tex>\operatorname {sq} _k</fr:tex>.
-    Let <fr:tex>Y</fr:tex> be a simplicial object of <fr:tex>\mathscr { C }</fr:tex>.
-    We also call the functor
-    <fr:tex
-display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)     </fr:tex>
-    the <fr:em>skeleton</fr:em>, and its right adjoint
-    <fr:tex
-display="block">        \operatorname {cosq} _k^Y \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y     </fr:tex>
-    is called the <fr:em>coskeleton with respect to <fr:tex>Y</fr:tex></fr:em>.
-  </fr:p><fr:p>
-    The coskeleton functors exist if finite projective limits exist in <fr:tex>\mathscr { C }</fr:tex>;
-    the relative coskeleton functors exist if fibred products do;
-    we have
-    <fr:tex
-display="block">        \operatorname {cosq} _k^Y(X)       =  \operatorname {cosq} _k(X)  \times _{ \operatorname {cosq} _k \operatorname {sq} _k(Y)}Y.     </fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1908</fr:anchor><fr:addr>hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1905</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1907</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii-5.xml"
 type="local"
 addr="hodge-theory-iii-5"><fr:link
