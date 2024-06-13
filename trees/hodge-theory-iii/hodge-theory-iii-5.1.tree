@@ -236,6 +236,39 @@
   \number{5.1.7}
 
   \p{
-    For
+    For an open #{U} of #{X_n}, let #{F^\bullet(U)=F^n(U)}.
+    For #{f\colon\Delta_n\to\Delta_m}, #{U\subset X_n}, and #{V\subset X_m} such that #{X_\bullet(f)(V)\subset(U)}, let #{F^\bullet(f,V,U)\colon F^\bullet(U)\to F^\bullet(V)} be the map induced by #{F^\bullet(f)}.
+    We immediately see that the system of sets #{F^\bullet(U)} (indexed by #{n\geqslant0} and #{U\subset X_n}) and of maps #{F^\bullet(f,V,U)} uniquely determines #{F^\bullet} (cf. \ref{hodge-theory-iii-5.1.5}).
+    For such a system to come from a sheaf on #{X_\bullet}, it is necessary and sufficient that:
+
+    \olc{
+      \lic{a.}{
+        #{F^\bullet(fg,U,W)=F^\bullet(f,U,V)F^\bullet(g,V,W)} whenever this makes sense;
+      }
+      \lic{b.}{
+        for any #{n}, the #{F^\bullet(U)} for #{U\subset X_n} form a sheaf on #{X_n}.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-5.1.8]{
+  \number{5.1.8}
+
+  \p{
+    This shows that sheaves on #{X_\bullet} can be interpreted as sheaves on a suitable site, and, in particular, form a topos #{(X_\bullet)^\sim}.
+    We freely use, for sheaves on #{X_\bullet}, the modern terminology for sheaves on a site.
+    With this in mind, a sheaf #{F^\bullet} of abelian groups (resp. of rings, ...) is a system of sheaves #{F^n} of abelian groups (resp. of rings, ...) on the #{X_n} along with the morphisms #{F^\bullet(f)}.
+  }
+}
+
+\subtree[hodge-theory-iii-5.1.9]{
+  \taxon{examples}
+  \number{5.1.9}
+
+  \olc{
+    \lic{I.}{
+      Let
+    }
   }
 }
