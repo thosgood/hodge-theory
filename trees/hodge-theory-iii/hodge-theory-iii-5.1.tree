@@ -111,6 +111,33 @@
   \number{5.1.2}
 
   \p{
-    If
+    If #{X_\bullet\colon(\Delta)^0\to\cat{C}} is a simplicial object of #{\cat{C}}, then we set
+
+    \ul{
+      \li{
+        #{X_n = X_\bullet(\Delta_n)}
+      }
+      \li{
+        #{\delta_i = X_\bullet(\delta_i\colon\Delta_n\to\Delta_{n+1})\colon X_{n+1}\to X_n}
+      }
+      \li{
+        #{s_i = X_\bullet(s_i\colon\Delta_{n+1}\to\Delta_n)\colon X_n\to X_{n+1}}.
+      }
+    }
+
+    \tikzcd{
+      X_\bullet = \Big(\ldots\quad
+      X_2
+        \ar[r,"\delta_1" description]
+        \ar[r,shift left=6,"\delta_0" description]
+        \ar[r,shift right=6,"\delta_2" description]
+      & X_1
+        \ar[r,shift left=3,"\delta_0" description]
+        \ar[r,shift right=3,"\delta_1" description]
+        \ar[l,shift right=3,"s_0" description]
+        \ar[l,shift left=3,"s_1" description]
+      & X_0\Big)
+        \ar[l,"s_0" description]
+    }
   }
 }
