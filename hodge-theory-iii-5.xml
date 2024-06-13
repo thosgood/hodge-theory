@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2032</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2045</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii.xml"
 type="local"
 addr="hodge-theory-iii">Hodge Theory III</fr:link> › Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -17,7 +17,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2028</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2041</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This section starts with some reminders for which we can refer to the homotopical seminar of Strasbourg, 1963/64.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -219,16 +219,66 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1913</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    For
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1916</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For an open <fr:tex>U</fr:tex> of <fr:tex>X_n</fr:tex>, let <fr:tex>F^ \bullet (U)=F^n(U)</fr:tex>.
+    For <fr:tex>f \colon \Delta _n \to \Delta _m</fr:tex>, <fr:tex>U \subset  X_n</fr:tex>, and <fr:tex>V \subset  X_m</fr:tex> such that <fr:tex>X_ \bullet (f)(V) \subset (U)</fr:tex>, let <fr:tex>F^ \bullet (f,V,U) \colon  F^ \bullet (U) \to  F^ \bullet (V)</fr:tex> be the map induced by <fr:tex>F^ \bullet (f)</fr:tex>.
+    We immediately see that the system of sets <fr:tex>F^ \bullet (U)</fr:tex> (indexed by <fr:tex>n \geqslant0</fr:tex> and <fr:tex>U \subset  X_n</fr:tex>) and of maps <fr:tex>F^ \bullet (f,V,U)</fr:tex> uniquely determines <fr:tex>F^ \bullet</fr:tex> (cf. <fr:ref
+addr="hodge-theory-iii-5.1.5"
+href="hodge-theory-iii-5.1.5.xml"
+number="5.1.5"></fr:ref>).
+    For such a system to come from a sheaf on <fr:tex>X_ \bullet</fr:tex>, it is necessary and sufficient that:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>F^ \bullet (fg,U,W)=F^ \bullet (f,U,V)F^ \bullet (g,V,W)</fr:tex> whenever this makes sense;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        for any <fr:tex>n</fr:tex>, the <fr:tex>F^ \bullet (U)</fr:tex> for <fr:tex>U \subset  X_n</fr:tex> form a sheaf on <fr:tex>X_n</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1917</fr:anchor><fr:addr>hodge-theory-iii-5.1.8</fr:addr><fr:route>hodge-theory-iii-5.1.8.xml</fr:route><fr:number>5.1.8</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    This shows that sheaves on <fr:tex>X_ \bullet</fr:tex> can be interpreted as sheaves on a suitable site, and, in particular, form a topos <fr:tex>(X_ \bullet )^ \sim</fr:tex>.
+    We freely use, for sheaves on <fr:tex>X_ \bullet</fr:tex>, the modern terminology for sheaves on a site.
+    With this in mind, a sheaf <fr:tex>F^ \bullet</fr:tex> of abelian groups (resp. of rings, ...) is a system of sheaves <fr:tex>F^n</fr:tex> of abelian groups (resp. of rings, ...) on the <fr:tex>X_n</fr:tex> along with the morphisms <fr:tex>F^ \bullet (f)</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1920</fr:anchor><fr:taxon>Examples</fr:taxon><fr:addr>hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+      Let
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2031</fr:anchor><fr:taxon>Volume</fr:taxon><fr:addr>hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title>Hodge Theory III</fr:title><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2044</fr:anchor><fr:taxon>Volume</fr:taxon><fr:addr>hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title>Hodge Theory III</fr:title><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>
   P. Deligne.
   "Théorie de Hodge II".
   <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>44</fr:strong> (1974) pp. 5–77.
@@ -241,7 +291,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2026</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2039</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This article follows <fr:link
 href="hodge-theory-i.xml"
 type="local"
@@ -411,7 +461,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2027</fr:anchor><fr:addr>hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title>Terminology and notation</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2040</fr:anchor><fr:addr>hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title>Terminology and notation</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -500,14 +550,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2029</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title>Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2042</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title>Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2028</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2041</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This section starts with some reminders for which we can refer to the homotopical seminar of Strasbourg, 1963/64.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -709,16 +759,66 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1913</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    For
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1916</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For an open <fr:tex>U</fr:tex> of <fr:tex>X_n</fr:tex>, let <fr:tex>F^ \bullet (U)=F^n(U)</fr:tex>.
+    For <fr:tex>f \colon \Delta _n \to \Delta _m</fr:tex>, <fr:tex>U \subset  X_n</fr:tex>, and <fr:tex>V \subset  X_m</fr:tex> such that <fr:tex>X_ \bullet (f)(V) \subset (U)</fr:tex>, let <fr:tex>F^ \bullet (f,V,U) \colon  F^ \bullet (U) \to  F^ \bullet (V)</fr:tex> be the map induced by <fr:tex>F^ \bullet (f)</fr:tex>.
+    We immediately see that the system of sets <fr:tex>F^ \bullet (U)</fr:tex> (indexed by <fr:tex>n \geqslant0</fr:tex> and <fr:tex>U \subset  X_n</fr:tex>) and of maps <fr:tex>F^ \bullet (f,V,U)</fr:tex> uniquely determines <fr:tex>F^ \bullet</fr:tex> (cf. <fr:ref
+addr="hodge-theory-iii-5.1.5"
+href="hodge-theory-iii-5.1.5.xml"
+number="5.1.5"></fr:ref>).
+    For such a system to come from a sheaf on <fr:tex>X_ \bullet</fr:tex>, it is necessary and sufficient that:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>F^ \bullet (fg,U,W)=F^ \bullet (f,U,V)F^ \bullet (g,V,W)</fr:tex> whenever this makes sense;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        for any <fr:tex>n</fr:tex>, the <fr:tex>F^ \bullet (U)</fr:tex> for <fr:tex>U \subset  X_n</fr:tex> form a sheaf on <fr:tex>X_n</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1917</fr:anchor><fr:addr>hodge-theory-iii-5.1.8</fr:addr><fr:route>hodge-theory-iii-5.1.8.xml</fr:route><fr:number>5.1.8</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    This shows that sheaves on <fr:tex>X_ \bullet</fr:tex> can be interpreted as sheaves on a suitable site, and, in particular, form a topos <fr:tex>(X_ \bullet )^ \sim</fr:tex>.
+    We freely use, for sheaves on <fr:tex>X_ \bullet</fr:tex>, the modern terminology for sheaves on a site.
+    With this in mind, a sheaf <fr:tex>F^ \bullet</fr:tex> of abelian groups (resp. of rings, ...) is a system of sheaves <fr:tex>F^n</fr:tex> of abelian groups (resp. of rings, ...) on the <fr:tex>X_n</fr:tex> along with the morphisms <fr:tex>F^ \bullet (f)</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1920</fr:anchor><fr:taxon>Examples</fr:taxon><fr:addr>hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+      Let
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2030</fr:anchor><fr:taxon>Volume</fr:taxon><fr:addr>hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title>Hodge Theory III</fr:title><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2043</fr:anchor><fr:taxon>Volume</fr:taxon><fr:addr>hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title>Hodge Theory III</fr:title><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>
   P. Deligne.
   "Théorie de Hodge II".
   <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>44</fr:strong> (1974) pp. 5–77.
@@ -731,7 +831,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2026</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2039</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title>Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This article follows <fr:link
 href="hodge-theory-i.xml"
 type="local"
@@ -901,7 +1001,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2027</fr:anchor><fr:addr>hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title>Terminology and notation</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2040</fr:anchor><fr:addr>hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title>Terminology and notation</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -990,14 +1090,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>2029</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title>Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2042</fr:anchor><fr:addr>hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title>Cohomological descent</fr:title><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2028</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2041</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title>Simplicial topological spaces</fr:title><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
   This section starts with some reminders for which we can refer to the homotopical seminar of Strasbourg, 1963/64.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -1199,16 +1299,66 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1913</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    For
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1916</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For an open <fr:tex>U</fr:tex> of <fr:tex>X_n</fr:tex>, let <fr:tex>F^ \bullet (U)=F^n(U)</fr:tex>.
+    For <fr:tex>f \colon \Delta _n \to \Delta _m</fr:tex>, <fr:tex>U \subset  X_n</fr:tex>, and <fr:tex>V \subset  X_m</fr:tex> such that <fr:tex>X_ \bullet (f)(V) \subset (U)</fr:tex>, let <fr:tex>F^ \bullet (f,V,U) \colon  F^ \bullet (U) \to  F^ \bullet (V)</fr:tex> be the map induced by <fr:tex>F^ \bullet (f)</fr:tex>.
+    We immediately see that the system of sets <fr:tex>F^ \bullet (U)</fr:tex> (indexed by <fr:tex>n \geqslant0</fr:tex> and <fr:tex>U \subset  X_n</fr:tex>) and of maps <fr:tex>F^ \bullet (f,V,U)</fr:tex> uniquely determines <fr:tex>F^ \bullet</fr:tex> (cf. <fr:ref
+addr="hodge-theory-iii-5.1.5"
+href="hodge-theory-iii-5.1.5.xml"
+number="5.1.5"></fr:ref>).
+    For such a system to come from a sheaf on <fr:tex>X_ \bullet</fr:tex>, it is necessary and sufficient that:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>F^ \bullet (fg,U,W)=F^ \bullet (f,U,V)F^ \bullet (g,V,W)</fr:tex> whenever this makes sense;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        for any <fr:tex>n</fr:tex>, the <fr:tex>F^ \bullet (U)</fr:tex> for <fr:tex>U \subset  X_n</fr:tex> form a sheaf on <fr:tex>X_n</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1917</fr:anchor><fr:addr>hodge-theory-iii-5.1.8</fr:addr><fr:route>hodge-theory-iii-5.1.8.xml</fr:route><fr:number>5.1.8</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    This shows that sheaves on <fr:tex>X_ \bullet</fr:tex> can be interpreted as sheaves on a suitable site, and, in particular, form a topos <fr:tex>(X_ \bullet )^ \sim</fr:tex>.
+    We freely use, for sheaves on <fr:tex>X_ \bullet</fr:tex>, the modern terminology for sheaves on a site.
+    With this in mind, a sheaf <fr:tex>F^ \bullet</fr:tex> of abelian groups (resp. of rings, ...) is a system of sheaves <fr:tex>F^n</fr:tex> of abelian groups (resp. of rings, ...) on the <fr:tex>X_n</fr:tex> along with the morphisms <fr:tex>F^ \bullet (f)</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1920</fr:anchor><fr:taxon>Examples</fr:taxon><fr:addr>hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+      Let
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>2024</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>2037</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>
       "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
@@ -1692,7 +1842,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2025</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2038</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii-5.xml"
 type="local"
 addr="hodge-theory-iii-5"><fr:link
@@ -1900,6 +2050,56 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1913</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    For
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1916</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For an open <fr:tex>U</fr:tex> of <fr:tex>X_n</fr:tex>, let <fr:tex>F^ \bullet (U)=F^n(U)</fr:tex>.
+    For <fr:tex>f \colon \Delta _n \to \Delta _m</fr:tex>, <fr:tex>U \subset  X_n</fr:tex>, and <fr:tex>V \subset  X_m</fr:tex> such that <fr:tex>X_ \bullet (f)(V) \subset (U)</fr:tex>, let <fr:tex>F^ \bullet (f,V,U) \colon  F^ \bullet (U) \to  F^ \bullet (V)</fr:tex> be the map induced by <fr:tex>F^ \bullet (f)</fr:tex>.
+    We immediately see that the system of sets <fr:tex>F^ \bullet (U)</fr:tex> (indexed by <fr:tex>n \geqslant0</fr:tex> and <fr:tex>U \subset  X_n</fr:tex>) and of maps <fr:tex>F^ \bullet (f,V,U)</fr:tex> uniquely determines <fr:tex>F^ \bullet</fr:tex> (cf. <fr:ref
+addr="hodge-theory-iii-5.1.5"
+href="hodge-theory-iii-5.1.5.xml"
+number="5.1.5"></fr:ref>).
+    For such a system to come from a sheaf on <fr:tex>X_ \bullet</fr:tex>, it is necessary and sufficient that:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        <fr:tex>F^ \bullet (fg,U,W)=F^ \bullet (f,U,V)F^ \bullet (g,V,W)</fr:tex> whenever this makes sense;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        for any <fr:tex>n</fr:tex>, the <fr:tex>F^ \bullet (U)</fr:tex> for <fr:tex>U \subset  X_n</fr:tex> form a sheaf on <fr:tex>X_n</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1917</fr:anchor><fr:addr>hodge-theory-iii-5.1.8</fr:addr><fr:route>hodge-theory-iii-5.1.8.xml</fr:route><fr:number>5.1.8</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    This shows that sheaves on <fr:tex>X_ \bullet</fr:tex> can be interpreted as sheaves on a suitable site, and, in particular, form a topos <fr:tex>(X_ \bullet )^ \sim</fr:tex>.
+    We freely use, for sheaves on <fr:tex>X_ \bullet</fr:tex>, the modern terminology for sheaves on a site.
+    With this in mind, a sheaf <fr:tex>F^ \bullet</fr:tex> of abelian groups (resp. of rings, ...) is a system of sheaves <fr:tex>F^n</fr:tex> of abelian groups (resp. of rings, ...) on the <fr:tex>X_n</fr:tex> along with the morphisms <fr:tex>F^ \bullet (f)</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1920</fr:anchor><fr:taxon>Examples</fr:taxon><fr:addr>hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+      Let
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
