@@ -7,41 +7,38 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1917</fr:anchor><fr:addr>hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>X_ \bullet \colon ( \Delta )^0 \to \mathscr { C }</fr:tex> is a simplicial object of <fr:tex>\mathscr { C }</fr:tex>, then we set
-
-    <fr:ul><fr:li><fr:tex>X_n = X_ \bullet ( \Delta _n)</fr:tex></fr:li>
-      <fr:li><fr:tex>\delta _i = X_ \bullet ( \delta _i \colon \Delta _n \to \Delta _{n+1}) \colon  X_{n+1} \to  X_n</fr:tex></fr:li>
-      <fr:li><fr:tex>s_i = X_ \bullet (s_i \colon \Delta _{n+1} \to \Delta _n) \colon  X_n \to  X_{n+1}</fr:tex>.
-      </fr:li></fr:ul>
+root="false"><fr:frontmatter><fr:anchor>1927</fr:anchor><fr:addr>hodge-theory-iii-5.1.6</fr:addr><fr:route>hodge-theory-iii-5.1.6.xml</fr:route><fr:number>5.1.6</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A <fr:em>simplicial topological space</fr:em> is a simplicial object of the category whose objects are topological spaces and whose morphisms are continuous maps.
+  </fr:p><fr:p>
+    A <fr:em>sheaf</fr:em> <fr:tex>F^ \bullet</fr:tex> on a simplicial topological space <fr:tex>X_ \bullet</fr:tex> consists of
 
     
-  <fr:embedded-tex
-hash="8511a81bc85874e38f3b108665a1b706"><fr:embedded-tex-preamble>
-     \usepackage {amsmath}
-     \usepackage {amssymb}
-     \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
-      X_ \bullet  =  \Big ( \ldots \quad 
-      X_2
-         \ar [r," \delta _1" description]
-         \ar [r,shift left=6," \delta _0" description]
-         \ar [r,shift right=6," \delta _2" description]
-      &amp; X_1
-         \ar [r,shift left=3," \delta _0" description]
-         \ar [r,shift right=3," \delta _1" description]
-         \ar [l,shift right=3,"s_0" description]
-         \ar [l,shift left=3,"s_1" description]
-      &amp; X_0 \Big )
-         \ar [l,"s_0" description]
-     \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;a. &quot;">
+        a family of sheaves <fr:tex>F^n</fr:tex> on the <fr:tex>X_n</fr:tex>;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;b. &quot;">
+        for all <fr:tex>f \colon \Delta _n \to \Delta _m</fr:tex>, an <fr:tex>X_ \bullet (f)</fr:tex>-morphism <fr:tex>F^ \bullet (f)</fr:tex> from <fr:tex>F^n</fr:tex> to <fr:tex>F^m</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    We further require that <fr:tex>F^ \bullet (f \circ  g)=F^ \bullet (f) \circ  F^ \bullet (g)</fr:tex>.
+  </fr:p><fr:p>
+    A morphism <fr:tex>u</fr:tex> from <fr:tex>F^ \bullet</fr:tex> to <fr:tex>G^ \bullet</fr:tex> is a family of morphisms <fr:tex>u^n \colon  F^n \to  G^n</fr:tex> such that, for all <fr:tex>f \in \operatorname {Hom} _{( \Delta )}( \Delta _n, \Delta _m)</fr:tex>, we have that <fr:tex>u^m \circ  F^ \bullet (f)=G^ \bullet (f) \circ  u^n</fr:tex>.
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1916</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1926</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii-5.xml"
 type="local"
 addr="hodge-theory-iii-5"><fr:link
