@@ -268,7 +268,108 @@
 
   \olc{
     \lic{I.}{
-      Let
+      Let #{X_\bullet} be a simplicial analytic space.
+      The structure sheaves #{\OO_{X_n}} form a sheaf of rings on #{X_\bullet}.
     }
+
+    \lic{II.}{
+      Let #{X_\bullet} be a simplicial analytic space augmented over #{S}.
+      The sheaves #{\Omega_{X_n/S}^1} form a sheaf of #{\OO}-modules on #{X_\bullet}.
+      Its #{i}-th exterior power is the sheaf of #{\OO}-modules #{(\Omega_{X_n/S}^i)_{n\geqslant0}} denoted #{\Omega_{X_\bullet{/}S}^i}.
+      \oldpage{11}
+      The de Rham complexes #{(\Omega_{X_n/S}^\bullet)_{n\geqslant0}} form a complex of sheaves on #{X_\bullet}.
+    }
+
+    \lic{III.}{
+      Let #{F^\bullet} be a sheaf of abelian groups on #{X_\bullet}.
+      The canonical flasque Godement resolutions #{\mathscr{C}^\bullet(F^n)} form a complex of sheaves on #{X_\bullet} that is a resolution of #{F^\bullet}.
+    }
+
+    \lic{IV.}{
+      Let #{S} be a topological space.
+      Sheaves #{F^\bullet} on the constant simplicial space #{S_\bullet} can be identified with cosimplicial sheaves on #{S^\bullet}.
+      In particular, an abelian sheaf #{F^\bullet} on #{S_\bullet} defines a differential complex #{(F^n,d=\sum_i(-1)^i\delta_i)}.
+      A complex #{K} of abelian sheaves on #{S_\bullet} defines a double complex #{(K^{n,m})} that we again denote by #{K} (here #{m} is the cosimplicial degree) and whose associated simple complex #{\simp{K}} is
+
+      \subtree[hodge-theory-iii-5.1.9.1]{
+        \taxon{equation}
+        \number{5.1.9.1}
+        ##{
+          (\simp{K})^n
+          = \bigoplus_{p+q=n} K^{pq}
+        \startverb\tag{5.1.9.1}\stopverb
+        }
+      }
+
+      with differential given by
+
+      \subtree[hodge-theory-iii-5.1.9.2]{
+        \taxon{equation}
+        \number{5.1.9.2}
+        ##{
+          \dd(x^{pq})
+          = \dd_K(x^{pq}) + (-1)^p\sum_i(-1)^i\delta_i x^{pq}.
+        \startverb\tag{5.1.9.2}\stopverb
+        }
+      }
+
+      We denote by #{L} the second filtration of #{\simp{K}}, i.e.
+
+      \subtree[hodge-theory-iii-5.1.9.3]{
+        \taxon{equation}
+        \number{5.1.9.3}
+        ##{
+          L^r(\simp{K})
+          = \bigoplus_{q\geqslant r} K^{pq}.
+        \startverb\tag{5.1.9.3}\stopverb
+        }
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-5.1.10]{
+  \number{5.1.10}
+
+  \p{
+    Let #{u\colon X_\bullet\to Y_\bullet} be a morphism of simplicial topological spaces, with components #{u_n\colon X_n\to Y_n}.
+    If #{G} (resp. #{F}) is a sheaf on #{Y_\bullet} (resp. on #{X_\bullet}), then #{(u_n^*G^n)_{n\geqslant0}} (resp. #{({u_n}_*F^n)_{n\geqslant0}}) is a sheaf on #{X_\bullet} (resp. on #{Y_\bullet});
+    we denote it by #{u^*G} (resp. by #{u_*F}).
+    The functors #{u^*} and #{u_*} are adjoint to one another;
+    they are the inverse image and direct image morphisms of topos morphism #{u\colon(X_\bullet)^\sim\to(Y_\bullet)^\sim}.
+  }
+}
+
+\subtree[hodge-theory-iii-5.1.11]{
+  \number{5.1.11}
+
+  \p{
+    Let #{a\colon X_\bullet\to S} be an augmented simplicial topological space.
+    If #{F} is a sheaf on #{S}, then #{a^*F=(a_n^*F)_{n\geqslant0}} "is" a sheaf on #{X_\bullet}.
+    The functor #{a^*} has a right adjoint
+
+    \subtree[hodge-theory-iii-5.1.11.1]{
+      \taxon{equation}
+      \number{5.1.11.1}
+      ##{
+        a_*\colon F^\bullet
+        \mapsto \Ker\big(
+          {a_0}_* F^0
+          \ourrar{\delta_0^*}{\delta_1^*}
+          {a_1}_* F^1
+        \big).
+      \startverb\tag{5.1.11.1}\stopverb
+      }
+    }
+
+    The functors #{a^*} and #{a_*} are the inverse image and direct image morphisms of topos morphism #{a\colon(X_\bullet)^\sim\to(S)^\sim}.
+  }
+}
+
+\subtree[hodge-theory-iii-5.1.12]{
+  \number{5.1.12}
+
+  \p{
+    Let
   }
 }
