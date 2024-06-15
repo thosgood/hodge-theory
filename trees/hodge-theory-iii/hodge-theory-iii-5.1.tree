@@ -288,7 +288,7 @@
     \lic{IV.}{
       Let #{S} be a topological space.
       Sheaves #{F^\bullet} on the constant simplicial space #{S_\bullet} can be identified with cosimplicial sheaves on #{S^\bullet}.
-      In particular, an abelian sheaf #{F^\bullet} on #{S_\bullet} defines a differential complex #{(F^n,d=\sum_i(-1)^i\delta_i)}.
+      In particular, an abelian sheaf #{F^\bullet} on #{S_\bullet} defines a chain complex #{(F^n,d=\sum_i(-1)^i\delta_i)}.
       A complex #{K} of abelian sheaves on #{S_\bullet} defines a double complex #{(K^{n,m})} that we again denote by #{K} (here #{m} is the cosimplicial degree) and whose associated simple complex #{\simp{K}} is
 
       \subtree[hodge-theory-iii-5.1.9.1]{
@@ -370,6 +370,57 @@
   \number{5.1.12}
 
   \p{
-    Let
+    Let #{S_\bullet} be the constant simplicial space associated to #{S}, and #{a_\bullet\colon X_\bullet\to S_\bullet} the morphism defined by #{a}.
+    For an abelian sheaf #{F^\bullet} on #{X_\bullet}, we can identify #{{a_\bullet}_*F^\bullet} with a cosimplicial sheaf on #{S} ((IV) of \ref{hodge-theory-iii-5.1.9}).
+    For a complex #{K} of abelian sheaves on #{X_\bullet}, if #{K^{pq}} is the degree #{p} component of the restriction of #{K} to #{X_q}, then the components of the simple complex associated to the double complex defined by #{{a_\bullet}_*K} are
+
+    \subtree[hodge-theory-iii-5.1.12.1]{
+      \taxon{equation}
+      \number{5.1.12.1}
+      ##{
+        (\simp{a_\bullet}_*K)^n
+        = \bigoplus_{p+q=n} {a_q}_* K^{pq}.
+      \startverb\tag{5.1.12.1}\stopverb
+      }
+    }
+
+    \oldpage{12}
+    The spectral sequence defined by the filtration #{L} (\ref{hodge-theory-iii-5.1.9.3}) of #{\simp{a_\bullet}_*K} can be written as
+
+    \subtree[hodge-theory-iii-5.1.12.2]{
+      \taxon{equation}
+      \number{5.1.12.2}
+      ##{
+        E_1^{pq}
+        = \HH^q({a_p}_*(K|X^p))
+        \To \HH^{p+q}(\simp{a_\bullet}_*K).
+      \startverb\tag{5.1.12.2}\stopverb
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-5.1.13]{
+  \number{5.1.13}
+
+  \p{
+    Let #{S=P^t} (the topological space consisting of a single point).
+    We see that, for a sheaf #{F^\bullet} on #{X_\bullet}, the #{\Gamma(X_n,F^n)} are the components of a cosimplicial set #{\Gamma^\bullet(X_\bullet,F^\bullet)}.
+    The functor #{\Gamma} (of global sections) is the functor
+
+    \subtree[hodge-theory-iii-5.1.13.1]{
+      \taxon{equation}
+      \number{5.1.13.1}
+      ##{
+        \Gamma\colon F^\bullet
+        \mapsto \Ker\big(
+          \Gamma(X_0,F^0)
+          \rightrightarrows \Gamma(X_1,F^1)
+        \big).
+      \startverb\tag{5.1.13.1}\stopverb
+      }
+    }
+
+    If #{K} is a complex of abelian sheaves, we denote by #{\Gamma^\bullet(X_\bullet,K)} the chain complex whose components are the cosimplicial abelian groups #{\Gamma^\bullet(X_\bullet,K^n)}, and by #{\simp \Gamma^\bullet(X_\bullet,K)} the associated simple complex.
   }
 }
