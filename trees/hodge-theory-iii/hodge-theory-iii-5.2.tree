@@ -37,8 +37,95 @@
 
   \subtree{
     \title{Geometric realisation}
+    
     \p{
-      For
+      For an integer #{n\geqslant0}, we denote by #{|\Delta_n|} the simple in #{\RR^{\Delta_n}} whose vertices are the set of basis vectors.
+      We identify #{\Delta_n} with the set of vertices of #{|\Delta_n|}.
+      Every function #{f\colon\Delta_n\to\Delta_m} extends by linearity to #{|f|\colon|\Delta_n|\to|\Delta_m|}.
     }
+
+    \p{
+      Let #{X_\bullet} be a simplicial topological space.
+      Let
+      ##{
+        Y=\coprod_{n\geqslant0}(X_n\times|\Delta_n|).
+      }
+      Let #{R} be the finest equivalence relation on #{Y} for which, for any #{f\colon\Delta_n\to\Delta_m} in #{(\Delta)}, any #{x_m\in X_m}, and any #{a\in|\Delta_n|}, we have
+      ##{
+        (x_m,|f|(a))
+        \equiv (f(x_m),a)
+        \mod R.
+      }
+      The \em{geometric realisation} of #{X_\bullet} is by definition
+      ##{
+        |X_\bullet|
+        = Y/R.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-5.2.2]{
+  \taxon{definition}
+  \number{5.2.2}
+
+  \p{
+    Let #{X_\bullet} be a simplicial topological space.
+    The functors #{\HH^i(X_\bullet,F^\bullet)} of \em{cohomology with coefficients in the abelian sheaf #{F^\bullet} on #{X_\bullet}} are the derived functors of the functor #{\Gamma} (\ref{hodge-theory-iii-5.1.13.1}).
+  }
+}
+
+\p{
+  This definition is equivalent to the following, sometimes more convenient.
+}
+
+\subtree[hodge-theory-iii-5.2.3]{
+  \number{5.2.3}
+
+  \p{
+    \oldpage{13}
+    Let #{F^\bullet} be an abelian sheaf on #{X_\bullet}.
+    We can show (by example, using (III) of \ref{hodge-theory-iii-5.1.9}) that #{F^\bullet} always admits resolutions #{K} on the right such that
+    ##{
+      \HH^r(X_q,K^{p,q})
+      =0
+      \quad\text{for } p,q\geqslant0 \text{ and } r>0.
+    }
+    If #{K} is such a resolution, then we canonically have that
+
+    \subtree[hodge-theory-iii-5.2.3.1]{
+      \taxon{equation}
+      \number{5.2.3.1}
+      ##{
+        \HH^n(X_\bullet,F^\bullet)
+        \simeq \HH^n(\simp\Gamma^\bullet(X_\bullet,K)).
+      \startverb\tag{5.2.3.1}\stopverb
+      }
+    }
+
+    It is easy to show directly that the right-hand side is independent (up to unique isomorphism) of the choice of #{K};
+    for what follows, we are free to \em{define} #{\HH^\bullet(X_\bullet,F^\bullet)} by \ref{hodge-theory-iii-5.2.3.1}.
+    We can further show that the spectral sequence of the complex #{\simp\Gamma^\bullet(X_\bullet,K)}, filtered by #{L} (\ref{hodge-theory-iii-5.1.9.3} and \ref{hodge-theory-iii-5.1.12.2} for #{S=P^t})
+
+    \subtree[hodge-theory-iii-5.2.3.2]{
+      \taxon{equation}
+      \number{5.2.3.2}
+      ##{
+        E_1^{pq}
+        = \HH^q(X_p,F^p)
+        \To \HH^{p+q}(X_\bullet,F^\bullet)
+      \startverb\tag{5.2.3.2}\stopverb
+      }
+    }
+
+    is independent (up to unique isomorphism) of the choice of #{K} (cf. \ref{hodge-theory-iii-5.2.1.1}).
+  }
+}
+
+\subtree[hodge-theory-iii-5.2.4]{
+  \number{5.2.4}
+
+  \p{
+    We will need
   }
 }
