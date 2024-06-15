@@ -5,3 +5,40 @@
 \import{macros}
 
 \put\transclude/numbered{false}
+
+\subtree[hodge-theory-iii-5.2.1]{
+  \number{5.2.1}
+
+  \p{
+    To each simplicial topological space #{X_\bullet} is associated a usual topological space #{|X_\bullet|}, called its geometric realisation (see below).
+    In the particular case where the #{X_n} are discrete, we recover the usual notion of geometric realisation of a simplicial set.
+  }
+
+  \p{
+    In [[S1968](S1968)], G. Segal defined the cohomology of #{X_\bullet} with values in an abelian group #{A} as #{\HH^\bullet(|X_\bullet|,A)}.
+    Under suitable hypotheses, the filtration of #{|X_\bullet|} by successive skeletons gives a spectral sequence
+
+    \subtree[hodge-theory-iii-5.2.1.1]{
+      \taxon{equation}
+      \number{5.2.1.1}
+      ##{
+        E_1^{pq}
+        = \HH^q(X_p,A)
+        \To \HH^{p+q}(X_\bullet,A).
+      \startverb\tag{5.2.1.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    One of the interests in using this definition is that it also applies, for example, to the definition of the groups #{K(X_\bullet)}.
+    We will adopt another definition, which is better adapted to sheaf-theoretic techniques.
+  }
+
+  \subtree{
+    \title{Geometric realisation}
+    \p{
+      For
+    }
+  }
+}
