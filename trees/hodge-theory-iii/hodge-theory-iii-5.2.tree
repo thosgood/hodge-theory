@@ -126,6 +126,61 @@
   \number{5.2.4}
 
   \p{
-    We will need
+    We will need to make precise the above construction when passing to derived categories, and to give a relative variant of it.
+  }
+
+  \p{
+    Let #{a\colon X_\bullet\to S}, let #{S_\bullet} be the constant simplicial space defined by #{S} with augmentation map #{\varepsilon\colon S_\bullet\to S}, and let #{a_\bullet\colon X_\bullet\to S_\bullet} be the map induced by #{a}.
+    Then
+
+    \subtree[hodge-theory-iii-5.2.4.1]{
+      \taxon{equation}
+      \number{5.2.4.1}
+      ##{
+        a_*
+        = \varepsilon_* {a_\bullet}_*\colon
+        (X_\bullet)^\sim
+        \to (S)^\sim.
+      \startverb\tag{5.2.4.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    The derived version of this equation is
+
+    \subtree[hodge-theory-iii-5.2.4.2]{
+      \taxon{equation}
+      \number{5.2.4.2}
+      ##{
+        \Rd a_*
+        = \Rd\varepsilon_* \Rd{a_\bullet}_*\colon
+        \DD^+(X_\bullet)
+        \to \DD^+(S)
+        \to (S)^\sim.
+      \startverb\tag{5.2.4.2}\stopverb
+      }
+    }
+
+    where #{\DD^+(X_\bullet)} is the bounded-below derived category of the category of abelian sheaves on #{X_\bullet}.
+    We will calculate #{\Rd{a_\bullet}_*} and #{\Rd\varepsilon_*}.
+  }
+}
+
+\subtree[hodge-theory-iii-5.2.5]{
+  \number{5.2.5}
+
+  \p{
+    Let #{u\colon X_\bullet\to Y_\bullet} be a morphism of simplicial topological spaces.
+    The functor #{\Rd u_*\colon\DD^+(X_\bullet)\to\DD^+(Y_\bullet)} can be calculated "component by component": if #{K} is a complex of abelian sheaves on #{X_\bullet}, then to calculate #{\Rd u_*K} we take a resolution #{K\simto K'} such that the components #{F} of #{K'} satisfy #{\Rd^i {u_p}_*(F^p)=0} for #{i>0}, #{p\geqslant0} (cf. (III) of \ref{hodge-theory-iii-5.1.9});
+    then #{\Rd u_*K\approx u_*K'}.
+  }
+}
+
+\subtree[hodge-theory-iii-5.2.5]{
+  \number{5.2.5}
+
+  \p{
+    The
   }
 }
