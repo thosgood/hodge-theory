@@ -177,10 +177,68 @@
   }
 }
 
-\subtree[hodge-theory-iii-5.2.5]{
-  \number{5.2.5}
+\subtree[hodge-theory-iii-5.2.6]{
+  \number{5.2.6}
 
   \p{
-    The
+    The functor #{\simp\colon\operatorname{C}^+(S_\bullet)\to\operatorname{C}^+(S)} sends acyclic complexes to acyclic complexes.
+    It thus trivially derives to
+    ##{
+      \simp\colon \DD^+(S_\bullet)
+      \to \DD^+(S).
+    }
+  }
+
+  \p{
+    If #{F} is an injective sheaf on #{S_\bullet}, then the chain complex #{\simp F} is a resolution of #{\varepsilon_*F}.
+    We thus obtain an isomorphism #{\Rd\varepsilon_*\simto\simp}, and \ref{hodge-theory-iii-5.2.4.2} becomes
+
+    \subtree[hodge-theory-iii-5.2.6.1]{
+      \taxon{equation}
+      \number{5.2.6.1}
+      ##{
+        \Rd a_*
+        = \simp\Rd{a_\bullet}_*
+      \startverb\tag{5.2.6.1}\stopverb
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-5.2.7]{
+  \number{5.2.7}
+
+  \p{
+    \oldpage{14}
+    Combined with \ref{hodge-theory-iii-5.2.5} and specialised to the case where #{S=P^t}, this equation proves \ref{hodge-theory-iii-5.2.3.1}.
+    In concrete terms, this implies that, to calculate #{\Rd a_*K}, we can proceed in two steps:
+
+    \olc{
+      \lic{a.}{
+        We take a resolution #{K\simto K'} such that the components #{F} of #{K'} satisfy #{\Rd^i {a_p}_*(F^p)=0} for #{i>0}.
+        The complex #{{a_\bullet}_*K'\in\DD^+(S_\bullet)} (the derived category of the category of cosimplicial abelian sheaves on #{S}) can be identified with #{\Rd{a_\bullet}_*K}.
+      }
+
+      \lic{b.}{
+        #{\Rd a_*K} is the simple complex #{\simp{a_\bullet}_*K'} associated to the double complex #{{a_\bullet}_*K'}.
+      }
+    }
+  }
+
+  \p{
+    The spectral sequence \ref{hodge-theory-iii-5.2.3.2} generalises to a spectral sequence
+
+    \subtree[hodge-theory-iii-5.2.7.1]{
+      \taxon{equation}
+      \number{5.2.7.1}
+      ##{
+        E_1^{pq}
+        = \Rd^q{a_p}_*(K|X_p)
+        \To \Rd^{p+q}a_*K
+      \startverb\tag{5.2.7.1}\stopverb
+      }
+    }
+
+    induced by \ref{hodge-theory-iii-5.1.12.2}.
   }
 }

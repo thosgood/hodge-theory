@@ -1,0 +1,32 @@
+\title{Cohomological descent}
+\parent{hodge-theory-iii-5}
+\number{5.3}
+
+\import{macros}
+
+\put\transclude/numbered{false}
+
+\subtree[hodge-theory-iii-5.3.1]{
+  \number{5.3.1}
+
+  \p{
+    Let #{a\colon X_\bullet\to S} be an augmented simplicial topological space.
+    For every sheaf #{F} on #{S}, we have a morphism
+    ##{
+      \varphi\colon F
+      \to a_*a^*F
+    }
+    from the adjunction #{a^*\dashv a_*}.
+    This morphism derives to a morphism of functors from #{\DD^+(S)} to #{\DD^+(S)}, namely
+
+    \subtree[hodge-theory-iii-5.3.1.1]{
+      \taxon{equation}
+      \number{5.3.1.1}
+      ##{
+        \varphi\colon\Id
+        \to \Rd a_*a^*.
+      \startverb\tag{5.3.1.1}\stopverb
+      }
+    }
+  }
+}
