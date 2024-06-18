@@ -7,17 +7,17 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1967</fr:anchor><fr:addr>hodge-theory-iii-5.1.4</fr:addr><fr:route>hodge-theory-iii-5.1.4.xml</fr:route><fr:number>5.1.4</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The coskeleton of the augmented <fr:tex>0</fr:tex>-truncated simplicial object <fr:tex>a_0 \colon  X \to  S</fr:tex> is the simplicial object augmented over <fr:tex>S</fr:tex> whose components are the cartesian powers of <fr:tex>X</fr:tex> in <fr:tex>\mathscr { C } /S</fr:tex>, i.e.
+root="false"><fr:frontmatter><fr:anchor>1953</fr:anchor><fr:addr>hodge-theory-iii-5.1.4</fr:addr><fr:route>hodge-theory-iii-5.1.4.xml</fr:route><fr:number>5.1.4</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The coskeleton of the augmented <fr:tex>0</fr:tex>-truncated simplicial object <fr:tex>a_0\colon  X\to  S</fr:tex> is the simplicial object augmented over <fr:tex>S</fr:tex> whose components are the cartesian powers of <fr:tex>X</fr:tex> in <fr:tex>\mathscr {C}/S</fr:tex>, i.e.
     <fr:tex
-display="block">        \operatorname {cosq} _0(X \to  S)       =  \big ( ((X/S)^{ \Delta _n})_{n \geqslant0 }  \to  S  \big ).     </fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+display="block">       \operatorname {cosq}_0(X\to  S)       = \big ( ((X/S)^{\Delta _n})_{n\geqslant 0} \to  S \big ).     </fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1966</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1952</fr:anchor><fr:addr>hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii-5.xml"
 type="local"
 addr="hodge-theory-iii-5"><fr:link
@@ -32,110 +32,110 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1906</fr:anchor><fr:addr>hodge-theory-iii-5.1.1</fr:addr><fr:route>hodge-theory-iii-5.1.1.xml</fr:route><fr:number>5.1.1</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We will us the following notation, where <fr:tex>n,k \geqslant-1</fr:tex> are integers.
+root="false"><fr:frontmatter><fr:anchor>1887</fr:anchor><fr:addr>hodge-theory-iii-5.1.1</fr:addr><fr:route>hodge-theory-iii-5.1.1.xml</fr:route><fr:number>5.1.1</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We will us the following notation, where <fr:tex>n,k\geqslant -1</fr:tex> are integers.
 
-    <fr:ul><fr:li><fr:tex>\mathscr { A } ^ \circ</fr:tex>
-        = the opposite category of a category <fr:tex>\mathscr { A }</fr:tex></fr:li>
-      <fr:li><fr:tex>\underline { \operatorname {Hom} } ( \mathscr { A } , \mathscr { B } )</fr:tex>
-        = the category of functors from <fr:tex>\mathscr { A }</fr:tex> to <fr:tex>\mathscr { B }</fr:tex>.
+    <fr:ul><fr:li><fr:tex>\mathscr {A}^\circ </fr:tex>
+        = the opposite category of a category <fr:tex>\mathscr {A}</fr:tex></fr:li>
+      <fr:li><fr:tex>\underline {\operatorname {Hom}}(\mathscr {A},\mathscr {B})</fr:tex>
+        = the category of functors from <fr:tex>\mathscr {A}</fr:tex> to <fr:tex>\mathscr {B}</fr:tex>.
       </fr:li>
       <fr:li><fr:tex>\Delta _n</fr:tex>
         = the finite totally ordered set <fr:tex>[0,n]</fr:tex>.
       </fr:li>
-      <fr:li><fr:tex>\delta _i \colon \Delta _n \to \Delta _{n+1}</fr:tex>
-        = the increasing injection such that <fr:tex>i \not \in \delta _i( \Delta _n)</fr:tex> (for <fr:tex>0 \leqslant  i \leqslant  n+1</fr:tex>).
+      <fr:li><fr:tex>\delta _i\colon \Delta _n\to \Delta _{n+1}</fr:tex>
+        = the increasing injection such that <fr:tex>i\not \in \delta _i(\Delta _n)</fr:tex> (for <fr:tex>0\leqslant  i\leqslant  n+1</fr:tex>).
       </fr:li>
-      <fr:li><fr:tex>s_i \colon \Delta _{n+1} \to \Delta _n</fr:tex>
-        = the increasing surjection such that <fr:tex>s_i(i)=s_i(i+1)</fr:tex> (for <fr:tex>0 \leqslant  i \leqslant  n</fr:tex>).
+      <fr:li><fr:tex>s_i\colon \Delta _{n+1}\to \Delta _n</fr:tex>
+        = the increasing surjection such that <fr:tex>s_i(i)=s_i(i+1)</fr:tex> (for <fr:tex>0\leqslant  i\leqslant  n</fr:tex>).
       </fr:li>
-      <fr:li><fr:tex>\varepsilon \colon \Delta _{-1} \to \Delta _n</fr:tex>
+      <fr:li><fr:tex>\varepsilon \colon \Delta _{-1}\to \Delta _n</fr:tex>
         = the unique map from <fr:tex>\Delta _{-1}</fr:tex> to <fr:tex>\Delta _n</fr:tex>.
       </fr:li>
-      <fr:li><fr:tex>( \Delta ^+)</fr:tex>
-        = the category whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n \geqslant-1</fr:tex>) and whose morphisms are the increasing maps between the <fr:tex>\Delta _n</fr:tex>.
+      <fr:li><fr:tex>(\Delta ^+)</fr:tex>
+        = the category whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n\geqslant -1</fr:tex>) and whose morphisms are the increasing maps between the <fr:tex>\Delta _n</fr:tex>.
       </fr:li>
-      <fr:li><fr:tex>( \Delta )</fr:tex>
-        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n \geqslant0</fr:tex>).
+      <fr:li><fr:tex>(\Delta )</fr:tex>
+        = the full subcategory of <fr:tex>(\Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>n\geqslant 0</fr:tex>).
       </fr:li>
-      <fr:li><fr:tex>( \Delta ^+)_k</fr:tex>
-        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n</fr:tex>).
+      <fr:li><fr:tex>(\Delta ^+)_k</fr:tex>
+        = the full subcategory of <fr:tex>(\Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k\geqslant  n</fr:tex>).
       </fr:li>
-      <fr:li><fr:tex>( \Delta )_k</fr:tex>
-        = the full subcategory of <fr:tex>( \Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k \geqslant  n \geqslant0</fr:tex>).
+      <fr:li><fr:tex>(\Delta )_k</fr:tex>
+        = the full subcategory of <fr:tex>(\Delta ^+)</fr:tex> whose objects are the <fr:tex>\Delta _n</fr:tex> (for <fr:tex>k\geqslant  n\geqslant 0</fr:tex>).
       </fr:li></fr:ul></fr:p><fr:p>
-    For any category <fr:tex>\mathscr { C }</fr:tex>, we define a <fr:em>simplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated simplicial object</fr:em>) of <fr:tex>\mathscr { C }</fr:tex> to be an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )^0_k, \mathscr { C } )</fr:tex>).
-    Similarly, a <fr:em>cosimplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated cosimplicial object</fr:em>) is an object of <fr:tex>\underline { \operatorname {Hom} } (( \Delta ), \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta )_k, \mathscr { C } )</fr:tex>).
+    For any category <fr:tex>\mathscr {C}</fr:tex>, we define a <fr:em>simplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated simplicial object</fr:em>) of <fr:tex>\mathscr {C}</fr:tex> to be an object of <fr:tex>\underline {\operatorname {Hom}}((\Delta )^0,\mathscr {C})</fr:tex> (resp. of <fr:tex>\underline {\operatorname {Hom}}((\Delta )^0_k,\mathscr {C})</fr:tex>).
+    Similarly, a <fr:em>cosimplicial object</fr:em> (resp. <fr:em><fr:tex>k</fr:tex>-truncated cosimplicial object</fr:em>) is an object of <fr:tex>\underline {\operatorname {Hom}}((\Delta ),\mathscr {C})</fr:tex> (resp. of <fr:tex>\underline {\operatorname {Hom}}((\Delta )_k,\mathscr {C})</fr:tex>).
   </fr:p><fr:p>
-    For <fr:tex>k \geqslant-1</fr:tex>, the <fr:em><fr:tex>k</fr:tex>-skeleton</fr:em> functor is the restriction functor
+    For <fr:tex>k\geqslant -1</fr:tex>, the <fr:em><fr:tex>k</fr:tex>-skeleton</fr:em> functor is the restriction functor
     <fr:tex
-display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )     </fr:tex>
+display="block">       \operatorname {sq}_k\colon        \underline {\operatorname {Hom}}((\Delta )^0,\mathscr {C})       \to  \underline {\operatorname {Hom}}((\Delta )_k^0,\mathscr {C})     </fr:tex>
     and the <fr:em><fr:tex>k</fr:tex>-coskeleton</fr:em> functor
     <fr:tex
-display="block">        \operatorname {cosq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } ).     </fr:tex>
-    is the right adjoint to <fr:tex>\operatorname {sq} _k</fr:tex>.
-    Let <fr:tex>Y</fr:tex> be a simplicial object of <fr:tex>\mathscr { C }</fr:tex>.
+display="block">       \operatorname {cosq}_k\colon        \underline {\operatorname {Hom}}((\Delta )_k^0,\mathscr {C})       \to  \underline {\operatorname {Hom}}((\Delta )^0,\mathscr {C}).     </fr:tex>
+    is the right adjoint to <fr:tex>\operatorname {sq}_k</fr:tex>.
+    Let <fr:tex>Y</fr:tex> be a simplicial object of <fr:tex>\mathscr {C}</fr:tex>.
     We also call the functor
     <fr:tex
-display="block">        \operatorname {sq} _k \colon         \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y        \to   \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)     </fr:tex>
+display="block">       \operatorname {sq}_k\colon        \underline {\operatorname {Hom}}((\Delta )^0,\mathscr {C})/Y       \to  \underline {\operatorname {Hom}}((\Delta )_k^0,\mathscr {C})/\operatorname {sq}_k(Y)     </fr:tex>
     the <fr:em>skeleton</fr:em>, and its right adjoint
     <fr:tex
-display="block">        \operatorname {cosq} _k^Y \colon         \underline { \operatorname {Hom} } (( \Delta )_k^0, \mathscr { C } )/ \operatorname {sq} _k(Y)        \to   \underline { \operatorname {Hom} } (( \Delta )^0, \mathscr { C } )/Y     </fr:tex>
+display="block">       \operatorname {cosq}_k^Y\colon        \underline {\operatorname {Hom}}((\Delta )_k^0,\mathscr {C})/\operatorname {sq}_k(Y)       \to  \underline {\operatorname {Hom}}((\Delta )^0,\mathscr {C})/Y     </fr:tex>
     is called the <fr:em>coskeleton with respect to <fr:tex>Y</fr:tex></fr:em>.
   </fr:p><fr:p>
-    The coskeleton functors exist if finite projective limits exist in <fr:tex>\mathscr { C }</fr:tex>;
+    The coskeleton functors exist if finite projective limits exist in <fr:tex>\mathscr {C}</fr:tex>;
     the relative coskeleton functors exist if fibred products do;
     we have
     <fr:tex
-display="block">        \operatorname {cosq} _k^Y(X)       =  \operatorname {cosq} _k(X)  \times _{ \operatorname {cosq} _k \operatorname {sq} _k(Y)}Y.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+display="block">       \operatorname {cosq}_k^Y(X)       = \operatorname {cosq}_k(X) \times _{\operatorname {cosq}_k\operatorname {sq}_k(Y)}Y.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1907</fr:anchor><fr:addr>hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>X_ \bullet \colon ( \Delta )^0 \to \mathscr { C }</fr:tex> is a simplicial object of <fr:tex>\mathscr { C }</fr:tex>, then we set
+root="false"><fr:frontmatter><fr:anchor>1888</fr:anchor><fr:addr>hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>X_\bullet \colon (\Delta )^0\to \mathscr {C}</fr:tex> is a simplicial object of <fr:tex>\mathscr {C}</fr:tex>, then we set
 
-    <fr:ul><fr:li><fr:tex>X_n = X_ \bullet ( \Delta _n)</fr:tex></fr:li>
-      <fr:li><fr:tex>\delta _i = X_ \bullet ( \delta _i \colon \Delta _n \to \Delta _{n+1}) \colon  X_{n+1} \to  X_n</fr:tex></fr:li>
-      <fr:li><fr:tex>s_i = X_ \bullet (s_i \colon \Delta _{n+1} \to \Delta _n) \colon  X_n \to  X_{n+1}</fr:tex>.
+    <fr:ul><fr:li><fr:tex>X_n = X_\bullet (\Delta _n)</fr:tex></fr:li>
+      <fr:li><fr:tex>\delta _i = X_\bullet (\delta _i\colon \Delta _n\to \Delta _{n+1})\colon  X_{n+1}\to  X_n</fr:tex></fr:li>
+      <fr:li><fr:tex>s_i = X_\bullet (s_i\colon \Delta _{n+1}\to \Delta _n)\colon  X_n\to  X_{n+1}</fr:tex>.
       </fr:li></fr:ul>
 
     
   <fr:embedded-tex
-hash="8511a81bc85874e38f3b108665a1b706"><fr:embedded-tex-preamble>
-     \usepackage {amsmath}
-     \usepackage {amssymb}
-     \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
-      X_ \bullet  =  \Big ( \ldots \quad 
+hash="35274e5253b0a86bd764642760df1aac"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+      X_\bullet  = \Big (\ldots \quad 
       X_2
-         \ar [r," \delta _1" description]
-         \ar [r,shift left=6," \delta _0" description]
-         \ar [r,shift right=6," \delta _2" description]
+        \ar [r,"\delta _1" description]
+        \ar [r,shift left=6,"\delta _0" description]
+        \ar [r,shift right=6,"\delta _2" description]
       &amp; X_1
-         \ar [r,shift left=3," \delta _0" description]
-         \ar [r,shift right=3," \delta _1" description]
-         \ar [l,shift right=3,"s_0" description]
-         \ar [l,shift left=3,"s_1" description]
-      &amp; X_0 \Big )
-         \ar [l,"s_0" description]
-     \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+        \ar [r,shift left=3,"\delta _0" description]
+        \ar [r,shift right=3,"\delta _1" description]
+        \ar [l,shift right=3,"s_0" description]
+        \ar [l,shift left=3,"s_1" description]
+      &amp; X_0\Big )
+        \ar [l,"s_0" description]
+    \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex></fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1908</fr:anchor><fr:addr>hodge-theory-iii-5.1.3</fr:addr><fr:route>hodge-theory-iii-5.1.3.xml</fr:route><fr:number>5.1.3</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S \in \operatorname {Ob} \mathscr { C }</fr:tex>.
-    The <fr:em>constant simplicial object</fr:em> <fr:tex>S_ \bullet</fr:tex> is the simplicial object for which <fr:tex>S_n=S</fr:tex> and <fr:tex>\delta _i=s_i= \mathrm {Id} _S</fr:tex>.
-    A simplicial (resp. <fr:tex>k</fr:tex>-truncated simplicial) object of <fr:tex>\mathscr { C }</fr:tex> <fr:em>augmented over <fr:tex>S</fr:tex></fr:em> is a morphism <fr:tex>a \colon  X_ \bullet \to  S_ \bullet</fr:tex> (resp. <fr:tex>a \colon  X_ \bullet \to \operatorname {sq} _k(S_ \bullet )</fr:tex>).
-    We identify such a simplicial object (resp. <fr:tex>k</fr:tex>-truncated simplicial object) augmented over <fr:tex>S</fr:tex> with the object <fr:tex>X_ \bullet ^+</fr:tex> of <fr:tex>\underline { \operatorname {Hom} } (( \Delta ^+)^0, \mathscr { C } )</fr:tex> (resp. of <fr:tex>\underline { \operatorname {Hom} } (( \Delta ^+)_k^0, \mathscr { C } )</fr:tex>) such that <fr:tex>X_ \bullet ^+( \Delta _{-1})=S</fr:tex>.
-    We have that <fr:tex>a_n=X_ \bullet ^+( \varepsilon \colon \Delta _{-1} \to \Delta _n)</fr:tex>.
-    These objects will be denoted by notation of the form <fr:tex>a \colon  X_ \bullet \to  S</fr:tex>.
-    The relative coskeletons will be mostly used in this setting, and denoted <fr:tex>\operatorname {cosq} _k^S</fr:tex> or simply <fr:tex>\operatorname {cosq} _k</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>1889</fr:anchor><fr:addr>hodge-theory-iii-5.1.3</fr:addr><fr:route>hodge-theory-iii-5.1.3.xml</fr:route><fr:number>5.1.3</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S\in \operatorname {Ob}\mathscr {C}</fr:tex>.
+    The <fr:em>constant simplicial object</fr:em> <fr:tex>S_\bullet </fr:tex> is the simplicial object for which <fr:tex>S_n=S</fr:tex> and <fr:tex>\delta _i=s_i=\mathrm {Id}_S</fr:tex>.
+    A simplicial (resp. <fr:tex>k</fr:tex>-truncated simplicial) object of <fr:tex>\mathscr {C}</fr:tex> <fr:em>augmented over <fr:tex>S</fr:tex></fr:em> is a morphism <fr:tex>a\colon  X_\bullet \to  S_\bullet </fr:tex> (resp. <fr:tex>a\colon  X_\bullet \to \operatorname {sq}_k(S_\bullet )</fr:tex>).
+    We identify such a simplicial object (resp. <fr:tex>k</fr:tex>-truncated simplicial object) augmented over <fr:tex>S</fr:tex> with the object <fr:tex>X_\bullet ^+</fr:tex> of <fr:tex>\underline {\operatorname {Hom}}((\Delta ^+)^0,\mathscr {C})</fr:tex> (resp. of <fr:tex>\underline {\operatorname {Hom}}((\Delta ^+)_k^0,\mathscr {C})</fr:tex>) such that <fr:tex>X_\bullet ^+(\Delta _{-1})=S</fr:tex>.
+    We have that <fr:tex>a_n=X_\bullet ^+(\varepsilon \colon \Delta _{-1}\to \Delta _n)</fr:tex>.
+    These objects will be denoted by notation of the form <fr:tex>a\colon  X_\bullet \to  S</fr:tex>.
+    The relative coskeletons will be mostly used in this setting, and denoted <fr:tex>\operatorname {cosq}_k^S</fr:tex> or simply <fr:tex>\operatorname {cosq}_k</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -143,21 +143,21 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1909</fr:anchor><fr:addr>hodge-theory-iii-5.1.4</fr:addr><fr:route>hodge-theory-iii-5.1.4.xml</fr:route><fr:number>5.1.4</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The coskeleton of the augmented <fr:tex>0</fr:tex>-truncated simplicial object <fr:tex>a_0 \colon  X \to  S</fr:tex> is the simplicial object augmented over <fr:tex>S</fr:tex> whose components are the cartesian powers of <fr:tex>X</fr:tex> in <fr:tex>\mathscr { C } /S</fr:tex>, i.e.
+root="false"><fr:frontmatter><fr:anchor>1890</fr:anchor><fr:addr>hodge-theory-iii-5.1.4</fr:addr><fr:route>hodge-theory-iii-5.1.4.xml</fr:route><fr:number>5.1.4</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The coskeleton of the augmented <fr:tex>0</fr:tex>-truncated simplicial object <fr:tex>a_0\colon  X\to  S</fr:tex> is the simplicial object augmented over <fr:tex>S</fr:tex> whose components are the cartesian powers of <fr:tex>X</fr:tex> in <fr:tex>\mathscr {C}/S</fr:tex>, i.e.
     <fr:tex
-display="block">        \operatorname {cosq} _0(X \to  S)       =  \big ( ((X/S)^{ \Delta _n})_{n \geqslant0 }  \to  S  \big ).     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+display="block">       \operatorname {cosq}_0(X\to  S)       = \big ( ((X/S)^{\Delta _n})_{n\geqslant 0} \to  S \big ).     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1911</fr:anchor><fr:addr>hodge-theory-iii-5.1.5</fr:addr><fr:route>hodge-theory-iii-5.1.5.xml</fr:route><fr:number>5.1.5</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>u \colon  X \to  Y</fr:tex> be a continuous map between topological spaces, and <fr:tex>F</fr:tex> a sheaf on <fr:tex>X</fr:tex> and <fr:tex>G</fr:tex> a sheaf on <fr:tex>Y</fr:tex>.
-    The set <fr:tex>\operatorname {Hom} _u(G,F)</fr:tex> of <fr:em><fr:tex>u</fr:tex>-morphisms</fr:em> from <fr:tex>G</fr:tex> to <fr:tex>F</fr:tex> is the set <fr:tex>\operatorname {Hom} (u^*G,F) \cong \operatorname {Hom} (G,u_*F)</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>1892</fr:anchor><fr:addr>hodge-theory-iii-5.1.5</fr:addr><fr:route>hodge-theory-iii-5.1.5.xml</fr:route><fr:number>5.1.5</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>u\colon  X\to  Y</fr:tex> be a continuous map between topological spaces, and <fr:tex>F</fr:tex> a sheaf on <fr:tex>X</fr:tex> and <fr:tex>G</fr:tex> a sheaf on <fr:tex>Y</fr:tex>.
+    The set <fr:tex>\operatorname {Hom}_u(G,F)</fr:tex> of <fr:em><fr:tex>u</fr:tex>-morphisms</fr:em> from <fr:tex>G</fr:tex> to <fr:tex>F</fr:tex> is the set <fr:tex>\operatorname {Hom}(u^*G,F)\cong \operatorname {Hom}(G,u_*F)</fr:tex>.
   </fr:p><fr:p>
-    The data of a <fr:tex>u</fr:tex>-morphism <fr:tex>f</fr:tex> from <fr:tex>G</fr:tex> to <fr:tex>F</fr:tex> consists of the data of, for each pair of opens <fr:tex>(U \subset  X,V \subset  Y)</fr:tex> such that <fr:tex>u(U) \subset  V</fr:tex>, a map <fr:tex>f_{UV} \colon  G(V) \to  F(U)</fr:tex>;
+    The data of a <fr:tex>u</fr:tex>-morphism <fr:tex>f</fr:tex> from <fr:tex>G</fr:tex> to <fr:tex>F</fr:tex> consists of the data of, for each pair of opens <fr:tex>(U\subset  X,V\subset  Y)</fr:tex> such that <fr:tex>u(U)\subset  V</fr:tex>, a map <fr:tex>f_{UV}\colon  G(V)\to  F(U)</fr:tex>;
     these maps must satisfy the condition
 
     <fr:tree
@@ -167,24 +167,24 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1910</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-iii-5.1.5.star</fr:addr><fr:route>hodge-theory-iii-5.1.5.star.xml</fr:route><fr:number>*</fr:number><fr:parent>hodge-theory-iii-5.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For <fr:tex>U' \subset  U \subset  X</fr:tex> and <fr:tex>V' \subset  V \subset  Y</fr:tex> such that <fr:tex>u(U) \subset  V</fr:tex> and <fr:tex>u(U') \subset  V'</fr:tex>, the diagram
+root="false"><fr:frontmatter><fr:anchor>1891</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-iii-5.1.5.star</fr:addr><fr:route>hodge-theory-iii-5.1.5.star.xml</fr:route><fr:number>*</fr:number><fr:parent>hodge-theory-iii-5.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        For <fr:tex>U'\subset  U\subset  X</fr:tex> and <fr:tex>V'\subset  V\subset  Y</fr:tex> such that <fr:tex>u(U)\subset  V</fr:tex> and <fr:tex>u(U')\subset  V'</fr:tex>, the diagram
         
   <fr:embedded-tex
-hash="f4c962851431f6781f6568fbcaabaa15"><fr:embedded-tex-preamble>
-     \usepackage {amsmath}
-     \usepackage {amssymb}
-     \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd} 
+hash="def060d58d185e0253c8a2bc11b1ea83"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
           G(V)
-             \ar [r]
-             \ar [d]
+            \ar [r]
+            \ar [d]
           &amp; G(V')
-             \ar [d]
-         \\ F(U)
-             \ar [r]
+            \ar [d]
+        \\F(U)
+            \ar [r]
           &amp; F(U')
-         \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+        \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
 
         commutes.
       </fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -194,10 +194,10 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1915</fr:anchor><fr:addr>hodge-theory-iii-5.1.6</fr:addr><fr:route>hodge-theory-iii-5.1.6.xml</fr:route><fr:number>5.1.6</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1896</fr:anchor><fr:addr>hodge-theory-iii-5.1.6</fr:addr><fr:route>hodge-theory-iii-5.1.6.xml</fr:route><fr:number>5.1.6</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     A <fr:em>simplicial topological space</fr:em> is a simplicial object of the category whose objects are topological spaces and whose morphisms are continuous maps.
   </fr:p><fr:p>
-    A <fr:em>sheaf</fr:em> <fr:tex>F^ \bullet</fr:tex> on a simplicial topological space <fr:tex>X_ \bullet</fr:tex> consists of
+    A <fr:em>sheaf</fr:em> <fr:tex>F^\bullet </fr:tex> on a simplicial topological space <fr:tex>X_\bullet </fr:tex> consists of
 
     
  <html:ol
@@ -211,13 +211,13 @@ style="list-style-type: &quot;a. &quot;">
       
  <html:li
 style="list-style-type: &quot;b. &quot;">
-        for all <fr:tex>f \colon \Delta _n \to \Delta _m</fr:tex>, an <fr:tex>X_ \bullet (f)</fr:tex>-morphism <fr:tex>F^ \bullet (f)</fr:tex> from <fr:tex>F^n</fr:tex> to <fr:tex>F^m</fr:tex>.
+        for all <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex>, an <fr:tex>X_\bullet (f)</fr:tex>-morphism <fr:tex>F^\bullet (f)</fr:tex> from <fr:tex>F^n</fr:tex> to <fr:tex>F^m</fr:tex>.
       </html:li>
 
     </html:ol></fr:p><fr:p>
-    We further require that <fr:tex>F^ \bullet (f \circ  g)=F^ \bullet (f) \circ  F^ \bullet (g)</fr:tex>.
+    We further require that <fr:tex>F^\bullet (f\circ  g)=F^\bullet (f)\circ  F^\bullet (g)</fr:tex>.
   </fr:p><fr:p>
-    A morphism <fr:tex>u</fr:tex> from <fr:tex>F^ \bullet</fr:tex> to <fr:tex>G^ \bullet</fr:tex> is a family of morphisms <fr:tex>u^n \colon  F^n \to  G^n</fr:tex> such that, for all <fr:tex>f \in \operatorname {Hom} _{( \Delta )}( \Delta _n, \Delta _m)</fr:tex>, we have that <fr:tex>u^m \circ  F^ \bullet (f)=G^ \bullet (f) \circ  u^n</fr:tex>.
+    A morphism <fr:tex>u</fr:tex> from <fr:tex>F^\bullet </fr:tex> to <fr:tex>G^\bullet </fr:tex> is a family of morphisms <fr:tex>u^n\colon  F^n\to  G^n</fr:tex> such that, for all <fr:tex>f\in \operatorname {Hom}_{(\Delta )}(\Delta _n,\Delta _m)</fr:tex>, we have that <fr:tex>u^m\circ  F^\bullet (f)=G^\bullet (f)\circ  u^n</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -225,14 +225,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1919</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    For an open <fr:tex>U</fr:tex> of <fr:tex>X_n</fr:tex>, let <fr:tex>F^ \bullet (U)=F^n(U)</fr:tex>.
-    For <fr:tex>f \colon \Delta _n \to \Delta _m</fr:tex>, <fr:tex>U \subset  X_n</fr:tex>, and <fr:tex>V \subset  X_m</fr:tex> such that <fr:tex>X_ \bullet (f)(V) \subset (U)</fr:tex>, let <fr:tex>F^ \bullet (f,V,U) \colon  F^ \bullet (U) \to  F^ \bullet (V)</fr:tex> be the map induced by <fr:tex>F^ \bullet (f)</fr:tex>.
-    We immediately see that the system of sets <fr:tex>F^ \bullet (U)</fr:tex> (indexed by <fr:tex>n \geqslant0</fr:tex> and <fr:tex>U \subset  X_n</fr:tex>) and of maps <fr:tex>F^ \bullet (f,V,U)</fr:tex> uniquely determines <fr:tex>F^ \bullet</fr:tex> (cf. <fr:ref
+root="false"><fr:frontmatter><fr:anchor>1900</fr:anchor><fr:addr>hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For an open <fr:tex>U</fr:tex> of <fr:tex>X_n</fr:tex>, let <fr:tex>F^\bullet (U)=F^n(U)</fr:tex>.
+    For <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex>, <fr:tex>U\subset  X_n</fr:tex>, and <fr:tex>V\subset  X_m</fr:tex> such that <fr:tex>X_\bullet (f)(V)\subset (U)</fr:tex>, let <fr:tex>F^\bullet (f,V,U)\colon  F^\bullet (U)\to  F^\bullet (V)</fr:tex> be the map induced by <fr:tex>F^\bullet (f)</fr:tex>.
+    We immediately see that the system of sets <fr:tex>F^\bullet (U)</fr:tex> (indexed by <fr:tex>n\geqslant 0</fr:tex> and <fr:tex>U\subset  X_n</fr:tex>) and of maps <fr:tex>F^\bullet (f,V,U)</fr:tex> uniquely determines <fr:tex>F^\bullet </fr:tex> (cf. <fr:ref
 addr="hodge-theory-iii-5.1.5"
 href="hodge-theory-iii-5.1.5.xml"
 number="5.1.5"></fr:ref>).
-    For such a system to come from a sheaf on <fr:tex>X_ \bullet</fr:tex>, it is necessary and sufficient that:
+    For such a system to come from a sheaf on <fr:tex>X_\bullet </fr:tex>, it is necessary and sufficient that:
 
     
  <html:ol
@@ -240,13 +240,13 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;a. &quot;">
-        <fr:tex>F^ \bullet (fg,U,W)=F^ \bullet (f,U,V)F^ \bullet (g,V,W)</fr:tex> whenever this makes sense;
+        <fr:tex>F^\bullet (fg,U,W)=F^\bullet (f,U,V)F^\bullet (g,V,W)</fr:tex> whenever this makes sense;
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;b. &quot;">
-        for any <fr:tex>n</fr:tex>, the <fr:tex>F^ \bullet (U)</fr:tex> for <fr:tex>U \subset  X_n</fr:tex> form a sheaf on <fr:tex>X_n</fr:tex>.
+        for any <fr:tex>n</fr:tex>, the <fr:tex>F^\bullet (U)</fr:tex> for <fr:tex>U\subset  X_n</fr:tex> form a sheaf on <fr:tex>X_n</fr:tex>.
       </html:li>
 
     </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -256,10 +256,10 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1920</fr:anchor><fr:addr>hodge-theory-iii-5.1.8</fr:addr><fr:route>hodge-theory-iii-5.1.8.xml</fr:route><fr:number>5.1.8</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    This shows that sheaves on <fr:tex>X_ \bullet</fr:tex> can be interpreted as sheaves on a suitable site, and, in particular, form a topos <fr:tex>(X_ \bullet )^ \sim</fr:tex>.
-    We freely use, for sheaves on <fr:tex>X_ \bullet</fr:tex>, the modern terminology for sheaves on a site.
-    With this in mind, a sheaf <fr:tex>F^ \bullet</fr:tex> of abelian groups (resp. of rings, ...) is a system of sheaves <fr:tex>F^n</fr:tex> of abelian groups (resp. of rings, ...) on the <fr:tex>X_n</fr:tex> along with the morphisms <fr:tex>F^ \bullet (f)</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>1901</fr:anchor><fr:addr>hodge-theory-iii-5.1.8</fr:addr><fr:route>hodge-theory-iii-5.1.8.xml</fr:route><fr:number>5.1.8</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    This shows that sheaves on <fr:tex>X_\bullet </fr:tex> can be interpreted as sheaves on a suitable site, and, in particular, form a topos <fr:tex>(X_\bullet )^\sim </fr:tex>.
+    We freely use, for sheaves on <fr:tex>X_\bullet </fr:tex>, the modern terminology for sheaves on a site.
+    With this in mind, a sheaf <fr:tex>F^\bullet </fr:tex> of abelian groups (resp. of rings, ...) is a system of sheaves <fr:tex>F^n</fr:tex> of abelian groups (resp. of rings, ...) on the <fr:tex>X_n</fr:tex> along with the morphisms <fr:tex>F^\bullet (f)</fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -267,33 +267,33 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1929</fr:anchor><fr:taxon>Examples</fr:taxon><fr:addr>hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1910</fr:anchor><fr:taxon>Examples</fr:taxon><fr:addr>hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
  <html:li
 style="list-style-type: &quot;I. &quot;">
-      Let <fr:tex>X_ \bullet</fr:tex> be a simplicial analytic space.
-      The structure sheaves <fr:tex>\mathcal {O} _{X_n}</fr:tex> form a sheaf of rings on <fr:tex>X_ \bullet</fr:tex>.
+      Let <fr:tex>X_\bullet </fr:tex> be a simplicial analytic space.
+      The structure sheaves <fr:tex>\mathcal {O}_{X_n}</fr:tex> form a sheaf of rings on <fr:tex>X_\bullet </fr:tex>.
     </html:li>
 
 
     
  <html:li
 style="list-style-type: &quot;II. &quot;">
-      Let <fr:tex>X_ \bullet</fr:tex> be a simplicial analytic space augmented over <fr:tex>S</fr:tex>.
-      The sheaves <fr:tex>\Omega _{X_n/S}^1</fr:tex> form a sheaf of <fr:tex>\mathcal {O}</fr:tex>-modules on <fr:tex>X_ \bullet</fr:tex>.
-      Its <fr:tex>i</fr:tex>-th exterior power is the sheaf of <fr:tex>\mathcal {O}</fr:tex>-modules <fr:tex>( \Omega _{X_n/S}^i)_{n \geqslant0 }</fr:tex> denoted <fr:tex>\Omega _{X_ \bullet {/}S}^i</fr:tex>.
+      Let <fr:tex>X_\bullet </fr:tex> be a simplicial analytic space augmented over <fr:tex>S</fr:tex>.
+      The sheaves <fr:tex>\Omega _{X_n/S}^1</fr:tex> form a sheaf of <fr:tex>\mathcal {O}</fr:tex>-modules on <fr:tex>X_\bullet </fr:tex>.
+      Its <fr:tex>i</fr:tex>-th exterior power is the sheaf of <fr:tex>\mathcal {O}</fr:tex>-modules <fr:tex>(\Omega _{X_n/S}^i)_{n\geqslant 0}</fr:tex> denoted <fr:tex>\Omega _{X_\bullet {/}S}^i</fr:tex>.
       
-      The de Rham complexes <fr:tex>( \Omega _{X_n/S}^ \bullet )_{n \geqslant0 }</fr:tex> form a complex of sheaves on <fr:tex>X_ \bullet</fr:tex>.
+      The de Rham complexes <fr:tex>(\Omega _{X_n/S}^\bullet )_{n\geqslant 0}</fr:tex> form a complex of sheaves on <fr:tex>X_\bullet </fr:tex>.
     </html:li>
 
 
     
  <html:li
 style="list-style-type: &quot;III. &quot;">
-      Let <fr:tex>F^ \bullet</fr:tex> be a sheaf of abelian groups on <fr:tex>X_ \bullet</fr:tex>.
-      The canonical flasque Godement resolutions <fr:tex>\mathscr {C}^ \bullet (F^n)</fr:tex> form a complex of sheaves on <fr:tex>X_ \bullet</fr:tex> that is a resolution of <fr:tex>F^ \bullet</fr:tex>.
+      Let <fr:tex>F^\bullet </fr:tex> be a sheaf of abelian groups on <fr:tex>X_\bullet </fr:tex>.
+      The canonical flasque Godement resolutions <fr:tex>\mathscr {C}^\bullet (F^n)</fr:tex> form a complex of sheaves on <fr:tex>X_\bullet </fr:tex> that is a resolution of <fr:tex>F^\bullet </fr:tex>.
     </html:li>
 
 
@@ -301,9 +301,9 @@ style="list-style-type: &quot;III. &quot;">
  <html:li
 style="list-style-type: &quot;IV. &quot;">
       Let <fr:tex>S</fr:tex> be a topological space.
-      Sheaves <fr:tex>F^ \bullet</fr:tex> on the constant simplicial space <fr:tex>S_ \bullet</fr:tex> can be identified with cosimplicial sheaves on <fr:tex>S^ \bullet</fr:tex>.
-      In particular, an abelian sheaf <fr:tex>F^ \bullet</fr:tex> on <fr:tex>S_ \bullet</fr:tex> defines a chain complex <fr:tex>(F^n,d= \sum _i(-1)^i \delta _i)</fr:tex>.
-      A complex <fr:tex>K</fr:tex> of abelian sheaves on <fr:tex>S_ \bullet</fr:tex> defines a double complex <fr:tex>(K^{n,m})</fr:tex> that we again denote by <fr:tex>K</fr:tex> (here <fr:tex>m</fr:tex> is the cosimplicial degree) and whose associated simple complex <fr:tex>\mathrm {s} {K}</fr:tex> is
+      Sheaves <fr:tex>F^\bullet </fr:tex> on the constant simplicial space <fr:tex>S_\bullet </fr:tex> can be identified with cosimplicial sheaves on <fr:tex>S^\bullet </fr:tex>.
+      In particular, an abelian sheaf <fr:tex>F^\bullet </fr:tex> on <fr:tex>S_\bullet </fr:tex> defines a chain complex <fr:tex>(F^n,d=\sum _i(-1)^i\delta _i)</fr:tex>.
+      A complex <fr:tex>K</fr:tex> of abelian sheaves on <fr:tex>S_\bullet </fr:tex> defines a double complex <fr:tex>(K^{n,m})</fr:tex> that we again denote by <fr:tex>K</fr:tex> (here <fr:tex>m</fr:tex> is the cosimplicial degree) and whose associated simple complex <fr:tex>\mathrm {s}{K}</fr:tex> is
 
       <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -312,8 +312,8 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1926</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.1</fr:addr><fr:route>hodge-theory-iii-5.1.9.1.xml</fr:route><fr:number>5.1.9.1</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           ( \mathrm {s} {K})^n           =  \bigoplus _{p+q=n} K^{pq}         \tag{5.1.9.1}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1907</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.1</fr:addr><fr:route>hodge-theory-iii-5.1.9.1.xml</fr:route><fr:number>5.1.9.1</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           (\mathrm {s}{K})^n           = \bigoplus _{p+q=n} K^{pq}         \tag{5.1.9.1}         </fr:tex></fr:mainmatter></fr:tree>
 
       with differential given by
 
@@ -324,10 +324,10 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1927</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.2</fr:addr><fr:route>hodge-theory-iii-5.1.9.2.xml</fr:route><fr:number>5.1.9.2</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">            \mathrm {d} (x^{pq})           =  \mathrm {d} _K(x^{pq}) + (-1)^p \sum _i(-1)^i \delta _i x^{pq}.         \tag{5.1.9.2}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1908</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.2</fr:addr><fr:route>hodge-theory-iii-5.1.9.2.xml</fr:route><fr:number>5.1.9.2</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \mathrm {d}(x^{pq})           = \mathrm {d}_K(x^{pq}) + (-1)^p\sum _i(-1)^i\delta _i x^{pq}.         \tag{5.1.9.2}         </fr:tex></fr:mainmatter></fr:tree>
 
-      We denote by <fr:tex>L</fr:tex> the second filtration of <fr:tex>\mathrm {s} {K}</fr:tex>, i.e.
+      We denote by <fr:tex>L</fr:tex> the second filtration of <fr:tex>\mathrm {s}{K}</fr:tex>, i.e.
 
       <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -336,8 +336,8 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1928</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.3</fr:addr><fr:route>hodge-theory-iii-5.1.9.3.xml</fr:route><fr:number>5.1.9.3</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           L^r( \mathrm {s} {K})           =  \bigoplus _{q \geqslant  r} K^{pq}.         \tag{5.1.9.3}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1909</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.3</fr:addr><fr:route>hodge-theory-iii-5.1.9.3.xml</fr:route><fr:number>5.1.9.3</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           L^r(\mathrm {s}{K})           = \bigoplus _{q\geqslant  r} K^{pq}.         \tag{5.1.9.3}         </fr:tex></fr:mainmatter></fr:tree>
     </html:li>
 
   </html:ol>
@@ -348,12 +348,12 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1930</fr:anchor><fr:addr>hodge-theory-iii-5.1.10</fr:addr><fr:route>hodge-theory-iii-5.1.10.xml</fr:route><fr:number>5.1.10</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>u \colon  X_ \bullet \to  Y_ \bullet</fr:tex> be a morphism of simplicial topological spaces, with components <fr:tex>u_n \colon  X_n \to  Y_n</fr:tex>.
-    If <fr:tex>G</fr:tex> (resp. <fr:tex>F</fr:tex>) is a sheaf on <fr:tex>Y_ \bullet</fr:tex> (resp. on <fr:tex>X_ \bullet</fr:tex>), then <fr:tex>(u_n^*G^n)_{n \geqslant0 }</fr:tex> (resp. <fr:tex>({u_n}_*F^n)_{n \geqslant0 }</fr:tex>) is a sheaf on <fr:tex>X_ \bullet</fr:tex> (resp. on <fr:tex>Y_ \bullet</fr:tex>);
+root="false"><fr:frontmatter><fr:anchor>1911</fr:anchor><fr:addr>hodge-theory-iii-5.1.10</fr:addr><fr:route>hodge-theory-iii-5.1.10.xml</fr:route><fr:number>5.1.10</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>u\colon  X_\bullet \to  Y_\bullet </fr:tex> be a morphism of simplicial topological spaces, with components <fr:tex>u_n\colon  X_n\to  Y_n</fr:tex>.
+    If <fr:tex>G</fr:tex> (resp. <fr:tex>F</fr:tex>) is a sheaf on <fr:tex>Y_\bullet </fr:tex> (resp. on <fr:tex>X_\bullet </fr:tex>), then <fr:tex>(u_n^*G^n)_{n\geqslant 0}</fr:tex> (resp. <fr:tex>({u_n}_*F^n)_{n\geqslant 0}</fr:tex>) is a sheaf on <fr:tex>X_\bullet </fr:tex> (resp. on <fr:tex>Y_\bullet </fr:tex>);
     we denote it by <fr:tex>u^*G</fr:tex> (resp. by <fr:tex>u_*F</fr:tex>).
     The functors <fr:tex>u^*</fr:tex> and <fr:tex>u_*</fr:tex> are adjoint to one another;
-    they are the inverse image and direct image morphisms of topos morphism <fr:tex>u \colon (X_ \bullet )^ \sim \to (Y_ \bullet )^ \sim</fr:tex>.
+    they are the inverse image and direct image morphisms of topos morphism <fr:tex>u\colon (X_\bullet )^\sim \to (Y_\bullet )^\sim </fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -361,9 +361,9 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1932</fr:anchor><fr:addr>hodge-theory-iii-5.1.11</fr:addr><fr:route>hodge-theory-iii-5.1.11.xml</fr:route><fr:number>5.1.11</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>a \colon  X_ \bullet \to  S</fr:tex> be an augmented simplicial topological space.
-    If <fr:tex>F</fr:tex> is a sheaf on <fr:tex>S</fr:tex>, then <fr:tex>a^*F=(a_n^*F)_{n \geqslant0 }</fr:tex> "is" a sheaf on <fr:tex>X_ \bullet</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>1913</fr:anchor><fr:addr>hodge-theory-iii-5.1.11</fr:addr><fr:route>hodge-theory-iii-5.1.11.xml</fr:route><fr:number>5.1.11</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>a\colon  X_\bullet \to  S</fr:tex> be an augmented simplicial topological space.
+    If <fr:tex>F</fr:tex> is a sheaf on <fr:tex>S</fr:tex>, then <fr:tex>a^*F=(a_n^*F)_{n\geqslant 0}</fr:tex> "is" a sheaf on <fr:tex>X_\bullet </fr:tex>.
     The functor <fr:tex>a^*</fr:tex> has a right adjoint
 
     <fr:tree
@@ -373,10 +373,10 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1931</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.11.1</fr:addr><fr:route>hodge-theory-iii-5.1.11.1.xml</fr:route><fr:number>5.1.11.1</fr:number><fr:parent>hodge-theory-iii-5.1.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         a_* \colon  F^ \bullet           \mapsto   \operatorname {Ker} \big (           {a_0}_* F^0            \, \overset { \delta _0^* }{ \underset { \delta _1^* }{ \rightrightarrows }} \,            {a_1}_* F^1          \big ).       \tag{5.1.11.1}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1912</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.11.1</fr:addr><fr:route>hodge-theory-iii-5.1.11.1.xml</fr:route><fr:number>5.1.11.1</fr:number><fr:parent>hodge-theory-iii-5.1.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         a_*\colon  F^\bullet          \mapsto  \operatorname {Ker}\big (           {a_0}_* F^0           \,\overset {\delta _0^*}{\underset {\delta _1^*}{\rightrightarrows }}\,           {a_1}_* F^1         \big ).       \tag{5.1.11.1}       </fr:tex></fr:mainmatter></fr:tree>
 
-    The functors <fr:tex>a^*</fr:tex> and <fr:tex>a_*</fr:tex> are the inverse image and direct image morphisms of topos morphism <fr:tex>a \colon (X_ \bullet )^ \sim \to (S)^ \sim</fr:tex>.
+    The functors <fr:tex>a^*</fr:tex> and <fr:tex>a_*</fr:tex> are the inverse image and direct image morphisms of topos morphism <fr:tex>a\colon (X_\bullet )^\sim \to (S)^\sim </fr:tex>.
   </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -384,14 +384,14 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1935</fr:anchor><fr:addr>hodge-theory-iii-5.1.12</fr:addr><fr:route>hodge-theory-iii-5.1.12.xml</fr:route><fr:number>5.1.12</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S_ \bullet</fr:tex> be the constant simplicial space associated to <fr:tex>S</fr:tex>, and <fr:tex>a_ \bullet \colon  X_ \bullet \to  S_ \bullet</fr:tex> the morphism defined by <fr:tex>a</fr:tex>.
-    For an abelian sheaf <fr:tex>F^ \bullet</fr:tex> on <fr:tex>X_ \bullet</fr:tex>, we can identify <fr:tex>{a_ \bullet }_*F^ \bullet</fr:tex> with a cosimplicial sheaf on <fr:tex>S</fr:tex> ((IV) of <fr:ref
+root="false"><fr:frontmatter><fr:anchor>1916</fr:anchor><fr:addr>hodge-theory-iii-5.1.12</fr:addr><fr:route>hodge-theory-iii-5.1.12.xml</fr:route><fr:number>5.1.12</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S_\bullet </fr:tex> be the constant simplicial space associated to <fr:tex>S</fr:tex>, and <fr:tex>a_\bullet \colon  X_\bullet \to  S_\bullet </fr:tex> the morphism defined by <fr:tex>a</fr:tex>.
+    For an abelian sheaf <fr:tex>F^\bullet </fr:tex> on <fr:tex>X_\bullet </fr:tex>, we can identify <fr:tex>{a_\bullet }_*F^\bullet </fr:tex> with a cosimplicial sheaf on <fr:tex>S</fr:tex> ((IV) of <fr:ref
 addr="hodge-theory-iii-5.1.9"
 href="hodge-theory-iii-5.1.9.xml"
 taxon="Examples"
 number="5.1.9"></fr:ref>).
-    For a complex <fr:tex>K</fr:tex> of abelian sheaves on <fr:tex>X_ \bullet</fr:tex>, if <fr:tex>K^{pq}</fr:tex> is the degree <fr:tex>p</fr:tex> component of the restriction of <fr:tex>K</fr:tex> to <fr:tex>X_q</fr:tex>, then the components of the simple complex associated to the double complex defined by <fr:tex>{a_ \bullet }_*K</fr:tex> are
+    For a complex <fr:tex>K</fr:tex> of abelian sheaves on <fr:tex>X_\bullet </fr:tex>, if <fr:tex>K^{pq}</fr:tex> is the degree <fr:tex>p</fr:tex> component of the restriction of <fr:tex>K</fr:tex> to <fr:tex>X_q</fr:tex>, then the components of the simple complex associated to the double complex defined by <fr:tex>{a_\bullet }_*K</fr:tex> are
 
     <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -400,15 +400,15 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1933</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.12.1</fr:addr><fr:route>hodge-theory-iii-5.1.12.1.xml</fr:route><fr:number>5.1.12.1</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         ( \mathrm {s} {a_ \bullet }_*K)^n         =  \bigoplus _{p+q=n} {a_q}_* K^{pq}.       \tag{5.1.12.1}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1914</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.12.1</fr:addr><fr:route>hodge-theory-iii-5.1.12.1.xml</fr:route><fr:number>5.1.12.1</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         (\mathrm {s}{a_\bullet }_*K)^n         = \bigoplus _{p+q=n} {a_q}_* K^{pq}.       \tag{5.1.12.1}       </fr:tex></fr:mainmatter></fr:tree>
 
     
     The spectral sequence defined by the filtration <fr:tex>L</fr:tex> (<fr:ref
 addr="hodge-theory-iii-5.1.9.3"
 href="hodge-theory-iii-5.1.9.3.xml"
 taxon="Equation"
-number="5.1.9.3"></fr:ref>) of <fr:tex>\mathrm {s} {a_ \bullet }_*K</fr:tex> can be written as
+number="5.1.9.3"></fr:ref>) of <fr:tex>\mathrm {s}{a_\bullet }_*K</fr:tex> can be written as
 
     <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -417,18 +417,18 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1934</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.12.2</fr:addr><fr:route>hodge-theory-iii-5.1.12.2.xml</fr:route><fr:number>5.1.12.2</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         E_1^{pq}         =  \operatorname {H} ^q({a_p}_*(K|X^p))          \Rightarrow   \operatorname {H} ^{p+q}( \mathrm {s} {a_ \bullet }_*K).       \tag{5.1.12.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1915</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.12.2</fr:addr><fr:route>hodge-theory-iii-5.1.12.2.xml</fr:route><fr:number>5.1.12.2</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{pq}         = \operatorname {H}^q({a_p}_*(K|X^p))         \Rightarrow  \operatorname {H}^{p+q}(\mathrm {s}{a_\bullet }_*K).       \tag{5.1.12.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1937</fr:anchor><fr:addr>hodge-theory-iii-5.1.13</fr:addr><fr:route>hodge-theory-iii-5.1.13.xml</fr:route><fr:number>5.1.13</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1918</fr:anchor><fr:addr>hodge-theory-iii-5.1.13</fr:addr><fr:route>hodge-theory-iii-5.1.13.xml</fr:route><fr:number>5.1.13</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     Let <fr:tex>S=P^t</fr:tex> (the topological space consisting of a single point).
-    We see that, for a sheaf <fr:tex>F^ \bullet</fr:tex> on <fr:tex>X_ \bullet</fr:tex>, the <fr:tex>\Gamma (X_n,F^n)</fr:tex> are the components of a cosimplicial set <fr:tex>\Gamma ^ \bullet (X_ \bullet ,F^ \bullet )</fr:tex>.
-    The functor <fr:tex>\Gamma</fr:tex> (of global sections) is the functor
+    We see that, for a sheaf <fr:tex>F^\bullet </fr:tex> on <fr:tex>X_\bullet </fr:tex>, the <fr:tex>\Gamma (X_n,F^n)</fr:tex> are the components of a cosimplicial set <fr:tex>\Gamma ^\bullet (X_\bullet ,F^\bullet )</fr:tex>.
+    The functor <fr:tex>\Gamma </fr:tex> (of global sections) is the functor
 
     <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -437,8 +437,8 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1936</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.13.1</fr:addr><fr:route>hodge-theory-iii-5.1.13.1.xml</fr:route><fr:number>5.1.13.1</fr:number><fr:parent>hodge-theory-iii-5.1.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">          \Gamma \colon  F^ \bullet           \mapsto   \operatorname {Ker} \big (            \Gamma (X_0,F^0)            \rightrightarrows   \Gamma (X_1,F^1)          \big ).       \tag{5.1.13.1}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>1917</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.13.1</fr:addr><fr:route>hodge-theory-iii-5.1.13.1.xml</fr:route><fr:number>5.1.13.1</fr:number><fr:parent>hodge-theory-iii-5.1.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \Gamma \colon  F^\bullet          \mapsto  \operatorname {Ker}\big (           \Gamma (X_0,F^0)           \rightrightarrows  \Gamma (X_1,F^1)         \big ).       \tag{5.1.13.1}       </fr:tex></fr:mainmatter></fr:tree>
 
-    If <fr:tex>K</fr:tex> is a complex of abelian sheaves, we denote by <fr:tex>\Gamma ^ \bullet (X_ \bullet ,K)</fr:tex> the chain complex whose components are the cosimplicial abelian groups <fr:tex>\Gamma ^ \bullet (X_ \bullet ,K^n)</fr:tex>, and by <fr:tex>\mathrm {s}   \Gamma ^ \bullet (X_ \bullet ,K)</fr:tex> the associated simple complex.
+    If <fr:tex>K</fr:tex> is a complex of abelian sheaves, we denote by <fr:tex>\Gamma ^\bullet (X_\bullet ,K)</fr:tex> the chain complex whose components are the cosimplicial abelian groups <fr:tex>\Gamma ^\bullet (X_\bullet ,K^n)</fr:tex>, and by <fr:tex>\mathrm {s} \Gamma ^\bullet (X_\bullet ,K)</fr:tex> the associated simple complex.
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
