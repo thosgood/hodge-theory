@@ -7,11 +7,63 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>Q1968</fr:addr><fr:route>Q1968.xml</fr:route><fr:title>Notes on the homology of commutative rings</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>D.G. Quillen</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>357</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>Q1968</fr:addr><fr:route>Q1968.xml</fr:route><fr:title>Notes on the homology of commutative rings</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>D.G. Quillen</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>M.I.T.</fr:em></fr:meta><fr:meta
 name="bibtex"><![CDATA[@article{Q1968,
   author = {Quillen, D.G.},
   title = {Notes on the homology of commutative rings},
   journal = {M.I.T.},
   year = {1968},
-}]]></fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+}]]></fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>356</fr:anchor><fr:addr>hodge-theory-iii-6.1.5</fr:addr><fr:route>hodge-theory-iii-6.1.5.xml</fr:route><fr:number>6.1.5</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The spectral sequence in <fr:ref
+addr="hodge-theory-iii-5.2.3.2"
+href="hodge-theory-iii-5.2.3.2.xml"
+taxon="Equation"
+number="5.2.3.2"></fr:ref> for <fr:tex>B_{\bullet  G}</fr:tex>
+    <fr:tex
+display="block">       E_1^{pq}       = \operatorname {H}^q(G^{\Delta _p}/G)       \Rightarrow  \operatorname {H}^{p+q}(B_{\bullet  G})       =\operatorname {H}^{p+q}(B_G)     </fr:tex>
+    is essentially the <fr:em>Eilenberg–Moore spectral sequence</fr:em>.
+    We briefly recall how it allows us to relate the rational cohomologies of <fr:tex>G</fr:tex> and of <fr:tex>B_G</fr:tex>, for connected <fr:tex>G</fr:tex>.
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      The algebra <fr:tex>\operatorname {H}^\bullet (G,\mathbb {Q})</fr:tex> is a connected graded Hopf algebra of finite dimension over <fr:tex>\mathbb {Q}</fr:tex>.
+      If <fr:tex>P^\bullet (G)</fr:tex> is the graded module of its primitive elements, then we have
+      <fr:tex
+display="block">         H^\bullet (G,\mathbb {Q})         = \bigwedge  P^\bullet (G)       </fr:tex>
+      and the generators of <fr:tex>P^\bullet (G)</fr:tex> are of odd degree.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      The simplicial algebra <fr:tex>(E_1^{p\bullet })_{p\geqslant 0}</fr:tex> is
+      <fr:tex
+display="block">         E_1^{p\bullet }         = \bigwedge \big (P^\bullet (G)^{\Delta _p}/P^\bullet (G)\big )       </fr:tex>
+      which is the exterior algebra of the suspension of the constant cosimplicial module <fr:tex>P^\bullet (G)</fr:tex>;
+      we thus have (by Quillen [<fr:link
+href="Q1968.xml"
+type="local"
+addr="Q1968">Q1968</fr:link>]) that <fr:tex>E_2^{p\bullet }=\operatorname {Sym}^p(P^\bullet (G))</fr:tex>.
+      The pages <fr:tex>E_2^{pq}</fr:tex> are only zero for <fr:tex>p+q</fr:tex> even;
+      we thus have that <fr:tex>E_2^{pq}=E_\infty ^{pq}</fr:tex>, and, for a suitable filtration, we canonically have that
+      <fr:tex
+display="block">         \operatorname {Gr}\operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1])       </fr:tex>
+      and non-canonically that
+      <fr:tex
+display="block">         \operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1]).       </fr:tex>
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
