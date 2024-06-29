@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2905</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>SD</fr:addr><fr:route>SD.xml</fr:route><fr:title>Techniques de descente cohomologique</fr:title><fr:authors><fr:author>B. Saint-Donat</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>2986</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>SD</fr:addr><fr:route>SD.xml</fr:route><fr:title>Techniques de descente cohomologique</fr:title><fr:authors><fr:author>B. Saint-Donat</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>SGA 4.V bis</fr:em></fr:meta><fr:meta
 name="bibtex"><![CDATA[@incollection{SD,
   author = {Saint-Donat, B.},
@@ -20,7 +20,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2903</fr:anchor><fr:addr>hodge-theory-iii-5.3.5</fr:addr><fr:route>hodge-theory-iii-5.3.5.xml</fr:route><fr:number>5.3.5</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>2982</fr:anchor><fr:addr>hodge-theory-iii-5.3.5</fr:addr><fr:route>hodge-theory-iii-5.3.5.xml</fr:route><fr:number>5.3.5</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
     The fundamental results, proven in [<fr:link
 href="SD.xml"
 type="local"
@@ -67,7 +67,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1892</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+root="false"><fr:frontmatter><fr:anchor>1887</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block">             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           </fr:tex></fr:mainmatter></fr:tree>
 
         (for <fr:tex>-1\leqslant  n\leqslant  k-1</fr:tex>) are of universal cohomological descent.
@@ -94,7 +94,151 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2904</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2983</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-6.2.4</fr:addr><fr:route>hodge-theory-iii-6.2.4.xml</fr:route><fr:number>6.2.4</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(Y,N,\beta )</fr:tex> satisfy <fr:ref
+addr="hodge-theory-iii-6.2.star"
+href="hodge-theory-iii-6.2.star.xml"
+taxon="Property"
+number="*"></fr:ref> above.
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        Up to unique isomorphism, there exists exactly one <fr:tex>s</fr:tex>-split <fr:tex>(n+1)</fr:tex>-truncated topological space <fr:tex>X</fr:tex> augmented over <fr:tex>S</fr:tex> such that <fr:tex>\alpha (X)\simeq (Y,N,\beta )</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        It is equivalent to give either <fr:tex>f\colon  X\to  Z</fr:tex> or:
+
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+            a morphism <fr:tex>f'\colon  Y\to \operatorname {sq}_n(Z)</fr:tex>; and
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+            a morphism <fr:tex>f''\colon  N\to  Z_{n+1}</fr:tex>, such that the diagram
+            <fr:tex
+display="block">               \begin {CD}                 N @&gt;\beta &gt;&gt; (\operatorname {cosq} Y)_{n+1}               \\@V{f''}VV @VV{f'}V               \\Z_{n+1} @&gt;&gt;&gt; (\operatorname {cosq}\operatorname {sq}_n Z)_{n+1}               \end {CD}             </fr:tex>
+            commutes.
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2210</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      [5.1.3, <fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>].
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+<fr:p>
+    This proposition also applies to simplicial objects in other categories <fr:tex>\mathscr {C}</fr:tex> apart from that of topological spaces; it suffices that <fr:tex>\mathscr {C}</fr:tex> satisfy the following:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2211</fr:anchor><fr:addr>hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Finite projective limits exist in <fr:tex>\mathbb {C}</fr:tex>.
+        Finite projective sums exist in <fr:tex>\mathbb {C}</fr:tex>, and they are disjoint and universal.
+      </fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2984</fr:anchor><fr:addr>hodge-theory-iii-6.2.8</fr:addr><fr:route>hodge-theory-iii-6.2.8.xml</fr:route><fr:number>6.2.8</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Using <fr:ref
+addr="hodge-theory-iii-6.2.5"
+href="hodge-theory-iii-6.2.5.xml"
+number="6.2.5"></fr:ref>, we can show that, for every separated scheme <fr:tex>S</fr:tex> over <fr:tex>\mathbb {C}</fr:tex>, there exists:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        
+        a simplicial scheme <fr:tex>X_\bullet </fr:tex> over <fr:tex>\mathbb {C}</fr:tex>, smooth and proper, that we can take to be <fr:tex>s</fr:tex>-split;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a normal crossing divisor <fr:tex>D_\bullet </fr:tex> of <fr:tex>X_\bullet </fr:tex>; we set <fr:tex>U_\bullet =X_\bullet \setminus  D_\bullet </fr:tex>;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛾) &quot;">
+        an augmentation <fr:tex>a\colon  U_\bullet \to  S</fr:tex> that realises <fr:tex>U_\bullet ^\mathrm {an}</fr:tex> as a proper hypercover of <fr:tex>S^\mathrm {an}</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    Furthermore, any two such systems are covered by a third, and a morphism <fr:tex>u\colon  S\to  T</fr:tex> can be covered by a morphism
+    
+  <fr:embedded-tex
+hash="bcddb87b2e9fad251c49db1ceb7c2423"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+      X_\bullet 
+        \ar [r]
+      &amp; Y_\bullet 
+    \\U_\bullet 
+        \ar [r]
+        \ar [u,hook]
+        \ar [d,swap,"a"]
+      &amp; V_\bullet 
+        \ar [u,hook]
+        \ar [d,"b"]
+    \\S \ar [r,swap,"u"]
+      &amp; T
+    \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+    of such systems (see [<fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>]).
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2985</fr:anchor><fr:addr>hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii.xml"
 type="local"
 addr="hodge-theory-iii">Hodge Theory III</fr:link> › Introduction</fr:title><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>

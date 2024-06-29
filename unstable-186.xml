@@ -7,123 +7,73 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2249</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#186</fr:addr><fr:route>unstable-186.xml</fr:route><fr:parent>hodge-theory-ii-4.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2306</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#186</fr:addr><fr:route>unstable-186.xml</fr:route><fr:parent>hodge-theory-ii-4.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Claim (ii) is evident.
-      We will prove (i).
-      Let <fr:tex>\mathcal {C}_0</fr:tex> be the set of continuous families of Hodge structures on <fr:tex>S</fr:tex> that are of the form <fr:tex>\mathrm {R} f_*\mathbb {Q}</fr:tex> (with <fr:tex>f</fr:tex> smooth and projective).
-      Then:
-
-      
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-        
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-          By the Künneth formula
-          <fr:tex
-display="block">             \mathrm {R}(f\times  g)_*\mathbb {Q}             \simeq  \mathrm {R} f_*\mathbb {Q}\otimes \mathrm {R} g_*\mathbb {Q},           </fr:tex>
-          <fr:tex>\mathcal {C}_0</fr:tex> is stable under tensor products.
-        </html:li>
-
-        
-        
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-          Since
-          <fr:tex
-display="block">             \mathrm {R}(f\sqcup  g)_*\mathbb {Q}             \simeq  \mathrm {R} f_*\mathbb {Q}\oplus \mathrm {R} g_*\mathbb {Q},           </fr:tex>
-          <fr:tex>\mathcal {C}_0</fr:tex> is stable under direct sums.
-        </html:li>
-
-
-        
- <html:li
-style="list-style-type: &quot;(c) &quot;">
-          
-          The homogeneous components of each <fr:tex>H\in \operatorname {Ob}\mathcal {C}_0</fr:tex> are polarisable (cf. <fr:ref
-addr="hodge-theory-ii-2.2.6"
-href="hodge-theory-ii-2.2.6.xml"
-number="2.2.6"></fr:ref>).
-        </html:li>
-
-
-        
- <html:li
-style="list-style-type: &quot;(d) &quot;">
-          The objects <fr:tex>H\in \operatorname {Ob}\mathcal {C}_0</fr:tex> satisfy <fr:ref
-addr="hodge-theory-ii-4.2.2.3"
-href="hodge-theory-ii-4.2.2.3.xml"
-taxon="Condition"
-number="4.2.2.3"></fr:ref>, since
-          <fr:tex
-display="block">             \mathrm {R} f_*\mathbb {Q}             \simeq  \mathrm {R} f_*\mathbb {Z}\otimes \mathbb {Q}.           </fr:tex>
-        </html:li>
-
-
-        
- <html:li
-style="list-style-type: &quot;(e) &quot;">
-          The objects <fr:tex>H\in \operatorname {Ob}\mathcal {C}_0</fr:tex> satisfy <fr:ref
-addr="hodge-theory-ii-4.2.2.4"
-href="hodge-theory-ii-4.2.2.4.xml"
-taxon="Condition"
-number="4.2.2.4"></fr:ref>, by <fr:ref
-addr="hodge-theory-ii-4.1.2"
-href="hodge-theory-ii-4.1.2.xml"
-taxon="Corollary"
-number="4.1.2"></fr:ref>.
-        </html:li>
-
-      </html:ol></fr:p>
-
-    <fr:p>
-      Let <fr:tex>\mathcal {C}_1</fr:tex> be the set of direct factors of objects of <fr:tex>\mathcal {C}_0</fr:tex>.
-      Then <fr:tex>\mathcal {C}_1</fr:tex> is stable under tensor products, direct sums, and direct factors, and satisfies <fr:ref
-addr="hodge-theory-ii-4.2.2.2"
-href="hodge-theory-ii-4.2.2.2.xml"
-taxon="Condition"
-number="4.2.2.2"></fr:ref>, <fr:ref
-addr="hodge-theory-ii-4.2.2.3"
-href="hodge-theory-ii-4.2.2.3.xml"
-taxon="Condition"
-number="4.2.2.3"></fr:ref>, and <fr:ref
-addr="hodge-theory-ii-4.2.2.4"
-href="hodge-theory-ii-4.2.2.4.xml"
-taxon="Condition"
-number="4.2.2.4"></fr:ref>.
-      Furthermore, <fr:tex>\mathbb {Q}(-1)</fr:tex> is in <fr:tex>\mathcal {C}_1</fr:tex>, in the form of <fr:tex>\mathrm {R}^2 f_*\mathbb {Q}</fr:tex> for <fr:tex>f\colon \mathbb {P}_S^1\to  S</fr:tex> the projective bundle.
-      The category <fr:tex>\mathcal {C}_2</fr:tex> consisting of the <fr:tex>H\otimes \mathbb {Q}(k)</fr:tex> (for <fr:tex>k\in \mathbb {N}</fr:tex>) thus satisfy all the conditions of <fr:ref
-addr="hodge-theory-ii-4.2.2"
-href="hodge-theory-ii-4.2.2.xml"
-number="4.2.2"></fr:ref>.
+      Here is the proof.
+      As in <fr:em>loc. cit.</fr:em>, we can reduce to the case where <fr:tex>\alpha </fr:tex> is bihomogeneous, with bidegree <fr:tex>(p,q)</fr:tex>.
+      Since the spectral sequence of the double complex <fr:tex>\operatorname {H}^0(X,\Omega ^{pq})</fr:tex> degenerates, the exterior differential <fr:tex>d</fr:tex> is strictly compatible with the filtration by the first degree <fr:tex>p</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.3.2"
+href="hodge-theory-ii-1.3.2.xml"
+taxon="Proposition"
+number="1.3.2"></fr:ref>).
+      If <fr:tex>a\sim 0</fr:tex>, then there thus exists a form <fr:tex>\beta _1</fr:tex> such that <fr:tex>\mathrm {d}\beta _1=\alpha </fr:tex> and such that the components <fr:tex>\beta _1^{p'q'}</fr:tex> of <fr:tex>\beta _1</fr:tex> are zero for <fr:tex>p'&lt;p</fr:tex>.
     </fr:p>
 
     <fr:p>
-      To thus deduce (i), it suffices to note that, if <fr:tex>H</fr:tex> is a continuous family of Hodge structures, and <fr:tex>U</fr:tex> a dense Zariski open of <fr:tex>S</fr:tex>, then a sub-object of, a polarisation on, or an integer lattice of <fr:tex>H|U</fr:tex> uniquely extend to <fr:tex>H</fr:tex>.
+      By complex conjugation, there similarly exists <fr:tex>\beta _2</fr:tex> such that <fr:tex>\mathrm {d}\beta _2=\alpha </fr:tex> and such that the components <fr:tex>\beta _2^{p'q'}</fr:tex> of <fr:tex>\beta _2</fr:tex> are zero for <fr:tex>q'&lt;q</fr:tex>.
+      We have <fr:tex>\mathrm {d}(\beta _1-\beta _2)=0</fr:tex>.
     </fr:p>
 
     <fr:p>
-      We now prove (iii).
-      If <fr:tex>f\colon  X\to  S</fr:tex> is smooth and projective, then there exists a dense Zariski open subset <fr:tex>U</fr:tex> of <fr:tex>S</fr:tex> along with a commutative diagram
-      
+      Let <fr:tex>\gamma </fr:tex> be a form satisfying <fr:tex>\mathrm {d}'\gamma =\mathrm {d}''\gamma =0</fr:tex> in the cohomology class of <fr:tex>\beta _1-\beta _2</fr:tex> (<fr:em>loc. cit.</fr:em>).
+      Let <fr:tex>\gamma _1</fr:tex> (resp. <fr:tex>\gamma _2</fr:tex>) be the sum of the components of <fr:tex>\gamma </fr:tex> of degree <fr:tex>(p',q')</fr:tex> for <fr:tex>p'\geqslant  p</fr:tex> (resp. <fr:tex>q'\geqslant  q</fr:tex>).
+      If we set <fr:tex>\beta '_1=\beta _1-\gamma _1</fr:tex> and <fr:tex>\beta '_2=\beta _2+\gamma _2</fr:tex>, then we still have that <fr:tex>\mathrm {d}\beta '_1=\mathrm {d}\beta '_2=\alpha </fr:tex>;
+      furthermore, <fr:tex>\beta '_1-\beta '_2=\beta _1-\beta _2-\gamma </fr:tex> is cohomologous to zero: there exists <fr:tex>\delta </fr:tex> such that
+      <fr:tex
+display="block">         \mathrm {d}\delta          = \beta '_1 - \beta '_2.       </fr:tex>
+      Let <fr:tex>\delta _1</fr:tex> (resp. <fr:tex>\delta _2</fr:tex>) be the sum of the components of <fr:tex>\delta </fr:tex> of degree <fr:tex>(p',q')</fr:tex> for <fr:tex>p'&lt;p-1</fr:tex> (resp. <fr:tex>q'&gt;q-1</fr:tex>);
+      let <fr:tex>\beta </fr:tex> be the component of <fr:tex>\delta </fr:tex> of degree <fr:tex>(p-1,q-1)</fr:tex>.
+    </fr:p>
+
+    
   <fr:embedded-tex
-hash="960eeda587510012f1d629b498f06b99"><fr:embedded-tex-preamble>
+hash="b72737b1e295cae441d5909602554291"><fr:embedded-tex-preamble>
     \usepackage {amsmath}
     \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
-        X' \ar [rr,"p"] \ar [dr,swap,"f'"]
-        &amp;&amp; X|U \ar [dl,"f|U"]
-      \\&amp; U
-      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+    \usepackage {tikz}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+            \draw [-&gt;] (0,0) to (2,0) node[label={below:$p$}]{};
+      \draw [-&gt;] (0,0) to (0,2) node[label={left:$q$}]{};
+            \node [point, label={below:$\beta $}] at (1.5,1.5) {};
+      \node [point, label={right:$(p,q)$}] at (3,2.5) {};
+            \begin {scope}[shift={(2.5,0.5)}, rotate=-45]
+        \node [point, label={[rotate=-45]right:$\delta _1$}] at (0,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+            \begin {scope}[shift={(0.5,2.5)}, rotate=135]
+        \node [point, label={[rotate=-45]left:$\delta _2$}] at (0,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+            \begin {scope}[shift={(4,1)}, rotate=-45]
+        \node [point, label={[rotate=-45]right:$\beta _1,\gamma _1,\beta '_1$}] at (0,0) {};
+        \node [point] at (1.75,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+            \begin {scope}[shift={(2,3)}, rotate=135]
+        \node [point, label={[rotate=-45]left:$\beta _2,\gamma _2,\beta '_2$}] at (0,0) {};
+        \node [point] at (01.75,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+    \end {tikzpicture}</fr:embedded-tex-body></fr:embedded-tex>
 
-      with <fr:tex>f'</fr:tex> smooth and projective, and <fr:tex>p</fr:tex> birational and surjective (by applying Chow's lemma and the resolution of singularities to the generic fibre of <fr:tex>f</fr:tex>).
-      The restriction map
+
+    <fr:p>
+      We have that
       <fr:tex
-display="block">         p^*\colon  (\mathrm {R} f_*\mathbb {Q})|U \to  \mathrm {R} f'_*\mathbb {Q}       </fr:tex>
-      is thus a direct injection of continuous families of Hodge structures, with left inverse given by the Gysin morphism <fr:tex>p_!</fr:tex>, whence the algebraicity of <fr:tex>\mathrm {R} f_*\mathbb {Q}</fr:tex>.
-    </fr:p>
+display="block">         \beta '_2         =\mathrm {d}\delta _2 + \mathrm {d}''\beta        </fr:tex>
+      and
+      <fr:tex
+display="block">         \begin {aligned}           \alpha            = \mathrm {d}\beta '_2           &amp;= \mathrm {d}\mathrm {d}\delta _2 + \mathrm {d}\mathrm {d}''\beta          \\&amp;= \mathrm {d}'\mathrm {d}''\beta .         \end {aligned}       </fr:tex></fr:p>
   </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -131,195 +81,9 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2248</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.2.5</fr:addr><fr:route>hodge-theory-ii-4.2.5.xml</fr:route><fr:number>4.2.5</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-    
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-      The category of algebraic continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex> satisfies the conditions of <fr:ref
-addr="hodge-theory-ii-4.2.2"
-href="hodge-theory-ii-4.2.2.xml"
-number="4.2.2"></fr:ref>.
-    </html:li>
-
-    
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-      If a continuous family <fr:tex>H</fr:tex> of Hodge structures on <fr:tex>S</fr:tex> is such that its restriction to a dense Zariski open <fr:tex>U</fr:tex> of <fr:tex>S</fr:tex> is algebraic, then <fr:tex>H</fr:tex> is algebraic.
-    </html:li>
-
-    
- <html:li
-style="list-style-type: &quot;(iii) &quot;">
-      If <fr:tex>f\colon  X\to  S</fr:tex> is smooth and proper, then <fr:tex>\mathrm {R} f_*\mathbb {Q}</fr:tex> is algebraic.
-    </html:li>
-
-  </html:ol>
-
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1156</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#186</fr:addr><fr:route>unstable-186.xml</fr:route><fr:parent>hodge-theory-ii-4.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Claim (ii) is evident.
-      We will prove (i).
-      Let <fr:tex>\mathcal {C}_0</fr:tex> be the set of continuous families of Hodge structures on <fr:tex>S</fr:tex> that are of the form <fr:tex>\mathrm {R} f_*\mathbb {Q}</fr:tex> (with <fr:tex>f</fr:tex> smooth and projective).
-      Then:
-
-      
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-        
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-          By the Künneth formula
-          <fr:tex
-display="block">             \mathrm {R}(f\times  g)_*\mathbb {Q}             \simeq  \mathrm {R} f_*\mathbb {Q}\otimes \mathrm {R} g_*\mathbb {Q},           </fr:tex>
-          <fr:tex>\mathcal {C}_0</fr:tex> is stable under tensor products.
-        </html:li>
-
-        
-        
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-          Since
-          <fr:tex
-display="block">             \mathrm {R}(f\sqcup  g)_*\mathbb {Q}             \simeq  \mathrm {R} f_*\mathbb {Q}\oplus \mathrm {R} g_*\mathbb {Q},           </fr:tex>
-          <fr:tex>\mathcal {C}_0</fr:tex> is stable under direct sums.
-        </html:li>
-
-
-        
- <html:li
-style="list-style-type: &quot;(c) &quot;">
-          
-          The homogeneous components of each <fr:tex>H\in \operatorname {Ob}\mathcal {C}_0</fr:tex> are polarisable (cf. <fr:ref
-addr="hodge-theory-ii-2.2.6"
-href="hodge-theory-ii-2.2.6.xml"
-number="2.2.6"></fr:ref>).
-        </html:li>
-
-
-        
- <html:li
-style="list-style-type: &quot;(d) &quot;">
-          The objects <fr:tex>H\in \operatorname {Ob}\mathcal {C}_0</fr:tex> satisfy <fr:ref
-addr="hodge-theory-ii-4.2.2.3"
-href="hodge-theory-ii-4.2.2.3.xml"
-taxon="Condition"
-number="4.2.2.3"></fr:ref>, since
-          <fr:tex
-display="block">             \mathrm {R} f_*\mathbb {Q}             \simeq  \mathrm {R} f_*\mathbb {Z}\otimes \mathbb {Q}.           </fr:tex>
-        </html:li>
-
-
-        
- <html:li
-style="list-style-type: &quot;(e) &quot;">
-          The objects <fr:tex>H\in \operatorname {Ob}\mathcal {C}_0</fr:tex> satisfy <fr:ref
-addr="hodge-theory-ii-4.2.2.4"
-href="hodge-theory-ii-4.2.2.4.xml"
-taxon="Condition"
-number="4.2.2.4"></fr:ref>, by <fr:ref
-addr="hodge-theory-ii-4.1.2"
-href="hodge-theory-ii-4.1.2.xml"
-taxon="Corollary"
-number="4.1.2"></fr:ref>.
-        </html:li>
-
-      </html:ol></fr:p>
-
-    <fr:p>
-      Let <fr:tex>\mathcal {C}_1</fr:tex> be the set of direct factors of objects of <fr:tex>\mathcal {C}_0</fr:tex>.
-      Then <fr:tex>\mathcal {C}_1</fr:tex> is stable under tensor products, direct sums, and direct factors, and satisfies <fr:ref
-addr="hodge-theory-ii-4.2.2.2"
-href="hodge-theory-ii-4.2.2.2.xml"
-taxon="Condition"
-number="4.2.2.2"></fr:ref>, <fr:ref
-addr="hodge-theory-ii-4.2.2.3"
-href="hodge-theory-ii-4.2.2.3.xml"
-taxon="Condition"
-number="4.2.2.3"></fr:ref>, and <fr:ref
-addr="hodge-theory-ii-4.2.2.4"
-href="hodge-theory-ii-4.2.2.4.xml"
-taxon="Condition"
-number="4.2.2.4"></fr:ref>.
-      Furthermore, <fr:tex>\mathbb {Q}(-1)</fr:tex> is in <fr:tex>\mathcal {C}_1</fr:tex>, in the form of <fr:tex>\mathrm {R}^2 f_*\mathbb {Q}</fr:tex> for <fr:tex>f\colon \mathbb {P}_S^1\to  S</fr:tex> the projective bundle.
-      The category <fr:tex>\mathcal {C}_2</fr:tex> consisting of the <fr:tex>H\otimes \mathbb {Q}(k)</fr:tex> (for <fr:tex>k\in \mathbb {N}</fr:tex>) thus satisfy all the conditions of <fr:ref
-addr="hodge-theory-ii-4.2.2"
-href="hodge-theory-ii-4.2.2.xml"
-number="4.2.2"></fr:ref>.
-    </fr:p>
-
-    <fr:p>
-      To thus deduce (i), it suffices to note that, if <fr:tex>H</fr:tex> is a continuous family of Hodge structures, and <fr:tex>U</fr:tex> a dense Zariski open of <fr:tex>S</fr:tex>, then a sub-object of, a polarisation on, or an integer lattice of <fr:tex>H|U</fr:tex> uniquely extend to <fr:tex>H</fr:tex>.
-    </fr:p>
-
-    <fr:p>
-      We now prove (iii).
-      If <fr:tex>f\colon  X\to  S</fr:tex> is smooth and projective, then there exists a dense Zariski open subset <fr:tex>U</fr:tex> of <fr:tex>S</fr:tex> along with a commutative diagram
-      
-  <fr:embedded-tex
-hash="960eeda587510012f1d629b498f06b99"><fr:embedded-tex-preamble>
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
-        X' \ar [rr,"p"] \ar [dr,swap,"f'"]
-        &amp;&amp; X|U \ar [dl,"f|U"]
-      \\&amp; U
-      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
-
-      with <fr:tex>f'</fr:tex> smooth and projective, and <fr:tex>p</fr:tex> birational and surjective (by applying Chow's lemma and the resolution of singularities to the generic fibre of <fr:tex>f</fr:tex>).
-      The restriction map
-      <fr:tex
-display="block">         p^*\colon  (\mathrm {R} f_*\mathbb {Q})|U \to  \mathrm {R} f'_*\mathbb {Q}       </fr:tex>
-      is thus a direct injection of continuous families of Hodge structures, with left inverse given by the Gysin morphism <fr:tex>p_!</fr:tex>, whence the algebraicity of <fr:tex>\mathrm {R} f_*\mathbb {Q}</fr:tex>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2242</fr:anchor><fr:addr>hodge-theory-ii-2.2.6</fr:addr><fr:route>hodge-theory-ii-2.2.6.xml</fr:route><fr:number>2.2.6</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>X</fr:tex> be a non-singular projective variety of pure dimension <fr:tex>n</fr:tex>.
-    A choice of <fr:tex>i</fr:tex> defines an orientation of <fr:tex>X</fr:tex> and an isomorphism <fr:tex>\mathbb {Z}(1)\simeq \mathbb {Z}</fr:tex>.
-    The corresponding trace morphism
-    <fr:tex
-display="block">       \operatorname {H}^{2n}(X,\mathbb {Z}(n)) \to  \mathbb {Z}     </fr:tex>
-    that is induced does not depend on the choice of <fr:tex>i</fr:tex>.
-  </fr:p><fr:p>
-    By Hodge, for <fr:tex>i\leqslant  n</fr:tex>, the morphism
-    <fr:tex
-display="block">       L^{n-i}       = -\wedge  c''_1(\mathcal {O}(1))^{n-i}\colon        \operatorname {H}^i(X,\mathbb {Z}) \to  \operatorname {H}^{2n-i}(X,\mathbb {Z}(n-i))     </fr:tex>
-    is an isomorphism, and, combined with Poincaré duality
-    <fr:tex
-display="block">       \operatorname {H}^i(X,\mathbb {Z})\otimes \operatorname {H}^{2n-i}(X,\mathbb {Z}(n-i))       \to  \operatorname {H}^{2n}(X,\mathbb {Z}(n-i))       \to  \mathbb {Z}(-i)     </fr:tex>
-    gives a polarisation on the <fr:em>primitive part</fr:em> <fr:tex>\operatorname {Ker}(L^{n-i+1})</fr:tex> of <fr:tex>\operatorname {H}^i(X,\mathbb {Z})</fr:tex>.
-  </fr:p><fr:p>
-    We thus deduce that the rational Hodge structures <fr:tex>\operatorname {H}^i(X,\mathbb {Q})</fr:tex> are polarisable.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2243</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f\colon  X\to  S</fr:tex> be a proper smooth morphism, with <fr:tex>S</fr:tex> reduced, connected, and separated.
-    Let <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})^0</fr:tex> be the largest constant local system on <fr:tex>\mathrm {R}^n f_*\mathbb {Q}</fr:tex>, with fibre <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})</fr:tex>.
-    Then, for each <fr:tex>s\in  S</fr:tex>, <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})_s^0</fr:tex> is a Hodge sub-structure of <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})\simeq \operatorname {H}^n(X_s,\mathbb {Q})</fr:tex>, and the induced Hodge structure on <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})</fr:tex> is independent of <fr:tex>s</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>2305</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.3.1</fr:addr><fr:route>hodge-theory-ii-4.3.1.xml</fr:route><fr:number>4.3.1</fr:number><fr:parent>hodge-theory-ii-4.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X</fr:tex> be a smooth proper scheme over <fr:tex>\mathbb {C}</fr:tex>.
+    If a <fr:tex>C^\infty </fr:tex> form <fr:tex>\alpha </fr:tex> on <fr:tex>X</fr:tex> satisfies <fr:tex>\mathrm {d}'\alpha =\mathrm {d}''\alpha =0</fr:tex> and is cohomologous to zero, then there exists <fr:tex>\beta </fr:tex> such that <fr:tex>\alpha =\mathrm {d}'\mathrm {d}''\beta </fr:tex>.
   </fr:p>
   
     
@@ -330,99 +94,133 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1565</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#193</fr:addr><fr:route>unstable-193.xml</fr:route><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>374</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#186</fr:addr><fr:route>unstable-186.xml</fr:route><fr:parent>hodge-theory-ii-4.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Let <fr:tex>s\in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
-      If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
-addr="hodge-theory-ii-4.1.1"
-href="hodge-theory-ii-4.1.1.xml"
-taxon="Theorem"
-number="4.1.1"></fr:ref>, the subspace <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})_s^0</fr:tex> of <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})_s</fr:tex> is the image of <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex>.
-      Since the restriction map
+      Here is the proof.
+      As in <fr:em>loc. cit.</fr:em>, we can reduce to the case where <fr:tex>\alpha </fr:tex> is bihomogeneous, with bidegree <fr:tex>(p,q)</fr:tex>.
+      Since the spectral sequence of the double complex <fr:tex>\operatorname {H}^0(X,\Omega ^{pq})</fr:tex> degenerates, the exterior differential <fr:tex>d</fr:tex> is strictly compatible with the filtration by the first degree <fr:tex>p</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.3.2"
+href="hodge-theory-ii-1.3.2.xml"
+taxon="Proposition"
+number="1.3.2"></fr:ref>).
+      If <fr:tex>a\sim 0</fr:tex>, then there thus exists a form <fr:tex>\beta _1</fr:tex> such that <fr:tex>\mathrm {d}\beta _1=\alpha </fr:tex> and such that the components <fr:tex>\beta _1^{p'q'}</fr:tex> of <fr:tex>\beta _1</fr:tex> are zero for <fr:tex>p'&lt;p</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      By complex conjugation, there similarly exists <fr:tex>\beta _2</fr:tex> such that <fr:tex>\mathrm {d}\beta _2=\alpha </fr:tex> and such that the components <fr:tex>\beta _2^{p'q'}</fr:tex> of <fr:tex>\beta _2</fr:tex> are zero for <fr:tex>q'&lt;q</fr:tex>.
+      We have <fr:tex>\mathrm {d}(\beta _1-\beta _2)=0</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Let <fr:tex>\gamma </fr:tex> be a form satisfying <fr:tex>\mathrm {d}'\gamma =\mathrm {d}''\gamma =0</fr:tex> in the cohomology class of <fr:tex>\beta _1-\beta _2</fr:tex> (<fr:em>loc. cit.</fr:em>).
+      Let <fr:tex>\gamma _1</fr:tex> (resp. <fr:tex>\gamma _2</fr:tex>) be the sum of the components of <fr:tex>\gamma </fr:tex> of degree <fr:tex>(p',q')</fr:tex> for <fr:tex>p'\geqslant  p</fr:tex> (resp. <fr:tex>q'\geqslant  q</fr:tex>).
+      If we set <fr:tex>\beta '_1=\beta _1-\gamma _1</fr:tex> and <fr:tex>\beta '_2=\beta _2+\gamma _2</fr:tex>, then we still have that <fr:tex>\mathrm {d}\beta '_1=\mathrm {d}\beta '_2=\alpha </fr:tex>;
+      furthermore, <fr:tex>\beta '_1-\beta '_2=\beta _1-\beta _2-\gamma </fr:tex> is cohomologous to zero: there exists <fr:tex>\delta </fr:tex> such that
       <fr:tex
-display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       </fr:tex>
-      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})</fr:tex>, given by the quotient of that on <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex>, is independent of <fr:tex>s</fr:tex>.
+display="block">         \mathrm {d}\delta          = \beta '_1 - \beta '_2.       </fr:tex>
+      Let <fr:tex>\delta _1</fr:tex> (resp. <fr:tex>\delta _2</fr:tex>) be the sum of the components of <fr:tex>\delta </fr:tex> of degree <fr:tex>(p',q')</fr:tex> for <fr:tex>p'&lt;p-1</fr:tex> (resp. <fr:tex>q'&gt;q-1</fr:tex>);
+      let <fr:tex>\beta </fr:tex> be the component of <fr:tex>\delta </fr:tex> of degree <fr:tex>(p-1,q-1)</fr:tex>.
+    </fr:p>
+
+    
+  <fr:embedded-tex
+hash="b72737b1e295cae441d5909602554291"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+            \draw [-&gt;] (0,0) to (2,0) node[label={below:$p$}]{};
+      \draw [-&gt;] (0,0) to (0,2) node[label={left:$q$}]{};
+            \node [point, label={below:$\beta $}] at (1.5,1.5) {};
+      \node [point, label={right:$(p,q)$}] at (3,2.5) {};
+            \begin {scope}[shift={(2.5,0.5)}, rotate=-45]
+        \node [point, label={[rotate=-45]right:$\delta _1$}] at (0,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+            \begin {scope}[shift={(0.5,2.5)}, rotate=135]
+        \node [point, label={[rotate=-45]left:$\delta _2$}] at (0,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+            \begin {scope}[shift={(4,1)}, rotate=-45]
+        \node [point, label={[rotate=-45]right:$\beta _1,\gamma _1,\beta '_1$}] at (0,0) {};
+        \node [point] at (1.75,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+            \begin {scope}[shift={(2,3)}, rotate=135]
+        \node [point, label={[rotate=-45]left:$\beta _2,\gamma _2,\beta '_2$}] at (0,0) {};
+        \node [point] at (01.75,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+    \end {tikzpicture}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+    <fr:p>
+      We have that
+      <fr:tex
+display="block">         \beta '_2         =\mathrm {d}\delta _2 + \mathrm {d}''\beta        </fr:tex>
+      and
+      <fr:tex
+display="block">         \begin {aligned}           \alpha            = \mathrm {d}\beta '_2           &amp;= \mathrm {d}\mathrm {d}\delta _2 + \mathrm {d}\mathrm {d}''\beta          \\&amp;= \mathrm {d}'\mathrm {d}''\beta .         \end {aligned}       </fr:tex></fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2304</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.3.2</fr:addr><fr:route>hodge-theory-ii-1.3.2.xml</fr:route><fr:number>1.3.2</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex endowed with a biregular filtration <fr:tex>F</fr:tex>.
+    The following conditions are equivalent:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        The spectral sequence defined by <fr:tex>F</fr:tex> degenerates (<fr:tex>E_1=E_\infty </fr:tex>).
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        The morphisms <fr:tex>d\colon  K^i\to  K^{i+1}</fr:tex> are strictly compatible with the filtrations.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>850</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#208</fr:addr><fr:route>unstable-208.xml</fr:route><fr:parent>hodge-theory-ii-1.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We will prove this in the case where <fr:tex>\mathscr {A}</fr:tex> is a category of modules.
+      For fixed <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>, the hypothesis that the arrows <fr:tex>d_r</fr:tex> with domains <fr:tex>E_r^{pq}</fr:tex> be zero for <fr:tex>r\geqslant 1</fr:tex> implies that, if <fr:tex>x\in  F^p(K^{p+q})</fr:tex> satisfies <fr:tex>dx\in  F^{p+1}(K^{p+q+1})</fr:tex>, then there exists <fr:tex>y\in  K^{p+q}</fr:tex> such that <fr:tex>dy=0</fr:tex> and such that <fr:tex>x</fr:tex> and <fr:tex>y</fr:tex> have the same image in <fr:tex>E_1^{pq}</fr:tex>.
+      Modifying <fr:tex>y</fr:tex> by a boundary, and setting <fr:tex>z=x-y</fr:tex>, we then have
+      <fr:tex
+display="block">         \forall  x\in  F^p(K^{p+q})         \left [           dx\in  F^{p+1}(K^{p+q+1})           \implies  \exists  z\text { s.t. } z\in  F^{p+1}(K^{p+q}) \text { and } dz=dx         \right ]       </fr:tex>
+      or, in other words,
+      <fr:tex
+display="block">         F^{p+1}(K^{p+q+1}) \cap  dF^p(K^{p+q})         = dF^{p+1}(K^{p+q}).       \tag{1}       </fr:tex></fr:p>
+
+    <fr:p>
+      If this condition is satisfied for arbitrary <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>, then by induction on <fr:tex>r</fr:tex> we have
+      <fr:tex
+display="block">         F^{p+r} \cap  dF^p         = dF^{p+r}       </fr:tex>
+      which, for large <fr:tex>p+r</fr:tex>, can be written as
+      <fr:tex
+display="block">         F^p \cap  dK         = dF^p.       \tag{2}       </fr:tex></fr:p>
+
+    <fr:p>
+      Claim (2) trivially implies (1), and is equivalent to (ii), which proves the proposition.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2244</fr:anchor><fr:addr>hodge-theory-ii-4.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.xml</fr:route><fr:number>4.2.2</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Suppose that <fr:tex>S</fr:tex> is connected, and let <fr:tex>\mathcal {C}</fr:tex> be a strictly full subcategory of the category of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex>.
-    We will have need of the following conditions:
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1135</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.1</fr:addr><fr:route>hodge-theory-ii-4.2.2.1.xml</fr:route><fr:number>4.2.2.1</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:tex>\mathcal {C}</fr:tex> is stable under direct factors, direct sums, and tensor products;
-        the Tate constant families <fr:tex>\mathbb {Q}(n)</fr:tex> (for <fr:tex>n\in \mathbb {Z}</fr:tex>) are in <fr:tex>\mathcal {C}</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree>
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1136</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.2.xml</fr:route><fr:number>4.2.2.2</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Every homogeneous (of some weight <fr:tex>n</fr:tex>) Hodge structure in <fr:tex>\mathcal {C}</fr:tex> is polarisable.
-      </fr:p></fr:mainmatter></fr:tree>
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1137</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.2.3.xml</fr:route><fr:number>4.2.2.3</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For every <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, there exists a local system <fr:tex>H'_\mathbb {Z}</fr:tex> on <fr:tex>S</fr:tex> of free <fr:tex>\mathbb {Z}</fr:tex>-modules such that <fr:tex>H'_\mathbb {Z}\otimes \mathbb {Q}\approx  H_\mathbb {Q}</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree>
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1138</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.4</fr:addr><fr:route>hodge-theory-ii-4.2.2.4.xml</fr:route><fr:number>4.2.2.4</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For every <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, the largest constant local system <fr:tex>H^f</fr:tex> of <fr:tex>H</fr:tex> is a constant family of Hodge sub-structures of <fr:tex>H</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2245</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.2</fr:addr><fr:route>hodge-theory-ii-4.2.2.2.xml</fr:route><fr:number>4.2.2.2</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Every homogeneous (of some weight <fr:tex>n</fr:tex>) Hodge structure in <fr:tex>\mathcal {C}</fr:tex> is polarisable.
-      </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2246</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.2.3.xml</fr:route><fr:number>4.2.2.3</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For every <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, there exists a local system <fr:tex>H'_\mathbb {Z}</fr:tex> on <fr:tex>S</fr:tex> of free <fr:tex>\mathbb {Z}</fr:tex>-modules such that <fr:tex>H'_\mathbb {Z}\otimes \mathbb {Q}\approx  H_\mathbb {Q}</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2247</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.4</fr:addr><fr:route>hodge-theory-ii-4.2.2.4.xml</fr:route><fr:number>4.2.2.4</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For every <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, the largest constant local system <fr:tex>H^f</fr:tex> of <fr:tex>H</fr:tex> is a constant family of Hodge sub-structures of <fr:tex>H</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

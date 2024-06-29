@@ -7,49 +7,143 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2291</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#194</fr:addr><fr:route>unstable-194.xml</fr:route><fr:parent>hodge-theory-ii-3.2.6</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2345</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#194</fr:addr><fr:route>unstable-194.xml</fr:route><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Define the <fr:tex>Y^n</fr:tex> and the <fr:tex>\widetilde {Y}^n</fr:tex> as in <fr:ref
-addr="hodge-theory-ii-3.1.4"
-href="hodge-theory-ii-3.1.4.xml"
-number="3.1.4"></fr:ref>, and let <fr:tex>i_n\colon \widetilde {Y}^n\to  X</fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, we have
-      <fr:tex
-display="block">         \operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       </fr:tex>
-      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref>), and so the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref> is given by translations of the degrees of the classical spectral sequence
-      <fr:tex
-display="block">         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       </fr:tex></fr:p>
-
-    <fr:p>
-      If <fr:tex>\bar {X}</fr:tex> is projective and <fr:tex>Y</fr:tex> the union of smooth divisors, then <fr:tex>\widetilde {Y}^n</fr:tex> is projective, <fr:tex>\varepsilon ^n</fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref
-addr="hodge-theory-ii-2.2.1"
-href="hodge-theory-ii-2.2.1.xml"
-number="2.2.1"></fr:ref>) gives the degeneration claimed in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref>.
-      For the general case, refer to [<fr:link
+      For <fr:tex>f</fr:tex> smooth and projective, claim (i) is proven in <fr:link
 href="D1968.xml"
 type="local"
-addr="D1968">D1968</fr:link>] (see also <fr:ref
-addr="hodge-theory-ii-2.2.2"
-href="hodge-theory-ii-2.2.2.xml"
-number="2.2.2"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-2.2.3"
-href="hodge-theory-ii-2.2.3.xml"
-number="2.2.3"></fr:ref>).
+addr="D1968">D1968</fr:link>.
+      The proof in <fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link> is rewritten in a more readable manner in <fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>;
+      it does not use the smoothness of <fr:tex>S</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Let us fix <fr:tex>f</fr:tex>, and prove that (i)<fr:tex>\implies </fr:tex>(ii).
+      We can reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+      If <fr:tex>s\in  S</fr:tex> is a point, then the local system <fr:tex>\mathrm {R}^nf_*\mathbb {Q}</fr:tex> is entirely described by its fibre <fr:tex>(\mathrm {R}^nf_*\mathbb {Q})_s</fr:tex> at <fr:tex>s</fr:tex> and the action of the fundamental group <fr:tex>\pi =\pi _1(S,s)</fr:tex> on this fibre.
+      We have
+      <fr:tex
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } [(\mathrm {R}^n f_*\mathbb {Q})_s]^\pi .       </fr:tex>
+      If <fr:tex>X_s=f^{-1}(s)</fr:tex>, then the composite arrow
+      <fr:tex
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \to  (\mathrm {R}^n f_*\mathbb {Q})         \approx  \operatorname {H}^n(X_s,\mathbb {Q})       </fr:tex>
+      is thus injective.
+      Consider the arrows
+      <fr:tex
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q})         \xrightarrow {a} \operatorname {H}^n(X,\mathbb {Q})         \xrightarrow {b} \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xhookrightarrow {c} \operatorname {H}^n(X_s,\mathbb {Q}).       </fr:tex>
+      The arrows <fr:tex>cb</fr:tex> and <fr:tex>cba</fr:tex> have the same image, by <fr:ref
+addr="hodge-theory-ii-3.2.18"
+href="hodge-theory-ii-3.2.18.xml"
+taxon="Corollary"
+number="3.2.18"></fr:ref>.
+      The arrow <fr:tex>b</fr:tex> is an "edge homomorphism" of the Leray spectral sequence, and is thus surjective by hypothesis.
+      Since <fr:tex>c</fr:tex> is injective, <fr:tex>b</fr:tex> and <fr:tex>ba</fr:tex> have the same image, and <fr:tex>ba</fr:tex> is surjective.
+    </fr:p>
+
+    <fr:p>
+      This proves (ii) for <fr:tex>f</fr:tex> projective.
+      From this we will deduce the general case.
+      We can again reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+    </fr:p>
+
+    <fr:p>
+      By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme <fr:tex>X'</fr:tex> and a projective birational morphism <fr:tex>p\colon  X'\to  X</fr:tex>.
+      
+      There thus exists (by Bertini, or Sard) a non-empty Zariski open <fr:tex>S_1</fr:tex> of <fr:tex>S</fr:tex> such that <fr:tex>X'_1=(fp)^{-1}(S_1)</fr:tex> is smooth over <fr:tex>S_1</fr:tex>.
+      Finally, let <fr:tex>X_1=f^{-1}(S_1)</fr:tex>, let <fr:tex>\bar {X}</fr:tex> be a smooth compactification of <fr:tex>X</fr:tex>, and let <fr:tex>\bar {X}'_1</fr:tex> be a smooth compactification of <fr:tex>X'_1</fr:tex> that dominates <fr:tex>\bar {X}</fr:tex>.
+
+      
+  <fr:embedded-tex
+hash="479c210d5ad042cedd2fc23bd6a3b091"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+        \bar {X}
+        &amp;&amp; \bar {X}'_1
+          \ar [ll,swap,"\bar {p}"]
+      \\X
+          \ar [u,hook]
+          \ar [d,swap,"f"]
+        &amp; X_1
+          \ar [l,hook']
+          \ar [d,swap,"f_1"]
+        &amp; X'_1
+          \ar [u,hook]
+          \ar [l,swap,"p"]
+          \ar [d,swap,"f'_1"]
+      \\S
+        &amp; S_1
+          \ar [l,hook',"i"]
+        &amp; S_1
+          \ar [l,equals]
+      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex></fr:p>
+
+    <fr:p>
+      If <fr:tex>s\in  S_1</fr:tex>, then the morphism <fr:tex>i_*\colon \pi _1(S_1,s)\to \pi _1(S,s)</fr:tex> is surjective, since the topological codimension of <fr:tex>S\setminus  S_1</fr:tex> is <fr:tex>\geqslant 2</fr:tex>.
+      We thus have
+      <fr:tex
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       </fr:tex>
+      and it suffices to prove that
+      <fr:tex
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q})         \to  \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       </fr:tex>
+      is surjective.
+    </fr:p>
+
+    <fr:p>
+      The vertical arrows in the diagram
+      <fr:tex
+display="block">         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^n(X_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@VV{\bar {p}^*}V @VV{p^*}V @VV{p^*}V         \\\operatorname {H}^n(\bar {X}'_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^n(X'_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}{f'_1}_*\mathbb {Q})         \end {CD}       </fr:tex>
+      admit left inverses given by the <fr:em>Gysin morphisms</fr:em> <fr:tex>\bar {p}_!</fr:tex>, <fr:tex>p_!</fr:tex>, and <fr:tex>p_!</fr:tex> (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
+      Furthermore, the diagram
+      <fr:tex
+display="block">         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @&gt;{u}&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@A{\bar {p}_!}AA @AA{p_!}A         \\\operatorname {H}^n(\bar {X}',\mathbb {Q}) @&gt;&gt;{v}&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f'_1}_*\mathbb {Q})         \end {CD}       </fr:tex>
+      commutes.
+      The arrow <fr:tex>u</fr:tex> is thus a direct factor of the arrow <fr:tex>v</fr:tex>.
+      Since <fr:tex>v</fr:tex> is surjective (because <fr:tex>f'_1</fr:tex> is projective), so too is <fr:tex>u</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      We now prove (i) in the general case.
+      We can reduce to the case where <fr:tex>f</fr:tex> is of pure relative dimension <fr:tex>n</fr:tex>.
+      Let <fr:tex>f\times  f</fr:tex> be the projection of <fr:tex>X\times _S X</fr:tex> to <fr:tex>S</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Let <fr:tex>\delta </fr:tex> be the image of the cohomology class of the diagonal of <fr:tex>X\times _S X</fr:tex> in <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n(f\times  f)_*,\mathbb {Q})</fr:tex>.
+      We have, by Künneth,
+      <fr:tex
+display="block">         \mathrm {R}^n(f\times  f)_*\mathbb {Q}         = \sum _{p+q=n} (\mathrm {R}^p f_*\mathbb {Q}\otimes \mathrm {R}^q f_*\mathbb {Q}).       </fr:tex>
+      We denote by <fr:tex>\delta '_{pq}</fr:tex> (for <fr:tex>p+q=n</fr:tex>) the components of <fr:tex>\delta </fr:tex> in this decomposition, and by <fr:tex>\delta _{pq}</fr:tex> the classes in <fr:tex>\operatorname {H}^n(X\times _S X)</fr:tex> given by the images of the <fr:tex>\delta '_{pq}</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The <fr:tex>\delta _{pq}</fr:tex> define, in the derived category <fr:tex>\operatorname {D}^+(S)</fr:tex>, homomorphisms
+      <fr:tex
+display="block">         \delta _p\colon          \mathrm {R} f_*\mathbb {Q}         \to  \mathrm {R} f_*\mathbb {Q}       </fr:tex>
+      such that <fr:tex>\operatorname {\mathscr {H}}^q(\delta _p)</fr:tex> is zero for <fr:tex>p\neq  q</fr:tex>, and is the identity for <fr:tex>p=q</fr:tex>.
+      By [<fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link>], we thus have
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>238</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \mathrm {R} f_*\mathbb {Q}           \approx  \sum _p \mathrm {R}^p f_*\mathbb {Q}[-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
+
+      in <fr:tex>\operatorname {D}^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
     </fr:p>
   </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -58,9 +152,32 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2290</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.6</fr:addr><fr:route>hodge-theory-ii-3.2.6.xml</fr:route><fr:number>3.2.6</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The hypercohomology spectral sequences of the filtered complexes <fr:tex>\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )</fr:tex>, endowed with the filtration induced by the Hodge filtration, degenerate at the <fr:tex>E_1</fr:tex> page.
+root="false"><fr:frontmatter><fr:anchor>2344</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a smooth separated scheme, and <fr:tex>f\colon  X\to  S</fr:tex> a smooth proper morphism.
   </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+      In rational cohomology, the Leray spectral sequence
+      <fr:tex
+display="block">         E_2^{pq}         = \operatorname {H}^p(S,\mathrm {R}^qf_*\mathbb {Q})         \Rightarrow  \operatorname {H}^{p+q}(X,\mathbb {Q})       </fr:tex>
+      degenerates (<fr:tex>E_2=E_\infty </fr:tex>).
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+      If <fr:tex>\bar {X}</fr:tex> is a non-singular compactification of <fr:tex>X</fr:tex>, then the canonical morphism
+      <fr:tex
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q})         \to  \operatorname {H}^0(S,\mathrm {R}^nf_*\mathbb {Q})       </fr:tex>
+      is surjective.
+    </html:li>
+
+  </html:ol>
+
   
     
     <fr:tree
@@ -70,49 +187,143 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>368</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#194</fr:addr><fr:route>unstable-194.xml</fr:route><fr:parent>hodge-theory-ii-3.2.6</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>239</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#194</fr:addr><fr:route>unstable-194.xml</fr:route><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Define the <fr:tex>Y^n</fr:tex> and the <fr:tex>\widetilde {Y}^n</fr:tex> as in <fr:ref
-addr="hodge-theory-ii-3.1.4"
-href="hodge-theory-ii-3.1.4.xml"
-number="3.1.4"></fr:ref>, and let <fr:tex>i_n\colon \widetilde {Y}^n\to  X</fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, we have
-      <fr:tex
-display="block">         \operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       </fr:tex>
-      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref>), and so the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref> is given by translations of the degrees of the classical spectral sequence
-      <fr:tex
-display="block">         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       </fr:tex></fr:p>
-
-    <fr:p>
-      If <fr:tex>\bar {X}</fr:tex> is projective and <fr:tex>Y</fr:tex> the union of smooth divisors, then <fr:tex>\widetilde {Y}^n</fr:tex> is projective, <fr:tex>\varepsilon ^n</fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref
-addr="hodge-theory-ii-2.2.1"
-href="hodge-theory-ii-2.2.1.xml"
-number="2.2.1"></fr:ref>) gives the degeneration claimed in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref>.
-      For the general case, refer to [<fr:link
+      For <fr:tex>f</fr:tex> smooth and projective, claim (i) is proven in <fr:link
 href="D1968.xml"
 type="local"
-addr="D1968">D1968</fr:link>] (see also <fr:ref
-addr="hodge-theory-ii-2.2.2"
-href="hodge-theory-ii-2.2.2.xml"
-number="2.2.2"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-2.2.3"
-href="hodge-theory-ii-2.2.3.xml"
-number="2.2.3"></fr:ref>).
+addr="D1968">D1968</fr:link>.
+      The proof in <fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link> is rewritten in a more readable manner in <fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>;
+      it does not use the smoothness of <fr:tex>S</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Let us fix <fr:tex>f</fr:tex>, and prove that (i)<fr:tex>\implies </fr:tex>(ii).
+      We can reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+      If <fr:tex>s\in  S</fr:tex> is a point, then the local system <fr:tex>\mathrm {R}^nf_*\mathbb {Q}</fr:tex> is entirely described by its fibre <fr:tex>(\mathrm {R}^nf_*\mathbb {Q})_s</fr:tex> at <fr:tex>s</fr:tex> and the action of the fundamental group <fr:tex>\pi =\pi _1(S,s)</fr:tex> on this fibre.
+      We have
+      <fr:tex
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } [(\mathrm {R}^n f_*\mathbb {Q})_s]^\pi .       </fr:tex>
+      If <fr:tex>X_s=f^{-1}(s)</fr:tex>, then the composite arrow
+      <fr:tex
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \to  (\mathrm {R}^n f_*\mathbb {Q})         \approx  \operatorname {H}^n(X_s,\mathbb {Q})       </fr:tex>
+      is thus injective.
+      Consider the arrows
+      <fr:tex
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q})         \xrightarrow {a} \operatorname {H}^n(X,\mathbb {Q})         \xrightarrow {b} \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xhookrightarrow {c} \operatorname {H}^n(X_s,\mathbb {Q}).       </fr:tex>
+      The arrows <fr:tex>cb</fr:tex> and <fr:tex>cba</fr:tex> have the same image, by <fr:ref
+addr="hodge-theory-ii-3.2.18"
+href="hodge-theory-ii-3.2.18.xml"
+taxon="Corollary"
+number="3.2.18"></fr:ref>.
+      The arrow <fr:tex>b</fr:tex> is an "edge homomorphism" of the Leray spectral sequence, and is thus surjective by hypothesis.
+      Since <fr:tex>c</fr:tex> is injective, <fr:tex>b</fr:tex> and <fr:tex>ba</fr:tex> have the same image, and <fr:tex>ba</fr:tex> is surjective.
+    </fr:p>
+
+    <fr:p>
+      This proves (ii) for <fr:tex>f</fr:tex> projective.
+      From this we will deduce the general case.
+      We can again reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+    </fr:p>
+
+    <fr:p>
+      By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme <fr:tex>X'</fr:tex> and a projective birational morphism <fr:tex>p\colon  X'\to  X</fr:tex>.
+      
+      There thus exists (by Bertini, or Sard) a non-empty Zariski open <fr:tex>S_1</fr:tex> of <fr:tex>S</fr:tex> such that <fr:tex>X'_1=(fp)^{-1}(S_1)</fr:tex> is smooth over <fr:tex>S_1</fr:tex>.
+      Finally, let <fr:tex>X_1=f^{-1}(S_1)</fr:tex>, let <fr:tex>\bar {X}</fr:tex> be a smooth compactification of <fr:tex>X</fr:tex>, and let <fr:tex>\bar {X}'_1</fr:tex> be a smooth compactification of <fr:tex>X'_1</fr:tex> that dominates <fr:tex>\bar {X}</fr:tex>.
+
+      
+  <fr:embedded-tex
+hash="479c210d5ad042cedd2fc23bd6a3b091"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+        \bar {X}
+        &amp;&amp; \bar {X}'_1
+          \ar [ll,swap,"\bar {p}"]
+      \\X
+          \ar [u,hook]
+          \ar [d,swap,"f"]
+        &amp; X_1
+          \ar [l,hook']
+          \ar [d,swap,"f_1"]
+        &amp; X'_1
+          \ar [u,hook]
+          \ar [l,swap,"p"]
+          \ar [d,swap,"f'_1"]
+      \\S
+        &amp; S_1
+          \ar [l,hook',"i"]
+        &amp; S_1
+          \ar [l,equals]
+      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex></fr:p>
+
+    <fr:p>
+      If <fr:tex>s\in  S_1</fr:tex>, then the morphism <fr:tex>i_*\colon \pi _1(S_1,s)\to \pi _1(S,s)</fr:tex> is surjective, since the topological codimension of <fr:tex>S\setminus  S_1</fr:tex> is <fr:tex>\geqslant 2</fr:tex>.
+      We thus have
+      <fr:tex
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       </fr:tex>
+      and it suffices to prove that
+      <fr:tex
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q})         \to  \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       </fr:tex>
+      is surjective.
+    </fr:p>
+
+    <fr:p>
+      The vertical arrows in the diagram
+      <fr:tex
+display="block">         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^n(X_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@VV{\bar {p}^*}V @VV{p^*}V @VV{p^*}V         \\\operatorname {H}^n(\bar {X}'_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^n(X'_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}{f'_1}_*\mathbb {Q})         \end {CD}       </fr:tex>
+      admit left inverses given by the <fr:em>Gysin morphisms</fr:em> <fr:tex>\bar {p}_!</fr:tex>, <fr:tex>p_!</fr:tex>, and <fr:tex>p_!</fr:tex> (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
+      Furthermore, the diagram
+      <fr:tex
+display="block">         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @&gt;{u}&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@A{\bar {p}_!}AA @AA{p_!}A         \\\operatorname {H}^n(\bar {X}',\mathbb {Q}) @&gt;&gt;{v}&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f'_1}_*\mathbb {Q})         \end {CD}       </fr:tex>
+      commutes.
+      The arrow <fr:tex>u</fr:tex> is thus a direct factor of the arrow <fr:tex>v</fr:tex>.
+      Since <fr:tex>v</fr:tex> is surjective (because <fr:tex>f'_1</fr:tex> is projective), so too is <fr:tex>u</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      We now prove (i) in the general case.
+      We can reduce to the case where <fr:tex>f</fr:tex> is of pure relative dimension <fr:tex>n</fr:tex>.
+      Let <fr:tex>f\times  f</fr:tex> be the projection of <fr:tex>X\times _S X</fr:tex> to <fr:tex>S</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Let <fr:tex>\delta </fr:tex> be the image of the cohomology class of the diagonal of <fr:tex>X\times _S X</fr:tex> in <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n(f\times  f)_*,\mathbb {Q})</fr:tex>.
+      We have, by Künneth,
+      <fr:tex
+display="block">         \mathrm {R}^n(f\times  f)_*\mathbb {Q}         = \sum _{p+q=n} (\mathrm {R}^p f_*\mathbb {Q}\otimes \mathrm {R}^q f_*\mathbb {Q}).       </fr:tex>
+      We denote by <fr:tex>\delta '_{pq}</fr:tex> (for <fr:tex>p+q=n</fr:tex>) the components of <fr:tex>\delta </fr:tex> in this decomposition, and by <fr:tex>\delta _{pq}</fr:tex> the classes in <fr:tex>\operatorname {H}^n(X\times _S X)</fr:tex> given by the images of the <fr:tex>\delta '_{pq}</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The <fr:tex>\delta _{pq}</fr:tex> define, in the derived category <fr:tex>\operatorname {D}^+(S)</fr:tex>, homomorphisms
+      <fr:tex
+display="block">         \delta _p\colon          \mathrm {R} f_*\mathbb {Q}         \to  \mathrm {R} f_*\mathbb {Q}       </fr:tex>
+      such that <fr:tex>\operatorname {\mathscr {H}}^q(\delta _p)</fr:tex> is zero for <fr:tex>p\neq  q</fr:tex>, and is the identity for <fr:tex>p=q</fr:tex>.
+      By [<fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link>], we thus have
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>238</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \mathrm {R} f_*\mathbb {Q}           \approx  \sum _p \mathrm {R}^p f_*\mathbb {Q}[-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
+
+      in <fr:tex>\operatorname {D}^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
@@ -123,182 +334,9 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2283</fr:anchor><fr:addr>hodge-theory-ii-1.4.5</fr:addr><fr:route>hodge-theory-ii-1.4.5.xml</fr:route><fr:number>1.4.5</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>F</fr:tex> be a biregular filtration of <fr:tex>K</fr:tex>.
-    A <fr:em>{#T}-acyclic filtered resolution</fr:em> of <fr:tex>K</fr:tex> is a filtered quasi-isomorphism <fr:tex>i\colon  K\to  K'</fr:tex> from <fr:tex>K</fr:tex> to a filtered biregular complex such that the <fr:tex>\operatorname {Gr}^p({K'}^n)</fr:tex> are acyclic for <fr:tex>T</fr:tex>.
-    If <fr:tex>K'</fr:tex> is such a resolution, then the <fr:tex>{K'}^n</fr:tex> are acyclic for <fr:tex>T</fr:tex>, and the filtered complex (cf. <fr:ref
-addr="hodge-theory-ii-1.4.2"
-href="hodge-theory-ii-1.4.2.xml"
-number="1.4.2"></fr:ref>) <fr:tex>T(K')</fr:tex> defines a spectral sequence
-    <fr:tex
-display="block">       E_1^{pq}       = \mathrm {R}^{p+q}T(\operatorname {Gr}^p(K))       \Rightarrow  \mathrm {R}^{p+q}T(K).     </fr:tex>
-    This is independent of the choice of <fr:tex>K'</fr:tex>.
-    We call this the <fr:em>hypercohomology spectral sequence of the filtered complex <fr:tex>K</fr:tex></fr:em>.
-    It depends functorially on <fr:tex>K</fr:tex>, and a filtered quasi-isomorphism induces an isomorphism of spectral sequences.
-  </fr:p><fr:p>
-    The differentials <fr:tex>d_1</fr:tex> of this spectral sequence are the connection morphisms defined by the short exact sequences
-    <fr:tex
-display="block">       0       \to  \operatorname {Gr}^{p+1}K       \to  F^pK/F^{p+2}K       \to  \operatorname {Gr}^pK       \to  0.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2284</fr:anchor><fr:addr>hodge-theory-ii-2.2.1</fr:addr><fr:route>hodge-theory-ii-2.2.1.xml</fr:route><fr:number>2.2.1</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>X</fr:tex> be a compact Kähler variety (for example, smooth and projective).
-    By the holomorphic Poincaré lemma, the de Rham complex <fr:tex>\Omega _X^\bullet </fr:tex> is a resolution of the constant sheaf <fr:tex>\mathbb {C}</fr:tex>.
-    We thus have an isomorphism (<fr:ref
-addr="hodge-theory-ii-1.4.2"
-href="hodge-theory-ii-1.4.2.xml"
-number="1.4.2"></fr:ref>)
-    <fr:tex
-display="block">       \operatorname {H}^\bullet (X,\mathbb {C})       \sim  \operatorname {\mathbb {H}}^\bullet (X,\Omega _X^\bullet )     </fr:tex>
-    and the stupid filtration on <fr:tex>\Omega _X^\bullet </fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref>) defines the hypercohomology spectral sequence
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>395</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-2.2.1.1</fr:addr><fr:route>hodge-theory-ii-2.2.1.1.xml</fr:route><fr:number>2.2.1.1</fr:number><fr:parent>hodge-theory-ii-2.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         E_1^{pq}         = \operatorname {H}^q(X,\Omega _X^q)         \Rightarrow  \operatorname {H}^{p+q}(X,\mathbb {C})       \tag{2.2.1.1}       </fr:tex></fr:mainmatter></fr:tree>
-
-    which abuts to the <fr:em>Hodge filtration</fr:em> of <fr:tex>\operatorname {H}^\bullet (X,\mathbb {C})</fr:tex>.
-  </fr:p><fr:p>
-    By Hodge theory [<fr:link
-href="H1952.xml"
-type="local"
-addr="H1952">H1952</fr:link>; <fr:link
-href="W1958.xml"
-type="local"
-addr="W1958">W1958</fr:link>], we have:
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(A) &quot;">
-        The spectral sequence <fr:ref
-addr="hodge-theory-ii-2.2.1.1"
-href="hodge-theory-ii-2.2.1.1.xml"
-taxon="Equation"
-number="2.2.1.1"></fr:ref> degenerates: <fr:tex>E_1=E_\infty </fr:tex>.
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(B) &quot;">
-        The Hodge filtration of <fr:tex>\operatorname {H}^n(X,\mathbb {C})</fr:tex> is <fr:tex>n</fr:tex>-opposite to the complex conjugate filtration.
-      </html:li>
-
-    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2285</fr:anchor><fr:addr>hodge-theory-ii-2.2.2</fr:addr><fr:route>hodge-theory-ii-2.2.2.xml</fr:route><fr:number>2.2.2</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>V</fr:tex> be a local system of real vector spaces over <fr:tex>X</fr:tex>, i.e. a sheaf of <fr:tex>\mathbb {R}</fr:tex>-vector spaces that is locally isomorphic to a constant sheaf <fr:tex>\mathbb {R}^n</fr:tex>.
-    Suppose that there exists on <fr:tex>V</fr:tex> a bilinear form
-    <fr:tex
-display="block">       Q\colon  V\otimes  V\to \mathbb {R}     </fr:tex>
-    that is locally constant and <fr:em>defined</fr:em>.
-    If <fr:tex>X</fr:tex> is connected, this is the case if <fr:tex>V</fr:tex> is defined by a representation of a finite quotient of the fundamental group of <fr:tex>X</fr:tex>.
-  </fr:p><fr:p>
-    Statements (A) and (B) <fr:link
-href="hodge-theory-ii-2.2.1.xml"
-type="local"
-addr="hodge-theory-ii-2.2.1">above</fr:link> remain true as they are, without needing to change the proofs, for cohomology with coefficients in <fr:tex>V_\mathbb {C}=V\otimes _\mathbb {R}\mathbb {C}</fr:tex>, since the spectral sequence
-    <fr:tex
-display="block">       E_1^{pq}       = \operatorname {H}^q(X,\Omega _X^p(V))       \Rightarrow  \operatorname {H}^{p+q}(X,V_\mathbb {C})     </fr:tex>
-    induced by the de Rham resolution of <fr:tex>V_\mathbb {C}</fr:tex> by <fr:tex>\Omega _X^\bullet (V_\mathbb {C})</fr:tex> degenerates, and abuts to a filtration on <fr:tex>\operatorname {H}^n(X,V_\mathbb {C})</fr:tex> that is <fr:tex>n</fr:tex>-opposite to the complex conjugate filtration.
-  </fr:p><fr:p>
-    The vector space <fr:tex>\operatorname {H}^n(X,V)</fr:tex> is thus endowed with a canonical real Hodge structure of weight <fr:tex>n</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2286</fr:anchor><fr:addr>hodge-theory-ii-2.2.3</fr:addr><fr:route>hodge-theory-ii-2.2.3.xml</fr:route><fr:number>2.2.3</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We show in [<fr:link
-href="D1968.xml"
-type="local"
-addr="D1968">D1968</fr:link>] that the statements in <fr:ref
-addr="hodge-theory-ii-2.2.1"
-href="hodge-theory-ii-2.2.1.xml"
-number="2.2.1"></fr:ref> remain true when <fr:tex>X</fr:tex> is a non-singular complete algebraic, not necessarily Kähler, variety.
-    The proof from <fr:em>loc. cit.</fr:em>, based on a reduction to the projective case by Chow's lemma and resolution of singularities, extends to the case of <fr:ref
-addr="hodge-theory-ii-2.2.2"
-href="hodge-theory-ii-2.2.2.xml"
-number="2.2.2"></fr:ref>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2287</fr:anchor><fr:addr>hodge-theory-ii-3.1.4</fr:addr><fr:route>hodge-theory-ii-3.1.4.xml</fr:route><fr:number>3.1.4</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Locally on <fr:tex>X</fr:tex>, <fr:tex>Y</fr:tex> is the union of various smooth divisors <fr:tex>Y_i</fr:tex>, and we denote by <fr:tex>Y^n</fr:tex> (resp. <fr:tex>\widetilde {Y}^n</fr:tex>) the union (resp. disjoint sum) of the <fr:tex>n</fr:tex>-fold intersections of the <fr:tex>Y_i</fr:tex>.
-    The <fr:tex>Y^n</fr:tex> glue to give a subspace <fr:tex>Y^n</fr:tex> of <fr:tex>X</fr:tex>, and the <fr:tex>\widetilde {Y}^n</fr:tex> glue to give the normalisation variety of <fr:tex>Y^n</fr:tex>.
-    We have <fr:tex>\widetilde {Y}^0=Y^0=X</fr:tex>, and we set <fr:tex>\widetilde {Y}=\widetilde {Y}^1</fr:tex>.
-  </fr:p><fr:p>
-    We define the two-element set of <fr:em>orientations</fr:em> of an <fr:tex>n</fr:tex>-element set <fr:tex>E</fr:tex> as the set of generators of <fr:tex>\wedge ^n\mathbb {Z}^E</fr:tex>.
-    
-    For <fr:tex>n\geqslant 2</fr:tex>, this set is that of the conjugation classes under the alternating group of total orders on <fr:tex>E</fr:tex>.
-  </fr:p><fr:p>
-    If, to each point <fr:tex>y</fr:tex> of <fr:tex>\widetilde {Y}^n</fr:tex>, we associate the set of <fr:tex>n</fr:tex> local components of <fr:tex>Y</fr:tex> that contain the image in <fr:tex>X</fr:tex> of a neighbourhood of <fr:tex>y</fr:tex> in <fr:tex>\widetilde {Y}^n</fr:tex>, then we define on <fr:tex>\widetilde {Y}^n</fr:tex> a local system <fr:tex>E_n</fr:tex> of <fr:tex>n</fr:tex>-element sets.
-    The local system of orientations of these sets is a <fr:tex>\mathbb {Z}{/}(2)</fr:tex>-torsor.
-    This torsor defines, via the inclusion of <fr:tex>\mathbb {Z}{/}(2)</fr:tex> into <fr:tex>\mathbb {C}^*</fr:tex>, a complex local system <fr:tex>\varepsilon ^n</fr:tex> of rank <fr:tex>1</fr:tex> on <fr:tex>\widetilde {Y}^n</fr:tex>, endowed with an isomorphism <fr:tex>(\varepsilon ^n)^{\otimes 2}\simeq \mathbb {C}</fr:tex>.
-    We have
-    <fr:tex
-display="block">       \varepsilon ^n       \simeq  \bigwedge ^n \mathbb {C}^{E_n}.     </fr:tex></fr:p><fr:p>
-    Locally on <fr:tex>\widetilde {Y}^n</fr:tex>, <fr:tex>\varepsilon ^n</fr:tex> is endowed with two opposite isomorphisms <fr:tex>\pm \alpha \colon \varepsilon ^n\xrightarrow {\sim }\mathbb {C}</fr:tex>.
-    We set
-    <fr:tex
-display="block">       \varepsilon _\mathbb {Z}^n       = \alpha ^{-1}((2\pi  i)^{-n}\mathbb {Z}).     </fr:tex>
-    There is a way of seeing <fr:tex>\varepsilon ^n</fr:tex>, endowed with <fr:tex>\varepsilon _\mathbb {Z}^n</fr:tex>, as a twisted version of <fr:tex>\mathbb {Z}(-n)</fr:tex> over <fr:tex>\widetilde {Y}^n</fr:tex>.
-  </fr:p><fr:p>
-    We denote by <fr:tex>\varepsilon _X^n</fr:tex> (resp. by <fr:tex>(\varepsilon _X^n)_\mathbb {Z}</fr:tex>) the direct image of <fr:tex>\varepsilon ^n</fr:tex> (resp. of <fr:tex>\varepsilon _\mathbb {Z}^n</fr:tex>) under the mat from <fr:tex>\widetilde {Y}^n</fr:tex> to <fr:tex>X</fr:tex>.
-    We have
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1318</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.4.1</fr:addr><fr:route>hodge-theory-ii-3.1.4.1.xml</fr:route><fr:number>3.1.4.1</fr:number><fr:parent>hodge-theory-ii-3.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \varepsilon _X^n         \simeq  \bigwedge ^n\varepsilon _X^1         \qquad \text {for }n\geqslant 0.       \tag{3.1.4.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
-    If <fr:tex>Y</fr:tex> is the union of distinct smooth divisors <fr:tex>(Y_i)_{i\in  I}</fr:tex>, then the choice of a total order on <fr:tex>I</fr:tex> trivialises the <fr:tex>\varepsilon ^n</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2288</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.5.2</fr:addr><fr:route>hodge-theory-ii-3.1.5.2.xml</fr:route><fr:number>3.1.5.2</fr:number><fr:parent>hodge-theory-ii-3.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \operatorname {Res}\colon \operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )         \approx  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n]       \tag{3.1.5.2}       </fr:tex></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2289</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.6</fr:addr><fr:route>hodge-theory-ii-3.2.6.xml</fr:route><fr:number>3.2.6</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The hypercohomology spectral sequences of the filtered complexes <fr:tex>\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )</fr:tex>, endowed with the filtration induced by the Hodge filtration, degenerate at the <fr:tex>E_1</fr:tex> page.
+root="false"><fr:frontmatter><fr:anchor>2343</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-3.2.18</fr:addr><fr:route>hodge-theory-ii-3.2.18.xml</fr:route><fr:number>3.2.18</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f</fr:tex> be a morphism from a smooth proper scheme <fr:tex>Y</fr:tex> to a smooth scheme <fr:tex>X</fr:tex>, with <fr:tex>X</fr:tex> admitting a smooth compactification <fr:tex>j\colon  X\hookrightarrow \bar {X}</fr:tex>.
+    Then the groups <fr:tex>\operatorname {H}^n(X,\mathbb {Q})</fr:tex> and <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex> have the same image in <fr:tex>\operatorname {H}^n(Y,\mathbb {Q})</fr:tex>.
   </fr:p>
   
     
@@ -309,49 +347,22 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>368</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#194</fr:addr><fr:route>unstable-194.xml</fr:route><fr:parent>hodge-theory-ii-3.2.6</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>546</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#203</fr:addr><fr:route>unstable-203.xml</fr:route><fr:parent>hodge-theory-ii-3.2.18</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Define the <fr:tex>Y^n</fr:tex> and the <fr:tex>\widetilde {Y}^n</fr:tex> as in <fr:ref
-addr="hodge-theory-ii-3.1.4"
-href="hodge-theory-ii-3.1.4.xml"
-number="3.1.4"></fr:ref>, and let <fr:tex>i_n\colon \widetilde {Y}^n\to  X</fr:tex>.
+      Since <fr:tex>f^*</fr:tex> and <fr:tex>(jf)^*</fr:tex> are strictly compatible with the weight filtration ((iii) of <fr:ref
+addr="hodge-theory-ii-3.2.5"
+href="hodge-theory-ii-3.2.5.xml"
+taxon="Theorem"
+number="3.2.5"></fr:ref>), it suffices to prove that <fr:tex>\operatorname {Gr}^W(f^*)</fr:tex> and <fr:tex>\operatorname {Gr}^W(f^*j^*)</fr:tex> have the same image in <fr:tex>\operatorname {Gr}^W(\operatorname {H}^n(Y,\mathbb {Q}))</fr:tex>.
       By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, we have
-      <fr:tex
-display="block">         \operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       </fr:tex>
-      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref>), and so the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref> is given by translations of the degrees of the classical spectral sequence
-      <fr:tex
-display="block">         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       </fr:tex></fr:p>
-
-    <fr:p>
-      If <fr:tex>\bar {X}</fr:tex> is projective and <fr:tex>Y</fr:tex> the union of smooth divisors, then <fr:tex>\widetilde {Y}^n</fr:tex> is projective, <fr:tex>\varepsilon ^n</fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref
-addr="hodge-theory-ii-2.2.1"
-href="hodge-theory-ii-2.2.1.xml"
-number="2.2.1"></fr:ref>) gives the degeneration claimed in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref>.
-      For the general case, refer to [<fr:link
-href="D1968.xml"
-type="local"
-addr="D1968">D1968</fr:link>] (see also <fr:ref
-addr="hodge-theory-ii-2.2.2"
-href="hodge-theory-ii-2.2.2.xml"
-number="2.2.2"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-2.2.3"
-href="hodge-theory-ii-2.2.3.xml"
-number="2.2.3"></fr:ref>).
+addr="hodge-theory-ii-3.2.17"
+href="hodge-theory-ii-3.2.17.xml"
+taxon="Corollary"
+number="3.2.17"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-3.2.15"
+href="hodge-theory-ii-3.2.15.xml"
+taxon="Corollary"
+number="3.2.15"></fr:ref>, <fr:tex>\operatorname {Gr}_n^W(j^*)</fr:tex> is an isomorphism, while <fr:tex>\operatorname {Gr}_m^W(f^*)=0</fr:tex> for <fr:tex>m\neq  n</fr:tex> since <fr:tex>\operatorname {Gr}_m^W(\operatorname {H}^n(Y,\mathbb {Q}))=0</fr:tex> for <fr:tex>m\neq  n</fr:tex>.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
@@ -362,7 +373,23 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2281</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1968</fr:addr><fr:route>D1968.xml</fr:route><fr:title>Théorème de Lefschetz et critères de dégénérescence de suites spectrales</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>2339</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>G1970</fr:addr><fr:route>G1970.xml</fr:route><fr:title>Periods of integrals on algebraic manifolds, III</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P.A. Griffiths</fr:author></fr:authors><fr:meta
+name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>38</fr:strong> pp. 125–180</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{G1970,
+  author = {Griffiths, P.A.},
+  title = {Periods of integrals on algebraic manifolds, {III}},
+  journal = {Publ. Math. IH\'{E}S},
+  volume = {38},
+  year = {1970},
+  pages = {125--180},
+}]]></fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2341</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1968</fr:addr><fr:route>D1968.xml</fr:route><fr:title>Théorème de Lefschetz et critères de dégénérescence de suites spectrales</fr:title><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
 name="venue"><fr:em>Publ. Math. IHÉS</fr:em> <fr:strong>35</fr:strong> pp.107–126</fr:meta><fr:meta
 name="bibtex"><![CDATA[@article{D1968,
   author = {Deligne, P.},

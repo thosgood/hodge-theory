@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2971</fr:anchor><fr:addr>hodge-theory-iii-6.3</fr:addr><fr:route>hodge-theory-iii-6.3.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii-6.xml"
+type="local"
+addr="hodge-theory-iii-6"><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Examples of simplicial topological spaces</fr:link> › Relative cohomology</fr:title><fr:number>6.3</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2263</fr:anchor><fr:addr>hodge-theory-iii-6.3.1</fr:addr><fr:route>hodge-theory-iii-6.3.1.xml</fr:route><fr:number>6.3.1</fr:number><fr:parent>hodge-theory-iii-6.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2970</fr:anchor><fr:addr>hodge-theory-iii-6</fr:addr><fr:route>hodge-theory-iii-6.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Examples of simplicial topological spaces</fr:title><fr:number>6</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2578</fr:anchor><fr:addr>hodge-theory-iii-6.1</fr:addr><fr:route>hodge-theory-iii-6.1.xml</fr:route><fr:title>Classifying spaces</fr:title><fr:number>6.1</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2138</fr:anchor><fr:addr>hodge-theory-iii-6.1.1</fr:addr><fr:route>hodge-theory-iii-6.1.1.xml</fr:route><fr:number>6.1.1</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>u\colon  X\to  S</fr:tex> be a continuous map.
+    For every sheaf <fr:tex>F</fr:tex> on <fr:tex>S</fr:tex>, the sheaf <fr:tex>u^*F</fr:tex> is endowed with a "descent data" with respect to <fr:tex>u</fr:tex>, i.e. we have an isomorphism between the two inverse images of <fr:tex>u^*F</fr:tex> on <fr:tex>X\times _S X</fr:tex>, and this isomorphism satisfies a cocycle condition.
+    If <fr:tex>u</fr:tex> admits a section locally on <fr:tex>S</fr:tex>, then this construction defines an equivalence between the category of sheaves on <fr:tex>S</fr:tex> and that of sheaves on <fr:tex>X</fr:tex> endowed with a descent data.
+  </fr:p><fr:p>
+    Take <fr:tex>X</fr:tex> to be a (left) principal homogeneous space for the group <fr:tex>G</fr:tex> on a space <fr:tex>S</fr:tex>.
+    Then the <fr:tex>G</fr:tex>-equivariant sheaves on <fr:tex>X</fr:tex> are exactly the sheaves endowed with a descent data: every equivariant sheaf on <fr:tex>X</fr:tex> is, in a unique way (as an equivariant sheaf), the inverse image of a sheaf on <fr:tex>S=X/G</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2139</fr:anchor><fr:addr>hodge-theory-iii-6.1.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.xml</fr:route><fr:number>6.1.2</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If a topological group <fr:tex>G</fr:tex> acts on a space <fr:tex>X</fr:tex>, then <fr:tex>G</fr:tex> acts on <fr:tex>G^{\Delta _n}\times  X</fr:tex> by
+    <fr:tex
+display="block">       g\cdot (g_0,\ldots ,g_n,x)       = (g_0g^{-1},\ldots ,g_ng^{-1},gx).     </fr:tex>
+    We denote by <fr:tex>[X/G]_\bullet </fr:tex> the simplicial space
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2104</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.2.1</fr:addr><fr:route>hodge-theory-iii-6.1.2.1.xml</fr:route><fr:number>6.1.2.1</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         [X/G]_\bullet          = \big ((G^{\Delta _n}\times  X)/G\big )_{n\geqslant 0}.       \tag{6.1.2.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      If <fr:tex>X</fr:tex> is a principal homogeneous space for the group <fr:tex>G</fr:tex> on <fr:tex>S=X/G</fr:tex>, then the map
+      <fr:tex
+display="block">         \begin {aligned}           G^{\Delta _n}\times  X           &amp;\to  X^{\Delta _n}         \\(g_0,\ldots ,g_n,x)           &amp;\mapsto  (g_0x,\ldots ,g_nx)         \end {aligned}       </fr:tex>
+      identifies <fr:tex>[X/G]_n</fr:tex> with the iterated fibre product <fr:tex>(X/S)^{\Delta _n}</fr:tex>:
+      <fr:tex
+display="block">         \operatorname {cosq}(X\to  S)         = ([X/G]_\bullet \to  S).       </fr:tex>
+      
+      In particular, we have (by (III) of <fr:ref
+addr="hodge-theory-iii-5.3.5"
+href="hodge-theory-iii-5.3.5.xml"
+number="5.3.5"></fr:ref>)
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2107</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.2.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.2.xml</fr:route><fr:number>6.1.2.2</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet ([X/G]_\bullet )           \simeq  \operatorname {H}^\bullet (X/G)         \tag{6.1.2.2}         </fr:tex></fr:mainmatter></fr:tree>
+
+      (for a principal homogeneous space).
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      For all <fr:tex>n</fr:tex>, <fr:tex>G^{\Delta _n}\times  X</fr:tex> is a principal homogeneous space for the group <fr:tex>G</fr:tex> on <fr:tex>[X/G]_n</fr:tex>.
+      For every equivariant sheaf <fr:tex>F</fr:tex> on <fr:tex>X</fr:tex>, <fr:tex>\operatorname {pr}_2^*F</fr:tex> is an equivariant sheaf on <fr:tex>G^{\Delta _n}\times  X</fr:tex>;
+      by <fr:ref
+addr="hodge-theory-iii-6.1.1"
+href="hodge-theory-iii-6.1.1.xml"
+number="6.1.1"></fr:ref>, the latter is the inverse image of <fr:tex>F^n</fr:tex> on <fr:tex>[X/G]_n</fr:tex>.
+      Every equivariant sheaf <fr:tex>F</fr:tex> on <fr:tex>X</fr:tex> thus defines a sheaf on <fr:tex>[X/G]_\bullet </fr:tex>.
+      It is easy to show that we thus obtain an equivalence between the category of equivariant sheaves on <fr:tex>X</fr:tex> and the category of sheaves <fr:tex>F^\bullet </fr:tex> on <fr:tex>[X/G]_\bullet </fr:tex> that satisfy
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2109</fr:anchor><fr:taxon>Property</fr:taxon><fr:addr>hodge-theory-iii-6.1.star</fr:addr><fr:route>hodge-theory-iii-6.1.star.xml</fr:route><fr:number>*</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex>(*)</fr:tex> For every <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex>, the structure morphism <fr:tex>f^*F^n\to  F^m</fr:tex> is an isomorphism.
+          </fr:em></fr:p></fr:mainmatter></fr:tree>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(c) &quot;">
+      Construction (b) above is natural in <fr:tex>(G,X,F)</fr:tex>.
+      We set
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2111</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.2.3</fr:addr><fr:route>hodge-theory-iii-6.1.2.3.xml</fr:route><fr:number>6.1.2.3</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet ([X/G]_\bullet ,F^\bullet )         \tag{6.1.2.3}         </fr:tex></fr:mainmatter></fr:tree>
+
+      (mixed cohomology of <fr:tex>X,G</fr:tex> with coefficients in <fr:tex>F</fr:tex>).
+      Under the hypotheses of (a), if <fr:tex>F</fr:tex> is the inverse image of <fr:tex>F^{-1}</fr:tex> on <fr:tex>S=X/G</fr:tex>, then
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2112</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.2.4</fr:addr><fr:route>hodge-theory-iii-6.1.2.4.xml</fr:route><fr:number>6.1.2.4</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet (X/G,F^{-1})         \tag{6.1.2.4}         </fr:tex></fr:mainmatter></fr:tree>
+
+      (for a principal homogeneous space).
+      This generalises <fr:ref
+addr="hodge-theory-iii-6.1.2.2"
+href="hodge-theory-iii-6.1.2.2.xml"
+taxon="Equation"
+number="6.1.2.2"></fr:ref> (which is the case <fr:tex>F=\underline {\mathbb {Z}}</fr:tex>).
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2141</fr:anchor><fr:addr>hodge-theory-iii-6.1.3</fr:addr><fr:route>hodge-theory-iii-6.1.3.xml</fr:route><fr:number>6.1.3</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>P^t</fr:tex> be the topological space consisting of a single point.
+    We define the <fr:em>simplicial classifying space</fr:em> of <fr:tex>G</fr:tex>, denoted <fr:tex>B_{\bullet  G}</fr:tex>, to be the simplicial space
+    <fr:tex
+display="block">       B_{\bullet  G}       = [P^t/G]_\bullet .     </fr:tex></fr:p><fr:p>
+    Let <fr:tex>P</fr:tex> be a principal homogeneous space for the group <fr:tex>G</fr:tex> on <fr:tex>S</fr:tex>.
+    The evident morphism
+    <fr:tex
+display="block">       \operatorname {cosq}(P\to  S)       = [P/G]_\bullet        \to  [P^t/G]_\bullet        = B_{\bullet  G}     </fr:tex>
+    defines a composite morphism
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2140</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.3.1</fr:addr><fr:route>hodge-theory-iii-6.1.3.1.xml</fr:route><fr:number>6.1.3.1</fr:number><fr:parent>hodge-theory-iii-6.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         [P]         \colon  \operatorname {H}^\bullet (B_{\bullet  G})         \to  \operatorname {H}^\bullet ([P/G]_\bullet )         \xleftarrow [(6.1.2.2)]{\sim } \operatorname {H}^\bullet (S).       \tag{6.1.3.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    We will see below that, in good cases, <fr:tex>\operatorname {H}^\bullet (B_{\bullet  G})=\operatorname {H}^\bullet (B_G)</fr:tex>, and that the image of <fr:tex>[P]</fr:tex> consists of the <fr:em>characteristic classes</fr:em> of <fr:tex>P</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2144</fr:anchor><fr:addr>hodge-theory-iii-6.1.4</fr:addr><fr:route>hodge-theory-iii-6.1.4.xml</fr:route><fr:number>6.1.4</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>G</fr:tex> be a Lie group, <fr:tex>B_G</fr:tex> a classifying space for <fr:tex>G</fr:tex>, and <fr:tex>a\colon  U_G\to  B_G</fr:tex> the universal principal homogeneous <fr:tex>G</fr:tex>-space.
+    Let <fr:tex>X</fr:tex> be a <fr:tex>G</fr:tex>-space;
+    then <fr:tex>X\times  U_G</fr:tex> is a principal homogeneous <fr:tex>G</fr:tex>-space over <fr:tex>X\times  U_G/G</fr:tex> such that, for every equivariant sheaf <fr:tex>F</fr:tex> on <fr:tex>X</fr:tex>, <fr:tex>\operatorname {pr}_1^*F</fr:tex> is the inverse image of a sheaf <fr:tex>F^G</fr:tex> on <fr:tex>X\times  U_G/G</fr:tex>.
+    Since <fr:tex>U_G</fr:tex> is contractible, and by <fr:ref
+addr="hodge-theory-iii-6.1.2.2"
+href="hodge-theory-iii-6.1.2.2.xml"
+taxon="Equation"
+number="6.1.2.2"></fr:ref>, we have
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2142</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.4.1</fr:addr><fr:route>hodge-theory-iii-6.1.4.1.xml</fr:route><fr:number>6.1.4.1</fr:number><fr:parent>hodge-theory-iii-6.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {H}^\bullet (X,G;F)         \xrightarrow {\sim } \operatorname {H}^\bullet (X\times  U_G,G;\operatorname {pr}_1^*F)         \xleftarrow {\sim } \operatorname {H}^\bullet (X\times  U_G/G,F^G).       \tag{6.1.4.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    In particular, for <fr:tex>X=P^t</fr:tex>,
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2143</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.4.2</fr:addr><fr:route>hodge-theory-iii-6.1.4.2.xml</fr:route><fr:number>6.1.4.2</fr:number><fr:parent>hodge-theory-iii-6.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {H}^\bullet (B_{\bullet  G})         = \operatorname {H}^\bullet (B_G).       \tag{6.1.4.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    We can see that the isomorphism in <fr:ref
+addr="hodge-theory-iii-6.1.4.2"
+href="hodge-theory-iii-6.1.4.2.xml"
+taxon="Equation"
+number="6.1.4.2"></fr:ref> is a particular case of <fr:ref
+addr="hodge-theory-iii-6.1.3.1"
+href="hodge-theory-iii-6.1.3.1.xml"
+taxon="Equation"
+number="6.1.3.1"></fr:ref> where <fr:tex>S=B_G</fr:tex> and <fr:tex>P=U_G</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2145</fr:anchor><fr:addr>hodge-theory-iii-6.1.5</fr:addr><fr:route>hodge-theory-iii-6.1.5.xml</fr:route><fr:number>6.1.5</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The spectral sequence in <fr:ref
+addr="hodge-theory-iii-5.2.3.2"
+href="hodge-theory-iii-5.2.3.2.xml"
+taxon="Equation"
+number="5.2.3.2"></fr:ref> for <fr:tex>B_{\bullet  G}</fr:tex>
+    <fr:tex
+display="block">       E_1^{pq}       = \operatorname {H}^q(G^{\Delta _p}/G)       \Rightarrow  \operatorname {H}^{p+q}(B_{\bullet  G})       =\operatorname {H}^{p+q}(B_G)     </fr:tex>
+    is essentially the <fr:em>Eilenberg–Moore spectral sequence</fr:em>.
+    We briefly recall how it allows us to relate the rational cohomologies of <fr:tex>G</fr:tex> and of <fr:tex>B_G</fr:tex>, for connected <fr:tex>G</fr:tex>.
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      The algebra <fr:tex>\operatorname {H}^\bullet (G,\mathbb {Q})</fr:tex> is a connected graded Hopf algebra of finite dimension over <fr:tex>\mathbb {Q}</fr:tex>.
+      If <fr:tex>P^\bullet (G)</fr:tex> is the graded module of its primitive elements, then we have
+      <fr:tex
+display="block">         H^\bullet (G,\mathbb {Q})         = \bigwedge  P^\bullet (G)       </fr:tex>
+      and the generators of <fr:tex>P^\bullet (G)</fr:tex> are of odd degree.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      The simplicial algebra <fr:tex>(E_1^{p\bullet })_{p\geqslant 0}</fr:tex> is
+      <fr:tex
+display="block">         E_1^{p\bullet }         = \bigwedge \big (P^\bullet (G)^{\Delta _p}/P^\bullet (G)\big )       </fr:tex>
+      which is the exterior algebra of the suspension of the constant cosimplicial module <fr:tex>P^\bullet (G)</fr:tex>;
+      we thus have (by Quillen [<fr:link
+href="Q1968.xml"
+type="local"
+addr="Q1968">Q1968</fr:link>]) that <fr:tex>E_2^{p\bullet }=\operatorname {Sym}^p(P^\bullet (G))</fr:tex>.
+      The pages <fr:tex>E_2^{pq}</fr:tex> are only zero for <fr:tex>p+q</fr:tex> even;
+      we thus have that <fr:tex>E_2^{pq}=E_\infty ^{pq}</fr:tex>, and, for a suitable filtration, we canonically have that
+      <fr:tex
+display="block">         \operatorname {Gr}\operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1])       </fr:tex>
+      and non-canonically that
+      <fr:tex
+display="block">         \operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1]).       </fr:tex>
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2146</fr:anchor><fr:addr>hodge-theory-iii-6.1.6</fr:addr><fr:route>hodge-theory-iii-6.1.6.xml</fr:route><fr:number>6.1.6</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>G</fr:tex> be a (complex) linear algebraic group.
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      If <fr:tex>T</fr:tex> is a maximal torus of <fr:tex>G</fr:tex>, with Weyl group <fr:tex>W</fr:tex>, then
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>252</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.6.1</fr:addr><fr:route>hodge-theory-iii-6.1.6.1.xml</fr:route><fr:number>6.1.6.1</fr:number><fr:parent>hodge-theory-iii-6.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet (B_G,\mathbb {Q})           \xrightarrow {\sim } \operatorname {H}^\bullet (B_T,\mathbb {Q})^W.         \tag{6.1.6.1}         </fr:tex></fr:mainmatter></fr:tree>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      If <fr:tex>T</fr:tex> is a torus with character group <fr:tex>X(T)</fr:tex>, then
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>254</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.6.2</fr:addr><fr:route>hodge-theory-iii-6.1.6.2.xml</fr:route><fr:number>6.1.6.2</fr:number><fr:parent>hodge-theory-iii-6.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet (T,\mathbb {Z})           \simeq  \bigwedge ^\bullet  X(T)         \tag{6.1.6.2}         </fr:tex></fr:mainmatter></fr:tree>
+
+      (an isomorphism of graded Hopf algebras).
+    </html:li>
+
+  </html:ol>
+<fr:p>
+    We will only use (a) in the following weaker form:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(a') &quot;">
+        <fr:em>(The splitting principle).</fr:em>
+        The map <fr:tex>\operatorname {H}^\bullet (B_G,\mathbb {Q})\to \operatorname {H}^\bullet (B_T,\mathbb {Q})</fr:tex> is injective.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    For completion, we recall a proof of (a').
+  </fr:p><fr:p>
+    If <fr:tex>B</fr:tex> is a Borel subgroup of <fr:tex>G</fr:tex>, then the bundle <fr:tex>U_G/B</fr:tex> on <fr:tex>B_G</fr:tex> is a fibre in flag spaces.
+    By [2.1 and 2.6.3, <fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link>], which is better explained in [Proposition 3.1, <fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>], or by [<fr:link
+href="B1956.xml"
+type="local"
+addr="B1956">B1956</fr:link>], the Leray spectral sequence of <fr:tex>U_G/B\to  B_G</fr:tex> degenerates to rational cohomology.
+    We thus have that <fr:tex>\operatorname {H}^\bullet (B_G,\mathbb {Q})\hookrightarrow \operatorname {H}^\bullet (U_G/B,\mathbb {Q})</fr:tex>.
+    We conclude by noting that <fr:tex>U_G/B\sim  B_B\sim  B_T</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2579</fr:anchor><fr:addr>hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title>Construction of hypercovers</fr:title><fr:number>6.2</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2200</fr:anchor><fr:addr>hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X_\bullet </fr:tex> be a simplicial set.
+    Denote by <fr:tex>D(\Delta _n,\Delta _M)</fr:tex> the set of increasing surjective maps from <fr:tex>\Delta _n</fr:tex> to <fr:tex>\Delta _m</fr:tex> (degeneracy operators), and set
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2198</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.1.xml</fr:route><fr:number>6.2.1.1</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N(X_n)         = X_n\setminus \bigcup _{{s\in  D(\Delta _n,\Delta _{n-1})}}s(X_{n-1}).       \tag{6.2.1.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    Recall that, for all <fr:tex>n</fr:tex>, the map
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2199</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.2</fr:addr><fr:route>hodge-theory-iii-6.2.1.2.xml</fr:route><fr:number>6.2.1.2</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \coprod  s         \colon  \coprod _{\mathclap {\substack {m\leqslant  n,\\s\in  D(\Delta _n,\Delta _m)}}} N(X_m)         \to  X_n       \tag{6.2.1.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    is bijective.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2201</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-iii-6.2.2</fr:addr><fr:route>hodge-theory-iii-6.2.2.xml</fr:route><fr:number>6.2.2</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that a simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if the maps in <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> are homeomorphisms.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  Let <fr:tex>X_\bullet </fr:tex> be a <fr:tex>k</fr:tex>-truncated simplicial set.
+  For <fr:tex>n\leqslant  k</fr:tex>, we again define <fr:tex>N(X_n)</fr:tex> by <fr:ref
+addr="hodge-theory-iii-6.2.1.1"
+href="hodge-theory-iii-6.2.1.1.xml"
+taxon="Equation"
+number="6.2.1.1"></fr:ref>, and then <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a bijection.
+  We say that a <fr:tex>k</fr:tex>-truncated simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a homeomorphism for <fr:tex>n\leqslant  k</fr:tex>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2203</fr:anchor><fr:addr>hodge-theory-iii-6.2.3</fr:addr><fr:route>hodge-theory-iii-6.2.3.xml</fr:route><fr:number>6.2.3</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For an <fr:tex>s</fr:tex>-split <fr:tex>(n+1)</fr:tex>-truncated topological simplicial space <fr:tex>X</fr:tex> augmented over <fr:tex>S</fr:tex>, let <fr:tex>\alpha (X)</fr:tex> be the triple consisting of <fr:tex>\operatorname {sq}_n(X)</fr:tex>, <fr:tex>NX_{n+1}</fr:tex>, and the evident map from <fr:tex>NX_{n+1}</fr:tex> to <fr:tex>(\operatorname {cosq}\operatorname {sq}_n X)_{n+1}</fr:tex>.
+  </fr:p><fr:p>
+    This triple <fr:tex>\alpha (X)=(Y,N,\beta )</fr:tex> satisfies the following:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2202</fr:anchor><fr:taxon>Property</fr:taxon><fr:addr>hodge-theory-iii-6.2.star</fr:addr><fr:route>hodge-theory-iii-6.2.star.xml</fr:route><fr:number>*</fr:number><fr:parent>hodge-theory-iii-6.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex>(*)</fr:tex> <fr:tex>Y</fr:tex> is an <fr:tex>s</fr:tex>-split <fr:tex>n</fr:tex>-truncated simplicial topological space augmented over <fr:tex>S</fr:tex>, and <fr:tex>\beta </fr:tex> is a continuous map from <fr:tex>N</fr:tex> to <fr:tex>(\operatorname {cosq} Y)_{n+1}</fr:tex>.
+        </fr:em></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2212</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-6.2.4</fr:addr><fr:route>hodge-theory-iii-6.2.4.xml</fr:route><fr:number>6.2.4</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(Y,N,\beta )</fr:tex> satisfy <fr:ref
+addr="hodge-theory-iii-6.2.star"
+href="hodge-theory-iii-6.2.star.xml"
+taxon="Property"
+number="*"></fr:ref> above.
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        Up to unique isomorphism, there exists exactly one <fr:tex>s</fr:tex>-split <fr:tex>(n+1)</fr:tex>-truncated topological space <fr:tex>X</fr:tex> augmented over <fr:tex>S</fr:tex> such that <fr:tex>\alpha (X)\simeq (Y,N,\beta )</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        It is equivalent to give either <fr:tex>f\colon  X\to  Z</fr:tex> or:
+
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+            a morphism <fr:tex>f'\colon  Y\to \operatorname {sq}_n(Z)</fr:tex>; and
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+            a morphism <fr:tex>f''\colon  N\to  Z_{n+1}</fr:tex>, such that the diagram
+            <fr:tex
+display="block">               \begin {CD}                 N @&gt;\beta &gt;&gt; (\operatorname {cosq} Y)_{n+1}               \\@V{f''}VV @VV{f'}V               \\Z_{n+1} @&gt;&gt;&gt; (\operatorname {cosq}\operatorname {sq}_n Z)_{n+1}               \end {CD}             </fr:tex>
+            commutes.
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2210</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      [5.1.3, <fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>].
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+<fr:p>
+    This proposition also applies to simplicial objects in other categories <fr:tex>\mathscr {C}</fr:tex> apart from that of topological spaces; it suffices that <fr:tex>\mathscr {C}</fr:tex> satisfy the following:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2211</fr:anchor><fr:addr>hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Finite projective limits exist in <fr:tex>\mathbb {C}</fr:tex>.
+        Finite projective sums exist in <fr:tex>\mathbb {C}</fr:tex>, and they are disjoint and universal.
+      </fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2213</fr:anchor><fr:addr>hodge-theory-iii-6.2.5</fr:addr><fr:route>hodge-theory-iii-6.2.5.xml</fr:route><fr:number>6.2.5</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:ref
+addr="hodge-theory-iii-6.2.4"
+href="hodge-theory-iii-6.2.4.xml"
+taxon="Proposition"
+number="6.2.4"></fr:ref> allows us to construct, by induction, proper hypercovers of <fr:tex>S</fr:tex>.
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(0) &quot;">
+      We take <fr:tex>f_0\colon  X_0\to  S</fr:tex>, proper and surjective.
+      Then <fr:tex>\{X_0\}</fr:tex> is a <fr:tex>0</fr:tex>-truncated proper hypercover of <fr:tex>S</fr:tex> (<fr:ref
+addr="hodge-theory-iii-5.3.8"
+href="hodge-theory-iii-5.3.8.xml"
+number="5.3.8"></fr:ref>), and it is <fr:tex>s</fr:tex>-split.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(1) &quot;">
+      We take <fr:tex>f_1\colon  N_1\to \operatorname {cosq}(\{X_0\})_1</fr:tex>, i.e. <fr:tex>f_1\colon  N_1\to  X_0\times _S X_0</fr:tex>.
+      Applying <fr:ref
+addr="hodge-theory-iii-6.2.4"
+href="hodge-theory-iii-6.2.4.xml"
+taxon="Proposition"
+number="6.2.4"></fr:ref>, we associate to <fr:tex>f_1</fr:tex> the <fr:tex>s</fr:tex>-split <fr:tex>1</fr:tex>-truncated augmented simplicial topological space
+      <fr:tex
+display="block">         {}_1X_\bullet          = \left (         N_1{\textstyle \coprod } X_0         \xleftarrow [\to ]{\to } X_0         \to  S         \right ).       </fr:tex>
+      Suppose <fr:tex>f_1</fr:tex> to be chosen such that
+      <fr:tex
+display="block">         f'_1         \colon  N_1{\textstyle \coprod } X_0\to  X_0\times _S X_0       </fr:tex>
+      is proper and surjective (for example, if <fr:tex>f_1</fr:tex> is proper and surjective).
+      Then <fr:tex>{}_1X_\bullet </fr:tex> is an <fr:tex>s</fr:tex>-split <fr:tex>1</fr:tex>-truncated proper hypercover of <fr:tex>S</fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(k+1) &quot;">
+      Assume that we have already constructed an <fr:tex>s</fr:tex>-split <fr:tex>k</fr:tex>-truncated proper hypercover <fr:tex>{}_kX_\bullet \to  S</fr:tex>.
+      We take <fr:tex>f_{k+1}\colon  N_{k+1}\to (\operatorname {cosq}({}_kX_\bullet ))_{k+1}</fr:tex> and, applying <fr:ref
+addr="hodge-theory-iii-6.2.4"
+href="hodge-theory-iii-6.2.4.xml"
+taxon="Proposition"
+number="6.2.4"></fr:ref>, we associate to <fr:tex>f_{k+1}</fr:tex> an <fr:tex>s</fr:tex>-split <fr:tex>(k+1)</fr:tex>-truncated augmented semi-simplicial space <fr:tex>{}_{k+1}X_\bullet </fr:tex>.
+      Suppose that <fr:tex>f_{k+1}</fr:tex> is such that
+      <fr:tex
+display="block">         f'_{k+1}         \colon  {}_{k+1}X_{k+1}         \to  \operatorname {cosq}({}_kX_\bullet )_{k+1}       </fr:tex>
+      is proper and surjective (for example, if <fr:tex>f_{k+1}</fr:tex> is proper and surjective).
+      Then <fr:tex>{}_{k+1}X_\bullet </fr:tex> is an <fr:tex>s</fr:tex>-split <fr:tex>(k+1)</fr:tex>-truncated proper hypercover of <fr:tex>S</fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(∞) &quot;">
+      The <fr:tex>{}_kX_\bullet </fr:tex> thus constructed are the successive skeletons of an <fr:tex>s</fr:tex>-split proper hypercover of <fr:tex>S</fr:tex>.
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2214</fr:anchor><fr:addr>hodge-theory-iii-6.2.6</fr:addr><fr:route>hodge-theory-iii-6.2.6.xml</fr:route><fr:number>6.2.6</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that a simplicial scheme <fr:tex>X_\bullet </fr:tex> over <fr:tex>\mathbb {C}</fr:tex> is <fr:em>smooth</fr:em> if the <fr:tex>X_n</fr:tex> are smooth;
+    it is said to be <fr:em>proper</fr:em> if the <fr:tex>X_n</fr:tex> are compact.
+    A <fr:em>normal crossing divisor</fr:em> <fr:tex>D_\bullet </fr:tex> of <fr:tex>X_\bullet </fr:tex>, assumed to be smooth, is a family <fr:tex>D_n\subset  X_n</fr:tex> of normal crossing divisors (<fr:ref
+addr="hodge-theory-ii-3.1.2"
+href="hodge-theory-ii-3.1.2.xml"
+number="3.1.2"></fr:ref>) such that the <fr:tex>U_n=X_n\setminus  D_n</fr:tex> form a simplicial subscheme <fr:tex>U_\bullet </fr:tex> of <fr:tex>X_\bullet </fr:tex>.
+    This definition is justified by the following lemma.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2215</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-iii-6.2.7</fr:addr><fr:route>hodge-theory-iii-6.2.7.xml</fr:route><fr:number>6.2.7</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>D_\bullet </fr:tex> is a normal crossing divisor of <fr:tex>X_\bullet </fr:tex>, then the logarithmic de Rham complexes <fr:tex>(\Omega _{X_n}^\bullet (\log  D_n))_{n\geqslant 0}</fr:tex>, endowed with the weight filtration (<fr:ref
+addr="hodge-theory-ii-3.1.5"
+href="hodge-theory-ii-3.1.5.xml"
+number="3.1.5"></fr:ref>), form a filtered complex on <fr:tex>X_\bullet </fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1356</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#177</fr:addr><fr:route>unstable-177.xml</fr:route><fr:parent>hodge-theory-iii-6.2.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      This follows from (ii) of <fr:ref
+addr="hodge-theory-ii-3.1.3"
+href="hodge-theory-ii-3.1.3.xml"
+taxon="Proposition"
+number="3.1.3"></fr:ref>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+<fr:p>
+    We denote the complex <fr:tex>(\Omega _{X_n}^\bullet (\log  D_n))_{n\geqslant 0}</fr:tex> by <fr:tex>\Omega _{X_\bullet }^\bullet (\log  D_\bullet )</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2220</fr:anchor><fr:addr>hodge-theory-iii-6.2.8</fr:addr><fr:route>hodge-theory-iii-6.2.8.xml</fr:route><fr:number>6.2.8</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Using <fr:ref
+addr="hodge-theory-iii-6.2.5"
+href="hodge-theory-iii-6.2.5.xml"
+number="6.2.5"></fr:ref>, we can show that, for every separated scheme <fr:tex>S</fr:tex> over <fr:tex>\mathbb {C}</fr:tex>, there exists:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        
+        a simplicial scheme <fr:tex>X_\bullet </fr:tex> over <fr:tex>\mathbb {C}</fr:tex>, smooth and proper, that we can take to be <fr:tex>s</fr:tex>-split;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a normal crossing divisor <fr:tex>D_\bullet </fr:tex> of <fr:tex>X_\bullet </fr:tex>; we set <fr:tex>U_\bullet =X_\bullet \setminus  D_\bullet </fr:tex>;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛾) &quot;">
+        an augmentation <fr:tex>a\colon  U_\bullet \to  S</fr:tex> that realises <fr:tex>U_\bullet ^\mathrm {an}</fr:tex> as a proper hypercover of <fr:tex>S^\mathrm {an}</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    Furthermore, any two such systems are covered by a third, and a morphism <fr:tex>u\colon  S\to  T</fr:tex> can be covered by a morphism
+    
+  <fr:embedded-tex
+hash="bcddb87b2e9fad251c49db1ceb7c2423"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+      X_\bullet 
+        \ar [r]
+      &amp; Y_\bullet 
+    \\U_\bullet 
+        \ar [r]
+        \ar [u,hook]
+        \ar [d,swap,"a"]
+      &amp; V_\bullet 
+        \ar [u,hook]
+        \ar [d,"b"]
+    \\S \ar [r,swap,"u"]
+      &amp; T
+    \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+    of such systems (see [<fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>]).
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2580</fr:anchor><fr:addr>hodge-theory-iii-6.3</fr:addr><fr:route>hodge-theory-iii-6.3.xml</fr:route><fr:title>Relative cohomology</fr:title><fr:number>6.3</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2263</fr:anchor><fr:addr>hodge-theory-iii-6.3.1</fr:addr><fr:route>hodge-theory-iii-6.3.1.xml</fr:route><fr:number>6.3.1</fr:number><fr:parent>hodge-theory-iii-6.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2969</fr:anchor><fr:addr>hodge-theory-iii-6</fr:addr><fr:route>hodge-theory-iii-6.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Examples of simplicial topological spaces</fr:title><fr:number>6</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2578</fr:anchor><fr:addr>hodge-theory-iii-6.1</fr:addr><fr:route>hodge-theory-iii-6.1.xml</fr:route><fr:title>Classifying spaces</fr:title><fr:number>6.1</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2138</fr:anchor><fr:addr>hodge-theory-iii-6.1.1</fr:addr><fr:route>hodge-theory-iii-6.1.1.xml</fr:route><fr:number>6.1.1</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>u\colon  X\to  S</fr:tex> be a continuous map.
+    For every sheaf <fr:tex>F</fr:tex> on <fr:tex>S</fr:tex>, the sheaf <fr:tex>u^*F</fr:tex> is endowed with a "descent data" with respect to <fr:tex>u</fr:tex>, i.e. we have an isomorphism between the two inverse images of <fr:tex>u^*F</fr:tex> on <fr:tex>X\times _S X</fr:tex>, and this isomorphism satisfies a cocycle condition.
+    If <fr:tex>u</fr:tex> admits a section locally on <fr:tex>S</fr:tex>, then this construction defines an equivalence between the category of sheaves on <fr:tex>S</fr:tex> and that of sheaves on <fr:tex>X</fr:tex> endowed with a descent data.
+  </fr:p><fr:p>
+    Take <fr:tex>X</fr:tex> to be a (left) principal homogeneous space for the group <fr:tex>G</fr:tex> on a space <fr:tex>S</fr:tex>.
+    Then the <fr:tex>G</fr:tex>-equivariant sheaves on <fr:tex>X</fr:tex> are exactly the sheaves endowed with a descent data: every equivariant sheaf on <fr:tex>X</fr:tex> is, in a unique way (as an equivariant sheaf), the inverse image of a sheaf on <fr:tex>S=X/G</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2139</fr:anchor><fr:addr>hodge-theory-iii-6.1.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.xml</fr:route><fr:number>6.1.2</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If a topological group <fr:tex>G</fr:tex> acts on a space <fr:tex>X</fr:tex>, then <fr:tex>G</fr:tex> acts on <fr:tex>G^{\Delta _n}\times  X</fr:tex> by
+    <fr:tex
+display="block">       g\cdot (g_0,\ldots ,g_n,x)       = (g_0g^{-1},\ldots ,g_ng^{-1},gx).     </fr:tex>
+    We denote by <fr:tex>[X/G]_\bullet </fr:tex> the simplicial space
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2104</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.2.1</fr:addr><fr:route>hodge-theory-iii-6.1.2.1.xml</fr:route><fr:number>6.1.2.1</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         [X/G]_\bullet          = \big ((G^{\Delta _n}\times  X)/G\big )_{n\geqslant 0}.       \tag{6.1.2.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      If <fr:tex>X</fr:tex> is a principal homogeneous space for the group <fr:tex>G</fr:tex> on <fr:tex>S=X/G</fr:tex>, then the map
+      <fr:tex
+display="block">         \begin {aligned}           G^{\Delta _n}\times  X           &amp;\to  X^{\Delta _n}         \\(g_0,\ldots ,g_n,x)           &amp;\mapsto  (g_0x,\ldots ,g_nx)         \end {aligned}       </fr:tex>
+      identifies <fr:tex>[X/G]_n</fr:tex> with the iterated fibre product <fr:tex>(X/S)^{\Delta _n}</fr:tex>:
+      <fr:tex
+display="block">         \operatorname {cosq}(X\to  S)         = ([X/G]_\bullet \to  S).       </fr:tex>
+      
+      In particular, we have (by (III) of <fr:ref
+addr="hodge-theory-iii-5.3.5"
+href="hodge-theory-iii-5.3.5.xml"
+number="5.3.5"></fr:ref>)
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2107</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.2.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.2.xml</fr:route><fr:number>6.1.2.2</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet ([X/G]_\bullet )           \simeq  \operatorname {H}^\bullet (X/G)         \tag{6.1.2.2}         </fr:tex></fr:mainmatter></fr:tree>
+
+      (for a principal homogeneous space).
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      For all <fr:tex>n</fr:tex>, <fr:tex>G^{\Delta _n}\times  X</fr:tex> is a principal homogeneous space for the group <fr:tex>G</fr:tex> on <fr:tex>[X/G]_n</fr:tex>.
+      For every equivariant sheaf <fr:tex>F</fr:tex> on <fr:tex>X</fr:tex>, <fr:tex>\operatorname {pr}_2^*F</fr:tex> is an equivariant sheaf on <fr:tex>G^{\Delta _n}\times  X</fr:tex>;
+      by <fr:ref
+addr="hodge-theory-iii-6.1.1"
+href="hodge-theory-iii-6.1.1.xml"
+number="6.1.1"></fr:ref>, the latter is the inverse image of <fr:tex>F^n</fr:tex> on <fr:tex>[X/G]_n</fr:tex>.
+      Every equivariant sheaf <fr:tex>F</fr:tex> on <fr:tex>X</fr:tex> thus defines a sheaf on <fr:tex>[X/G]_\bullet </fr:tex>.
+      It is easy to show that we thus obtain an equivalence between the category of equivariant sheaves on <fr:tex>X</fr:tex> and the category of sheaves <fr:tex>F^\bullet </fr:tex> on <fr:tex>[X/G]_\bullet </fr:tex> that satisfy
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2109</fr:anchor><fr:taxon>Property</fr:taxon><fr:addr>hodge-theory-iii-6.1.star</fr:addr><fr:route>hodge-theory-iii-6.1.star.xml</fr:route><fr:number>*</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex>(*)</fr:tex> For every <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex>, the structure morphism <fr:tex>f^*F^n\to  F^m</fr:tex> is an isomorphism.
+          </fr:em></fr:p></fr:mainmatter></fr:tree>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(c) &quot;">
+      Construction (b) above is natural in <fr:tex>(G,X,F)</fr:tex>.
+      We set
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2111</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.2.3</fr:addr><fr:route>hodge-theory-iii-6.1.2.3.xml</fr:route><fr:number>6.1.2.3</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet ([X/G]_\bullet ,F^\bullet )         \tag{6.1.2.3}         </fr:tex></fr:mainmatter></fr:tree>
+
+      (mixed cohomology of <fr:tex>X,G</fr:tex> with coefficients in <fr:tex>F</fr:tex>).
+      Under the hypotheses of (a), if <fr:tex>F</fr:tex> is the inverse image of <fr:tex>F^{-1}</fr:tex> on <fr:tex>S=X/G</fr:tex>, then
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2112</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.2.4</fr:addr><fr:route>hodge-theory-iii-6.1.2.4.xml</fr:route><fr:number>6.1.2.4</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet (X/G,F^{-1})         \tag{6.1.2.4}         </fr:tex></fr:mainmatter></fr:tree>
+
+      (for a principal homogeneous space).
+      This generalises <fr:ref
+addr="hodge-theory-iii-6.1.2.2"
+href="hodge-theory-iii-6.1.2.2.xml"
+taxon="Equation"
+number="6.1.2.2"></fr:ref> (which is the case <fr:tex>F=\underline {\mathbb {Z}}</fr:tex>).
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2141</fr:anchor><fr:addr>hodge-theory-iii-6.1.3</fr:addr><fr:route>hodge-theory-iii-6.1.3.xml</fr:route><fr:number>6.1.3</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>P^t</fr:tex> be the topological space consisting of a single point.
+    We define the <fr:em>simplicial classifying space</fr:em> of <fr:tex>G</fr:tex>, denoted <fr:tex>B_{\bullet  G}</fr:tex>, to be the simplicial space
+    <fr:tex
+display="block">       B_{\bullet  G}       = [P^t/G]_\bullet .     </fr:tex></fr:p><fr:p>
+    Let <fr:tex>P</fr:tex> be a principal homogeneous space for the group <fr:tex>G</fr:tex> on <fr:tex>S</fr:tex>.
+    The evident morphism
+    <fr:tex
+display="block">       \operatorname {cosq}(P\to  S)       = [P/G]_\bullet        \to  [P^t/G]_\bullet        = B_{\bullet  G}     </fr:tex>
+    defines a composite morphism
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2140</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.3.1</fr:addr><fr:route>hodge-theory-iii-6.1.3.1.xml</fr:route><fr:number>6.1.3.1</fr:number><fr:parent>hodge-theory-iii-6.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         [P]         \colon  \operatorname {H}^\bullet (B_{\bullet  G})         \to  \operatorname {H}^\bullet ([P/G]_\bullet )         \xleftarrow [(6.1.2.2)]{\sim } \operatorname {H}^\bullet (S).       \tag{6.1.3.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    We will see below that, in good cases, <fr:tex>\operatorname {H}^\bullet (B_{\bullet  G})=\operatorname {H}^\bullet (B_G)</fr:tex>, and that the image of <fr:tex>[P]</fr:tex> consists of the <fr:em>characteristic classes</fr:em> of <fr:tex>P</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2144</fr:anchor><fr:addr>hodge-theory-iii-6.1.4</fr:addr><fr:route>hodge-theory-iii-6.1.4.xml</fr:route><fr:number>6.1.4</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>G</fr:tex> be a Lie group, <fr:tex>B_G</fr:tex> a classifying space for <fr:tex>G</fr:tex>, and <fr:tex>a\colon  U_G\to  B_G</fr:tex> the universal principal homogeneous <fr:tex>G</fr:tex>-space.
+    Let <fr:tex>X</fr:tex> be a <fr:tex>G</fr:tex>-space;
+    then <fr:tex>X\times  U_G</fr:tex> is a principal homogeneous <fr:tex>G</fr:tex>-space over <fr:tex>X\times  U_G/G</fr:tex> such that, for every equivariant sheaf <fr:tex>F</fr:tex> on <fr:tex>X</fr:tex>, <fr:tex>\operatorname {pr}_1^*F</fr:tex> is the inverse image of a sheaf <fr:tex>F^G</fr:tex> on <fr:tex>X\times  U_G/G</fr:tex>.
+    Since <fr:tex>U_G</fr:tex> is contractible, and by <fr:ref
+addr="hodge-theory-iii-6.1.2.2"
+href="hodge-theory-iii-6.1.2.2.xml"
+taxon="Equation"
+number="6.1.2.2"></fr:ref>, we have
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2142</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.4.1</fr:addr><fr:route>hodge-theory-iii-6.1.4.1.xml</fr:route><fr:number>6.1.4.1</fr:number><fr:parent>hodge-theory-iii-6.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {H}^\bullet (X,G;F)         \xrightarrow {\sim } \operatorname {H}^\bullet (X\times  U_G,G;\operatorname {pr}_1^*F)         \xleftarrow {\sim } \operatorname {H}^\bullet (X\times  U_G/G,F^G).       \tag{6.1.4.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    In particular, for <fr:tex>X=P^t</fr:tex>,
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2143</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.4.2</fr:addr><fr:route>hodge-theory-iii-6.1.4.2.xml</fr:route><fr:number>6.1.4.2</fr:number><fr:parent>hodge-theory-iii-6.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {H}^\bullet (B_{\bullet  G})         = \operatorname {H}^\bullet (B_G).       \tag{6.1.4.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    We can see that the isomorphism in <fr:ref
+addr="hodge-theory-iii-6.1.4.2"
+href="hodge-theory-iii-6.1.4.2.xml"
+taxon="Equation"
+number="6.1.4.2"></fr:ref> is a particular case of <fr:ref
+addr="hodge-theory-iii-6.1.3.1"
+href="hodge-theory-iii-6.1.3.1.xml"
+taxon="Equation"
+number="6.1.3.1"></fr:ref> where <fr:tex>S=B_G</fr:tex> and <fr:tex>P=U_G</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2145</fr:anchor><fr:addr>hodge-theory-iii-6.1.5</fr:addr><fr:route>hodge-theory-iii-6.1.5.xml</fr:route><fr:number>6.1.5</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The spectral sequence in <fr:ref
+addr="hodge-theory-iii-5.2.3.2"
+href="hodge-theory-iii-5.2.3.2.xml"
+taxon="Equation"
+number="5.2.3.2"></fr:ref> for <fr:tex>B_{\bullet  G}</fr:tex>
+    <fr:tex
+display="block">       E_1^{pq}       = \operatorname {H}^q(G^{\Delta _p}/G)       \Rightarrow  \operatorname {H}^{p+q}(B_{\bullet  G})       =\operatorname {H}^{p+q}(B_G)     </fr:tex>
+    is essentially the <fr:em>Eilenberg–Moore spectral sequence</fr:em>.
+    We briefly recall how it allows us to relate the rational cohomologies of <fr:tex>G</fr:tex> and of <fr:tex>B_G</fr:tex>, for connected <fr:tex>G</fr:tex>.
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      The algebra <fr:tex>\operatorname {H}^\bullet (G,\mathbb {Q})</fr:tex> is a connected graded Hopf algebra of finite dimension over <fr:tex>\mathbb {Q}</fr:tex>.
+      If <fr:tex>P^\bullet (G)</fr:tex> is the graded module of its primitive elements, then we have
+      <fr:tex
+display="block">         H^\bullet (G,\mathbb {Q})         = \bigwedge  P^\bullet (G)       </fr:tex>
+      and the generators of <fr:tex>P^\bullet (G)</fr:tex> are of odd degree.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      The simplicial algebra <fr:tex>(E_1^{p\bullet })_{p\geqslant 0}</fr:tex> is
+      <fr:tex
+display="block">         E_1^{p\bullet }         = \bigwedge \big (P^\bullet (G)^{\Delta _p}/P^\bullet (G)\big )       </fr:tex>
+      which is the exterior algebra of the suspension of the constant cosimplicial module <fr:tex>P^\bullet (G)</fr:tex>;
+      we thus have (by Quillen [<fr:link
+href="Q1968.xml"
+type="local"
+addr="Q1968">Q1968</fr:link>]) that <fr:tex>E_2^{p\bullet }=\operatorname {Sym}^p(P^\bullet (G))</fr:tex>.
+      The pages <fr:tex>E_2^{pq}</fr:tex> are only zero for <fr:tex>p+q</fr:tex> even;
+      we thus have that <fr:tex>E_2^{pq}=E_\infty ^{pq}</fr:tex>, and, for a suitable filtration, we canonically have that
+      <fr:tex
+display="block">         \operatorname {Gr}\operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1])       </fr:tex>
+      and non-canonically that
+      <fr:tex
+display="block">         \operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1]).       </fr:tex>
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2146</fr:anchor><fr:addr>hodge-theory-iii-6.1.6</fr:addr><fr:route>hodge-theory-iii-6.1.6.xml</fr:route><fr:number>6.1.6</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>G</fr:tex> be a (complex) linear algebraic group.
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      If <fr:tex>T</fr:tex> is a maximal torus of <fr:tex>G</fr:tex>, with Weyl group <fr:tex>W</fr:tex>, then
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>252</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.6.1</fr:addr><fr:route>hodge-theory-iii-6.1.6.1.xml</fr:route><fr:number>6.1.6.1</fr:number><fr:parent>hodge-theory-iii-6.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet (B_G,\mathbb {Q})           \xrightarrow {\sim } \operatorname {H}^\bullet (B_T,\mathbb {Q})^W.         \tag{6.1.6.1}         </fr:tex></fr:mainmatter></fr:tree>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      If <fr:tex>T</fr:tex> is a torus with character group <fr:tex>X(T)</fr:tex>, then
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>254</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.1.6.2</fr:addr><fr:route>hodge-theory-iii-6.1.6.2.xml</fr:route><fr:number>6.1.6.2</fr:number><fr:parent>hodge-theory-iii-6.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \operatorname {H}^\bullet (T,\mathbb {Z})           \simeq  \bigwedge ^\bullet  X(T)         \tag{6.1.6.2}         </fr:tex></fr:mainmatter></fr:tree>
+
+      (an isomorphism of graded Hopf algebras).
+    </html:li>
+
+  </html:ol>
+<fr:p>
+    We will only use (a) in the following weaker form:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(a') &quot;">
+        <fr:em>(The splitting principle).</fr:em>
+        The map <fr:tex>\operatorname {H}^\bullet (B_G,\mathbb {Q})\to \operatorname {H}^\bullet (B_T,\mathbb {Q})</fr:tex> is injective.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    For completion, we recall a proof of (a').
+  </fr:p><fr:p>
+    If <fr:tex>B</fr:tex> is a Borel subgroup of <fr:tex>G</fr:tex>, then the bundle <fr:tex>U_G/B</fr:tex> on <fr:tex>B_G</fr:tex> is a fibre in flag spaces.
+    By [2.1 and 2.6.3, <fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link>], which is better explained in [Proposition 3.1, <fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>], or by [<fr:link
+href="B1956.xml"
+type="local"
+addr="B1956">B1956</fr:link>], the Leray spectral sequence of <fr:tex>U_G/B\to  B_G</fr:tex> degenerates to rational cohomology.
+    We thus have that <fr:tex>\operatorname {H}^\bullet (B_G,\mathbb {Q})\hookrightarrow \operatorname {H}^\bullet (U_G/B,\mathbb {Q})</fr:tex>.
+    We conclude by noting that <fr:tex>U_G/B\sim  B_B\sim  B_T</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2579</fr:anchor><fr:addr>hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title>Construction of hypercovers</fr:title><fr:number>6.2</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2200</fr:anchor><fr:addr>hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X_\bullet </fr:tex> be a simplicial set.
+    Denote by <fr:tex>D(\Delta _n,\Delta _M)</fr:tex> the set of increasing surjective maps from <fr:tex>\Delta _n</fr:tex> to <fr:tex>\Delta _m</fr:tex> (degeneracy operators), and set
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2198</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.1.xml</fr:route><fr:number>6.2.1.1</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N(X_n)         = X_n\setminus \bigcup _{{s\in  D(\Delta _n,\Delta _{n-1})}}s(X_{n-1}).       \tag{6.2.1.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    Recall that, for all <fr:tex>n</fr:tex>, the map
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2199</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.2</fr:addr><fr:route>hodge-theory-iii-6.2.1.2.xml</fr:route><fr:number>6.2.1.2</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \coprod  s         \colon  \coprod _{\mathclap {\substack {m\leqslant  n,\\s\in  D(\Delta _n,\Delta _m)}}} N(X_m)         \to  X_n       \tag{6.2.1.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    is bijective.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2201</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-iii-6.2.2</fr:addr><fr:route>hodge-theory-iii-6.2.2.xml</fr:route><fr:number>6.2.2</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that a simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if the maps in <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> are homeomorphisms.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  Let <fr:tex>X_\bullet </fr:tex> be a <fr:tex>k</fr:tex>-truncated simplicial set.
+  For <fr:tex>n\leqslant  k</fr:tex>, we again define <fr:tex>N(X_n)</fr:tex> by <fr:ref
+addr="hodge-theory-iii-6.2.1.1"
+href="hodge-theory-iii-6.2.1.1.xml"
+taxon="Equation"
+number="6.2.1.1"></fr:ref>, and then <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a bijection.
+  We say that a <fr:tex>k</fr:tex>-truncated simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a homeomorphism for <fr:tex>n\leqslant  k</fr:tex>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2203</fr:anchor><fr:addr>hodge-theory-iii-6.2.3</fr:addr><fr:route>hodge-theory-iii-6.2.3.xml</fr:route><fr:number>6.2.3</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For an <fr:tex>s</fr:tex>-split <fr:tex>(n+1)</fr:tex>-truncated topological simplicial space <fr:tex>X</fr:tex> augmented over <fr:tex>S</fr:tex>, let <fr:tex>\alpha (X)</fr:tex> be the triple consisting of <fr:tex>\operatorname {sq}_n(X)</fr:tex>, <fr:tex>NX_{n+1}</fr:tex>, and the evident map from <fr:tex>NX_{n+1}</fr:tex> to <fr:tex>(\operatorname {cosq}\operatorname {sq}_n X)_{n+1}</fr:tex>.
+  </fr:p><fr:p>
+    This triple <fr:tex>\alpha (X)=(Y,N,\beta )</fr:tex> satisfies the following:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2202</fr:anchor><fr:taxon>Property</fr:taxon><fr:addr>hodge-theory-iii-6.2.star</fr:addr><fr:route>hodge-theory-iii-6.2.star.xml</fr:route><fr:number>*</fr:number><fr:parent>hodge-theory-iii-6.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex>(*)</fr:tex> <fr:tex>Y</fr:tex> is an <fr:tex>s</fr:tex>-split <fr:tex>n</fr:tex>-truncated simplicial topological space augmented over <fr:tex>S</fr:tex>, and <fr:tex>\beta </fr:tex> is a continuous map from <fr:tex>N</fr:tex> to <fr:tex>(\operatorname {cosq} Y)_{n+1}</fr:tex>.
+        </fr:em></fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2212</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-6.2.4</fr:addr><fr:route>hodge-theory-iii-6.2.4.xml</fr:route><fr:number>6.2.4</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(Y,N,\beta )</fr:tex> satisfy <fr:ref
+addr="hodge-theory-iii-6.2.star"
+href="hodge-theory-iii-6.2.star.xml"
+taxon="Property"
+number="*"></fr:ref> above.
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        Up to unique isomorphism, there exists exactly one <fr:tex>s</fr:tex>-split <fr:tex>(n+1)</fr:tex>-truncated topological space <fr:tex>X</fr:tex> augmented over <fr:tex>S</fr:tex> such that <fr:tex>\alpha (X)\simeq (Y,N,\beta )</fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        It is equivalent to give either <fr:tex>f\colon  X\to  Z</fr:tex> or:
+
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+            a morphism <fr:tex>f'\colon  Y\to \operatorname {sq}_n(Z)</fr:tex>; and
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+            a morphism <fr:tex>f''\colon  N\to  Z_{n+1}</fr:tex>, such that the diagram
+            <fr:tex
+display="block">               \begin {CD}                 N @&gt;\beta &gt;&gt; (\operatorname {cosq} Y)_{n+1}               \\@V{f''}VV @VV{f'}V               \\Z_{n+1} @&gt;&gt;&gt; (\operatorname {cosq}\operatorname {sq}_n Z)_{n+1}               \end {CD}             </fr:tex>
+            commutes.
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2210</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      [5.1.3, <fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>].
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+<fr:p>
+    This proposition also applies to simplicial objects in other categories <fr:tex>\mathscr {C}</fr:tex> apart from that of topological spaces; it suffices that <fr:tex>\mathscr {C}</fr:tex> satisfy the following:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2211</fr:anchor><fr:addr>hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Finite projective limits exist in <fr:tex>\mathbb {C}</fr:tex>.
+        Finite projective sums exist in <fr:tex>\mathbb {C}</fr:tex>, and they are disjoint and universal.
+      </fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2213</fr:anchor><fr:addr>hodge-theory-iii-6.2.5</fr:addr><fr:route>hodge-theory-iii-6.2.5.xml</fr:route><fr:number>6.2.5</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:ref
+addr="hodge-theory-iii-6.2.4"
+href="hodge-theory-iii-6.2.4.xml"
+taxon="Proposition"
+number="6.2.4"></fr:ref> allows us to construct, by induction, proper hypercovers of <fr:tex>S</fr:tex>.
+  </fr:p>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(0) &quot;">
+      We take <fr:tex>f_0\colon  X_0\to  S</fr:tex>, proper and surjective.
+      Then <fr:tex>\{X_0\}</fr:tex> is a <fr:tex>0</fr:tex>-truncated proper hypercover of <fr:tex>S</fr:tex> (<fr:ref
+addr="hodge-theory-iii-5.3.8"
+href="hodge-theory-iii-5.3.8.xml"
+number="5.3.8"></fr:ref>), and it is <fr:tex>s</fr:tex>-split.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(1) &quot;">
+      We take <fr:tex>f_1\colon  N_1\to \operatorname {cosq}(\{X_0\})_1</fr:tex>, i.e. <fr:tex>f_1\colon  N_1\to  X_0\times _S X_0</fr:tex>.
+      Applying <fr:ref
+addr="hodge-theory-iii-6.2.4"
+href="hodge-theory-iii-6.2.4.xml"
+taxon="Proposition"
+number="6.2.4"></fr:ref>, we associate to <fr:tex>f_1</fr:tex> the <fr:tex>s</fr:tex>-split <fr:tex>1</fr:tex>-truncated augmented simplicial topological space
+      <fr:tex
+display="block">         {}_1X_\bullet          = \left (         N_1{\textstyle \coprod } X_0         \xleftarrow [\to ]{\to } X_0         \to  S         \right ).       </fr:tex>
+      Suppose <fr:tex>f_1</fr:tex> to be chosen such that
+      <fr:tex
+display="block">         f'_1         \colon  N_1{\textstyle \coprod } X_0\to  X_0\times _S X_0       </fr:tex>
+      is proper and surjective (for example, if <fr:tex>f_1</fr:tex> is proper and surjective).
+      Then <fr:tex>{}_1X_\bullet </fr:tex> is an <fr:tex>s</fr:tex>-split <fr:tex>1</fr:tex>-truncated proper hypercover of <fr:tex>S</fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(k+1) &quot;">
+      Assume that we have already constructed an <fr:tex>s</fr:tex>-split <fr:tex>k</fr:tex>-truncated proper hypercover <fr:tex>{}_kX_\bullet \to  S</fr:tex>.
+      We take <fr:tex>f_{k+1}\colon  N_{k+1}\to (\operatorname {cosq}({}_kX_\bullet ))_{k+1}</fr:tex> and, applying <fr:ref
+addr="hodge-theory-iii-6.2.4"
+href="hodge-theory-iii-6.2.4.xml"
+taxon="Proposition"
+number="6.2.4"></fr:ref>, we associate to <fr:tex>f_{k+1}</fr:tex> an <fr:tex>s</fr:tex>-split <fr:tex>(k+1)</fr:tex>-truncated augmented semi-simplicial space <fr:tex>{}_{k+1}X_\bullet </fr:tex>.
+      Suppose that <fr:tex>f_{k+1}</fr:tex> is such that
+      <fr:tex
+display="block">         f'_{k+1}         \colon  {}_{k+1}X_{k+1}         \to  \operatorname {cosq}({}_kX_\bullet )_{k+1}       </fr:tex>
+      is proper and surjective (for example, if <fr:tex>f_{k+1}</fr:tex> is proper and surjective).
+      Then <fr:tex>{}_{k+1}X_\bullet </fr:tex> is an <fr:tex>s</fr:tex>-split <fr:tex>(k+1)</fr:tex>-truncated proper hypercover of <fr:tex>S</fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(∞) &quot;">
+      The <fr:tex>{}_kX_\bullet </fr:tex> thus constructed are the successive skeletons of an <fr:tex>s</fr:tex>-split proper hypercover of <fr:tex>S</fr:tex>.
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2214</fr:anchor><fr:addr>hodge-theory-iii-6.2.6</fr:addr><fr:route>hodge-theory-iii-6.2.6.xml</fr:route><fr:number>6.2.6</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that a simplicial scheme <fr:tex>X_\bullet </fr:tex> over <fr:tex>\mathbb {C}</fr:tex> is <fr:em>smooth</fr:em> if the <fr:tex>X_n</fr:tex> are smooth;
+    it is said to be <fr:em>proper</fr:em> if the <fr:tex>X_n</fr:tex> are compact.
+    A <fr:em>normal crossing divisor</fr:em> <fr:tex>D_\bullet </fr:tex> of <fr:tex>X_\bullet </fr:tex>, assumed to be smooth, is a family <fr:tex>D_n\subset  X_n</fr:tex> of normal crossing divisors (<fr:ref
+addr="hodge-theory-ii-3.1.2"
+href="hodge-theory-ii-3.1.2.xml"
+number="3.1.2"></fr:ref>) such that the <fr:tex>U_n=X_n\setminus  D_n</fr:tex> form a simplicial subscheme <fr:tex>U_\bullet </fr:tex> of <fr:tex>X_\bullet </fr:tex>.
+    This definition is justified by the following lemma.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2215</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-iii-6.2.7</fr:addr><fr:route>hodge-theory-iii-6.2.7.xml</fr:route><fr:number>6.2.7</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>D_\bullet </fr:tex> is a normal crossing divisor of <fr:tex>X_\bullet </fr:tex>, then the logarithmic de Rham complexes <fr:tex>(\Omega _{X_n}^\bullet (\log  D_n))_{n\geqslant 0}</fr:tex>, endowed with the weight filtration (<fr:ref
+addr="hodge-theory-ii-3.1.5"
+href="hodge-theory-ii-3.1.5.xml"
+number="3.1.5"></fr:ref>), form a filtered complex on <fr:tex>X_\bullet </fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1356</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#177</fr:addr><fr:route>unstable-177.xml</fr:route><fr:parent>hodge-theory-iii-6.2.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      This follows from (ii) of <fr:ref
+addr="hodge-theory-ii-3.1.3"
+href="hodge-theory-ii-3.1.3.xml"
+taxon="Proposition"
+number="3.1.3"></fr:ref>.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+<fr:p>
+    We denote the complex <fr:tex>(\Omega _{X_n}^\bullet (\log  D_n))_{n\geqslant 0}</fr:tex> by <fr:tex>\Omega _{X_\bullet }^\bullet (\log  D_\bullet )</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2220</fr:anchor><fr:addr>hodge-theory-iii-6.2.8</fr:addr><fr:route>hodge-theory-iii-6.2.8.xml</fr:route><fr:number>6.2.8</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Using <fr:ref
+addr="hodge-theory-iii-6.2.5"
+href="hodge-theory-iii-6.2.5.xml"
+number="6.2.5"></fr:ref>, we can show that, for every separated scheme <fr:tex>S</fr:tex> over <fr:tex>\mathbb {C}</fr:tex>, there exists:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        
+        a simplicial scheme <fr:tex>X_\bullet </fr:tex> over <fr:tex>\mathbb {C}</fr:tex>, smooth and proper, that we can take to be <fr:tex>s</fr:tex>-split;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a normal crossing divisor <fr:tex>D_\bullet </fr:tex> of <fr:tex>X_\bullet </fr:tex>; we set <fr:tex>U_\bullet =X_\bullet \setminus  D_\bullet </fr:tex>;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛾) &quot;">
+        an augmentation <fr:tex>a\colon  U_\bullet \to  S</fr:tex> that realises <fr:tex>U_\bullet ^\mathrm {an}</fr:tex> as a proper hypercover of <fr:tex>S^\mathrm {an}</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    Furthermore, any two such systems are covered by a third, and a morphism <fr:tex>u\colon  S\to  T</fr:tex> can be covered by a morphism
+    
+  <fr:embedded-tex
+hash="bcddb87b2e9fad251c49db1ceb7c2423"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+      X_\bullet 
+        \ar [r]
+      &amp; Y_\bullet 
+    \\U_\bullet 
+        \ar [r]
+        \ar [u,hook]
+        \ar [d,swap,"a"]
+      &amp; V_\bullet 
+        \ar [u,hook]
+        \ar [d,"b"]
+    \\S \ar [r,swap,"u"]
+      &amp; T
+    \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+    of such systems (see [<fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>]).
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2580</fr:anchor><fr:addr>hodge-theory-iii-6.3</fr:addr><fr:route>hodge-theory-iii-6.3.xml</fr:route><fr:title>Relative cohomology</fr:title><fr:number>6.3</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2263</fr:anchor><fr:addr>hodge-theory-iii-6.3.1</fr:addr><fr:route>hodge-theory-iii-6.3.1.xml</fr:route><fr:number>6.3.1</fr:number><fr:parent>hodge-theory-iii-6.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="true"><fr:frontmatter><fr:anchor>2968</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+  This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
+  <fr:ul><fr:li>
+      "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
+      <fr:link
+href="https://publications.ias.edu/node/359"
+type="external">[PDF]</fr:link></fr:li>
+    <fr:li>
+      "Théorie de Hodge II", <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>40</fr:strong> (1971) pp. 5–58.
+      <fr:link
+href="https://publications.ias.edu/node/361"
+type="external">[PDF]</fr:link></fr:li>
+    <fr:li>
+      "Théorie de Hodge III", <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>44</fr:strong> (1974) pp. 5–77.
+      <fr:link
+href="https://publications.ias.edu/node/373"
+type="external">[PDF]</fr:link></fr:li></fr:ul></fr:p><fr:p><fr:strong><fr:em>TO-DO: replace fref by ref</fr:em></fr:strong></fr:p><fr:p>
+  The translator (<fr:link
+href="https://thosgood.com"
+type="external">Tim Hosgood</fr:link>) takes full responsibility for any errors introduced, and claims no rights to any of the mathematical content herein.
+  You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link
+href="https://github.com/thosgood/hodge-theory"
+type="external">GitHub repository</fr:link>.
+  Corrections and comments welcome.
+</fr:p><fr:ul><fr:li><fr:link
+href="hodge-theory-i.xml"
+type="local"
+addr="hodge-theory-i"><fr:strong>Hodge Theory I</fr:strong></fr:link> ✓
+  </fr:li>
+
+  <fr:li><fr:link
+href="hodge-theory-ii.xml"
+type="local"
+addr="hodge-theory-ii"><fr:strong>Hodge Theory II</fr:strong></fr:link> ✓
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+href="hodge-theory-ii-introduction.xml"
+type="local"
+addr="hodge-theory-ii-introduction">Introduction</fr:link>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;1. &quot;">
+        <fr:link
+href="hodge-theory-ii-1.xml"
+type="local"
+addr="hodge-theory-ii-1">Filtrations</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;1.1. &quot;">
+            <fr:link
+href="hodge-theory-ii-1.1.xml"
+type="local"
+addr="hodge-theory-ii-1.1">Filtered objects</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.2. &quot;">
+            <fr:link
+href="hodge-theory-ii-1.2.xml"
+type="local"
+addr="hodge-theory-ii-1.2">Opposite filtrations</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.3. &quot;">
+            <fr:link
+href="hodge-theory-ii-1.3.xml"
+type="local"
+addr="hodge-theory-ii-1.3">The two filtrations lemma</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.4. &quot;">
+            <fr:link
+href="hodge-theory-ii-1.4.xml"
+type="local"
+addr="hodge-theory-ii-1.4">Hypercohomology of filtered complexes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;2. &quot;">
+        <fr:link
+href="hodge-theory-ii-2.xml"
+type="local"
+addr="hodge-theory-ii-2">Hodge structures</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;2.1. &quot;">
+            <fr:link
+href="hodge-theory-ii-2.1.xml"
+type="local"
+addr="hodge-theory-ii-2.1">Pure structures</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;2.2. &quot;">
+            <fr:link
+href="hodge-theory-ii-2.2.xml"
+type="local"
+addr="hodge-theory-ii-2.2">Hodge theory</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;2.3. &quot;">
+            <fr:link
+href="hodge-theory-ii-2.3.xml"
+type="local"
+addr="hodge-theory-ii-2.3">Mixed structures</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;3. &quot;">
+        <fr:link
+href="hodge-theory-ii-3.xml"
+type="local"
+addr="hodge-theory-ii-3">Hodge theory of non-singular algebraic varieties</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;3.1. &quot;">
+            <fr:link
+href="hodge-theory-ii-3.1.xml"
+type="local"
+addr="hodge-theory-ii-3.1">Logarithmic poles and residues</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;3.2. &quot;">
+            <fr:link
+href="hodge-theory-ii-3.2.xml"
+type="local"
+addr="hodge-theory-ii-3.2">Mixed Hodge theory</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;4. &quot;">
+        <fr:link
+href="hodge-theory-ii-4.xml"
+type="local"
+addr="hodge-theory-ii-4">Applications and supplements</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;4.1 &quot;">
+            <fr:link
+href="hodge-theory-ii-4.1.xml"
+type="local"
+addr="hodge-theory-ii-4.1">The fixed set theorem</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.2 &quot;">
+            <fr:link
+href="hodge-theory-ii-4.2.xml"
+type="local"
+addr="hodge-theory-ii-4.2">The semi-simplicity theorem</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.3 &quot;">
+            <fr:link
+href="hodge-theory-ii-4.3.xml"
+type="local"
+addr="hodge-theory-ii-4.3">Supplement to [D1968]</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.4 &quot;">
+            <fr:link
+href="hodge-theory-ii-4.4.xml"
+type="local"
+addr="hodge-theory-ii-4.4">Homomorphisms of abelian schemes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:li>
+
+  <fr:li><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii"><fr:strong>Hodge Theory III</fr:strong></fr:link>
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+href="hodge-theory-iii-introduction.xml"
+type="local"
+addr="hodge-theory-iii-introduction">Introduction</fr:link> ✓
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+href="hodge-theory-iii-terminology-and-notation.xml"
+type="local"
+addr="hodge-theory-iii-terminology-and-notation">Terminology and notation</fr:link> ✓
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;5. &quot;">
+        <fr:link
+href="hodge-theory-iii-5.xml"
+type="local"
+addr="hodge-theory-iii-5">Cohomological descent</fr:link> ✓
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;5.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-5.1.xml"
+type="local"
+addr="hodge-theory-iii-5.1">Simplicial topological spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;5.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-5.2.xml"
+type="local"
+addr="hodge-theory-iii-5.2">Cohomology of simplicial topological spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;5.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-5.3.xml"
+type="local"
+addr="hodge-theory-iii-5.3">Cohomological descent</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;6. &quot;">
+        <fr:link
+href="hodge-theory-iii-6.xml"
+type="local"
+addr="hodge-theory-iii-6">Examples of simplicial topological spaces</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;6.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-6.1.xml"
+type="local"
+addr="hodge-theory-iii-6.1">Classifying spaces</fr:link> ✓
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-6.2.xml"
+type="local"
+addr="hodge-theory-iii-6.2">Construction of hypercovers</fr:link> ✓
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-6.3.xml"
+type="local"
+addr="hodge-theory-iii-6.3">Relative cohomology</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.4 &quot;">
+            <fr:link
+href="hodge-theory-iii-6.4"
+type="external">Multi-simplicial spaces</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;7. &quot;">
+        <fr:link
+href="hodge-theory-iii-7"
+type="external">Supplements to §1</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;7.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-7.1"
+type="external">Filtered derived category</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;7.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-7.2"
+type="external">Supplements to the two-filtrations lemma</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;8. &quot;">
+        <fr:link
+href="hodge-theory-iii-8"
+type="external">Hodge theory of algebraic spaces</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;8.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-8.1"
+type="external">Hodge complexes</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;8.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-8.2"
+type="external">Separated algebraic spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;8.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-8.3"
+type="external">Hodge theory of simplicial schemes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;9. &quot;">
+        <fr:link
+href="hodge-theory-iii-9"
+type="external">Examples and applications</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;9.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-9.1"
+type="external">Cohomology of groups and of classifying spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;9.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-9.2"
+type="external">Hodge theory of smooth hypersurfaces, following Griffiths</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;9.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-9.3"
+type="external">Construction of complexes of first-order differential operators</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;10. &quot;">
+        <fr:link
+href="hodge-theory-iii-10"
+type="external">Hodge theory in level <fr:tex>\leqslant  1</fr:tex></fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;10.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-10.1"
+type="external">1-motives</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-10.2"
+type="external">1-motives and bi-extensions</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-10.3"
+type="external">Algebraic interpretation of the mixed <fr:tex>\operatorname {H}^1</fr:tex>: the case of curves</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.4 &quot;">
+            <fr:link
+href="hodge-theory-iii-10.4"
+type="external">Translation of a theorem of Picard</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:li>
+
+  <fr:li><fr:link
+href="hodge-theory-bibliography.xml"
+type="local"
+addr="hodge-theory-bibliography"><fr:strong>Bibliography</fr:strong></fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

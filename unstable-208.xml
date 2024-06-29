@@ -7,13 +7,27 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2367</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#208</fr:addr><fr:route>unstable-208.xml</fr:route><fr:parent>hodge-theory-ii-1.3.10</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2427</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#208</fr:addr><fr:route>unstable-208.xml</fr:route><fr:parent>hodge-theory-ii-1.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      For <fr:tex>r=0,1</fr:tex>, we have <fr:tex>B_r^{pq}\subset  Z_r^{pq}</fr:tex>, and we apply <fr:ref
-addr="hodge-theory-ii-1.1.9"
-href="hodge-theory-ii-1.1.9.xml"
-taxon="Lemma"
-number="1.1.9"></fr:ref>.
+      We will prove this in the case where <fr:tex>\mathscr {A}</fr:tex> is a category of modules.
+      For fixed <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>, the hypothesis that the arrows <fr:tex>d_r</fr:tex> with domains <fr:tex>E_r^{pq}</fr:tex> be zero for <fr:tex>r\geqslant 1</fr:tex> implies that, if <fr:tex>x\in  F^p(K^{p+q})</fr:tex> satisfies <fr:tex>dx\in  F^{p+1}(K^{p+q+1})</fr:tex>, then there exists <fr:tex>y\in  K^{p+q}</fr:tex> such that <fr:tex>dy=0</fr:tex> and such that <fr:tex>x</fr:tex> and <fr:tex>y</fr:tex> have the same image in <fr:tex>E_1^{pq}</fr:tex>.
+      Modifying <fr:tex>y</fr:tex> by a boundary, and setting <fr:tex>z=x-y</fr:tex>, we then have
+      <fr:tex
+display="block">         \forall  x\in  F^p(K^{p+q})         \left [           dx\in  F^{p+1}(K^{p+q+1})           \implies  \exists  z\text { s.t. } z\in  F^{p+1}(K^{p+q}) \text { and } dz=dx         \right ]       </fr:tex>
+      or, in other words,
+      <fr:tex
+display="block">         F^{p+1}(K^{p+q+1}) \cap  dF^p(K^{p+q})         = dF^{p+1}(K^{p+q}).       \tag{1}       </fr:tex></fr:p>
+
+    <fr:p>
+      If this condition is satisfied for arbitrary <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>, then by induction on <fr:tex>r</fr:tex> we have
+      <fr:tex
+display="block">         F^{p+r} \cap  dF^p         = dF^{p+r}       </fr:tex>
+      which, for large <fr:tex>p+r</fr:tex>, can be written as
+      <fr:tex
+display="block">         F^p \cap  dK         = dF^p.       \tag{2}       </fr:tex></fr:p>
+
+    <fr:p>
+      Claim (2) trivially implies (1), and is equivalent to (ii), which proves the proposition.
     </fr:p>
   </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -22,9 +36,26 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2366</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.3.10</fr:addr><fr:route>hodge-theory-ii-1.3.10.xml</fr:route><fr:number>1.3.10</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    On <fr:tex>E_0</fr:tex> and <fr:tex>E_1</fr:tex>, we have <fr:tex>F_d=F_{d^*}</fr:tex>.
-  </fr:p>
+root="false"><fr:frontmatter><fr:anchor>2426</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.3.2</fr:addr><fr:route>hodge-theory-ii-1.3.2.xml</fr:route><fr:number>1.3.2</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex endowed with a biregular filtration <fr:tex>F</fr:tex>.
+    The following conditions are equivalent:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        The spectral sequence defined by <fr:tex>F</fr:tex> degenerates (<fr:tex>E_1=E_\infty </fr:tex>).
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        The morphisms <fr:tex>d\colon  K^i\to  K^{i+1}</fr:tex> are strictly compatible with the filtrations.
+      </html:li>
+
+    </html:ol></fr:p>
   
     
     <fr:tree
@@ -34,45 +65,28 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>669</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#208</fr:addr><fr:route>unstable-208.xml</fr:route><fr:parent>hodge-theory-ii-1.3.10</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>850</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#208</fr:addr><fr:route>unstable-208.xml</fr:route><fr:parent>hodge-theory-ii-1.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      For <fr:tex>r=0,1</fr:tex>, we have <fr:tex>B_r^{pq}\subset  Z_r^{pq}</fr:tex>, and we apply <fr:ref
-addr="hodge-theory-ii-1.1.9"
-href="hodge-theory-ii-1.1.9.xml"
-taxon="Lemma"
-number="1.1.9"></fr:ref>.
+      We will prove this in the case where <fr:tex>\mathscr {A}</fr:tex> is a category of modules.
+      For fixed <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>, the hypothesis that the arrows <fr:tex>d_r</fr:tex> with domains <fr:tex>E_r^{pq}</fr:tex> be zero for <fr:tex>r\geqslant 1</fr:tex> implies that, if <fr:tex>x\in  F^p(K^{p+q})</fr:tex> satisfies <fr:tex>dx\in  F^{p+1}(K^{p+q+1})</fr:tex>, then there exists <fr:tex>y\in  K^{p+q}</fr:tex> such that <fr:tex>dy=0</fr:tex> and such that <fr:tex>x</fr:tex> and <fr:tex>y</fr:tex> have the same image in <fr:tex>E_1^{pq}</fr:tex>.
+      Modifying <fr:tex>y</fr:tex> by a boundary, and setting <fr:tex>z=x-y</fr:tex>, we then have
+      <fr:tex
+display="block">         \forall  x\in  F^p(K^{p+q})         \left [           dx\in  F^{p+1}(K^{p+q+1})           \implies  \exists  z\text { s.t. } z\in  F^{p+1}(K^{p+q}) \text { and } dz=dx         \right ]       </fr:tex>
+      or, in other words,
+      <fr:tex
+display="block">         F^{p+1}(K^{p+q+1}) \cap  dF^p(K^{p+q})         = dF^{p+1}(K^{p+q}).       \tag{1}       </fr:tex></fr:p>
+
+    <fr:p>
+      If this condition is satisfied for arbitrary <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>, then by induction on <fr:tex>r</fr:tex> we have
+      <fr:tex
+display="block">         F^{p+r} \cap  dF^p         = dF^{p+r}       </fr:tex>
+      which, for large <fr:tex>p+r</fr:tex>, can be written as
+      <fr:tex
+display="block">         F^p \cap  dK         = dF^p.       \tag{2}       </fr:tex></fr:p>
+
+    <fr:p>
+      Claim (2) trivially implies (1), and is equivalent to (ii), which proves the proposition.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2365</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.1.9</fr:addr><fr:route>hodge-theory-ii-1.1.9.xml</fr:route><fr:number>1.1.9</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>X</fr:tex> and <fr:tex>Y</fr:tex> are sub-objects of <fr:tex>A</fr:tex>, with <fr:tex>X\subset  Y</fr:tex>, then on <fr:tex>Y/X\xrightarrow {\sim }\operatorname {Ker}(A/X\to  A/Y)</fr:tex> the quotient filtration of <fr:tex>Y</fr:tex> agrees with that induced by that of <fr:tex>A/X</fr:tex>.
-    In the diagram
-    
-  <fr:embedded-tex
-hash="a02137ad2b8968d01ad871f220398f31"><fr:embedded-tex-preamble>
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
-      A/Y
-      &amp;&amp; A/X
-        \ar [ll]
-    \\&amp; A
-        \ar [ul] \ar [ur]
-      &amp;&amp; Y/X
-        \ar [ul]
-    \\X
-        \ar [rr] \ar [ur]
-      &amp;&amp; Y
-        \ar [ul] \ar [uu] \ar [ur]
-    \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
-
-    the arrows are strict.
-  </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -7,40 +7,116 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2400</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#215</fr:addr><fr:route>unstable-215.xml</fr:route><fr:parent>hodge-theory-ii-1.2.9</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      To prove surjectivity, we write
-      <fr:tex
-display="block">         \begin {aligned}           ((B+B')\cap (C+C'))+D           &amp;= (((B+B')\cap (C+C'))+B')+C'         \\&amp;= ((B+B')\cap (C+C'+B'))+C'         \\&amp;= (B+B'+C')\cap (C+C'+B')         \\&amp;= (B+D)\cap (C+D).         \end {aligned}       </fr:tex></fr:p>
+root="false"><fr:frontmatter><fr:anchor>2462</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#215</fr:addr><fr:route>unstable-215.xml</fr:route><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+      
+ <html:ol>
+        
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+          The condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex> implies that <fr:tex>F^p\cap \bar {F}^q=(F^{p+1}\cap \bar {F}^q)+(F^p\cap \bar {F}^{q+1})</fr:tex> for <fr:tex>p+q&gt;n</fr:tex>.
+          By hypothesis, <fr:tex>F^p\cap \bar {F}^q</fr:tex> is zero for large enough <fr:tex>p+q</fr:tex>;
+          by decreasing induction, we thus deduce that the condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex> is equivalent to the condition <fr:tex>F^p(A)\cap \bar {F}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex>.
+          Dually (<fr:ref
+addr="hodge-theory-ii-1.1.6"
+href="hodge-theory-ii-1.1.6.xml"
+number="1.1.6"></fr:ref>, <fr:ref
+addr="hodge-theory-ii-1.1.7"
+href="hodge-theory-ii-1.1.7.xml"
+number="1.1.7"></fr:ref>, <fr:ref
+addr="hodge-theory-ii-1.1.10"
+href="hodge-theory-ii-1.1.10.xml"
+number="1.1.10"></fr:ref>), the condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&lt;n</fr:tex> is equivalent to the condition <fr:tex>A=F^p(A)+\bar {F}^q(A)</fr:tex> for <fr:tex>(1-p)+(1-q)&gt;-n</fr:tex>, i.e. for <fr:tex>p+q\leqslant  n+1</fr:tex>, and the claim then follows.
+        </html:li>
 
-    <fr:p>
-      To prove injectivity, we write
-      <fr:tex
-display="block">         (B+B')\cap (C+C')\cap  D         = ((B+B')\cap  D)\cap ((C+C')\cap  D).       </fr:tex>
-      Since <fr:tex>B'\subset  D</fr:tex>, we have
-      <fr:tex
-display="block">         \begin {aligned}           (B+B')\cap  D           &amp;= (B\cap  D)+B'         \\&amp;= B'         \end {aligned}       </fr:tex>
-      and similarly
-      <fr:tex
-display="block">         (C+C')\cap  D         = C'       </fr:tex>
-      and
-      <fr:tex
-display="block">         \begin {aligned}           (B+B')\cap (C+C')\cap  D           &amp;= B'\cap  C'         \\&amp;= E.         \end {aligned}       </fr:tex></fr:p>
-  </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+
+        
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+          If <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> are <fr:tex>n</fr:tex>-opposite, then we can prove by decreasing induction on <fr:tex>p</fr:tex> that
+
+          <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>624</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.5.1</fr:addr><fr:route>hodge-theory-ii-1.2.5.1.xml</fr:route><fr:number>1.2.5.1</fr:number><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">               \bigoplus _{p'\geqslant  p} A^{p',q'}               \xrightarrow {\sim } F^p(A).             \tag{1.2.5.1}             </fr:tex></fr:mainmatter></fr:tree>
+
+          
+ <html:ol>
+            
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+              For <fr:tex>F^p(A)=0</fr:tex>, the claim is evident.
+            </html:li>
+
+            
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+              The decomposition <fr:tex>A=F^{p+1}(A)\oplus \bar {F}^{n-p}(A)</fr:tex> induces on <fr:tex>F^p(A)\supset  F^{p+1}(A)</fr:tex> a decomposition
+              <fr:tex
+display="block">                 F^p(A)                 = F^{p+1}(A)\oplus (F^p(A)\cap \bar {F}^{n-p}(A))               </fr:tex>
+              and we conclude by induction.
+            </html:li>
+
+          </html:ol>
+
+
+          For <fr:tex>p</fr:tex> small enough, we have <fr:tex>F^p(A)=A</fr:tex>.
+          By <fr:ref
+addr="hodge-theory-ii-1.2.5.1"
+href="hodge-theory-ii-1.2.5.1.xml"
+taxon="Equation"
+number="1.2.5.1"></fr:ref>, the <fr:tex>A^{p,q}</fr:tex> thus form a bigrading of <fr:tex>A</fr:tex>, and <fr:tex>F</fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-1.2.4.1"
+href="hodge-theory-ii-1.2.4.1.xml"
+taxon="Equation"
+number="1.2.4.1"></fr:ref>.
+          The fact that <fr:tex>\bar {F}</fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-1.2.4.2"
+href="hodge-theory-ii-1.2.4.2.xml"
+taxon="Equation"
+number="1.2.4.2"></fr:ref> then follows by symmetry.
+        </html:li>
+
+      </html:ol>
+
+    </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2399</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.2.9</fr:addr><fr:route>hodge-theory-ii-1.2.9.xml</fr:route><fr:number>1.2.9</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>B</fr:tex>, <fr:tex>C</fr:tex>, <fr:tex>B'</fr:tex>, <fr:tex>C'</fr:tex>, <fr:tex>D</fr:tex>, and <fr:tex>E</fr:tex> be sub-objects of <fr:tex>A</fr:tex>.
-    Suppose that
-    <fr:tex
-display="block">       \begin {gathered}         B'+C' = D         \qquad  B'\cap  C' = E       \\B\cap  D \subset  B'         \qquad  C\cap  D \subset  C'.       \end {gathered}     </fr:tex>
-    Then
-    <fr:tex
-display="block">       ((B+B')\cap (C+C'))/E       \xrightarrow {\sim } ((B+D)\cap (C+D))/D.     </fr:tex></fr:p>
+root="false"><fr:frontmatter><fr:anchor>2461</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.2.5</fr:addr><fr:route>hodge-theory-ii-1.2.5.xml</fr:route><fr:number>1.2.5</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+      Let <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> be finite filtrations on <fr:tex>A</fr:tex>.
+      For <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> to be <fr:tex>n</fr:tex>-opposite, it is necessary and sufficient that, for all <fr:tex>p,q</fr:tex>,
+      <fr:tex
+display="block">         [p+q=n+1]         \implies  [F^p(A)\oplus \bar {F}^q(A) \xrightarrow {\sim } A].       </fr:tex>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+      If <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> are <fr:tex>n</fr:tex>-opposite, and if we set
+      <fr:tex
+display="block">         \begin {cases}           A^{p,q} = 0           &amp;\text {for }p+q\neq  n         \\A^{p,q} = F^p(A)\cap \bar {F}^q(A)           &amp;\text {for }p+q=n         \end {cases}       </fr:tex>
+      then <fr:tex>A</fr:tex> is the direct sum of the <fr:tex>A^{p,q}</fr:tex>, and <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> come from the bigrading <fr:tex>A^{p,q}</fr:tex> of <fr:tex>A</fr:tex> by the procedure of <fr:ref
+addr="hodge-theory-ii-1.2.4"
+href="hodge-theory-ii-1.2.4.xml"
+number="1.2.4"></fr:ref>.
+    </html:li>
+
+
+    
   
     
     <fr:tree
@@ -50,25 +126,192 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>694</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#215</fr:addr><fr:route>unstable-215.xml</fr:route><fr:parent>hodge-theory-ii-1.2.9</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      To prove surjectivity, we write
-      <fr:tex
-display="block">         \begin {aligned}           ((B+B')\cap (C+C'))+D           &amp;= (((B+B')\cap (C+C'))+B')+C'         \\&amp;= ((B+B')\cap (C+C'+B'))+C'         \\&amp;= (B+B'+C')\cap (C+C'+B')         \\&amp;= (B+D)\cap (C+D).         \end {aligned}       </fr:tex></fr:p>
+root="false"><fr:frontmatter><fr:anchor>628</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#215</fr:addr><fr:route>unstable-215.xml</fr:route><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+      
+ <html:ol>
+        
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+          The condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex> implies that <fr:tex>F^p\cap \bar {F}^q=(F^{p+1}\cap \bar {F}^q)+(F^p\cap \bar {F}^{q+1})</fr:tex> for <fr:tex>p+q&gt;n</fr:tex>.
+          By hypothesis, <fr:tex>F^p\cap \bar {F}^q</fr:tex> is zero for large enough <fr:tex>p+q</fr:tex>;
+          by decreasing induction, we thus deduce that the condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex> is equivalent to the condition <fr:tex>F^p(A)\cap \bar {F}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex>.
+          Dually (<fr:ref
+addr="hodge-theory-ii-1.1.6"
+href="hodge-theory-ii-1.1.6.xml"
+number="1.1.6"></fr:ref>, <fr:ref
+addr="hodge-theory-ii-1.1.7"
+href="hodge-theory-ii-1.1.7.xml"
+number="1.1.7"></fr:ref>, <fr:ref
+addr="hodge-theory-ii-1.1.10"
+href="hodge-theory-ii-1.1.10.xml"
+number="1.1.10"></fr:ref>), the condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&lt;n</fr:tex> is equivalent to the condition <fr:tex>A=F^p(A)+\bar {F}^q(A)</fr:tex> for <fr:tex>(1-p)+(1-q)&gt;-n</fr:tex>, i.e. for <fr:tex>p+q\leqslant  n+1</fr:tex>, and the claim then follows.
+        </html:li>
 
-    <fr:p>
-      To prove injectivity, we write
-      <fr:tex
-display="block">         (B+B')\cap (C+C')\cap  D         = ((B+B')\cap  D)\cap ((C+C')\cap  D).       </fr:tex>
-      Since <fr:tex>B'\subset  D</fr:tex>, we have
-      <fr:tex
-display="block">         \begin {aligned}           (B+B')\cap  D           &amp;= (B\cap  D)+B'         \\&amp;= B'         \end {aligned}       </fr:tex>
-      and similarly
-      <fr:tex
-display="block">         (C+C')\cap  D         = C'       </fr:tex>
-      and
-      <fr:tex
-display="block">         \begin {aligned}           (B+B')\cap (C+C')\cap  D           &amp;= B'\cap  C'         \\&amp;= E.         \end {aligned}       </fr:tex></fr:p>
-  </fr:mainmatter></fr:tree>
+
+        
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+          If <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> are <fr:tex>n</fr:tex>-opposite, then we can prove by decreasing induction on <fr:tex>p</fr:tex> that
+
+          <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>624</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.5.1</fr:addr><fr:route>hodge-theory-ii-1.2.5.1.xml</fr:route><fr:number>1.2.5.1</fr:number><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">               \bigoplus _{p'\geqslant  p} A^{p',q'}               \xrightarrow {\sim } F^p(A).             \tag{1.2.5.1}             </fr:tex></fr:mainmatter></fr:tree>
+
+          
+ <html:ol>
+            
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+              For <fr:tex>F^p(A)=0</fr:tex>, the claim is evident.
+            </html:li>
+
+            
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+              The decomposition <fr:tex>A=F^{p+1}(A)\oplus \bar {F}^{n-p}(A)</fr:tex> induces on <fr:tex>F^p(A)\supset  F^{p+1}(A)</fr:tex> a decomposition
+              <fr:tex
+display="block">                 F^p(A)                 = F^{p+1}(A)\oplus (F^p(A)\cap \bar {F}^{n-p}(A))               </fr:tex>
+              and we conclude by induction.
+            </html:li>
+
+          </html:ol>
+
+
+          For <fr:tex>p</fr:tex> small enough, we have <fr:tex>F^p(A)=A</fr:tex>.
+          By <fr:ref
+addr="hodge-theory-ii-1.2.5.1"
+href="hodge-theory-ii-1.2.5.1.xml"
+taxon="Equation"
+number="1.2.5.1"></fr:ref>, the <fr:tex>A^{p,q}</fr:tex> thus form a bigrading of <fr:tex>A</fr:tex>, and <fr:tex>F</fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-1.2.4.1"
+href="hodge-theory-ii-1.2.4.1.xml"
+taxon="Equation"
+number="1.2.4.1"></fr:ref>.
+          The fact that <fr:tex>\bar {F}</fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-1.2.4.2"
+href="hodge-theory-ii-1.2.4.2.xml"
+taxon="Equation"
+number="1.2.4.2"></fr:ref> then follows by symmetry.
+        </html:li>
+
+      </html:ol>
+
+    </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+
+  </html:ol>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2455</fr:anchor><fr:addr>hodge-theory-ii-1.1.10</fr:addr><fr:route>hodge-theory-ii-1.1.10.xml</fr:route><fr:number>1.1.10</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We call the filtration <fr:ref
+addr="hodge-theory-ii-1.1.9"
+href="hodge-theory-ii-1.1.9.xml"
+taxon="Lemma"
+number="1.1.9"></fr:ref> on <fr:tex>Y/X</fr:tex> the <fr:em>filtration induced by that of <fr:tex>A</fr:tex></fr:em> (or simply the <fr:em>induced filtration</fr:em>).
+    By <fr:ref
+addr="hodge-theory-ii-1.1.9"
+href="hodge-theory-ii-1.1.9.xml"
+taxon="Lemma"
+number="1.1.9"></fr:ref>, its definition is self-dual.
+
+    In particular, if <fr:tex>\Sigma \colon  A\xrightarrow {f}B\xrightarrow {G}C</fr:tex> is a **!!<fr:strong><fr:em>TO-DO: o-suite</fr:em></fr:strong>?!!** sequence, and if <fr:tex>B</fr:tex> is filtered, then <fr:tex>\operatorname {H}(\Sigma )=\operatorname {Ker}(g)/\operatorname {Im}(f)=\operatorname {Ker}(\operatorname {Coker}(f)\to \operatorname {Coim}(g))</fr:tex> is endowed with a canonical induced filtration.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2456</fr:anchor><fr:addr>hodge-theory-ii-1.1.6</fr:addr><fr:route>hodge-theory-ii-1.1.6.xml</fr:route><fr:number>1.1.6</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(-)^\circ </fr:tex> be the contravariant identity functor from <fr:tex>\mathscr {A}</fr:tex> to the dual category <fr:tex>\mathscr {A}^\circ </fr:tex>.
+    If <fr:tex>(A,F)</fr:tex> is a filtered object of <fr:tex>\mathscr {A}</fr:tex>, then the <fr:tex>(A/F^n(A))^\circ </fr:tex> can be identified with sub-objects of <fr:tex>A^\circ </fr:tex>.
+    The <fr:em>dual</fr:em> filtration on <fr:tex>A^\circ </fr:tex> is defined by
+    <fr:tex
+display="block">       F^n(A^\circ )       = (A/F^{1-n})^\circ .     </fr:tex></fr:p><fr:p>
+    The double dual of <fr:tex>(A,F)</fr:tex> can be identified with <fr:tex>(A,F)</fr:tex>.
+    This construction identifies the dual of the category of filtered objects of <fr:tex>\mathscr {A}</fr:tex> with the category of filtered objects of <fr:tex>\mathscr {A}^\circ </fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2457</fr:anchor><fr:addr>hodge-theory-ii-1.1.7</fr:addr><fr:route>hodge-theory-ii-1.1.7.xml</fr:route><fr:number>1.1.7</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>(A,F)</fr:tex> is a filtered object of <fr:tex>\mathscr {A}</fr:tex>, then its <fr:em>associated graded</fr:em> is the object of <fr:tex>\mathscr {A}^\mathbb {Z}</fr:tex> defined by
+    <fr:tex
+display="block">       \operatorname {Gr}^n(A)       = F^n(A)/F^{n+1}(A).     </fr:tex>
+    The convention <fr:ref
+addr="hodge-theory-ii-1.1.6"
+href="hodge-theory-ii-1.1.6.xml"
+number="1.1.6"></fr:ref> is justified by the simple formula
+    <fr:tex
+display="block">       \operatorname {Gr}^n(A^\circ )       = \operatorname {Gr}^{-n}(A)^\circ      </fr:tex>
+    which follows from the self-dual diagram
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>605</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.1.7.1</fr:addr><fr:route>hodge-theory-ii-1.1.7.1.xml</fr:route><fr:number>1.1.7.1</fr:number><fr:parent>hodge-theory-ii-1.1.7</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:embedded-tex
+hash="4c8cf20a648de469d2843c0b0f11c1b9"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+        A/F^n(A)
+        &amp;&amp; A/ F^{n+1}(A)
+          \ar [ll]
+        &amp;&amp; 0
+      \\&amp; A
+          \ar [ul] \ar [ur]
+        &amp;&amp; \operatorname {Gr}^n(A)
+          \ar [ul] \ar [ur]
+        &amp;&amp; (1.1.7.1)
+      \\F^{n+1}(A)
+          \ar [ur] \ar [rr]
+        &amp;&amp; F^n(A)
+          \ar [ul] \ar [ur]
+        &amp;&amp; 0
+          \ar [ul]
+      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2458</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.4.1</fr:addr><fr:route>hodge-theory-ii-1.2.4.1.xml</fr:route><fr:number>1.2.4.1</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         F^p(A)         = \sum _{p'\geqslant  p} A^{p',q'}       \tag{1.2.4.1}       </fr:tex></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2459</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.4.2</fr:addr><fr:route>hodge-theory-ii-1.2.4.2.xml</fr:route><fr:number>1.2.4.2</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \bar {F}^q(A)         = \sum _{q'\geqslant  q} A^{p',q'}.       \tag{1.2.4.2}       </fr:tex></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2460</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.5.1</fr:addr><fr:route>hodge-theory-ii-1.2.5.1.xml</fr:route><fr:number>1.2.5.1</fr:number><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">               \bigoplus _{p'\geqslant  p} A^{p',q'}               \xrightarrow {\sim } F^p(A).             \tag{1.2.5.1}             </fr:tex></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

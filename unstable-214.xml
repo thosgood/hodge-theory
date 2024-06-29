@@ -7,58 +7,17 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2398</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#214</fr:addr><fr:route>unstable-214.xml</fr:route><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2454</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#214</fr:addr><fr:route>unstable-214.xml</fr:route><fr:parent>hodge-theory-ii-1.3.17</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      We will prove by induction on <fr:tex>k</fr:tex> the following claim:
-    </fr:p>
-
-    <fr:p><fr:em>
-        The projection from <fr:tex>W^n(A)/W^{n+k}</fr:tex> to <fr:tex>\operatorname {Gr}_W^n(A)</fr:tex> induces an isomorphism from
-        <fr:tex
-display="block">           \begin {aligned}             \Bigg [             &amp;\left ( \sum _{i&lt;k} (W^{n+i}(A)\cap  F^{p_i}(A)) + W^{n+k}(A) \right )           \\\cap              &amp;\left ( \sum _{i&lt;k} (W^{n+i}(A)\cap \bar {F}^{q_i}(A)) + W^{n+k}(A) \right )             \Bigg ] / W^{n+k}(A)           \end {aligned}           \tag{$*_k$}         </fr:tex>
-        to <fr:tex>A^{p,q}\subset \operatorname {Gr}_W^n(A)</fr:tex>.
-      </fr:em></fr:p>
-
-    <fr:p>
-      For <fr:tex>k=1</fr:tex>, this is exactly the definition of <fr:tex>A^{p,q}</fr:tex>.
-    </fr:p>
-
-    <fr:p>
-      By (i) of <fr:ref
-addr="hodge-theory-ii-1.2.5"
-href="hodge-theory-ii-1.2.5.xml"
+      This follows immediately from <fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref> and (iv) of <fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
 taxon="Proposition"
-number="1.2.5"></fr:ref> we have
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>691</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \bar {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
-      Set
-      <fr:tex
-display="block">         \begin {aligned}           B &amp;= \sum _{i&lt;k} (W^{n+i}(A)\cap  F^{p_i}(A))         \\C &amp;= \sum _{i&lt;k} (W^{n+i}(A)\cap \bar {F}^{q_i}(A))         \\B' &amp;= (W^{n+k}(A)\cap  F^{p_k}(A)) + W^{n+k+1}(A)         \\C' &amp;= (W^{n+k}(A)\cap \bar {F}^{q_k}(A)) + W^{n+k+1}(A)         \\D &amp;= W^{n+k}(A)         \\E &amp;= W^{n+k+1}(A).         \end {aligned}       </fr:tex></fr:p>
-
-    <fr:p><fr:ref
-addr="hodge-theory-ii-1.2.8.1"
-href="hodge-theory-ii-1.2.8.1.xml"
-taxon="Equation"
-number="1.2.8.1"></fr:ref> can then be written as
-      <fr:tex
-display="block">         \begin {aligned}           B'+C' &amp;= D         \\B'\cap  C' &amp;= E.         \end {aligned}       </fr:tex>
-      We also have, since <fr:tex>p_k\leqslant  p_i</fr:tex> (for <fr:tex>i\leqslant  k</fr:tex>),
-      <fr:tex
-display="block">         B\cap  D         \subset  F^{p_k}(A) \cap  W^{n+k}(A)         \subset  B'       </fr:tex>
-      and, since <fr:tex>q_k\leqslant  q_i</fr:tex> (for <fr:tex>i\leqslant  k</fr:tex>),
-      <fr:tex
-display="block">         C\cap  D         \subset  \bar {F}^{q_k}(A)\cap  W^{n+k}(A)         \subset  C'.       </fr:tex></fr:p>
-
-    <fr:p>
-      The claim (<fr:tex>*_{k+1}</fr:tex>) and then follows from (<fr:tex>*_k</fr:tex>) and the following lemma.
+number="1.3.13"></fr:ref>.
     </fr:p>
   </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -67,33 +26,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2397</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.2.8</fr:addr><fr:route>hodge-theory-ii-1.2.8.xml</fr:route><fr:number>1.2.8</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>W</fr:tex>, <fr:tex>F</fr:tex>, and <fr:tex>\bar {F}</fr:tex> be three finite opposite filtrations, and <fr:tex>\sigma </fr:tex> a sequence <fr:tex>(p_i,q_i)_{i\geqslant 0}</fr:tex> pairs of integers satisfying
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        <fr:tex>p_i\leqslant  p_j</fr:tex> and <fr:tex>q_i\leqslant  q_j</fr:tex> for <fr:tex>i\geqslant  j</fr:tex>, and
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        <fr:tex>p_i+q_i=p_0+q_0-i+1</fr:tex> for <fr:tex>i&gt;0</fr:tex>.
-      </html:li>
-
-    </html:ol>
-
-
-    Set <fr:tex>p=p_0</fr:tex>, <fr:tex>q=q_0</fr:tex>, <fr:tex>n=-p-q</fr:tex>, and
-    <fr:tex
-display="block">       A_\sigma        = \left ( \sum _{0\leqslant  i}(W^{n+i}(A)\cap  F^{p_i}(A)) \right )       \cap  \left ( \sum _{0\leqslant  i}(W^{n+i}(A)\cap \bar {F}^{q_i}(A)) \right ).     </fr:tex>
-    Then the projection from <fr:tex>W^n(A)</fr:tex> to <fr:tex>\operatorname {Gr}_W^n(A)</fr:tex> induces an isomorphism
-    <fr:tex
-display="block">       A_\sigma        \xrightarrow {\sim } A^{p,q} \subset  \operatorname {Gr}_W^n(A).     </fr:tex></fr:p>
+root="false"><fr:frontmatter><fr:anchor>2453</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-1.3.17</fr:addr><fr:route>hodge-theory-ii-1.3.17.xml</fr:route><fr:number>1.3.17</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the general hypotheses of <fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref>, suppose that, for all <fr:tex>r</fr:tex>, the differentials <fr:tex>d_r</fr:tex> are strictly compatible with the recurrent filtrations on the <fr:tex>E_r</fr:tex>.
+    Then, on <fr:tex>E_\infty </fr:tex>, the filtrations <fr:tex>F_d</fr:tex>, <fr:tex>F_r</fr:tex>, and <fr:tex>F_{d^*}</fr:tex> agree, and coincide with the filtration induced by the filtration <fr:tex>F</fr:tex> of <fr:tex>\operatorname {H}^\bullet (K)</fr:tex>.
+  </fr:p>
   
     
     <fr:tree
@@ -103,58 +43,17 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>692</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#214</fr:addr><fr:route>unstable-214.xml</fr:route><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>891</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#214</fr:addr><fr:route>unstable-214.xml</fr:route><fr:parent>hodge-theory-ii-1.3.17</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      We will prove by induction on <fr:tex>k</fr:tex> the following claim:
-    </fr:p>
-
-    <fr:p><fr:em>
-        The projection from <fr:tex>W^n(A)/W^{n+k}</fr:tex> to <fr:tex>\operatorname {Gr}_W^n(A)</fr:tex> induces an isomorphism from
-        <fr:tex
-display="block">           \begin {aligned}             \Bigg [             &amp;\left ( \sum _{i&lt;k} (W^{n+i}(A)\cap  F^{p_i}(A)) + W^{n+k}(A) \right )           \\\cap              &amp;\left ( \sum _{i&lt;k} (W^{n+i}(A)\cap \bar {F}^{q_i}(A)) + W^{n+k}(A) \right )             \Bigg ] / W^{n+k}(A)           \end {aligned}           \tag{$*_k$}         </fr:tex>
-        to <fr:tex>A^{p,q}\subset \operatorname {Gr}_W^n(A)</fr:tex>.
-      </fr:em></fr:p>
-
-    <fr:p>
-      For <fr:tex>k=1</fr:tex>, this is exactly the definition of <fr:tex>A^{p,q}</fr:tex>.
-    </fr:p>
-
-    <fr:p>
-      By (i) of <fr:ref
-addr="hodge-theory-ii-1.2.5"
-href="hodge-theory-ii-1.2.5.xml"
+      This follows immediately from <fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref> and (iv) of <fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
 taxon="Proposition"
-number="1.2.5"></fr:ref> we have
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>691</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \bar {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
-      Set
-      <fr:tex
-display="block">         \begin {aligned}           B &amp;= \sum _{i&lt;k} (W^{n+i}(A)\cap  F^{p_i}(A))         \\C &amp;= \sum _{i&lt;k} (W^{n+i}(A)\cap \bar {F}^{q_i}(A))         \\B' &amp;= (W^{n+k}(A)\cap  F^{p_k}(A)) + W^{n+k+1}(A)         \\C' &amp;= (W^{n+k}(A)\cap \bar {F}^{q_k}(A)) + W^{n+k+1}(A)         \\D &amp;= W^{n+k}(A)         \\E &amp;= W^{n+k+1}(A).         \end {aligned}       </fr:tex></fr:p>
-
-    <fr:p><fr:ref
-addr="hodge-theory-ii-1.2.8.1"
-href="hodge-theory-ii-1.2.8.1.xml"
-taxon="Equation"
-number="1.2.8.1"></fr:ref> can then be written as
-      <fr:tex
-display="block">         \begin {aligned}           B'+C' &amp;= D         \\B'\cap  C' &amp;= E.         \end {aligned}       </fr:tex>
-      We also have, since <fr:tex>p_k\leqslant  p_i</fr:tex> (for <fr:tex>i\leqslant  k</fr:tex>),
-      <fr:tex
-display="block">         B\cap  D         \subset  F^{p_k}(A) \cap  W^{n+k}(A)         \subset  B'       </fr:tex>
-      and, since <fr:tex>q_k\leqslant  q_i</fr:tex> (for <fr:tex>i\leqslant  k</fr:tex>),
-      <fr:tex
-display="block">         C\cap  D         \subset  \bar {F}^{q_k}(A)\cap  W^{n+k}(A)         \subset  C'.       </fr:tex></fr:p>
-
-    <fr:p>
-      The claim (<fr:tex>*_{k+1}</fr:tex>) and then follows from (<fr:tex>*_k</fr:tex>) and the following lemma.
+number="1.3.13"></fr:ref>.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
@@ -165,33 +64,42 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2395</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.2.5</fr:addr><fr:route>hodge-theory-ii-1.2.5.xml</fr:route><fr:number>1.2.5</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2451</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.3.13</fr:addr><fr:route>hodge-theory-ii-1.3.13.xml</fr:route><fr:number>1.3.13</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
  <html:li
 style="list-style-type: &quot;(i) &quot;">
-      Let <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> be finite filtrations on <fr:tex>A</fr:tex>.
-      For <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> to be <fr:tex>n</fr:tex>-opposite, it is necessary and sufficient that, for all <fr:tex>p,q</fr:tex>,
-      <fr:tex
-display="block">         [p+q=n+1]         \implies  [F^p(A)\oplus \bar {F}^q(A) \xrightarrow {\sim } A].       </fr:tex>
+      For the first direct filtration, the morphisms <fr:tex>d_r</fr:tex> are compatible with the filtrations.
+      If <fr:tex>E_{r+1}^{pq}</fr:tex> is considered as a quotient of a sub-object of <fr:tex>E_r^{pq}</fr:tex>, then the first direct filtration on <fr:tex>E_{r+1}^{pq}</fr:tex> is finer than the filtration <fr:tex>F'</fr:tex> induced by the first direct filtration on <fr:tex>E_r^{pq}</fr:tex>Y we have <fr:tex>F_d(E_{r+1}^{pq})\subset  F'(E_{r+1}^{pq})</fr:tex>.
     </html:li>
 
 
     
  <html:li
 style="list-style-type: &quot;(ii) &quot;">
-      If <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> are <fr:tex>n</fr:tex>-opposite, and if we set
-      <fr:tex
-display="block">         \begin {cases}           A^{p,q} = 0           &amp;\text {for }p+q\neq  n         \\A^{p,q} = F^p(A)\cap \bar {F}^q(A)           &amp;\text {for }p+q=n         \end {cases}       </fr:tex>
-      then <fr:tex>A</fr:tex> is the direct sum of the <fr:tex>A^{p,q}</fr:tex>, and <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> come from the bigrading <fr:tex>A^{p,q}</fr:tex> of <fr:tex>A</fr:tex> by the procedure of <fr:ref
-addr="hodge-theory-ii-1.2.4"
-href="hodge-theory-ii-1.2.4.xml"
-number="1.2.4"></fr:ref>.
+      Dually, the morphisms <fr:tex>d_r</fr:tex> are compatible with the second direct filtration, and the second direct filtration on <fr:tex>E_{r+1}^{pq}</fr:tex> is less fine than the filtration induced by that of <fr:tex>E_r^{pq}</fr:tex>.
     </html:li>
 
 
     
+ <html:li
+style="list-style-type: &quot;(iii) &quot;">
+      <fr:tex>F_d(E_r^{pq})\subset  F_r(E_r^{pq})\subset  F_{d^*}(E_r^{pq})</fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(iv) &quot;">
+      On <fr:tex>E_\infty ^{pq}</fr:tex>, the filtration induced by the filtration <fr:tex>F</fr:tex> of <fr:tex>\operatorname {H}^\bullet (K)</fr:tex> <fr:ref
+addr="hodge-theory-ii-1.3.12"
+href="hodge-theory-ii-1.3.12.xml"
+number="1.3.12"></fr:ref> is finer than the first direct filtration and less fine than the second.
+    </html:li>
+
+  </html:ol>
+
   
     
     <fr:tree
@@ -201,86 +109,13 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>626</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#213</fr:addr><fr:route>unstable-213.xml</fr:route><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
-      
- <html:ol>
-        
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-          The condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex> implies that <fr:tex>F^p\cap \bar {F}^q=(F^{p+1}\cap \bar {F}^q)+(F^p\cap \bar {F}^{q+1})</fr:tex> for <fr:tex>p+q&gt;n</fr:tex>.
-          By hypothesis, <fr:tex>F^p\cap \bar {F}^q</fr:tex> is zero for large enough <fr:tex>p+q</fr:tex>;
-          by decreasing induction, we thus deduce that the condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex> is equivalent to the condition <fr:tex>F^p(A)\cap \bar {F}^q(A)=0</fr:tex> for <fr:tex>p+q&gt;n</fr:tex>.
-          Dually (<fr:ref
-addr="hodge-theory-ii-1.1.6"
-href="hodge-theory-ii-1.1.6.xml"
-number="1.1.6"></fr:ref>, <fr:ref
-addr="hodge-theory-ii-1.1.7"
-href="hodge-theory-ii-1.1.7.xml"
-number="1.1.7"></fr:ref>, <fr:ref
-addr="hodge-theory-ii-1.1.10"
-href="hodge-theory-ii-1.1.10.xml"
-number="1.1.10"></fr:ref>), the condition <fr:tex>\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0</fr:tex> for <fr:tex>p+q&lt;n</fr:tex> is equivalent to the condition <fr:tex>A=F^p(A)+\bar {F}^q(A)</fr:tex> for <fr:tex>(1-p)+(1-q)&gt;-n</fr:tex>, i.e. for <fr:tex>p+q\leqslant  n+1</fr:tex>, and the claim then follows.
-        </html:li>
-
-
-        
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-          If <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex> are <fr:tex>n</fr:tex>-opposite, then we can prove by decreasing induction on <fr:tex>p</fr:tex> that
-
-          <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>622</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.5.1</fr:addr><fr:route>hodge-theory-ii-1.2.5.1.xml</fr:route><fr:number>1.2.5.1</fr:number><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">               \bigoplus _{p'\geqslant  p} A^{p',q'}               \xrightarrow {\sim } F^p(A).             \tag{1.2.5.1}             </fr:tex></fr:mainmatter></fr:tree>
-
-          
- <html:ol>
-            
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-              For <fr:tex>F^p(A)=0</fr:tex>, the claim is evident.
-            </html:li>
-
-            
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-              The decomposition <fr:tex>A=F^{p+1}(A)\oplus \bar {F}^{n-p}(A)</fr:tex> induces on <fr:tex>F^p(A)\supset  F^{p+1}(A)</fr:tex> a decomposition
-              <fr:tex
-display="block">                 F^p(A)                 = F^{p+1}(A)\oplus (F^p(A)\cap \bar {F}^{n-p}(A))               </fr:tex>
-              and we conclude by induction.
-            </html:li>
-
-          </html:ol>
-
-
-          For <fr:tex>p</fr:tex> small enough, we have <fr:tex>F^p(A)=A</fr:tex>.
-          By <fr:ref
-addr="hodge-theory-ii-1.2.5.1"
-href="hodge-theory-ii-1.2.5.1.xml"
-taxon="Equation"
-number="1.2.5.1"></fr:ref>, the <fr:tex>A^{p,q}</fr:tex> thus form a bigrading of <fr:tex>A</fr:tex>, and <fr:tex>F</fr:tex> satisfies <fr:ref
-addr="hodge-theory-ii-1.2.4.1"
-href="hodge-theory-ii-1.2.4.1.xml"
-taxon="Equation"
-number="1.2.4.1"></fr:ref>.
-          The fact that <fr:tex>\bar {F}</fr:tex> satisfies <fr:ref
-addr="hodge-theory-ii-1.2.4.2"
-href="hodge-theory-ii-1.2.4.2.xml"
-taxon="Equation"
-number="1.2.4.2"></fr:ref> then follows by symmetry.
-        </html:li>
-
-      </html:ol>
-
-    </fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>881</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#211</fr:addr><fr:route>unstable-211.xml</fr:route><fr:parent>hodge-theory-ii-1.3.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Claim (i) is evident, (ii) is its dual, and (iii) follows by induction.
+      The first claim of (iv) is easy to verify, and the second is its dual.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
   
-
-  </html:ol>
 </fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -288,5 +123,86 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2396</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \bar {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         </fr:tex></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>2452</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-1.3.16</fr:addr><fr:route>hodge-theory-ii-1.3.16.xml</fr:route><fr:number>1.3.16</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex endowed with two filtrations, <fr:tex>W</fr:tex> and <fr:tex>F</fr:tex>, with the filtration <fr:tex>F</fr:tex> biregular.
+    Let <fr:tex>r_0\geqslant 0</fr:tex> be an integer, and suppose that, for <fr:tex>0\leqslant  r&lt;r_0</fr:tex>, the differentials of the graded complex <fr:tex>E_r(K,W)</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
+    Then, for <fr:tex>r\leqslant  r_0+1</fr:tex>, <fr:tex>F_d=F_r=F_{d^*}</fr:tex> on <fr:tex>E_r^{pq}</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>889</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#213</fr:addr><fr:route>unstable-213.xml</fr:route><fr:parent>hodge-theory-ii-1.3.16</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We will prove the theorem by induction on <fr:tex>r_0</fr:tex>.
+      For <fr:tex>r_0=0</fr:tex>, the hypothesis is empty, and we apply <fr:ref
+addr="hodge-theory-ii-1.3.10"
+href="hodge-theory-ii-1.3.10.xml"
+taxon="Lemma"
+number="1.3.10"></fr:ref> and (iii) of <fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>.
+      For <fr:tex>r_0\geqslant 1</fr:tex>, by the inductive hypothesis, we have <fr:tex>F_d=F_r=F_{d^*}</fr:tex> on <fr:tex>E_r^{pq}</fr:tex> for <fr:tex>r\leqslant  r_0</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      By <fr:ref
+addr="hodge-theory-ii-1.3.15"
+href="hodge-theory-ii-1.3.15.xml"
+taxon="Lemma"
+number="1.3.15"></fr:ref>, the morphism <fr:tex>u\colon  E_0(\operatorname {Dec}(K))\to  E_1(K)</fr:tex> is a filtered quasi-isomorphism.
+      It thus induces a filtered isomorphism from <fr:tex>\operatorname {H}^\bullet (\operatorname {Dec}(K))</fr:tex> to <fr:tex>\operatorname {H}^\bullet (E_1(K))</fr:tex>:
+      <fr:tex
+display="block">         u\colon  (E_1(\operatorname {Dec}(K)),F_r)         \xrightarrow {\sim } (E_2(K),F_r).       </fr:tex>
+      Step-by-step, we thus deduce that the canonical isomorphism from <fr:tex>E_s(\operatorname {Dec}(K))</fr:tex> to <fr:tex>E_{s+1}</fr:tex> (for <fr:tex>s\geqslant 1</fr:tex>) is a filtered isomorphism for the recurrent filtration.
+    </fr:p>
+
+    <fr:p>
+      On <fr:tex>E_1(\operatorname {Dec}(K))</fr:tex>, <fr:tex>F_r=F_d</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.3.10"
+href="hodge-theory-ii-1.3.10.xml"
+taxon="Lemma"
+number="1.3.10"></fr:ref>), and we already know (<fr:ref
+addr="hodge-theory-ii-1.3.14"
+href="hodge-theory-ii-1.3.14.xml"
+number="1.3.14"></fr:ref>) that <fr:tex>u'</fr:tex> is a filtered isomorphism
+      <fr:tex
+display="block">         u'\colon  (E_1(\operatorname {Dec}(K)),F_d)         \xrightarrow {\sim } (E_2(K),F_d).       </fr:tex></fr:p>
+
+    <fr:p>
+      On <fr:tex>E_2(K)</fr:tex>, we thus have <fr:tex>F_d=F_r</fr:tex>.
+      This, combined with the dual result, proves the theorem for <fr:tex>r_0=1</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Suppose that <fr:tex>r_0\geqslant 2</fr:tex>.
+      Then the arrows <fr:tex>d_1</fr:tex> of <fr:tex>E_1(K)</fr:tex> are strictly compatible with the filtrations, and thus so too are the arrows <fr:tex>d_0</fr:tex> of <fr:tex>E_0(\operatorname {Dec}(K))</fr:tex> (indeed, <fr:tex>u</fr:tex> induces an isomorphism of spectral sequences, and we apply the criterion from <fr:ref
+addr="hodge-theory-ii-1.3.2"
+href="hodge-theory-ii-1.3.2.xml"
+taxon="Proposition"
+number="1.3.2"></fr:ref>).
+    </fr:p>
+
+    <fr:p>
+      For <fr:tex>0&lt;s&lt;r_0-1</fr:tex>, the isomorphism <fr:tex>(E_s(\operatorname {Dec}(K)),F_r)\cong (E_{s+1}(K),F_r)</fr:tex> shows that the <fr:tex>d_s</fr:tex> are strictly compatible with the recurrent filtrations.
+    </fr:p>
+
+    <fr:p>
+      By the induction hypothesis, we thus have <fr:tex>F_d=F_r</fr:tex> on <fr:tex>E_s(\operatorname {Dec}(K))</fr:tex> for <fr:tex>s\leqslant  s_0</fr:tex>.
+      The isomorphism <fr:tex>(E_s(\operatorname {Dec}(K)),F_d)\cong (E_{s+1}(K),F_d)</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>) then shows that <fr:tex>F_d=F_r</fr:tex> on <fr:tex>E_r(K)</fr:tex> for <fr:tex>r\leqslant  r_0+1</fr:tex>.
+      This, combined with the dual result, proves the theorem.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
