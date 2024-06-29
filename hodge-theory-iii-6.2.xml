@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2595</fr:anchor><fr:addr>hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2613</fr:anchor><fr:addr>hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii-6.xml"
 type="local"
 addr="hodge-theory-iii-6"><fr:link
@@ -20,8 +20,70 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2186</fr:anchor><fr:addr>hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let
+root="false"><fr:frontmatter><fr:anchor>2188</fr:anchor><fr:addr>hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X_\bullet </fr:tex> be a simplicial set.
+    Denote by <fr:tex>D(\Delta _n,\Delta _M)</fr:tex> the set of increasing surjective maps from <fr:tex>\Delta _n</fr:tex> to <fr:tex>\Delta _m</fr:tex> (degeneracy operators), and set
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2186</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.1.xml</fr:route><fr:number>6.2.1.1</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N(X_n)         = X_n\setminus \bigcup _{{s\in  D(\Delta _n,\Delta _{n-1})}}s(X_{n-1}).       \tag{6.2.1.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    Recall that, for all <fr:tex>n</fr:tex>, the map
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2187</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.2</fr:addr><fr:route>hodge-theory-iii-6.2.1.2.xml</fr:route><fr:number>6.2.1.2</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \coprod  s         \colon  \coprod _{\mathclap {\substack {m\leqslant  n,\\s\in  D(\Delta _n,\Delta _m)}}} N(X_m)         \to  X_n       \tag{6.2.1.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    is bijective.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2189</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-iii-6.2.2</fr:addr><fr:route>hodge-theory-iii-6.2.2.xml</fr:route><fr:number>6.2.2</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that a simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if the maps in <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> are homeomorphisms.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  Let <fr:tex>X_\bullet </fr:tex> be a <fr:tex>k</fr:tex>-truncated simplicial set.
+  For <fr:tex>n\leqslant  k</fr:tex>, we again define <fr:tex>N(X_n)</fr:tex> by <fr:ref
+addr="hodge-theory-iii-6.2.1.1"
+href="hodge-theory-iii-6.2.1.1.xml"
+taxon="Equation"
+number="6.2.1.1"></fr:ref>, and then <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a bijection.
+  We say that a <fr:tex>k</fr:tex>-truncated simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a homeomorphism for <fr:tex>n\leqslant  k</fr:tex>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:addr>hodge-theory-iii-6.2.3</fr:addr><fr:route>hodge-theory-iii-6.2.3.xml</fr:route><fr:number>6.2.3</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -29,7 +91,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2594</fr:anchor><fr:addr>hodge-theory-iii-6</fr:addr><fr:route>hodge-theory-iii-6.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2612</fr:anchor><fr:addr>hodge-theory-iii-6</fr:addr><fr:route>hodge-theory-iii-6.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii.xml"
 type="local"
 addr="hodge-theory-iii">Hodge Theory III</fr:link> › Examples of simplicial topological spaces</fr:title><fr:number>6</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -39,7 +101,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2494</fr:anchor><fr:addr>hodge-theory-iii-6.1</fr:addr><fr:route>hodge-theory-iii-6.1.xml</fr:route><fr:title>Classifying spaces</fr:title><fr:number>6.1</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2510</fr:anchor><fr:addr>hodge-theory-iii-6.1</fr:addr><fr:route>hodge-theory-iii-6.1.xml</fr:route><fr:title>Classifying spaces</fr:title><fr:number>6.1</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -378,15 +440,77 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2495</fr:anchor><fr:addr>hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title>Construction of hypercovers</fr:title><fr:number>6.2</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2511</fr:anchor><fr:addr>hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title>Construction of hypercovers</fr:title><fr:number>6.2</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2186</fr:anchor><fr:addr>hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let
+root="false"><fr:frontmatter><fr:anchor>2188</fr:anchor><fr:addr>hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X_\bullet </fr:tex> be a simplicial set.
+    Denote by <fr:tex>D(\Delta _n,\Delta _M)</fr:tex> the set of increasing surjective maps from <fr:tex>\Delta _n</fr:tex> to <fr:tex>\Delta _m</fr:tex> (degeneracy operators), and set
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2186</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.1.xml</fr:route><fr:number>6.2.1.1</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N(X_n)         = X_n\setminus \bigcup _{{s\in  D(\Delta _n,\Delta _{n-1})}}s(X_{n-1}).       \tag{6.2.1.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    Recall that, for all <fr:tex>n</fr:tex>, the map
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2187</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.2</fr:addr><fr:route>hodge-theory-iii-6.2.1.2.xml</fr:route><fr:number>6.2.1.2</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \coprod  s         \colon  \coprod _{\mathclap {\substack {m\leqslant  n,\\s\in  D(\Delta _n,\Delta _m)}}} N(X_m)         \to  X_n       \tag{6.2.1.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    is bijective.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2189</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-iii-6.2.2</fr:addr><fr:route>hodge-theory-iii-6.2.2.xml</fr:route><fr:number>6.2.2</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that a simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if the maps in <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> are homeomorphisms.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  Let <fr:tex>X_\bullet </fr:tex> be a <fr:tex>k</fr:tex>-truncated simplicial set.
+  For <fr:tex>n\leqslant  k</fr:tex>, we again define <fr:tex>N(X_n)</fr:tex> by <fr:ref
+addr="hodge-theory-iii-6.2.1.1"
+href="hodge-theory-iii-6.2.1.1.xml"
+taxon="Equation"
+number="6.2.1.1"></fr:ref>, and then <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a bijection.
+  We say that a <fr:tex>k</fr:tex>-truncated simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a homeomorphism for <fr:tex>n\leqslant  k</fr:tex>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:addr>hodge-theory-iii-6.2.3</fr:addr><fr:route>hodge-theory-iii-6.2.3.xml</fr:route><fr:number>6.2.3</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -394,7 +518,23 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2593</fr:anchor><fr:addr>hodge-theory-iii-6</fr:addr><fr:route>hodge-theory-iii-6.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2609</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.1.xml</fr:route><fr:number>6.2.1.1</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N(X_n)         = X_n\setminus \bigcup _{{s\in  D(\Delta _n,\Delta _{n-1})}}s(X_{n-1}).       \tag{6.2.1.1}       </fr:tex></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2610</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.2</fr:addr><fr:route>hodge-theory-iii-6.2.1.2.xml</fr:route><fr:number>6.2.1.2</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \coprod  s         \colon  \coprod _{\mathclap {\substack {m\leqslant  n,\\s\in  D(\Delta _n,\Delta _m)}}} N(X_m)         \to  X_n       \tag{6.2.1.2}       </fr:tex></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2611</fr:anchor><fr:addr>hodge-theory-iii-6</fr:addr><fr:route>hodge-theory-iii-6.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii.xml"
 type="local"
 addr="hodge-theory-iii">Hodge Theory III</fr:link> › Examples of simplicial topological spaces</fr:title><fr:number>6</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -404,7 +544,7 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2494</fr:anchor><fr:addr>hodge-theory-iii-6.1</fr:addr><fr:route>hodge-theory-iii-6.1.xml</fr:route><fr:title>Classifying spaces</fr:title><fr:number>6.1</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2510</fr:anchor><fr:addr>hodge-theory-iii-6.1</fr:addr><fr:route>hodge-theory-iii-6.1.xml</fr:route><fr:title>Classifying spaces</fr:title><fr:number>6.1</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
@@ -743,15 +883,77 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2495</fr:anchor><fr:addr>hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title>Construction of hypercovers</fr:title><fr:number>6.2</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2511</fr:anchor><fr:addr>hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title>Construction of hypercovers</fr:title><fr:number>6.2</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2186</fr:anchor><fr:addr>hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let
+root="false"><fr:frontmatter><fr:anchor>2188</fr:anchor><fr:addr>hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X_\bullet </fr:tex> be a simplicial set.
+    Denote by <fr:tex>D(\Delta _n,\Delta _M)</fr:tex> the set of increasing surjective maps from <fr:tex>\Delta _n</fr:tex> to <fr:tex>\Delta _m</fr:tex> (degeneracy operators), and set
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2186</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.1.xml</fr:route><fr:number>6.2.1.1</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         N(X_n)         = X_n\setminus \bigcup _{{s\in  D(\Delta _n,\Delta _{n-1})}}s(X_{n-1}).       \tag{6.2.1.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    Recall that, for all <fr:tex>n</fr:tex>, the map
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2187</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.2.1.2</fr:addr><fr:route>hodge-theory-iii-6.2.1.2.xml</fr:route><fr:number>6.2.1.2</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \coprod  s         \colon  \coprod _{\mathclap {\substack {m\leqslant  n,\\s\in  D(\Delta _n,\Delta _m)}}} N(X_m)         \to  X_n       \tag{6.2.1.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    is bijective.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2189</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-iii-6.2.2</fr:addr><fr:route>hodge-theory-iii-6.2.2.xml</fr:route><fr:number>6.2.2</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that a simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if the maps in <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> are homeomorphisms.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  Let <fr:tex>X_\bullet </fr:tex> be a <fr:tex>k</fr:tex>-truncated simplicial set.
+  For <fr:tex>n\leqslant  k</fr:tex>, we again define <fr:tex>N(X_n)</fr:tex> by <fr:ref
+addr="hodge-theory-iii-6.2.1.1"
+href="hodge-theory-iii-6.2.1.1.xml"
+taxon="Equation"
+number="6.2.1.1"></fr:ref>, and then <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a bijection.
+  We say that a <fr:tex>k</fr:tex>-truncated simplicial topological space is <fr:em><fr:tex>s</fr:tex>-split</fr:em> if <fr:ref
+addr="hodge-theory-iii-6.2.1.2"
+href="hodge-theory-iii-6.2.1.2.xml"
+taxon="Equation"
+number="6.2.1.2"></fr:ref> is a homeomorphism for <fr:tex>n\leqslant  k</fr:tex>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:addr>hodge-theory-iii-6.2.3</fr:addr><fr:route>hodge-theory-iii-6.2.3.xml</fr:route><fr:number>6.2.3</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If
   </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -759,7 +961,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>2592</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+root="true"><fr:frontmatter><fr:anchor>2608</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
   This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>
       "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
