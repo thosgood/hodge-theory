@@ -6,3 +6,46 @@
 
 \put\transclude/numbered{false}
 
+\subtree[hodge-theory-iii-6.1.1]{
+  \number{6.1.1}
+
+  \p{
+    Let #{u\colon X\to S} be a continuous map.
+    For every sheaf #{F} on #{S}, the sheaf #{u^*F} is endowed with a "descent data" with respect to #{u}, i.e. we have an isomorphism between the two inverse images of #{u^*F} on #{X\times_S X}, and this isomorphism satisfies a cocycle condition.
+    If #{u} admits a section locally on #{S}, then this construction defines an equivalence between the category of sheaves on #{S} and that of sheaves on #{X} endowed with a descent data.
+  }
+
+  \p{
+    Take #{X} to be a (left) principal homogeneous space for the group #{G} on a space #{S}.
+    Then the #{G}-equivariant sheaves on #{X} are exactly the sheaves endowed with a descent data: every equivariant sheaf on #{X} is, in a unique way (as an equivariant sheaf), the inverse image of a sheaf on #{S=X/G}.
+  }
+}
+
+\subtree[hodge-theory-iii-6.1.2]{
+  \number{6.1.2}
+
+  \p{
+    If a topological group #{G} acts on a space #{X}, then #{G} acts on #{G^{\Delta_n}\times X} by
+    ##{
+      g\cdot(g_0,\ldots,g_n,x)
+      = (g_0g^{-1},\ldots,g_ng^{-1},gx).
+    }
+    We denote by #{[X/G]_\bullet} the simplicial space
+
+    \subtree[hodge-theory-iii-6.1.2.1]{
+      \taxon{equation}
+      \number{6.1.2.1}
+      ##{
+        [X/G]_\bullet
+        = \big((G^{\Delta_n}\times X)/G\big)_{n\geqslant0}.
+      \startverb\tag{6.1.2.1}\stopverb
+      }
+    }
+  }
+
+  \olc{
+    \lic{a.}{
+      If
+    }
+  }
+}
