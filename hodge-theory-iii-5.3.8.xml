@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2099</fr:anchor><fr:addr>hodge-theory-iii-5.3.8</fr:addr><fr:route>hodge-theory-iii-5.3.8.xml</fr:route><fr:number>5.3.8</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>a\colon  X_\bullet \to  S</fr:tex> be as in (IV) of <fr:ref
+addr="hodge-theory-iii-5.3.5"
+href="hodge-theory-iii-5.3.5.xml"
+number="5.3.5"></fr:ref>.
+    We say that <fr:tex>X_\bullet </fr:tex> is a <fr:em>proper <fr:tex>k</fr:tex>-truncated hypercover</fr:em> of <fr:tex>S</fr:tex> if the arrows in <fr:ref
+addr="hodge-theory-iii-5.3.5.1"
+href="hodge-theory-iii-5.3.5.1.xml"
+taxon="Equation"
+number="5.3.5.1"></fr:ref> are proper and surjective.
+    For <fr:tex>k=\infty </fr:tex>, we simply say "proper hypercover".
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2098</fr:anchor><fr:addr>hodge-theory-iii-5.3</fr:addr><fr:route>hodge-theory-iii-5.3.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii-5.xml"
+type="local"
+addr="hodge-theory-iii-5"><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Cohomological descent</fr:link> › Cohomological descent</fr:title><fr:number>5.3</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2050</fr:anchor><fr:addr>hodge-theory-iii-5.3.1</fr:addr><fr:route>hodge-theory-iii-5.3.1.xml</fr:route><fr:number>5.3.1</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>a\colon  X_\bullet \to  S</fr:tex> be an augmented simplicial topological space.
+    For every sheaf <fr:tex>F</fr:tex> on <fr:tex>S</fr:tex>, we have a morphism
+    <fr:tex
+display="block">       \varphi \colon  F       \to  a_*a^*F     </fr:tex>
+    from the adjunction <fr:tex>a^*\dashv  a_*</fr:tex>.
+    This morphism derives to a morphism of functors from <fr:tex>\operatorname {D}^+(S)</fr:tex> to <fr:tex>\operatorname {D}^+(S)</fr:tex>, namely
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2049</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.1.1</fr:addr><fr:route>hodge-theory-iii-5.3.1.1.xml</fr:route><fr:number>5.3.1.1</fr:number><fr:parent>hodge-theory-iii-5.3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \varphi \colon \mathrm {Id}         \to  \mathrm {R} a_*a^*.       \tag{5.3.1.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2051</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-iii-5.3.2</fr:addr><fr:route>hodge-theory-iii-5.3.2.xml</fr:route><fr:number>5.3.2</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We say that <fr:tex>a</fr:tex> is of <fr:em>cohomological descent</fr:em> if, for every abelian sheaf <fr:tex>F</fr:tex> on <fr:tex>S</fr:tex>, we have
+    <fr:tex
+display="block">       F\xrightarrow {\sim }\operatorname {Ker}({a_0}_*{a_0}^*F\to {a_1}_*{a_1}^*F)     </fr:tex>
+    and
+    <fr:tex
+display="block">       \mathrm {R}^i a_*a^*F       = 0       \quad \text {for }i&gt;0.     </fr:tex></fr:p><fr:p>
+    This is equivalent to asking that <fr:ref
+addr="hodge-theory-iii-5.3.1.1"
+href="hodge-theory-iii-5.3.1.1.xml"
+taxon="Equation"
+number="5.3.1.1"></fr:ref> be an isomorphism.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2052</fr:anchor><fr:addr>hodge-theory-iii-5.3.3</fr:addr><fr:route>hodge-theory-iii-5.3.3.xml</fr:route><fr:number>5.3.3</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>a</fr:tex> is of cohomological descent, then, for <fr:tex>K\in \operatorname {Ob}\operatorname {D}^+(S)</fr:tex>, the canonical map
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2019</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.3.1</fr:addr><fr:route>hodge-theory-iii-5.3.3.1.xml</fr:route><fr:number>5.3.3.1</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\Gamma (S,K)         \to  \mathrm {R}\Gamma (S,\mathrm {R} a_*a^*K)         \simeq  \mathrm {R}\Gamma (X_\bullet ,a^*K)       \tag{5.3.3.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    is an isomorphism.
+    In particular, for <fr:tex>F</fr:tex> an abelian sheaf on <fr:tex>S</fr:tex>, we have a spectral sequence (<fr:ref
+addr="hodge-theory-iii-5.2.3.2"
+href="hodge-theory-iii-5.2.3.2.xml"
+taxon="Equation"
+number="5.2.3.2"></fr:ref>)
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2020</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.3.2</fr:addr><fr:route>hodge-theory-iii-5.3.3.2.xml</fr:route><fr:number>5.3.3.2</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{pq}         = \operatorname {H}^q(X_p,a_p^*F)         \Rightarrow  \operatorname {H}^{p+q}(S,F).       \tag{5.3.3.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    For a complex, we again have, in hypercohomology, a spectral sequence
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2021</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.3.3</fr:addr><fr:route>hodge-theory-iii-5.3.3.3.xml</fr:route><fr:number>5.3.3.3</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{pq}         = \operatorname {\mathbb {H}}^q(X_p,a_p^*K)         \Rightarrow  \operatorname {\mathbb {H}}^{p+q}(S,K).       \tag{5.3.3.3}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    In both cases, the <fr:tex>E_1^{\bullet  q}</fr:tex> (for fixed <fr:tex>q</fr:tex>) form a simplicial group, and
+    <fr:tex
+display="block">       d_1       = \sum _i (-1)^i\delta _i       \colon  E_1^{p,q}       \to  E_1^{p+1,q}.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2053</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hodge-theory-iii-5.3.4</fr:addr><fr:route>hodge-theory-iii-5.3.4.xml</fr:route><fr:number>5.3.4</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A continuous map <fr:tex>a\colon  X\to  S</fr:tex> is of <fr:em>cohomological descent</fr:em> if the augmentation morphism of <fr:tex>\operatorname {cosq}(X\to  S)</fr:tex>, namely
+    <fr:tex
+display="block">       \big ((X/S)^{\Delta _n}\big )_{n\geqslant 0}       \to  S,     </fr:tex>
+    is of cohomological descent.
+    We say that <fr:tex>a</fr:tex> is of <fr:em>universal cohomological descent</fr:em> if, for every <fr:tex>u\colon  S'\to  S</fr:tex>, the continuous map <fr:tex>a'\colon  X\times _S S'\to  S'</fr:tex> is of cohomological descent.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2054</fr:anchor><fr:addr>hodge-theory-iii-5.3.5</fr:addr><fr:route>hodge-theory-iii-5.3.5.xml</fr:route><fr:number>5.3.5</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The fundamental results, proven in [<fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>], are the following.
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+        The continuous maps of universal cohomological descent form a Grothendieck topology on the category of topological spaces, which we call the <fr:em>universal cohomological descent topology</fr:em>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;II. &quot;">
+        A proper (<fr:ref
+addr="hodge-theory-iii-0.1"
+href="hodge-theory-iii-0.1.xml"
+number="III.0.1"></fr:ref>) surjective map is of universal cohomological descent.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;III. &quot;">
+        A map <fr:tex>a\colon  X\to  S</fr:tex> that admits sections locally on <fr:tex>S</fr:tex> is of universal cohomological descent.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;IV. &quot;">
+        Let <fr:tex>a\colon  X_\bullet \to  S</fr:tex> be a <fr:tex>k</fr:tex>-truncated augmented simplicial space (with <fr:tex>-1\leqslant  k\leqslant \infty </fr:tex>).
+        For <fr:tex>k\geqslant  n\geqslant -1</fr:tex>, let <fr:tex>\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet </fr:tex> be the evident map.
+        We say that <fr:tex>X_\bullet </fr:tex> is a <fr:em><fr:tex>k</fr:tex>-truncated hypercover of <fr:tex>S</fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
+
+        <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1867</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           </fr:tex></fr:mainmatter></fr:tree>
+
+        (for <fr:tex>-1\leqslant  n\leqslant  k-1</fr:tex>) are of universal cohomological descent.
+        If <fr:tex>X_\bullet </fr:tex> is such a hypercover, then the simplicial space <fr:tex>\operatorname {cosq}(X_\bullet )</fr:tex> augmented over <fr:tex>S</fr:tex> is of cohomological descent.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;V. &quot;">
+        Let <fr:tex>a</fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex>S</fr:tex>.
+        <fr:tex
+display="block">           \begin {CD}             X_\bullet  @&gt;a&gt;&gt; Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         </fr:tex>
+        We say that <fr:tex>a</fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex>X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n</fr:tex> are of universal cohomological descent.
+        If <fr:tex>a</fr:tex> is such a hypercover then, for every <fr:tex>K\in \operatorname {Ob}\operatorname {D}^+(S)</fr:tex>,
+        <fr:tex
+display="block">           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         </fr:tex>
+      </html:li>
+
+    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2055</fr:anchor><fr:addr>hodge-theory-iii-5.3.6</fr:addr><fr:route>hodge-theory-iii-5.3.6.xml</fr:route><fr:number>5.3.6</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For <fr:tex>k=\infty </fr:tex>, (IV) of <fr:ref
+addr="hodge-theory-iii-5.3.5"
+href="hodge-theory-iii-5.3.5.xml"
+number="5.3.5"></fr:ref> implies that the <fr:tex>a\colon  X_\bullet \to  S</fr:tex> are of cohomological descent if the <fr:tex>(\varphi _n)_{n+1}</fr:tex> are of universal cohomological descent.
+    For <fr:tex>n=-1,0</fr:tex>, these maps are
+    <fr:tex
+display="block">       (\varphi _n)_{n+1}       =       \begin {cases}         X_0\xrightarrow {a}S         &amp;\text {if }n=-1       \\X_1\xrightarrow {(\delta _0,\delta _1)}X_0\times _S X_0         &amp;\text {if }n=0.       \end {cases}     </fr:tex>
+    
+    For <fr:tex>n=1</fr:tex>, <fr:tex>(\operatorname {cosq}\operatorname {sq}_1(X_\bullet ))_1</fr:tex> is the subspace of <fr:tex>X_1\times _S X_1\times _S X_1</fr:tex> consisting of the triples <fr:tex>(x,y,z)</fr:tex> such that <fr:tex>\delta _0x=\delta _0y</fr:tex>, <fr:tex>\delta _1x=\delta _0z</fr:tex>, and <fr:tex>\delta _1y=\delta _1z</fr:tex>.
+    The map <fr:tex>(\varphi _1)_2</fr:tex> is <fr:tex>x\mapsto (\delta _0x,\delta _1x,\delta _2x)</fr:tex>.
+  </fr:p><fr:p>
+    For <fr:tex>k=0</fr:tex>, (IV) of <fr:ref
+addr="hodge-theory-iii-5.3.5"
+href="hodge-theory-iii-5.3.5.xml"
+number="5.3.5"></fr:ref> is <fr:ref
+addr="hodge-theory-iii-5.3.4"
+href="hodge-theory-iii-5.3.4.xml"
+taxon="Definition"
+number="5.3.4"></fr:ref>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2056</fr:anchor><fr:taxon>Example</fr:taxon><fr:addr>hodge-theory-iii-5.3.7</fr:addr><fr:route>hodge-theory-iii-5.3.7.xml</fr:route><fr:number>5.3.7</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathscr {U}=(U_i)_{i\in  I}</fr:tex> be an open cover, or a finite locally closed cover, of <fr:tex>S</fr:tex>.
+    Let <fr:tex>X=\coprod _{i\in  I}U_i</fr:tex>.
+    Then <fr:tex>a\colon  X\to  S</fr:tex> is of cohomological descent.
+    The spectral sequence in <fr:ref
+addr="hodge-theory-iii-5.3.3.2"
+href="hodge-theory-iii-5.3.3.2.xml"
+taxon="Equation"
+number="5.3.3.2"></fr:ref> for <fr:tex>X_\bullet =\operatorname {cosq}(X\to  S)</fr:tex> is then exactly the Leray spectral sequence of the cover <fr:tex>\mathscr {U}</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2057</fr:anchor><fr:addr>hodge-theory-iii-5.3.8</fr:addr><fr:route>hodge-theory-iii-5.3.8.xml</fr:route><fr:number>5.3.8</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>a\colon  X_\bullet \to  S</fr:tex> be as in (IV) of <fr:ref
+addr="hodge-theory-iii-5.3.5"
+href="hodge-theory-iii-5.3.5.xml"
+number="5.3.5"></fr:ref>.
+    We say that <fr:tex>X_\bullet </fr:tex> is a <fr:em>proper <fr:tex>k</fr:tex>-truncated hypercover</fr:em> of <fr:tex>S</fr:tex> if the arrows in <fr:ref
+addr="hodge-theory-iii-5.3.5.1"
+href="hodge-theory-iii-5.3.5.1.xml"
+taxon="Equation"
+number="5.3.5.1"></fr:ref> are proper and surjective.
+    For <fr:tex>k=\infty </fr:tex>, we simply say "proper hypercover".
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2096</fr:anchor><fr:addr>hodge-theory-iii-5.3.5</fr:addr><fr:route>hodge-theory-iii-5.3.5.xml</fr:route><fr:number>5.3.5</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    The fundamental results, proven in [<fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>], are the following.
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;I. &quot;">
+        The continuous maps of universal cohomological descent form a Grothendieck topology on the category of topological spaces, which we call the <fr:em>universal cohomological descent topology</fr:em>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;II. &quot;">
+        A proper (<fr:ref
+addr="hodge-theory-iii-0.1"
+href="hodge-theory-iii-0.1.xml"
+number="III.0.1"></fr:ref>) surjective map is of universal cohomological descent.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;III. &quot;">
+        A map <fr:tex>a\colon  X\to  S</fr:tex> that admits sections locally on <fr:tex>S</fr:tex> is of universal cohomological descent.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;IV. &quot;">
+        Let <fr:tex>a\colon  X_\bullet \to  S</fr:tex> be a <fr:tex>k</fr:tex>-truncated augmented simplicial space (with <fr:tex>-1\leqslant  k\leqslant \infty </fr:tex>).
+        For <fr:tex>k\geqslant  n\geqslant -1</fr:tex>, let <fr:tex>\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet </fr:tex> be the evident map.
+        We say that <fr:tex>X_\bullet </fr:tex> is a <fr:em><fr:tex>k</fr:tex>-truncated hypercover of <fr:tex>S</fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
+
+        <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1867</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           </fr:tex></fr:mainmatter></fr:tree>
+
+        (for <fr:tex>-1\leqslant  n\leqslant  k-1</fr:tex>) are of universal cohomological descent.
+        If <fr:tex>X_\bullet </fr:tex> is such a hypercover, then the simplicial space <fr:tex>\operatorname {cosq}(X_\bullet )</fr:tex> augmented over <fr:tex>S</fr:tex> is of cohomological descent.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;V. &quot;">
+        Let <fr:tex>a</fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex>S</fr:tex>.
+        <fr:tex
+display="block">           \begin {CD}             X_\bullet  @&gt;a&gt;&gt; Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         </fr:tex>
+        We say that <fr:tex>a</fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex>X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n</fr:tex> are of universal cohomological descent.
+        If <fr:tex>a</fr:tex> is such a hypercover then, for every <fr:tex>K\in \operatorname {Ob}\operatorname {D}^+(S)</fr:tex>,
+        <fr:tex
+display="block">           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         </fr:tex>
+      </html:li>
+
+    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2097</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           </fr:tex></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
