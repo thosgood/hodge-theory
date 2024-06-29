@@ -11,6 +11,57 @@
 
   \p{
     \oldpage{19}
-    Let
+    Let #{X_\bullet} be a simplicial set.
+    Denote by #{D(\Delta_n,\Delta_M)} the set of increasing surjective maps from #{\Delta_n} to #{\Delta_m} (degeneracy operators), and set
+
+    \subtree[hodge-theory-iii-6.2.1.1]{
+      \taxon{equation}
+      \number{6.2.1.1}
+      ##{
+        N(X_n)
+        = X_n\setminus\bigcup_{{s\in D(\Delta_n,\Delta_{n-1})}}s(X_{n-1}).
+      \startverb\tag{6.2.1.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    Recall that, for all #{n}, the map
+
+    \subtree[hodge-theory-iii-6.2.1.2]{
+      \taxon{equation}
+      \number{6.2.1.2}
+      ##{
+        \coprod s
+        \colon \coprod_{\mathclap{\substack{m\leqslant n,\\s\in D(\Delta_n,\Delta_m)}}} N(X_m)
+        \to X_n
+      \startverb\tag{6.2.1.2}\stopverb
+      }
+    }
+
+    is bijective.
+  }
+}
+
+\subtree[hodge-theory-iii-6.2.2]{
+  \taxon{definition}
+  \number{6.2.2}
+
+  \p{
+    We say that a simplicial topological space is \em{#{s}-split} if the maps in \ref{hodge-theory-iii-6.2.1.2} are homeomorphisms.
+  }
+}
+
+\p{
+  Let #{X_\bullet} be a #{k}-truncated simplicial set.
+  For #{n\leqslant k}, we again define #{N(X_n)} by \ref{hodge-theory-iii-6.2.1.1}, and then \ref{hodge-theory-iii-6.2.1.2} is a bijection.
+  We say that a #{k}-truncated simplicial topological space is \em{#{s}-split} if \ref{hodge-theory-iii-6.2.1.2} is a homeomorphism for #{n\leqslant k}.
+}
+
+\subtree[hodge-theory-iii-6.2.3]{
+  \number{6.2.3}
+
+  \p{
+    If
   }
 }
