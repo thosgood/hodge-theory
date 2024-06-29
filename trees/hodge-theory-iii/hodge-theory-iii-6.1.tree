@@ -45,7 +45,166 @@
 
   \olc{
     \lic{a.}{
-      If
+      If #{X} is a principal homogeneous space for the group #{G} on #{S=X/G}, then the map
+      ##{
+        \begin{aligned}
+          G^{\Delta_n}\times X
+          &\to X^{\Delta_n}
+        \\(g_0,\ldots,g_n,x)
+          &\mapsto (g_0x,\ldots,g_nx)
+        \end{aligned}
+      }
+      identifies #{[X/G]_n} with the iterated fibre product #{(X/S)^{\Delta_n}}:
+      ##{
+        \cosq(X\to S)
+        = ([X/G]_\bullet\to S).
+      }
+      \oldpage{17}
+      In particular, we have (by (III) of \ref{hodge-theory-iii-5.3.5})
+
+      \subtree[hodge-theory-iii-6.1.2.2]{
+        \taxon{equation}
+        \number{6.1.2.2}
+        ##{
+          \HH^\bullet([X/G]_\bullet)
+          \simeq \HH^\bullet(X/G)
+        \startverb\tag{6.1.2.2}\stopverb
+        }
+      }
+
+      (for a principal homogeneous space).
     }
+
+    \lic{b.}{
+      For all #{n}, #{G^{\Delta_n}\times X} is a principal homogeneous space for the group #{G} on #{[X/G]_n}.
+      For every equivariant sheaf #{F} on #{X}, #{\pr_2^*F} is an equivariant sheaf on #{G^{\Delta_n}\times X};
+      by \ref{hodge-theory-iii-6.1.1}, the latter is the inverse image of #{F^n} on #{[X/G]_n}.
+      Every equivariant sheaf #{F} on #{X} thus defines a sheaf on #{[X/G]_\bullet}.
+      It is easy to show that we thus obtain an equivalence between the category of equivariant sheaves on #{X} and the category of sheaves #{F^\bullet} on #{[X/G]_\bullet} that satisfy
+
+      \subtree[hodge-theory-ii-6.1.star]{
+        \taxon{property}
+        \number{*}
+
+        \p{
+          \em{
+            #{(*)} For every #{f\colon\Delta_n\to\Delta_m}, the structure morphism #{f^*F^n\to F^m} is an isomorphism.
+          }
+        }
+      }
+    }
+
+    \lic{c.}{
+      Construction (b) above is natural in #{(G,X,F)}.
+      We set
+
+      \subtree[hodge-theory-iii-6.1.2.3]{
+        \taxon{equation}
+        \number{6.1.2.3}
+        ##{
+          \HH^\bullet(X,G;F)
+          = \HH^\bullet([X/G]_\bullet,F^\bullet)
+        \startverb\tag{6.1.2.3}\stopverb
+        }
+      }
+
+      (mixed cohomology of #{X,G} with coefficients in #{F}).
+      Under the hypotheses of (a), if #{F} is the inverse image of #{F^{-1}} on #{S=X/G}, then
+
+      \subtree[hodge-theory-iii-6.1.2.4]{
+        \taxon{equation}
+        \number{6.1.2.4}
+        ##{
+          \HH^\bullet(X,G;F)
+          = \HH^\bullet(X/G,F^{-1})
+        \startverb\tag{6.1.2.4}\stopverb
+        }
+      }
+
+      (for a principal homogeneous space).
+      This generalises \ref{hodge-theory-iii-6.1.2.2} (which is the case #{F=\underline{\ZZ}}).
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-6.1.3]{
+  \number{6.1.3}
+
+  \p{
+    Let #{P^t} be the topological space consisting of a single point.
+    We define the \em{simplicial classifying space} of #{G}, denoted #{B_{\bullet G}}, to be the simplicial space
+    ##{
+      B_{\bullet G}
+      = [P^t/G]_\bullet.
+    }
+  }
+
+  \p{
+    Let #{P} be a principal homogeneous space for the group #{G} on #{S}.
+    The evident morphism
+    ##{
+      \cosq(P\to S)
+      = [P/G]_\bullet
+      \to [P^t/G]_\bullet
+      = B_{\bullet G}
+    }
+    defines a composite morphism
+
+    \subtree[hodge-theory-iii-6.1.3.1]{
+      \taxon{equation}
+      \number{6.1.3.1}
+      ##{
+        [P]
+        \colon \HH^\bullet(B_{\bullet G})
+        \to \HH^\bullet([P/G]_\bullet)
+        \xleftarrow[(6.1.2.2)]{\sim} \HH^\bullet(S).
+      \startverb\tag{6.1.3.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    We will see below that, in good cases, #{\HH^\bullet(B_{\bullet G})=\HH^\bullet(B_G)}, and that the image of #{[P]} consists of the \em{characteristic classes} of #{P}.
+  }
+}
+
+\subtree[hodge-theory-iii-6.1.4]{
+  \number{6.1.4}
+
+  \p{
+    Let #{G} be a Lie group, #{B_G} a classifying space for #{G}, and #{a\colon U_G\to B_G} the universal principal homogeneous #{G}-space.
+    Let #{X} be a #{G}-space;
+    then #{X\times U_G} is a principal homogeneous #{G}-space over #{X\times U_G/G} such that, for every equivariant sheaf #{F} on #{X}, #{\pr_1^*F} is the inverse image of a sheaf #{F^G} on #{X\times U_G/G}.
+    Since #{U_G} is contractible, and by \ref{hodge-theory-iii-6.1.2.2}, we have
+
+    \subtree[hodge-theory-iii-6.1.4.1]{
+      \taxon{equation}
+      \number{6.1.4.1}
+      ##{
+        \HH^\bullet(X,G;F)
+        \simto \HH^\bullet(X\times U_G,G;\pr_1^*F)
+        \simfrom \HH^\bullet(X\times U_G/G,F^G).
+      \startverb\tag{6.1.4.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    In particular, for #{X=P^t},
+
+    \subtree[hodge-theory-iii-6.1.4.2]{
+      \taxon{equation}
+      \number{6.1.4.2}
+      ##{
+        \HH^\bullet(B_{\bullet G})
+        = \HH^\bullet(B_G).
+      \startverb\tag{6.1.4.2}\stopverb
+      }
+    }
+  }
+
+  \p{
+    \oldpage{18}
+    We can see that the isomorphism in \ref{hodge-theory-iii-6.1.4.2} is a particular case of \ref{hodge-theory-iii-6.1.3.1} where #{S=B_G} and #{P=U_G}.
   }
 }
