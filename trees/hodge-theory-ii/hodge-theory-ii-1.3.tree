@@ -121,10 +121,10 @@
     The following conditions are equivalent:
 
     \olc{
-      \lic{i.}{
+      \lic{(i)}{
         The spectral sequence defined by #{F} degenerates (#{E_1=E_\infty}).
       }
-      \lic{ii.}{
+      \lic{(ii)}{
         The morphisms #{d\colon K^i\to K^{i+1}} are strictly compatible with the filtrations.
       }
     }
@@ -226,13 +226,13 @@
   \number{1.3.4}
 
   \olc{
-    \lic{i.}{
+    \lic{(i)}{
       The morphisms in \ref{hodge-theory-ii-1.3.3.2} form a morphism of graded complexes from #{E_0(\Dec(K))} to #{E_1(K)}.
     }
-    \lic{ii.}{
+    \lic{(ii)}{
       This morphism induces an isomorphism on cohomology.
     }
-    \lic{iii.}{
+    \lic{(iii)}{
       This morphism induces step-by-step (via \ref{hodge-theory-ii-1.3.1.5}) isomorphisms of graded complexes #{E_r(\Dec(K))\simto E_{r+1}(K)} (for #{r\geqslant1}).
     }
   }
@@ -318,10 +318,10 @@
   \number{1.3.6}
 
   \olc{
-    \lic{i.}{
+    \lic{(i)}{
       A morphism #{f\colon(K,F)\to(K',F')} of filtered complexes with biregular filtrations is a \em{filtered quasi-isomorphism} if #{\Gr_F(f)} is a quasi-isomorphism, i.e. if the #{E_1^{pq}(f)} are isomorphisms.
     }
-    \lic{ii.}{
+    \lic{(ii)}{
       A morphism #{f\colon(K,F,W)\to(K,F',W')} of biregular bifiltered complexes is a \em{bifiltered quasi-isomorphism} if #{\Gr_F\Gr_W(f)} is a quasi-isomorphism.
     }
   }
@@ -378,10 +378,10 @@
     We define the \em{recurrent filtration} #{F_r} on the #{E_r^{pq}} by the conditions
 
     \olc{
-      \lic{i.}{
+      \lic{(i)}{
         On #{E_0^{pq}}, #{F_r=F_d=F_{d^*}}.
       }
-      \lic{ii.}{
+      \lic{(ii)}{
         On #{E_{r+1}^{pq}}, the recurrent filtration is that induced by the recurrent filtration of #{E_r^{pq}}.
       }
     }
@@ -407,20 +407,20 @@
   \number{1.3.13}
 
   \olc{
-    \lic{i.}{
+    \lic{(i)}{
       For the first direct filtration, the morphisms #{d_r} are compatible with the filtrations.
       If #{E_{r+1}^{pq}} is considered as a quotient of a sub-object of #{E_r^{pq}}, then the first direct filtration on #{E_{r+1}^{pq}} is finer than the filtration #{F'} induced by the first direct filtration on #{E_r^{pq}}Y we have #{F_d(E_{r+1}^{pq})\subset F'(E_{r+1}^{pq})}.
     }
 
-    \lic{ii.}{
+    \lic{(ii)}{
       Dually, the morphisms #{d_r} are compatible with the second direct filtration, and the second direct filtration on #{E_{r+1}^{pq}} is less fine than the filtration induced by that of #{E_r^{pq}}.
     }
 
-    \lic{iii.}{
+    \lic{(iii)}{
       #{F_d(E_r^{pq})\subset F_r(E_r^{pq})\subset F_{d^*}(E_r^{pq})}.
     }
 
-    \lic{iv.}{
+    \lic{(iv)}{
       On #{E_\infty^{pq}}, the filtration induced by the filtration #{F} of #{\HH^\bullet(K)} \ref{hodge-theory-ii-1.3.12} is finer than the first direct filtration and less fine than the second.
     }
   }
@@ -454,7 +454,7 @@
     If the filtration #{F} is biregular, and if, on the #{\Gr_W^p(K)}, the morphisms #{d} are strictly compatible with the filtration induced by #{F}, then
 
     \olc{
-      \lic{i.}{
+      \lic{(i)}{
         The morphism \ref{hodge-theory-ii-1.3.3.2} of graded complexes filtered by #{F}
         ##{
           u\colon \Gr_{\Dec(W)}(K)
@@ -463,7 +463,7 @@
         is a filtered quasi-isomorphism.
       }
 
-      \lic{ii.}{
+      \lic{(ii)}{
         Dually, the morphism in \ref{hodge-theory-ii-1.3.5}
         ##{
           u\colon E_1(K,W)

@@ -54,10 +54,10 @@
     If #{A^{p,q}} is a bigraded object of #{\mathscr{A}} such that
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         #{A^{p,q}=0} except for a finite number of pairs #{(p,q)}, and
       }
-      \lic{b.}{
+      \lic{(b)}{
         #{A^{p,q}=0} for #{p+q\neq n}
       }
     }
@@ -108,7 +108,7 @@
   \number{1.2.5}
 
   \olc{
-    \lic{i.}{
+    \lic{(i)}{
       Let #{F} and #{\bar{F}} be finite filtrations on #{A}.
       For #{F} and #{\bar{F}} to be #{n}-opposite, it is necessary and sufficient that, for all #{p,q},
       ##{
@@ -117,7 +117,7 @@
       }
     }
 
-    \lic{ii.}{
+    \lic{(ii)}{
       If #{F} and #{\bar{F}} are #{n}-opposite, and if we set
       ##{
         \begin{cases}
@@ -132,14 +132,14 @@
 
     \proof{
       \olc{
-        \lic{i.}{
+        \lic{(i)}{
           The condition #{\Gr_F^p\Gr_{\bar{F}}^q(A)=0} for #{p+q>n} implies that #{F^p\cap\bar{F}^q=(F^{p+1}\cap\bar{F}^q)+(F^p\cap\bar{F}^{q+1})} for #{p+q>n}.
           By hypothesis, #{F^p\cap\bar{F}^q} is zero for large enough #{p+q};
           by decreasing induction, we thus deduce that the condition #{\Gr_F^p\Gr_{\bar{F}}^q(A)=0} for #{p+q>n} is equivalent to the condition #{F^p(A)\cap\bar{F}^q(A)=0} for #{p+q>n}.
           Dually (\ref{hodge-theory-ii-1.1.6}, \ref{hodge-theory-ii-1.1.7}, \ref{hodge-theory-ii-1.1.10}), the condition #{\Gr_F^p\Gr_{\bar{F}}^q(A)=0} for #{p+q<n} is equivalent to the condition #{A=F^p(A)+\bar{F}^q(A)} for #{(1-p)+(1-q)>-n}, i.e. for #{p+q\leqslant n+1}, and the claim then follows.
         }
 
-        \lic{ii.}{
+        \lic{(ii)}{
           If #{F} and #{\bar{F}} are #{n}-opposite, then we can prove by decreasing induction on #{p} that
 
           \subtree[hodge-theory-ii-1.2.5.1]{
@@ -153,10 +153,10 @@
           }
 
           \olc{
-            \lic{a.}{
+            \lic{(a)}{
               For #{F^p(A)=0}, the claim is evident.
             }
-            \lic{b.}{
+            \lic{(b)}{
               The decomposition #{A=F^{p+1}(A)\oplus\bar{F}^{n-p}(A)} induces on #{F^p(A)\supset F^{p+1}(A)} a decomposition
               ##{
                 F^p(A)
@@ -223,10 +223,10 @@
     Let #{W}, #{F}, and #{\bar{F}} be three finite opposite filtrations, and #{\sigma} a sequence #{(p_i,q_i)_{i\geqslant0}} pairs of integers satisfying
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         #{p_i\leqslant p_j} and #{q_i\leqslant q_j} for #{i\geqslant j}, and
       }
-      \lic{b.}{
+      \lic{(b)}{
         #{p_i+q_i=p_0+q_0-i+1} for #{i>0}.
       }
     }
@@ -404,18 +404,18 @@
     The morphisms in #{\mathscr{A}'} are the morphisms of #{\mathscr{A}} that are compatible with the three filtrations.
 
     \olc{
-      \lic{i.}{
+      \lic{(i)}{
         #{\mathscr{A}'} is an abelian category.
       }
-      \lic{ii.}{
+      \lic{(ii)}{
         The kernel (resp. cokernel) of an arrow #{f\colon A\to B} in #{\mathscr{A}'} is the kernel (resp. cokernel) of #{f} in #{\mathscr{A}}, endowed with the filtrations induced by those of #{A} (resp. the quotients of those of #{B}).
       }
-      \lic{iii.}{
+      \lic{(iii)}{
         Every morphism #{f\colon A\to B} in #{\mathscr{A}'} is strictly compatible with the filtrations #{W}, #{F}, and #{\bar{F}};
         the morphism #{\Gr_W(f)} is compatible with the bigradings of #{\Gr_W(A)} and #{\Gr_W(B)};
         the morphisms #{\Gr_F(f)} and #{\Gr_{\bar{F}}(f)} are strictly compatible with the filtration induced by #{W}.
       }
-      \lic{iv.}{
+      \lic{(iv)}{
         The "forget the filtrations" functors, #{\Gr_W}, #{\Gr_F}, and #{\Gr_{\bar{F}}}, and
         ##{
           \begin{gathered}

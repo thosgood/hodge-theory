@@ -13,13 +13,13 @@
     A \em{mixed Hodge structure #{H} consists of}
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         A #{\ZZ}-module #{H_\ZZ} of finite type, called the "\em{integral lattice}";
       }
-      \lic{b.}{
+      \lic{(b)}{
         A finite increasing filtration #{W_n} on #{H_\QQ=\QQ\otimes_\ZZ H_\ZZ}, called the \em{weight filtration};
       }
-      \lic{c.}{
+      \lic{(c)}{
         A finite filtration #{F^p} on #{H_\CC=\CC\otimes_\ZZ H_\ZZ}, called the \em{Hodge filtration}.
       }
     }
@@ -68,15 +68,15 @@
   \number{2.3.5}
 
   \olc{
-    \lic{i.}{
+    \lic{(i)}{
       The category of mixed Hodge structures is abelian.
     }
 
-    \lic{ii.}{
+    \lic{(ii)}{
       The integral lattice of the kernel (resp. cokernel) of a morphism #{f\colon H\to H'} is the kernel (resp. cokernel) #{K} of #{f\colon H_\ZZ\to H'_\ZZ}, with #{K\otimes\QQ} and #{K\otimes\CC} being endowed with the induced filtrations (resp. quotient filtrations) of the filtrations #{W} and #{F} of #{H_\QQ} and #{H_\CC} (resp. of #{H'_\QQ} and #{H'_\CC}).
     }
 
-    \lic{iii.}{
+    \lic{(iii)}{
       Every morphism #{f\colon H\to H'} is strictly compatible with the filtration #{W} of #{H_\QQ} and #{H'_\QQ} and with the filtration #{F} of #{H_\CC} and #{H'_\CC}.
       It induces morphisms of Hodge #{\QQ}-structures
       ##{
@@ -93,11 +93,11 @@
       that are strictly compatible with the filtration induced by #{W_\CC}.
     }
 
-    \lic{iv.}{
+    \lic{(iv)}{
       The functor #{\Gr_n^W} is an exact functor from the category of mixed Hodge structures to the category of Hodge #{\QQ}-structures of weight #{n}.
     }
 
-    \lic{v.}{
+    \lic{(v)}{
       The functor #{\Gr_F^p} is an exact functor.
     }
   }

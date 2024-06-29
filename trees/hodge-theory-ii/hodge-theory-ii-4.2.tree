@@ -14,10 +14,10 @@
     A \em{continuous family of Hodge structures} on #{S} consists of:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         A local system #{H_\ZZ} on #{S} of #{\ZZ}-modules of finite type.
       }
-      \lic{b.}{
+      \lic{(b)}{
         For every point #{s\in S}, a Hodge structure on the fibre #{(H_\ZZ)} that varies continuously in #{s}.
       }
     }
@@ -91,10 +91,10 @@
     If #{\mathcal{C}} satisfies \ref{hodge-theory-ii-4.2.2.1} and \ref{hodge-theory-ii-4.2.2.2}, then:
 
     \olc{
-      \lic{i.}{
+      \lic{(i)}{
         #{\mathcal{C}} is a semi-simple abelian subcategory of the abelian subcategory of continuous families of Hodge #{\QQ}-structures on #{S}.
       }
-      \lic{ii.}{
+      \lic{(ii)}{
         If #{H\in\Ob\mathcal{C}}, then its dual #{H^*} and the #{\wedge^p H} are also in #{\mathcal{C}};
         if #{H_1,H_2\in\Ob\mathcal{C}}, then #{\Hom(H_1,H_2)\in\Ob\mathcal{C}}.
       }
@@ -139,13 +139,13 @@
   \number{4.2.5}
 
   \olc{
-    \lic{i.}{
+    \lic{(i)}{
       The category of algebraic continuous families of Hodge #{\QQ}-structures on #{S} satisfies the conditions of \ref{hodge-theory-ii-4.2.2}.
     }
-    \lic{ii.}{
+    \lic{(ii)}{
       If a continuous family #{H} of Hodge structures on #{S} is such that its restriction to a dense Zariski open #{U} of #{S} is algebraic, then #{H} is algebraic.
     }
-    \lic{iii.}{
+    \lic{(iii)}{
       If #{f\colon X\to S} is smooth and proper, then #{\Rd f_*\QQ} is algebraic.
     }
   }
@@ -158,7 +158,7 @@
       Then:
 
       \olc{
-        \lic{a.}{
+        \lic{(a)}{
           By the Künneth formula
           ##{
             \Rd(f\times g)_*\QQ
@@ -167,7 +167,7 @@
           #{\mathcal{C}_0} is stable under tensor products.
         }
         
-        \lic{b.}{
+        \lic{(b)}{
           Since
           ##{
             \Rd(f\sqcup g)_*\QQ
@@ -176,12 +176,12 @@
           #{\mathcal{C}_0} is stable under direct sums.
         }
 
-        \lic{c.}{
+        \lic{(c)}{
           \oldpage{45}
           The homogeneous components of each #{H\in\Ob\mathcal{C}_0} are polarisable (cf. \ref{hodge-theory-ii-2.2.6}).
         }
 
-        \lic{d.}{
+        \lic{(d)}{
           The objects #{H\in\Ob\mathcal{C}_0} satisfy \ref{hodge-theory-ii-4.2.2.3}, since
           ##{
             \Rd f_*\QQ
@@ -189,7 +189,7 @@
           }
         }
 
-        \lic{e.}{
+        \lic{(e)}{
           The objects #{H\in\Ob\mathcal{C}_0} satisfy \ref{hodge-theory-ii-4.2.2.4}, by \ref{hodge-theory-ii-4.1.2}.
         }
       }
@@ -244,10 +244,10 @@
     A \em{family of Hodge structures} on #{S} is a continuous family #{H} of Hodge structures on #{S} that satisfies the following conditions:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         The Hodge filtration on #{(H_\CC)_s} varies holomorphically with #{s}, i.e. it corresponds to a filtration #{F} of #{H_\OO=H_\ZZ\otimes\OO}.
       }
-      \lic{b.}{
+      \lic{(b)}{
         The covariant derivative #{\nabla} satisfies #{\nabla F^p\subset\Omega_S^1\otimes F^{p-1}}.
       }
     }
@@ -341,26 +341,26 @@
   }
 
   \olc{
-    \lic{i.}{
+    \lic{(i)}{
       The algebra #{A} of endomorphisms of the local system #{H_\QQ} is semi-simple.
       It admits exactly one Hodge #{\QQ}-structure such that, at each point #{s}, the map #{A\otimes H_s\to H_s} is a morphism of Hodge structures.
     }
 
-    \lic{ii.}{
+    \lic{(ii)}{
       \oldpage{47}
       The centre of #{A} is of degree #{(0,0)}, and the composition law #{\cdot\colon A\otimes A\to A} is a morphism of Hodge structures.
     }
 
-    \lic{iii.}{
+    \lic{(iii)}{
       Let #{W} be a complex local subsystem of dimension #{d} of #{H_\CC}.
       Then:
 
       \olc{
-        \lic{a.}{
+        \lic{(a)}{
           For #{t\in S}, #{tW^\cc\subset H_\CC} is locally constant, and defines a local subsystem #{tW} which is isomorphic to #{W}.
         }
 
-        \lic{b.}{
+        \lic{(b)}{
           A power #{(\wedge^d W)^{\otimes n}} (for some #{n\geqslant1}) of the local system #{\wedge^d W} is a trivial local system.
         }
       }
@@ -431,10 +431,10 @@
       From this:
 
       \olc{
-        \lic{a.}{
+        \lic{(a)}{
           For real #{H_1}, #{\chi^{2k}} is trivial.
         }
-        \lic{b.}{
+        \lic{(b)}{
           For non-real #{H_1} (so #{H_1\neq\bar{H}_1}), #{\chi^{2k}\cdot\bar{\chi}^{2k}} is trivial.
         }
       }
@@ -473,10 +473,10 @@
     Then:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         If #{f} is smooth and proper, then #{G^0} is semi-simple.
       }
-      \lic{b.}{
+      \lic{(b)}{
         In general, #{G^0} does not admit any quotient of multiplicative type (i.e. the radical of #{G^0} is unipotent).
       }
     }

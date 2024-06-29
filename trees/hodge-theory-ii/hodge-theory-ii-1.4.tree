@@ -89,11 +89,11 @@
     The \em{hypercohomology objects} #{\Rd^iT(K)} are calculated as follows:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         We choose a quasi-isomorphism #{i\colon K\to K} such that the components of #{K'} are acyclic for #{T}.
         For example, we can take #{K'} to be the simple complex associated to an injective Cartan–Eilenberg resolution of #{K}.
       }
-      \lic{b.}{
+      \lic{(b)}{
         We set
         ##{
           \Rd^iT(K)
@@ -224,7 +224,7 @@
     To this complex, we associate:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         A spectral sequence
         ##{
           {}_W E_1^{p,n-p}
@@ -240,12 +240,12 @@
         }
       }
 
-      \lic{b.}{
+      \lic{(b)}{
         \oldpage{22}
         An analogous spectral sequence for the filtration #{F};
       }
 
-      \lic{c.}{
+      \lic{(c)}{
         Exact squares
 
         \tikzcd{
@@ -425,7 +425,7 @@
     Under the hypotheses of \ref{hodge-theory-ii-1.4.11}:
 
     \olc{
-      \lic{i.}{
+      \lic{(i)}{
         The initial terms of the hypercohomology spectral sequences
         ##{
           {}_WE_1^{q,n-q}
@@ -457,15 +457,15 @@
         }
       }
 
-      \lic{ii.}{
+      \lic{(ii)}{
         The filtration of #{{}_WE_1^{p,n-p}}, abutting to the spectral sequence #{(3)}, is the filtration of #{{}_WE_1^{p,n-p}(TK')} induced by the filtration #{F} of #{TK'}.
       }
 
-      \lic{iii.}{
+      \lic{(iii)}{
         For the differentials of the complexes #{\Gr_W^n(T(K'))} to be strictly compatible with the filtration #{F}, it is necessary and sufficient that the hypercohomology spectral sequences #{(3)} degenerate on the #{E_1} page.
       }
 
-      \lic{iv.}{
+      \lic{(iv)}{
         The morphisms #{d_1} of the spectral sequence #{(4)} are the initial terms of the degree-1 morphisms of the spectral sequences #{(3)} that abut to the morphisms #{d_1} of the spectral sequence #{(1)}.
       }
     }

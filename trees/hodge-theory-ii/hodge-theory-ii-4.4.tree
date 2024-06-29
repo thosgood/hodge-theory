@@ -58,10 +58,10 @@
     The construction of \ref{hodge-theory-ii-4.4.2} establishes an equivalence of categories between
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         the category of abelian schemes over #{S}; and
       }
-      \lic{b.}{
+      \lic{(b)}{
         the category of polarisable continuous families of Hodge structures #{H} of type #{(-1,0)+(0,-1)} on #{S} such that #{H_\ZZ} is torsion free and the Hodge filtration varies holomorphically on #{S}.
       }
     }
@@ -121,15 +121,15 @@
     If #{Z_0} is the #{*}-invariant subfield of the centre #{Z} of #{H}, then #{Z_0} is completely real and we are in one of the following cases:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         #{Z=Z_0} and, for every real place #{\rho} of #{Z}, #{H\otimes_\rho\RR} is an algebra of matrices over #{\RR}, and #{\varepsilon_*=1}.
       }
 
-      \lic{b.}{
+      \lic{(b)}{
         #{Z=Z_0} and, for every real place #{\rho} of #{Z}, #{H\otimes_\rho\RR} is an algebra of matrices over #{\mathbb{H}}, and #{\varepsilon_*=-1}.
       }
 
-      \lic{c.}{
+      \lic{(c)}{
         #{Z} is a completely imaginary quadratic extension of #{Z_0}.
       }
     }
@@ -242,10 +242,10 @@
     Since #{(\Rd_1f_*\CC)_\rho} is of degree #{(-1,0)+(0,-1)}, one of the following conditions is satisfied:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         #{V_\rho} is bihomogeneous;
       }
-      \lic{b.}{
+      \lic{(b)}{
         #{T_\rho} is bihomogeneous.
       }
     }
@@ -394,11 +394,11 @@
     We then have, for non-zero #{x\in V_\rho} and non-zero #{y\in T_\rho}, the two cases:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         #{A_\rho(x,\sigma_1 x)B_\rho(y,C\sigma_2 y)
           >0};
       }
-      \lic{b.}{
+      \lic{(b)}{
         #{A_\rho(x,C\sigma_1 x)B_\rho(y,\sigma_2 y)
           >0}.
       }
@@ -410,10 +410,10 @@
     By normalising #{A_\rho} and #{B_\rho} (of which only their tensor product is given), we can suppose, in each respective case, that
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         #{A_\rho(x,\sigma_1x)>0} and #{B_\rho(y,C\sigma_2y)>0};
       }
-      \lic{b.}{
+      \lic{(b)}{
         #{A_\rho(x,C\sigma_1x)>0} and #{B_\rho(y,\sigma_2y)}.
       }
     }
@@ -452,25 +452,25 @@
     Suppose that
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         #{X_\eta} is simple over #{k(\eta)}.
       }
 
-      \lic{b.}{
+      \lic{(b)}{
         #{X} does not become constant on any finite covering of #{S}.
       }
 
-      \lic{c.}{
+      \lic{(c)}{
         One of the following conditions is satisfied (cf. \ref{hodge-theory-ii-4.4.5}):
 
         \olc{
-          \lic{1.}{
+          \lic{(1)}{
             #{Z} is imaginary \em{quadratic};
           }
-          \lic{2.}{
+          \lic{(2)}{
             #{Z} is completely real, and for each real embedding #{\varphi\colon Z\to\RR}, #{H\otimes_{Z,\varphi}\RR} is an algebra of matrices over #{\RR};
           }
-          \lic{3.}{
+          \lic{(3)}{
             #{Z} is completely real, and for each real embedding #{\varphi\colon Z\to\RR}, #{H\otimes_{Z,\varphi}\RR} is an algebra of matrices over #{\mathbb{H}}.
           }
         }
@@ -509,14 +509,14 @@
     Then the following conditions are equivalent:
 
     \olc{
-      \lic{i.}{
+      \lic{(i)}{
         For every abelian scheme #{Y\to S}, we have
         ##{
           \Hom_S(X,Y)
           \simto \Hom_S(\Rd_1f_*\ZZ,\Rd_1g_*\ZZ).
         }
       }
-      \lic{ii.}{
+      \lic{(ii)}{
         Condition (i) is satisfied for #{X=Y}, and the centre #{Z} of #{\End_S(X)\otimes\QQ} does not admit any complex place #{\rho\colon Z\to\CC} such that the direct factor #{\Rd_1f_*\QQ\otimes_{Z,\rho}\CC} of #{\Rd_1f_*\CC} is of pure Hodge degree #{(-1,0)}.
       }
     }
@@ -610,7 +610,7 @@
     }
 
     \olc{
-      \lic{i.}{
+      \lic{(i)}{
         \p{
           \oldpage{56}
           If #{Z} is completely imaginary, and not imaginary quadratic, then we must have #{a=2g=4}.
@@ -623,7 +623,7 @@
         }
       }
 
-      \lic{ii.}{
+      \lic{(ii)}{
         If #{Z} is completely real, and if conditions (c.1) and (c.2) are not satisfied, then #{a\geqslant2} and #{b\geqslant2}, which is a contradiction.
       }
     }

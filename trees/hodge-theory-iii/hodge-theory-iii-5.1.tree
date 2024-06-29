@@ -214,10 +214,10 @@
     A \em{sheaf} #{F^\bullet} on a simplicial topological space #{X_\bullet} consists of
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         a family of sheaves #{F^n} on the #{X_n};
       }
-      \lic{b.}{
+      \lic{(b)}{
         for all #{f\colon\Delta_n\to\Delta_m}, an #{X_\bullet(f)}-morphism #{F^\bullet(f)} from #{F^n} to #{F^m}.
       }
     }
@@ -242,10 +242,10 @@
     For such a system to come from a sheaf on #{X_\bullet}, it is necessary and sufficient that:
 
     \olc{
-      \lic{a.}{
+      \lic{(a)}{
         #{F^\bullet(fg,U,W)=F^\bullet(f,U,V)F^\bullet(g,V,W)} whenever this makes sense;
       }
-      \lic{b.}{
+      \lic{(b)}{
         for any #{n}, the #{F^\bullet(U)} for #{U\subset X_n} form a sheaf on #{X_n}.
       }
     }
@@ -267,12 +267,12 @@
   \number{5.1.9}
 
   \olc{
-    \lic{I.}{
+    \lic{(I)}{
       Let #{X_\bullet} be a simplicial analytic space.
       The structure sheaves #{\OO_{X_n}} form a sheaf of rings on #{X_\bullet}.
     }
 
-    \lic{II.}{
+    \lic{(II)}{
       Let #{X_\bullet} be a simplicial analytic space augmented over #{S}.
       The sheaves #{\Omega_{X_n/S}^1} form a sheaf of #{\OO}-modules on #{X_\bullet}.
       Its #{i}-th exterior power is the sheaf of #{\OO}-modules #{(\Omega_{X_n/S}^i)_{n\geqslant0}} denoted #{\Omega_{X_\bullet{/}S}^i}.
@@ -280,12 +280,12 @@
       The de Rham complexes #{(\Omega_{X_n/S}^\bullet)_{n\geqslant0}} form a complex of sheaves on #{X_\bullet}.
     }
 
-    \lic{III.}{
+    \lic{(III)}{
       Let #{F^\bullet} be a sheaf of abelian groups on #{X_\bullet}.
       The canonical flasque Godement resolutions #{\mathscr{C}^\bullet(F^n)} form a complex of sheaves on #{X_\bullet} that is a resolution of #{F^\bullet}.
     }
 
-    \lic{IV.}{
+    \lic{(IV)}{
       Let #{S} be a topological space.
       Sheaves #{F^\bullet} on the constant simplicial space #{S_\bullet} can be identified with cosimplicial sheaves on #{S^\bullet}.
       In particular, an abelian sheaf #{F^\bullet} on #{S_\bullet} defines a chain complex #{(F^n,d=\sum_i(-1)^i\delta_i)}.
