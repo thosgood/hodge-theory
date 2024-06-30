@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2308</fr:anchor><fr:addr>hodge-theory-iii-6.4.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.xml</fr:route><fr:number>6.4.2</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    As in <fr:ref
+addr="hodge-theory-iii-5.1.6"
+href="hodge-theory-iii-5.1.6.xml"
+number="5.1.6"></fr:ref>, we define the topos of <fr:em>sheaves</fr:em> on an <fr:tex>r</fr:tex>-simplicial topological space.
+    Let <fr:tex>\Gamma ^\bullet </fr:tex> be the functor
+    <fr:tex
+display="block">       F       \mapsto  (\Gamma (X_{n_1\ldots  n_r},F^{n_1\ldots  n_r}))     </fr:tex>
+    from sheaves on <fr:tex>X_\bullet </fr:tex> to <fr:tex>r</fr:tex>-cosimplicial sets.
+    For small <fr:tex>r</fr:tex>, we often prefer to write <fr:tex>\Gamma ^{\bullet \ldots \bullet }</fr:tex> (with <fr:tex>r</fr:tex>-many copies of <fr:tex>\bullet </fr:tex>).
+    We have a co-augmentation <fr:tex>\Gamma (X_\bullet ,F^\bullet )\to \Gamma ^\bullet (X_\bullet ,F^\bullet )</fr:tex>.
+    The functors of <fr:em>cohomology with values in an abelian sheaf <fr:tex>F</fr:tex></fr:em> are the derived functors of the "global sections" functor <fr:tex>\Gamma </fr:tex>.
+    They can be calculated by a procedure parallel to that of <fr:ref
+addr="hodge-theory-iii-5.2.3"
+href="hodge-theory-iii-5.2.3.xml"
+number="5.2.3"></fr:ref>, i.e.
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1991</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.4.2.1</fr:addr><fr:route>hodge-theory-iii-6.4.2.1.xml</fr:route><fr:number>6.4.2.1</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\Gamma          =\mathrm {s}\mathrm {R}\Gamma ^\bullet          \colon  \operatorname {D}^+(X_\bullet )         \to \operatorname {D}^+((\mathsf {Ab})).       \tag{6.4.2.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    A sheaf <fr:tex>F</fr:tex> on an <fr:tex>r</fr:tex>-simplicial topological space <fr:tex>X_\bullet </fr:tex> induces a sheaf <fr:tex>\delta  F</fr:tex> on the diagonal simplicial space <fr:tex>\delta  X_\bullet </fr:tex>.
+    It follows from the Cartier–Eilenberg–Zilber theorem that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1992</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.4.2.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.2.xml</fr:route><fr:number>6.4.2.2</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\Gamma (X_\bullet ,K)         \xrightarrow {\sim } \mathrm {R}\Gamma (\delta  X_\bullet ,\delta  K).       \tag{6.4.2.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2307</fr:anchor><fr:addr>hodge-theory-iii-6.4</fr:addr><fr:route>hodge-theory-iii-6.4.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii-6.xml"
+type="local"
+addr="hodge-theory-iii-6"><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Examples of simplicial topological spaces</fr:link> › Multisimplicial spaces</fr:title><fr:number>6.4</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2299</fr:anchor><fr:addr>hodge-theory-iii-6.4.1</fr:addr><fr:route>hodge-theory-iii-6.4.1.xml</fr:route><fr:number>6.4.1</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>r\geqslant 0</fr:tex> be an integer.
+    An <fr:em><fr:tex>r</fr:tex>-simplicial object</fr:em> <fr:tex>Z_\bullet </fr:tex> in a category <fr:tex>\mathscr {C}</fr:tex> is a contravariant functor from the <fr:tex>r</fr:tex>-fold product <fr:tex>(\Delta )^r</fr:tex> to <fr:tex>\mathscr {C}</fr:tex>.
+    The <fr:em>diagonal</fr:em> simplicial object <fr:tex>\delta  Z_\bullet </fr:tex> is the composite functor <fr:tex>(\Delta )\to (\Delta )^r\to \mathscr {C}</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2300</fr:anchor><fr:addr>hodge-theory-iii-6.4.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.xml</fr:route><fr:number>6.4.2</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    As in <fr:ref
+addr="hodge-theory-iii-5.1.6"
+href="hodge-theory-iii-5.1.6.xml"
+number="5.1.6"></fr:ref>, we define the topos of <fr:em>sheaves</fr:em> on an <fr:tex>r</fr:tex>-simplicial topological space.
+    Let <fr:tex>\Gamma ^\bullet </fr:tex> be the functor
+    <fr:tex
+display="block">       F       \mapsto  (\Gamma (X_{n_1\ldots  n_r},F^{n_1\ldots  n_r}))     </fr:tex>
+    from sheaves on <fr:tex>X_\bullet </fr:tex> to <fr:tex>r</fr:tex>-cosimplicial sets.
+    For small <fr:tex>r</fr:tex>, we often prefer to write <fr:tex>\Gamma ^{\bullet \ldots \bullet }</fr:tex> (with <fr:tex>r</fr:tex>-many copies of <fr:tex>\bullet </fr:tex>).
+    We have a co-augmentation <fr:tex>\Gamma (X_\bullet ,F^\bullet )\to \Gamma ^\bullet (X_\bullet ,F^\bullet )</fr:tex>.
+    The functors of <fr:em>cohomology with values in an abelian sheaf <fr:tex>F</fr:tex></fr:em> are the derived functors of the "global sections" functor <fr:tex>\Gamma </fr:tex>.
+    They can be calculated by a procedure parallel to that of <fr:ref
+addr="hodge-theory-iii-5.2.3"
+href="hodge-theory-iii-5.2.3.xml"
+number="5.2.3"></fr:ref>, i.e.
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1991</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.4.2.1</fr:addr><fr:route>hodge-theory-iii-6.4.2.1.xml</fr:route><fr:number>6.4.2.1</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\Gamma          =\mathrm {s}\mathrm {R}\Gamma ^\bullet          \colon  \operatorname {D}^+(X_\bullet )         \to \operatorname {D}^+((\mathsf {Ab})).       \tag{6.4.2.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    A sheaf <fr:tex>F</fr:tex> on an <fr:tex>r</fr:tex>-simplicial topological space <fr:tex>X_\bullet </fr:tex> induces a sheaf <fr:tex>\delta  F</fr:tex> on the diagonal simplicial space <fr:tex>\delta  X_\bullet </fr:tex>.
+    It follows from the Cartier–Eilenberg–Zilber theorem that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1992</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.4.2.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.2.xml</fr:route><fr:number>6.4.2.2</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\Gamma (X_\bullet ,K)         \xrightarrow {\sim } \mathrm {R}\Gamma (\delta  X_\bullet ,\delta  K).       \tag{6.4.2.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2301</fr:anchor><fr:addr>hodge-theory-iii-6.4.3</fr:addr><fr:route>hodge-theory-iii-6.4.3.xml</fr:route><fr:number>6.4.3</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We restrict to the case <fr:tex>r=2</fr:tex>.
+    A <fr:em>bisimplicial object <fr:tex>1</fr:tex>-augmented over a simplicial object <fr:tex>S_\bullet </fr:tex></fr:em> is a contravariant functor from <fr:tex>(\Delta ^+)\times (\Delta )</fr:tex> to <fr:tex>\mathscr {C}</fr:tex> such that <fr:tex>S_\bullet </fr:tex> is the composite functor
+    <fr:tex
+display="block">       (\Delta )       \xrightarrow {(\Delta _{-1},\bullet )} (\Delta ^+)\times (\Delta )       \to  \mathscr {C}.     </fr:tex>
+    To denote a bisimplicial object <fr:tex>1</fr:tex>-augmented over <fr:tex>S_\bullet </fr:tex>, with underlying bisimplicial object <fr:tex>X_{\bullet \bullet }</fr:tex>, we will use notation of the form
+    <fr:tex
+display="block">       a\colon  X_{\bullet \bullet }       \to  S_\bullet .     </fr:tex>
+    
+    For <fr:tex>n\geqslant 0</fr:tex>, <fr:tex>a\colon (X_{\bullet  n})\to  S_n</fr:tex> is a simplicial object augmented over <fr:tex>S_n</fr:tex>.
+    If <fr:tex>F</fr:tex> is a sheaf on <fr:tex>X_{\bullet \bullet }</fr:tex>, then the <fr:tex>(a_*(F|X_{\bullet  n})\text { on }S_n)_{n\geqslant 0}</fr:tex> form a sheaf on <fr:tex>S_\bullet </fr:tex>;
+    we thus define a topos morphism
+    <fr:tex
+display="block">       a       \colon  X_{\bullet \bullet }^\sim        \to  S_\bullet ^\sim .     </fr:tex></fr:p><fr:p>
+    We explain in [<fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>] that <fr:tex>\mathrm {R} a_*</fr:tex> can be calculated "component by component", i.e.
+    <fr:tex
+display="block">       \mathrm {R} a_*K|S_n       = \mathrm {R} a_*(K|X_{\bullet  n}).     </fr:tex>
+    It thus follows that if, for each <fr:tex>n</fr:tex>, the morphism <fr:tex>a\colon (X_{\bullet  n})\to  S_n</fr:tex> is of cohomological descent, then <fr:tex>a\colon  X_{\bullet \bullet }\to  S_\bullet </fr:tex> is of cohomological descent: for every complex <fr:tex>K\in \operatorname {D}^+(S_\bullet )</fr:tex> of abelian sheaves, we have
+    <fr:tex
+display="block">       K       \xrightarrow {\approx } \mathrm {R} a_*a^*K.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2302</fr:anchor><fr:addr>hodge-theory-iii-6.4.4</fr:addr><fr:route>hodge-theory-iii-6.4.4.xml</fr:route><fr:number>6.4.4</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    In [<fr:link
+href="SD.xml"
+type="local"
+addr="SD">SD</fr:link>], we show that, for every separated simplicial scheme <fr:tex>S_\bullet </fr:tex>, there exists a bisimplicial scheme <fr:tex>X_{\bullet \bullet }</fr:tex> that is <fr:tex>1</fr:tex>-augmented over <fr:tex>S_\bullet </fr:tex>, along with <fr:tex>i\colon  X_{\bullet \bullet }\hookrightarrow \bar {X}_{\bullet \bullet }</fr:tex> such that:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+        The <fr:tex>\bar {X}_{nm}</fr:tex> are smooth and projective;
+        <fr:tex>X_{nm}</fr:tex> is the complement of a normal crossing divisor <fr:tex>D_{nm}</fr:tex> in <fr:tex>\bar {X}_{nm}</fr:tex>, and we can suppose the <fr:tex>D_{nm}</fr:tex> to be a union of smooth divisors.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+        For <fr:tex>n\geqslant 0</fr:tex>, <fr:tex>X_{\bullet  n}</fr:tex> is a proper hypercover of <fr:tex>S_n</fr:tex>, and we can take it to be <fr:tex>s</fr:tex>-split.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    The construction proceeds as in <fr:ref
+addr="hodge-theory-iii-6.2"
+href="hodge-theory-iii-6.2.xml"
+number="6.2"></fr:ref>, but the induction is more complicated.
+    The claims of uniqueness (<fr:ref
+addr="hodge-theory-iii-6.2.8"
+href="hodge-theory-iii-6.2.8.xml"
+number="6.2.8"></fr:ref>) remain true, mutatis mutandis.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2305</fr:anchor><fr:addr>hodge-theory-iii-5.1.6</fr:addr><fr:route>hodge-theory-iii-5.1.6.xml</fr:route><fr:number>5.1.6</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A <fr:em>simplicial topological space</fr:em> is a simplicial object of the category whose objects are topological spaces and whose morphisms are continuous maps.
+  </fr:p><fr:p>
+    A <fr:em>sheaf</fr:em> <fr:tex>F^\bullet </fr:tex> on a simplicial topological space <fr:tex>X_\bullet </fr:tex> consists of
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+        a family of sheaves <fr:tex>F^n</fr:tex> on the <fr:tex>X_n</fr:tex>;
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+        for all <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex>, an <fr:tex>X_\bullet (f)</fr:tex>-morphism <fr:tex>F^\bullet (f)</fr:tex> from <fr:tex>F^n</fr:tex> to <fr:tex>F^m</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    We further require that <fr:tex>F^\bullet (f\circ  g)=F^\bullet (f)\circ  F^\bullet (g)</fr:tex>.
+  </fr:p><fr:p>
+    A morphism <fr:tex>u</fr:tex> from <fr:tex>F^\bullet </fr:tex> to <fr:tex>G^\bullet </fr:tex> is a family of morphisms <fr:tex>u^n\colon  F^n\to  G^n</fr:tex> such that, for all <fr:tex>f\in \operatorname {Hom}_{(\Delta )}(\Delta _n,\Delta _m)</fr:tex>, we have that <fr:tex>u^m\circ  F^\bullet (f)=G^\bullet (f)\circ  u^n</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2306</fr:anchor><fr:addr>hodge-theory-iii-5.2.3</fr:addr><fr:route>hodge-theory-iii-5.2.3.xml</fr:route><fr:number>5.2.3</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>F^\bullet </fr:tex> be an abelian sheaf on <fr:tex>X_\bullet </fr:tex>.
+    We can show (by example, using (III) of <fr:ref
+addr="hodge-theory-iii-5.1.9"
+href="hodge-theory-iii-5.1.9.xml"
+taxon="Examples"
+number="5.1.9"></fr:ref>) that <fr:tex>F^\bullet </fr:tex> always admits resolutions <fr:tex>K</fr:tex> on the right such that
+    <fr:tex
+display="block">       \operatorname {H}^r(X_q,K^{p,q})       =0       \quad \text {for } p,q\geqslant 0 \text { and } r&gt;0.     </fr:tex>
+    If <fr:tex>K</fr:tex> is such a resolution, then we canonically have that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1961</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    It is easy to show directly that the right-hand side is independent (up to unique isomorphism) of the choice of <fr:tex>K</fr:tex>;
+    for what follows, we are free to <fr:em>define</fr:em> <fr:tex>\operatorname {H}^\bullet (X_\bullet ,F^\bullet )</fr:tex> by <fr:ref
+addr="hodge-theory-iii-5.2.3.1"
+href="hodge-theory-iii-5.2.3.1.xml"
+taxon="Equation"
+number="5.2.3.1"></fr:ref>.
+    We can further show that the spectral sequence of the complex <fr:tex>\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)</fr:tex>, filtered by <fr:tex>L</fr:tex> (<fr:ref
+addr="hodge-theory-iii-5.1.9.3"
+href="hodge-theory-iii-5.1.9.3.xml"
+taxon="Equation"
+number="5.1.9.3"></fr:ref> and <fr:ref
+addr="hodge-theory-iii-5.1.12.2"
+href="hodge-theory-iii-5.1.12.2.xml"
+taxon="Equation"
+number="5.1.12.2"></fr:ref> for <fr:tex>S=P^t</fr:tex>)
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1962</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.2.3.2</fr:addr><fr:route>hodge-theory-iii-5.2.3.2.xml</fr:route><fr:number>5.2.3.2</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{pq}         = \operatorname {H}^q(X_p,F^p)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,F^\bullet )       \tag{5.2.3.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    is independent (up to unique isomorphism) of the choice of <fr:tex>K</fr:tex> (cf. <fr:ref
+addr="hodge-theory-iii-5.2.1.1"
+href="hodge-theory-iii-5.2.1.1.xml"
+taxon="Equation"
+number="5.2.1.1"></fr:ref>).
+  </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
