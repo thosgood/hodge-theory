@@ -14,6 +14,42 @@
   \number{7.1.1}
 
   \p{
+    Let #{\cat{A}} be an abelian category.
+    We set:
+
+    \ul{
+      \li{
+        #{\FF\cat{A}} (resp. #{\FF_2\cat{A}})
+        = the category of filtered (resp. bifiltered) objects with finite filtration(s) of #{\cat{A}}.
+      }
+      \li{
+        #{\KK^+\FF\cat{A}} (resp. #{\KK^+\FF_2\cat{A}})
+        = the category of filtered (resp. bifiltered) bounded-below complexes of objects of #{\cat{A}}, up to homotopy that respects the filtration(s).
+      }
+      \li{
+        #{\DD^+\FF\cat{A}} (resp. #{\DD^+\FF_2\cat{A}})
+        = the triangulated category induced from #{\KK^+\FF\cat{A}} (resp. from #{\KK^+\FF_2\cat{A}}) by inverting the filtered (resp. bifiltered) quasi-isomorphisms (\ref{hodge-theory-ii-1.3.6});
+        this is the \em{derived filtered category} (resp. \em{derived bifiltered category}).
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-7.1.2]{
+  \number{7.1.2}
+
+  \p{
+    A filtered quasi-isomorphism #{u\colon(K,F)\to(K',F')} induces an isomorphism of spectral sequences #{u\colon E_\bullet^{\bullet\bullet}(K,F)\to E_\bullet^{\bullet\bullet}(K',F')}.
+    An object #{K} of #{\DD^+\FF\cat{A}} thus defines a spectral sequence #{E_\bullet^{\bullet\bullet}(K)}.
+    \oldpage{24}
+    Similarly, an object #{L} of #{\DD^+\FF_2\cat{A}} defines an accumulation of spectral sequences of the type considered in \ref{hodge-theory-ii-1.4.9}.
+  }
+}
+
+\subtree[hodge-theory-iii-7.1.3]{
+  \number{7.1.3}
+
+  \p{
     Let
   }
 }
