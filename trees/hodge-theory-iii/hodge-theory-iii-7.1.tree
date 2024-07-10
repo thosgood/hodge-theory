@@ -50,6 +50,60 @@
   \number{7.1.3}
 
   \p{
-    Let
+    Let #{T} be a left exact functor from #{\cat{A}} to an abelian category #{\cat{B}}.
+    Suppose that every object of #{\cat{A}} injects into an injective object.
+    The functor #{T} can then be "derived" to give the functors
+
+    \subtree[hodge-theory-iii-7.1.3.1]{
+      \taxon{equation}
+      \number{7.1.3.1}
+      ##{
+        \Rd\colon
+        \DD^+(\cat{A})
+        \to \DD^+(\cat{B})
+      \startverb\tag{7.1.3.1}\stopverb
+      }
+    }
+
+    \subtree[hodge-theory-iii-7.1.3.2]{
+      \taxon{equation}
+      \number{7.1.3.2}
+      ##{
+        \Rd\colon
+        \DD^+\FF(\cat{A})
+        \to \DD^+\FF(\cat{B})
+      \startverb\tag{7.1.3.2}\stopverb
+      }
+    }
+
+    \subtree[hodge-theory-iii-7.1.3.3]{
+      \taxon{equation}
+      \number{7.1.3.3}
+      ##{
+        \Rd\colon
+        \DD^+\FF_2(\cat{A})
+        \to \DD^+\FF_2(\cat{B}).
+      \startverb\tag{7.1.3.3}\stopverb
+      }
+    }
+
+    They can be calculated as follows: if #{K'} is a #{T}-acyclic resolution (resp. a filtered resolution, resp. a bifiltered resolution) of #{K} (\ref{hodge-theory-ii-1.4.5} and \ref{hodge-theory-ii-1.4.11}), then #{\Rd T(K)=T(K')}.
+  }
+
+  \p{
+    The hypercohomology spectral sequence (for #{T}) of #{K\in\Ob\DD^+\FF(\cat{A})} is the spectral sequence of #{\Rd TK\in\Ob\DD^+\FF(\cat{B})} (cf. \ref{hodge-theory-ii-1.4.5}).
+  }
+}
+
+\subtree[hodge-theory-iii-7.1.4]{
+  \number{7.1.4}
+
+  \p{
+    We will need more precise results for the functors #{\Rd a_*}, where #{a\colon X_\bullet\to S} is an augmentation of a simplicial topological space.
+    The case #{S=P^t}, where #{\Rd a_*=\Rd\Gamma} will suffice.
+  }
+
+  \p{
+    Reusing
   }
 }
