@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>3152</fr:anchor><fr:addr>hodge-theory-iii-7.2</fr:addr><fr:route>hodge-theory-iii-7.2.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii-7.xml"
+type="local"
+addr="hodge-theory-iii-7"><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Supplements to §1</fr:link> › Supplements to the two filtrations lemma</fr:title><fr:number>7.2</fr:number><fr:parent>hodge-theory-iii-7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  In this section, we give a new proof of the two filtrations lemma (<fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref>) and some supplements.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>959</fr:anchor><fr:addr>hodge-theory-iii-7.2.1</fr:addr><fr:route>hodge-theory-iii-7.2.1.xml</fr:route><fr:number>7.2.1</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>3151</fr:anchor><fr:addr>hodge-theory-iii-7</fr:addr><fr:route>hodge-theory-iii-7.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Supplements to §1</fr:title><fr:number>7</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2743</fr:anchor><fr:addr>hodge-theory-iii-7.1</fr:addr><fr:route>hodge-theory-iii-7.1.xml</fr:route><fr:title>Filtered derived category</fr:title><fr:number>7.1</fr:number><fr:parent>hodge-theory-iii-7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  This section completes <fr:ref
+addr="hodge-theory-ii-1.4"
+href="hodge-theory-ii-1.4.xml"
+number="1.4"></fr:ref>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2337</fr:anchor><fr:addr>hodge-theory-iii-7.1.1</fr:addr><fr:route>hodge-theory-iii-7.1.1.xml</fr:route><fr:number>7.1.1</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathscr {A}</fr:tex> be an abelian category.
+    We set:
+
+    <fr:ul><fr:li><fr:tex>\mathrm {F}\mathscr {A}</fr:tex> (resp. <fr:tex>\mathrm {F}_2\mathscr {A}</fr:tex>)
+        = the category of filtered (resp. bifiltered) objects with finite filtration(s) of <fr:tex>\mathscr {A}</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>\mathrm {K}^+\mathrm {F}\mathscr {A}</fr:tex> (resp. <fr:tex>\mathrm {K}^+\mathrm {F}_2\mathscr {A}</fr:tex>)
+        = the category of filtered (resp. bifiltered) bounded-below complexes of objects of <fr:tex>\mathscr {A}</fr:tex>, up to homotopy that respects the filtration(s).
+      </fr:li>
+      <fr:li><fr:tex>\mathrm {D}^+\mathrm {F}\mathscr {A}</fr:tex> (resp. <fr:tex>\mathrm {D}^+\mathrm {F}_2\mathscr {A}</fr:tex>)
+        = the triangulated category induced from <fr:tex>\mathrm {K}^+\mathrm {F}\mathscr {A}</fr:tex> (resp. from <fr:tex>\mathrm {K}^+\mathrm {F}_2\mathscr {A}</fr:tex>) by inverting the filtered (resp. bifiltered) quasi-isomorphisms (<fr:ref
+addr="hodge-theory-ii-1.3.6"
+href="hodge-theory-ii-1.3.6.xml"
+taxon="Definition"
+number="1.3.6"></fr:ref>);
+        this is the <fr:em>derived filtered category</fr:em> (resp. <fr:em>derived bifiltered category</fr:em>).
+      </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2338</fr:anchor><fr:addr>hodge-theory-iii-7.1.2</fr:addr><fr:route>hodge-theory-iii-7.1.2.xml</fr:route><fr:number>7.1.2</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A filtered quasi-isomorphism <fr:tex>u\colon (K,F)\to (K',F')</fr:tex> induces an isomorphism of spectral sequences <fr:tex>u\colon  E_\bullet ^{\bullet \bullet }(K,F)\to  E_\bullet ^{\bullet \bullet }(K',F')</fr:tex>.
+    An object <fr:tex>K</fr:tex> of <fr:tex>\mathrm {D}^+\mathrm {F}\mathscr {A}</fr:tex> thus defines a spectral sequence <fr:tex>E_\bullet ^{\bullet \bullet }(K)</fr:tex>.
+    
+    Similarly, an object <fr:tex>L</fr:tex> of <fr:tex>\mathrm {D}^+\mathrm {F}_2\mathscr {A}</fr:tex> defines an accumulation of spectral sequences of the type considered in <fr:ref
+addr="hodge-theory-ii-1.4.9"
+href="hodge-theory-ii-1.4.9.xml"
+number="1.4.9"></fr:ref>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2339</fr:anchor><fr:addr>hodge-theory-iii-7.1.3</fr:addr><fr:route>hodge-theory-iii-7.1.3.xml</fr:route><fr:number>7.1.3</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>T</fr:tex> be a left exact functor from <fr:tex>\mathscr {A}</fr:tex> to an abelian category <fr:tex>\mathscr {B}</fr:tex>.
+    Suppose that every object of <fr:tex>\mathscr {A}</fr:tex> injects into an injective object.
+    The functor <fr:tex>T</fr:tex> can then be "derived" to give the functors
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1050</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.3.1</fr:addr><fr:route>hodge-theory-iii-7.1.3.1.xml</fr:route><fr:number>7.1.3.1</fr:number><fr:parent>hodge-theory-iii-7.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\colon          \mathrm {D}^+(\mathscr {A})         \to  \mathrm {D}^+(\mathscr {B})       \tag{7.1.3.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1051</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.3.2</fr:addr><fr:route>hodge-theory-iii-7.1.3.2.xml</fr:route><fr:number>7.1.3.2</fr:number><fr:parent>hodge-theory-iii-7.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\colon          \mathrm {D}^+\mathrm {F}(\mathscr {A})         \to  \mathrm {D}^+\mathrm {F}(\mathscr {B})       \tag{7.1.3.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1052</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.3.3</fr:addr><fr:route>hodge-theory-iii-7.1.3.3.xml</fr:route><fr:number>7.1.3.3</fr:number><fr:parent>hodge-theory-iii-7.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\colon          \mathrm {D}^+\mathrm {F}_2(\mathscr {A})         \to  \mathrm {D}^+\mathrm {F}_2(\mathscr {B}).       \tag{7.1.3.3}       </fr:tex></fr:mainmatter></fr:tree>
+
+    They can be calculated as follows: if <fr:tex>K'</fr:tex> is a <fr:tex>T</fr:tex>-acyclic resolution (resp. a filtered resolution, resp. a bifiltered resolution) of <fr:tex>K</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.4.5"
+href="hodge-theory-ii-1.4.5.xml"
+number="1.4.5"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-1.4.11"
+href="hodge-theory-ii-1.4.11.xml"
+number="1.4.11"></fr:ref>), then <fr:tex>\mathrm {R} T(K)=T(K')</fr:tex>.
+  </fr:p><fr:p>
+    The hypercohomology spectral sequence (for <fr:tex>T</fr:tex>) of <fr:tex>K\in \operatorname {Ob}\mathrm {D}^+\mathrm {F}(\mathscr {A})</fr:tex> is the spectral sequence of <fr:tex>\mathrm {R} TK\in \operatorname {Ob}\mathrm {D}^+\mathrm {F}(\mathscr {B})</fr:tex> (cf. <fr:ref
+addr="hodge-theory-ii-1.4.5"
+href="hodge-theory-ii-1.4.5.xml"
+number="1.4.5"></fr:ref>).
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2340</fr:anchor><fr:addr>hodge-theory-iii-7.1.4</fr:addr><fr:route>hodge-theory-iii-7.1.4.xml</fr:route><fr:number>7.1.4</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We will need more precise results for the functors <fr:tex>\mathrm {R} a_*</fr:tex>, where <fr:tex>a\colon  X_\bullet \to  S</fr:tex> is an augmentation of a simplicial topological space.
+    The case <fr:tex>S=P^t</fr:tex>, where <fr:tex>\mathrm {R} a_*=\mathrm {R}\Gamma </fr:tex> will suffice.
+  </fr:p><fr:p>
+    We reuse the notation of <fr:ref
+addr="hodge-theory-iii-5.1.12"
+href="hodge-theory-iii-5.1.12.xml"
+number="5.1.12"></fr:ref>, and recall <fr:ref
+addr="hodge-theory-iii-5.2.6.1"
+href="hodge-theory-iii-5.2.6.1.xml"
+taxon="Equation"
+number="5.2.6.1"></fr:ref>:
+    <fr:tex
+display="block">       \mathrm {R} a_*       = \mathrm {s}\mathrm {R} {a_\bullet }_*.     </fr:tex>
+    For every complex <fr:tex>K\in \operatorname {Ob}\mathrm {C}^+(S_\bullet )</fr:tex>, the simple complex <fr:tex>\mathrm {s} K</fr:tex> is endowed with a natural filtration <fr:tex>L</fr:tex> (<fr:ref
+addr="hodge-theory-iii-5.1.9.3"
+href="hodge-theory-iii-5.1.9.3.xml"
+taxon="Equation"
+number="5.1.9.3"></fr:ref>).
+    A quasi-isomorphism <fr:tex>u\colon  K'\xrightarrow {\sim } K''</fr:tex> induces a filtered quasi-isomorphism <fr:tex>u\colon (\mathrm {s} K',L)\xrightarrow {\sim }(\mathrm {s} K'',L)</fr:tex>.
+    Then <fr:tex>\mathrm {s}</fr:tex> factors as
+    <fr:tex
+display="block">       \mathrm {s}\colon  \mathrm {D}^+(S_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S)     </fr:tex>
+    and <fr:tex>\mathrm {R} a_*</fr:tex> factors as
+    <fr:tex
+display="block">       \mathrm {R} a_*\colon  \mathrm {D}^+(X_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S).     </fr:tex>
+    The spectral sequence of the filtered complex <fr:tex>(\mathrm {R} a_* K,L)\in \mathrm {D}^+\mathrm {F}(S)</fr:tex> is exactly <fr:ref
+addr="hodge-theory-iii-5.2.7.1"
+href="hodge-theory-iii-5.2.7.1.xml"
+taxon="Equation"
+number="5.2.7.1"></fr:ref>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2343</fr:anchor><fr:addr>hodge-theory-iii-7.1.5</fr:addr><fr:route>hodge-theory-iii-7.1.5.xml</fr:route><fr:number>7.1.5</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>K</fr:tex> is filtered (resp. bifiltered), then <fr:tex>\mathrm {R}{a_\bullet }_*K</fr:tex> is filtered (resp. bifiltered): we have
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2341</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.5.1</fr:addr><fr:route>hodge-theory-iii-7.1.5.1.xml</fr:route><fr:number>7.1.5.1</fr:number><fr:parent>hodge-theory-iii-7.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}{a_\bullet }_*         \colon  \mathrm {D}^+\mathrm {F}(X_\bullet )         \to  \mathrm {D}^+\mathrm {F}(S_\bullet )       \tag{7.1.5.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2342</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.5.2</fr:addr><fr:route>hodge-theory-iii-7.1.5.2.xml</fr:route><fr:number>7.1.5.2</fr:number><fr:parent>hodge-theory-iii-7.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}{a_\bullet }_*         \colon  \mathrm {D}^+\mathrm {F}_2(X_\bullet )         \to  \mathrm {D}^+\mathrm {F}_2(S_\bullet ).       \tag{7.1.5.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2349</fr:anchor><fr:addr>hodge-theory-iii-7.1.6</fr:addr><fr:route>hodge-theory-iii-7.1.6.xml</fr:route><fr:number>7.1.6</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex of cosimplicial sheaves on <fr:tex>S</fr:tex>, endowed with an increasing filtration <fr:tex>W</fr:tex>.
+    We define the <fr:em>diagonal filtration</fr:em> <fr:tex>\delta (W,L)</fr:tex> of <fr:tex>W</fr:tex> and <fr:tex>L</fr:tex> to be the increasing filtration of <fr:tex>\mathrm {s} K</fr:tex> given by
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2344</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.1</fr:addr><fr:route>hodge-theory-iii-7.1.6.1.xml</fr:route><fr:number>7.1.6.1</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           \delta (W,L)_n(\mathrm {s} K)           &amp;= \bigoplus _{p,q} W_{n+p}(K^{p,q})         \\&amp;= \sum _p \mathrm {s}(W_{n+p}(K)) \cap  L^p(\mathrm {s} K).         \end {aligned}       \tag{7.1.6.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    We have
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2345</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.2</fr:addr><fr:route>hodge-theory-iii-7.1.6.2.xml</fr:route><fr:number>7.1.6.2</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {Gr}_n^{\delta (W,L)}(\mathrm {s} K)         \simeq  \bigoplus _p \operatorname {Gr}_{n+p}^W(K^{\bullet  p})[-p].       \tag{7.1.6.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    The functor <fr:tex>(K,W)\mapsto (\mathrm {s} K,\delta (W,L))</fr:tex> sends filtered quasi-isomorphisms to filtered quasi-isomorphisms, and defines
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2346</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.3</fr:addr><fr:route>hodge-theory-iii-7.1.6.3.xml</fr:route><fr:number>7.1.6.3</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           (s,\delta )           \colon  \mathrm {D}^+\mathrm {F}(S_\bullet )           &amp;\to  \mathrm {D}^+\mathrm {F}(S)         \\(K,W)           &amp;\mapsto  (\mathrm {s} K,\delta (W,L))         \end {aligned}       \tag{7.1.6.3}       </fr:tex></fr:mainmatter></fr:tree>
+
+    whence, by composition with <fr:ref
+addr="hodge-theory-iii-7.1.5.1"
+href="hodge-theory-iii-7.1.5.1.xml"
+taxon="Equation"
+number="7.1.5.1"></fr:ref>,
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2347</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.4</fr:addr><fr:route>hodge-theory-iii-7.1.6.4.xml</fr:route><fr:number>7.1.6.4</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           (\mathrm {R}\Gamma ,\delta (-,L))           \colon  \mathrm {D}^+\mathrm {F}(X_\bullet )           &amp;\to  \mathrm {D}^+\mathrm {F}(S)         \\(K,W)           &amp;\mapsto  (\mathrm {R}\Gamma  K,\delta (W,L)).         \end {aligned}       \tag{7.1.6.4}       </fr:tex></fr:mainmatter></fr:tree>
+
+    From <fr:ref
+addr="hodge-theory-iii-7.1.6.2"
+href="hodge-theory-iii-7.1.6.2.xml"
+taxon="Equation"
+number="7.1.6.2"></fr:ref>, we see that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2348</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.5</fr:addr><fr:route>hodge-theory-iii-7.1.6.5.xml</fr:route><fr:number>7.1.6.5</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {Gr}_n^{\delta (W,L)}         = \bigoplus _p \mathrm {R}{a_p}_*(\operatorname {Gr}_{n+p}^W K)[-p].       \tag{7.1.6.5}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2353</fr:anchor><fr:addr>hodge-theory-iii-7.1.7</fr:addr><fr:route>hodge-theory-iii-7.1.7.xml</fr:route><fr:number>7.1.7</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>(K,W,F)</fr:tex> is a bifiltered complex of cosimplicial sheaves, then <fr:tex>\mathrm {s} K</fr:tex> is endowed with the three filtrations <fr:tex>W</fr:tex>, <fr:tex>F</fr:tex>, and <fr:tex>L</fr:tex>, and defines different bifiltered complexes.
+  </fr:p><fr:p>
+    For example, for increasing <fr:tex>W</fr:tex>, the functor <fr:tex>(K,W,F)\mapsto (K,\delta (W,L),F)</fr:tex> sends bifiltered quasi-isomorphisms to bifiltered quasi-isomorphisms, and thus defines
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2350</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.7.1</fr:addr><fr:route>hodge-theory-iii-7.1.7.1.xml</fr:route><fr:number>7.1.7.1</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           \mathrm {D}^+\mathrm {F}_2(S_\bullet )           &amp;\to  \mathrm {D}^+\mathrm {F}_2(S)         \\(K,W,F)           &amp;\mapsto  (K,\delta (W,L),F).         \end {aligned}       \tag{7.1.7.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    By composition with <fr:ref
+addr="hodge-theory-iii-7.1.5.2"
+href="hodge-theory-iii-7.1.5.2.xml"
+taxon="Equation"
+number="7.1.5.2"></fr:ref>, we thus obtain
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2351</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.7.2</fr:addr><fr:route>hodge-theory-iii-7.1.7.2.xml</fr:route><fr:number>7.1.7.2</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           \mathrm {D}^+\mathrm {F}_2(X_\bullet )           &amp;\to  \mathrm {D}^+\mathrm {F}_2(S)         \\(K,W,F)           &amp;\mapsto  (\mathrm {R}\Gamma  K,\delta (W,L),F).         \end {aligned}       \tag{7.1.7.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    and we have that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2352</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.7.3</fr:addr><fr:route>hodge-theory-iii-7.1.7.3.xml</fr:route><fr:number>7.1.7.3</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {Gr}_n^{\delta (W,L)}(\mathrm {R}\Gamma  K,F)         = \bigoplus _p \mathrm {R}{a_p}_*(\operatorname {Gr}_{n+p}^W K,F)[-p]       \tag{7.1.7.3}       </fr:tex></fr:mainmatter></fr:tree>
+
+    in <fr:tex>\mathrm {D}^+\mathrm {F}(S)</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2744</fr:anchor><fr:addr>hodge-theory-iii-7.2</fr:addr><fr:route>hodge-theory-iii-7.2.xml</fr:route><fr:title>Supplements to the two filtrations lemma</fr:title><fr:number>7.2</fr:number><fr:parent>hodge-theory-iii-7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  In this section, we give a new proof of the two filtrations lemma (<fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref>) and some supplements.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>959</fr:anchor><fr:addr>hodge-theory-iii-7.2.1</fr:addr><fr:route>hodge-theory-iii-7.2.1.xml</fr:route><fr:number>7.2.1</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>3149</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-1.3.16</fr:addr><fr:route>hodge-theory-ii-1.3.16.xml</fr:route><fr:number>1.3.16</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex endowed with two filtrations, <fr:tex>W</fr:tex> and <fr:tex>F</fr:tex>, with the filtration <fr:tex>F</fr:tex> biregular.
+    Let <fr:tex>r_0\geqslant 0</fr:tex> be an integer, and suppose that, for <fr:tex>0\leqslant  r&lt;r_0</fr:tex>, the differentials of the graded complex <fr:tex>E_r(K,W)</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
+    Then, for <fr:tex>r\leqslant  r_0+1</fr:tex>, <fr:tex>F_d=F_r=F_{d^*}</fr:tex> on <fr:tex>E_r^{pq}</fr:tex>.
+  </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>889</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#213</fr:addr><fr:route>unstable-213.xml</fr:route><fr:parent>hodge-theory-ii-1.3.16</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      We will prove the theorem by induction on <fr:tex>r_0</fr:tex>.
+      For <fr:tex>r_0=0</fr:tex>, the hypothesis is empty, and we apply <fr:ref
+addr="hodge-theory-ii-1.3.10"
+href="hodge-theory-ii-1.3.10.xml"
+taxon="Lemma"
+number="1.3.10"></fr:ref> and (iii) of <fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>.
+      For <fr:tex>r_0\geqslant 1</fr:tex>, by the inductive hypothesis, we have <fr:tex>F_d=F_r=F_{d^*}</fr:tex> on <fr:tex>E_r^{pq}</fr:tex> for <fr:tex>r\leqslant  r_0</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      By <fr:ref
+addr="hodge-theory-ii-1.3.15"
+href="hodge-theory-ii-1.3.15.xml"
+taxon="Lemma"
+number="1.3.15"></fr:ref>, the morphism <fr:tex>u\colon  E_0(\operatorname {Dec}(K))\to  E_1(K)</fr:tex> is a filtered quasi-isomorphism.
+      It thus induces a filtered isomorphism from <fr:tex>\operatorname {H}^\bullet (\operatorname {Dec}(K))</fr:tex> to <fr:tex>\operatorname {H}^\bullet (E_1(K))</fr:tex>:
+      <fr:tex
+display="block">         u\colon  (E_1(\operatorname {Dec}(K)),F_r)         \xrightarrow {\sim } (E_2(K),F_r).       </fr:tex>
+      Step-by-step, we thus deduce that the canonical isomorphism from <fr:tex>E_s(\operatorname {Dec}(K))</fr:tex> to <fr:tex>E_{s+1}</fr:tex> (for <fr:tex>s\geqslant 1</fr:tex>) is a filtered isomorphism for the recurrent filtration.
+    </fr:p>
+
+    <fr:p>
+      On <fr:tex>E_1(\operatorname {Dec}(K))</fr:tex>, <fr:tex>F_r=F_d</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.3.10"
+href="hodge-theory-ii-1.3.10.xml"
+taxon="Lemma"
+number="1.3.10"></fr:ref>), and we already know (<fr:ref
+addr="hodge-theory-ii-1.3.14"
+href="hodge-theory-ii-1.3.14.xml"
+number="1.3.14"></fr:ref>) that <fr:tex>u'</fr:tex> is a filtered isomorphism
+      <fr:tex
+display="block">         u'\colon  (E_1(\operatorname {Dec}(K)),F_d)         \xrightarrow {\sim } (E_2(K),F_d).       </fr:tex></fr:p>
+
+    <fr:p>
+      On <fr:tex>E_2(K)</fr:tex>, we thus have <fr:tex>F_d=F_r</fr:tex>.
+      This, combined with the dual result, proves the theorem for <fr:tex>r_0=1</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Suppose that <fr:tex>r_0\geqslant 2</fr:tex>.
+      Then the arrows <fr:tex>d_1</fr:tex> of <fr:tex>E_1(K)</fr:tex> are strictly compatible with the filtrations, and thus so too are the arrows <fr:tex>d_0</fr:tex> of <fr:tex>E_0(\operatorname {Dec}(K))</fr:tex> (indeed, <fr:tex>u</fr:tex> induces an isomorphism of spectral sequences, and we apply the criterion from <fr:ref
+addr="hodge-theory-ii-1.3.2"
+href="hodge-theory-ii-1.3.2.xml"
+taxon="Proposition"
+number="1.3.2"></fr:ref>).
+    </fr:p>
+
+    <fr:p>
+      For <fr:tex>0&lt;s&lt;r_0-1</fr:tex>, the isomorphism <fr:tex>(E_s(\operatorname {Dec}(K)),F_r)\cong (E_{s+1}(K),F_r)</fr:tex> shows that the <fr:tex>d_s</fr:tex> are strictly compatible with the recurrent filtrations.
+    </fr:p>
+
+    <fr:p>
+      By the induction hypothesis, we thus have <fr:tex>F_d=F_r</fr:tex> on <fr:tex>E_s(\operatorname {Dec}(K))</fr:tex> for <fr:tex>s\leqslant  s_0</fr:tex>.
+      The isomorphism <fr:tex>(E_s(\operatorname {Dec}(K)),F_d)\cong (E_{s+1}(K),F_d)</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>) then shows that <fr:tex>F_d=F_r</fr:tex> on <fr:tex>E_r(K)</fr:tex> for <fr:tex>r\leqslant  r_0+1</fr:tex>.
+      This, combined with the dual result, proves the theorem.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>3150</fr:anchor><fr:addr>hodge-theory-iii-7</fr:addr><fr:route>hodge-theory-iii-7.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Supplements to §1</fr:title><fr:number>7</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2743</fr:anchor><fr:addr>hodge-theory-iii-7.1</fr:addr><fr:route>hodge-theory-iii-7.1.xml</fr:route><fr:title>Filtered derived category</fr:title><fr:number>7.1</fr:number><fr:parent>hodge-theory-iii-7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  This section completes <fr:ref
+addr="hodge-theory-ii-1.4"
+href="hodge-theory-ii-1.4.xml"
+number="1.4"></fr:ref>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2337</fr:anchor><fr:addr>hodge-theory-iii-7.1.1</fr:addr><fr:route>hodge-theory-iii-7.1.1.xml</fr:route><fr:number>7.1.1</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>\mathscr {A}</fr:tex> be an abelian category.
+    We set:
+
+    <fr:ul><fr:li><fr:tex>\mathrm {F}\mathscr {A}</fr:tex> (resp. <fr:tex>\mathrm {F}_2\mathscr {A}</fr:tex>)
+        = the category of filtered (resp. bifiltered) objects with finite filtration(s) of <fr:tex>\mathscr {A}</fr:tex>.
+      </fr:li>
+      <fr:li><fr:tex>\mathrm {K}^+\mathrm {F}\mathscr {A}</fr:tex> (resp. <fr:tex>\mathrm {K}^+\mathrm {F}_2\mathscr {A}</fr:tex>)
+        = the category of filtered (resp. bifiltered) bounded-below complexes of objects of <fr:tex>\mathscr {A}</fr:tex>, up to homotopy that respects the filtration(s).
+      </fr:li>
+      <fr:li><fr:tex>\mathrm {D}^+\mathrm {F}\mathscr {A}</fr:tex> (resp. <fr:tex>\mathrm {D}^+\mathrm {F}_2\mathscr {A}</fr:tex>)
+        = the triangulated category induced from <fr:tex>\mathrm {K}^+\mathrm {F}\mathscr {A}</fr:tex> (resp. from <fr:tex>\mathrm {K}^+\mathrm {F}_2\mathscr {A}</fr:tex>) by inverting the filtered (resp. bifiltered) quasi-isomorphisms (<fr:ref
+addr="hodge-theory-ii-1.3.6"
+href="hodge-theory-ii-1.3.6.xml"
+taxon="Definition"
+number="1.3.6"></fr:ref>);
+        this is the <fr:em>derived filtered category</fr:em> (resp. <fr:em>derived bifiltered category</fr:em>).
+      </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2338</fr:anchor><fr:addr>hodge-theory-iii-7.1.2</fr:addr><fr:route>hodge-theory-iii-7.1.2.xml</fr:route><fr:number>7.1.2</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    A filtered quasi-isomorphism <fr:tex>u\colon (K,F)\to (K',F')</fr:tex> induces an isomorphism of spectral sequences <fr:tex>u\colon  E_\bullet ^{\bullet \bullet }(K,F)\to  E_\bullet ^{\bullet \bullet }(K',F')</fr:tex>.
+    An object <fr:tex>K</fr:tex> of <fr:tex>\mathrm {D}^+\mathrm {F}\mathscr {A}</fr:tex> thus defines a spectral sequence <fr:tex>E_\bullet ^{\bullet \bullet }(K)</fr:tex>.
+    
+    Similarly, an object <fr:tex>L</fr:tex> of <fr:tex>\mathrm {D}^+\mathrm {F}_2\mathscr {A}</fr:tex> defines an accumulation of spectral sequences of the type considered in <fr:ref
+addr="hodge-theory-ii-1.4.9"
+href="hodge-theory-ii-1.4.9.xml"
+number="1.4.9"></fr:ref>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2339</fr:anchor><fr:addr>hodge-theory-iii-7.1.3</fr:addr><fr:route>hodge-theory-iii-7.1.3.xml</fr:route><fr:number>7.1.3</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>T</fr:tex> be a left exact functor from <fr:tex>\mathscr {A}</fr:tex> to an abelian category <fr:tex>\mathscr {B}</fr:tex>.
+    Suppose that every object of <fr:tex>\mathscr {A}</fr:tex> injects into an injective object.
+    The functor <fr:tex>T</fr:tex> can then be "derived" to give the functors
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1050</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.3.1</fr:addr><fr:route>hodge-theory-iii-7.1.3.1.xml</fr:route><fr:number>7.1.3.1</fr:number><fr:parent>hodge-theory-iii-7.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\colon          \mathrm {D}^+(\mathscr {A})         \to  \mathrm {D}^+(\mathscr {B})       \tag{7.1.3.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1051</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.3.2</fr:addr><fr:route>hodge-theory-iii-7.1.3.2.xml</fr:route><fr:number>7.1.3.2</fr:number><fr:parent>hodge-theory-iii-7.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\colon          \mathrm {D}^+\mathrm {F}(\mathscr {A})         \to  \mathrm {D}^+\mathrm {F}(\mathscr {B})       \tag{7.1.3.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1052</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.3.3</fr:addr><fr:route>hodge-theory-iii-7.1.3.3.xml</fr:route><fr:number>7.1.3.3</fr:number><fr:parent>hodge-theory-iii-7.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}\colon          \mathrm {D}^+\mathrm {F}_2(\mathscr {A})         \to  \mathrm {D}^+\mathrm {F}_2(\mathscr {B}).       \tag{7.1.3.3}       </fr:tex></fr:mainmatter></fr:tree>
+
+    They can be calculated as follows: if <fr:tex>K'</fr:tex> is a <fr:tex>T</fr:tex>-acyclic resolution (resp. a filtered resolution, resp. a bifiltered resolution) of <fr:tex>K</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.4.5"
+href="hodge-theory-ii-1.4.5.xml"
+number="1.4.5"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-1.4.11"
+href="hodge-theory-ii-1.4.11.xml"
+number="1.4.11"></fr:ref>), then <fr:tex>\mathrm {R} T(K)=T(K')</fr:tex>.
+  </fr:p><fr:p>
+    The hypercohomology spectral sequence (for <fr:tex>T</fr:tex>) of <fr:tex>K\in \operatorname {Ob}\mathrm {D}^+\mathrm {F}(\mathscr {A})</fr:tex> is the spectral sequence of <fr:tex>\mathrm {R} TK\in \operatorname {Ob}\mathrm {D}^+\mathrm {F}(\mathscr {B})</fr:tex> (cf. <fr:ref
+addr="hodge-theory-ii-1.4.5"
+href="hodge-theory-ii-1.4.5.xml"
+number="1.4.5"></fr:ref>).
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2340</fr:anchor><fr:addr>hodge-theory-iii-7.1.4</fr:addr><fr:route>hodge-theory-iii-7.1.4.xml</fr:route><fr:number>7.1.4</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We will need more precise results for the functors <fr:tex>\mathrm {R} a_*</fr:tex>, where <fr:tex>a\colon  X_\bullet \to  S</fr:tex> is an augmentation of a simplicial topological space.
+    The case <fr:tex>S=P^t</fr:tex>, where <fr:tex>\mathrm {R} a_*=\mathrm {R}\Gamma </fr:tex> will suffice.
+  </fr:p><fr:p>
+    We reuse the notation of <fr:ref
+addr="hodge-theory-iii-5.1.12"
+href="hodge-theory-iii-5.1.12.xml"
+number="5.1.12"></fr:ref>, and recall <fr:ref
+addr="hodge-theory-iii-5.2.6.1"
+href="hodge-theory-iii-5.2.6.1.xml"
+taxon="Equation"
+number="5.2.6.1"></fr:ref>:
+    <fr:tex
+display="block">       \mathrm {R} a_*       = \mathrm {s}\mathrm {R} {a_\bullet }_*.     </fr:tex>
+    For every complex <fr:tex>K\in \operatorname {Ob}\mathrm {C}^+(S_\bullet )</fr:tex>, the simple complex <fr:tex>\mathrm {s} K</fr:tex> is endowed with a natural filtration <fr:tex>L</fr:tex> (<fr:ref
+addr="hodge-theory-iii-5.1.9.3"
+href="hodge-theory-iii-5.1.9.3.xml"
+taxon="Equation"
+number="5.1.9.3"></fr:ref>).
+    A quasi-isomorphism <fr:tex>u\colon  K'\xrightarrow {\sim } K''</fr:tex> induces a filtered quasi-isomorphism <fr:tex>u\colon (\mathrm {s} K',L)\xrightarrow {\sim }(\mathrm {s} K'',L)</fr:tex>.
+    Then <fr:tex>\mathrm {s}</fr:tex> factors as
+    <fr:tex
+display="block">       \mathrm {s}\colon  \mathrm {D}^+(S_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S)     </fr:tex>
+    and <fr:tex>\mathrm {R} a_*</fr:tex> factors as
+    <fr:tex
+display="block">       \mathrm {R} a_*\colon  \mathrm {D}^+(X_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S).     </fr:tex>
+    The spectral sequence of the filtered complex <fr:tex>(\mathrm {R} a_* K,L)\in \mathrm {D}^+\mathrm {F}(S)</fr:tex> is exactly <fr:ref
+addr="hodge-theory-iii-5.2.7.1"
+href="hodge-theory-iii-5.2.7.1.xml"
+taxon="Equation"
+number="5.2.7.1"></fr:ref>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2343</fr:anchor><fr:addr>hodge-theory-iii-7.1.5</fr:addr><fr:route>hodge-theory-iii-7.1.5.xml</fr:route><fr:number>7.1.5</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>K</fr:tex> is filtered (resp. bifiltered), then <fr:tex>\mathrm {R}{a_\bullet }_*K</fr:tex> is filtered (resp. bifiltered): we have
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2341</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.5.1</fr:addr><fr:route>hodge-theory-iii-7.1.5.1.xml</fr:route><fr:number>7.1.5.1</fr:number><fr:parent>hodge-theory-iii-7.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}{a_\bullet }_*         \colon  \mathrm {D}^+\mathrm {F}(X_\bullet )         \to  \mathrm {D}^+\mathrm {F}(S_\bullet )       \tag{7.1.5.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2342</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.5.2</fr:addr><fr:route>hodge-theory-iii-7.1.5.2.xml</fr:route><fr:number>7.1.5.2</fr:number><fr:parent>hodge-theory-iii-7.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \mathrm {R}{a_\bullet }_*         \colon  \mathrm {D}^+\mathrm {F}_2(X_\bullet )         \to  \mathrm {D}^+\mathrm {F}_2(S_\bullet ).       \tag{7.1.5.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2349</fr:anchor><fr:addr>hodge-theory-iii-7.1.6</fr:addr><fr:route>hodge-theory-iii-7.1.6.xml</fr:route><fr:number>7.1.6</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>K</fr:tex> be a complex of cosimplicial sheaves on <fr:tex>S</fr:tex>, endowed with an increasing filtration <fr:tex>W</fr:tex>.
+    We define the <fr:em>diagonal filtration</fr:em> <fr:tex>\delta (W,L)</fr:tex> of <fr:tex>W</fr:tex> and <fr:tex>L</fr:tex> to be the increasing filtration of <fr:tex>\mathrm {s} K</fr:tex> given by
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2344</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.1</fr:addr><fr:route>hodge-theory-iii-7.1.6.1.xml</fr:route><fr:number>7.1.6.1</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           \delta (W,L)_n(\mathrm {s} K)           &amp;= \bigoplus _{p,q} W_{n+p}(K^{p,q})         \\&amp;= \sum _p \mathrm {s}(W_{n+p}(K)) \cap  L^p(\mathrm {s} K).         \end {aligned}       \tag{7.1.6.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    We have
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2345</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.2</fr:addr><fr:route>hodge-theory-iii-7.1.6.2.xml</fr:route><fr:number>7.1.6.2</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {Gr}_n^{\delta (W,L)}(\mathrm {s} K)         \simeq  \bigoplus _p \operatorname {Gr}_{n+p}^W(K^{\bullet  p})[-p].       \tag{7.1.6.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    The functor <fr:tex>(K,W)\mapsto (\mathrm {s} K,\delta (W,L))</fr:tex> sends filtered quasi-isomorphisms to filtered quasi-isomorphisms, and defines
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2346</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.3</fr:addr><fr:route>hodge-theory-iii-7.1.6.3.xml</fr:route><fr:number>7.1.6.3</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           (s,\delta )           \colon  \mathrm {D}^+\mathrm {F}(S_\bullet )           &amp;\to  \mathrm {D}^+\mathrm {F}(S)         \\(K,W)           &amp;\mapsto  (\mathrm {s} K,\delta (W,L))         \end {aligned}       \tag{7.1.6.3}       </fr:tex></fr:mainmatter></fr:tree>
+
+    whence, by composition with <fr:ref
+addr="hodge-theory-iii-7.1.5.1"
+href="hodge-theory-iii-7.1.5.1.xml"
+taxon="Equation"
+number="7.1.5.1"></fr:ref>,
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2347</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.4</fr:addr><fr:route>hodge-theory-iii-7.1.6.4.xml</fr:route><fr:number>7.1.6.4</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           (\mathrm {R}\Gamma ,\delta (-,L))           \colon  \mathrm {D}^+\mathrm {F}(X_\bullet )           &amp;\to  \mathrm {D}^+\mathrm {F}(S)         \\(K,W)           &amp;\mapsto  (\mathrm {R}\Gamma  K,\delta (W,L)).         \end {aligned}       \tag{7.1.6.4}       </fr:tex></fr:mainmatter></fr:tree>
+
+    From <fr:ref
+addr="hodge-theory-iii-7.1.6.2"
+href="hodge-theory-iii-7.1.6.2.xml"
+taxon="Equation"
+number="7.1.6.2"></fr:ref>, we see that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2348</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.6.5</fr:addr><fr:route>hodge-theory-iii-7.1.6.5.xml</fr:route><fr:number>7.1.6.5</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {Gr}_n^{\delta (W,L)}         = \bigoplus _p \mathrm {R}{a_p}_*(\operatorname {Gr}_{n+p}^W K)[-p].       \tag{7.1.6.5}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2353</fr:anchor><fr:addr>hodge-theory-iii-7.1.7</fr:addr><fr:route>hodge-theory-iii-7.1.7.xml</fr:route><fr:number>7.1.7</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>(K,W,F)</fr:tex> is a bifiltered complex of cosimplicial sheaves, then <fr:tex>\mathrm {s} K</fr:tex> is endowed with the three filtrations <fr:tex>W</fr:tex>, <fr:tex>F</fr:tex>, and <fr:tex>L</fr:tex>, and defines different bifiltered complexes.
+  </fr:p><fr:p>
+    For example, for increasing <fr:tex>W</fr:tex>, the functor <fr:tex>(K,W,F)\mapsto (K,\delta (W,L),F)</fr:tex> sends bifiltered quasi-isomorphisms to bifiltered quasi-isomorphisms, and thus defines
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2350</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.7.1</fr:addr><fr:route>hodge-theory-iii-7.1.7.1.xml</fr:route><fr:number>7.1.7.1</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           \mathrm {D}^+\mathrm {F}_2(S_\bullet )           &amp;\to  \mathrm {D}^+\mathrm {F}_2(S)         \\(K,W,F)           &amp;\mapsto  (K,\delta (W,L),F).         \end {aligned}       \tag{7.1.7.1}       </fr:tex></fr:mainmatter></fr:tree>
+
+    By composition with <fr:ref
+addr="hodge-theory-iii-7.1.5.2"
+href="hodge-theory-iii-7.1.5.2.xml"
+taxon="Equation"
+number="7.1.5.2"></fr:ref>, we thus obtain
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2351</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.7.2</fr:addr><fr:route>hodge-theory-iii-7.1.7.2.xml</fr:route><fr:number>7.1.7.2</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \begin {aligned}           \mathrm {D}^+\mathrm {F}_2(X_\bullet )           &amp;\to  \mathrm {D}^+\mathrm {F}_2(S)         \\(K,W,F)           &amp;\mapsto  (\mathrm {R}\Gamma  K,\delta (W,L),F).         \end {aligned}       \tag{7.1.7.2}       </fr:tex></fr:mainmatter></fr:tree>
+
+    and we have that
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2352</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.1.7.3</fr:addr><fr:route>hodge-theory-iii-7.1.7.3.xml</fr:route><fr:number>7.1.7.3</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {Gr}_n^{\delta (W,L)}(\mathrm {R}\Gamma  K,F)         = \bigoplus _p \mathrm {R}{a_p}_*(\operatorname {Gr}_{n+p}^W K,F)[-p]       \tag{7.1.7.3}       </fr:tex></fr:mainmatter></fr:tree>
+
+    in <fr:tex>\mathrm {D}^+\mathrm {F}(S)</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2744</fr:anchor><fr:addr>hodge-theory-iii-7.2</fr:addr><fr:route>hodge-theory-iii-7.2.xml</fr:route><fr:title>Supplements to the two filtrations lemma</fr:title><fr:number>7.2</fr:number><fr:parent>hodge-theory-iii-7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  In this section, we give a new proof of the two filtrations lemma (<fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref>) and some supplements.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>959</fr:anchor><fr:addr>hodge-theory-iii-7.2.1</fr:addr><fr:route>hodge-theory-iii-7.2.1.xml</fr:route><fr:number>7.2.1</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="true"><fr:frontmatter><fr:anchor>3148</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Deligne's "Hodge Theory I, II, and III"</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+  This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
+  <fr:ul><fr:li>
+      "Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
+      <fr:link
+href="https://publications.ias.edu/node/359"
+type="external">[PDF]</fr:link></fr:li>
+    <fr:li>
+      "Théorie de Hodge II", <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>40</fr:strong> (1971) pp. 5–58.
+      <fr:link
+href="https://publications.ias.edu/node/361"
+type="external">[PDF]</fr:link></fr:li>
+    <fr:li>
+      "Théorie de Hodge III", <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>44</fr:strong> (1974) pp. 5–77.
+      <fr:link
+href="https://publications.ias.edu/node/373"
+type="external">[PDF]</fr:link></fr:li></fr:ul></fr:p><fr:p><fr:strong><fr:em>TO-DO: replace fref by ref</fr:em></fr:strong></fr:p><fr:p>
+  The translator (<fr:link
+href="https://thosgood.com"
+type="external">Tim Hosgood</fr:link>) takes full responsibility for any errors introduced, and claims no rights to any of the mathematical content herein.
+  You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link
+href="https://github.com/thosgood/hodge-theory"
+type="external">GitHub repository</fr:link>.
+  Corrections and comments welcome.
+</fr:p><fr:ul><fr:li><fr:link
+href="hodge-theory-i.xml"
+type="local"
+addr="hodge-theory-i"><fr:strong>Hodge Theory I</fr:strong></fr:link> ✓
+  </fr:li>
+
+  <fr:li><fr:link
+href="hodge-theory-ii.xml"
+type="local"
+addr="hodge-theory-ii"><fr:strong>Hodge Theory II</fr:strong></fr:link> ✓
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+href="hodge-theory-ii-introduction.xml"
+type="local"
+addr="hodge-theory-ii-introduction">Introduction</fr:link>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;1. &quot;">
+        <fr:link
+href="hodge-theory-ii-1.xml"
+type="local"
+addr="hodge-theory-ii-1">Filtrations</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;1.1. &quot;">
+            <fr:link
+href="hodge-theory-ii-1.1.xml"
+type="local"
+addr="hodge-theory-ii-1.1">Filtered objects</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.2. &quot;">
+            <fr:link
+href="hodge-theory-ii-1.2.xml"
+type="local"
+addr="hodge-theory-ii-1.2">Opposite filtrations</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.3. &quot;">
+            <fr:link
+href="hodge-theory-ii-1.3.xml"
+type="local"
+addr="hodge-theory-ii-1.3">The two filtrations lemma</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.4. &quot;">
+            <fr:link
+href="hodge-theory-ii-1.4.xml"
+type="local"
+addr="hodge-theory-ii-1.4">Hypercohomology of filtered complexes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;2. &quot;">
+        <fr:link
+href="hodge-theory-ii-2.xml"
+type="local"
+addr="hodge-theory-ii-2">Hodge structures</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;2.1. &quot;">
+            <fr:link
+href="hodge-theory-ii-2.1.xml"
+type="local"
+addr="hodge-theory-ii-2.1">Pure structures</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;2.2. &quot;">
+            <fr:link
+href="hodge-theory-ii-2.2.xml"
+type="local"
+addr="hodge-theory-ii-2.2">Hodge theory</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;2.3. &quot;">
+            <fr:link
+href="hodge-theory-ii-2.3.xml"
+type="local"
+addr="hodge-theory-ii-2.3">Mixed structures</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;3. &quot;">
+        <fr:link
+href="hodge-theory-ii-3.xml"
+type="local"
+addr="hodge-theory-ii-3">Hodge theory of non-singular algebraic varieties</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;3.1. &quot;">
+            <fr:link
+href="hodge-theory-ii-3.1.xml"
+type="local"
+addr="hodge-theory-ii-3.1">Logarithmic poles and residues</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;3.2. &quot;">
+            <fr:link
+href="hodge-theory-ii-3.2.xml"
+type="local"
+addr="hodge-theory-ii-3.2">Mixed Hodge theory</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;4. &quot;">
+        <fr:link
+href="hodge-theory-ii-4.xml"
+type="local"
+addr="hodge-theory-ii-4">Applications and supplements</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;4.1 &quot;">
+            <fr:link
+href="hodge-theory-ii-4.1.xml"
+type="local"
+addr="hodge-theory-ii-4.1">The fixed set theorem</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.2 &quot;">
+            <fr:link
+href="hodge-theory-ii-4.2.xml"
+type="local"
+addr="hodge-theory-ii-4.2">The semi-simplicity theorem</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.3 &quot;">
+            <fr:link
+href="hodge-theory-ii-4.3.xml"
+type="local"
+addr="hodge-theory-ii-4.3">Supplement to [D1968]</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.4 &quot;">
+            <fr:link
+href="hodge-theory-ii-4.4.xml"
+type="local"
+addr="hodge-theory-ii-4.4">Homomorphisms of abelian schemes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:li>
+
+  <fr:li><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii"><fr:strong>Hodge Theory III</fr:strong></fr:link>
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+href="hodge-theory-iii-introduction.xml"
+type="local"
+addr="hodge-theory-iii-introduction">Introduction</fr:link> ✓
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+href="hodge-theory-iii-terminology-and-notation.xml"
+type="local"
+addr="hodge-theory-iii-terminology-and-notation">Terminology and notation</fr:link> ✓
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;5. &quot;">
+        <fr:link
+href="hodge-theory-iii-5.xml"
+type="local"
+addr="hodge-theory-iii-5">Cohomological descent</fr:link> ✓
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;5.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-5.1.xml"
+type="local"
+addr="hodge-theory-iii-5.1">Simplicial topological spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;5.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-5.2.xml"
+type="local"
+addr="hodge-theory-iii-5.2">Cohomology of simplicial topological spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;5.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-5.3.xml"
+type="local"
+addr="hodge-theory-iii-5.3">Cohomological descent</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;6. &quot;">
+        <fr:link
+href="hodge-theory-iii-6.xml"
+type="local"
+addr="hodge-theory-iii-6">Examples of simplicial topological spaces</fr:link> ✓
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;6.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-6.1.xml"
+type="local"
+addr="hodge-theory-iii-6.1">Classifying spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-6.2.xml"
+type="local"
+addr="hodge-theory-iii-6.2">Construction of hypercovers</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-6.3.xml"
+type="local"
+addr="hodge-theory-iii-6.3">Relative cohomology</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.4 &quot;">
+            <fr:link
+href="hodge-theory-iii-6.4.xml"
+type="local"
+addr="hodge-theory-iii-6.4">Multi-simplicial spaces</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;7. &quot;">
+        <fr:link
+href="hodge-theory-iii-7.xml"
+type="local"
+addr="hodge-theory-iii-7">Supplements to §1</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;7.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-7.1.xml"
+type="local"
+addr="hodge-theory-iii-7.1">Filtered derived category</fr:link> ✓
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;7.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-7.2.xml"
+type="local"
+addr="hodge-theory-iii-7.2">Supplements to the two-filtrations lemma</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;8. &quot;">
+        <fr:link
+href="hodge-theory-iii-8"
+type="external">Hodge theory of algebraic spaces</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;8.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-8.1"
+type="external">Hodge complexes</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;8.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-8.2"
+type="external">Separated algebraic spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;8.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-8.3"
+type="external">Hodge theory of simplicial schemes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;9. &quot;">
+        <fr:link
+href="hodge-theory-iii-9"
+type="external">Examples and applications</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;9.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-9.1"
+type="external">Cohomology of groups and of classifying spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;9.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-9.2"
+type="external">Hodge theory of smooth hypersurfaces, following Griffiths</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;9.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-9.3"
+type="external">Construction of complexes of first-order differential operators</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;10. &quot;">
+        <fr:link
+href="hodge-theory-iii-10"
+type="external">Hodge theory in level <fr:tex>\leqslant  1</fr:tex></fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;10.1 &quot;">
+            <fr:link
+href="hodge-theory-iii-10.1"
+type="external">1-motives</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.2 &quot;">
+            <fr:link
+href="hodge-theory-iii-10.2"
+type="external">1-motives and bi-extensions</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.3 &quot;">
+            <fr:link
+href="hodge-theory-iii-10.3"
+type="external">Algebraic interpretation of the mixed <fr:tex>\operatorname {H}^1</fr:tex>: the case of curves</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.4 &quot;">
+            <fr:link
+href="hodge-theory-iii-10.4"
+type="external">Translation of a theorem of Picard</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:li>
+
+  <fr:li><fr:link
+href="hodge-theory-bibliography.xml"
+type="local"
+addr="hodge-theory-bibliography"><fr:strong>Bibliography</fr:strong></fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
