@@ -14,6 +14,52 @@
   \number{7.2.1}
 
   \p{
-    Let
+    Let #{(K,F,W)} be a bounded below bifiltered complex with objects in an abelian category #{\cat{A}}, with #{F} assumed to be biregular.
+  }
+
+  \p{
+    We say that #{(K,F,W)} is \em{#{F}-splitable} if the filtered complex #{(K,W)} can be written as a sum of filtered complexes
+    ##{
+      (K,W)
+      = \bigoplus_{n\in\mathbb{Z}} (K_n,W_n)
+    }
+    with
+    ##{
+      F^nK
+      = \bigoplus_{n'\geqslant n} K_{n'}.
+    }
+  }
+}
+
+\p{
+  \oldpage{26}
+  Let #{r_0\geqslant0} be an integer or #{+\infty}.
+  The following condition was considered in \ref{hodge-theory-ii-1.3.16} and \ref{hodge-theory-ii-1.3.17}:
+}
+
+\subtree[hodge-theory-iii-7.2.2]{
+  \taxon{condition}
+  \number{7.2.2}
+
+  \p{
+    For every non-negative integer #{r<r_0}, the differentials #{d_r} of the graded complex #{E_r(K,W)} are strictly compatible with the recurrent filtration defined by #{F}.
+  }
+}
+
+\subtree[hodge-theory-iii-7.2.3]{
+  \number{7.2.3}
+
+  \p{
+    It is clear that, if #{(K,F,W)} is #{F}-splitable, then \ref{hodge-theory-iii-7.2.2} (with #{r_0=\infty}) is satisfied.
+    Conversely, it seems that if \ref{hodge-theory-iii-7.2.2} (with #{r_0=\infty}) is satisfied, then every is as if the functor #{\Gr_F} were exact.
+    For example, we will show that the #{\Gr_F} of the spectral sequence #{E(K,W)} can then be identified with the spectral sequence #{E(\Gr_FK,W)}, and that the spectral sequence #{E(K,F)} degenerates (#{E_1=E_\infty}).
+  }
+}
+
+\subtree[hodge-theory-iii-7.2.4]{
+  \number{7.2.4}
+
+  \p{
+    We
   }
 }
