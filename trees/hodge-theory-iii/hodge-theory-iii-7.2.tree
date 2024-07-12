@@ -50,8 +50,8 @@
   \number{7.2.3}
 
   \p{
-    It is clear that, if #{(K,F,W)} is #{F}-splitable, then \ref{hodge-theory-iii-7.2.2} (with #{r_0=\infty}) is satisfied.
-    Conversely, it seems that if \ref{hodge-theory-iii-7.2.2} (with #{r_0=\infty}) is satisfied, then every is as if the functor #{\Gr_F} were exact.
+    It is clear that, if #{(K,F,W)} is #{F}-splitable, then \ref{hodge-theory-iii-7.2.2} is satisfied for #{r_0=\infty}.
+    Conversely, it seems that if \ref{hodge-theory-iii-7.2.2} is satisfied for #{r_0=\infty}, then everything is as if the functor #{\Gr_F} were exact.
     For example, we will show that the #{\Gr_F} of the spectral sequence #{E(K,W)} can then be identified with the spectral sequence #{E(\Gr_FK,W)}, and that the spectral sequence #{E(K,F)} degenerates (#{E_1=E_\infty}).
   }
 }
@@ -60,6 +60,57 @@
   \number{7.2.4}
 
   \p{
-    We
+    We immediately deduce from the definition (\ref{hodge-theory-ii-1.3.8}) that the first direct filtration of #{E_r(K,W)} is the filtration #{F_d} of #{E_r(K,W)} by the images
+    ##{
+      F_d^p(E_r(K,W))
+      = \Im \big(E_r(F^pK,W) \to E_r(K,W)\big).
+    }
+    Dually, the second direct filtration (\ref{hodge-theory-ii-1.3.9}) of #{E_r(K,W)} is the filtration #{F_{d^*}} of #{E_r(K,W)} by the kernels
+    ##{
+      F_{d^*}^p(E_r(K,W))
+      = \Ker \big(E_r(K,W) \to E_r(K/F^pK,W)\big).
+    }
+    The recurrent filtration #{F_{\mathrm{rec}}} of #{E_r(K,W)} is intermediary between these two filtrations ((iii) of \ref{hodge-theory-ii-1.3.13}).
+  }
+}
+
+\subtree[hodge-theory-iii-7.2.5]{
+  \taxon{proposition}
+  \number{7.2.5}
+
+  \p{
+    Suppose that #{(K,F,W)} satisfies \ref{hodge-theory-iii-7.2.2} for some #{r_0\geqslant0}.
+    Then
+
+    \olc{
+      \lic{(i)}{
+        #{(F^aK/F^bK,F,W)} also satisfies \ref{hodge-theory-iii-7.2.2} for #{r_0}.
+      }
+      \lic{(ii)}{
+        For #{r\leqslant r_0}, the sequence
+        ##{
+          0
+          \to E_r(F^pK,W)
+          \to E_r(K,W)
+          \to E_r(K/F^pK,W)
+          \to 0
+        }
+        is exact;
+        for #{r=r_0+1}, the sequence
+        ##{
+          E_r(F^pK,W)
+          \to E_r(K,W)
+          \to E_r(K/F^pK,W)
+        }
+        is exact.
+        In particular, for #{r\leqslant r_0+1}, the two direct filtrations and the recurrent filtration of #{E_r(K,W)} agree.
+      }
+    }
+  }
+
+  \proof{
+    \p{
+      Fix
+    }
   }
 }
