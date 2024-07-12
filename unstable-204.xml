@@ -7,59 +7,22 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2563</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#204</fr:addr><fr:route>unstable-204.xml</fr:route><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2569</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#204</fr:addr><fr:route>unstable-204.xml</fr:route><fr:parent>hodge-theory-ii-3.2.18</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
+      Since <fr:tex>f^*</fr:tex> and <fr:tex>(jf)^*</fr:tex> are strictly compatible with the weight filtration ((iii) of <fr:ref
+addr="hodge-theory-ii-3.2.5"
+href="hodge-theory-ii-3.2.5.xml"
+taxon="Theorem"
+number="3.2.5"></fr:ref>), it suffices to prove that <fr:tex>\operatorname {Gr}^W(f^*)</fr:tex> and <fr:tex>\operatorname {Gr}^W(f^*j^*)</fr:tex> have the same image in <fr:tex>\operatorname {Gr}^W(\operatorname {H}^n(Y,\mathbb {Q}))</fr:tex>.
       By <fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-3.1.7"
-href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7"></fr:ref>, it suffices to prove the first claim.
-      In [<fr:link
-href="D1970.xml"
-type="local"
-addr="D1970">D1970</fr:link>, II, (6.9)] or [<fr:link
-href="AH1955.xml"
-type="local"
-addr="AH1955">AH1955</fr:link>], one can find a proof of the fact that <fr:tex>\beta </fr:tex> is a quasi-isomorphism, and thus a filtered quasi-isomorphism.
-      We can also directly calculate the cohomology sheaves of the two sides: those of <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex> are determined by <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, while those of <fr:tex>j_*\Omega _{X^*}^\bullet </fr:tex> are the <fr:tex>\mathrm {R}^ij_*\mathbb {C}</fr:tex>, which can be calculated by topological methods.
-    </fr:p>
-
-    <fr:p>
-      For <fr:tex>n\geqslant  p</fr:tex>, we have
-      <fr:tex
-display="block">         W_n(\Omega _X^p\langle  Y\rangle )         = \Omega _X^p\langle  Y\rangle        </fr:tex>
-      and so <fr:tex>\alpha </fr:tex> is a morphism from <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex>, endowed with <fr:tex>\tau </fr:tex>, to <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex>, endowed with the decreasing filtration associated to <fr:tex>W</fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.1.3"
-href="hodge-theory-ii-1.1.3.xml"
-number="1.1.3"></fr:ref>).
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, we have
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>229</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.8.1</fr:addr><fr:route>hodge-theory-ii-3.1.8.1.xml</fr:route><fr:number>3.1.8.1</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           \operatorname {\mathscr {H}}^i(\operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )) =           \begin {cases}             0 &amp;\text {for }i\neq  n           \\\varepsilon _X^n &amp;\text {for }i=n           \end {cases}         \tag{3.1.8.1}         </fr:tex></fr:mainmatter></fr:tree>
-
-      and we deduce from the first line of this equation that <fr:tex>\alpha </fr:tex> is a filtered quasi-isomorphism.
-      This proves <fr:ref
-addr="hodge-theory-ii-3.1.8"
-href="hodge-theory-ii-3.1.8.xml"
-taxon="Proposition"
-number="3.1.8"></fr:ref>.
+addr="hodge-theory-ii-3.2.17"
+href="hodge-theory-ii-3.2.17.xml"
+taxon="Corollary"
+number="3.2.17"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-3.2.15"
+href="hodge-theory-ii-3.2.15.xml"
+taxon="Corollary"
+number="3.2.15"></fr:ref>, <fr:tex>\operatorname {Gr}_n^W(j^*)</fr:tex> is an isomorphism, while <fr:tex>\operatorname {Gr}_m^W(f^*)=0</fr:tex> for <fr:tex>m\neq  n</fr:tex> since <fr:tex>\operatorname {Gr}_m^W(\operatorname {H}^n(Y,\mathbb {Q}))=0</fr:tex> for <fr:tex>m\neq  n</fr:tex>.
     </fr:p>
   </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -68,12 +31,9 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2562</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-3.1.8</fr:addr><fr:route>hodge-theory-ii-3.1.8.xml</fr:route><fr:number>3.1.8</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The morphisms of filtered complexes
-    <fr:tex
-display="block">       (\Omega _X^\bullet \langle  Y\rangle , W)       \xleftarrow {\alpha } (\Omega _X^\bullet \langle  Y\rangle , \tau )       \xhookrightarrow {\beta } (j_*\Omega _{X^*}^\bullet , \tau )     </fr:tex>
-    are filtered quasi-isomorphisms.
-    They define an isomorphism between the Leray spectral sequence for <fr:tex>j</fr:tex> in complex cohomology and the hypercohomology spectral sequence of the filtered complex <fr:tex>(\Omega _X^\bullet \langle  Y\rangle , W)</fr:tex> on <fr:tex>X</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>2568</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-3.2.18</fr:addr><fr:route>hodge-theory-ii-3.2.18.xml</fr:route><fr:number>3.2.18</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f</fr:tex> be a morphism from a smooth proper scheme <fr:tex>Y</fr:tex> to a smooth scheme <fr:tex>X</fr:tex>, with <fr:tex>X</fr:tex> admitting a smooth compactification <fr:tex>j\colon  X\hookrightarrow \bar {X}</fr:tex>.
+    Then the groups <fr:tex>\operatorname {H}^n(X,\mathbb {Q})</fr:tex> and <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex> have the same image in <fr:tex>\operatorname {H}^n(Y,\mathbb {Q})</fr:tex>.
   </fr:p>
   
     
@@ -84,173 +44,83 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>230</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#204</fr:addr><fr:route>unstable-204.xml</fr:route><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>547</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#204</fr:addr><fr:route>unstable-204.xml</fr:route><fr:parent>hodge-theory-ii-3.2.18</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
+      Since <fr:tex>f^*</fr:tex> and <fr:tex>(jf)^*</fr:tex> are strictly compatible with the weight filtration ((iii) of <fr:ref
+addr="hodge-theory-ii-3.2.5"
+href="hodge-theory-ii-3.2.5.xml"
+taxon="Theorem"
+number="3.2.5"></fr:ref>), it suffices to prove that <fr:tex>\operatorname {Gr}^W(f^*)</fr:tex> and <fr:tex>\operatorname {Gr}^W(f^*j^*)</fr:tex> have the same image in <fr:tex>\operatorname {Gr}^W(\operatorname {H}^n(Y,\mathbb {Q}))</fr:tex>.
       By <fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-3.1.7"
-href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7"></fr:ref>, it suffices to prove the first claim.
-      In [<fr:link
-href="D1970.xml"
-type="local"
-addr="D1970">D1970</fr:link>, II, (6.9)] or [<fr:link
-href="AH1955.xml"
-type="local"
-addr="AH1955">AH1955</fr:link>], one can find a proof of the fact that <fr:tex>\beta </fr:tex> is a quasi-isomorphism, and thus a filtered quasi-isomorphism.
-      We can also directly calculate the cohomology sheaves of the two sides: those of <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex> are determined by <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, while those of <fr:tex>j_*\Omega _{X^*}^\bullet </fr:tex> are the <fr:tex>\mathrm {R}^ij_*\mathbb {C}</fr:tex>, which can be calculated by topological methods.
-    </fr:p>
-
-    <fr:p>
-      For <fr:tex>n\geqslant  p</fr:tex>, we have
-      <fr:tex
-display="block">         W_n(\Omega _X^p\langle  Y\rangle )         = \Omega _X^p\langle  Y\rangle        </fr:tex>
-      and so <fr:tex>\alpha </fr:tex> is a morphism from <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex>, endowed with <fr:tex>\tau </fr:tex>, to <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex>, endowed with the decreasing filtration associated to <fr:tex>W</fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.1.3"
-href="hodge-theory-ii-1.1.3.xml"
-number="1.1.3"></fr:ref>).
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, we have
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>229</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.8.1</fr:addr><fr:route>hodge-theory-ii-3.1.8.1.xml</fr:route><fr:number>3.1.8.1</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           \operatorname {\mathscr {H}}^i(\operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )) =           \begin {cases}             0 &amp;\text {for }i\neq  n           \\\varepsilon _X^n &amp;\text {for }i=n           \end {cases}         \tag{3.1.8.1}         </fr:tex></fr:mainmatter></fr:tree>
-
-      and we deduce from the first line of this equation that <fr:tex>\alpha </fr:tex> is a filtered quasi-isomorphism.
-      This proves <fr:ref
-addr="hodge-theory-ii-3.1.8"
-href="hodge-theory-ii-3.1.8.xml"
-taxon="Proposition"
-number="3.1.8"></fr:ref>.
+addr="hodge-theory-ii-3.2.17"
+href="hodge-theory-ii-3.2.17.xml"
+taxon="Corollary"
+number="3.2.17"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-3.2.15"
+href="hodge-theory-ii-3.2.15.xml"
+taxon="Corollary"
+number="3.2.15"></fr:ref>, <fr:tex>\operatorname {Gr}_n^W(j^*)</fr:tex> is an isomorphism, while <fr:tex>\operatorname {Gr}_m^W(f^*)=0</fr:tex> for <fr:tex>m\neq  n</fr:tex> since <fr:tex>\operatorname {Gr}_m^W(\operatorname {H}^n(Y,\mathbb {Q}))=0</fr:tex> for <fr:tex>m\neq  n</fr:tex>.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-<fr:p>
-    By <fr:ref
-addr="hodge-theory-ii-3.1.7"
-href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7"></fr:ref>, the isomorphism <fr:ref
-addr="hodge-theory-ii-3.1.8.1"
-href="hodge-theory-ii-3.1.8.1.xml"
-taxon="Equation"
-number="3.1.8.1"></fr:ref> defines an isomorphism
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>231</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.8.2</fr:addr><fr:route>hodge-theory-ii-3.1.8.2.xml</fr:route><fr:number>3.1.8.2</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \mathrm {R}^n j_*\mathbb {C}         \simeq  \operatorname {\mathscr {H}}^n(j_*\Omega _{X^*}^\bullet )         \simeq  \operatorname {\mathscr {H}}^n(\Omega _X^\bullet \langle  Y\rangle )         \simeq  \varepsilon _X^n.       \tag{3.1.8.2}       </fr:tex></fr:mainmatter></fr:tree>
-
-    The isomorphisms <fr:ref
-addr="hodge-theory-ii-3.1.4.1"
-href="hodge-theory-ii-3.1.4.1.xml"
-taxon="Equation"
-number="3.1.4.1"></fr:ref> correspond, via <fr:ref
-addr="hodge-theory-ii-3.1.8.1"
-href="hodge-theory-ii-3.1.8.1.xml"
-taxon="Equation"
-number="3.1.8.1"></fr:ref>, to the cup product.
-  </fr:p></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2557</fr:anchor><fr:addr>hodge-theory-ii-1.1.3</fr:addr><fr:route>hodge-theory-ii-1.1.3.xml</fr:route><fr:number>1.1.3</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>R</fr:tex> is a decreasing (resp. increasing) filtration of <fr:tex>A</fr:tex>, then the <fr:tex>F_n(A)=F^{-n}(A)</fr:tex> (resp the <fr:tex>F^n(A)=F_{-n}(A)</fr:tex>) form an increasing (resp. decreasing) filtration of <fr:tex>A</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>2565</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-3.2.15</fr:addr><fr:route>hodge-theory-ii-3.2.15.xml</fr:route><fr:number>3.2.15</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
     
-    This allows us in principal to consider only decreasing filtrations;
-    <fr:em>unless otherwise explicitly mentioned, when we say "filtration" we always mean "decreasing filtration"</fr:em>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2558</fr:anchor><fr:addr>hodge-theory-ii-1.4.5</fr:addr><fr:route>hodge-theory-ii-1.4.5.xml</fr:route><fr:number>1.4.5</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>F</fr:tex> be a biregular filtration of <fr:tex>K</fr:tex>.
-    A <fr:em>{#T}-acyclic filtered resolution</fr:em> of <fr:tex>K</fr:tex> is a filtered quasi-isomorphism <fr:tex>i\colon  K\to  K'</fr:tex> from <fr:tex>K</fr:tex> to a filtered biregular complex such that the <fr:tex>\operatorname {Gr}^p({K'}^n)</fr:tex> are acyclic for <fr:tex>T</fr:tex>.
-    If <fr:tex>K'</fr:tex> is such a resolution, then the <fr:tex>{K'}^n</fr:tex> are acyclic for <fr:tex>T</fr:tex>, and the filtered complex (cf. <fr:ref
-addr="hodge-theory-ii-1.4.2"
-href="hodge-theory-ii-1.4.2.xml"
-number="1.4.2"></fr:ref>) <fr:tex>T(K')</fr:tex> defines a spectral sequence
-    <fr:tex
-display="block">       E_1^{pq}       = \mathrm {R}^{p+q}T(\operatorname {Gr}^p(K))       \Rightarrow  \mathrm {R}^{p+q}T(K).     </fr:tex>
-    This is independent of the choice of <fr:tex>K'</fr:tex>.
-    We call this the <fr:em>hypercohomology spectral sequence of the filtered complex <fr:tex>K</fr:tex></fr:em>.
-    It depends functorially on <fr:tex>K</fr:tex>, and a filtered quasi-isomorphism induces an isomorphism of spectral sequences.
-  </fr:p><fr:p>
-    The differentials <fr:tex>d_1</fr:tex> of this spectral sequence are the connection morphisms defined by the short exact sequences
-    <fr:tex
-display="block">       0       \to  \operatorname {Gr}^{p+1}K       \to  F^pK/F^{p+2}K       \to  \operatorname {Gr}^pK       \to  0.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2559</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.5.2</fr:addr><fr:route>hodge-theory-ii-3.1.5.2.xml</fr:route><fr:number>3.1.5.2</fr:number><fr:parent>hodge-theory-ii-3.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \operatorname {Res}\colon \operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )         \approx  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n]       \tag{3.1.5.2}       </fr:tex></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2560</fr:anchor><fr:addr>hodge-theory-ii-3.1.7</fr:addr><fr:route>hodge-theory-ii-3.1.7.xml</fr:route><fr:number>3.1.7</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Every point of <fr:tex>X</fr:tex> admits a fundamental system of Stein open neighbourhoods whose intersections on <fr:tex>X^*</fr:tex> are again Stein.
-    For a coherent analytic sheaf <fr:tex>\mathscr {F}</fr:tex> on <fr:tex>X^*</fr:tex>, we thus have <fr:tex>\mathrm {R}^i j_*\mathscr {F}=0</fr:tex> for <fr:tex>i&gt;0</fr:tex>.
-    The de Rham complex <fr:tex>\Omega _{X^*}^\bullet </fr:tex> is thus a resolution of the constant sheaf <fr:tex>\mathbb {C}</fr:tex> by sheaves acyclic for the functor <fr:tex>j_*</fr:tex>.
-    Then
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+      If <fr:tex>X</fr:tex> is a smooth complete algebraic variety, then the mixed Hodge structure on <fr:tex>\operatorname {H}^n(X,\mathbb {Z})</fr:tex> is the classical Hodge structure of weight <fr:tex>n</fr:tex>.
+    </html:li>
 
+
+    
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+      The Hodge numbers <fr:tex>h^{pq}</fr:tex> of the mixed Hodge structure of <fr:tex>\operatorname {H}^n(X,\mathbb {Z})</fr:tex> (with <fr:tex>X</fr:tex> algebraic and smooth) can only be zero for <fr:tex>p\leqslant  n</fr:tex>, <fr:tex>q\leqslant  n</fr:tex>, and <fr:tex>p+q\geqslant  n</fr:tex>
+    </html:li>
+
+  </html:ol>
+
+  
+    
     <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
+toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1094</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.7.1</fr:addr><fr:route>hodge-theory-ii-3.1.7.1.xml</fr:route><fr:number>3.1.7.1</fr:number><fr:parent>hodge-theory-ii-3.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \operatorname {H}^\bullet (X^*,\mathbb {C})         \xrightarrow {\sim } \operatorname {\mathbb {H}}^\bullet (X^*,\Omega _{X^*}^\bullet )         \xleftarrow {\sim } \operatorname {\mathbb {H}}^\bullet (X,j_*\Omega _{X^*}^\bullet )       </fr:tex></fr:mainmatter></fr:tree>
-
-    and the Leray spectral sequence for the morphism <fr:tex>j</fr:tex> can be identified with the hypercohomology spectral sequence for <fr:tex>j_*\Omega _{X^*}^\bullet </fr:tex> corresponding to the filtration <fr:tex>\tau </fr:tex> by the subcomplexes <fr:tex>\tau _{\leqslant  -n}(j_*\Omega _{X^*}^\bullet )</fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.4.6"
-href="hodge-theory-ii-1.4.6.xml"
-number="1.4.6"></fr:ref>).
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>542</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#202</fr:addr><fr:route>unstable-202.xml</fr:route><fr:parent>hodge-theory-ii-3.2.15</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Claim (i) is clear;
+      to prove (ii), note that, if <fr:tex>Y</fr:tex> is the union of smooth divisors, then the rational Hodge structure <fr:tex>\operatorname {Gr}_k^W(\operatorname {H}^n(X,\mathbb {Q}))</fr:tex> is the quotient of a sub-object of a Hodge structure of weight <fr:tex>n+k</fr:tex>, namely
+      <fr:tex
+display="block">         \operatorname {H}^{n-k}(\widetilde {Y}^n,\mathbb {Q})\otimes \mathbb {Q}(-k).       </fr:tex></fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2561</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-3.1.8</fr:addr><fr:route>hodge-theory-ii-3.1.8.xml</fr:route><fr:number>3.1.8</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The morphisms of filtered complexes
-    <fr:tex
-display="block">       (\Omega _X^\bullet \langle  Y\rangle , W)       \xleftarrow {\alpha } (\Omega _X^\bullet \langle  Y\rangle , \tau )       \xhookrightarrow {\beta } (j_*\Omega _{X^*}^\bullet , \tau )     </fr:tex>
-    are filtered quasi-isomorphisms.
-    They define an isomorphism between the Leray spectral sequence for <fr:tex>j</fr:tex> in complex cohomology and the hypercohomology spectral sequence of the filtered complex <fr:tex>(\Omega _X^\bullet \langle  Y\rangle , W)</fr:tex> on <fr:tex>X</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>2566</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-3.2.17</fr:addr><fr:route>hodge-theory-ii-3.2.17.xml</fr:route><fr:number>3.2.17</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Under the hypotheses of <fr:ref
+addr="hodge-theory-ii-3.2.16"
+href="hodge-theory-ii-3.2.16.xml"
+number="3.2.16"></fr:ref>, the image of <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex> in <fr:tex>\operatorname {H}^n(X,\mathbb {Q})</fr:tex> is <fr:tex>W_n(\operatorname {H}^n(X,\mathbb {Q}))</fr:tex> (where <fr:tex>W</fr:tex> denotes the weight filtration (<fr:ref
+addr="hodge-theory-ii-3.2.12"
+href="hodge-theory-ii-3.2.12.xml"
+taxon="Definition"
+number="3.2.12"></fr:ref>)).
   </fr:p>
   
     
@@ -261,119 +131,51 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>230</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#204</fr:addr><fr:route>unstable-204.xml</fr:route><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#203</fr:addr><fr:route>unstable-203.xml</fr:route><fr:parent>hodge-theory-ii-3.2.17</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      By <fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-3.1.7"
-href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7"></fr:ref>, it suffices to prove the first claim.
-      In [<fr:link
-href="D1970.xml"
-type="local"
-addr="D1970">D1970</fr:link>, II, (6.9)] or [<fr:link
-href="AH1955.xml"
-type="local"
-addr="AH1955">AH1955</fr:link>], one can find a proof of the fact that <fr:tex>\beta </fr:tex> is a quasi-isomorphism, and thus a filtered quasi-isomorphism.
-      We can also directly calculate the cohomology sheaves of the two sides: those of <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex> are determined by <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, while those of <fr:tex>j_*\Omega _{X^*}^\bullet </fr:tex> are the <fr:tex>\mathrm {R}^ij_*\mathbb {C}</fr:tex>, which can be calculated by topological methods.
-    </fr:p>
-
-    <fr:p>
-      For <fr:tex>n\geqslant  p</fr:tex>, we have
-      <fr:tex
-display="block">         W_n(\Omega _X^p\langle  Y\rangle )         = \Omega _X^p\langle  Y\rangle        </fr:tex>
-      and so <fr:tex>\alpha </fr:tex> is a morphism from <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex>, endowed with <fr:tex>\tau </fr:tex>, to <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex>, endowed with the decreasing filtration associated to <fr:tex>W</fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.1.3"
-href="hodge-theory-ii-1.1.3.xml"
-number="1.1.3"></fr:ref>).
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, we have
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>229</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.8.1</fr:addr><fr:route>hodge-theory-ii-3.1.8.1.xml</fr:route><fr:number>3.1.8.1</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           \operatorname {\mathscr {H}}^i(\operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )) =           \begin {cases}             0 &amp;\text {for }i\neq  n           \\\varepsilon _X^n &amp;\text {for }i=n           \end {cases}         \tag{3.1.8.1}         </fr:tex></fr:mainmatter></fr:tree>
-
-      and we deduce from the first line of this equation that <fr:tex>\alpha </fr:tex> is a filtered quasi-isomorphism.
-      This proves <fr:ref
-addr="hodge-theory-ii-3.1.8"
-href="hodge-theory-ii-3.1.8.xml"
-taxon="Proposition"
-number="3.1.8"></fr:ref>.
+      We can suppose that <fr:tex>\bar {X}\setminus  X</fr:tex> is a normal crossing divisor.
+      The claim then follows from the fact that <fr:tex>W[-n]</fr:tex> is the abutment of the Leray spectral sequence for the inclusion <fr:tex>j\colon  X\hookrightarrow \bar {X}</fr:tex>.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-<fr:p>
-    By <fr:ref
-addr="hodge-theory-ii-3.1.7"
-href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7"></fr:ref>, the isomorphism <fr:ref
-addr="hodge-theory-ii-3.1.8.1"
-href="hodge-theory-ii-3.1.8.1.xml"
-taxon="Equation"
-number="3.1.8.1"></fr:ref> defines an isomorphism
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>231</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.8.2</fr:addr><fr:route>hodge-theory-ii-3.1.8.2.xml</fr:route><fr:number>3.1.8.2</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \mathrm {R}^n j_*\mathbb {C}         \simeq  \operatorname {\mathscr {H}}^n(j_*\Omega _{X^*}^\bullet )         \simeq  \operatorname {\mathscr {H}}^n(\Omega _X^\bullet \langle  Y\rangle )         \simeq  \varepsilon _X^n.       \tag{3.1.8.2}       </fr:tex></fr:mainmatter></fr:tree>
-
-    The isomorphisms <fr:ref
-addr="hodge-theory-ii-3.1.4.1"
-href="hodge-theory-ii-3.1.4.1.xml"
-taxon="Equation"
-number="3.1.4.1"></fr:ref> correspond, via <fr:ref
-addr="hodge-theory-ii-3.1.8.1"
-href="hodge-theory-ii-3.1.8.1.xml"
-taxon="Equation"
-number="3.1.8.1"></fr:ref>, to the cup product.
-  </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2552</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>D1970</fr:addr><fr:route>D1970.xml</fr:route><fr:title>Equations différentielles à points singuliers réguliers</fr:title><fr:date><fr:year>1970</fr:year></fr:date><fr:authors><fr:author>P. Deligne</fr:author></fr:authors><fr:meta
-name="venue">Springer</fr:meta><fr:meta
-name="bibtex"><![CDATA[@book{D1970,
-  author = {Deligne, P.},
-  title = {Equations diff\'{e}rentielles \`{a} points singuliers r\'{e}guliers},
-  publisher = {Springer},
-  year = {1970},
-}]]></fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2554</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>AH1955</fr:addr><fr:route>AH1955.xml</fr:route><fr:title>Integrals of the second kind on an algebraic variety</fr:title><fr:date><fr:year>1955</fr:year></fr:date><fr:authors><fr:author>M.F. Atiyah</fr:author><fr:author>W.V.D. Hodge</fr:author></fr:authors><fr:meta
-name="venue"><fr:em>Ann. of Math.</fr:em> <fr:strong>62</fr:strong> pp. 56–91</fr:meta><fr:meta
-name="bibtex"><![CDATA[@article{AH1955,
-  author = {Atiyah, M.F. and Hodge, W.V.D.},
-  title = {Integrals of the second kind on an algebraic variety},
-  journal = {Ann. of Math.},
-  volume = {62},
-  year = {1955},
-  pages = {56--91},
-}]]></fr:meta></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>2567</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-3.2.5</fr:addr><fr:route>hodge-theory-ii-3.2.5.xml</fr:route><fr:number>3.2.5</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+      On the pages <fr:tex>{}_WE_r^{pq}</fr:tex> of the spectral sequence <fr:ref
+addr="hodge-theory-ii-3.2.4.1"
+href="hodge-theory-ii-3.2.4.1.xml"
+taxon="Equation"
+number="3.2.4.1"></fr:ref>, the first direct filtration, the second direct filtration, and the recurrent filtration defined by <fr:tex>F</fr:tex> all coincide.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+      The filtration on <fr:tex>\operatorname {H}^n(X,\mathbb {C})</fr:tex> that is the abutment of the spectral sequence <fr:tex>{}_WE</fr:tex> comes from a filtration <fr:tex>W</fr:tex> of <fr:tex>\operatorname {H}^n(X,\mathbb {Q})</fr:tex>.
+      Neither it, nor the filtration <fr:tex>F</fr:tex> that is the abutment of the spectral sequence <fr:tex>{}_FE</fr:tex>, depend on the choice of compactification <fr:tex>\bar {X}</fr:tex> of <fr:tex>X</fr:tex> or on the choice of <fr:tex>K^\bullet </fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(iii) &quot;">
+      The filtrations <fr:tex>W[n]</fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.1.2"
+href="hodge-theory-ii-1.1.2.xml"
+taxon="Definition"
+number="1.1.2"></fr:ref>) and <fr:tex>F</fr:tex> define on <fr:tex>\operatorname {H}^n(X,\mathbb {Z})</fr:tex> a mixed Hodge structure, functorially in <fr:tex>X</fr:tex>.
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

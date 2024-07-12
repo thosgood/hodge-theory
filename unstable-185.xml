@@ -7,34 +7,20 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2458</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#185</fr:addr><fr:route>unstable-185.xml</fr:route><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2474</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#185</fr:addr><fr:route>unstable-185.xml</fr:route><fr:parent>hodge-theory-ii-4.4.16</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Let <fr:tex>t</fr:tex> be a closed point of the generic fibre of <fr:tex>p</fr:tex>, and let <fr:tex>T'</fr:tex> be its closure in <fr:tex>S</fr:tex>.
-      There exists a dense Zariski open <fr:tex>U</fr:tex> of <fr:tex>M</fr:tex> such that <fr:tex>T=p^{-1}(U)\cap  T'</fr:tex> is an étale covering of <fr:tex>U</fr:tex>.
+      Let <fr:tex>n</fr:tex> be an integer.
+      Replacing <fr:tex>S</fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex>\pi _1(S,s)</fr:tex>, if necessary, we can assume that the local system <fr:tex>{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)</fr:tex> is trivial on <fr:tex>S</fr:tex>.
+      Replacing <fr:tex>X</fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex>X</fr:tex> is polarised in the principal series.
+      Suppose that <fr:tex>n\geqslant  3</fr:tex>.
     </fr:p>
 
     <fr:p>
-      We lose no generality by assuming that <fr:tex>s\in  T</fr:tex>.
-      In the diagram
+      The abelian scheme <fr:tex>X</fr:tex> then defines a dominant morphism <fr:tex>x</fr:tex> from the <fr:tex>S</fr:tex> to the scheme of "Jacobi" modules <fr:tex>M_n</fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex>{}_nX</fr:tex> and <fr:tex>(\mathbb {Z}{/}n)^{2g}</fr:tex>;
+      furthermore, <fr:tex>X</fr:tex> is an inverse image under <fr:tex>x</fr:tex> of the universal abelian scheme on <fr:tex>M_n</fr:tex>.
       
-  <fr:embedded-tex
-hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble>
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
-        \pi _1(T,s)
-          \ar [r]
-          \ar [d,swap,"a"]
-        &amp; \pi _1(S,s)
-          \ar [d,"c"]
-      \\\pi _1(U,p(s))
-        \ar [r,swap,"b"]
-        &amp; \pi _1(M,p(s))
-      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
-
-      the image of the arrow <fr:tex>a</fr:tex> is of finite index, since <fr:tex>T</fr:tex> is a finite étale covering, and the arrow <fr:tex>b</fr:tex> is surjective, since <fr:tex>M\setminus  U</fr:tex> is of real codimension <fr:tex>\geqslant 2</fr:tex>.
-      The image of the arrow <fr:tex>c</fr:tex> is thus of finite index.
+      We know that <fr:tex>\pi _1(M_n,x(s))</fr:tex> is sent isomorphically to the subgroup of <fr:tex>\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))</fr:tex> given by the kernel of the reduction <fr:tex>\operatorname {mod}{n}</fr:tex> map.
+      It thus remains to show that:
     </fr:p>
   </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -43,9 +29,12 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2457</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-4.4.17</fr:addr><fr:route>hodge-theory-ii-4.4.17.xml</fr:route><fr:number>4.4.17</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>p\colon  S\to  M</fr:tex> be a dominant morphism of smooth connected schemes.
-    The subgroup <fr:tex>p(\pi _1(S,s))</fr:tex> of <fr:tex>\pi _1(M,p(s))</fr:tex> is then of finite index.
+root="false"><fr:frontmatter><fr:anchor>2473</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-4.4.16</fr:addr><fr:route>hodge-theory-ii-4.4.16.xml</fr:route><fr:number>4.4.16</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>X</fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-4.4.14.1"
+href="hodge-theory-ii-4.4.14.1.xml"
+taxon="Hypothesis"
+number="4.4.14.1"></fr:ref>, then the image of <fr:tex>\pi _1(S,s)</fr:tex> in the group of symplectic automorphisms of <fr:tex>\operatorname {H}^1(X_s,\mathbb {Z})</fr:tex> is of finite index.
   </fr:p>
   
     
@@ -56,34 +45,20 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1681</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#185</fr:addr><fr:route>unstable-185.xml</fr:route><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1688</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#185</fr:addr><fr:route>unstable-185.xml</fr:route><fr:parent>hodge-theory-ii-4.4.16</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Let <fr:tex>t</fr:tex> be a closed point of the generic fibre of <fr:tex>p</fr:tex>, and let <fr:tex>T'</fr:tex> be its closure in <fr:tex>S</fr:tex>.
-      There exists a dense Zariski open <fr:tex>U</fr:tex> of <fr:tex>M</fr:tex> such that <fr:tex>T=p^{-1}(U)\cap  T'</fr:tex> is an étale covering of <fr:tex>U</fr:tex>.
+      Let <fr:tex>n</fr:tex> be an integer.
+      Replacing <fr:tex>S</fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex>\pi _1(S,s)</fr:tex>, if necessary, we can assume that the local system <fr:tex>{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)</fr:tex> is trivial on <fr:tex>S</fr:tex>.
+      Replacing <fr:tex>X</fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex>X</fr:tex> is polarised in the principal series.
+      Suppose that <fr:tex>n\geqslant  3</fr:tex>.
     </fr:p>
 
     <fr:p>
-      We lose no generality by assuming that <fr:tex>s\in  T</fr:tex>.
-      In the diagram
+      The abelian scheme <fr:tex>X</fr:tex> then defines a dominant morphism <fr:tex>x</fr:tex> from the <fr:tex>S</fr:tex> to the scheme of "Jacobi" modules <fr:tex>M_n</fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex>{}_nX</fr:tex> and <fr:tex>(\mathbb {Z}{/}n)^{2g}</fr:tex>;
+      furthermore, <fr:tex>X</fr:tex> is an inverse image under <fr:tex>x</fr:tex> of the universal abelian scheme on <fr:tex>M_n</fr:tex>.
       
-  <fr:embedded-tex
-hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble>
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
-        \pi _1(T,s)
-          \ar [r]
-          \ar [d,swap,"a"]
-        &amp; \pi _1(S,s)
-          \ar [d,"c"]
-      \\\pi _1(U,p(s))
-        \ar [r,swap,"b"]
-        &amp; \pi _1(M,p(s))
-      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
-
-      the image of the arrow <fr:tex>a</fr:tex> is of finite index, since <fr:tex>T</fr:tex> is a finite étale covering, and the arrow <fr:tex>b</fr:tex> is surjective, since <fr:tex>M\setminus  U</fr:tex> is of real codimension <fr:tex>\geqslant 2</fr:tex>.
-      The image of the arrow <fr:tex>c</fr:tex> is thus of finite index.
+      We know that <fr:tex>\pi _1(M_n,x(s))</fr:tex> is sent isomorphically to the subgroup of <fr:tex>\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))</fr:tex> given by the kernel of the reduction <fr:tex>\operatorname {mod}{n}</fr:tex> map.
+      It thus remains to show that:
     </fr:p>
   </fr:mainmatter></fr:tree>
   

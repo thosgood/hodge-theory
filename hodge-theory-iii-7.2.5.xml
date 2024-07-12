@@ -7,16 +7,65 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2425</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-iii-7.2.2</fr:addr><fr:route>hodge-theory-iii-7.2.2.xml</fr:route><fr:number>7.2.2</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    For every non-negative integer <fr:tex>r&lt;r_0</fr:tex>, the differentials <fr:tex>d_r</fr:tex> of the graded complex <fr:tex>E_r(K,W)</fr:tex> are strictly compatible with the recurrent filtration defined by <fr:tex>F</fr:tex>.
-  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2436</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-7.2.5</fr:addr><fr:route>hodge-theory-iii-7.2.5.xml</fr:route><fr:number>7.2.5</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Suppose that <fr:tex>(K,F,W)</fr:tex> satisfies <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> for some <fr:tex>r_0\geqslant 0</fr:tex>.
+    Then
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        <fr:tex>(F^aK/F^bK,F,W)</fr:tex> also satisfies <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> for <fr:tex>r_0</fr:tex>.
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        For <fr:tex>r\leqslant  r_0</fr:tex>, the sequence
+        <fr:tex
+display="block">           0           \to  E_r(F^pK,W)           \to  E_r(K,W)           \to  E_r(K/F^pK,W)           \to  0         </fr:tex>
+        is exact;
+        for <fr:tex>r=r_0+1</fr:tex>, the sequence
+        <fr:tex
+display="block">           E_r(F^pK,W)           \to  E_r(K,W)           \to  E_r(K/F^pK,W)         </fr:tex>
+        is exact.
+        In particular, for <fr:tex>r\leqslant  r_0+1</fr:tex>, the two direct filtrations and the recurrent filtration of <fr:tex>E_r(K,W)</fr:tex> agree.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>968</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:parent>hodge-theory-iii-7.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Fix
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2424</fr:anchor><fr:addr>hodge-theory-iii-7.2</fr:addr><fr:route>hodge-theory-iii-7.2.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>2435</fr:anchor><fr:addr>hodge-theory-iii-7.2</fr:addr><fr:route>hodge-theory-iii-7.2.xml</fr:route><fr:title><fr:link
 href="hodge-theory-iii-7.xml"
 type="local"
 addr="hodge-theory-iii-7"><fr:link
@@ -165,81 +214,13 @@ root="false"><fr:frontmatter><fr:anchor>968</fr:anchor><fr:taxon>Proof</fr:taxon
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2422</fr:anchor><fr:addr>hodge-theory-iii-7.2.3</fr:addr><fr:route>hodge-theory-iii-7.2.3.xml</fr:route><fr:number>7.2.3</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    It is clear that, if <fr:tex>(K,F,W)</fr:tex> is <fr:tex>F</fr:tex>-splitable, then <fr:ref
-addr="hodge-theory-iii-7.2.2"
-href="hodge-theory-iii-7.2.2.xml"
-taxon="Condition"
-number="7.2.2"></fr:ref> is satisfied for <fr:tex>r_0=\infty </fr:tex>.
-    Conversely, it seems that if <fr:ref
-addr="hodge-theory-iii-7.2.2"
-href="hodge-theory-iii-7.2.2.xml"
-taxon="Condition"
-number="7.2.2"></fr:ref> is satisfied for <fr:tex>r_0=\infty </fr:tex>, then everything is as if the functor <fr:tex>\operatorname {Gr}_F</fr:tex> were exact.
-    For example, we will show that the <fr:tex>\operatorname {Gr}_F</fr:tex> of the spectral sequence <fr:tex>E(K,W)</fr:tex> can then be identified with the spectral sequence <fr:tex>E(\operatorname {Gr}_FK,W)</fr:tex>, and that the spectral sequence <fr:tex>E(K,F)</fr:tex> degenerates (<fr:tex>E_1=E_\infty </fr:tex>).
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2423</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-7.2.5</fr:addr><fr:route>hodge-theory-iii-7.2.5.xml</fr:route><fr:number>7.2.5</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Suppose that <fr:tex>(K,F,W)</fr:tex> satisfies <fr:ref
-addr="hodge-theory-iii-7.2.2"
-href="hodge-theory-iii-7.2.2.xml"
-taxon="Condition"
-number="7.2.2"></fr:ref> for some <fr:tex>r_0\geqslant 0</fr:tex>.
-    Then
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        <fr:tex>(F^aK/F^bK,F,W)</fr:tex> also satisfies <fr:ref
-addr="hodge-theory-iii-7.2.2"
-href="hodge-theory-iii-7.2.2.xml"
-taxon="Condition"
-number="7.2.2"></fr:ref> for <fr:tex>r_0</fr:tex>.
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        For <fr:tex>r\leqslant  r_0</fr:tex>, the sequence
-        <fr:tex
-display="block">           0           \to  E_r(F^pK,W)           \to  E_r(K,W)           \to  E_r(K/F^pK,W)           \to  0         </fr:tex>
-        is exact;
-        for <fr:tex>r=r_0+1</fr:tex>, the sequence
-        <fr:tex
-display="block">           E_r(F^pK,W)           \to  E_r(K,W)           \to  E_r(K/F^pK,W)         </fr:tex>
-        is exact.
-        In particular, for <fr:tex>r\leqslant  r_0+1</fr:tex>, the two direct filtrations and the recurrent filtration of <fr:tex>E_r(K,W)</fr:tex> agree.
-      </html:li>
-
-    </html:ol></fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>968</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:parent>hodge-theory-iii-7.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Fix
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>2434</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-iii-7.2.2</fr:addr><fr:route>hodge-theory-iii-7.2.2.xml</fr:route><fr:number>7.2.2</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For every non-negative integer <fr:tex>r&lt;r_0</fr:tex>, the differentials <fr:tex>d_r</fr:tex> of the graded complex <fr:tex>E_r(K,W)</fr:tex> are strictly compatible with the recurrent filtration defined by <fr:tex>F</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -7,55 +7,70 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2430</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#179</fr:addr><fr:route>unstable-179.xml</fr:route><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
-      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex> over <fr:tex>S</fr:tex>, the <fr:tex>S</fr:tex>-scheme <fr:tex>\underline {\operatorname {Hom}}_S(X_1,X_2)</fr:tex> is unramified over <fr:tex>S</fr:tex>, and thus has the same algebraic and holomorphic sections.
-    </fr:p>
-  </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+root="false"><fr:frontmatter><fr:anchor>2940</fr:anchor><fr:addr>#179</fr:addr><fr:route>unstable-179.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii-5.2.1.xml"
+type="local"
+addr="hodge-theory-iii-5.2.1">Untitled</fr:link> › Geometric realisation</fr:title><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+      For an integer <fr:tex>n\geqslant 0</fr:tex>, we denote by <fr:tex>|\Delta _n|</fr:tex> the simple in <fr:tex>\mathbb {R}^{\Delta _n}</fr:tex> whose vertices are the set of basis vectors.
+      We identify <fr:tex>\Delta _n</fr:tex> with the set of vertices of <fr:tex>|\Delta _n|</fr:tex>.
+      Every function <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex> extends by linearity to <fr:tex>|f|\colon |\Delta _n|\to |\Delta _m|</fr:tex>.
+    </fr:p><fr:p>
+      Let <fr:tex>X_\bullet </fr:tex> be a simplicial topological space.
+      Let
+      <fr:tex
+display="block">         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       </fr:tex>
+      Let <fr:tex>R</fr:tex> be the finest equivalence relation on <fr:tex>Y</fr:tex> for which, for any <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex> in <fr:tex>(\Delta )</fr:tex>, any <fr:tex>x_m\in  X_m</fr:tex>, and any <fr:tex>a\in |\Delta _n|</fr:tex>, we have
+      <fr:tex
+display="block">         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       </fr:tex>
+      The <fr:em>geometric realisation</fr:em> of <fr:tex>X_\bullet </fr:tex> is by definition
+      <fr:tex
+display="block">         |X_\bullet |         = Y/R.       </fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2429</fr:anchor><fr:taxon>Reminder</fr:taxon><fr:addr>hodge-theory-ii-4.4.3</fr:addr><fr:route>hodge-theory-ii-4.4.3.xml</fr:route><fr:number>4.4.3</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a smooth scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>.
-    The construction of <fr:ref
-addr="hodge-theory-ii-4.4.2"
-href="hodge-theory-ii-4.4.2.xml"
-number="4.4.2"></fr:ref> establishes an equivalence of categories between
+root="false"><fr:frontmatter><fr:anchor>2939</fr:anchor><fr:addr>hodge-theory-iii-5.2.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.xml</fr:route><fr:number>5.2.1</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    To each simplicial topological space <fr:tex>X_\bullet </fr:tex> is associated a usual topological space <fr:tex>|X_\bullet |</fr:tex>, called its geometric realisation (see below).
+    In the particular case where the <fr:tex>X_n</fr:tex> are discrete, we recover the usual notion of geometric realisation of a simplicial set.
+  </fr:p><fr:p>
+    In [<fr:link
+href="S1968.xml"
+type="local"
+addr="S1968">S1968</fr:link>], G. Segal defined the cohomology of <fr:tex>X_\bullet </fr:tex> with values in an abelian group <fr:tex>A</fr:tex> as <fr:tex>\operatorname {H}^\bullet (|X_\bullet |,A)</fr:tex>.
+    Under suitable hypotheses, the filtration of <fr:tex>|X_\bullet |</fr:tex> by successive skeletons gives a spectral sequence
 
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        the category of abelian schemes over <fr:tex>S</fr:tex>; and
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        the category of polarisable continuous families of Hodge structures <fr:tex>H</fr:tex> of type <fr:tex>(-1,0)+(0,-1)</fr:tex> on <fr:tex>S</fr:tex> such that <fr:tex>H_\mathbb {Z}</fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex>S</fr:tex>.
-      </html:li>
-
-    </html:ol></fr:p>
-  
-    
     <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
+toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1626</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#179</fr:addr><fr:route>unstable-179.xml</fr:route><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
-      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex> over <fr:tex>S</fr:tex>, the <fr:tex>S</fr:tex>-scheme <fr:tex>\underline {\operatorname {Hom}}_S(X_1,X_2)</fr:tex> is unramified over <fr:tex>S</fr:tex>, and thus has the same algebraic and holomorphic sections.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.2.1.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.1.xml</fr:route><fr:number>5.2.1.1</fr:number><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         E_1^{pq}         = \operatorname {H}^q(X_p,A)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,A).       \tag{5.2.1.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
+    One of the interests in using this definition is that it also applies, for example, to the definition of the groups <fr:tex>K(X_\bullet )</fr:tex>.
+    We will adopt another definition, which is better adapted to sheaf-theoretic techniques.
+  </fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:addr>#179</fr:addr><fr:route>unstable-179.xml</fr:route><fr:title>Geometric realisation</fr:title><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+      For an integer <fr:tex>n\geqslant 0</fr:tex>, we denote by <fr:tex>|\Delta _n|</fr:tex> the simple in <fr:tex>\mathbb {R}^{\Delta _n}</fr:tex> whose vertices are the set of basis vectors.
+      We identify <fr:tex>\Delta _n</fr:tex> with the set of vertices of <fr:tex>|\Delta _n|</fr:tex>.
+      Every function <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex> extends by linearity to <fr:tex>|f|\colon |\Delta _n|\to |\Delta _m|</fr:tex>.
+    </fr:p><fr:p>
+      Let <fr:tex>X_\bullet </fr:tex> be a simplicial topological space.
+      Let
+      <fr:tex
+display="block">         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       </fr:tex>
+      Let <fr:tex>R</fr:tex> be the finest equivalence relation on <fr:tex>Y</fr:tex> for which, for any <fr:tex>f\colon \Delta _n\to \Delta _m</fr:tex> in <fr:tex>(\Delta )</fr:tex>, any <fr:tex>x_m\in  X_m</fr:tex>, and any <fr:tex>a\in |\Delta _n|</fr:tex>, we have
+      <fr:tex
+display="block">         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       </fr:tex>
+      The <fr:em>geometric realisation</fr:em> of <fr:tex>X_\bullet </fr:tex> is by definition
+      <fr:tex
+display="block">         |X_\bullet |         = Y/R.       </fr:tex></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
