@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2458</fr:anchor><fr:addr>hodge-theory-iii-7.2.6</fr:addr><fr:route>hodge-theory-iii-7.2.6.xml</fr:route><fr:number>7.2.6</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> is satisfied for <fr:tex>r_0</fr:tex>, and <fr:tex>r\leqslant  r_0+1</fr:tex>, then we denote by <fr:tex>F</fr:tex> the filtration <fr:tex>F_d=F_{d^*}=F_\mathrm {rec}</fr:tex> of <fr:tex>E_r(W,K)</fr:tex>.
+    The exact sequences from (ii) of <fr:ref
+addr="hodge-theory-iii-7.2.5"
+href="hodge-theory-iii-7.2.5.xml"
+taxon="Proposition"
+number="7.2.5"></fr:ref>
+
+    
+  <fr:embedded-tex
+hash="f04341f3dc3e7b3f49c6cd0a384d802b"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+      0
+      &amp; E_r(K/F^pK,W)
+        \ar [l]
+      &amp;&amp; E_r(K/F^{p+1}K,W)
+        \ar [ll]
+      &amp;&amp; 0
+    \\&amp;&amp; E_r(K,W)
+        \ar [ul]
+        \ar [ur]
+      &amp;&amp; E_r(\operatorname {Gr}_F^pK,W)
+        \ar [ul]
+        \ar [ur]
+    \\0
+        \ar [r]
+      &amp; E_r(F^{p+1}K,W)
+        \ar [rr]
+        \ar [ur]
+      &amp;&amp; E_r(F^pK,W)
+        \ar [ul]
+        \ar [ur]
+      &amp;&amp; 0
+        \ar [ul]
+    \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+    define, for <fr:tex>r\leqslant  r_0</fr:tex>, an (autodual) isomorphism that is compatible with the differentials <fr:tex>d_r</fr:tex>, namely
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>973</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.2.6.1</fr:addr><fr:route>hodge-theory-iii-7.2.6.1.xml</fr:route><fr:number>7.2.6.1</fr:number><fr:parent>hodge-theory-iii-7.2.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {Gr}_F^p(E_r(K,W))         \simeq  E_r(\operatorname {Gr}_F^pK,W)         \qquad \text {for }r\leqslant  r_0.       \tag{7.2.6.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2457</fr:anchor><fr:addr>hodge-theory-iii-7.2</fr:addr><fr:route>hodge-theory-iii-7.2.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii-7.xml"
+type="local"
+addr="hodge-theory-iii-7"><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Supplements to §1</fr:link> › Supplements to the two filtrations lemma</fr:title><fr:number>7.2</fr:number><fr:parent>hodge-theory-iii-7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  In this section, we give a new proof of the two filtrations lemma (<fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref>) and some supplements.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>963</fr:anchor><fr:addr>hodge-theory-iii-7.2.1</fr:addr><fr:route>hodge-theory-iii-7.2.1.xml</fr:route><fr:number>7.2.1</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>(K,F,W)</fr:tex> be a bounded below bifiltered complex with objects in an abelian category <fr:tex>\mathscr {A}</fr:tex>, with <fr:tex>F</fr:tex> assumed to be biregular.
+  </fr:p><fr:p>
+    We say that <fr:tex>(K,F,W)</fr:tex> is <fr:em><fr:tex>F</fr:tex>-splitable</fr:em> if the filtered complex <fr:tex>(K,W)</fr:tex> can be written as a sum of filtered complexes
+    <fr:tex
+display="block">       (K,W)       = \bigoplus _{n\in \mathbb {Z}} (K_n,W_n)     </fr:tex>
+    with
+    <fr:tex
+display="block">       F^nK       = \bigoplus _{n'\geqslant  n} K_{n'}.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:p>
+  Let <fr:tex>r_0\geqslant 0</fr:tex> be an integer or <fr:tex>+\infty </fr:tex>.
+  The following condition was considered in <fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16"></fr:ref> and <fr:ref
+addr="hodge-theory-ii-1.3.17"
+href="hodge-theory-ii-1.3.17.xml"
+taxon="Corollary"
+number="1.3.17"></fr:ref>:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>964</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-iii-7.2.2</fr:addr><fr:route>hodge-theory-iii-7.2.2.xml</fr:route><fr:number>7.2.2</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For every non-negative integer <fr:tex>r&lt;r_0</fr:tex>, the differentials <fr:tex>d_r</fr:tex> of the graded complex <fr:tex>E_r(K,W)</fr:tex> are strictly compatible with the recurrent filtration defined by <fr:tex>F</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>965</fr:anchor><fr:addr>hodge-theory-iii-7.2.3</fr:addr><fr:route>hodge-theory-iii-7.2.3.xml</fr:route><fr:number>7.2.3</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    It is clear that, if <fr:tex>(K,F,W)</fr:tex> is <fr:tex>F</fr:tex>-splitable, then <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> is satisfied for <fr:tex>r_0=\infty </fr:tex>.
+    Conversely, it seems that if <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> is satisfied for <fr:tex>r_0=\infty </fr:tex>, then everything is as if the functor <fr:tex>\operatorname {Gr}_F</fr:tex> were exact.
+    For example, we will show that the <fr:tex>\operatorname {Gr}_F</fr:tex> of the spectral sequence <fr:tex>E(K,W)</fr:tex> can then be identified with the spectral sequence <fr:tex>E(\operatorname {Gr}_FK,W)</fr:tex>, and that the spectral sequence <fr:tex>E(K,F)</fr:tex> degenerates (<fr:tex>E_1=E_\infty </fr:tex>).
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>966</fr:anchor><fr:addr>hodge-theory-iii-7.2.4</fr:addr><fr:route>hodge-theory-iii-7.2.4.xml</fr:route><fr:number>7.2.4</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    We immediately deduce from the definition (<fr:ref
+addr="hodge-theory-ii-1.3.8"
+href="hodge-theory-ii-1.3.8.xml"
+number="1.3.8"></fr:ref>) that the first direct filtration of <fr:tex>E_r(K,W)</fr:tex> is the filtration <fr:tex>F_d</fr:tex> of <fr:tex>E_r(K,W)</fr:tex> by the images
+    <fr:tex
+display="block">       F_d^p(E_r(K,W))       = \operatorname {Im} \big (E_r(F^pK,W) \to  E_r(K,W)\big ).     </fr:tex>
+    Dually, the second direct filtration (<fr:ref
+addr="hodge-theory-ii-1.3.9"
+href="hodge-theory-ii-1.3.9.xml"
+number="1.3.9"></fr:ref>) of <fr:tex>E_r(K,W)</fr:tex> is the filtration <fr:tex>F_{d^*}</fr:tex> of <fr:tex>E_r(K,W)</fr:tex> by the kernels
+    <fr:tex
+display="block">       F_{d^*}^p(E_r(K,W))       = \operatorname {Ker} \big (E_r(K,W) \to  E_r(K/F^pK,W)\big ).     </fr:tex>
+    The recurrent filtration <fr:tex>F_{\mathrm {rec}}</fr:tex> of <fr:tex>E_r(K,W)</fr:tex> is intermediary between these two filtrations ((iii) of <fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13"></fr:ref>).
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>972</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-7.2.5</fr:addr><fr:route>hodge-theory-iii-7.2.5.xml</fr:route><fr:number>7.2.5</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Suppose that <fr:tex>(K,F,W)</fr:tex> satisfies <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> for some <fr:tex>r_0\geqslant 0</fr:tex>.
+    Then
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        <fr:tex>(F^aK/F^bK,F,W)</fr:tex> also satisfies <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> for <fr:tex>r_0</fr:tex>.
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        For <fr:tex>r\leqslant  r_0</fr:tex>, the sequence
+        <fr:tex
+display="block">           0           \to  E_r(F^pK,W)           \to  E_r(K,W)           \to  E_r(K/F^pK,W)           \to  0         </fr:tex>
+        is exact;
+        for <fr:tex>r=r_0+1</fr:tex>, the sequence
+        <fr:tex
+display="block">           E_r(F^pK,W)           \to  E_r(K,W)           \to  E_r(K/F^pK,W)         </fr:tex>
+        is exact.
+        In particular, for <fr:tex>r\leqslant  r_0+1</fr:tex>, the two direct filtrations and the recurrent filtration of <fr:tex>E_r(K,W)</fr:tex> agree.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>971</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#177</fr:addr><fr:route>unstable-177.xml</fr:route><fr:parent>hodge-theory-iii-7.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Fix an integer <fr:tex>p</fr:tex>.
+      We will prove the claim
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>970</fr:anchor><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:parent>hodge-theory-iii-7.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex>(*)_r</fr:tex> If <fr:tex>r\leqslant  r_0</fr:tex>, then <fr:tex>E_r(F^pK,W)</fr:tex> injects into <fr:tex>E_r(K,W)</fr:tex>;
+            if <fr:tex>r\leqslant  r_0+1</fr:tex>, then its image is <fr:tex>F_\mathrm {rec}(E_r(K,W))</fr:tex>.
+          </fr:em></fr:p></fr:mainmatter></fr:tree>
+
+      by induction on <fr:tex>r</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The claim <fr:tex>(*)_0</fr:tex> is always true.
+      Assume <fr:tex>(*)_r</fr:tex>, and let us prove <fr:tex>(*)_{r+1}</fr:tex>.
+      We can suppose that <fr:tex>0\leqslant  r\leqslant  r_0</fr:tex>.
+      We have a diagram
+      
+      
+  <fr:embedded-tex
+hash="9bf138721e077a2daba6d04461a1d5f7"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+        E_r(K,W)
+          \ar [r,"d_r"]
+        &amp; E_r(K,W)
+          \ar [r,"d_r"]
+        &amp; E_r(K,W)
+      \\E_r(F^pK,W)
+          \ar [r]
+          \ar [u,hook]
+        &amp; E_r(F^pK,W)
+          \ar [r]
+          \ar [u,hook]
+        &amp; E_r(F^pK,W)
+          \ar [u,hook,swap,"i"]
+      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+      
+      and the image of the vertical inclusions is <fr:tex>F_\mathrm {rec}^p(E_r(K,W))</fr:tex>.
+      Since <fr:tex>i</fr:tex> is injective,
+
+      <fr:tex
+display="block">         \begin {aligned}           F_\mathrm {rec}^p(E_{r+1}(K,W))           &amp;= \operatorname {Im}\Big ( \operatorname {Ker} \big (F_\mathrm {rec}^pE_r(K,W)\xrightarrow {d_r}E_r(K,W) \big ) \to  E_{r+1}(K,W) \Big )         \\&amp;= \operatorname {Im}\Big ( \operatorname {Ker}\big ( E_r(F^pK,W)\xrightarrow {d_r}E_r(F^pK,W) \big ) \to  E_{r+1}(K,W) \Big )         \\&amp;= \operatorname {Im}\big ( E_{r+1}(F^pK,W) \to  E_{r+1}(K,W) \big ).         \end {aligned}       </fr:tex>
+
+      If <fr:tex>r&lt;r_0</fr:tex>, then <fr:tex>d_r</fr:tex> is strictly compatible with <fr:tex>F_\mathrm {rec}</fr:tex>, whence
+      <fr:tex
+display="block">         d_rE_r(K,W)\cap  E_r(F^pK,W)         = d_rE_r(F^pK,W)       </fr:tex>
+      and <fr:tex>E_{r+1}(F^pK,W)</fr:tex> thus injects into <fr:tex>E_{r+1}(K,W)</fr:tex>.
+      This proves <fr:tex>(*)_{r+1}</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The statements <fr:tex>(*)_r</fr:tex>, combined with the dual statements, implies (ii).
+    </fr:p>
+
+    <fr:p>
+      It follows from (ii) that, for <fr:tex>r&lt;r_0</fr:tex> and <fr:tex>a\leqslant  b</fr:tex>, <fr:tex>E_r(F^bK,W)</fr:tex> injects into <fr:tex>E_r(F^aK,W)</fr:tex>, and that the differential <fr:tex>d_r</fr:tex> of <fr:tex>E_r(F^aK,W)</fr:tex> is strictly compatible with the first direct filtration of <fr:tex>E_r(F^aK,W)</fr:tex>.
+      We thus deduce, by induction on <fr:tex>r&lt;r_0</fr:tex>, that the first direct filtration of <fr:tex>E_r(F^aK,W)</fr:tex> coincides with the recurrent filtration, and (i) then follows.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>974</fr:anchor><fr:addr>hodge-theory-iii-7.2.6</fr:addr><fr:route>hodge-theory-iii-7.2.6.xml</fr:route><fr:number>7.2.6</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> is satisfied for <fr:tex>r_0</fr:tex>, and <fr:tex>r\leqslant  r_0+1</fr:tex>, then we denote by <fr:tex>F</fr:tex> the filtration <fr:tex>F_d=F_{d^*}=F_\mathrm {rec}</fr:tex> of <fr:tex>E_r(W,K)</fr:tex>.
+    The exact sequences from (ii) of <fr:ref
+addr="hodge-theory-iii-7.2.5"
+href="hodge-theory-iii-7.2.5.xml"
+taxon="Proposition"
+number="7.2.5"></fr:ref>
+
+    
+  <fr:embedded-tex
+hash="f04341f3dc3e7b3f49c6cd0a384d802b"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+      0
+      &amp; E_r(K/F^pK,W)
+        \ar [l]
+      &amp;&amp; E_r(K/F^{p+1}K,W)
+        \ar [ll]
+      &amp;&amp; 0
+    \\&amp;&amp; E_r(K,W)
+        \ar [ul]
+        \ar [ur]
+      &amp;&amp; E_r(\operatorname {Gr}_F^pK,W)
+        \ar [ul]
+        \ar [ur]
+    \\0
+        \ar [r]
+      &amp; E_r(F^{p+1}K,W)
+        \ar [rr]
+        \ar [ur]
+      &amp;&amp; E_r(F^pK,W)
+        \ar [ul]
+        \ar [ur]
+      &amp;&amp; 0
+        \ar [ul]
+    \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+    define, for <fr:tex>r\leqslant  r_0</fr:tex>, an (autodual) isomorphism that is compatible with the differentials <fr:tex>d_r</fr:tex>, namely
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>973</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.2.6.1</fr:addr><fr:route>hodge-theory-iii-7.2.6.1.xml</fr:route><fr:number>7.2.6.1</fr:number><fr:parent>hodge-theory-iii-7.2.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">         \operatorname {Gr}_F^p(E_r(K,W))         \simeq  E_r(\operatorname {Gr}_F^pK,W)         \qquad \text {for }r\leqslant  r_0.       \tag{7.2.6.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>981</fr:anchor><fr:addr>hodge-theory-iii-7.2.7</fr:addr><fr:route>hodge-theory-iii-7.2.7.xml</fr:route><fr:number>7.2.7</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> is satisfied for <fr:tex>r_0=\infty </fr:tex>, then the sequences
+    <fr:tex
+display="block">       0       \to  E_r(F^pK,W)       \to  E_r(K,W)       \to  E_r(K/F^pK,W)       \to  0     </fr:tex>
+    are exact for all <fr:tex>r</fr:tex>.
+    If the filtration <fr:tex>W</fr:tex> is biregular, then the sequence
+    <fr:tex
+display="block">       0       \to  E_\infty (F^pK,W)       \to  E_\infty (K,W)       \to  E_\infty (K/F^pK,W)       \to  0     </fr:tex>
+    is thus exact.
+    We can rewrite this sequence as
+    <fr:tex
+display="block">       0       \to  \operatorname {Gr}_W(\operatorname {H}(F^pK))       \to  \operatorname {Gr}_W(\operatorname {H}(K))       \to  \operatorname {Gr}_W(\operatorname {H}(K/F^pK))       \to  0.     </fr:tex></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>976</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-iii-7.2.7.1</fr:addr><fr:route>hodge-theory-iii-7.2.7.1.xml</fr:route><fr:number>7.2.7.1</fr:number><fr:parent>hodge-theory-iii-7.2.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+      Let <fr:tex>L</fr:tex> be a complex endowed with a biregular filtration <fr:tex>G</fr:tex>.
+      For <fr:tex>\operatorname {Gr}_G(L)</fr:tex> to be acyclic, it is necessary and sufficient that <fr:tex>L</fr:tex> be acyclic and that the differentials of <fr:tex>L</fr:tex> be strictly compatible with the filtration <fr:tex>G</fr:tex>.
+    </fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>975</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#178</fr:addr><fr:route>unstable-178.xml</fr:route><fr:parent>hodge-theory-iii-7.2.7.1</fr:parent></fr:frontmatter><fr:mainmatter>
+      <fr:p>
+        This is a particular case of <fr:ref
+addr="hodge-theory-ii-1.3.2"
+href="hodge-theory-ii-1.3.2.xml"
+taxon="Proposition"
+number="1.3.2"></fr:ref>.
+      </fr:p>
+    </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:p>
+    Applying <fr:ref
+addr="hodge-theory-iii-7.2.7.1"
+href="hodge-theory-iii-7.2.7.1.xml"
+taxon="Lemma"
+number="7.2.7.1"></fr:ref>, taking <fr:tex>L</fr:tex> to be the complex
+    <fr:tex
+display="block">       0       \to  \operatorname {H}(F^pK)       \to  \operatorname {H}(K)       \to  \operatorname {H}(K/F^pK)       \to  0,     </fr:tex>
+    we see that:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+        This sequence is exact, i.e. the differentials of <fr:tex>K</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+        the filtration of <fr:tex>\operatorname {H}(F^pK)</fr:tex> induced by the filtration <fr:tex>W</fr:tex> of <fr:tex>F^pK</fr:tex> coincides with the filtration induced by the filtration <fr:tex>W</fr:tex> of <fr:tex>\operatorname {H}(K)</fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(c) &quot;">
+        an analogous statement holds for <fr:tex>K/F^pK</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:p>
+  In conclusion:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>982</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-7.2.8</fr:addr><fr:route>hodge-theory-iii-7.2.8.xml</fr:route><fr:number>7.2.8</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    If <fr:tex>(K,F,W)</fr:tex> satisfies <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> for <fr:tex>r_0=\infty </fr:tex>, then the spectral sequence <fr:tex>E(K,F)</fr:tex> degenerates (<fr:tex>E_1=E_\infty </fr:tex>).
+    Furthermore, we have an isomorphism of spectral sequences
+    <fr:tex
+display="block">       \operatorname {Gr}_F^p(E_\bullet (K,W))       \simeq  E_\bullet (\operatorname {Gr}_F^pK,W).     </fr:tex></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2455</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-iii-7.2.2</fr:addr><fr:route>hodge-theory-iii-7.2.2.xml</fr:route><fr:number>7.2.2</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    For every non-negative integer <fr:tex>r&lt;r_0</fr:tex>, the differentials <fr:tex>d_r</fr:tex> of the graded complex <fr:tex>E_r(K,W)</fr:tex> are strictly compatible with the recurrent filtration defined by <fr:tex>F</fr:tex>.
+  </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2456</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-7.2.5</fr:addr><fr:route>hodge-theory-iii-7.2.5.xml</fr:route><fr:number>7.2.5</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Suppose that <fr:tex>(K,F,W)</fr:tex> satisfies <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> for some <fr:tex>r_0\geqslant 0</fr:tex>.
+    Then
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        <fr:tex>(F^aK/F^bK,F,W)</fr:tex> also satisfies <fr:ref
+addr="hodge-theory-iii-7.2.2"
+href="hodge-theory-iii-7.2.2.xml"
+taxon="Condition"
+number="7.2.2"></fr:ref> for <fr:tex>r_0</fr:tex>.
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        For <fr:tex>r\leqslant  r_0</fr:tex>, the sequence
+        <fr:tex
+display="block">           0           \to  E_r(F^pK,W)           \to  E_r(K,W)           \to  E_r(K/F^pK,W)           \to  0         </fr:tex>
+        is exact;
+        for <fr:tex>r=r_0+1</fr:tex>, the sequence
+        <fr:tex
+display="block">           E_r(F^pK,W)           \to  E_r(K,W)           \to  E_r(K/F^pK,W)         </fr:tex>
+        is exact.
+        In particular, for <fr:tex>r\leqslant  r_0+1</fr:tex>, the two direct filtrations and the recurrent filtration of <fr:tex>E_r(K,W)</fr:tex> agree.
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>971</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#177</fr:addr><fr:route>unstable-177.xml</fr:route><fr:parent>hodge-theory-iii-7.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+      Fix an integer <fr:tex>p</fr:tex>.
+      We will prove the claim
+
+      <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>970</fr:anchor><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:parent>hodge-theory-iii-7.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex>(*)_r</fr:tex> If <fr:tex>r\leqslant  r_0</fr:tex>, then <fr:tex>E_r(F^pK,W)</fr:tex> injects into <fr:tex>E_r(K,W)</fr:tex>;
+            if <fr:tex>r\leqslant  r_0+1</fr:tex>, then its image is <fr:tex>F_\mathrm {rec}(E_r(K,W))</fr:tex>.
+          </fr:em></fr:p></fr:mainmatter></fr:tree>
+
+      by induction on <fr:tex>r</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The claim <fr:tex>(*)_0</fr:tex> is always true.
+      Assume <fr:tex>(*)_r</fr:tex>, and let us prove <fr:tex>(*)_{r+1}</fr:tex>.
+      We can suppose that <fr:tex>0\leqslant  r\leqslant  r_0</fr:tex>.
+      We have a diagram
+      
+      
+  <fr:embedded-tex
+hash="9bf138721e077a2daba6d04461a1d5f7"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+        E_r(K,W)
+          \ar [r,"d_r"]
+        &amp; E_r(K,W)
+          \ar [r,"d_r"]
+        &amp; E_r(K,W)
+      \\E_r(F^pK,W)
+          \ar [r]
+          \ar [u,hook]
+        &amp; E_r(F^pK,W)
+          \ar [r]
+          \ar [u,hook]
+        &amp; E_r(F^pK,W)
+          \ar [u,hook,swap,"i"]
+      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+
+      
+      and the image of the vertical inclusions is <fr:tex>F_\mathrm {rec}^p(E_r(K,W))</fr:tex>.
+      Since <fr:tex>i</fr:tex> is injective,
+
+      <fr:tex
+display="block">         \begin {aligned}           F_\mathrm {rec}^p(E_{r+1}(K,W))           &amp;= \operatorname {Im}\Big ( \operatorname {Ker} \big (F_\mathrm {rec}^pE_r(K,W)\xrightarrow {d_r}E_r(K,W) \big ) \to  E_{r+1}(K,W) \Big )         \\&amp;= \operatorname {Im}\Big ( \operatorname {Ker}\big ( E_r(F^pK,W)\xrightarrow {d_r}E_r(F^pK,W) \big ) \to  E_{r+1}(K,W) \Big )         \\&amp;= \operatorname {Im}\big ( E_{r+1}(F^pK,W) \to  E_{r+1}(K,W) \big ).         \end {aligned}       </fr:tex>
+
+      If <fr:tex>r&lt;r_0</fr:tex>, then <fr:tex>d_r</fr:tex> is strictly compatible with <fr:tex>F_\mathrm {rec}</fr:tex>, whence
+      <fr:tex
+display="block">         d_rE_r(K,W)\cap  E_r(F^pK,W)         = d_rE_r(F^pK,W)       </fr:tex>
+      and <fr:tex>E_{r+1}(F^pK,W)</fr:tex> thus injects into <fr:tex>E_{r+1}(K,W)</fr:tex>.
+      This proves <fr:tex>(*)_{r+1}</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The statements <fr:tex>(*)_r</fr:tex>, combined with the dual statements, implies (ii).
+    </fr:p>
+
+    <fr:p>
+      It follows from (ii) that, for <fr:tex>r&lt;r_0</fr:tex> and <fr:tex>a\leqslant  b</fr:tex>, <fr:tex>E_r(F^bK,W)</fr:tex> injects into <fr:tex>E_r(F^aK,W)</fr:tex>, and that the differential <fr:tex>d_r</fr:tex> of <fr:tex>E_r(F^aK,W)</fr:tex> is strictly compatible with the first direct filtration of <fr:tex>E_r(F^aK,W)</fr:tex>.
+      We thus deduce, by induction on <fr:tex>r&lt;r_0</fr:tex>, that the first direct filtration of <fr:tex>E_r(F^aK,W)</fr:tex> coincides with the recurrent filtration, and (i) then follows.
+    </fr:p>
+  </fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

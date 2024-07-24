@@ -7,55 +7,18 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2540</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#198</fr:addr><fr:route>unstable-198.xml</fr:route><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2565</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#198</fr:addr><fr:route>unstable-198.xml</fr:route><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      On the <fr:tex>E_1</fr:tex> pages, there is only the filtration induced by <fr:tex>F</fr:tex> to consider (<fr:ref
-addr="hodge-theory-ii-1.3.10"
-href="hodge-theory-ii-1.3.10.xml"
-taxon="Lemma"
-number="1.3.10"></fr:ref> and (iii) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13"></fr:ref>), and <fr:tex>d_1</fr:tex> is compatible with this filtration ((i) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13"></fr:ref>).
-      This filtration is the abutment of the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref> ((ii) of <fr:ref
-addr="hodge-theory-ii-1.4.8"
-href="hodge-theory-ii-1.4.8.xml"
-taxon="Example"
-number="1.4.8"></fr:ref>).
-      By <fr:ref
-addr="hodge-theory-ii-3.2.7"
-href="hodge-theory-ii-3.2.7.xml"
-taxon="Lemma"
-number="3.2.7"></fr:ref>, the arrow
+      Let <fr:tex>s\in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
+      If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1"></fr:ref>, the subspace <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})_s^0</fr:tex> of <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})_s</fr:tex> is the image of <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex>.
+      Since the restriction map
       <fr:tex
-display="block">         d_1\colon          \operatorname {\mathbb {H}}^k(\bar {X},\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\bar {X},\operatorname {Gr}_{n-1}^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))       </fr:tex>
-      or
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>517</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:number>3.2.8.1</fr:number><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
-
-      is compatible with the filtrations that are <fr:tex>(k+n)</fr:tex>-opposite to their complex conjugate.
-      Since <fr:tex>d_1</fr:tex> commutes up to complex conjugation, <fr:tex>d_1</fr:tex> respects the bigrading (of weight <fr:tex>k+n</fr:tex>) defined by <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex>, which proves <fr:ref
-addr="hodge-theory-ii-3.2.8"
-href="hodge-theory-ii-3.2.8.xml"
-taxon="Lemma"
-number="3.2.8"></fr:ref>.
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       </fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})</fr:tex>, given by the quotient of that on <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex>, is independent of <fr:tex>s</fr:tex>.
     </fr:p>
   </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -64,8 +27,10 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2539</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The differentials <fr:tex>d_1</fr:tex> of the spectral sequence <fr:tex>{}_WE</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>2564</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>f\colon  X\to  S</fr:tex> be a proper smooth morphism, with <fr:tex>S</fr:tex> reduced, connected, and separated.
+    Let <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})^0</fr:tex> be the largest constant local system on <fr:tex>\mathrm {R}^n f_*\mathbb {Q}</fr:tex>, with fibre <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})</fr:tex>.
+    Then, for each <fr:tex>s\in  S</fr:tex>, <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})_s^0</fr:tex> is a Hodge sub-structure of <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})\simeq \operatorname {H}^n(X_s,\mathbb {Q})</fr:tex>, and the induced Hodge structure on <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})</fr:tex> is independent of <fr:tex>s</fr:tex>.
   </fr:p>
   
     
@@ -76,55 +41,18 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>518</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#198</fr:addr><fr:route>unstable-198.xml</fr:route><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#198</fr:addr><fr:route>unstable-198.xml</fr:route><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      On the <fr:tex>E_1</fr:tex> pages, there is only the filtration induced by <fr:tex>F</fr:tex> to consider (<fr:ref
-addr="hodge-theory-ii-1.3.10"
-href="hodge-theory-ii-1.3.10.xml"
-taxon="Lemma"
-number="1.3.10"></fr:ref> and (iii) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13"></fr:ref>), and <fr:tex>d_1</fr:tex> is compatible with this filtration ((i) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13"></fr:ref>).
-      This filtration is the abutment of the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref> ((ii) of <fr:ref
-addr="hodge-theory-ii-1.4.8"
-href="hodge-theory-ii-1.4.8.xml"
-taxon="Example"
-number="1.4.8"></fr:ref>).
-      By <fr:ref
-addr="hodge-theory-ii-3.2.7"
-href="hodge-theory-ii-3.2.7.xml"
-taxon="Lemma"
-number="3.2.7"></fr:ref>, the arrow
+      Let <fr:tex>s\in  S</fr:tex>, and let <fr:tex>X_s=f^{-1}(s)</fr:tex>.
+      If <fr:tex>S</fr:tex> is smooth, and if <fr:tex>\bar {X}</fr:tex> is a smooth compactification of <fr:tex>X</fr:tex>, then, by <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1"></fr:ref>, the subspace <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})_s^0</fr:tex> of <fr:tex>(\mathrm {R}^n f_*\mathbb {Q})_s</fr:tex> is the image of <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex>.
+      Since the restriction map
       <fr:tex
-display="block">         d_1\colon          \operatorname {\mathbb {H}}^k(\bar {X},\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\bar {X},\operatorname {Gr}_{n-1}^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))       </fr:tex>
-      or
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>517</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:number>3.2.8.1</fr:number><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
-
-      is compatible with the filtrations that are <fr:tex>(k+n)</fr:tex>-opposite to their complex conjugate.
-      Since <fr:tex>d_1</fr:tex> commutes up to complex conjugation, <fr:tex>d_1</fr:tex> respects the bigrading (of weight <fr:tex>k+n</fr:tex>) defined by <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex>, which proves <fr:ref
-addr="hodge-theory-ii-3.2.8"
-href="hodge-theory-ii-3.2.8.xml"
-taxon="Lemma"
-number="3.2.8"></fr:ref>.
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       </fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})</fr:tex>, given by the quotient of that on <fr:tex>\operatorname {H}^n(\bar {X},\mathbb {Q})</fr:tex>, is independent of <fr:tex>s</fr:tex>.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
@@ -135,67 +63,28 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2533</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-1.3.10</fr:addr><fr:route>hodge-theory-ii-1.3.10.xml</fr:route><fr:number>1.3.10</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    On <fr:tex>E_0</fr:tex> and <fr:tex>E_1</fr:tex>, we have <fr:tex>F_d=F_{d^*}</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>2563</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>S</fr:tex> be a smooth separated scheme, and <fr:tex>f\colon  X\to  S</fr:tex> a smooth proper morphism.
   </fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#211</fr:addr><fr:route>unstable-211.xml</fr:route><fr:parent>hodge-theory-ii-1.3.10</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      For <fr:tex>r=0,1</fr:tex>, we have <fr:tex>B_r^{pq}\subset  Z_r^{pq}</fr:tex>, and we apply <fr:ref
-addr="hodge-theory-ii-1.1.9"
-href="hodge-theory-ii-1.1.9.xml"
-taxon="Lemma"
-number="1.1.9"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2534</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.3.13</fr:addr><fr:route>hodge-theory-ii-1.3.13.xml</fr:route><fr:number>1.3.13</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
  <html:li
 style="list-style-type: &quot;(i) &quot;">
-      For the first direct filtration, the morphisms <fr:tex>d_r</fr:tex> are compatible with the filtrations.
-      If <fr:tex>E_{r+1}^{pq}</fr:tex> is considered as a quotient of a sub-object of <fr:tex>E_r^{pq}</fr:tex>, then the first direct filtration on <fr:tex>E_{r+1}^{pq}</fr:tex> is finer than the filtration <fr:tex>F'</fr:tex> induced by the first direct filtration on <fr:tex>E_r^{pq}</fr:tex>Y we have <fr:tex>F_d(E_{r+1}^{pq})\subset  F'(E_{r+1}^{pq})</fr:tex>.
+      In rational cohomology, the Leray spectral sequence
+      <fr:tex
+display="block">         E_2^{pq}         = \operatorname {H}^p(S,\mathrm {R}^qf_*\mathbb {Q})         \Rightarrow  \operatorname {H}^{p+q}(X,\mathbb {Q})       </fr:tex>
+      degenerates (<fr:tex>E_2=E_\infty </fr:tex>).
     </html:li>
 
 
     
  <html:li
 style="list-style-type: &quot;(ii) &quot;">
-      Dually, the morphisms <fr:tex>d_r</fr:tex> are compatible with the second direct filtration, and the second direct filtration on <fr:tex>E_{r+1}^{pq}</fr:tex> is less fine than the filtration induced by that of <fr:tex>E_r^{pq}</fr:tex>.
-    </html:li>
-
-
-    
- <html:li
-style="list-style-type: &quot;(iii) &quot;">
-      <fr:tex>F_d(E_r^{pq})\subset  F_r(E_r^{pq})\subset  F_{d^*}(E_r^{pq})</fr:tex>.
-    </html:li>
-
-
-    
- <html:li
-style="list-style-type: &quot;(iv) &quot;">
-      On <fr:tex>E_\infty ^{pq}</fr:tex>, the filtration induced by the filtration <fr:tex>F</fr:tex> of <fr:tex>\operatorname {H}^\bullet (K)</fr:tex> <fr:ref
-addr="hodge-theory-ii-1.3.12"
-href="hodge-theory-ii-1.3.12.xml"
-number="1.3.12"></fr:ref> is finer than the first direct filtration and less fine than the second.
+      If <fr:tex>\bar {X}</fr:tex> is a non-singular compactification of <fr:tex>X</fr:tex>, then the canonical morphism
+      <fr:tex
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q})         \to  \operatorname {H}^0(S,\mathrm {R}^nf_*\mathbb {Q})       </fr:tex>
+      is surjective.
     </html:li>
 
   </html:ol>
@@ -209,164 +98,131 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>882</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#212</fr:addr><fr:route>unstable-212.xml</fr:route><fr:parent>hodge-theory-ii-1.3.13</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>242</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#197</fr:addr><fr:route>unstable-197.xml</fr:route><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Claim (i) is evident, (ii) is its dual, and (iii) follows by induction.
-      The first claim of (iv) is easy to verify, and the second is its dual.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2535</fr:anchor><fr:taxon>Example</fr:taxon><fr:addr>hodge-theory-ii-1.4.8</fr:addr><fr:route>hodge-theory-ii-1.4.8.xml</fr:route><fr:number>1.4.8</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f\colon  X\to  Y</fr:tex> be a continuous map between topological spaces, and let <fr:tex>\mathscr {F}</fr:tex> be an abelian sheaf on <fr:tex>X</fr:tex>.
-    Let <fr:tex>\mathscr {F}^\bullet </fr:tex> be a resolution of <fr:tex>\mathscr {F}</fr:tex> by <fr:tex>f_*</fr:tex>-acyclic sheaves.
-    We have <fr:tex>\mathrm {R}^i f_*\mathscr {F}\simeq \operatorname {\mathscr {H}}^i(f_*\mathscr {F}^\bullet )</fr:tex>.
-    We take the functor <fr:tex>T</fr:tex> to be the functor <fr:tex>\Gamma (Y,-)</fr:tex>.
-    The hypercohomology spectral sequence of the complex <fr:tex>f_*\mathscr {F}^\bullet </fr:tex> endowed with its canonical filtration <fr:ref
-addr="hodge-theory-ii-1.4.6"
-href="hodge-theory-ii-1.4.6.xml"
-number="1.4.6"></fr:ref>
-    <fr:tex
-display="block">       E_1^{pq}       = \operatorname {H}^{2p+q}(Y,\mathrm {R}^{-p}f_*\mathscr {F})       \Rightarrow  \operatorname {H}^{p+q}(X,\mathscr {F})     </fr:tex>
-    is exactly, up to the renumbering <fr:tex>E_r^{pq}\mapsto  E_{r+1}^{2p+q,-p}</fr:tex>, the <fr:em>Leray spectral sequence</fr:em> for <fr:tex>f</fr:tex> and <fr:tex>\mathscr {F}</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2536</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.6</fr:addr><fr:route>hodge-theory-ii-3.2.6.xml</fr:route><fr:number>3.2.6</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The hypercohomology spectral sequences of the filtered complexes <fr:tex>\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )</fr:tex>, endowed with the filtration induced by the Hodge filtration, degenerate at the <fr:tex>E_1</fr:tex> page.
-  </fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>371</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#197</fr:addr><fr:route>unstable-197.xml</fr:route><fr:parent>hodge-theory-ii-3.2.6</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Define the <fr:tex>Y^n</fr:tex> and the <fr:tex>\widetilde {Y}^n</fr:tex> as in <fr:ref
-addr="hodge-theory-ii-3.1.4"
-href="hodge-theory-ii-3.1.4.xml"
-number="3.1.4"></fr:ref>, and let <fr:tex>i_n\colon \widetilde {Y}^n\to  X</fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, we have
-      <fr:tex
-display="block">         \operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       </fr:tex>
-      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref>), and so the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref> is given by translations of the degrees of the classical spectral sequence
-      <fr:tex
-display="block">         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       </fr:tex></fr:p>
-
-    <fr:p>
-      If <fr:tex>\bar {X}</fr:tex> is projective and <fr:tex>Y</fr:tex> the union of smooth divisors, then <fr:tex>\widetilde {Y}^n</fr:tex> is projective, <fr:tex>\varepsilon ^n</fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref
-addr="hodge-theory-ii-2.2.1"
-href="hodge-theory-ii-2.2.1.xml"
-number="2.2.1"></fr:ref>) gives the degeneration claimed in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref>.
-      For the general case, refer to [<fr:link
+      For <fr:tex>f</fr:tex> smooth and projective, claim (i) is proven in <fr:link
 href="D1968.xml"
 type="local"
-addr="D1968">D1968</fr:link>] (see also <fr:ref
-addr="hodge-theory-ii-2.2.2"
-href="hodge-theory-ii-2.2.2.xml"
-number="2.2.2"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-2.2.3"
-href="hodge-theory-ii-2.2.3.xml"
-number="2.2.3"></fr:ref>).
+addr="D1968">D1968</fr:link>.
+      The proof in <fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link> is rewritten in a more readable manner in <fr:link
+href="G1970.xml"
+type="local"
+addr="G1970">G1970</fr:link>;
+      it does not use the smoothness of <fr:tex>S</fr:tex>.
     </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2537</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.7</fr:addr><fr:route>hodge-theory-ii-3.2.7.xml</fr:route><fr:number>3.2.7</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The filtration on
-    <fr:tex
-display="block">       {}_WE_1^{-n,k+n}       = \operatorname {\mathbb {H}}^k(\bar {X},\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))       \approx  \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)     </fr:tex>
-    which is the abutment of the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref> is <fr:tex>(k+n)</fr:tex>-opposite to its complex conjugate.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2538</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The differentials <fr:tex>d_1</fr:tex> of the spectral sequence <fr:tex>{}_WE</fr:tex> are strictly compatible with the filtration <fr:tex>F</fr:tex>.
-  </fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>518</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#198</fr:addr><fr:route>unstable-198.xml</fr:route><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+
     <fr:p>
-      On the <fr:tex>E_1</fr:tex> pages, there is only the filtration induced by <fr:tex>F</fr:tex> to consider (<fr:ref
-addr="hodge-theory-ii-1.3.10"
-href="hodge-theory-ii-1.3.10.xml"
-taxon="Lemma"
-number="1.3.10"></fr:ref> and (iii) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13"></fr:ref>), and <fr:tex>d_1</fr:tex> is compatible with this filtration ((i) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13"></fr:ref>).
-      This filtration is the abutment of the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6"></fr:ref> ((ii) of <fr:ref
-addr="hodge-theory-ii-1.4.8"
-href="hodge-theory-ii-1.4.8.xml"
-taxon="Example"
-number="1.4.8"></fr:ref>).
-      By <fr:ref
-addr="hodge-theory-ii-3.2.7"
-href="hodge-theory-ii-3.2.7.xml"
-taxon="Lemma"
-number="3.2.7"></fr:ref>, the arrow
+      Let us fix <fr:tex>f</fr:tex>, and prove that (i)<fr:tex>\implies </fr:tex>(ii).
+      We can reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+      If <fr:tex>s\in  S</fr:tex> is a point, then the local system <fr:tex>\mathrm {R}^nf_*\mathbb {Q}</fr:tex> is entirely described by its fibre <fr:tex>(\mathrm {R}^nf_*\mathbb {Q})_s</fr:tex> at <fr:tex>s</fr:tex> and the action of the fundamental group <fr:tex>\pi =\pi _1(S,s)</fr:tex> on this fibre.
+      We have
       <fr:tex
-display="block">         d_1\colon          \operatorname {\mathbb {H}}^k(\bar {X},\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\bar {X},\operatorname {Gr}_{n-1}^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))       </fr:tex>
-      or
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } [(\mathrm {R}^n f_*\mathbb {Q})_s]^\pi .       </fr:tex>
+      If <fr:tex>X_s=f^{-1}(s)</fr:tex>, then the composite arrow
+      <fr:tex
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \to  (\mathrm {R}^n f_*\mathbb {Q})         \approx  \operatorname {H}^n(X_s,\mathbb {Q})       </fr:tex>
+      is thus injective.
+      Consider the arrows
+      <fr:tex
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q})         \xrightarrow {a} \operatorname {H}^n(X,\mathbb {Q})         \xrightarrow {b} \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xhookrightarrow {c} \operatorname {H}^n(X_s,\mathbb {Q}).       </fr:tex>
+      The arrows <fr:tex>cb</fr:tex> and <fr:tex>cba</fr:tex> have the same image, by <fr:ref
+addr="hodge-theory-ii-3.2.18"
+href="hodge-theory-ii-3.2.18.xml"
+taxon="Corollary"
+number="3.2.18"></fr:ref>.
+      The arrow <fr:tex>b</fr:tex> is an "edge homomorphism" of the Leray spectral sequence, and is thus surjective by hypothesis.
+      Since <fr:tex>c</fr:tex> is injective, <fr:tex>b</fr:tex> and <fr:tex>ba</fr:tex> have the same image, and <fr:tex>ba</fr:tex> is surjective.
+    </fr:p>
+
+    <fr:p>
+      This proves (ii) for <fr:tex>f</fr:tex> projective.
+      From this we will deduce the general case.
+      We can again reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected.
+    </fr:p>
+
+    <fr:p>
+      By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme <fr:tex>X'</fr:tex> and a projective birational morphism <fr:tex>p\colon  X'\to  X</fr:tex>.
+      
+      There thus exists (by Bertini, or Sard) a non-empty Zariski open <fr:tex>S_1</fr:tex> of <fr:tex>S</fr:tex> such that <fr:tex>X'_1=(fp)^{-1}(S_1)</fr:tex> is smooth over <fr:tex>S_1</fr:tex>.
+      Finally, let <fr:tex>X_1=f^{-1}(S_1)</fr:tex>, let <fr:tex>\bar {X}</fr:tex> be a smooth compactification of <fr:tex>X</fr:tex>, and let <fr:tex>\bar {X}'_1</fr:tex> be a smooth compactification of <fr:tex>X'_1</fr:tex> that dominates <fr:tex>\bar {X}</fr:tex>.
+
+      
+  <fr:embedded-tex
+hash="479c210d5ad042cedd2fc23bd6a3b091"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+        \bar {X}
+        &amp;&amp; \bar {X}'_1
+          \ar [ll,swap,"\bar {p}"]
+      \\X
+          \ar [u,hook]
+          \ar [d,swap,"f"]
+        &amp; X_1
+          \ar [l,hook']
+          \ar [d,swap,"f_1"]
+        &amp; X'_1
+          \ar [u,hook]
+          \ar [l,swap,"p"]
+          \ar [d,swap,"f'_1"]
+      \\S
+        &amp; S_1
+          \ar [l,hook',"i"]
+        &amp; S_1
+          \ar [l,equals]
+      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex></fr:p>
+
+    <fr:p>
+      If <fr:tex>s\in  S_1</fr:tex>, then the morphism <fr:tex>i_*\colon \pi _1(S_1,s)\to \pi _1(S,s)</fr:tex> is surjective, since the topological codimension of <fr:tex>S\setminus  S_1</fr:tex> is <fr:tex>\geqslant 2</fr:tex>.
+      We thus have
+      <fr:tex
+display="block">         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       </fr:tex>
+      and it suffices to prove that
+      <fr:tex
+display="block">         \operatorname {H}^n(\bar {X},\mathbb {Q})         \to  \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       </fr:tex>
+      is surjective.
+    </fr:p>
+
+    <fr:p>
+      The vertical arrows in the diagram
+      <fr:tex
+display="block">         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^n(X_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@VV{\bar {p}^*}V @VV{p^*}V @VV{p^*}V         \\\operatorname {H}^n(\bar {X}'_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^n(X'_1,\mathbb {Q}) @&gt;&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}{f'_1}_*\mathbb {Q})         \end {CD}       </fr:tex>
+      admit left inverses given by the <fr:em>Gysin morphisms</fr:em> <fr:tex>\bar {p}_!</fr:tex>, <fr:tex>p_!</fr:tex>, and <fr:tex>p_!</fr:tex> (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
+      Furthermore, the diagram
+      <fr:tex
+display="block">         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @&gt;{u}&gt;&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@A{\bar {p}_!}AA @AA{p_!}A         \\\operatorname {H}^n(\bar {X}',\mathbb {Q}) @&gt;&gt;{v}&gt; \operatorname {H}^0(S_1,\mathrm {R}^n{f'_1}_*\mathbb {Q})         \end {CD}       </fr:tex>
+      commutes.
+      The arrow <fr:tex>u</fr:tex> is thus a direct factor of the arrow <fr:tex>v</fr:tex>.
+      Since <fr:tex>v</fr:tex> is surjective (because <fr:tex>f'_1</fr:tex> is projective), so too is <fr:tex>u</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      We now prove (i) in the general case.
+      We can reduce to the case where <fr:tex>f</fr:tex> is of pure relative dimension <fr:tex>n</fr:tex>.
+      Let <fr:tex>f\times  f</fr:tex> be the projection of <fr:tex>X\times _S X</fr:tex> to <fr:tex>S</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      Let <fr:tex>\delta </fr:tex> be the image of the cohomology class of the diagonal of <fr:tex>X\times _S X</fr:tex> in <fr:tex>\operatorname {H}^0(S,\mathrm {R}^n(f\times  f)_*,\mathbb {Q})</fr:tex>.
+      We have, by Künneth,
+      <fr:tex
+display="block">         \mathrm {R}^n(f\times  f)_*\mathbb {Q}         = \sum _{p+q=n} (\mathrm {R}^p f_*\mathbb {Q}\otimes \mathrm {R}^q f_*\mathbb {Q}).       </fr:tex>
+      We denote by <fr:tex>\delta '_{pq}</fr:tex> (for <fr:tex>p+q=n</fr:tex>) the components of <fr:tex>\delta </fr:tex> in this decomposition, and by <fr:tex>\delta _{pq}</fr:tex> the classes in <fr:tex>\operatorname {H}^n(X\times _S X)</fr:tex> given by the images of the <fr:tex>\delta '_{pq}</fr:tex>.
+    </fr:p>
+
+    <fr:p>
+      The <fr:tex>\delta _{pq}</fr:tex> define, in the derived category <fr:tex>\mathrm {D}^+(S)</fr:tex>, homomorphisms
+      <fr:tex
+display="block">         \delta _p\colon          \mathrm {R} f_*\mathbb {Q}         \to  \mathrm {R} f_*\mathbb {Q}       </fr:tex>
+      such that <fr:tex>\operatorname {\mathscr {H}}^q(\delta _p)</fr:tex> is zero for <fr:tex>p\neq  q</fr:tex>, and is the identity for <fr:tex>p=q</fr:tex>.
+      By [<fr:link
+href="D1968.xml"
+type="local"
+addr="D1968">D1968</fr:link>], we thus have
 
       <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -375,15 +231,10 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>517</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:number>3.2.8.1</fr:number><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>241</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block">           \mathrm {R} f_*\mathbb {Q}           \approx  \sum _p \mathrm {R}^p f_*\mathbb {Q}[-p]         \tag{4.1.1.1}         </fr:tex></fr:mainmatter></fr:tree>
 
-      is compatible with the filtrations that are <fr:tex>(k+n)</fr:tex>-opposite to their complex conjugate.
-      Since <fr:tex>d_1</fr:tex> commutes up to complex conjugation, <fr:tex>d_1</fr:tex> respects the bigrading (of weight <fr:tex>k+n</fr:tex>) defined by <fr:tex>F</fr:tex> and <fr:tex>\bar {F}</fr:tex>, which proves <fr:ref
-addr="hodge-theory-ii-3.2.8"
-href="hodge-theory-ii-3.2.8.xml"
-taxon="Lemma"
-number="3.2.8"></fr:ref>.
+      in <fr:tex>\mathrm {D}^+(S)</fr:tex>, and the Leray spectral sequence degenerates.
     </fr:p>
   </fr:mainmatter></fr:tree>
   

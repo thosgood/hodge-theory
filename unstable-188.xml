@@ -7,24 +7,34 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2482</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#188</fr:addr><fr:route>unstable-188.xml</fr:route><fr:parent>hodge-theory-ii-4.2.3</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>2520</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#188</fr:addr><fr:route>unstable-188.xml</fr:route><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Let <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, and let <fr:tex>H_1</fr:tex> be a sub-object of <fr:tex>H</fr:tex>, in the category of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures.
-      We will show that <fr:tex>H_1</fr:tex> is a direct factor of <fr:tex>H</fr:tex> in this category.
-      We can suppose <fr:tex>H</fr:tex> to be homogeneous.
-      If <fr:tex>\psi </fr:tex> is a polarisation form for <fr:tex>H</fr:tex>, then the orthogonal of <fr:tex>H_1</fr:tex> with respect to <fr:tex>\psi </fr:tex> is indeed a sub-object of <fr:tex>H</fr:tex> that is a supplement to <fr:tex>H_1</fr:tex>.
-      This proves (i)
+      Let <fr:tex>t</fr:tex> be a closed point of the generic fibre of <fr:tex>p</fr:tex>, and let <fr:tex>T'</fr:tex> be its closure in <fr:tex>S</fr:tex>.
+      There exists a dense Zariski open <fr:tex>U</fr:tex> of <fr:tex>M</fr:tex> such that <fr:tex>T=p^{-1}(U)\cap  T'</fr:tex> is an étale covering of <fr:tex>U</fr:tex>.
     </fr:p>
 
     <fr:p>
-      If <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex> is of weight <fr:tex>n</fr:tex>, then a polarisation of <fr:tex>H</fr:tex> defines an isomorphism between <fr:tex>H^*</fr:tex> and <fr:tex>H\otimes \mathbb {Q}(n)</fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-4.2.2.1"
-href="hodge-theory-ii-4.2.2.1.xml"
-taxon="Condition"
-number="4.2.2.1"></fr:ref>, we thus have that <fr:tex>H^*\in \operatorname {Ob}\mathcal {C}</fr:tex>.
-      For arbitrary <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, if we decompose <fr:tex>H</fr:tex> into its homogeneous components, then <fr:tex>H^*=\bigoplus _n(H^n)^*</fr:tex>, whence again <fr:tex>H^*\in \operatorname {Ob}\mathcal {C}</fr:tex>.
-      Finally, <fr:tex>\wedge ^p H</fr:tex> is a direct factor of <fr:tex>\bigotimes ^p H</fr:tex>, and <fr:tex>\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2</fr:tex>.
+      We lose no generality by assuming that <fr:tex>s\in  T</fr:tex>.
+      In the diagram
+      
+  <fr:embedded-tex
+hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+        \pi _1(T,s)
+          \ar [r]
+          \ar [d,swap,"a"]
+        &amp; \pi _1(S,s)
+          \ar [d,"c"]
+      \\\pi _1(U,p(s))
+        \ar [r,swap,"b"]
+        &amp; \pi _1(M,p(s))
+      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+      the image of the arrow <fr:tex>a</fr:tex> is of finite index, since <fr:tex>T</fr:tex> is a finite étale covering, and the arrow <fr:tex>b</fr:tex> is surjective, since <fr:tex>M\setminus  U</fr:tex> is of real codimension <fr:tex>\geqslant 2</fr:tex>.
+      The image of the arrow <fr:tex>c</fr:tex> is thus of finite index.
     </fr:p>
   </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -33,34 +43,10 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2481</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-4.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.3.xml</fr:route><fr:number>4.2.3</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>\mathcal {C}</fr:tex> satisfies <fr:ref
-addr="hodge-theory-ii-4.2.2.1"
-href="hodge-theory-ii-4.2.2.1.xml"
-taxon="Condition"
-number="4.2.2.1"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-4.2.2.2"
-href="hodge-theory-ii-4.2.2.2.xml"
-taxon="Condition"
-number="4.2.2.2"></fr:ref>, then:
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        <fr:tex>\mathcal {C}</fr:tex> is a semi-simple abelian subcategory of the abelian subcategory of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures on <fr:tex>S</fr:tex>.
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        If <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, then its dual <fr:tex>H^*</fr:tex> and the <fr:tex>\wedge ^p H</fr:tex> are also in <fr:tex>\mathcal {C}</fr:tex>;
-        if <fr:tex>H_1,H_2\in \operatorname {Ob}\mathcal {C}</fr:tex>, then <fr:tex>\operatorname {Hom}(H_1,H_2)\in \operatorname {Ob}\mathcal {C}</fr:tex>.
-      </html:li>
-
-    </html:ol></fr:p>
+root="false"><fr:frontmatter><fr:anchor>2519</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-4.4.17</fr:addr><fr:route>hodge-theory-ii-4.4.17.xml</fr:route><fr:number>4.4.17</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>p\colon  S\to  M</fr:tex> be a dominant morphism of smooth connected schemes.
+    The subgroup <fr:tex>p(\pi _1(S,s))</fr:tex> of <fr:tex>\pi _1(M,p(s))</fr:tex> is then of finite index.
+  </fr:p>
   
     
     <fr:tree
@@ -70,34 +56,35 @@ numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1167</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#188</fr:addr><fr:route>unstable-188.xml</fr:route><fr:parent>hodge-theory-ii-4.2.3</fr:parent></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>1704</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#188</fr:addr><fr:route>unstable-188.xml</fr:route><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>
-      Let <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, and let <fr:tex>H_1</fr:tex> be a sub-object of <fr:tex>H</fr:tex>, in the category of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures.
-      We will show that <fr:tex>H_1</fr:tex> is a direct factor of <fr:tex>H</fr:tex> in this category.
-      We can suppose <fr:tex>H</fr:tex> to be homogeneous.
-      If <fr:tex>\psi </fr:tex> is a polarisation form for <fr:tex>H</fr:tex>, then the orthogonal of <fr:tex>H_1</fr:tex> with respect to <fr:tex>\psi </fr:tex> is indeed a sub-object of <fr:tex>H</fr:tex> that is a supplement to <fr:tex>H_1</fr:tex>.
-      This proves (i)
+      Let <fr:tex>t</fr:tex> be a closed point of the generic fibre of <fr:tex>p</fr:tex>, and let <fr:tex>T'</fr:tex> be its closure in <fr:tex>S</fr:tex>.
+      There exists a dense Zariski open <fr:tex>U</fr:tex> of <fr:tex>M</fr:tex> such that <fr:tex>T=p^{-1}(U)\cap  T'</fr:tex> is an étale covering of <fr:tex>U</fr:tex>.
     </fr:p>
 
     <fr:p>
-      If <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex> is of weight <fr:tex>n</fr:tex>, then a polarisation of <fr:tex>H</fr:tex> defines an isomorphism between <fr:tex>H^*</fr:tex> and <fr:tex>H\otimes \mathbb {Q}(n)</fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-4.2.2.1"
-href="hodge-theory-ii-4.2.2.1.xml"
-taxon="Condition"
-number="4.2.2.1"></fr:ref>, we thus have that <fr:tex>H^*\in \operatorname {Ob}\mathcal {C}</fr:tex>.
-      For arbitrary <fr:tex>H\in \operatorname {Ob}\mathcal {C}</fr:tex>, if we decompose <fr:tex>H</fr:tex> into its homogeneous components, then <fr:tex>H^*=\bigoplus _n(H^n)^*</fr:tex>, whence again <fr:tex>H^*\in \operatorname {Ob}\mathcal {C}</fr:tex>.
-      Finally, <fr:tex>\wedge ^p H</fr:tex> is a direct factor of <fr:tex>\bigotimes ^p H</fr:tex>, and <fr:tex>\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2</fr:tex>.
+      We lose no generality by assuming that <fr:tex>s\in  T</fr:tex>.
+      In the diagram
+      
+  <fr:embedded-tex
+hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble>
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+        \pi _1(T,s)
+          \ar [r]
+          \ar [d,swap,"a"]
+        &amp; \pi _1(S,s)
+          \ar [d,"c"]
+      \\\pi _1(U,p(s))
+        \ar [r,swap,"b"]
+        &amp; \pi _1(M,p(s))
+      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+
+      the image of the arrow <fr:tex>a</fr:tex> is of finite index, since <fr:tex>T</fr:tex> is a finite étale covering, and the arrow <fr:tex>b</fr:tex> is surjective, since <fr:tex>M\setminus  U</fr:tex> is of real codimension <fr:tex>\geqslant 2</fr:tex>.
+      The image of the arrow <fr:tex>c</fr:tex> is thus of finite index.
     </fr:p>
   </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2480</fr:anchor><fr:taxon>Condition</fr:taxon><fr:addr>hodge-theory-ii-4.2.2.1</fr:addr><fr:route>hodge-theory-ii-4.2.2.1.xml</fr:route><fr:number>4.2.2.1</fr:number><fr:parent>hodge-theory-ii-4.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:tex>\mathcal {C}</fr:tex> is stable under direct factors, direct sums, and tensor products;
-        the Tate constant families <fr:tex>\mathbb {Q}(n)</fr:tex> (for <fr:tex>n\in \mathbb {Z}</fr:tex>) are in <fr:tex>\mathcal {C}</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
