@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2501</fr:anchor><fr:taxon>Scholium</fr:taxon><fr:addr>hodge-theory-iii-8.1.3</fr:addr><fr:route>hodge-theory-iii-8.1.3.xml</fr:route><fr:number>8.1.3</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let
+  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2500</fr:anchor><fr:addr>hodge-theory-iii-8.1</fr:addr><fr:route>hodge-theory-iii-8.1.xml</fr:route><fr:title><fr:link
+href="hodge-theory-iii-8.xml"
+type="local"
+addr="hodge-theory-iii-8"><fr:link
+href="hodge-theory-iii.xml"
+type="local"
+addr="hodge-theory-iii">Hodge Theory III</fr:link> › Hodge theory of algebraic spaces</fr:link> › Hodge complexes</fr:title><fr:number>8.1</fr:number><fr:parent>hodge-theory-iii-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1269</fr:anchor><fr:addr>hodge-theory-iii-8.1.1</fr:addr><fr:route>hodge-theory-iii-8.1.1.xml</fr:route><fr:number>8.1.1</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>A</fr:tex> be as in <fr:ref
+addr="hodge-theory-iii-0.3"
+href="hodge-theory-iii-0.3.xml"
+number="III.0.3"></fr:ref>.
+    Then a <fr:em>Hodge <fr:tex>A</fr:tex>-complex</fr:em> <fr:tex>K</fr:tex> of weight <fr:tex>n</fr:tex> consists of
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        a complex <fr:tex>K_A\in \operatorname {Ob}\mathrm {D}^+(A)</fr:tex> such that <fr:tex>\operatorname {H}^k(K_A)</fr:tex> is an <fr:tex>A</fr:tex>-module of finite type for all <fr:tex>k</fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a filtration <fr:tex>F</fr:tex> on <fr:tex>K_A\otimes \mathbb {C}</fr:tex>, i.e. a filtered complex <fr:tex>(K_\mathbb {C},F)\in \operatorname {Ob}\mathrm {D}^+F(\mathbb {C})</fr:tex>, and an isomorphism <fr:tex>\alpha \colon  K_\mathbb {C}\simeq  K_A\otimes \mathbb {C}</fr:tex> in <fr:tex>\mathrm {D}^+(\mathbb {C})</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    The following axioms have to be satisfied:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1267</fr:anchor><fr:taxon>Axiom</fr:taxon><fr:addr>hodge-theory-iii-8.1-ch1</fr:addr><fr:route>hodge-theory-iii-8.1-ch1.xml</fr:route><fr:number>CH1</fr:number><fr:parent>hodge-theory-iii-8.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The differential <fr:tex>d</fr:tex> of <fr:tex>K_\mathbb {C}</fr:tex> is strictly compatible with the filtration <fr:tex>F</fr:tex>;
+        in other words, the spectral sequence defined by <fr:tex>(K_\mathbb {C},F)</fr:tex> degenerates at <fr:tex>E_1</fr:tex> (i.e. <fr:tex>E_1=E_\infty </fr:tex>) <fr:ref
+addr="hodge-theory-ii-1.3.2"
+href="hodge-theory-ii-1.3.2.xml"
+taxon="Proposition"
+number="1.3.2"></fr:ref>.
+      </fr:p></fr:mainmatter></fr:tree>
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1268</fr:anchor><fr:taxon>Axiom</fr:taxon><fr:addr>hodge-theory-iii-8.1-ch2</fr:addr><fr:route>hodge-theory-iii-8.1-ch2.xml</fr:route><fr:number>CH2</fr:number><fr:parent>hodge-theory-iii-8.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        For all <fr:tex>k</fr:tex>, the filtration <fr:tex>F</fr:tex> on <fr:tex>\operatorname {H}^k(K_\mathbb {C})\simeq \operatorname {H}^k(K_A)\otimes \mathbb {C}</fr:tex> defines a Hodge <fr:tex>A</fr:tex>-structure of weight <fr:tex>n+k</fr:tex> on <fr:tex>\operatorname {H}^k(K_A)</fr:tex>, i.e. the filtration <fr:tex>F</fr:tex> is <fr:tex>(n+k)</fr:tex>-opposite to its complex conjugate (which makes sense, since <fr:tex>A\subset \mathbb {R}</fr:tex>).
+      </fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1275</fr:anchor><fr:addr>hodge-theory-iii-8.1.2</fr:addr><fr:route>hodge-theory-iii-8.1.2.xml</fr:route><fr:number>8.1.2</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let <fr:tex>X</fr:tex> be a topological space.
+    Then a <fr:em>cohomological Hodge <fr:tex>A</fr:tex>-complex <fr:tex>K</fr:tex> of weight <fr:tex>n</fr:tex></fr:em> on <fr:tex>X</fr:tex> consists of:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        a complex <fr:tex>K_A\in \operatorname {Ob}\mathrm {D}^+(X,A)</fr:tex>,
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a filtered complex <fr:tex>(K_\mathbb {C},F)\in \operatorname {Ob}\mathrm {D}^+F(X,\mathbb {C})</fr:tex>,
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛾) &quot;">
+        an isomorphism <fr:tex>\alpha \colon  K_\mathbb {C}\simeq  K_A\otimes \mathbb {C}</fr:tex> in <fr:tex>\mathrm {D}^+(X,\mathbb {C})</fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>
+    The following axiom has to be satisfied:
+
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1274</fr:anchor><fr:taxon>Axiom</fr:taxon><fr:addr>hodge-theory-iii-8.1-chc</fr:addr><fr:route>hodge-theory-iii-8.1-chc.xml</fr:route><fr:number>CHC</fr:number><fr:parent>hodge-theory-iii-8.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The triple <fr:tex>(\mathrm {R}\Gamma (K_A),\mathrm {R}\Gamma ((K_\mathbb {C},F)),\mathrm {R}\Gamma (\alpha ))</fr:tex> is a Hodge complex of weight <fr:tex>n</fr:tex>.
+      </fr:p></fr:mainmatter></fr:tree></fr:p><fr:p>
+    When <fr:tex>A=\mathbb {Z}</fr:tex>, we simply speak of Hodge complexes and cohomological Hodge complexes.
+  </fr:p></fr:mainmatter></fr:tree><fr:p>
+  The following statement reformulates a part of classical Hodge theory (cf. <fr:ref
+addr="hodge-theory-ii-2.2.1"
+href="hodge-theory-ii-2.2.1.xml"
+number="2.2.1"></fr:ref>).
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1276</fr:anchor><fr:taxon>Scholium</fr:taxon><fr:addr>hodge-theory-iii-8.1.3</fr:addr><fr:route>hodge-theory-iii-8.1.3.xml</fr:route><fr:number>8.1.3</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+    Let
+  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
