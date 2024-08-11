@@ -93,6 +93,65 @@
   \number{8.1.3}
 
   \p{
-    Let
+    Let #{X} be a complex Kähler variety.
+    Let #{K_\ZZ} be the complex #{\ZZ[0]} consisting of the constant sheaf #{\ZZ} in degree #{0}, and let #{K_\CC} be the holomorphic de Rham complex #{\Omega_X^\bullet}, with #{F} its stupid filtration.
+    We have #{\alpha\colon K_\ZZ\otimes\CC\simeq\CC[0]\xrightarrow{\approx}\Omega_X^\bullet} (the Poincaré lemma), and #{(K_\ZZ,(K_\CC,F),\alpha)} is a cohomological Hodge complex of weight #{0}.
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.4]{
+  \taxon{remark}
+  \number{8.1.4}
+
+  \p{
+    If #{K} is a Hodge complex (resp. cohomological Hodge complex) of weight #{n}, then #{K[m]} is a Hodge complex (resp. cohomological Hodge complex) of weight #{n+m}.
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.5]{
+  \number{8.1.5}
+
+  \p{
+    A \em{mixed Hodge #{A}-complex} #{K} consists of:
+
+    \olc{
+      \lic{(𝛼)}{
+        a complex #{K_A\in\Ob\DD^+(A)} such that #{\HH^k(K_A)} is an #{A}-module of finite type for all #{k};
+      }
+
+      \lic{(𝛽)}{
+        a filtered complex #{(K_{A\otimes\QQ},W)\in\Ob\DD^+F(A\otimes\QQ)} (for an \em{increasing} filtration #{W}) and an isomorphism #{K_{A\otimes\QQ}\simeq K_A\otimes\QQ} in #{\DD^+(A\otimes\QQ)};
+      }
+
+      \lic{(𝛾)}{
+        a bifiltered complex #{(K_\CC,W,F)\in\Ob\DD^+F_w(\CC)} (for an \em{increasing} filtration #{W} and a \em{decreasing} filtration #{F}) and an isomorphism #{\alpha\colon(K_\CC,W)\simeq(K_{A\otimes\QQ},W)\otimes\CC} in #{\DD^+F(\CC)}.
+      }
+    }
+  }
+
+  \p{
+    The following axiom must be satisfied:
+
+    \subtree[hodge-theory-iii-8.1.5-chm]{
+      \taxon{axiom}
+      \number{CHM}
+      \p{
+        For all #{n}, the system consisting of the complex #{\Gr_n^W(K_{A\otimes\QQ})\in\Ob\DD^+(A\otimes\QQ)}, the complex #{\Gr_n^W(K_\CC)\in\Ob\DD^+F(\CC)} filtered by #{F}, and the isomorphism
+        ##{
+          \Gr_n^W(\alpha)\colon
+          \Gr_n^W(K_{A\otimes\QQ})\otimes\CC
+          \simeq \Gr_n^W(K_\CC),
+        }
+        is a Hodge #{(A\otimes\QQ)}-complex of weight #{n}.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.6]{
+  \number{8.1.6}
+
+  \p{
+    A
   }
 }
