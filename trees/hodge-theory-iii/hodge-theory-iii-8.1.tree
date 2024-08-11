@@ -89,7 +89,7 @@
 }
 
 \subtree[hodge-theory-iii-8.1.3]{
-  \taxon{Scholium}
+  \taxon{scholium}
   \number{8.1.3}
 
   \p{
@@ -152,6 +152,75 @@
   \number{8.1.6}
 
   \p{
-    A
+    A \em{cohomological mixed Hodge #{A}-complex} #{K} on a topological space #{X} consists of:
+
+    \olc{
+      \lic{(𝛼)}{
+        a complex #{K_A\in\Ob\DD^+(X,A)} such that #{\bHH^k(X,K_A)} is an #{A}-module of finite type for all #{k}, and such that #{\bHH(X,K_A)\otimes\QQ\simto\bHH(X,K_A\otimes\QQ)};
+      }
+
+      \lic{(𝛽)}{
+        a filtered complex #{(K_{A\otimes\QQ},W)\in\Ob\DD^+F(X,A\otimes\QQ)} (for an \em{increasing} filtration #{W}) and an isomorphism #{K_{A\otimes\QQ}\simeq K_A\otimes\QQ} in #{\DD^+(X,A\otimes\QQ)};
+      }
+
+      \lic{(𝛾)}{
+        a bifiltered complex #{(K_\CC,W,F)\in\Ob\DD^+F_w(X,\CC)} (for an \em{increasing} filtration #{W} and a \em{decreasing} filtration #{F}) and an isomorphism #{\alpha\colon(K_\CC,W)\simeq(K_{A\otimes\QQ},W)\otimes\CC} in #{\DD^+F(X,\CC)}.
+      }
+    }
+  }
+
+  \p{
+    The following axiom must be satisfied:
+
+    \subtree[hodge-theory-iii-8.1.6-chmc]{
+      \taxon{axiom}
+      \number{CHMC}
+      \p{
+        For all #{n}, the system consisting of the complex #{\Gr_n^W(K_{A\otimes\QQ})\in\Ob\DD^+(X,A\otimes\QQ)}, the complex #{\Gr_n^W(K_\CC)\in\Ob\DD^+F(X,\CC)} filtered by #{F}, and the isomorphism
+        ##{
+          \Gr_n^W(\alpha)\colon
+          \Gr_n^W(K_{A\otimes\QQ})\otimes\CC
+          \simeq \Gr_n^W(K_\CC),
+        }
+        is a cohomological Hodge #{(A\otimes\QQ)}-complex of weight #{n}.
+      }
+    }
+  }
+}
+
+\p{
+  \oldpage{30}
+  We can trivially show:
+}
+
+\subtree[hodge-theory-iii-8.1.7]{
+  \taxon{proposition}
+  \number{8.1.7}
+
+  \p{
+    If #{K=(K_A,(K_{A\otimes\QQ},W),(K_\CC,W,F))} is a cohomological mixed Hodge #{A}-complex, then #{\Rd\Gamma K=(\Rd\Gamma K_A,\Rd\Gamma(K_{A\otimes\QQ},W),\Rd\Gamma(K_\CC,W,F))} is a mixed Hodge #{A}-complex.
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.8]{
+  \taxon{scholium}
+  \number{8.1.8}
+
+  \p{
+    Let #{U} be the complement in a smooth proper scheme #{X}, of a normal crossing divisor #{D}, with #{j\colon U\hookrightarrow X} the inclusion morphism.
+    Let #{W} be the canonical filtration on #{\Rd j_*\QQ=\Rd j_*\ZZ\otimes\QQ\colon W_n(\Rd j_*\QQ)=\tau_{\leqslant n}(\Rd j_*\QQ)}.
+    We have (\ref{hodge-theory-ii-3.1.8})
+    ##{
+      (\Rd j_*\QQ)\otimes\CC
+      \xrightarrow{\approx} \Rd j_*\CC
+      \xrightarrow{\approx} j_*\Omega_U^\bullet
+      \xleftarrow{\approx} \Omega_X^\bullet(\log D).
+    }
+    Let #{W} be the weight filtration of #{\Omega_+X^\bullet(\log D)}, and #{F} its Hodge filtration (by the #{\sigma_{\geqslant p}}).
+    Then \ref{hodge-theory-ii-3.1.8} gives an isomorphism #{(\Rd j_*\QQ,W)\otimes\CC\simeq(\Omega_X^\bullet(\log D),W)} in #{\DD^+F(X,\CC)}, and, by \ref{hodge-theory-ii-3.1.5} and \ref{hodge-theory-ii-3.1.9},
+    ##{
+      (\Rd j_*\ZZ,(\Rd j_*\QQ,W),(\Omega_X^\bullet(\log D), W, F))
+    }
+    is a cohomological mixed Hodge complex on #{X}.
   }
 }
