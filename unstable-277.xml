@@ -7,102 +7,10 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2658</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.3.15</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>It suffices, by duality, to prove (i).</fr:p>
-
-    <fr:p>By <fr:ref
-addr="hodge-theory-ii-1.3.3"
-href="hodge-theory-ii-1.3.3.xml"
-number="1.3.3" /> and <fr:ref
-addr="hodge-theory-ii-1.3.4"
-href="hodge-theory-ii-1.3.4.xml"
-taxon="Proposition"
-number="1.3.4" />, the complex <fr:tex
-display="inline"><![CDATA[E_1(K,W)]]></fr:tex> filtered by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is a quotient of the filtered complex <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_{\operatorname {Dec}(W)}(K)]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> be the filtered complex given by the kernel, which is acyclic by (ii) of <fr:ref
-addr="hodge-theory-ii-1.3.4"
-href="hodge-theory-ii-1.3.4.xml"
-taxon="Proposition"
-number="1.3.4" />.
-      The long exact sequence in cohomology associated to the exact sequence of complexes
-      <fr:tex
-display="block"><![CDATA[         0         \to  \operatorname {Gr}_F(U)         \to  \operatorname {Gr}_F(\operatorname {Gr}_{\operatorname {Dec}(W)}(K))         \to  \operatorname {Gr}_F(E_1(K,W))         \to  0       ]]></fr:tex>
-      shows that <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is a filtered quasi-isomorphism if and only if <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F(U)]]></fr:tex> is an acyclic complex.
-      By <fr:ref
-addr="hodge-theory-ii-1.3.2"
-href="hodge-theory-ii-1.3.2.xml"
-taxon="Proposition"
-number="1.3.2" />, and since <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> is acyclic, this reduces to asking that the differentials of <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> be strictly compatible with the filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>.
-      From <fr:ref
-addr="hodge-theory-ii-1.3.3.1"
-href="hodge-theory-ii-1.3.3.1.xml"
-taxon="Equation"
-number="1.3.3.1" /> we obtain that <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> is the sum over <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> of the complexes
-      <fr:tex
-display="block"><![CDATA[         (U^p)^n         = B_1^{p+n,-p}/Z_1^{p+1+n,-p-1}       ]]></fr:tex>
-      endowed with the filtration induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>.</fr:p>
-
-    <fr:p>Each differential <fr:tex
-display="inline"><![CDATA[d]]></fr:tex> of each of the complexes <fr:tex
-display="inline"><![CDATA[U^p]]></fr:tex> fits into a commutative diagram of filtered objects of the following type, where, for simplicity, we have omitted the total or complementary degree:
-
-      
-  <fr:embedded-tex
-hash="8181a2f04a99d36fed60b4d5682bf7b4"><fr:embedded-tex-preamble><![CDATA[
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        B^p/Z^{p+1}
-          \ar [rrr,"d"]
-          \ar [dr]
-        &&& B^{p+1}/Z^{p+1}
-          \ar [dd]
-      \\& \operatorname {Coim}(d)
-          \ar [r,"(5)"]
-        & \operatorname {Im}(d)
-          \ar [ur] \ar [dr]
-      \\W^{p+1}/Z^{p+1}
-          \ar [uu]
-          \ar [ur]
-          \ar [rrr,near start,swap,"(3)"]
-          \ar [white,urr,near end,swap,"\color {black}(4)"]
-        &&& B^{p+1}/W^{p+2}
-          \ar [d]
-      \\W^{p+1}/W^{p+2}
-          \ar [u]
-          \ar [rrr,near start,swap,"(1)"]
-          \ar [white,urrr,"\color {black}(2)"description]
-        &&& W^{p+1}/W^{p+2}
-      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-
-
-      By hypothesis, the morphism <fr:tex
-display="inline"><![CDATA[(1)]]></fr:tex> is strict.
-      Since the square <fr:tex
-display="inline"><![CDATA[(2)]]></fr:tex> is exactly the canonical decomposition of <fr:tex
-display="inline"><![CDATA[(1)]]></fr:tex>, the arrow <fr:tex
-display="inline"><![CDATA[(3)]]></fr:tex> is a filtered isomorphism.
-      The arrows of the trapezium <fr:tex
-display="inline"><![CDATA[(4)]]></fr:tex> are isomorphisms;
-      they are thus filtered isomorphisms, since <fr:tex
-display="inline"><![CDATA[(3)]]></fr:tex> is a filtered isomorphism.
-      The fact that <fr:tex
-display="inline"><![CDATA[(5)]]></fr:tex> is a filtered isomorphism implies that <fr:tex
-display="inline"><![CDATA[d]]></fr:tex> is strict.
-      This proves the lemma.</fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2697</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.3.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Claim (i) is evident, (ii) is its dual, and (iii) follows by induction.
+      The first claim of (iv) is easy to verify, and the second is its dual.</fr:p>
   </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -118,44 +26,57 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2659</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.3.15</fr:addr><fr:route>hodge-theory-ii-1.3.15.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>1.3.15</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If the filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is biregular, and if, on the <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^p(K)]]></fr:tex>, the morphisms <fr:tex
-display="inline"><![CDATA[d]]></fr:tex> are strictly compatible with the filtration induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>, then
-
-    
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2698</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.3.13</fr:addr><fr:route>hodge-theory-ii-1.3.13.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>1.3.13</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
-      
+    
  <html:li
 style="list-style-type: &quot;(i) &quot;">
-        The morphism <fr:ref
-addr="hodge-theory-ii-1.3.3.2"
-href="hodge-theory-ii-1.3.3.2.xml"
-taxon="Equation"
-number="1.3.3.2" /> of graded complexes filtered by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>
-        <fr:tex
-display="block"><![CDATA[           u\colon  \operatorname {Gr}_{\operatorname {Dec}(W)}(K)           \to  E_1(K,W)         ]]></fr:tex>
-        is a filtered quasi-isomorphism.
-      </html:li>
+      For the first direct filtration, the morphisms <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex> are compatible with the filtrations.
+      If <fr:tex
+display="inline"><![CDATA[E_{r+1}^{pq}]]></fr:tex> is considered as a quotient of a sub-object of <fr:tex
+display="inline"><![CDATA[E_r^{pq}]]></fr:tex>, then the first direct filtration on <fr:tex
+display="inline"><![CDATA[E_{r+1}^{pq}]]></fr:tex> is finer than the filtration <fr:tex
+display="inline"><![CDATA[F']]></fr:tex> induced by the first direct filtration on <fr:tex
+display="inline"><![CDATA[E_r^{pq}]]></fr:tex>Y we have <fr:tex
+display="inline"><![CDATA[F_d(E_{r+1}^{pq})\subset  F'(E_{r+1}^{pq})]]></fr:tex>.
+    </html:li>
 
 
-      
+    
  <html:li
 style="list-style-type: &quot;(ii) &quot;">
-        Dually, the morphism in <fr:ref
-addr="hodge-theory-ii-1.3.5"
-href="hodge-theory-ii-1.3.5.xml"
-number="1.3.5" />
-        <fr:tex
-display="block"><![CDATA[           u\colon  E_1(K,W)           \to  \operatorname {Gr}_{\operatorname {Dec}^\bullet (W)}(K)         ]]></fr:tex>
-        is a filtered quasi-isomorphism.
-      </html:li>
+      Dually, the morphisms <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex> are compatible with the second direct filtration, and the second direct filtration on <fr:tex
+display="inline"><![CDATA[E_{r+1}^{pq}]]></fr:tex> is less fine than the filtration induced by that of <fr:tex
+display="inline"><![CDATA[E_r^{pq}]]></fr:tex>.
+    </html:li>
 
-    </html:ol></fr:p>
+
+    
+ <html:li
+style="list-style-type: &quot;(iii) &quot;">
+      <fr:tex
+display="inline"><![CDATA[F_d(E_r^{pq})\subset  F_r(E_r^{pq})\subset  F_{d^*}(E_r^{pq})]]></fr:tex>.
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(iv) &quot;">
+      On <fr:tex
+display="inline"><![CDATA[E_\infty ^{pq}]]></fr:tex>, the filtration induced by the filtration <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^\bullet (K)]]></fr:tex> <fr:ref
+addr="hodge-theory-ii-1.3.12"
+href="hodge-theory-ii-1.3.12.xml"
+number="1.3.12" /> is finer than the first direct filtration and less fine than the second.
+    </html:li>
+
+  </html:ol>
+
   
     
     <fr:tree
@@ -165,102 +86,10 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>944</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.3.15</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>It suffices, by duality, to prove (i).</fr:p>
-
-    <fr:p>By <fr:ref
-addr="hodge-theory-ii-1.3.3"
-href="hodge-theory-ii-1.3.3.xml"
-number="1.3.3" /> and <fr:ref
-addr="hodge-theory-ii-1.3.4"
-href="hodge-theory-ii-1.3.4.xml"
-taxon="Proposition"
-number="1.3.4" />, the complex <fr:tex
-display="inline"><![CDATA[E_1(K,W)]]></fr:tex> filtered by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is a quotient of the filtered complex <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_{\operatorname {Dec}(W)}(K)]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> be the filtered complex given by the kernel, which is acyclic by (ii) of <fr:ref
-addr="hodge-theory-ii-1.3.4"
-href="hodge-theory-ii-1.3.4.xml"
-taxon="Proposition"
-number="1.3.4" />.
-      The long exact sequence in cohomology associated to the exact sequence of complexes
-      <fr:tex
-display="block"><![CDATA[         0         \to  \operatorname {Gr}_F(U)         \to  \operatorname {Gr}_F(\operatorname {Gr}_{\operatorname {Dec}(W)}(K))         \to  \operatorname {Gr}_F(E_1(K,W))         \to  0       ]]></fr:tex>
-      shows that <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is a filtered quasi-isomorphism if and only if <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F(U)]]></fr:tex> is an acyclic complex.
-      By <fr:ref
-addr="hodge-theory-ii-1.3.2"
-href="hodge-theory-ii-1.3.2.xml"
-taxon="Proposition"
-number="1.3.2" />, and since <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> is acyclic, this reduces to asking that the differentials of <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> be strictly compatible with the filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>.
-      From <fr:ref
-addr="hodge-theory-ii-1.3.3.1"
-href="hodge-theory-ii-1.3.3.1.xml"
-taxon="Equation"
-number="1.3.3.1" /> we obtain that <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> is the sum over <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> of the complexes
-      <fr:tex
-display="block"><![CDATA[         (U^p)^n         = B_1^{p+n,-p}/Z_1^{p+1+n,-p-1}       ]]></fr:tex>
-      endowed with the filtration induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>.</fr:p>
-
-    <fr:p>Each differential <fr:tex
-display="inline"><![CDATA[d]]></fr:tex> of each of the complexes <fr:tex
-display="inline"><![CDATA[U^p]]></fr:tex> fits into a commutative diagram of filtered objects of the following type, where, for simplicity, we have omitted the total or complementary degree:
-
-      
-  <fr:embedded-tex
-hash="8181a2f04a99d36fed60b4d5682bf7b4"><fr:embedded-tex-preamble><![CDATA[
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        B^p/Z^{p+1}
-          \ar [rrr,"d"]
-          \ar [dr]
-        &&& B^{p+1}/Z^{p+1}
-          \ar [dd]
-      \\& \operatorname {Coim}(d)
-          \ar [r,"(5)"]
-        & \operatorname {Im}(d)
-          \ar [ur] \ar [dr]
-      \\W^{p+1}/Z^{p+1}
-          \ar [uu]
-          \ar [ur]
-          \ar [rrr,near start,swap,"(3)"]
-          \ar [white,urr,near end,swap,"\color {black}(4)"]
-        &&& B^{p+1}/W^{p+2}
-          \ar [d]
-      \\W^{p+1}/W^{p+2}
-          \ar [u]
-          \ar [rrr,near start,swap,"(1)"]
-          \ar [white,urrr,"\color {black}(2)"description]
-        &&& W^{p+1}/W^{p+2}
-      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-
-
-      By hypothesis, the morphism <fr:tex
-display="inline"><![CDATA[(1)]]></fr:tex> is strict.
-      Since the square <fr:tex
-display="inline"><![CDATA[(2)]]></fr:tex> is exactly the canonical decomposition of <fr:tex
-display="inline"><![CDATA[(1)]]></fr:tex>, the arrow <fr:tex
-display="inline"><![CDATA[(3)]]></fr:tex> is a filtered isomorphism.
-      The arrows of the trapezium <fr:tex
-display="inline"><![CDATA[(4)]]></fr:tex> are isomorphisms;
-      they are thus filtered isomorphisms, since <fr:tex
-display="inline"><![CDATA[(3)]]></fr:tex> is a filtered isomorphism.
-      The fact that <fr:tex
-display="inline"><![CDATA[(5)]]></fr:tex> is a filtered isomorphism implies that <fr:tex
-display="inline"><![CDATA[d]]></fr:tex> is strict.
-      This proves the lemma.</fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>948</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.3.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Claim (i) is evident, (ii) is its dual, and (iii) follows by induction.
+      The first claim of (iv) is easy to verify, and the second is its dual.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
