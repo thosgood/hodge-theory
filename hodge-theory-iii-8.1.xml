@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2989</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3008</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8.1</fr:addr><fr:route>hodge-theory-iii-8.1.xml</fr:route><fr:title
 text="Hodge Theory III › Hodge theory of algebraic spaces › Hodge complexes"><fr:link
 type="local"
@@ -265,7 +265,125 @@ show-metadata="false"
 expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1347</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.6</fr:addr><fr:route>hodge-theory-iii-8.1.6.xml</fr:route><fr:authors /><fr:number>8.1.6</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
+type="user">hodge-theory-iii-8.1.6</fr:addr><fr:route>hodge-theory-iii-8.1.6.xml</fr:route><fr:authors /><fr:number>8.1.6</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>cohomological mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex</fr:em> <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> on a topological space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> consists of:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        a complex <fr:tex
+display="inline"><![CDATA[K_A\in \operatorname {Ob}\mathrm {D}^+(X,A)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}^k(X,K_A)]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-module of finite type for all <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}(X,K_A)\otimes \mathbb {Q}\xrightarrow {\sim }\operatorname {\mathbb {H}}(X,K_A\otimes \mathbb {Q})]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a filtered complex <fr:tex
+display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}},W)\in \operatorname {Ob}\mathrm {D}^+F(X,A\otimes \mathbb {Q})]]></fr:tex> (for an <fr:em>increasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>) and an isomorphism <fr:tex
+display="inline"><![CDATA[K_{A\otimes \mathbb {Q}}\simeq  K_A\otimes \mathbb {Q}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+(X,A\otimes \mathbb {Q})]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛾) &quot;">
+        a bifiltered complex <fr:tex
+display="inline"><![CDATA[(K_\mathbb {C},W,F)\in \operatorname {Ob}\mathrm {D}^+F_w(X,\mathbb {C})]]></fr:tex> (for an <fr:em>increasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> and a <fr:em>decreasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>) and an isomorphism <fr:tex
+display="inline"><![CDATA[\alpha \colon (K_\mathbb {C},W)\simeq (K_{A\otimes \mathbb {Q}},W)\otimes \mathbb {C}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>The following axiom must be satisfied:
+
+    <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1352</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.6-chmc</fr:addr><fr:route>hodge-theory-iii-8.1.6-chmc.xml</fr:route><fr:taxon>Axiom</fr:taxon><fr:authors /><fr:number>CHMC</fr:number><fr:parent>hodge-theory-iii-8.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For all <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, the system consisting of the complex <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(K_{A\otimes \mathbb {Q}})\in \operatorname {Ob}\mathrm {D}^+(X,A\otimes \mathbb {Q})]]></fr:tex>, the complex <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(K_\mathbb {C})\in \operatorname {Ob}\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex> filtered by <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>, and the isomorphism
+        <fr:tex
+display="block"><![CDATA[           \operatorname {Gr}_n^W(\alpha )\colon            \operatorname {Gr}_n^W(K_{A\otimes \mathbb {Q}})\otimes \mathbb {C}           \simeq  \operatorname {Gr}_n^W(K_\mathbb {C}),         ]]></fr:tex>
+        is a cohomological Hodge <fr:tex
+display="inline"><![CDATA[(A\otimes \mathbb {Q})]]></fr:tex>-complex of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can trivially show:</fr:p><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1353</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.7</fr:addr><fr:route>hodge-theory-iii-8.1.7.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>8.1.7</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[K=(K_A,(K_{A\otimes \mathbb {Q}},W),(K_\mathbb {C},W,F))]]></fr:tex> is a cohomological mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex, then <fr:tex
+display="inline"><![CDATA[\mathrm {R}\Gamma  K=(\mathrm {R}\Gamma  K_A,\mathrm {R}\Gamma (K_{A\otimes \mathbb {Q}},W),\mathrm {R}\Gamma (K_\mathbb {C},W,F))]]></fr:tex> is a mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1354</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.8</fr:addr><fr:route>hodge-theory-iii-8.1.8.xml</fr:route><fr:taxon>Scholium</fr:taxon><fr:authors /><fr:number>8.1.8</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> be the complement in a smooth proper scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, of a normal crossing divisor <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[j\colon  U\hookrightarrow  X]]></fr:tex> the inclusion morphism.
+    Let <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> be the canonical filtration on <fr:tex
+display="inline"><![CDATA[\mathrm {R} j_*\mathbb {Q}=\mathrm {R} j_*\mathbb {Z}\otimes \mathbb {Q}\colon  W_n(\mathrm {R} j_*\mathbb {Q})=\tau _{\leqslant  n}(\mathrm {R} j_*\mathbb {Q})]]></fr:tex>.
+    We have (<fr:ref
+addr="hodge-theory-ii-3.1.8"
+href="hodge-theory-ii-3.1.8.xml"
+taxon="Proposition"
+number="3.1.8" />)
+    <fr:tex
+display="block"><![CDATA[       (\mathrm {R} j_*\mathbb {Q})\otimes \mathbb {C}       \xrightarrow {\approx } \mathrm {R} j_*\mathbb {C}       \xrightarrow {\approx } j_*\Omega _U^\bullet        \xleftarrow {\approx } \Omega _X^\bullet (\log  D).     ]]></fr:tex>
+    Let <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> be the weight filtration of <fr:tex
+display="inline"><![CDATA[\Omega _+X^\bullet (\log  D)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> its Hodge filtration (by the <fr:tex
+display="inline"><![CDATA[\sigma _{\geqslant  p}]]></fr:tex>).
+    Then <fr:ref
+addr="hodge-theory-ii-3.1.8"
+href="hodge-theory-ii-3.1.8.xml"
+taxon="Proposition"
+number="3.1.8" /> gives an isomorphism <fr:tex
+display="inline"><![CDATA[(\mathrm {R} j_*\mathbb {Q},W)\otimes \mathbb {C}\simeq (\Omega _X^\bullet (\log  D),W)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex>, and, by <fr:ref
+addr="hodge-theory-ii-3.1.5"
+href="hodge-theory-ii-3.1.5.xml"
+number="3.1.5" /> and <fr:ref
+addr="hodge-theory-ii-3.1.9"
+href="hodge-theory-ii-3.1.9.xml"
+taxon="Proposition"
+number="3.1.9" />,
+    <fr:tex
+display="block"><![CDATA[       (\mathrm {R} j_*\mathbb {Z},(\mathrm {R} j_*\mathbb {Q},W),(\Omega _X^\bullet (\log  D), W, F))     ]]></fr:tex>
+    is a cohomological mixed Hodge complex on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -280,7 +398,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2990</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3009</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8</fr:addr><fr:route>hodge-theory-iii-8.xml</fr:route><fr:title
 text="Hodge Theory III › Hodge theory of algebraic spaces"><fr:link
 type="local"
@@ -293,7 +411,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2773</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2792</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8.1</fr:addr><fr:route>hodge-theory-iii-8.1.xml</fr:route><fr:title
 text="Hodge complexes">Hodge complexes</fr:title><fr:authors /><fr:number>8.1</fr:number><fr:parent>hodge-theory-iii-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -543,7 +661,125 @@ show-metadata="false"
 expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1347</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.6</fr:addr><fr:route>hodge-theory-iii-8.1.6.xml</fr:route><fr:authors /><fr:number>8.1.6</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+type="user">hodge-theory-iii-8.1.6</fr:addr><fr:route>hodge-theory-iii-8.1.6.xml</fr:route><fr:authors /><fr:number>8.1.6</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>cohomological mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex</fr:em> <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> on a topological space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> consists of:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        a complex <fr:tex
+display="inline"><![CDATA[K_A\in \operatorname {Ob}\mathrm {D}^+(X,A)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}^k(X,K_A)]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-module of finite type for all <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}(X,K_A)\otimes \mathbb {Q}\xrightarrow {\sim }\operatorname {\mathbb {H}}(X,K_A\otimes \mathbb {Q})]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a filtered complex <fr:tex
+display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}},W)\in \operatorname {Ob}\mathrm {D}^+F(X,A\otimes \mathbb {Q})]]></fr:tex> (for an <fr:em>increasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>) and an isomorphism <fr:tex
+display="inline"><![CDATA[K_{A\otimes \mathbb {Q}}\simeq  K_A\otimes \mathbb {Q}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+(X,A\otimes \mathbb {Q})]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛾) &quot;">
+        a bifiltered complex <fr:tex
+display="inline"><![CDATA[(K_\mathbb {C},W,F)\in \operatorname {Ob}\mathrm {D}^+F_w(X,\mathbb {C})]]></fr:tex> (for an <fr:em>increasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> and a <fr:em>decreasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>) and an isomorphism <fr:tex
+display="inline"><![CDATA[\alpha \colon (K_\mathbb {C},W)\simeq (K_{A\otimes \mathbb {Q}},W)\otimes \mathbb {C}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>The following axiom must be satisfied:
+
+    <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1352</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.6-chmc</fr:addr><fr:route>hodge-theory-iii-8.1.6-chmc.xml</fr:route><fr:taxon>Axiom</fr:taxon><fr:authors /><fr:number>CHMC</fr:number><fr:parent>hodge-theory-iii-8.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For all <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, the system consisting of the complex <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(K_{A\otimes \mathbb {Q}})\in \operatorname {Ob}\mathrm {D}^+(X,A\otimes \mathbb {Q})]]></fr:tex>, the complex <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(K_\mathbb {C})\in \operatorname {Ob}\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex> filtered by <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>, and the isomorphism
+        <fr:tex
+display="block"><![CDATA[           \operatorname {Gr}_n^W(\alpha )\colon            \operatorname {Gr}_n^W(K_{A\otimes \mathbb {Q}})\otimes \mathbb {C}           \simeq  \operatorname {Gr}_n^W(K_\mathbb {C}),         ]]></fr:tex>
+        is a cohomological Hodge <fr:tex
+display="inline"><![CDATA[(A\otimes \mathbb {Q})]]></fr:tex>-complex of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can trivially show:</fr:p><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1353</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.7</fr:addr><fr:route>hodge-theory-iii-8.1.7.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>8.1.7</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[K=(K_A,(K_{A\otimes \mathbb {Q}},W),(K_\mathbb {C},W,F))]]></fr:tex> is a cohomological mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex, then <fr:tex
+display="inline"><![CDATA[\mathrm {R}\Gamma  K=(\mathrm {R}\Gamma  K_A,\mathrm {R}\Gamma (K_{A\otimes \mathbb {Q}},W),\mathrm {R}\Gamma (K_\mathbb {C},W,F))]]></fr:tex> is a mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1354</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.8</fr:addr><fr:route>hodge-theory-iii-8.1.8.xml</fr:route><fr:taxon>Scholium</fr:taxon><fr:authors /><fr:number>8.1.8</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> be the complement in a smooth proper scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, of a normal crossing divisor <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[j\colon  U\hookrightarrow  X]]></fr:tex> the inclusion morphism.
+    Let <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> be the canonical filtration on <fr:tex
+display="inline"><![CDATA[\mathrm {R} j_*\mathbb {Q}=\mathrm {R} j_*\mathbb {Z}\otimes \mathbb {Q}\colon  W_n(\mathrm {R} j_*\mathbb {Q})=\tau _{\leqslant  n}(\mathrm {R} j_*\mathbb {Q})]]></fr:tex>.
+    We have (<fr:ref
+addr="hodge-theory-ii-3.1.8"
+href="hodge-theory-ii-3.1.8.xml"
+taxon="Proposition"
+number="3.1.8" />)
+    <fr:tex
+display="block"><![CDATA[       (\mathrm {R} j_*\mathbb {Q})\otimes \mathbb {C}       \xrightarrow {\approx } \mathrm {R} j_*\mathbb {C}       \xrightarrow {\approx } j_*\Omega _U^\bullet        \xleftarrow {\approx } \Omega _X^\bullet (\log  D).     ]]></fr:tex>
+    Let <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> be the weight filtration of <fr:tex
+display="inline"><![CDATA[\Omega _+X^\bullet (\log  D)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> its Hodge filtration (by the <fr:tex
+display="inline"><![CDATA[\sigma _{\geqslant  p}]]></fr:tex>).
+    Then <fr:ref
+addr="hodge-theory-ii-3.1.8"
+href="hodge-theory-ii-3.1.8.xml"
+taxon="Proposition"
+number="3.1.8" /> gives an isomorphism <fr:tex
+display="inline"><![CDATA[(\mathrm {R} j_*\mathbb {Q},W)\otimes \mathbb {C}\simeq (\Omega _X^\bullet (\log  D),W)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex>, and, by <fr:ref
+addr="hodge-theory-ii-3.1.5"
+href="hodge-theory-ii-3.1.5.xml"
+number="3.1.5" /> and <fr:ref
+addr="hodge-theory-ii-3.1.9"
+href="hodge-theory-ii-3.1.9.xml"
+taxon="Proposition"
+number="3.1.9" />,
+    <fr:tex
+display="block"><![CDATA[       (\mathrm {R} j_*\mathbb {Z},(\mathrm {R} j_*\mathbb {Q},W),(\Omega _X^\bullet (\log  D), W, F))     ]]></fr:tex>
+    is a cohomological mixed Hodge complex on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -558,7 +794,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="true"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2991</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3010</fr:anchor><fr:addr
 type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
 text="Deligne's &quot;Hodge Theory I, II, and III&quot;">Deligne's "Hodge Theory I, II, and III"</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>"Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
@@ -1097,7 +1333,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2992</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3011</fr:anchor><fr:addr
 type="user">hodge-theory-ii-2.2.1</fr:addr><fr:route>hodge-theory-ii-2.2.1.xml</fr:route><fr:authors /><fr:number>2.2.1</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[X]]></fr:tex> be a compact Kähler variety (for example, smooth and projective).
     By the holomorphic Poincaré lemma, the de Rham complex <fr:tex

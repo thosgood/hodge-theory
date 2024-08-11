@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2986</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3005</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8</fr:addr><fr:route>hodge-theory-iii-8.xml</fr:route><fr:title
 text="Hodge Theory III › Hodge theory of algebraic spaces"><fr:link
 type="local"
@@ -20,7 +20,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2773</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2792</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8.1</fr:addr><fr:route>hodge-theory-iii-8.1.xml</fr:route><fr:title
 text="Hodge complexes">Hodge complexes</fr:title><fr:authors /><fr:number>8.1</fr:number><fr:parent>hodge-theory-iii-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -270,7 +270,125 @@ show-metadata="false"
 expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1347</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.6</fr:addr><fr:route>hodge-theory-iii-8.1.6.xml</fr:route><fr:authors /><fr:number>8.1.6</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
+type="user">hodge-theory-iii-8.1.6</fr:addr><fr:route>hodge-theory-iii-8.1.6.xml</fr:route><fr:authors /><fr:number>8.1.6</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>cohomological mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex</fr:em> <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> on a topological space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> consists of:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        a complex <fr:tex
+display="inline"><![CDATA[K_A\in \operatorname {Ob}\mathrm {D}^+(X,A)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}^k(X,K_A)]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-module of finite type for all <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}(X,K_A)\otimes \mathbb {Q}\xrightarrow {\sim }\operatorname {\mathbb {H}}(X,K_A\otimes \mathbb {Q})]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a filtered complex <fr:tex
+display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}},W)\in \operatorname {Ob}\mathrm {D}^+F(X,A\otimes \mathbb {Q})]]></fr:tex> (for an <fr:em>increasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>) and an isomorphism <fr:tex
+display="inline"><![CDATA[K_{A\otimes \mathbb {Q}}\simeq  K_A\otimes \mathbb {Q}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+(X,A\otimes \mathbb {Q})]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛾) &quot;">
+        a bifiltered complex <fr:tex
+display="inline"><![CDATA[(K_\mathbb {C},W,F)\in \operatorname {Ob}\mathrm {D}^+F_w(X,\mathbb {C})]]></fr:tex> (for an <fr:em>increasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> and a <fr:em>decreasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>) and an isomorphism <fr:tex
+display="inline"><![CDATA[\alpha \colon (K_\mathbb {C},W)\simeq (K_{A\otimes \mathbb {Q}},W)\otimes \mathbb {C}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>The following axiom must be satisfied:
+
+    <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1352</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.6-chmc</fr:addr><fr:route>hodge-theory-iii-8.1.6-chmc.xml</fr:route><fr:taxon>Axiom</fr:taxon><fr:authors /><fr:number>CHMC</fr:number><fr:parent>hodge-theory-iii-8.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For all <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, the system consisting of the complex <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(K_{A\otimes \mathbb {Q}})\in \operatorname {Ob}\mathrm {D}^+(X,A\otimes \mathbb {Q})]]></fr:tex>, the complex <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(K_\mathbb {C})\in \operatorname {Ob}\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex> filtered by <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>, and the isomorphism
+        <fr:tex
+display="block"><![CDATA[           \operatorname {Gr}_n^W(\alpha )\colon            \operatorname {Gr}_n^W(K_{A\otimes \mathbb {Q}})\otimes \mathbb {C}           \simeq  \operatorname {Gr}_n^W(K_\mathbb {C}),         ]]></fr:tex>
+        is a cohomological Hodge <fr:tex
+display="inline"><![CDATA[(A\otimes \mathbb {Q})]]></fr:tex>-complex of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can trivially show:</fr:p><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1353</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.7</fr:addr><fr:route>hodge-theory-iii-8.1.7.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>8.1.7</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[K=(K_A,(K_{A\otimes \mathbb {Q}},W),(K_\mathbb {C},W,F))]]></fr:tex> is a cohomological mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex, then <fr:tex
+display="inline"><![CDATA[\mathrm {R}\Gamma  K=(\mathrm {R}\Gamma  K_A,\mathrm {R}\Gamma (K_{A\otimes \mathbb {Q}},W),\mathrm {R}\Gamma (K_\mathbb {C},W,F))]]></fr:tex> is a mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1354</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.8</fr:addr><fr:route>hodge-theory-iii-8.1.8.xml</fr:route><fr:taxon>Scholium</fr:taxon><fr:authors /><fr:number>8.1.8</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> be the complement in a smooth proper scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, of a normal crossing divisor <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[j\colon  U\hookrightarrow  X]]></fr:tex> the inclusion morphism.
+    Let <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> be the canonical filtration on <fr:tex
+display="inline"><![CDATA[\mathrm {R} j_*\mathbb {Q}=\mathrm {R} j_*\mathbb {Z}\otimes \mathbb {Q}\colon  W_n(\mathrm {R} j_*\mathbb {Q})=\tau _{\leqslant  n}(\mathrm {R} j_*\mathbb {Q})]]></fr:tex>.
+    We have (<fr:ref
+addr="hodge-theory-ii-3.1.8"
+href="hodge-theory-ii-3.1.8.xml"
+taxon="Proposition"
+number="3.1.8" />)
+    <fr:tex
+display="block"><![CDATA[       (\mathrm {R} j_*\mathbb {Q})\otimes \mathbb {C}       \xrightarrow {\approx } \mathrm {R} j_*\mathbb {C}       \xrightarrow {\approx } j_*\Omega _U^\bullet        \xleftarrow {\approx } \Omega _X^\bullet (\log  D).     ]]></fr:tex>
+    Let <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> be the weight filtration of <fr:tex
+display="inline"><![CDATA[\Omega _+X^\bullet (\log  D)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> its Hodge filtration (by the <fr:tex
+display="inline"><![CDATA[\sigma _{\geqslant  p}]]></fr:tex>).
+    Then <fr:ref
+addr="hodge-theory-ii-3.1.8"
+href="hodge-theory-ii-3.1.8.xml"
+taxon="Proposition"
+number="3.1.8" /> gives an isomorphism <fr:tex
+display="inline"><![CDATA[(\mathrm {R} j_*\mathbb {Q},W)\otimes \mathbb {C}\simeq (\Omega _X^\bullet (\log  D),W)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex>, and, by <fr:ref
+addr="hodge-theory-ii-3.1.5"
+href="hodge-theory-ii-3.1.5.xml"
+number="3.1.5" /> and <fr:ref
+addr="hodge-theory-ii-3.1.9"
+href="hodge-theory-ii-3.1.9.xml"
+taxon="Proposition"
+number="3.1.9" />,
+    <fr:tex
+display="block"><![CDATA[       (\mathrm {R} j_*\mathbb {Z},(\mathrm {R} j_*\mathbb {Q},W),(\Omega _X^\bullet (\log  D), W, F))     ]]></fr:tex>
+    is a cohomological mixed Hodge complex on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -285,7 +403,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2987</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3006</fr:anchor><fr:addr
 type="user">hodge-theory-iii</fr:addr><fr:route>hodge-theory-iii.xml</fr:route><fr:title
 text="Hodge Theory III">Hodge Theory III</fr:title><fr:taxon>Volume</fr:taxon><fr:authors /><fr:number>III</fr:number></fr:frontmatter><fr:mainmatter><fr:p>P. Deligne.
   "Théorie de Hodge II".
@@ -299,7 +417,7 @@ show-heading="true"
 show-metadata="false"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2765</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2784</fr:anchor><fr:addr
 type="user">hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title
 text="Introduction">Introduction</fr:title><fr:authors /><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>This article follows <fr:link
 type="local"
@@ -505,7 +623,7 @@ show-heading="true"
 show-metadata="false"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2766</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2785</fr:anchor><fr:addr
 type="user">hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title
 text="Terminology and notation">Terminology and notation</fr:title><fr:authors /><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -514,7 +632,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1987</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1997</fr:anchor><fr:addr
 type="user">hodge-theory-iii-0.1</fr:addr><fr:route>hodge-theory-iii-0.1.xml</fr:route><fr:authors /><fr:number>III.0.1</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[u\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces.
     We say that <fr:tex
@@ -526,7 +644,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1988</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1998</fr:anchor><fr:addr
 type="user">hodge-theory-iii-0.2</fr:addr><fr:route>hodge-theory-iii-0.2.xml</fr:route><fr:authors /><fr:number>III.0.2</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Following Gabriel and Zisman, we say <fr:em>simplicial</fr:em> where we would have previously said semi-simplicial.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
@@ -534,7 +652,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1989</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1999</fr:anchor><fr:addr
 type="user">hodge-theory-iii-0.3</fr:addr><fr:route>hodge-theory-iii-0.3.xml</fr:route><fr:authors /><fr:number>III.0.3</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We denote by <fr:tex
 display="inline"><![CDATA[A]]></fr:tex> a Noetherian subring of <fr:tex
 display="inline"><![CDATA[\mathbb {R}]]></fr:tex> such that <fr:tex
@@ -549,7 +667,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1990</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2000</fr:anchor><fr:addr
 type="user">hodge-theory-iii-0.4</fr:addr><fr:route>hodge-theory-iii-0.4.xml</fr:route><fr:authors /><fr:number>III.0.4</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>mixed Hodge <fr:tex
 display="inline"><![CDATA[A]]></fr:tex>-structure</fr:em> consists of an <fr:tex
 display="inline"><![CDATA[A]]></fr:tex>-module <fr:tex
@@ -583,7 +701,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1991</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2001</fr:anchor><fr:addr
 type="user">hodge-theory-iii-0.5</fr:addr><fr:route>hodge-theory-iii-0.5.xml</fr:route><fr:authors /><fr:number>III.0.5</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[\mathscr {E}]]></fr:tex> be a subset of <fr:tex
 display="inline"><![CDATA[\mathbb {Z}\times \mathbb {Z}]]></fr:tex>.
@@ -598,7 +716,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1992</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2002</fr:anchor><fr:addr
 type="user">hodge-theory-iii-0.6</fr:addr><fr:route>hodge-theory-iii-0.6.xml</fr:route><fr:authors /><fr:number>III.0.6</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>From now on, we denote by <fr:tex
 display="inline"><![CDATA[\Omega _X^\bullet (\log  D)]]></fr:tex> what we previously denoted by <fr:tex
 display="inline"><![CDATA[\Omega _X^\bullet \langle  D\rangle ]]></fr:tex> (<fr:ref
@@ -611,7 +729,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1993</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2003</fr:anchor><fr:addr
 type="user">hodge-theory-iii-0.7</fr:addr><fr:route>hodge-theory-iii-0.7.xml</fr:route><fr:authors /><fr:number>III.0.7</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Unless explicitly stated otherwise, <fr:em>scheme</fr:em> means "scheme of finite type over <fr:tex
 display="inline"><![CDATA[\mathbb {C}]]></fr:tex>", and a <fr:em>sheaf</fr:em> on a scheme <fr:tex
 display="inline"><![CDATA[X]]></fr:tex> is a sheaf on the underlying topological space of <fr:tex
@@ -622,7 +740,7 @@ show-heading="true"
 show-metadata="false"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2767</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2786</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5</fr:addr><fr:route>hodge-theory-iii-5.xml</fr:route><fr:title
 text="Cohomological descent">Cohomological descent</fr:title><fr:authors /><fr:number>5</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -631,7 +749,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2757</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2776</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1</fr:addr><fr:route>hodge-theory-iii-5.1.xml</fr:route><fr:title
 text="Simplicial topological spaces">Simplicial topological spaces</fr:title><fr:authors /><fr:number>5.1</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>This section starts with some reminders for which we can refer to the homotopical seminar of Strasbourg, 1963/64.</fr:p><fr:tree
 toc="true"
@@ -640,7 +758,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2021</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2031</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.1</fr:addr><fr:route>hodge-theory-iii-5.1.1.xml</fr:route><fr:authors /><fr:number>5.1.1</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will us the following notation, where <fr:tex
 display="inline"><![CDATA[n,k\geqslant -1]]></fr:tex> are integers.
 
@@ -737,7 +855,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2022</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2032</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.2</fr:addr><fr:route>hodge-theory-iii-5.1.2.xml</fr:route><fr:authors /><fr:number>5.1.2</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
 display="inline"><![CDATA[X_\bullet \colon (\Delta )^0\to \mathscr {C}]]></fr:tex> is a simplicial object of <fr:tex
 display="inline"><![CDATA[\mathscr {C}]]></fr:tex>, then we set
@@ -775,7 +893,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2023</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2033</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.3</fr:addr><fr:route>hodge-theory-iii-5.1.3.xml</fr:route><fr:authors /><fr:number>5.1.3</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[S\in \operatorname {Ob}\mathscr {C}]]></fr:tex>.
     The <fr:em>constant simplicial object</fr:em> <fr:tex
@@ -808,7 +926,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2024</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2034</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.4</fr:addr><fr:route>hodge-theory-iii-5.1.4.xml</fr:route><fr:authors /><fr:number>5.1.4</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The coskeleton of the augmented <fr:tex
 display="inline"><![CDATA[0]]></fr:tex>-truncated simplicial object <fr:tex
 display="inline"><![CDATA[a_0\colon  X\to  S]]></fr:tex> is the simplicial object augmented over <fr:tex
@@ -823,7 +941,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2025</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2035</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.5</fr:addr><fr:route>hodge-theory-iii-5.1.5.xml</fr:route><fr:authors /><fr:number>5.1.5</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[u\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces, and <fr:tex
 display="inline"><![CDATA[F]]></fr:tex> a sheaf on <fr:tex
@@ -852,7 +970,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2026</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2036</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.5.star</fr:addr><fr:route>hodge-theory-iii-5.1.5.star.xml</fr:route><fr:taxon>Condition</fr:taxon><fr:authors /><fr:number>*</fr:number><fr:parent>hodge-theory-iii-5.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
 display="inline"><![CDATA[U'\subset  U\subset  X]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[V'\subset  V\subset  Y]]></fr:tex> such that <fr:tex
@@ -882,7 +1000,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2027</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2037</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.6</fr:addr><fr:route>hodge-theory-iii-5.1.6.xml</fr:route><fr:authors /><fr:number>5.1.6</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>simplicial topological space</fr:em> is a simplicial object of the category whose objects are topological spaces and whose morphisms are continuous maps.</fr:p><fr:p>A <fr:em>sheaf</fr:em> <fr:tex
 display="inline"><![CDATA[F^\bullet ]]></fr:tex> on a simplicial topological space <fr:tex
 display="inline"><![CDATA[X_\bullet ]]></fr:tex> consists of
@@ -923,7 +1041,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2031</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2041</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.7</fr:addr><fr:route>hodge-theory-iii-5.1.7.xml</fr:route><fr:authors /><fr:number>5.1.7</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For an open <fr:tex
 display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
 display="inline"><![CDATA[X_n]]></fr:tex>, let <fr:tex
@@ -974,7 +1092,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2035</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2045</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.8</fr:addr><fr:route>hodge-theory-iii-5.1.8.xml</fr:route><fr:authors /><fr:number>5.1.8</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>This shows that sheaves on <fr:tex
 display="inline"><![CDATA[X_\bullet ]]></fr:tex> can be interpreted as sheaves on a suitable site, and, in particular, form a topos <fr:tex
 display="inline"><![CDATA[(X_\bullet )^\sim ]]></fr:tex>.
@@ -991,7 +1109,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2036</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2046</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:taxon>Examples</fr:taxon><fr:authors /><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
@@ -1069,7 +1187,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2042</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2052</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.9.1</fr:addr><fr:route>hodge-theory-iii-5.1.9.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.9.1</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[           (\mathrm {s}{K})^n           = \bigoplus _{p+q=n} K^{pq}         \tag{5.1.9.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1082,7 +1200,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2043</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2053</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.9.2</fr:addr><fr:route>hodge-theory-iii-5.1.9.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.9.2</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[           \mathrm {d}(x^{pq})           = \mathrm {d}_K(x^{pq}) + (-1)^p\sum _i(-1)^i\delta _i x^{pq}.         \tag{5.1.9.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1097,7 +1215,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2044</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2054</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.9.3</fr:addr><fr:route>hodge-theory-iii-5.1.9.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.9.3</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[           L^r(\mathrm {s}{K})           = \bigoplus _{q\geqslant  r} K^{pq}.         \tag{5.1.9.3}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
     </html:li>
@@ -1110,7 +1228,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2045</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2055</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.10</fr:addr><fr:route>hodge-theory-iii-5.1.10.xml</fr:route><fr:authors /><fr:number>5.1.10</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[u\colon  X_\bullet \to  Y_\bullet ]]></fr:tex> be a morphism of simplicial topological spaces, with components <fr:tex
 display="inline"><![CDATA[u_n\colon  X_n\to  Y_n]]></fr:tex>.
@@ -1137,7 +1255,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2046</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2056</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.11</fr:addr><fr:route>hodge-theory-iii-5.1.11.xml</fr:route><fr:authors /><fr:number>5.1.11</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be an augmented simplicial topological space.
     If <fr:tex
@@ -1155,7 +1273,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2047</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2057</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.11.1</fr:addr><fr:route>hodge-theory-iii-5.1.11.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.11.1</fr:number><fr:parent>hodge-theory-iii-5.1.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         a_*\colon  F^\bullet          \mapsto  \operatorname {Ker}\big (           {a_0}_* F^0           \,\overset {\delta _0^*}{\underset {\delta _1^*}{\rightrightarrows }}\,           {a_1}_* F^1         \big ).       \tag{5.1.11.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1169,7 +1287,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2048</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2058</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.12</fr:addr><fr:route>hodge-theory-iii-5.1.12.xml</fr:route><fr:authors /><fr:number>5.1.12</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[S_\bullet ]]></fr:tex> be the constant simplicial space associated to <fr:tex
 display="inline"><![CDATA[S]]></fr:tex>, and <fr:tex
@@ -1200,7 +1318,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2049</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2059</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.12.1</fr:addr><fr:route>hodge-theory-iii-5.1.12.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.12.1</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         (\mathrm {s}{a_\bullet }_*K)^n         = \bigoplus _{p+q=n} {a_q}_* K^{pq}.       \tag{5.1.12.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1220,7 +1338,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2050</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2060</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.12.2</fr:addr><fr:route>hodge-theory-iii-5.1.12.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.12.2</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q({a_p}_*(K|X^p))         \Rightarrow  \operatorname {H}^{p+q}(\mathrm {s}{a_\bullet }_*K).       \tag{5.1.12.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -1229,7 +1347,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2051</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2061</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.13</fr:addr><fr:route>hodge-theory-iii-5.1.13.xml</fr:route><fr:authors /><fr:number>5.1.13</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[S=P^t]]></fr:tex> (the topological space consisting of a single point).
     We see that, for a sheaf <fr:tex
@@ -1247,7 +1365,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2052</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2062</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.1.13.1</fr:addr><fr:route>hodge-theory-iii-5.1.13.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.13.1</fr:number><fr:parent>hodge-theory-iii-5.1.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \Gamma \colon  F^\bullet          \mapsto  \operatorname {Ker}\big (           \Gamma (X_0,F^0)           \rightrightarrows  \Gamma (X_1,F^1)         \big ).       \tag{5.1.13.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1262,7 +1380,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2758</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2777</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2</fr:addr><fr:route>hodge-theory-iii-5.2.xml</fr:route><fr:title
 text="Cohomology of simplicial topological spaces">Cohomology of simplicial topological spaces</fr:title><fr:authors /><fr:number>5.2</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -1271,7 +1389,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2124</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2134</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.xml</fr:route><fr:authors /><fr:number>5.2.1</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>To each simplicial topological space <fr:tex
 display="inline"><![CDATA[X_\bullet ]]></fr:tex> is associated a usual topological space <fr:tex
 display="inline"><![CDATA[|X_\bullet |]]></fr:tex>, called its geometric realisation (see below).
@@ -1340,7 +1458,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2125</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2135</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.2</fr:addr><fr:route>hodge-theory-iii-5.2.2.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>5.2.2</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
     The functors <fr:tex
@@ -1358,7 +1476,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2126</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2136</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.3</fr:addr><fr:route>hodge-theory-iii-5.2.3.xml</fr:route><fr:authors /><fr:number>5.2.3</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[F^\bullet ]]></fr:tex> be an abelian sheaf on <fr:tex
 display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
@@ -1381,7 +1499,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2069</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2079</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1413,7 +1531,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2070</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2080</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.3.2</fr:addr><fr:route>hodge-theory-iii-5.2.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.2</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,F^p)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,F^\bullet )       \tag{5.2.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1429,7 +1547,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2127</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2137</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.4</fr:addr><fr:route>hodge-theory-iii-5.2.4.xml</fr:route><fr:authors /><fr:number>5.2.4</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will need to make precise the above construction when passing to derived categories, and to give a relative variant of it.</fr:p><fr:p>Let <fr:tex
 display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex>, let <fr:tex
 display="inline"><![CDATA[S_\bullet ]]></fr:tex> be the constant simplicial space defined by <fr:tex
@@ -1446,7 +1564,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2128</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2138</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.4.1</fr:addr><fr:route>hodge-theory-iii-5.2.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.4.1</fr:number><fr:parent>hodge-theory-iii-5.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         a_*         = \varepsilon _* {a_\bullet }_*\colon          (X_\bullet )^\sim          \to  (S)^\sim .       \tag{5.2.4.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>The derived version of this equation is
 
@@ -1457,7 +1575,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2129</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2139</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.4.2</fr:addr><fr:route>hodge-theory-iii-5.2.4.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.4.2</fr:number><fr:parent>hodge-theory-iii-5.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \mathrm {R} a_*         = \mathrm {R}\varepsilon _* \mathrm {R}{a_\bullet }_*\colon          \mathrm {D}^+(X_\bullet )         \to  \mathrm {D}^+(S)         \to  (S)^\sim .       \tag{5.2.4.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1473,7 +1591,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2130</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2140</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.5</fr:addr><fr:route>hodge-theory-iii-5.2.5.xml</fr:route><fr:authors /><fr:number>5.2.5</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[u\colon  X_\bullet \to  Y_\bullet ]]></fr:tex> be a morphism of simplicial topological spaces.
     The functor <fr:tex
@@ -1499,7 +1617,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2131</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2141</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.6</fr:addr><fr:route>hodge-theory-iii-5.2.6.xml</fr:route><fr:authors /><fr:number>5.2.6</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The functor <fr:tex
 display="inline"><![CDATA[\mathrm {s}\colon \operatorname {C}^+(S_\bullet )\to \operatorname {C}^+(S)]]></fr:tex> sends acyclic complexes to acyclic complexes.
     It thus trivially derives to
@@ -1523,7 +1641,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2132</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2142</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.6.1</fr:addr><fr:route>hodge-theory-iii-5.2.6.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.6.1</fr:number><fr:parent>hodge-theory-iii-5.2.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \mathrm {R} a_*         = \mathrm {s}\mathrm {R}{a_\bullet }_*       \tag{5.2.6.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -1532,7 +1650,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2133</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2143</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.7</fr:addr><fr:route>hodge-theory-iii-5.2.7.xml</fr:route><fr:authors /><fr:number>5.2.7</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Combined with <fr:ref
 addr="hodge-theory-iii-5.2.5"
 href="hodge-theory-iii-5.2.5.xml"
@@ -1586,7 +1704,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2075</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2085</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.2.7.1</fr:addr><fr:route>hodge-theory-iii-5.2.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.7.1</fr:number><fr:parent>hodge-theory-iii-5.2.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         E_1^{pq}         = \mathrm {R}^q{a_p}_*(K|X_p)         \Rightarrow  \mathrm {R}^{p+q}a_*K       \tag{5.2.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1601,7 +1719,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2759</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2778</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3</fr:addr><fr:route>hodge-theory-iii-5.3.xml</fr:route><fr:title
 text="Cohomological descent">Cohomological descent</fr:title><fr:authors /><fr:number>5.3</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -1610,7 +1728,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2189</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2199</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.1</fr:addr><fr:route>hodge-theory-iii-5.3.1.xml</fr:route><fr:authors /><fr:number>5.3.1</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be an augmented simplicial topological space.
     For every sheaf <fr:tex
@@ -1631,7 +1749,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2187</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2197</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.1.1</fr:addr><fr:route>hodge-theory-iii-5.3.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.1.1</fr:number><fr:parent>hodge-theory-iii-5.3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \varphi \colon \mathrm {Id}         \to  \mathrm {R} a_*a^*.       \tag{5.3.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -1640,7 +1758,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2200</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.2</fr:addr><fr:route>hodge-theory-iii-5.3.2.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>5.3.2</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We say that <fr:tex
 display="inline"><![CDATA[a]]></fr:tex> is of <fr:em>cohomological descent</fr:em> if, for every abelian sheaf <fr:tex
 display="inline"><![CDATA[F]]></fr:tex> on <fr:tex
@@ -1660,7 +1778,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2191</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2201</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.3</fr:addr><fr:route>hodge-theory-iii-5.3.3.xml</fr:route><fr:authors /><fr:number>5.3.3</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
 display="inline"><![CDATA[a]]></fr:tex> is of cohomological descent, then, for <fr:tex
 display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>, the canonical map
@@ -1672,7 +1790,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2156</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2166</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.3.1</fr:addr><fr:route>hodge-theory-iii-5.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.1</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \mathrm {R}\Gamma (S,K)         \to  \mathrm {R}\Gamma (S,\mathrm {R} a_*a^*K)         \simeq  \mathrm {R}\Gamma (X_\bullet ,a^*K)       \tag{5.3.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1692,7 +1810,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2157</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2167</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.3.2</fr:addr><fr:route>hodge-theory-iii-5.3.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.2</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,a_p^*F)         \Rightarrow  \operatorname {H}^{p+q}(S,F).       \tag{5.3.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>For a complex, we again have, in hypercohomology, a spectral sequence
 
@@ -1703,7 +1821,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2158</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2168</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.3.3</fr:addr><fr:route>hodge-theory-iii-5.3.3.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.3</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         E_1^{pq}         = \operatorname {\mathbb {H}}^q(X_p,a_p^*K)         \Rightarrow  \operatorname {\mathbb {H}}^{p+q}(S,K).       \tag{5.3.3.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>In both cases, the <fr:tex
 display="inline"><![CDATA[E_1^{\bullet  q}]]></fr:tex> (for fixed <fr:tex
@@ -1716,7 +1834,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2192</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2202</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.4</fr:addr><fr:route>hodge-theory-iii-5.3.4.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>5.3.4</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A continuous map <fr:tex
 display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> is of <fr:em>cohomological descent</fr:em> if the augmentation morphism of <fr:tex
 display="inline"><![CDATA[\operatorname {cosq}(X\to  S)]]></fr:tex>, namely
@@ -1733,7 +1851,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2193</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2203</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.5</fr:addr><fr:route>hodge-theory-iii-5.3.5.xml</fr:route><fr:authors /><fr:number>5.3.5</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The fundamental results, proven in [<fr:link
 type="local"
 href="SD.xml"
@@ -1791,7 +1909,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2000</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2010</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -1829,7 +1947,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2194</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2204</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.6</fr:addr><fr:route>hodge-theory-iii-5.3.6.xml</fr:route><fr:authors /><fr:number>5.3.6</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
 display="inline"><![CDATA[k=\infty ]]></fr:tex>, (IV) of <fr:ref
 addr="hodge-theory-iii-5.3.5"
@@ -1867,7 +1985,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2195</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2205</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.7</fr:addr><fr:route>hodge-theory-iii-5.3.7.xml</fr:route><fr:taxon>Example</fr:taxon><fr:authors /><fr:number>5.3.7</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[\mathscr {U}=(U_i)_{i\in  I}]]></fr:tex> be an open cover, or a finite locally closed cover, of <fr:tex
 display="inline"><![CDATA[S]]></fr:tex>.
@@ -1888,7 +2006,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2196</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2206</fr:anchor><fr:addr
 type="user">hodge-theory-iii-5.3.8</fr:addr><fr:route>hodge-theory-iii-5.3.8.xml</fr:route><fr:authors /><fr:number>5.3.8</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be as in (IV) of <fr:ref
 addr="hodge-theory-iii-5.3.5"
@@ -1910,7 +2028,7 @@ show-heading="true"
 show-metadata="false"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2768</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2787</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6</fr:addr><fr:route>hodge-theory-iii-6.xml</fr:route><fr:title
 text="Examples of simplicial topological spaces">Examples of simplicial topological spaces</fr:title><fr:authors /><fr:number>6</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -1919,7 +2037,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2751</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2770</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1</fr:addr><fr:route>hodge-theory-iii-6.1.xml</fr:route><fr:title
 text="Classifying spaces">Classifying spaces</fr:title><fr:authors /><fr:number>6.1</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -1928,7 +2046,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2255</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2265</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.1</fr:addr><fr:route>hodge-theory-iii-6.1.1.xml</fr:route><fr:authors /><fr:number>6.1.1</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[u\colon  X\to  S]]></fr:tex> be a continuous map.
     For every sheaf <fr:tex
@@ -1957,7 +2075,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2256</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2266</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.xml</fr:route><fr:authors /><fr:number>6.1.2</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If a topological group <fr:tex
 display="inline"><![CDATA[G]]></fr:tex> acts on a space <fr:tex
 display="inline"><![CDATA[X]]></fr:tex>, then <fr:tex
@@ -1975,7 +2093,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2223</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2233</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.2.1</fr:addr><fr:route>hodge-theory-iii-6.1.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.1</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         [X/G]_\bullet          = \big ((G^{\Delta _n}\times  X)/G\big )_{n\geqslant 0}.       \tag{6.1.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
  <html:ol
@@ -2007,7 +2125,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2226</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2236</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.2.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.2</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[           \operatorname {H}^\bullet ([X/G]_\bullet )           \simeq  \operatorname {H}^\bullet (X/G)         \tag{6.1.2.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -2050,7 +2168,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2228</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2238</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.star</fr:addr><fr:route>hodge-theory-iii-6.1.star.xml</fr:route><fr:taxon>Property</fr:taxon><fr:authors /><fr:number>*</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex
 display="inline"><![CDATA[(*)]]></fr:tex> For every <fr:tex
 display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex>, the structure morphism <fr:tex
@@ -2072,7 +2190,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2230</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2240</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.2.3</fr:addr><fr:route>hodge-theory-iii-6.1.2.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.3</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet ([X/G]_\bullet ,F^\bullet )         \tag{6.1.2.3}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -2091,7 +2209,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2231</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2241</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.2.4</fr:addr><fr:route>hodge-theory-iii-6.1.2.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.4</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet (X/G,F^{-1})         \tag{6.1.2.4}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -2112,7 +2230,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2257</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2267</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.3</fr:addr><fr:route>hodge-theory-iii-6.1.3.xml</fr:route><fr:authors /><fr:number>6.1.3</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[P^t]]></fr:tex> be the topological space consisting of a single point.
     We define the <fr:em>simplicial classifying space</fr:em> of <fr:tex
@@ -2135,7 +2253,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2258</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2268</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.3.1</fr:addr><fr:route>hodge-theory-iii-6.1.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.3.1</fr:number><fr:parent>hodge-theory-iii-6.1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         [P]         \colon  \operatorname {H}^\bullet (B_{\bullet  G})         \to  \operatorname {H}^\bullet ([P/G]_\bullet )         \xleftarrow [(6.1.2.2)]{\sim } \operatorname {H}^\bullet (S).       \tag{6.1.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>We will see below that, in good cases, <fr:tex
 display="inline"><![CDATA[\operatorname {H}^\bullet (B_{\bullet  G})=\operatorname {H}^\bullet (B_G)]]></fr:tex>, and that the image of <fr:tex
@@ -2147,7 +2265,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2259</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2269</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.4</fr:addr><fr:route>hodge-theory-iii-6.1.4.xml</fr:route><fr:authors /><fr:number>6.1.4</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[G]]></fr:tex> be a Lie group, <fr:tex
 display="inline"><![CDATA[B_G]]></fr:tex> a classifying space for <fr:tex
@@ -2180,7 +2298,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2260</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2270</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.4.1</fr:addr><fr:route>hodge-theory-iii-6.1.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.4.1</fr:number><fr:parent>hodge-theory-iii-6.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \operatorname {H}^\bullet (X,G;F)         \xrightarrow {\sim } \operatorname {H}^\bullet (X\times  U_G,G;\operatorname {pr}_1^*F)         \xleftarrow {\sim } \operatorname {H}^\bullet (X\times  U_G/G,F^G).       \tag{6.1.4.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>In particular, for <fr:tex
 display="inline"><![CDATA[X=P^t]]></fr:tex>,
@@ -2192,7 +2310,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2261</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2271</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.4.2</fr:addr><fr:route>hodge-theory-iii-6.1.4.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.4.2</fr:number><fr:parent>hodge-theory-iii-6.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \operatorname {H}^\bullet (B_{\bullet  G})         = \operatorname {H}^\bullet (B_G).       \tag{6.1.4.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>We can see that the isomorphism in <fr:ref
 addr="hodge-theory-iii-6.1.4.2"
@@ -2211,7 +2329,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2262</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2272</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.5</fr:addr><fr:route>hodge-theory-iii-6.1.5.xml</fr:route><fr:authors /><fr:number>6.1.5</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The spectral sequence in <fr:ref
 addr="hodge-theory-iii-5.2.3.2"
 href="hodge-theory-iii-5.2.3.2.xml"
@@ -2277,7 +2395,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2263</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2273</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.1.6</fr:addr><fr:route>hodge-theory-iii-6.1.6.xml</fr:route><fr:authors /><fr:number>6.1.6</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[G]]></fr:tex> be a (complex) linear algebraic group.</fr:p>
  <html:ol
@@ -2367,7 +2485,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2752</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2771</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2</fr:addr><fr:route>hodge-theory-iii-6.2.xml</fr:route><fr:title
 text="Construction of hypercovers">Construction of hypercovers</fr:title><fr:authors /><fr:number>6.2</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -2376,7 +2494,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2318</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2328</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.xml</fr:route><fr:authors /><fr:number>6.2.1</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial set.
     Denote by <fr:tex
@@ -2391,7 +2509,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2315</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2325</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.1.1</fr:addr><fr:route>hodge-theory-iii-6.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.2.1.1</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         N(X_n)         = X_n\setminus \bigcup _{{s\in  D(\Delta _n,\Delta _{n-1})}}s(X_{n-1}).       \tag{6.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>Recall that, for all <fr:tex
 display="inline"><![CDATA[n]]></fr:tex>, the map
@@ -2403,7 +2521,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2316</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2326</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.1.2</fr:addr><fr:route>hodge-theory-iii-6.2.1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.2.1.2</fr:number><fr:parent>hodge-theory-iii-6.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \coprod  s         \colon  \coprod _{\mathclap {\substack {m\leqslant  n,\\s\in  D(\Delta _n,\Delta _m)}}} N(X_m)         \to  X_n       \tag{6.2.1.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -2414,7 +2532,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2319</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2329</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.2</fr:addr><fr:route>hodge-theory-iii-6.2.2.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>6.2.2</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We say that a simplicial topological space is <fr:em><fr:tex
 display="inline"><![CDATA[s]]></fr:tex>-split</fr:em> if the maps in <fr:ref
 addr="hodge-theory-iii-6.2.1.2"
@@ -2448,7 +2566,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2320</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2330</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.3</fr:addr><fr:route>hodge-theory-iii-6.2.3.xml</fr:route><fr:authors /><fr:number>6.2.3</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For an <fr:tex
 display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex
 display="inline"><![CDATA[(n+1)]]></fr:tex>-truncated topological simplicial space <fr:tex
@@ -2468,7 +2586,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2321</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2331</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.star</fr:addr><fr:route>hodge-theory-iii-6.2.star.xml</fr:route><fr:taxon>Property</fr:taxon><fr:authors /><fr:number>*</fr:number><fr:parent>hodge-theory-iii-6.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex
 display="inline"><![CDATA[(*)]]></fr:tex> <fr:tex
 display="inline"><![CDATA[Y]]></fr:tex> is an <fr:tex
@@ -2484,7 +2602,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2322</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2332</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.4</fr:addr><fr:route>hodge-theory-iii-6.2.4.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>6.2.4</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[(Y,N,\beta )]]></fr:tex> satisfy <fr:ref
 addr="hodge-theory-iii-6.2.star"
@@ -2546,7 +2664,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2329</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2339</fr:anchor><fr:addr
 type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>[5.1.3, <fr:link
 type="local"
@@ -2566,7 +2684,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2330</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2340</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:authors /><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Finite projective limits exist in <fr:tex
 display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
         Finite projective sums exist in <fr:tex
@@ -2577,7 +2695,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2331</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2341</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.5</fr:addr><fr:route>hodge-theory-iii-6.2.5.xml</fr:route><fr:authors /><fr:number>6.2.5</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:ref
 addr="hodge-theory-iii-6.2.4"
 href="hodge-theory-iii-6.2.4.xml"
@@ -2680,7 +2798,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2332</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2342</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.6</fr:addr><fr:route>hodge-theory-iii-6.2.6.xml</fr:route><fr:authors /><fr:number>6.2.6</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We say that a simplicial scheme <fr:tex
 display="inline"><![CDATA[X_\bullet ]]></fr:tex> over <fr:tex
 display="inline"><![CDATA[\mathbb {C}]]></fr:tex> is <fr:em>smooth</fr:em> if the <fr:tex
@@ -2704,7 +2822,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2333</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2343</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.7</fr:addr><fr:route>hodge-theory-iii-6.2.7.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>6.2.7</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
 display="inline"><![CDATA[D_\bullet ]]></fr:tex> is a normal crossing divisor of <fr:tex
 display="inline"><![CDATA[X_\bullet ]]></fr:tex>, then the logarithmic de Rham complexes <fr:tex
@@ -2722,7 +2840,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1468</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1475</fr:anchor><fr:addr
 type="machine">#242</fr:addr><fr:route>unstable-242.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-6.2.7</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>This follows from (ii) of <fr:ref
 addr="hodge-theory-ii-3.1.3"
@@ -2740,7 +2858,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2334</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2344</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.2.8</fr:addr><fr:route>hodge-theory-iii-6.2.8.xml</fr:route><fr:authors /><fr:number>6.2.8</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Using <fr:ref
 addr="hodge-theory-iii-6.2.5"
 href="hodge-theory-iii-6.2.5.xml"
@@ -2813,7 +2931,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2753</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2772</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.3</fr:addr><fr:route>hodge-theory-iii-6.3.xml</fr:route><fr:title
 text="Relative cohomology">Relative cohomology</fr:title><fr:authors /><fr:number>6.3</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -2822,7 +2940,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2385</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2395</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.3.1</fr:addr><fr:route>hodge-theory-iii-6.3.1.xml</fr:route><fr:authors /><fr:number>6.3.1</fr:number><fr:parent>hodge-theory-iii-6.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The <fr:em>mapping cone</fr:em> construction for morphisms of simplicial sets works in the same way for simplicial objects in any category <fr:tex
 display="inline"><![CDATA[\mathscr {C}]]></fr:tex> that has a final object <fr:tex
 display="inline"><![CDATA[e]]></fr:tex> and finite sums.
@@ -2868,7 +2986,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2386</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2396</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.3.2</fr:addr><fr:route>hodge-theory-iii-6.3.2.xml</fr:route><fr:authors /><fr:number>6.3.2</fr:number><fr:parent>hodge-theory-iii-6.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[u\colon  Y_\bullet \to  X_\bullet ]]></fr:tex> be a morphism of topological simplicial spaces, with cone <fr:tex
 display="inline"><![CDATA[C(u)]]></fr:tex>.
@@ -2891,7 +3009,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2387</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2397</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.3.2.1</fr:addr><fr:route>hodge-theory-iii-6.3.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.3.2.1</fr:number><fr:parent>hodge-theory-iii-6.3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \operatorname {H}^n(C(u),C(f))         = \operatorname {H}^n(X_\bullet \operatorname {mod} Y_\bullet , F\operatorname {mod} G).       \tag{6.3.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -2905,7 +3023,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2388</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2398</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.3.2.2</fr:addr><fr:route>hodge-theory-iii-6.3.2.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.3.2.2</fr:number><fr:parent>hodge-theory-iii-6.3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \ldots          \to  \operatorname {H}^i(X_\bullet \operatorname {mod} Y_\bullet , F\operatorname {mod} G)         \to  \operatorname {H}^i(X_\bullet ,F)         \to  \operatorname {H}^i(Y_\bullet ,G)         \to  \ldots .       \tag{6.3.2.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -2914,7 +3032,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2389</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2399</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.3.3</fr:addr><fr:route>hodge-theory-iii-6.3.3.xml</fr:route><fr:authors /><fr:number>6.3.3</fr:number><fr:parent>hodge-theory-iii-6.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>More generally, let <fr:tex
 display="inline"><![CDATA[L]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[K]]></fr:tex> be bounded-below complexes of abelian sheaves on <fr:tex
@@ -2942,7 +3060,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2390</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2400</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.3.3.1</fr:addr><fr:route>hodge-theory-iii-6.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.3.3.1</fr:number><fr:parent>hodge-theory-iii-6.3.3</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:embedded-tex
 hash="acb8708d7cf403620dd9ea1536d59c02"><fr:embedded-tex-preamble><![CDATA[
@@ -2965,7 +3083,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2391</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2401</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.3.4</fr:addr><fr:route>hodge-theory-iii-6.3.4.xml</fr:route><fr:authors /><fr:number>6.3.4</fr:number><fr:parent>hodge-theory-iii-6.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The construction presented above is not the only one possible.
     It has the inconvenience that, even if we start with true topological spaces <fr:tex
 display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
@@ -2976,7 +3094,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2754</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2773</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.4</fr:addr><fr:route>hodge-theory-iii-6.4.xml</fr:route><fr:title
 text="Multisimplicial spaces">Multisimplicial spaces</fr:title><fr:authors /><fr:number>6.4</fr:number><fr:parent>hodge-theory-iii-6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -2985,7 +3103,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2409</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2419</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.4.1</fr:addr><fr:route>hodge-theory-iii-6.4.1.xml</fr:route><fr:authors /><fr:number>6.4.1</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[r\geqslant 0]]></fr:tex> be an integer.
     An <fr:em><fr:tex
@@ -3004,7 +3122,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2410</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2420</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.4.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.xml</fr:route><fr:authors /><fr:number>6.4.2</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>As in <fr:ref
 addr="hodge-theory-iii-5.1.6"
 href="hodge-theory-iii-5.1.6.xml"
@@ -3039,7 +3157,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2099</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2109</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.4.2.1</fr:addr><fr:route>hodge-theory-iii-6.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.4.2.1</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \mathrm {R}\Gamma          =\mathrm {s}\mathrm {R}\Gamma ^\bullet          \colon  \mathrm {D}^+(X_\bullet )         \to \mathrm {D}^+((\mathsf {Ab})).       \tag{6.4.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>A sheaf <fr:tex
 display="inline"><![CDATA[F]]></fr:tex> on an <fr:tex
@@ -3056,7 +3174,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2100</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2110</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.4.2.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.4.2.2</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \mathrm {R}\Gamma (X_\bullet ,K)         \xrightarrow {\sim } \mathrm {R}\Gamma (\delta  X_\bullet ,\delta  K).       \tag{6.4.2.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -3065,7 +3183,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2411</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2421</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.4.3</fr:addr><fr:route>hodge-theory-iii-6.4.3.xml</fr:route><fr:authors /><fr:number>6.4.3</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We restrict to the case <fr:tex
 display="inline"><![CDATA[r=2]]></fr:tex>.
     A <fr:em>bisimplicial object <fr:tex
@@ -3115,7 +3233,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2412</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2422</fr:anchor><fr:addr
 type="user">hodge-theory-iii-6.4.4</fr:addr><fr:route>hodge-theory-iii-6.4.4.xml</fr:route><fr:authors /><fr:number>6.4.4</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>In [<fr:link
 type="local"
 href="SD.xml"
@@ -3167,7 +3285,7 @@ show-heading="true"
 show-metadata="false"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2769</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2788</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7</fr:addr><fr:route>hodge-theory-iii-7.xml</fr:route><fr:title
 text="Supplements to §1">Supplements to §1</fr:title><fr:authors /><fr:number>7</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -3176,7 +3294,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2770</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2789</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1</fr:addr><fr:route>hodge-theory-iii-7.1.xml</fr:route><fr:title
 text="Filtered derived category">Filtered derived category</fr:title><fr:authors /><fr:number>7.1</fr:number><fr:parent>hodge-theory-iii-7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>This section completes <fr:ref
 addr="hodge-theory-ii-1.4"
@@ -3188,7 +3306,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2433</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2443</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.1</fr:addr><fr:route>hodge-theory-iii-7.1.1.xml</fr:route><fr:authors /><fr:number>7.1.1</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[\mathscr {A}]]></fr:tex> be an abelian category.
     We set:
@@ -3220,7 +3338,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2434</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2444</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.2</fr:addr><fr:route>hodge-theory-iii-7.1.2.xml</fr:route><fr:authors /><fr:number>7.1.2</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A filtered quasi-isomorphism <fr:tex
 display="inline"><![CDATA[u\colon (K,F)\to (K',F')]]></fr:tex> induces an isomorphism of spectral sequences <fr:tex
 display="inline"><![CDATA[u\colon  E_\bullet ^{\bullet \bullet }(K,F)\to  E_\bullet ^{\bullet \bullet }(K',F')]]></fr:tex>.
@@ -3241,7 +3359,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2435</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2445</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.3</fr:addr><fr:route>hodge-theory-iii-7.1.3.xml</fr:route><fr:authors /><fr:number>7.1.3</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[T]]></fr:tex> be a left exact functor from <fr:tex
 display="inline"><![CDATA[\mathscr {A}]]></fr:tex> to an abelian category <fr:tex
@@ -3307,7 +3425,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2436</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2446</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.4</fr:addr><fr:route>hodge-theory-iii-7.1.4.xml</fr:route><fr:authors /><fr:number>7.1.4</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will need more precise results for the functors <fr:tex
 display="inline"><![CDATA[\mathrm {R} a_*]]></fr:tex>, where <fr:tex
 display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> is an augmentation of a simplicial topological space.
@@ -3354,7 +3472,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2437</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2447</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.5</fr:addr><fr:route>hodge-theory-iii-7.1.5.xml</fr:route><fr:authors /><fr:number>7.1.5</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
 display="inline"><![CDATA[K]]></fr:tex> is filtered (resp. bifiltered), then <fr:tex
 display="inline"><![CDATA[\mathrm {R}{a_\bullet }_*K]]></fr:tex> is filtered (resp. bifiltered): we have
@@ -3366,7 +3484,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2438</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2448</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.5.1</fr:addr><fr:route>hodge-theory-iii-7.1.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.5.1</fr:number><fr:parent>hodge-theory-iii-7.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \mathrm {R}{a_\bullet }_*         \colon  \mathrm {D}^+\mathrm {F}(X_\bullet )         \to  \mathrm {D}^+\mathrm {F}(S_\bullet )       \tag{7.1.5.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -3377,7 +3495,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2439</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2449</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.5.2</fr:addr><fr:route>hodge-theory-iii-7.1.5.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.5.2</fr:number><fr:parent>hodge-theory-iii-7.1.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \mathrm {R}{a_\bullet }_*         \colon  \mathrm {D}^+\mathrm {F}_2(X_\bullet )         \to  \mathrm {D}^+\mathrm {F}_2(S_\bullet ).       \tag{7.1.5.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -3386,7 +3504,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2440</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2450</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.6</fr:addr><fr:route>hodge-theory-iii-7.1.6.xml</fr:route><fr:authors /><fr:number>7.1.6</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[K]]></fr:tex> be a complex of cosimplicial sheaves on <fr:tex
 display="inline"><![CDATA[S]]></fr:tex>, endowed with an increasing filtration <fr:tex
@@ -3404,7 +3522,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2441</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2451</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.6.1</fr:addr><fr:route>hodge-theory-iii-7.1.6.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.6.1</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \begin {aligned}           \delta (W,L)_n(\mathrm {s} K)           &= \bigoplus _{p,q} W_{n+p}(K^{p,q})         \\&= \sum _p \mathrm {s}(W_{n+p}(K)) \cap  L^p(\mathrm {s} K).         \end {aligned}       \tag{7.1.6.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>We have
 
@@ -3415,7 +3533,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2442</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2452</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.6.2</fr:addr><fr:route>hodge-theory-iii-7.1.6.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.6.2</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \operatorname {Gr}_n^{\delta (W,L)}(\mathrm {s} K)         \simeq  \bigoplus _p \operatorname {Gr}_{n+p}^W(K^{\bullet  p})[-p].       \tag{7.1.6.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>The functor <fr:tex
 display="inline"><![CDATA[(K,W)\mapsto (\mathrm {s} K,\delta (W,L))]]></fr:tex> sends filtered quasi-isomorphisms to filtered quasi-isomorphisms, and defines
@@ -3427,7 +3545,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2443</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2453</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.6.3</fr:addr><fr:route>hodge-theory-iii-7.1.6.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.6.3</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \begin {aligned}           (s,\delta )           \colon  \mathrm {D}^+\mathrm {F}(S_\bullet )           &\to  \mathrm {D}^+\mathrm {F}(S)         \\(K,W)           &\mapsto  (\mathrm {s} K,\delta (W,L))         \end {aligned}       \tag{7.1.6.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -3444,7 +3562,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2444</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2454</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.6.4</fr:addr><fr:route>hodge-theory-iii-7.1.6.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.6.4</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \begin {aligned}           (\mathrm {R}\Gamma ,\delta (-,L))           \colon  \mathrm {D}^+\mathrm {F}(X_\bullet )           &\to  \mathrm {D}^+\mathrm {F}(S)         \\(K,W)           &\mapsto  (\mathrm {R}\Gamma  K,\delta (W,L)).         \end {aligned}       \tag{7.1.6.4}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -3461,7 +3579,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2445</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2455</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.6.5</fr:addr><fr:route>hodge-theory-iii-7.1.6.5.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.6.5</fr:number><fr:parent>hodge-theory-iii-7.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \operatorname {Gr}_n^{\delta (W,L)}         = \bigoplus _p \mathrm {R}{a_p}_*(\operatorname {Gr}_{n+p}^W K)[-p].       \tag{7.1.6.5}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -3470,7 +3588,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2446</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2456</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.7</fr:addr><fr:route>hodge-theory-iii-7.1.7.xml</fr:route><fr:authors /><fr:number>7.1.7</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
 display="inline"><![CDATA[(K,W,F)]]></fr:tex> is a bifiltered complex of cosimplicial sheaves, then <fr:tex
 display="inline"><![CDATA[\mathrm {s} K]]></fr:tex> is endowed with the three filtrations <fr:tex
@@ -3487,7 +3605,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2447</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2457</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.7.1</fr:addr><fr:route>hodge-theory-iii-7.1.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.7.1</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \begin {aligned}           \mathrm {D}^+\mathrm {F}_2(S_\bullet )           &\to  \mathrm {D}^+\mathrm {F}_2(S)         \\(K,W,F)           &\mapsto  (K,\delta (W,L),F).         \end {aligned}       \tag{7.1.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -3504,7 +3622,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2448</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2458</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.7.2</fr:addr><fr:route>hodge-theory-iii-7.1.7.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.7.2</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \begin {aligned}           \mathrm {D}^+\mathrm {F}_2(X_\bullet )           &\to  \mathrm {D}^+\mathrm {F}_2(S)         \\(K,W,F)           &\mapsto  (\mathrm {R}\Gamma  K,\delta (W,L),F).         \end {aligned}       \tag{7.1.7.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -3517,7 +3635,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2449</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2459</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.1.7.3</fr:addr><fr:route>hodge-theory-iii-7.1.7.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1.7.3</fr:number><fr:parent>hodge-theory-iii-7.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
 display="block"><![CDATA[         \operatorname {Gr}_n^{\delta (W,L)}(\mathrm {R}\Gamma  K,F)         = \bigoplus _p \mathrm {R}{a_p}_*(\operatorname {Gr}_{n+p}^W K,F)[-p]       \tag{7.1.7.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
@@ -3529,7 +3647,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2771</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2790</fr:anchor><fr:addr
 type="user">hodge-theory-iii-7.2</fr:addr><fr:route>hodge-theory-iii-7.2.xml</fr:route><fr:title
 text="Supplements to the two filtrations lemma">Supplements to the two filtrations lemma</fr:title><fr:authors /><fr:number>7.2</fr:number><fr:parent>hodge-theory-iii-7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>In this section, we give a new proof of the two filtrations lemma (<fr:ref
 addr="hodge-theory-ii-1.3.16"
@@ -3987,7 +4105,7 @@ show-heading="true"
 show-metadata="false"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2772</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2791</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8</fr:addr><fr:route>hodge-theory-iii-8.xml</fr:route><fr:title
 text="Hodge theory of algebraic spaces">Hodge theory of algebraic spaces</fr:title><fr:authors /><fr:number>8</fr:number><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -3996,7 +4114,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2773</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2792</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8.1</fr:addr><fr:route>hodge-theory-iii-8.1.xml</fr:route><fr:title
 text="Hodge complexes">Hodge complexes</fr:title><fr:authors /><fr:number>8.1</fr:number><fr:parent>hodge-theory-iii-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -4246,7 +4364,125 @@ show-metadata="false"
 expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1347</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.6</fr:addr><fr:route>hodge-theory-iii-8.1.6.xml</fr:route><fr:authors /><fr:number>8.1.6</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+type="user">hodge-theory-iii-8.1.6</fr:addr><fr:route>hodge-theory-iii-8.1.6.xml</fr:route><fr:authors /><fr:number>8.1.6</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>cohomological mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex</fr:em> <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> on a topological space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> consists of:
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(𝛼) &quot;">
+        a complex <fr:tex
+display="inline"><![CDATA[K_A\in \operatorname {Ob}\mathrm {D}^+(X,A)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}^k(X,K_A)]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-module of finite type for all <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}(X,K_A)\otimes \mathbb {Q}\xrightarrow {\sim }\operatorname {\mathbb {H}}(X,K_A\otimes \mathbb {Q})]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛽) &quot;">
+        a filtered complex <fr:tex
+display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}},W)\in \operatorname {Ob}\mathrm {D}^+F(X,A\otimes \mathbb {Q})]]></fr:tex> (for an <fr:em>increasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>) and an isomorphism <fr:tex
+display="inline"><![CDATA[K_{A\otimes \mathbb {Q}}\simeq  K_A\otimes \mathbb {Q}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+(X,A\otimes \mathbb {Q})]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(𝛾) &quot;">
+        a bifiltered complex <fr:tex
+display="inline"><![CDATA[(K_\mathbb {C},W,F)\in \operatorname {Ob}\mathrm {D}^+F_w(X,\mathbb {C})]]></fr:tex> (for an <fr:em>increasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> and a <fr:em>decreasing</fr:em> filtration <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>) and an isomorphism <fr:tex
+display="inline"><![CDATA[\alpha \colon (K_\mathbb {C},W)\simeq (K_{A\otimes \mathbb {Q}},W)\otimes \mathbb {C}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p><fr:p>The following axiom must be satisfied:
+
+    <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1352</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.6-chmc</fr:addr><fr:route>hodge-theory-iii-8.1.6-chmc.xml</fr:route><fr:taxon>Axiom</fr:taxon><fr:authors /><fr:number>CHMC</fr:number><fr:parent>hodge-theory-iii-8.1.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For all <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, the system consisting of the complex <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(K_{A\otimes \mathbb {Q}})\in \operatorname {Ob}\mathrm {D}^+(X,A\otimes \mathbb {Q})]]></fr:tex>, the complex <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(K_\mathbb {C})\in \operatorname {Ob}\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex> filtered by <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>, and the isomorphism
+        <fr:tex
+display="block"><![CDATA[           \operatorname {Gr}_n^W(\alpha )\colon            \operatorname {Gr}_n^W(K_{A\otimes \mathbb {Q}})\otimes \mathbb {C}           \simeq  \operatorname {Gr}_n^W(K_\mathbb {C}),         ]]></fr:tex>
+        is a cohomological Hodge <fr:tex
+display="inline"><![CDATA[(A\otimes \mathbb {Q})]]></fr:tex>-complex of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can trivially show:</fr:p><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1353</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.7</fr:addr><fr:route>hodge-theory-iii-8.1.7.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>8.1.7</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[K=(K_A,(K_{A\otimes \mathbb {Q}},W),(K_\mathbb {C},W,F))]]></fr:tex> is a cohomological mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex, then <fr:tex
+display="inline"><![CDATA[\mathrm {R}\Gamma  K=(\mathrm {R}\Gamma  K_A,\mathrm {R}\Gamma (K_{A\otimes \mathbb {Q}},W),\mathrm {R}\Gamma (K_\mathbb {C},W,F))]]></fr:tex> is a mixed Hodge <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>-complex.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1354</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.8</fr:addr><fr:route>hodge-theory-iii-8.1.8.xml</fr:route><fr:taxon>Scholium</fr:taxon><fr:authors /><fr:number>8.1.8</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> be the complement in a smooth proper scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, of a normal crossing divisor <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[j\colon  U\hookrightarrow  X]]></fr:tex> the inclusion morphism.
+    Let <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> be the canonical filtration on <fr:tex
+display="inline"><![CDATA[\mathrm {R} j_*\mathbb {Q}=\mathrm {R} j_*\mathbb {Z}\otimes \mathbb {Q}\colon  W_n(\mathrm {R} j_*\mathbb {Q})=\tau _{\leqslant  n}(\mathrm {R} j_*\mathbb {Q})]]></fr:tex>.
+    We have (<fr:ref
+addr="hodge-theory-ii-3.1.8"
+href="hodge-theory-ii-3.1.8.xml"
+taxon="Proposition"
+number="3.1.8" />)
+    <fr:tex
+display="block"><![CDATA[       (\mathrm {R} j_*\mathbb {Q})\otimes \mathbb {C}       \xrightarrow {\approx } \mathrm {R} j_*\mathbb {C}       \xrightarrow {\approx } j_*\Omega _U^\bullet        \xleftarrow {\approx } \Omega _X^\bullet (\log  D).     ]]></fr:tex>
+    Let <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> be the weight filtration of <fr:tex
+display="inline"><![CDATA[\Omega _+X^\bullet (\log  D)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> its Hodge filtration (by the <fr:tex
+display="inline"><![CDATA[\sigma _{\geqslant  p}]]></fr:tex>).
+    Then <fr:ref
+addr="hodge-theory-ii-3.1.8"
+href="hodge-theory-ii-3.1.8.xml"
+taxon="Proposition"
+number="3.1.8" /> gives an isomorphism <fr:tex
+display="inline"><![CDATA[(\mathrm {R} j_*\mathbb {Q},W)\otimes \mathbb {C}\simeq (\Omega _X^\bullet (\log  D),W)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathrm {D}^+F(X,\mathbb {C})]]></fr:tex>, and, by <fr:ref
+addr="hodge-theory-ii-3.1.5"
+href="hodge-theory-ii-3.1.5.xml"
+number="3.1.5" /> and <fr:ref
+addr="hodge-theory-ii-3.1.9"
+href="hodge-theory-ii-3.1.9.xml"
+taxon="Proposition"
+number="3.1.9" />,
+    <fr:tex
+display="block"><![CDATA[       (\mathrm {R} j_*\mathbb {Z},(\mathrm {R} j_*\mathbb {Q},W),(\Omega _X^\bullet (\log  D), W, F))     ]]></fr:tex>
+    is a cohomological mixed Hodge complex on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -4261,7 +4497,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="true"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2988</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3007</fr:anchor><fr:addr
 type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
 text="Deligne's &quot;Hodge Theory I, II, and III&quot;">Deligne's "Hodge Theory I, II, and III"</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
   <fr:ul><fr:li>"Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
