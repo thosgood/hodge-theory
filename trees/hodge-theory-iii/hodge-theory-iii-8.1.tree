@@ -224,3 +224,60 @@
     is a cohomological mixed Hodge complex on #{X}.
   }
 }
+
+\p{
+  The following result is an "abstract" version of \ref{hodge-theory-ii-3.2}.
+}
+
+\subtree[hodge-theory-iii-8.1.9]{
+  \taxon{scholium}
+  \number{8.1.9}
+
+  \p{
+    Let #{K} be a mixed Hodge #{A}-complex.
+  }
+
+  \olc{
+    \lic{(i)}{
+      On the pages #{{}_WE_r^{pq}} of the spectral sequence of #{(K_\CC,W)}, the recurrent filtration and the two direct filtrations defined by #{F} all coincide.
+    }
+
+    \lic{(ii)}{
+      The filtration #{W[n]} (\ref{hodge-theory-ii-1.1.2}) on #{\HH^n(K_{A\otimes\QQ})\simeq\HH^n(K_A)\otimes\QQ} and the filtration #{F} on #{\HH^n(K_\CC)\simeq\HH^n(K_A)\otimes_A\CC} define a mixed Hodge #{A}-structure on #{\HH^n(K_A)} (\ref{hodge-theory-ii-2.3.1} along with \ref{hodge-theory-iii-0.4}).
+    }
+
+    \lic{(iii)}{
+      The morphisms #{{}_Wd_1\colon{}_WE_1^{pq}\to{}_WE_1^{p+1,q}} are compatible with the Hodge bigrading;
+      in particular, they are strictly compatible with the Hodge filtration.
+    }
+
+    \lic{(iv)}{
+      The spectral sequence of #{(K_{A\otimes\QQ},W)} degenerates at #{E_2} (i.e. #{{}_WE_2={}_WE_\infty}).
+    }
+
+    \lic{(v)}{
+      The spectral sequence of #{(K_\CC,F)} degenerates at #{E_1} (i.e. #{{}_FE_2={}_FE_\infty}).
+    }
+
+    \lic{(vi)}{
+      The spectral sequence of the complex #{\Gr_F^p(K_\CC)}, endowed with the filtration induced by #{W}, degenerates at #{E_2}.
+    }
+  }
+
+  \proof{
+    \p{
+      The proof of (i), (ii), (iii), (iv) is parallel to that of \ref{hodge-theory-ii-3.2.5}.
+      The analogy of \ref{hodge-theory-ii-3.2.6} and \ref{hodge-theory-ii-3.2.7} has been taken as an axiom (\ref{hodge-theory-iii-8.1-ch1} and \ref{hodge-theory-iii-8.1-ch2}).
+      The proofs of \ref{hodge-theory-ii-3.2.8}, \ref{hodge-theory-ii-3.2.9}, and \ref{hodge-theory-ii-3.2.10} can be carried over as they are, and, as in \ref{hodge-theory-ii-3.2.10}, we thus deduce (i), (ii), (iii), and (iv).
+      Claims (v) and (vi) then follow from \ref{hodge-theory-iii-7.2.8}.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.10]{
+  \number{8.1.10}
+
+  \p{
+    We
+  }
+}
