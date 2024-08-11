@@ -1,216 +1,368 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>599</fr:anchor><fr:taxon>Principle</fr:taxon><fr:addr>hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>hodge-theory-i-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If the Galois module <fr:tex>H</fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex>W</fr:tex> on <fr:tex>H_{\mathbb {Q}_l}=H\otimes _{\mathbb {Z}_l}\mathbb {Q}_l</fr:tex> (the "<fr:em>weight filtration</fr:em>") that is Galois invariant and such that <fr:tex>\operatorname {Gr}_n^W(H)</fr:tex> is pure of weight <fr:tex>n</fr:tex>.
-  </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr
+type="user">hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:taxon>Principle</fr:taxon><fr:authors /><fr:number>2.1</fr:number><fr:parent>hodge-theory-i-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If the Galois module <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[H_{\mathbb {Q}_l}=H\otimes _{\mathbb {Z}_l}\mathbb {Q}_l]]></fr:tex> (the "<fr:em>weight filtration</fr:em>") that is Galois invariant and such that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex> is pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>598</fr:anchor><fr:addr>hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:number>2</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>A</fr:tex> be a normal integral ring of finite type over <fr:tex>\mathbb {Z}</fr:tex>, with field of fractions <fr:tex>K</fr:tex>, and <fr:tex>\overline {K}</fr:tex> an algebraic closure of <fr:tex>K</fr:tex>.
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr
+type="user">hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:authors /><fr:number>2</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a normal integral ring of finite type over <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>, with field of fractions <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> an algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>.
   
-  Let <fr:tex>K_\mathrm {nr}</fr:tex> be the largest sub-extension of <fr:tex>\overline {K}</fr:tex> that is unramified at each prime ideal of <fr:tex>A</fr:tex>.
+  Let <fr:tex
+display="inline"><![CDATA[K_\mathrm {nr}]]></fr:tex> be the largest sub-extension of <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> that is unramified at each prime ideal of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
   We know that, or we set,
   <fr:tex
-display="block">     \pi _1(\operatorname {Spec}(A),\overline {K})     = \operatorname {Gal}(K_\mathrm {nr}/K).   </fr:tex></fr:p><fr:p>
-  For every closed point <fr:tex>x</fr:tex> of <fr:tex>\operatorname {Spec}(A)</fr:tex>, defined by some maximal ideal <fr:tex>m_x</fr:tex> of <fr:tex>A</fr:tex>, the residue field <fr:tex>k_x=A/m_x</fr:tex> is finite;
-  the point <fr:tex>x</fr:tex> defines a conjugation class of "Frobenius substitutions" <fr:tex>\varphi _x\in \pi _1(\operatorname {Spec}(A),\overline {K})</fr:tex>.
-  We set <fr:tex>q_x=\#k_x</fr:tex> and <fr:tex>F_x=\varphi _x^{-1}</fr:tex>.
-</fr:p><fr:p>
-  Let <fr:tex>K</fr:tex> be a field of finite type over the prime field of characteristic <fr:tex>p</fr:tex>, let <fr:tex>\overline {K}</fr:tex> be an algebraic closure of <fr:tex>K</fr:tex>, let <fr:tex>l</fr:tex> be a prime number <fr:tex>\neq  p</fr:tex>, and let <fr:tex>H</fr:tex> be a <fr:tex>\mathbb {Z}_l</fr:tex>-module (or a <fr:tex>\mathbb {Q}_l</fr:tex>-module) of finite type endowed with a continuous action <fr:tex>\rho </fr:tex> of <fr:tex>\operatorname {Gal}(\overline {K}/K)</fr:tex>.
-  We will still suppose in what follows that there exists an <fr:tex>A</fr:tex> as above, with <fr:tex>l</fr:tex> invertible in <fr:tex>A</fr:tex>, and such that <fr:tex>\rho </fr:tex> factors through <fr:tex>\pi _1(\operatorname {Spec}(A),\overline {K}) = \operatorname {Gal}(K_\mathrm {nr}/K)</fr:tex>.
-  We say that <fr:tex>H</fr:tex> is <fr:em>pure of weight <fr:tex>n</fr:tex></fr:em> if, for every closed point <fr:tex>x</fr:tex> of an non-empty open subset of <fr:tex>\operatorname {Spec}(A)</fr:tex>, the eigenvalues <fr:tex>\alpha </fr:tex> of <fr:tex>F_x</fr:tex> acting on <fr:tex>H</fr:tex> are algebraic integers whose complex conjugates are all of absolute value <fr:tex>|\alpha |=q_x^{n/2}</fr:tex>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[     \pi _1(\operatorname {Spec}(A),\overline {K})     = \operatorname {Gal}(K_\mathrm {nr}/K).   ]]></fr:tex></fr:p><fr:p>For every closed point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, defined by some maximal ideal <fr:tex
+display="inline"><![CDATA[m_x]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, the residue field <fr:tex
+display="inline"><![CDATA[k_x=A/m_x]]></fr:tex> is finite;
+  the point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> defines a conjugation class of "Frobenius substitutions" <fr:tex
+display="inline"><![CDATA[\varphi _x\in \pi _1(\operatorname {Spec}(A),\overline {K})]]></fr:tex>.
+  We set <fr:tex
+display="inline"><![CDATA[q_x=\#k_x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F_x=\varphi _x^{-1}]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> be a field of finite type over the prime field of characteristic <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> be an algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[l]]></fr:tex> be a prime number <fr:tex
+display="inline"><![CDATA[\neq  p]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> be a <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l]]></fr:tex>-module (or a <fr:tex
+display="inline"><![CDATA[\mathbb {Q}_l]]></fr:tex>-module) of finite type endowed with a continuous action <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {K}/K)]]></fr:tex>.
+  We will still suppose in what follows that there exists an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> as above, with <fr:tex
+display="inline"><![CDATA[l]]></fr:tex> invertible in <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> factors through <fr:tex
+display="inline"><![CDATA[\pi _1(\operatorname {Spec}(A),\overline {K}) = \operatorname {Gal}(K_\mathrm {nr}/K)]]></fr:tex>.
+  We say that <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is <fr:em>pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:em> if, for every closed point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of an non-empty open subset of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, the eigenvalues <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[F_x]]></fr:tex> acting on <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> are algebraic integers whose complex conjugates are all of absolute value <fr:tex
+display="inline"><![CDATA[|\alpha |=q_x^{n/2}]]></fr:tex>.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:taxon>Principle</fr:taxon><fr:addr>hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>hodge-theory-i-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If the Galois module <fr:tex>H</fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex>W</fr:tex> on <fr:tex>H_{\mathbb {Q}_l}=H\otimes _{\mathbb {Z}_l}\mathbb {Q}_l</fr:tex> (the "<fr:em>weight filtration</fr:em>") that is Galois invariant and such that <fr:tex>\operatorname {Gr}_n^W(H)</fr:tex> is pure of weight <fr:tex>n</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  We can also further suppose that <fr:tex>\operatorname {Gr}_n^W(H)</fr:tex> is semi-simple.
-</fr:p><fr:p>
-  When we have a resolution of singularities we can often give a conjectural definition of <fr:tex>W</fr:tex>, whose validity follows from the Weil conjectures <fr:link
-href="W1949.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:addr
+type="user">hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:taxon>Principle</fr:taxon><fr:authors /><fr:number>2.1</fr:number><fr:parent>hodge-theory-i-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If the Galois module <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[H_{\mathbb {Q}_l}=H\otimes _{\mathbb {Z}_l}\mathbb {Q}_l]]></fr:tex> (the "<fr:em>weight filtration</fr:em>") that is Galois invariant and such that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex> is pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can also further suppose that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex> is semi-simple.</fr:p><fr:p>When we have a resolution of singularities we can often give a conjectural definition of <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>, whose validity follows from the Weil conjectures <fr:link
 type="local"
-addr="W1949">[W1949]</fr:link> (cf. <fr:ref
+href="W1949.xml"
+addr="W1949"
+title="Number of solutions of equations in finite fields">[W1949]</fr:link> (cf. <fr:ref
 addr="hodge-theory-i-6"
 href="hodge-theory-i-6.xml"
-number="6"></fr:ref>).
-</fr:p><fr:p>
-  Let <fr:tex>\mu </fr:tex> be the subgroup of <fr:tex>\overline {K}^*</fr:tex> given by the roots of unity.
-  The <fr:em>Tate module</fr:em> <fr:tex>\mathbb {Z}_l(1)</fr:tex>, defined by
+number="6" />).</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be the subgroup of <fr:tex
+display="inline"><![CDATA[\overline {K}^*]]></fr:tex> given by the roots of unity.
+  The <fr:em>Tate module</fr:em> <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>, defined by
   <fr:tex
-display="block">     \mathbb {Z}_l(1)     = \operatorname {Hom}(\mathbb {Q}_l/\mathbb {Z}_l,\mu )   </fr:tex>
-  is pure of weight <fr:tex>-2</fr:tex>.
-  We set <fr:tex>\mathbb {Z}_l(n)=\mathbb {Z}_l(1)^\otimes  n</fr:tex>.
-</fr:p><fr:p>
-  It is trivial that every morphism <fr:tex>f\colon  H\to  H'</fr:tex> is strictly compatible with the weight filtration.
-</fr:p><fr:p><fr:ref
+display="block"><![CDATA[     \mathbb {Z}_l(1)     = \operatorname {Hom}(\mathbb {Q}_l/\mathbb {Z}_l,\mu )   ]]></fr:tex>
+  is pure of weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>.
+  We set <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(n)=\mathbb {Z}_l(1)^\otimes  n]]></fr:tex>.</fr:p><fr:p>It is trivial that every morphism <fr:tex
+display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is strictly compatible with the weight filtration.</fr:p><fr:p><fr:ref
 addr="hodge-theory-i-principle-2.1"
 href="hodge-theory-i-principle-2.1.xml"
 taxon="Principle"
-number="2.1"></fr:ref> agrees with the fact that every extension of <fr:tex>\mathbb {G}_m</fr:tex> ("weight <fr:tex>-2</fr:tex>") by an abelian variety ("weight <fr:tex>-1&gt;-2</fr:tex>") is trivial.
-</fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="2.1" /> agrees with the fact that every extension of <fr:tex
+display="inline"><![CDATA[\mathbb {G}_m]]></fr:tex> ("weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>") by an abelian variety ("weight <fr:tex
+display="inline"><![CDATA[-1>-2]]></fr:tex>") is trivial.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>596</fr:anchor><fr:addr>hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:number>2</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>A</fr:tex> be a normal integral ring of finite type over <fr:tex>\mathbb {Z}</fr:tex>, with field of fractions <fr:tex>K</fr:tex>, and <fr:tex>\overline {K}</fr:tex> an algebraic closure of <fr:tex>K</fr:tex>.
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>652</fr:anchor><fr:addr
+type="user">hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:authors /><fr:number>2</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a normal integral ring of finite type over <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>, with field of fractions <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> an algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>.
   
-  Let <fr:tex>K_\mathrm {nr}</fr:tex> be the largest sub-extension of <fr:tex>\overline {K}</fr:tex> that is unramified at each prime ideal of <fr:tex>A</fr:tex>.
+  Let <fr:tex
+display="inline"><![CDATA[K_\mathrm {nr}]]></fr:tex> be the largest sub-extension of <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> that is unramified at each prime ideal of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
   We know that, or we set,
   <fr:tex
-display="block">     \pi _1(\operatorname {Spec}(A),\overline {K})     = \operatorname {Gal}(K_\mathrm {nr}/K).   </fr:tex></fr:p><fr:p>
-  For every closed point <fr:tex>x</fr:tex> of <fr:tex>\operatorname {Spec}(A)</fr:tex>, defined by some maximal ideal <fr:tex>m_x</fr:tex> of <fr:tex>A</fr:tex>, the residue field <fr:tex>k_x=A/m_x</fr:tex> is finite;
-  the point <fr:tex>x</fr:tex> defines a conjugation class of "Frobenius substitutions" <fr:tex>\varphi _x\in \pi _1(\operatorname {Spec}(A),\overline {K})</fr:tex>.
-  We set <fr:tex>q_x=\#k_x</fr:tex> and <fr:tex>F_x=\varphi _x^{-1}</fr:tex>.
-</fr:p><fr:p>
-  Let <fr:tex>K</fr:tex> be a field of finite type over the prime field of characteristic <fr:tex>p</fr:tex>, let <fr:tex>\overline {K}</fr:tex> be an algebraic closure of <fr:tex>K</fr:tex>, let <fr:tex>l</fr:tex> be a prime number <fr:tex>\neq  p</fr:tex>, and let <fr:tex>H</fr:tex> be a <fr:tex>\mathbb {Z}_l</fr:tex>-module (or a <fr:tex>\mathbb {Q}_l</fr:tex>-module) of finite type endowed with a continuous action <fr:tex>\rho </fr:tex> of <fr:tex>\operatorname {Gal}(\overline {K}/K)</fr:tex>.
-  We will still suppose in what follows that there exists an <fr:tex>A</fr:tex> as above, with <fr:tex>l</fr:tex> invertible in <fr:tex>A</fr:tex>, and such that <fr:tex>\rho </fr:tex> factors through <fr:tex>\pi _1(\operatorname {Spec}(A),\overline {K}) = \operatorname {Gal}(K_\mathrm {nr}/K)</fr:tex>.
-  We say that <fr:tex>H</fr:tex> is <fr:em>pure of weight <fr:tex>n</fr:tex></fr:em> if, for every closed point <fr:tex>x</fr:tex> of an non-empty open subset of <fr:tex>\operatorname {Spec}(A)</fr:tex>, the eigenvalues <fr:tex>\alpha </fr:tex> of <fr:tex>F_x</fr:tex> acting on <fr:tex>H</fr:tex> are algebraic integers whose complex conjugates are all of absolute value <fr:tex>|\alpha |=q_x^{n/2}</fr:tex>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[     \pi _1(\operatorname {Spec}(A),\overline {K})     = \operatorname {Gal}(K_\mathrm {nr}/K).   ]]></fr:tex></fr:p><fr:p>For every closed point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, defined by some maximal ideal <fr:tex
+display="inline"><![CDATA[m_x]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, the residue field <fr:tex
+display="inline"><![CDATA[k_x=A/m_x]]></fr:tex> is finite;
+  the point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> defines a conjugation class of "Frobenius substitutions" <fr:tex
+display="inline"><![CDATA[\varphi _x\in \pi _1(\operatorname {Spec}(A),\overline {K})]]></fr:tex>.
+  We set <fr:tex
+display="inline"><![CDATA[q_x=\#k_x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F_x=\varphi _x^{-1}]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> be a field of finite type over the prime field of characteristic <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> be an algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[l]]></fr:tex> be a prime number <fr:tex
+display="inline"><![CDATA[\neq  p]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> be a <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l]]></fr:tex>-module (or a <fr:tex
+display="inline"><![CDATA[\mathbb {Q}_l]]></fr:tex>-module) of finite type endowed with a continuous action <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {K}/K)]]></fr:tex>.
+  We will still suppose in what follows that there exists an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> as above, with <fr:tex
+display="inline"><![CDATA[l]]></fr:tex> invertible in <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> factors through <fr:tex
+display="inline"><![CDATA[\pi _1(\operatorname {Spec}(A),\overline {K}) = \operatorname {Gal}(K_\mathrm {nr}/K)]]></fr:tex>.
+  We say that <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is <fr:em>pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:em> if, for every closed point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of an non-empty open subset of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, the eigenvalues <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[F_x]]></fr:tex> acting on <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> are algebraic integers whose complex conjugates are all of absolute value <fr:tex
+display="inline"><![CDATA[|\alpha |=q_x^{n/2}]]></fr:tex>.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:taxon>Principle</fr:taxon><fr:addr>hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:number>2.1</fr:number><fr:parent>hodge-theory-i-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If the Galois module <fr:tex>H</fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex>W</fr:tex> on <fr:tex>H_{\mathbb {Q}_l}=H\otimes _{\mathbb {Z}_l}\mathbb {Q}_l</fr:tex> (the "<fr:em>weight filtration</fr:em>") that is Galois invariant and such that <fr:tex>\operatorname {Gr}_n^W(H)</fr:tex> is pure of weight <fr:tex>n</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  We can also further suppose that <fr:tex>\operatorname {Gr}_n^W(H)</fr:tex> is semi-simple.
-</fr:p><fr:p>
-  When we have a resolution of singularities we can often give a conjectural definition of <fr:tex>W</fr:tex>, whose validity follows from the Weil conjectures <fr:link
-href="W1949.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:addr
+type="user">hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:taxon>Principle</fr:taxon><fr:authors /><fr:number>2.1</fr:number><fr:parent>hodge-theory-i-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If the Galois module <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[H_{\mathbb {Q}_l}=H\otimes _{\mathbb {Z}_l}\mathbb {Q}_l]]></fr:tex> (the "<fr:em>weight filtration</fr:em>") that is Galois invariant and such that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex> is pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can also further suppose that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex> is semi-simple.</fr:p><fr:p>When we have a resolution of singularities we can often give a conjectural definition of <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>, whose validity follows from the Weil conjectures <fr:link
 type="local"
-addr="W1949">[W1949]</fr:link> (cf. <fr:ref
+href="W1949.xml"
+addr="W1949"
+title="Number of solutions of equations in finite fields">[W1949]</fr:link> (cf. <fr:ref
 addr="hodge-theory-i-6"
 href="hodge-theory-i-6.xml"
-number="6"></fr:ref>).
-</fr:p><fr:p>
-  Let <fr:tex>\mu </fr:tex> be the subgroup of <fr:tex>\overline {K}^*</fr:tex> given by the roots of unity.
-  The <fr:em>Tate module</fr:em> <fr:tex>\mathbb {Z}_l(1)</fr:tex>, defined by
+number="6" />).</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be the subgroup of <fr:tex
+display="inline"><![CDATA[\overline {K}^*]]></fr:tex> given by the roots of unity.
+  The <fr:em>Tate module</fr:em> <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>, defined by
   <fr:tex
-display="block">     \mathbb {Z}_l(1)     = \operatorname {Hom}(\mathbb {Q}_l/\mathbb {Z}_l,\mu )   </fr:tex>
-  is pure of weight <fr:tex>-2</fr:tex>.
-  We set <fr:tex>\mathbb {Z}_l(n)=\mathbb {Z}_l(1)^\otimes  n</fr:tex>.
-</fr:p><fr:p>
-  It is trivial that every morphism <fr:tex>f\colon  H\to  H'</fr:tex> is strictly compatible with the weight filtration.
-</fr:p><fr:p><fr:ref
+display="block"><![CDATA[     \mathbb {Z}_l(1)     = \operatorname {Hom}(\mathbb {Q}_l/\mathbb {Z}_l,\mu )   ]]></fr:tex>
+  is pure of weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>.
+  We set <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(n)=\mathbb {Z}_l(1)^\otimes  n]]></fr:tex>.</fr:p><fr:p>It is trivial that every morphism <fr:tex
+display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is strictly compatible with the weight filtration.</fr:p><fr:p><fr:ref
 addr="hodge-theory-i-principle-2.1"
 href="hodge-theory-i-principle-2.1.xml"
 taxon="Principle"
-number="2.1"></fr:ref> agrees with the fact that every extension of <fr:tex>\mathbb {G}_m</fr:tex> ("weight <fr:tex>-2</fr:tex>") by an abelian variety ("weight <fr:tex>-1&gt;-2</fr:tex>") is trivial.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="2.1" /> agrees with the fact that every extension of <fr:tex
+display="inline"><![CDATA[\mathbb {G}_m]]></fr:tex> ("weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>") by an abelian variety ("weight <fr:tex
+display="inline"><![CDATA[-1>-2]]></fr:tex>") is trivial.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>597</fr:anchor><fr:addr>hodge-theory-i-8</fr:addr><fr:route>hodge-theory-i-8.xml</fr:route><fr:number>8</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>\operatorname {Spec}(V)</fr:tex> be the spectrum of a Henselian discrete valuation ring (a <fr:em>Henselian trait</fr:em>) with field of fractions <fr:tex>K</fr:tex>, and residue field <fr:tex>k</fr:tex> that is of finite type over the prime field of characteristic <fr:tex>p</fr:tex>.
-  Let <fr:tex>\overline {K}</fr:tex> be an algebraic closure of <fr:tex>K</fr:tex>, and let <fr:tex>H</fr:tex> be a vector space of finite dimension over <fr:tex>\mathbb {Q}_l</fr:tex> (for <fr:tex>l\neq  p</fr:tex>) on which <fr:tex>\operatorname {Gal}(\overline {K}/K)</fr:tex> acts continuously.
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>653</fr:anchor><fr:addr
+type="user">hodge-theory-i-8</fr:addr><fr:route>hodge-theory-i-8.xml</fr:route><fr:authors /><fr:number>8</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex> be the spectrum of a Henselian discrete valuation ring (a <fr:em>Henselian trait</fr:em>) with field of fractions <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, and residue field <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> that is of finite type over the prime field of characteristic <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.
+  Let <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> be an algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> be a vector space of finite dimension over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}_l]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[l\neq  p]]></fr:tex>) on which <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {K}/K)]]></fr:tex> acts continuously.
   By Grothendieck, we know ([<fr:link
-href="ST1968.xml"
 type="local"
-addr="ST1968">ST1968</fr:link>, Appendix]) that a subgroup of finite index of the inertia group <fr:tex>I</fr:tex> acts unipotently.
-  By replacing <fr:tex>V</fr:tex> with a finite extension, we arrive to the case where the action of all of <fr:tex>I</fr:tex> is unipotent (the <fr:em>semi-stable</fr:em>case);
-  it then factors as the largest pro-<fr:tex>l</fr:tex>-group <fr:tex>I_l</fr:tex> that is a quotient of <fr:tex>I</fr:tex>, and canonically isomorphic to <fr:tex>\mathbb {Z}_l(1)</fr:tex>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="ST1968.xml"
+addr="ST1968"
+title="Good reduction of abelian varieties">ST1968</fr:link>, Appendix]) that a subgroup of finite index of the inertia group <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> acts unipotently.
+  By replacing <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> with a finite extension, we arrive to the case where the action of all of <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is unipotent (the <fr:em>semi-stable</fr:em>case);
+  it then factors as the largest pro-<fr:tex
+display="inline"><![CDATA[l]]></fr:tex>-group <fr:tex
+display="inline"><![CDATA[I_l]]></fr:tex> that is a quotient of <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>, and canonically isomorphic to <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:taxon>Principle</fr:taxon><fr:addr>hodge-theory-i-principle-8.1</fr:addr><fr:route>hodge-theory-i-principle-8.1.xml</fr:route><fr:number>8.1</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    In the semi-stable case, if the Galois module <fr:tex>H</fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex>W</fr:tex> of <fr:tex>H</fr:tex> (the "<fr:em>weight filtration</fr:em>") such that <fr:tex>I</fr:tex> acts trivially on <fr:tex>\operatorname {Gr}_n^W(H)</fr:tex>, and such that <fr:tex>\operatorname {Gr}_n^W(H)</fr:tex>, as a Galois module under <fr:tex>\operatorname {Gal}(\overline {k}/k)\simeq \operatorname {Gal}(\overline {K}/K)/I</fr:tex>, is pure of weight <fr:tex>n</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:p>
-  We can compare this with <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>376</fr:anchor><fr:addr
+type="user">hodge-theory-i-principle-8.1</fr:addr><fr:route>hodge-theory-i-principle-8.1.xml</fr:route><fr:taxon>Principle</fr:taxon><fr:authors /><fr:number>8.1</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>In the semi-stable case, if the Galois module <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> (the "<fr:em>weight filtration</fr:em>") such that <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> acts trivially on <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex>, as a Galois module under <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {k}/k)\simeq \operatorname {Gal}(\overline {K}/K)/I]]></fr:tex>, is pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can compare this with <fr:ref
 addr="hodge-theory-i-principle-2.1"
 href="hodge-theory-i-principle-2.1.xml"
 taxon="Principle"
-number="2.1"></fr:ref> and with the appendix of <fr:ref
+number="2.1" /> and with the appendix of <fr:ref
 addr="ST1968"
 href="ST1968.xml"
-taxon="Reference"></fr:ref>.
-</fr:p><fr:p>
-  If we have a resolution of singularities, then we can sometimes give a conjectural definition of <fr:tex>W</fr:tex> whose validity follows from the Weil conjectures.
-  With the help of the resolution and of Weil, it is sometimes easy to show that, in any case, <fr:tex>H</fr:tex> splits into pure Galois modules (under <fr:tex>\operatorname {Gal}(\overline {k}/k)</fr:tex>).
-</fr:p><fr:p>
-  Suppose that <fr:tex>H</fr:tex> is semi-stable.
-  For <fr:tex>T\in  I_t</fr:tex>, we define <fr:tex>\log  T</fr:tex> by the <fr:em>finite</fr:em> sum <fr:tex>-\sum _{n&gt;0}(\mathrm {Id} -T)^n/n</fr:tex>.
-  The map <fr:tex>(T,x)\mapsto \log  T(x)</fr:tex> can be identified with a homomorphism
+taxon="Reference" />.</fr:p><fr:p>If we have a resolution of singularities, then we can sometimes give a conjectural definition of <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> whose validity follows from the Weil conjectures.
+  With the help of the resolution and of Weil, it is sometimes easy to show that, in any case, <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> splits into pure Galois modules (under <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {k}/k)]]></fr:tex>).</fr:p><fr:p>Suppose that <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is semi-stable.
+  For <fr:tex
+display="inline"><![CDATA[T\in  I_t]]></fr:tex>, we define <fr:tex
+display="inline"><![CDATA[\log  T]]></fr:tex> by the <fr:em>finite</fr:em> sum <fr:tex
+display="inline"><![CDATA[-\sum _{n>0}(\mathrm {Id} -T)^n/n]]></fr:tex>.
+  The map <fr:tex
+display="inline"><![CDATA[(T,x)\mapsto \log  T(x)]]></fr:tex> can be identified with a homomorphism
 
   <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-i-8.2</fr:addr><fr:route>hodge-theory-i-8.2.xml</fr:route><fr:number>8.2</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">       M\colon  \mathbb {Z}_l(1)\otimes  H \to  H.     \tag{8.2}     </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>377</fr:anchor><fr:addr
+type="user">hodge-theory-i-8.2</fr:addr><fr:route>hodge-theory-i-8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       M\colon  \mathbb {Z}_l(1)\otimes  H \to  H.     \tag{8.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  Since <fr:tex>\mathbb {Z}_l(1)</fr:tex> is of weight <fr:tex>-2</fr:tex>, we necessarily have (cf. <fr:ref
+  Since <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex> is of weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>, we necessarily have (cf. <fr:ref
 addr="hodge-theory-i-5"
 href="hodge-theory-i-5.xml"
-number="5"></fr:ref>)
+number="5" />)
 
   <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-i-8.3</fr:addr><fr:route>hodge-theory-i-8.3.xml</fr:route><fr:number>8.3</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">       M(\mathbb {Z}_l(1)\otimes  W_n(H)) \subset  W_{n-2}(H),     \tag{8.3}     </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>378</fr:anchor><fr:addr
+type="user">hodge-theory-i-8.3</fr:addr><fr:route>hodge-theory-i-8.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.3</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       M(\mathbb {Z}_l(1)\otimes  W_n(H)) \subset  W_{n-2}(H),     \tag{8.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  and <fr:tex>M</fr:tex> induces
+  and <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> induces
 
   <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-i-8.4</fr:addr><fr:route>hodge-theory-i-8.4.xml</fr:route><fr:number>8.4</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">       \operatorname {Gr}(M)\colon  \mathbb {Z}_l(1)\otimes \operatorname {Gr}_n^W(H) \to  \operatorname {Gr}_{n-2}^W(H).     \tag{8.4}     </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>379</fr:anchor><fr:addr
+type="user">hodge-theory-i-8.4</fr:addr><fr:route>hodge-theory-i-8.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.4</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       \operatorname {Gr}(M)\colon  \mathbb {Z}_l(1)\otimes \operatorname {Gr}_n^W(H) \to  \operatorname {Gr}_{n-2}^W(H).     \tag{8.4}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:addr>hodge-theory-i-8.5</fr:addr><fr:route>hodge-theory-i-8.5.xml</fr:route><fr:number>8.5</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>X</fr:tex> is a non-singular projective variety over an algebraically closed field <fr:tex>k_0</fr:tex>, then we define
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>380</fr:anchor><fr:addr
+type="user">hodge-theory-i-8.5</fr:addr><fr:route>hodge-theory-i-8.5.xml</fr:route><fr:authors /><fr:number>8.5</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a non-singular projective variety over an algebraically closed field <fr:tex
+display="inline"><![CDATA[k_0]]></fr:tex>, then we define
     <fr:tex
-display="block">       L\colon  \mathbb {Z}_l(-1)\otimes  H^\bullet (X,\mathbb {Z}_l)       \to  H^\bullet (X,\mathbb {Z}_l)     </fr:tex>
+display="block"><![CDATA[       L\colon  \mathbb {Z}_l(-1)\otimes  H^\bullet (X,\mathbb {Z}_l)       \to  H^\bullet (X,\mathbb {Z}_l)     ]]></fr:tex>
     as being the cup product with the cohomology class of a hyperplane section.
-    We note that there is a formal analogy between <fr:tex>L</fr:tex> and <fr:tex>M</fr:tex>;
-    in the same way that <fr:tex>M</fr:tex> is defined by an action of <fr:tex>\mathbb {Z}_l(1)</fr:tex>, we can think of <fr:tex>L</fr:tex> as being defined by an action of <fr:tex>\mathbb {Z}_l(-1)</fr:tex>;
-    <fr:tex>L</fr:tex> increases the degree by <fr:tex>2</fr:tex>, and <fr:tex>\operatorname {Gr} M</fr:tex> <fr:ref
+    We note that there is a formal analogy between <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>;
+    in the same way that <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is defined by an action of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>, we can think of <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> as being defined by an action of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(-1)]]></fr:tex>;
+    <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> increases the degree by <fr:tex
+display="inline"><![CDATA[2]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\operatorname {Gr} M]]></fr:tex> <fr:ref
 addr="hodge-theory-i-8.4"
 href="hodge-theory-i-8.4.xml"
 taxon="Equation"
-number="8.4"></fr:ref> decreases it by <fr:tex>2</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+number="8.4" /> decreases it by <fr:tex
+display="inline"><![CDATA[2]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

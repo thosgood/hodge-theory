@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2645</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+      
+ <html:ol>
+        
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+          The condition <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q>n]]></fr:tex> implies that <fr:tex
+display="inline"><![CDATA[F^p\cap \bar {F}^q=(F^{p+1}\cap \bar {F}^q)+(F^p\cap \bar {F}^{q+1})]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q>n]]></fr:tex>.
+          By hypothesis, <fr:tex
+display="inline"><![CDATA[F^p\cap \bar {F}^q]]></fr:tex> is zero for large enough <fr:tex
+display="inline"><![CDATA[p+q]]></fr:tex>;
+          by decreasing induction, we thus deduce that the condition <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q>n]]></fr:tex> is equivalent to the condition <fr:tex
+display="inline"><![CDATA[F^p(A)\cap \bar {F}^q(A)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q>n]]></fr:tex>.
+          Dually (<fr:ref
+addr="hodge-theory-ii-1.1.6"
+href="hodge-theory-ii-1.1.6.xml"
+number="1.1.6" />, <fr:ref
+addr="hodge-theory-ii-1.1.7"
+href="hodge-theory-ii-1.1.7.xml"
+number="1.1.7" />, <fr:ref
+addr="hodge-theory-ii-1.1.10"
+href="hodge-theory-ii-1.1.10.xml"
+number="1.1.10" />), the condition <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q<n]]></fr:tex> is equivalent to the condition <fr:tex
+display="inline"><![CDATA[A=F^p(A)+\bar {F}^q(A)]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[(1-p)+(1-q)>-n]]></fr:tex>, i.e. for <fr:tex
+display="inline"><![CDATA[p+q\leqslant  n+1]]></fr:tex>, and the claim then follows.
+        </html:li>
+
+
+        
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+          If <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {F}]]></fr:tex> are <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-opposite, then we can prove by decreasing induction on <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> that
+
+          <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>685</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.2.5.1</fr:addr><fr:route>hodge-theory-ii-1.2.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.5.1</fr:number><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[               \bigoplus _{p'\geqslant  p} A^{p',q'}               \xrightarrow {\sim } F^p(A).             \tag{1.2.5.1}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+          
+ <html:ol>
+            
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+              For <fr:tex
+display="inline"><![CDATA[F^p(A)=0]]></fr:tex>, the claim is evident.
+            </html:li>
+
+            
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+              The decomposition <fr:tex
+display="inline"><![CDATA[A=F^{p+1}(A)\oplus \bar {F}^{n-p}(A)]]></fr:tex> induces on <fr:tex
+display="inline"><![CDATA[F^p(A)\supset  F^{p+1}(A)]]></fr:tex> a decomposition
+              <fr:tex
+display="block"><![CDATA[                 F^p(A)                 = F^{p+1}(A)\oplus (F^p(A)\cap \bar {F}^{n-p}(A))               ]]></fr:tex>
+              and we conclude by induction.
+            </html:li>
+
+          </html:ol>
+
+
+          For <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> small enough, we have <fr:tex
+display="inline"><![CDATA[F^p(A)=A]]></fr:tex>.
+          By <fr:ref
+addr="hodge-theory-ii-1.2.5.1"
+href="hodge-theory-ii-1.2.5.1.xml"
+taxon="Equation"
+number="1.2.5.1" />, the <fr:tex
+display="inline"><![CDATA[A^{p,q}]]></fr:tex> thus form a bigrading of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-1.2.4.1"
+href="hodge-theory-ii-1.2.4.1.xml"
+taxon="Equation"
+number="1.2.4.1" />.
+          The fact that <fr:tex
+display="inline"><![CDATA[\bar {F}]]></fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-1.2.4.2"
+href="hodge-theory-ii-1.2.4.2.xml"
+taxon="Equation"
+number="1.2.4.2" /> then follows by symmetry.
+        </html:li>
+
+      </html:ol>
+
+    </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2646</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.2.5</fr:addr><fr:route>hodge-theory-ii-1.2.5.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>1.2.5</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+      Let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {F}]]></fr:tex> be finite filtrations on <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+      For <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {F}]]></fr:tex> to be <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-opposite, it is necessary and sufficient that, for all <fr:tex
+display="inline"><![CDATA[p,q]]></fr:tex>,
+      <fr:tex
+display="block"><![CDATA[         [p+q=n+1]         \implies  [F^p(A)\oplus \bar {F}^q(A) \xrightarrow {\sim } A].       ]]></fr:tex>
+    </html:li>
+
+
+    
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+      If <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {F}]]></fr:tex> are <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-opposite, and if we set
+      <fr:tex
+display="block"><![CDATA[         \begin {cases}           A^{p,q} = 0           &\text {for }p+q\neq  n         \\A^{p,q} = F^p(A)\cap \bar {F}^q(A)           &\text {for }p+q=n         \end {cases}       ]]></fr:tex>
+      then <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is the direct sum of the <fr:tex
+display="inline"><![CDATA[A^{p,q}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {F}]]></fr:tex> come from the bigrading <fr:tex
+display="inline"><![CDATA[A^{p,q}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> by the procedure of <fr:ref
+addr="hodge-theory-ii-1.2.4"
+href="hodge-theory-ii-1.2.4.xml"
+number="1.2.4" />.
+    </html:li>
+
+
+    
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>681</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+      
+ <html:ol>
+        
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+          The condition <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q>n]]></fr:tex> implies that <fr:tex
+display="inline"><![CDATA[F^p\cap \bar {F}^q=(F^{p+1}\cap \bar {F}^q)+(F^p\cap \bar {F}^{q+1})]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q>n]]></fr:tex>.
+          By hypothesis, <fr:tex
+display="inline"><![CDATA[F^p\cap \bar {F}^q]]></fr:tex> is zero for large enough <fr:tex
+display="inline"><![CDATA[p+q]]></fr:tex>;
+          by decreasing induction, we thus deduce that the condition <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q>n]]></fr:tex> is equivalent to the condition <fr:tex
+display="inline"><![CDATA[F^p(A)\cap \bar {F}^q(A)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q>n]]></fr:tex>.
+          Dually (<fr:ref
+addr="hodge-theory-ii-1.1.6"
+href="hodge-theory-ii-1.1.6.xml"
+number="1.1.6" />, <fr:ref
+addr="hodge-theory-ii-1.1.7"
+href="hodge-theory-ii-1.1.7.xml"
+number="1.1.7" />, <fr:ref
+addr="hodge-theory-ii-1.1.10"
+href="hodge-theory-ii-1.1.10.xml"
+number="1.1.10" />), the condition <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q<n]]></fr:tex> is equivalent to the condition <fr:tex
+display="inline"><![CDATA[A=F^p(A)+\bar {F}^q(A)]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[(1-p)+(1-q)>-n]]></fr:tex>, i.e. for <fr:tex
+display="inline"><![CDATA[p+q\leqslant  n+1]]></fr:tex>, and the claim then follows.
+        </html:li>
+
+
+        
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+          If <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {F}]]></fr:tex> are <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-opposite, then we can prove by decreasing induction on <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> that
+
+          <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>685</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.2.5.1</fr:addr><fr:route>hodge-theory-ii-1.2.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.5.1</fr:number><fr:parent>hodge-theory-ii-1.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[               \bigoplus _{p'\geqslant  p} A^{p',q'}               \xrightarrow {\sim } F^p(A).             \tag{1.2.5.1}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+          
+ <html:ol>
+            
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+              For <fr:tex
+display="inline"><![CDATA[F^p(A)=0]]></fr:tex>, the claim is evident.
+            </html:li>
+
+            
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+              The decomposition <fr:tex
+display="inline"><![CDATA[A=F^{p+1}(A)\oplus \bar {F}^{n-p}(A)]]></fr:tex> induces on <fr:tex
+display="inline"><![CDATA[F^p(A)\supset  F^{p+1}(A)]]></fr:tex> a decomposition
+              <fr:tex
+display="block"><![CDATA[                 F^p(A)                 = F^{p+1}(A)\oplus (F^p(A)\cap \bar {F}^{n-p}(A))               ]]></fr:tex>
+              and we conclude by induction.
+            </html:li>
+
+          </html:ol>
+
+
+          For <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> small enough, we have <fr:tex
+display="inline"><![CDATA[F^p(A)=A]]></fr:tex>.
+          By <fr:ref
+addr="hodge-theory-ii-1.2.5.1"
+href="hodge-theory-ii-1.2.5.1.xml"
+taxon="Equation"
+number="1.2.5.1" />, the <fr:tex
+display="inline"><![CDATA[A^{p,q}]]></fr:tex> thus form a bigrading of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-1.2.4.1"
+href="hodge-theory-ii-1.2.4.1.xml"
+taxon="Equation"
+number="1.2.4.1" />.
+          The fact that <fr:tex
+display="inline"><![CDATA[\bar {F}]]></fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-1.2.4.2"
+href="hodge-theory-ii-1.2.4.2.xml"
+taxon="Equation"
+number="1.2.4.2" /> then follows by symmetry.
+        </html:li>
+
+      </html:ol>
+
+    </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+
+  </html:ol>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,93 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1315</fr:anchor><fr:addr>hodge-theory-ii-2.2.5</fr:addr><fr:route>hodge-theory-ii-2.2.5.xml</fr:route><fr:number>2.2.5</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We will prove:
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1372</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.5</fr:addr><fr:route>hodge-theory-ii-2.2.5.xml</fr:route><fr:authors /><fr:number>2.2.5</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will prove:
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1287</fr:anchor><fr:addr>hodge-theory-ii-2.2.5.1</fr:addr><fr:route>hodge-theory-ii-2.2.5.1.xml</fr:route><fr:number>2.2.5.1</fr:number><fr:parent>hodge-theory-ii-2.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For <fr:tex>\alpha </fr:tex> the natural injection of <fr:tex>\mathbb {Z}(1)</fr:tex> into <fr:tex>\mathbb {C}</fr:tex>, we have
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1319</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.5.1</fr:addr><fr:route>hodge-theory-ii-2.2.5.1.xml</fr:route><fr:authors /><fr:number>2.2.5.1</fr:number><fr:parent>hodge-theory-ii-2.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> the natural injection of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(1)]]></fr:tex> into <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we have
         <fr:tex
-display="block">           -\alpha  c''_1(\mathcal {L})           = c'_1(\mathcal {L}).         </fr:tex></fr:p></fr:mainmatter></fr:tree>
+display="block"><![CDATA[           -\alpha  c''_1(\mathcal {L})           = c'_1(\mathcal {L}).         ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1288</fr:anchor><fr:addr>hodge-theory-ii-2.2.5.2</fr:addr><fr:route>hodge-theory-ii-2.2.5.2.xml</fr:route><fr:number>2.2.5.2</fr:number><fr:parent>hodge-theory-ii-2.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For <fr:tex>\bta </fr:tex> the natural injection of <fr:tex>\mathbb {Z}</fr:tex> into <fr:tex>\mathbb {C}</fr:tex>, we have
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1320</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.5.2</fr:addr><fr:route>hodge-theory-ii-2.2.5.2.xml</fr:route><fr:authors /><fr:number>2.2.5.2</fr:number><fr:parent>hodge-theory-ii-2.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[\bta ]]></fr:tex> the natural injection of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> into <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we have
         <fr:tex
-display="block">           -\beta  c'''_1(\mathcal {L})           = \frac {1}{2\pi  i}c'_1(\mathcal {L}).         </fr:tex></fr:p></fr:mainmatter></fr:tree></fr:p><fr:p>
-    We prove this by considering the following diagram of complexes, in which <fr:tex>\approx </fr:tex> denotes a quasi-isomorphism, and whose upper triangle anti-commutes up to homotopy:
+display="block"><![CDATA[           -\beta  c'''_1(\mathcal {L})           = \frac {1}{2\pi  i}c'_1(\mathcal {L}).         ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>We prove this by considering the following diagram of complexes, in which <fr:tex
+display="inline"><![CDATA[\approx ]]></fr:tex> denotes a quasi-isomorphism, and whose upper triangle anti-commutes up to homotopy:
     <fr:tex
-display="block">       \begin {CD}         \mathbb {C} @&gt;\approx &gt;&gt; \Omega _X^\bullet  @&lt;&lt;&lt; \sigma _{\geqslant 1}(\Omega _X^\bullet )       \\@| @. @|       \\\mathbb {C} @&lt;&lt;&lt; (\mathbb {C}\to \mathcal {O}) @&gt;\approx &gt;\mathrm {d}&gt; \sigma _{\geqslant 1}(\Omega _X^\bullet )       \\@AAA @AAA @AA{\mathrm {d}\log }A       \\\mathbb {Z}(1) @&lt;&lt;&lt; (\mathbb {Z}(1)\to \mathcal {O}) @&gt;\approx &gt;\exp &gt; \mathcal {O}^*[-1]       \end {CD}     </fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[       \begin {CD}         \mathbb {C} @>\approx >> \Omega _X^\bullet  @<<< \sigma _{\geqslant 1}(\Omega _X^\bullet )       \\@| @. @|       \\\mathbb {C} @<<< (\mathbb {C}\to \mathcal {O}) @>\approx >\mathrm {d}> \sigma _{\geqslant 1}(\Omega _X^\bullet )       \\@AAA @AAA @AA{\mathrm {d}\log }A       \\\mathbb {Z}(1) @<<< (\mathbb {Z}(1)\to \mathcal {O}) @>\approx >\exp > \mathcal {O}^*[-1]       \end {CD}     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1314</fr:anchor><fr:addr>hodge-theory-ii-2.2</fr:addr><fr:route>hodge-theory-ii-2.2.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1373</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2</fr:addr><fr:route>hodge-theory-ii-2.2.xml</fr:route><fr:title
+text="Hodge Theory II › Hodge structures › Hodge theory"><fr:link
+type="local"
 href="hodge-theory-ii-2.xml"
+addr="hodge-theory-ii-2"
+title="Hodge Theory II › Hodge structures"><fr:link
 type="local"
-addr="hodge-theory-ii-2"><fr:link
 href="hodge-theory-ii.xml"
-type="local"
-addr="hodge-theory-ii">Hodge Theory II</fr:link> › Hodge structures</fr:link> › Hodge theory</fr:title><fr:number>2.2</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hodge-theory-ii"
+title="Hodge Theory II">Hodge Theory II</fr:link> › Hodge structures</fr:link> › Hodge theory</fr:title><fr:authors /><fr:number>2.2</fr:number><fr:parent>hodge-theory-ii-2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1281</fr:anchor><fr:addr>hodge-theory-ii-2.2.1</fr:addr><fr:route>hodge-theory-ii-2.2.1.xml</fr:route><fr:number>2.2.1</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>X</fr:tex> be a compact Kähler variety (for example, smooth and projective).
-    By the holomorphic Poincaré lemma, the de Rham complex <fr:tex>\Omega _X^\bullet </fr:tex> is a resolution of the constant sheaf <fr:tex>\mathbb {C}</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1312</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.1</fr:addr><fr:route>hodge-theory-ii-2.2.1.xml</fr:route><fr:authors /><fr:number>2.2.1</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a compact Kähler variety (for example, smooth and projective).
+    By the holomorphic Poincaré lemma, the de Rham complex <fr:tex
+display="inline"><![CDATA[\Omega _X^\bullet ]]></fr:tex> is a resolution of the constant sheaf <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
     We thus have an isomorphism (<fr:ref
 addr="hodge-theory-ii-1.4.2"
 href="hodge-theory-ii-1.4.2.xml"
-number="1.4.2"></fr:ref>)
+number="1.4.2" />)
     <fr:tex
-display="block">       \operatorname {H}^\bullet (X,\mathbb {C})       \sim  \operatorname {\mathbb {H}}^\bullet (X,\Omega _X^\bullet )     </fr:tex>
-    and the stupid filtration on <fr:tex>\Omega _X^\bullet </fr:tex> (<fr:ref
+display="block"><![CDATA[       \operatorname {H}^\bullet (X,\mathbb {C})       \sim  \operatorname {\mathbb {H}}^\bullet (X,\Omega _X^\bullet )     ]]></fr:tex>
+    and the stupid filtration on <fr:tex
+display="inline"><![CDATA[\Omega _X^\bullet ]]></fr:tex> (<fr:ref
 addr="hodge-theory-ii-1.4.5"
 href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref>) defines the hypercohomology spectral sequence
+number="1.4.5" />) defines the hypercohomology spectral sequence
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-2.2.1.1</fr:addr><fr:route>hodge-theory-ii-2.2.1.1.xml</fr:route><fr:number>2.2.1.1</fr:number><fr:parent>hodge-theory-ii-2.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         E_1^{pq}         = \operatorname {H}^q(X,\Omega _X^q)         \Rightarrow  \operatorname {H}^{p+q}(X,\mathbb {C})       \tag{2.2.1.1}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.1.1</fr:addr><fr:route>hodge-theory-ii-2.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>2.2.1.1</fr:number><fr:parent>hodge-theory-ii-2.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X,\Omega _X^q)         \Rightarrow  \operatorname {H}^{p+q}(X,\mathbb {C})       \tag{2.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    which abuts to the <fr:em>Hodge filtration</fr:em> of <fr:tex>\operatorname {H}^\bullet (X,\mathbb {C})</fr:tex>.
-  </fr:p><fr:p>
-    By Hodge theory [<fr:link
+    which abuts to the <fr:em>Hodge filtration</fr:em> of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {C})]]></fr:tex>.</fr:p><fr:p>By Hodge theory [<fr:link
+type="local"
 href="H1952.xml"
+addr="H1952"
+title="The theory and applications of harmonic integrals">H1952</fr:link>; <fr:link
 type="local"
-addr="H1952">H1952</fr:link>; <fr:link
 href="W1958.xml"
-type="local"
-addr="W1958">W1958</fr:link>], we have:
+addr="W1958"
+title="Introduction à L'Étude des Variétés Kählériennes">W1958</fr:link>], we have:
 
     
  <html:ol
@@ -99,170 +123,211 @@ style="list-style-type: &quot;(A) &quot;">
 addr="hodge-theory-ii-2.2.1.1"
 href="hodge-theory-ii-2.2.1.1.xml"
 taxon="Equation"
-number="2.2.1.1"></fr:ref> degenerates: <fr:tex>E_1=E_\infty </fr:tex>.
+number="2.2.1.1" /> degenerates: <fr:tex
+display="inline"><![CDATA[E_1=E_\infty ]]></fr:tex>.
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;(B) &quot;">
-        The Hodge filtration of <fr:tex>\operatorname {H}^n(X,\mathbb {C})</fr:tex> is <fr:tex>n</fr:tex>-opposite to the complex conjugate filtration.
+        The Hodge filtration of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {C})]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-opposite to the complex conjugate filtration.
       </html:li>
 
-    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+    </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1282</fr:anchor><fr:addr>hodge-theory-ii-2.2.2</fr:addr><fr:route>hodge-theory-ii-2.2.2.xml</fr:route><fr:number>2.2.2</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>V</fr:tex> be a local system of real vector spaces over <fr:tex>X</fr:tex>, i.e. a sheaf of <fr:tex>\mathbb {R}</fr:tex>-vector spaces that is locally isomorphic to a constant sheaf <fr:tex>\mathbb {R}^n</fr:tex>.
-    Suppose that there exists on <fr:tex>V</fr:tex> a bilinear form
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1313</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.2</fr:addr><fr:route>hodge-theory-ii-2.2.2.xml</fr:route><fr:authors /><fr:number>2.2.2</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> be a local system of real vector spaces over <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, i.e. a sheaf of <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>-vector spaces that is locally isomorphic to a constant sheaf <fr:tex
+display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>.
+    Suppose that there exists on <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> a bilinear form
     <fr:tex
-display="block">       Q\colon  V\otimes  V\to \mathbb {R}     </fr:tex>
+display="block"><![CDATA[       Q\colon  V\otimes  V\to \mathbb {R}     ]]></fr:tex>
     that is locally constant and <fr:em>defined</fr:em>.
-    If <fr:tex>X</fr:tex> is connected, this is the case if <fr:tex>V</fr:tex> is defined by a representation of a finite quotient of the fundamental group of <fr:tex>X</fr:tex>.
-  </fr:p><fr:p>
-    Statements (A) and (B) <fr:link
-href="hodge-theory-ii-2.2.1.xml"
+    If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is connected, this is the case if <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is defined by a representation of a finite quotient of the fundamental group of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p><fr:p>Statements (A) and (B) <fr:link
 type="local"
-addr="hodge-theory-ii-2.2.1">above</fr:link> remain true as they are, without needing to change the proofs, for cohomology with coefficients in <fr:tex>V_\mathbb {C}=V\otimes _\mathbb {R}\mathbb {C}</fr:tex>, since the spectral sequence
+href="hodge-theory-ii-2.2.1.xml"
+addr="hodge-theory-ii-2.2.1">above</fr:link> remain true as they are, without needing to change the proofs, for cohomology with coefficients in <fr:tex
+display="inline"><![CDATA[V_\mathbb {C}=V\otimes _\mathbb {R}\mathbb {C}]]></fr:tex>, since the spectral sequence
     <fr:tex
-display="block">       E_1^{pq}       = \operatorname {H}^q(X,\Omega _X^p(V))       \Rightarrow  \operatorname {H}^{p+q}(X,V_\mathbb {C})     </fr:tex>
-    induced by the de Rham resolution of <fr:tex>V_\mathbb {C}</fr:tex> by <fr:tex>\Omega _X^\bullet (V_\mathbb {C})</fr:tex> degenerates, and abuts to a filtration on <fr:tex>\operatorname {H}^n(X,V_\mathbb {C})</fr:tex> that is <fr:tex>n</fr:tex>-opposite to the complex conjugate filtration.
-  </fr:p><fr:p>
-    The vector space <fr:tex>\operatorname {H}^n(X,V)</fr:tex> is thus endowed with a canonical real Hodge structure of weight <fr:tex>n</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[       E_1^{pq}       = \operatorname {H}^q(X,\Omega _X^p(V))       \Rightarrow  \operatorname {H}^{p+q}(X,V_\mathbb {C})     ]]></fr:tex>
+    induced by the de Rham resolution of <fr:tex
+display="inline"><![CDATA[V_\mathbb {C}]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\Omega _X^\bullet (V_\mathbb {C})]]></fr:tex> degenerates, and abuts to a filtration on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(X,V_\mathbb {C})]]></fr:tex> that is <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-opposite to the complex conjugate filtration.</fr:p><fr:p>The vector space <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(X,V)]]></fr:tex> is thus endowed with a canonical real Hodge structure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1283</fr:anchor><fr:addr>hodge-theory-ii-2.2.3</fr:addr><fr:route>hodge-theory-ii-2.2.3.xml</fr:route><fr:number>2.2.3</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We show in [<fr:link
-href="D1968.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1314</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.3</fr:addr><fr:route>hodge-theory-ii-2.2.3.xml</fr:route><fr:authors /><fr:number>2.2.3</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We show in [<fr:link
 type="local"
-addr="D1968">D1968</fr:link>] that the statements in <fr:ref
+href="D1968.xml"
+addr="D1968"
+title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>] that the statements in <fr:ref
 addr="hodge-theory-ii-2.2.1"
 href="hodge-theory-ii-2.2.1.xml"
-number="2.2.1"></fr:ref> remain true when <fr:tex>X</fr:tex> is a non-singular complete algebraic, not necessarily Kähler, variety.
+number="2.2.1" /> remain true when <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a non-singular complete algebraic, not necessarily Kähler, variety.
     The proof from <fr:em>loc. cit.</fr:em>, based on a reduction to the projective case by Chow's lemma and resolution of singularities, extends to the case of <fr:ref
 addr="hodge-theory-ii-2.2.2"
 href="hodge-theory-ii-2.2.2.xml"
-number="2.2.2"></fr:ref>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="2.2.2" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1286</fr:anchor><fr:addr>hodge-theory-ii-2.2.4</fr:addr><fr:route>hodge-theory-ii-2.2.4.xml</fr:route><fr:number>2.2.4</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>\mathcal {L}</fr:tex> be an invertible sheaf.
-    Here are two ways of defining the class <fr:tex>c_1(\mathcal {L})</fr:tex>.
-  </fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1315</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.4</fr:addr><fr:route>hodge-theory-ii-2.2.4.xml</fr:route><fr:authors /><fr:number>2.2.4</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathcal {L}]]></fr:tex> be an invertible sheaf.
+    Here are two ways of defining the class <fr:tex
+display="inline"><![CDATA[c_1(\mathcal {L})]]></fr:tex>.</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1284</fr:anchor><fr:addr>hodge-theory-ii-2.2.4.1</fr:addr><fr:route>hodge-theory-ii-2.2.4.1.xml</fr:route><fr:number>2.2.4.1</fr:number><fr:parent>hodge-theory-ii-2.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-      The sheaf <fr:tex>\mathcal {L}</fr:tex> defines an element <fr:tex>c</fr:tex> in <fr:tex>\operatorname {H}^1(X,\mathcal {O}^*)</fr:tex>.
-      Its image under <fr:tex>\mathrm {d} f/f\colon \mathcal {O}^*\to \Omega ^1</fr:tex> lies in <fr:tex>\operatorname {H}^1(X,\Omega ^1)</fr:tex>.
-      More precisely, <fr:tex>\mathrm {d} f/f</fr:tex> defines a morphism of complexes
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1316</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.4.1</fr:addr><fr:route>hodge-theory-ii-2.2.4.1.xml</fr:route><fr:authors /><fr:number>2.2.4.1</fr:number><fr:parent>hodge-theory-ii-2.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The sheaf <fr:tex
+display="inline"><![CDATA[\mathcal {L}]]></fr:tex> defines an element <fr:tex
+display="inline"><![CDATA[c]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\operatorname {H}^1(X,\mathcal {O}^*)]]></fr:tex>.
+      Its image under <fr:tex
+display="inline"><![CDATA[\mathrm {d} f/f\colon \mathcal {O}^*\to \Omega ^1]]></fr:tex> lies in <fr:tex
+display="inline"><![CDATA[\operatorname {H}^1(X,\Omega ^1)]]></fr:tex>.
+      More precisely, <fr:tex
+display="inline"><![CDATA[\mathrm {d} f/f]]></fr:tex> defines a morphism of complexes
       <fr:tex
-display="block">         \mathrm {d}\log \colon          \mathcal {O}^*[-1]         \to  (0\to \Omega _X^1\to \Omega _X^2\to \ldots )         = \sigma _{\geqslant 1}(\Omega _X^\bullet ).       </fr:tex>
-      This complex maps to <fr:tex>\Omega _X^\bullet </fr:tex>, whence
+display="block"><![CDATA[         \mathrm {d}\log \colon          \mathcal {O}^*[-1]         \to  (0\to \Omega _X^1\to \Omega _X^2\to \ldots )         = \sigma _{\geqslant 1}(\Omega _X^\bullet ).       ]]></fr:tex>
+      This complex maps to <fr:tex
+display="inline"><![CDATA[\Omega _X^\bullet ]]></fr:tex>, whence
       <fr:tex
-display="block">         \mathrm {d}\log \colon  \mathcal {O}^*[-1]\to \Omega _X^\bullet        </fr:tex>
-      and the image of <fr:tex>c</fr:tex> under <fr:tex>\mathrm {d}\log </fr:tex> is in <fr:tex>\operatorname {\mathbb {H}}^2(\Omega _X^\bullet )</fr:tex>.
-      This construction still makes sense for an algebraic variety over an arbitrary field <fr:tex>k</fr:tex>.
-      For <fr:tex>k=\mathbb {C}</fr:tex>, we further have
+display="block"><![CDATA[         \mathrm {d}\log \colon  \mathcal {O}^*[-1]\to \Omega _X^\bullet        ]]></fr:tex>
+      and the image of <fr:tex
+display="inline"><![CDATA[c]]></fr:tex> under <fr:tex
+display="inline"><![CDATA[\mathrm {d}\log ]]></fr:tex> is in <fr:tex
+display="inline"><![CDATA[\operatorname {\mathbb {H}}^2(\Omega _X^\bullet )]]></fr:tex>.
+      This construction still makes sense for an algebraic variety over an arbitrary field <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>.
+      For <fr:tex
+display="inline"><![CDATA[k=\mathbb {C}]]></fr:tex>, we further have
       <fr:tex
-display="block">         \operatorname {H}^2(X,\mathbb {C})         \xrightarrow {\sim } \operatorname {\mathbb {H}}^2(X,\Omega _X^\bullet )       </fr:tex>
+display="block"><![CDATA[         \operatorname {H}^2(X,\mathbb {C})         \xrightarrow {\sim } \operatorname {\mathbb {H}}^2(X,\Omega _X^\bullet )       ]]></fr:tex>
       whence a class
       <fr:tex
-display="block">         c'_1(\mathcal {L}) \in  \operatorname {H}^2(X,\mathbb {C}).       </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[         c'_1(\mathcal {L}) \in  \operatorname {H}^2(X,\mathbb {C}).       ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1285</fr:anchor><fr:addr>hodge-theory-ii-2.2.4.2</fr:addr><fr:route>hodge-theory-ii-2.2.4.2.xml</fr:route><fr:number>2.2.4.2</fr:number><fr:parent>hodge-theory-ii-2.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-      The exponential exact sequence
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1317</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.4.2</fr:addr><fr:route>hodge-theory-ii-2.2.4.2.xml</fr:route><fr:authors /><fr:number>2.2.4.2</fr:number><fr:parent>hodge-theory-ii-2.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The exponential exact sequence
       <fr:tex
-display="block">         0         \to  \mathbb {Z}(1)         \to  \mathcal {O}         \to  \mathcal {O}^*         \to  0       </fr:tex>
+display="block"><![CDATA[         0         \to  \mathbb {Z}(1)         \to  \mathcal {O}         \to  \mathcal {O}^*         \to  0       ]]></fr:tex>
       
       defines a homomorphism
       <fr:tex
-display="block">         \partial \colon  \operatorname {H}^1(X,\mathcal {O}^*)\to \operatorname {H}^2(X,\mathbb {Z}(1))       </fr:tex>
+display="block"><![CDATA[         \partial \colon  \operatorname {H}^1(X,\mathcal {O}^*)\to \operatorname {H}^2(X,\mathbb {Z}(1))       ]]></fr:tex>
       whence a class
       <fr:tex
-display="block">         \partial  c         = c''_1(\mathcal {L}) \in  \operatorname {H}^2(X,\mathbb {Z}(1)).       </fr:tex></fr:p><fr:p>
-      If we have a choice of <fr:tex>i</fr:tex>, then this class is identified with
+display="block"><![CDATA[         \partial  c         = c''_1(\mathcal {L}) \in  \operatorname {H}^2(X,\mathbb {Z}(1)).       ]]></fr:tex></fr:p><fr:p>If we have a choice of <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, then this class is identified with
       <fr:tex
-display="block">         c'''_1(\mathcal {L}) \in  \operatorname {H}^2(X,\mathbb {Z})       </fr:tex>
-      and for <fr:tex>\mathcal {L}=\mathcal {O}(D)</fr:tex>, this <fr:tex>c'''_1(\mathcal {L})</fr:tex> is exactly the integer cohomology class defined by <fr:tex>D</fr:tex> (with the orientations being defined by <fr:tex>i</fr:tex>).
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[         c'''_1(\mathcal {L}) \in  \operatorname {H}^2(X,\mathbb {Z})       ]]></fr:tex>
+      and for <fr:tex
+display="inline"><![CDATA[\mathcal {L}=\mathcal {O}(D)]]></fr:tex>, this <fr:tex
+display="inline"><![CDATA[c'''_1(\mathcal {L})]]></fr:tex> is exactly the integer cohomology class defined by <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> (with the orientations being defined by <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1289</fr:anchor><fr:addr>hodge-theory-ii-2.2.5</fr:addr><fr:route>hodge-theory-ii-2.2.5.xml</fr:route><fr:number>2.2.5</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We will prove:
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1318</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.5</fr:addr><fr:route>hodge-theory-ii-2.2.5.xml</fr:route><fr:authors /><fr:number>2.2.5</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will prove:
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1287</fr:anchor><fr:addr>hodge-theory-ii-2.2.5.1</fr:addr><fr:route>hodge-theory-ii-2.2.5.1.xml</fr:route><fr:number>2.2.5.1</fr:number><fr:parent>hodge-theory-ii-2.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For <fr:tex>\alpha </fr:tex> the natural injection of <fr:tex>\mathbb {Z}(1)</fr:tex> into <fr:tex>\mathbb {C}</fr:tex>, we have
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1319</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.5.1</fr:addr><fr:route>hodge-theory-ii-2.2.5.1.xml</fr:route><fr:authors /><fr:number>2.2.5.1</fr:number><fr:parent>hodge-theory-ii-2.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> the natural injection of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(1)]]></fr:tex> into <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we have
         <fr:tex
-display="block">           -\alpha  c''_1(\mathcal {L})           = c'_1(\mathcal {L}).         </fr:tex></fr:p></fr:mainmatter></fr:tree>
+display="block"><![CDATA[           -\alpha  c''_1(\mathcal {L})           = c'_1(\mathcal {L}).         ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1288</fr:anchor><fr:addr>hodge-theory-ii-2.2.5.2</fr:addr><fr:route>hodge-theory-ii-2.2.5.2.xml</fr:route><fr:number>2.2.5.2</fr:number><fr:parent>hodge-theory-ii-2.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        For <fr:tex>\bta </fr:tex> the natural injection of <fr:tex>\mathbb {Z}</fr:tex> into <fr:tex>\mathbb {C}</fr:tex>, we have
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1320</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.5.2</fr:addr><fr:route>hodge-theory-ii-2.2.5.2.xml</fr:route><fr:authors /><fr:number>2.2.5.2</fr:number><fr:parent>hodge-theory-ii-2.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[\bta ]]></fr:tex> the natural injection of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> into <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we have
         <fr:tex
-display="block">           -\beta  c'''_1(\mathcal {L})           = \frac {1}{2\pi  i}c'_1(\mathcal {L}).         </fr:tex></fr:p></fr:mainmatter></fr:tree></fr:p><fr:p>
-    We prove this by considering the following diagram of complexes, in which <fr:tex>\approx </fr:tex> denotes a quasi-isomorphism, and whose upper triangle anti-commutes up to homotopy:
+display="block"><![CDATA[           -\beta  c'''_1(\mathcal {L})           = \frac {1}{2\pi  i}c'_1(\mathcal {L}).         ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>We prove this by considering the following diagram of complexes, in which <fr:tex
+display="inline"><![CDATA[\approx ]]></fr:tex> denotes a quasi-isomorphism, and whose upper triangle anti-commutes up to homotopy:
     <fr:tex
-display="block">       \begin {CD}         \mathbb {C} @&gt;\approx &gt;&gt; \Omega _X^\bullet  @&lt;&lt;&lt; \sigma _{\geqslant 1}(\Omega _X^\bullet )       \\@| @. @|       \\\mathbb {C} @&lt;&lt;&lt; (\mathbb {C}\to \mathcal {O}) @&gt;\approx &gt;\mathrm {d}&gt; \sigma _{\geqslant 1}(\Omega _X^\bullet )       \\@AAA @AAA @AA{\mathrm {d}\log }A       \\\mathbb {Z}(1) @&lt;&lt;&lt; (\mathbb {Z}(1)\to \mathcal {O}) @&gt;\approx &gt;\exp &gt; \mathcal {O}^*[-1]       \end {CD}     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[       \begin {CD}         \mathbb {C} @>\approx >> \Omega _X^\bullet  @<<< \sigma _{\geqslant 1}(\Omega _X^\bullet )       \\@| @. @|       \\\mathbb {C} @<<< (\mathbb {C}\to \mathcal {O}) @>\approx >\mathrm {d}> \sigma _{\geqslant 1}(\Omega _X^\bullet )       \\@AAA @AAA @AA{\mathrm {d}\log }A       \\\mathbb {Z}(1) @<<< (\mathbb {Z}(1)\to \mathcal {O}) @>\approx >\exp > \mathcal {O}^*[-1]       \end {CD}     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1290</fr:anchor><fr:addr>hodge-theory-ii-2.2.6</fr:addr><fr:route>hodge-theory-ii-2.2.6.xml</fr:route><fr:number>2.2.6</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>X</fr:tex> be a non-singular projective variety of pure dimension <fr:tex>n</fr:tex>.
-    A choice of <fr:tex>i</fr:tex> defines an orientation of <fr:tex>X</fr:tex> and an isomorphism <fr:tex>\mathbb {Z}(1)\simeq \mathbb {Z}</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1321</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.2.6</fr:addr><fr:route>hodge-theory-ii-2.2.6.xml</fr:route><fr:authors /><fr:number>2.2.6</fr:number><fr:parent>hodge-theory-ii-2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a non-singular projective variety of pure dimension <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.
+    A choice of <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> defines an orientation of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and an isomorphism <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(1)\simeq \mathbb {Z}]]></fr:tex>.
     The corresponding trace morphism
     <fr:tex
-display="block">       \operatorname {H}^{2n}(X,\mathbb {Z}(n)) \to  \mathbb {Z}     </fr:tex>
-    that is induced does not depend on the choice of <fr:tex>i</fr:tex>.
-  </fr:p><fr:p>
-    By Hodge, for <fr:tex>i\leqslant  n</fr:tex>, the morphism
+display="block"><![CDATA[       \operatorname {H}^{2n}(X,\mathbb {Z}(n)) \to  \mathbb {Z}     ]]></fr:tex>
+    that is induced does not depend on the choice of <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>.</fr:p><fr:p>By Hodge, for <fr:tex
+display="inline"><![CDATA[i\leqslant  n]]></fr:tex>, the morphism
     <fr:tex
-display="block">       L^{n-i}       = -\wedge  c''_1(\mathcal {O}(1))^{n-i}\colon        \operatorname {H}^i(X,\mathbb {Z}) \to  \operatorname {H}^{2n-i}(X,\mathbb {Z}(n-i))     </fr:tex>
+display="block"><![CDATA[       L^{n-i}       = -\wedge  c''_1(\mathcal {O}(1))^{n-i}\colon        \operatorname {H}^i(X,\mathbb {Z}) \to  \operatorname {H}^{2n-i}(X,\mathbb {Z}(n-i))     ]]></fr:tex>
     is an isomorphism, and, combined with Poincaré duality
     <fr:tex
-display="block">       \operatorname {H}^i(X,\mathbb {Z})\otimes \operatorname {H}^{2n-i}(X,\mathbb {Z}(n-i))       \to  \operatorname {H}^{2n}(X,\mathbb {Z}(n-i))       \to  \mathbb {Z}(-i)     </fr:tex>
-    gives a polarisation on the <fr:em>primitive part</fr:em> <fr:tex>\operatorname {Ker}(L^{n-i+1})</fr:tex> of <fr:tex>\operatorname {H}^i(X,\mathbb {Z})</fr:tex>.
-  </fr:p><fr:p>
-    We thus deduce that the rational Hodge structures <fr:tex>\operatorname {H}^i(X,\mathbb {Q})</fr:tex> are polarisable.
-  </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+display="block"><![CDATA[       \operatorname {H}^i(X,\mathbb {Z})\otimes \operatorname {H}^{2n-i}(X,\mathbb {Z}(n-i))       \to  \operatorname {H}^{2n}(X,\mathbb {Z}(n-i))       \to  \mathbb {Z}(-i)     ]]></fr:tex>
+    gives a polarisation on the <fr:em>primitive part</fr:em> <fr:tex
+display="inline"><![CDATA[\operatorname {Ker}(L^{n-i+1})]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^i(X,\mathbb {Z})]]></fr:tex>.</fr:p><fr:p>We thus deduce that the rational Hodge structures <fr:tex
+display="inline"><![CDATA[\operatorname {H}^i(X,\mathbb {Q})]]></fr:tex> are polarisable.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

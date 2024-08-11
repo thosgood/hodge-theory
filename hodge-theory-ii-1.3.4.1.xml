@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1028</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.3.4.1</fr:addr><fr:route>hodge-theory-ii-1.3.4.1.xml</fr:route><fr:number>1.3.4.1</fr:number><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           E_r^{p,n-p}(\operatorname {Dec}(K))           = E_{r+1}^{p+n,-p}(K,F')         \tag{1.3.4.1}         </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1075</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.3.4.1</fr:addr><fr:route>hodge-theory-ii-1.3.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3.4.1</fr:number><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           E_r^{p,n-p}(\operatorname {Dec}(K))           = E_{r+1}^{p+n,-p}(K,F')         \tag{1.3.4.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1026</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.3.4</fr:addr><fr:route>hodge-theory-ii-1.3.4.xml</fr:route><fr:number>1.3.4</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1076</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.3.4</fr:addr><fr:route>hodge-theory-ii-1.3.4.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>1.3.4</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -25,7 +35,9 @@ style="list-style-type: &quot;(i) &quot;">
 addr="hodge-theory-ii-1.3.3.2"
 href="hodge-theory-ii-1.3.3.2.xml"
 taxon="Equation"
-number="1.3.3.2"></fr:ref> form a morphism of graded complexes from <fr:tex>E_0(\operatorname {Dec}(K))</fr:tex> to <fr:tex>E_1(K)</fr:tex>.
+number="1.3.3.2" /> form a morphism of graded complexes from <fr:tex
+display="inline"><![CDATA[E_0(\operatorname {Dec}(K))]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[E_1(K)]]></fr:tex>.
     </html:li>
 
     
@@ -41,7 +53,9 @@ style="list-style-type: &quot;(iii) &quot;">
 addr="hodge-theory-ii-1.3.1.5"
 href="hodge-theory-ii-1.3.1.5.xml"
 taxon="Equation"
-number="1.3.1.5"></fr:ref>) isomorphisms of graded complexes <fr:tex>E_r(\operatorname {Dec}(K))\xrightarrow {\sim } E_{r+1}(K)</fr:tex> (for <fr:tex>r\geqslant 1</fr:tex>).
+number="1.3.1.5" />) isomorphisms of graded complexes <fr:tex
+display="inline"><![CDATA[E_r(\operatorname {Dec}(K))\xrightarrow {\sim } E_{r+1}(K)]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[r\geqslant 1]]></fr:tex>).
     </html:li>
 
   </html:ol>
@@ -49,134 +63,109 @@ number="1.3.1.5"></fr:ref>) isomorphisms of graded complexes <fr:tex>E_r(\operat
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>863</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#212</fr:addr><fr:route>unstable-212.xml</fr:route><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>F'</fr:tex> be the filtration on <fr:tex>K</fr:tex> defined by
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[F']]></fr:tex> be the filtration on <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> defined by
       <fr:tex
-display="block">         {F'}^p(K^n)         = \operatorname {Dec}(F)^{p-n}(K^n)         = Z_1^{p,n-p}.       </fr:tex>
+display="block"><![CDATA[         {F'}^p(K^n)         = \operatorname {Dec}(F)^{p-n}(K^n)         = Z_1^{p,n-p}.       ]]></fr:tex>
       We trivially have isomorphisms
 
       <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>862</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.3.4.1</fr:addr><fr:route>hodge-theory-ii-1.3.4.1.xml</fr:route><fr:number>1.3.4.1</fr:number><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           E_r^{p,n-p}(\operatorname {Dec}(K))           = E_{r+1}^{p+n,-p}(K,F')         \tag{1.3.4.1}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>917</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.3.4.1</fr:addr><fr:route>hodge-theory-ii-1.3.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3.4.1</fr:number><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           E_r^{p,n-p}(\operatorname {Dec}(K))           = E_{r+1}^{p+n,-p}(K,F')         \tag{1.3.4.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-      that are compatible with the <fr:tex>d_r</fr:tex> and with <fr:ref
+      that are compatible with the <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex> and with <fr:ref
 addr="hodge-theory-ii-1.3.1.5"
 href="hodge-theory-ii-1.3.1.5.xml"
 taxon="Equation"
-number="1.3.1.5"></fr:ref>.
-      The map <fr:tex>u</fr:tex> comes from <fr:ref
+number="1.3.1.5" />.
+      The map <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> comes from <fr:ref
 addr="hodge-theory-ii-1.3.4.1"
 href="hodge-theory-ii-1.3.4.1.xml"
 taxon="Equation"
-number="1.3.4.1"></fr:ref> and from the identity map
+number="1.3.4.1" /> and from the identity map
       <fr:tex
-display="block">         (K,F') \to  (K,F).       </fr:tex>
-      This proves (i), and it remains to show that, for <fr:tex>r\geqslant 2</fr:tex>,
+display="block"><![CDATA[         (K,F') \to  (K,F).       ]]></fr:tex>
+      This proves (i), and it remains to show that, for <fr:tex
+display="inline"><![CDATA[r\geqslant 2]]></fr:tex>,
       <fr:tex
-display="block">         E_r^{pq}(K,F')         \xrightarrow {\sim } E_r^{pq}(K,F).       </fr:tex>
+display="block"><![CDATA[         E_r^{pq}(K,F')         \xrightarrow {\sim } E_r^{pq}(K,F).       ]]></fr:tex>
       We have
       <fr:tex
-display="block">         \begin {aligned}           Z_r^{pq}(K,F')           &amp;= Z_r^{pq}(K,F)           \qquad \text {for }r\geqslant 1         \\Z_r^{pq}(K,F') \cap  B_r^{pq}(K,F')           &amp;= Z_r^{pq}(K,F) \cap  B_r^{pq}(K,F)           \qquad \text {for }r\geqslant 2         \end {aligned}       </fr:tex>
+display="block"><![CDATA[         \begin {aligned}           Z_r^{pq}(K,F')           &= Z_r^{pq}(K,F)           \qquad \text {for }r\geqslant 1         \\Z_r^{pq}(K,F') \cap  B_r^{pq}(K,F')           &= Z_r^{pq}(K,F) \cap  B_r^{pq}(K,F)           \qquad \text {for }r\geqslant 2         \end {aligned}       ]]></fr:tex>
       and we can then apply <fr:ref
 addr="hodge-theory-ii-1.3.1.2"
 href="hodge-theory-ii-1.3.1.2.xml"
 taxon="Equation"
-number="1.3.1.2"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="1.3.1.2" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1027</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#212</fr:addr><fr:route>unstable-212.xml</fr:route><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>F'</fr:tex> be the filtration on <fr:tex>K</fr:tex> defined by
-      <fr:tex
-display="block">         {F'}^p(K^n)         = \operatorname {Dec}(F)^{p-n}(K^n)         = Z_1^{p,n-p}.       </fr:tex>
-      We trivially have isomorphisms
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>862</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.3.4.1</fr:addr><fr:route>hodge-theory-ii-1.3.4.1.xml</fr:route><fr:number>1.3.4.1</fr:number><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           E_r^{p,n-p}(\operatorname {Dec}(K))           = E_{r+1}^{p+n,-p}(K,F')         \tag{1.3.4.1}         </fr:tex></fr:mainmatter></fr:tree>
-
-      that are compatible with the <fr:tex>d_r</fr:tex> and with <fr:ref
-addr="hodge-theory-ii-1.3.1.5"
-href="hodge-theory-ii-1.3.1.5.xml"
-taxon="Equation"
-number="1.3.1.5"></fr:ref>.
-      The map <fr:tex>u</fr:tex> comes from <fr:ref
-addr="hodge-theory-ii-1.3.4.1"
-href="hodge-theory-ii-1.3.4.1.xml"
-taxon="Equation"
-number="1.3.4.1"></fr:ref> and from the identity map
-      <fr:tex
-display="block">         (K,F') \to  (K,F).       </fr:tex>
-      This proves (i), and it remains to show that, for <fr:tex>r\geqslant 2</fr:tex>,
-      <fr:tex
-display="block">         E_r^{pq}(K,F')         \xrightarrow {\sim } E_r^{pq}(K,F).       </fr:tex>
-      We have
-      <fr:tex
-display="block">         \begin {aligned}           Z_r^{pq}(K,F')           &amp;= Z_r^{pq}(K,F)           \qquad \text {for }r\geqslant 1         \\Z_r^{pq}(K,F') \cap  B_r^{pq}(K,F')           &amp;= Z_r^{pq}(K,F) \cap  B_r^{pq}(K,F)           \qquad \text {for }r\geqslant 2         \end {aligned}       </fr:tex>
-      and we can then apply <fr:ref
-addr="hodge-theory-ii-1.3.1.2"
-href="hodge-theory-ii-1.3.1.2.xml"
-taxon="Equation"
-number="1.3.1.2"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1024</fr:anchor><fr:addr>hodge-theory-ii-1.3.14</fr:addr><fr:route>hodge-theory-ii-1.3.14.xml</fr:route><fr:number>1.3.14</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We denote by <fr:tex>\operatorname {Dec}(K)</fr:tex> (resp. <fr:tex>\operatorname {Dec}^\bullet (K)</fr:tex>) the complex <fr:tex>K</fr:tex> endowed with the filtrations <fr:tex>\operatorname {Dec}(W)</fr:tex> and <fr:tex>F</fr:tex> (resp. <fr:tex>\operatorname {Dec}^\bullet (W)</fr:tex> and <fr:tex>F</fr:tex>).
-  </fr:p><fr:p>
-    It is clear by <fr:ref
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1077</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.3.14</fr:addr><fr:route>hodge-theory-ii-1.3.14.xml</fr:route><fr:authors /><fr:number>1.3.14</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We denote by <fr:tex
+display="inline"><![CDATA[\operatorname {Dec}(K)]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[\operatorname {Dec}^\bullet (K)]]></fr:tex>) the complex <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> endowed with the filtrations <fr:tex
+display="inline"><![CDATA[\operatorname {Dec}(W)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[\operatorname {Dec}^\bullet (W)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>).</fr:p><fr:p>It is clear by <fr:ref
 addr="hodge-theory-ii-1.3.4.1"
 href="hodge-theory-ii-1.3.4.1.xml"
 taxon="Equation"
-number="1.3.4.1"></fr:ref> that the isomorphism in <fr:ref
+number="1.3.4.1" /> that the isomorphism in <fr:ref
 addr="hodge-theory-ii-1.3.4"
 href="hodge-theory-ii-1.3.4.xml"
 taxon="Proposition"
-number="1.3.4"></fr:ref> sends the first direct filtration on <fr:tex>E_r(\operatorname {Dec}(K))</fr:tex> to the second direct filtration on <fr:tex>E_{r+1}(K)</fr:tex> (for <fr:tex>r\geqslant 1</fr:tex>).
+number="1.3.4" /> sends the first direct filtration on <fr:tex
+display="inline"><![CDATA[E_r(\operatorname {Dec}(K))]]></fr:tex> to the second direct filtration on <fr:tex
+display="inline"><![CDATA[E_{r+1}(K)]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[r\geqslant 1]]></fr:tex>).
     The dual isomorphism <fr:ref
 addr="hodge-theory-ii-1.3.5"
 href="hodge-theory-ii-1.3.5.xml"
-number="1.3.5"></fr:ref> sends the second direct filtration on <fr:tex>E_r(\operatorname {Dec}^\bullet (K))</fr:tex> to the second direct filtration on <fr:tex>E_{r+1}(K)</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="1.3.5" /> sends the second direct filtration on <fr:tex
+display="inline"><![CDATA[E_r(\operatorname {Dec}^\bullet (K))]]></fr:tex> to the second direct filtration on <fr:tex
+display="inline"><![CDATA[E_{r+1}(K)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1025</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-1.3.4</fr:addr><fr:route>hodge-theory-ii-1.3.4.xml</fr:route><fr:number>1.3.4</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1078</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.3.4</fr:addr><fr:route>hodge-theory-ii-1.3.4.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>1.3.4</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
@@ -186,7 +175,9 @@ style="list-style-type: &quot;(i) &quot;">
 addr="hodge-theory-ii-1.3.3.2"
 href="hodge-theory-ii-1.3.3.2.xml"
 taxon="Equation"
-number="1.3.3.2"></fr:ref> form a morphism of graded complexes from <fr:tex>E_0(\operatorname {Dec}(K))</fr:tex> to <fr:tex>E_1(K)</fr:tex>.
+number="1.3.3.2" /> form a morphism of graded complexes from <fr:tex
+display="inline"><![CDATA[E_0(\operatorname {Dec}(K))]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[E_1(K)]]></fr:tex>.
     </html:li>
 
     
@@ -202,7 +193,9 @@ style="list-style-type: &quot;(iii) &quot;">
 addr="hodge-theory-ii-1.3.1.5"
 href="hodge-theory-ii-1.3.1.5.xml"
 taxon="Equation"
-number="1.3.1.5"></fr:ref>) isomorphisms of graded complexes <fr:tex>E_r(\operatorname {Dec}(K))\xrightarrow {\sim } E_{r+1}(K)</fr:tex> (for <fr:tex>r\geqslant 1</fr:tex>).
+number="1.3.1.5" />) isomorphisms of graded complexes <fr:tex
+display="inline"><![CDATA[E_r(\operatorname {Dec}(K))\xrightarrow {\sim } E_{r+1}(K)]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[r\geqslant 1]]></fr:tex>).
     </html:li>
 
   </html:ol>
@@ -210,53 +203,58 @@ number="1.3.1.5"></fr:ref>) isomorphisms of graded complexes <fr:tex>E_r(\operat
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>863</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#212</fr:addr><fr:route>unstable-212.xml</fr:route><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>F'</fr:tex> be the filtration on <fr:tex>K</fr:tex> defined by
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[F']]></fr:tex> be the filtration on <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> defined by
       <fr:tex
-display="block">         {F'}^p(K^n)         = \operatorname {Dec}(F)^{p-n}(K^n)         = Z_1^{p,n-p}.       </fr:tex>
+display="block"><![CDATA[         {F'}^p(K^n)         = \operatorname {Dec}(F)^{p-n}(K^n)         = Z_1^{p,n-p}.       ]]></fr:tex>
       We trivially have isomorphisms
 
       <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>862</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-1.3.4.1</fr:addr><fr:route>hodge-theory-ii-1.3.4.1.xml</fr:route><fr:number>1.3.4.1</fr:number><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           E_r^{p,n-p}(\operatorname {Dec}(K))           = E_{r+1}^{p+n,-p}(K,F')         \tag{1.3.4.1}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>917</fr:anchor><fr:addr
+type="user">hodge-theory-ii-1.3.4.1</fr:addr><fr:route>hodge-theory-ii-1.3.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3.4.1</fr:number><fr:parent>hodge-theory-ii-1.3.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           E_r^{p,n-p}(\operatorname {Dec}(K))           = E_{r+1}^{p+n,-p}(K,F')         \tag{1.3.4.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-      that are compatible with the <fr:tex>d_r</fr:tex> and with <fr:ref
+      that are compatible with the <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex> and with <fr:ref
 addr="hodge-theory-ii-1.3.1.5"
 href="hodge-theory-ii-1.3.1.5.xml"
 taxon="Equation"
-number="1.3.1.5"></fr:ref>.
-      The map <fr:tex>u</fr:tex> comes from <fr:ref
+number="1.3.1.5" />.
+      The map <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> comes from <fr:ref
 addr="hodge-theory-ii-1.3.4.1"
 href="hodge-theory-ii-1.3.4.1.xml"
 taxon="Equation"
-number="1.3.4.1"></fr:ref> and from the identity map
+number="1.3.4.1" /> and from the identity map
       <fr:tex
-display="block">         (K,F') \to  (K,F).       </fr:tex>
-      This proves (i), and it remains to show that, for <fr:tex>r\geqslant 2</fr:tex>,
+display="block"><![CDATA[         (K,F') \to  (K,F).       ]]></fr:tex>
+      This proves (i), and it remains to show that, for <fr:tex
+display="inline"><![CDATA[r\geqslant 2]]></fr:tex>,
       <fr:tex
-display="block">         E_r^{pq}(K,F')         \xrightarrow {\sim } E_r^{pq}(K,F).       </fr:tex>
+display="block"><![CDATA[         E_r^{pq}(K,F')         \xrightarrow {\sim } E_r^{pq}(K,F).       ]]></fr:tex>
       We have
       <fr:tex
-display="block">         \begin {aligned}           Z_r^{pq}(K,F')           &amp;= Z_r^{pq}(K,F)           \qquad \text {for }r\geqslant 1         \\Z_r^{pq}(K,F') \cap  B_r^{pq}(K,F')           &amp;= Z_r^{pq}(K,F) \cap  B_r^{pq}(K,F)           \qquad \text {for }r\geqslant 2         \end {aligned}       </fr:tex>
+display="block"><![CDATA[         \begin {aligned}           Z_r^{pq}(K,F')           &= Z_r^{pq}(K,F)           \qquad \text {for }r\geqslant 1         \\Z_r^{pq}(K,F') \cap  B_r^{pq}(K,F')           &= Z_r^{pq}(K,F) \cap  B_r^{pq}(K,F)           \qquad \text {for }r\geqslant 2         \end {aligned}       ]]></fr:tex>
       and we can then apply <fr:ref
 addr="hodge-theory-ii-1.3.1.2"
 href="hodge-theory-ii-1.3.1.2.xml"
 taxon="Equation"
-number="1.3.1.2"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="1.3.1.2" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

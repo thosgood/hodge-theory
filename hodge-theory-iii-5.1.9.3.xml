@@ -1,230 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2067</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.3</fr:addr><fr:route>hodge-theory-iii-5.1.9.3.xml</fr:route><fr:number>5.1.9.3</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           L^r(\mathrm {s}{K})           = \bigoplus _{q\geqslant  r} K^{pq}.         \tag{5.1.9.3}         </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2115</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.1.9.3</fr:addr><fr:route>hodge-theory-iii-5.1.9.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.9.3</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           L^r(\mathrm {s}{K})           = \bigoplus _{q\geqslant  r} K^{pq}.         \tag{5.1.9.3}         ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2066</fr:anchor><fr:taxon>Examples</fr:taxon><fr:addr>hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2116</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.1.9</fr:addr><fr:route>hodge-theory-iii-5.1.9.xml</fr:route><fr:taxon>Examples</fr:taxon><fr:authors /><fr:number>5.1.9</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter>
  <html:ol
 xmlns:html="http://www.w3.org/1999/xhtml">
     
  <html:li
 style="list-style-type: &quot;(I) &quot;">
-      Let <fr:tex>X_\bullet </fr:tex> be a simplicial analytic space.
-      The structure sheaves <fr:tex>\mathcal {O}_{X_n}</fr:tex> form a sheaf of rings on <fr:tex>X_\bullet </fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial analytic space.
+      The structure sheaves <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{X_n}]]></fr:tex> form a sheaf of rings on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
     </html:li>
 
 
     
  <html:li
 style="list-style-type: &quot;(II) &quot;">
-      Let <fr:tex>X_\bullet </fr:tex> be a simplicial analytic space augmented over <fr:tex>S</fr:tex>.
-      The sheaves <fr:tex>\Omega _{X_n/S}^1</fr:tex> form a sheaf of <fr:tex>\mathcal {O}</fr:tex>-modules on <fr:tex>X_\bullet </fr:tex>.
-      Its <fr:tex>i</fr:tex>-th exterior power is the sheaf of <fr:tex>\mathcal {O}</fr:tex>-modules <fr:tex>(\Omega _{X_n/S}^i)_{n\geqslant 0}</fr:tex> denoted <fr:tex>\Omega _{X_\bullet {/}S}^i</fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial analytic space augmented over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+      The sheaves <fr:tex
+display="inline"><![CDATA[\Omega _{X_n/S}^1]]></fr:tex> form a sheaf of <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex>-modules on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
+      Its <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>-th exterior power is the sheaf of <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex>-modules <fr:tex
+display="inline"><![CDATA[(\Omega _{X_n/S}^i)_{n\geqslant 0}]]></fr:tex> denoted <fr:tex
+display="inline"><![CDATA[\Omega _{X_\bullet {/}S}^i]]></fr:tex>.
       
-      The de Rham complexes <fr:tex>(\Omega _{X_n/S}^\bullet )_{n\geqslant 0}</fr:tex> form a complex of sheaves on <fr:tex>X_\bullet </fr:tex>.
+      The de Rham complexes <fr:tex
+display="inline"><![CDATA[(\Omega _{X_n/S}^\bullet )_{n\geqslant 0}]]></fr:tex> form a complex of sheaves on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
     </html:li>
 
 
     
  <html:li
 style="list-style-type: &quot;(III) &quot;">
-      Let <fr:tex>F^\bullet </fr:tex> be a sheaf of abelian groups on <fr:tex>X_\bullet </fr:tex>.
-      The canonical flasque Godement resolutions <fr:tex>\mathscr {C}^\bullet (F^n)</fr:tex> form a complex of sheaves on <fr:tex>X_\bullet </fr:tex> that is a resolution of <fr:tex>F^\bullet </fr:tex>.
+      Let <fr:tex
+display="inline"><![CDATA[F^\bullet ]]></fr:tex> be a sheaf of abelian groups on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
+      The canonical flasque Godement resolutions <fr:tex
+display="inline"><![CDATA[\mathscr {C}^\bullet (F^n)]]></fr:tex> form a complex of sheaves on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> that is a resolution of <fr:tex
+display="inline"><![CDATA[F^\bullet ]]></fr:tex>.
     </html:li>
 
 
     
  <html:li
 style="list-style-type: &quot;(IV) &quot;">
-      Let <fr:tex>S</fr:tex> be a topological space.
-      Sheaves <fr:tex>F^\bullet </fr:tex> on the constant simplicial space <fr:tex>S_\bullet </fr:tex> can be identified with cosimplicial sheaves on <fr:tex>S^\bullet </fr:tex>.
-      In particular, an abelian sheaf <fr:tex>F^\bullet </fr:tex> on <fr:tex>S_\bullet </fr:tex> defines a chain complex <fr:tex>(F^n,d=\sum _i(-1)^i\delta _i)</fr:tex>.
-      A complex <fr:tex>K</fr:tex> of abelian sheaves on <fr:tex>S_\bullet </fr:tex> defines a double complex <fr:tex>(K^{n,m})</fr:tex> that we again denote by <fr:tex>K</fr:tex> (here <fr:tex>m</fr:tex> is the cosimplicial degree) and whose associated simple complex <fr:tex>\mathrm {s}{K}</fr:tex> is
+      Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a topological space.
+      Sheaves <fr:tex
+display="inline"><![CDATA[F^\bullet ]]></fr:tex> on the constant simplicial space <fr:tex
+display="inline"><![CDATA[S_\bullet ]]></fr:tex> can be identified with cosimplicial sheaves on <fr:tex
+display="inline"><![CDATA[S^\bullet ]]></fr:tex>.
+      In particular, an abelian sheaf <fr:tex
+display="inline"><![CDATA[F^\bullet ]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[S_\bullet ]]></fr:tex> defines a chain complex <fr:tex
+display="inline"><![CDATA[(F^n,d=\sum _i(-1)^i\delta _i)]]></fr:tex>.
+      A complex <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> of abelian sheaves on <fr:tex
+display="inline"><![CDATA[S_\bullet ]]></fr:tex> defines a double complex <fr:tex
+display="inline"><![CDATA[(K^{n,m})]]></fr:tex> that we again denote by <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> (here <fr:tex
+display="inline"><![CDATA[m]]></fr:tex> is the cosimplicial degree) and whose associated simple complex <fr:tex
+display="inline"><![CDATA[\mathrm {s}{K}]]></fr:tex> is
 
       <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1987</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.1</fr:addr><fr:route>hodge-theory-iii-5.1.9.1.xml</fr:route><fr:number>5.1.9.1</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           (\mathrm {s}{K})^n           = \bigoplus _{p+q=n} K^{pq}         \tag{5.1.9.1}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2042</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.1.9.1</fr:addr><fr:route>hodge-theory-iii-5.1.9.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.9.1</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           (\mathrm {s}{K})^n           = \bigoplus _{p+q=n} K^{pq}         \tag{5.1.9.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
       with differential given by
 
       <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1988</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.2</fr:addr><fr:route>hodge-theory-iii-5.1.9.2.xml</fr:route><fr:number>5.1.9.2</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           \mathrm {d}(x^{pq})           = \mathrm {d}_K(x^{pq}) + (-1)^p\sum _i(-1)^i\delta _i x^{pq}.         \tag{5.1.9.2}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2043</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.1.9.2</fr:addr><fr:route>hodge-theory-iii-5.1.9.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.9.2</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           \mathrm {d}(x^{pq})           = \mathrm {d}_K(x^{pq}) + (-1)^p\sum _i(-1)^i\delta _i x^{pq}.         \tag{5.1.9.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-      We denote by <fr:tex>L</fr:tex> the second filtration of <fr:tex>\mathrm {s}{K}</fr:tex>, i.e.
+      We denote by <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> the second filtration of <fr:tex
+display="inline"><![CDATA[\mathrm {s}{K}]]></fr:tex>, i.e.
 
       <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1989</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.9.3</fr:addr><fr:route>hodge-theory-iii-5.1.9.3.xml</fr:route><fr:number>5.1.9.3</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           L^r(\mathrm {s}{K})           = \bigoplus _{q\geqslant  r} K^{pq}.         \tag{5.1.9.3}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2044</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.1.9.3</fr:addr><fr:route>hodge-theory-iii-5.1.9.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.9.3</fr:number><fr:parent>hodge-theory-iii-5.1.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           L^r(\mathrm {s}{K})           = \bigoplus _{q\geqslant  r} K^{pq}.         \tag{5.1.9.3}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
     </html:li>
 
   </html:ol>
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2063</fr:anchor><fr:addr>hodge-theory-iii-5.1.12</fr:addr><fr:route>hodge-theory-iii-5.1.12.xml</fr:route><fr:number>5.1.12</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S_\bullet </fr:tex> be the constant simplicial space associated to <fr:tex>S</fr:tex>, and <fr:tex>a_\bullet \colon  X_\bullet \to  S_\bullet </fr:tex> the morphism defined by <fr:tex>a</fr:tex>.
-    For an abelian sheaf <fr:tex>F^\bullet </fr:tex> on <fr:tex>X_\bullet </fr:tex>, we can identify <fr:tex>{a_\bullet }_*F^\bullet </fr:tex> with a cosimplicial sheaf on <fr:tex>S</fr:tex> ((IV) of <fr:ref
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2117</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.1.12</fr:addr><fr:route>hodge-theory-iii-5.1.12.xml</fr:route><fr:authors /><fr:number>5.1.12</fr:number><fr:parent>hodge-theory-iii-5.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S_\bullet ]]></fr:tex> be the constant simplicial space associated to <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[a_\bullet \colon  X_\bullet \to  S_\bullet ]]></fr:tex> the morphism defined by <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>.
+    For an abelian sheaf <fr:tex
+display="inline"><![CDATA[F^\bullet ]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex>, we can identify <fr:tex
+display="inline"><![CDATA[{a_\bullet }_*F^\bullet ]]></fr:tex> with a cosimplicial sheaf on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> ((IV) of <fr:ref
 addr="hodge-theory-iii-5.1.9"
 href="hodge-theory-iii-5.1.9.xml"
 taxon="Examples"
-number="5.1.9"></fr:ref>).
-    For a complex <fr:tex>K</fr:tex> of abelian sheaves on <fr:tex>X_\bullet </fr:tex>, if <fr:tex>K^{pq}</fr:tex> is the degree <fr:tex>p</fr:tex> component of the restriction of <fr:tex>K</fr:tex> to <fr:tex>X_q</fr:tex>, then the components of the simple complex associated to the double complex defined by <fr:tex>{a_\bullet }_*K</fr:tex> are
+number="5.1.9" />).
+    For a complex <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> of abelian sheaves on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[K^{pq}]]></fr:tex> is the degree <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> component of the restriction of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[X_q]]></fr:tex>, then the components of the simple complex associated to the double complex defined by <fr:tex
+display="inline"><![CDATA[{a_\bullet }_*K]]></fr:tex> are
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1994</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.12.1</fr:addr><fr:route>hodge-theory-iii-5.1.12.1.xml</fr:route><fr:number>5.1.12.1</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         (\mathrm {s}{a_\bullet }_*K)^n         = \bigoplus _{p+q=n} {a_q}_* K^{pq}.       \tag{5.1.12.1}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2049</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.1.12.1</fr:addr><fr:route>hodge-theory-iii-5.1.12.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.12.1</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         (\mathrm {s}{a_\bullet }_*K)^n         = \bigoplus _{p+q=n} {a_q}_* K^{pq}.       \tag{5.1.12.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     
-    The spectral sequence defined by the filtration <fr:tex>L</fr:tex> (<fr:ref
+    The spectral sequence defined by the filtration <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> (<fr:ref
 addr="hodge-theory-iii-5.1.9.3"
 href="hodge-theory-iii-5.1.9.3.xml"
 taxon="Equation"
-number="5.1.9.3"></fr:ref>) of <fr:tex>\mathrm {s}{a_\bullet }_*K</fr:tex> can be written as
+number="5.1.9.3" />) of <fr:tex
+display="inline"><![CDATA[\mathrm {s}{a_\bullet }_*K]]></fr:tex> can be written as
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1995</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.1.12.2</fr:addr><fr:route>hodge-theory-iii-5.1.12.2.xml</fr:route><fr:number>5.1.12.2</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         E_1^{pq}         = \operatorname {H}^q({a_p}_*(K|X^p))         \Rightarrow  \operatorname {H}^{p+q}(\mathrm {s}{a_\bullet }_*K).       \tag{5.1.12.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2050</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.1.12.2</fr:addr><fr:route>hodge-theory-iii-5.1.12.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.1.12.2</fr:number><fr:parent>hodge-theory-iii-5.1.12</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q({a_p}_*(K|X^p))         \Rightarrow  \operatorname {H}^{p+q}(\mathrm {s}{a_\bullet }_*K).       \tag{5.1.12.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2064</fr:anchor><fr:addr>hodge-theory-iii-5.2.3</fr:addr><fr:route>hodge-theory-iii-5.2.3.xml</fr:route><fr:number>5.2.3</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>F^\bullet </fr:tex> be an abelian sheaf on <fr:tex>X_\bullet </fr:tex>.
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2118</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.2.3</fr:addr><fr:route>hodge-theory-iii-5.2.3.xml</fr:route><fr:authors /><fr:number>5.2.3</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[F^\bullet ]]></fr:tex> be an abelian sheaf on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
     We can show (by example, using (III) of <fr:ref
 addr="hodge-theory-iii-5.1.9"
 href="hodge-theory-iii-5.1.9.xml"
 taxon="Examples"
-number="5.1.9"></fr:ref>) that <fr:tex>F^\bullet </fr:tex> always admits resolutions <fr:tex>K</fr:tex> on the right such that
+number="5.1.9" />) that <fr:tex
+display="inline"><![CDATA[F^\bullet ]]></fr:tex> always admits resolutions <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> on the right such that
     <fr:tex
-display="block">       \operatorname {H}^r(X_q,K^{p,q})       =0       \quad \text {for } p,q\geqslant 0 \text { and } r&gt;0.     </fr:tex>
-    If <fr:tex>K</fr:tex> is such a resolution, then we canonically have that
+display="block"><![CDATA[       \operatorname {H}^r(X_q,K^{p,q})       =0       \quad \text {for } p,q\geqslant 0 \text { and } r>0.     ]]></fr:tex>
+    If <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> is such a resolution, then we canonically have that
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2014</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2069</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    It is easy to show directly that the right-hand side is independent (up to unique isomorphism) of the choice of <fr:tex>K</fr:tex>;
-    for what follows, we are free to <fr:em>define</fr:em> <fr:tex>\operatorname {H}^\bullet (X_\bullet ,F^\bullet )</fr:tex> by <fr:ref
+    It is easy to show directly that the right-hand side is independent (up to unique isomorphism) of the choice of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>;
+    for what follows, we are free to <fr:em>define</fr:em> <fr:tex
+display="inline"><![CDATA[\operatorname {H}^\bullet (X_\bullet ,F^\bullet )]]></fr:tex> by <fr:ref
 addr="hodge-theory-iii-5.2.3.1"
 href="hodge-theory-iii-5.2.3.1.xml"
 taxon="Equation"
-number="5.2.3.1"></fr:ref>.
-    We can further show that the spectral sequence of the complex <fr:tex>\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)</fr:tex>, filtered by <fr:tex>L</fr:tex> (<fr:ref
+number="5.2.3.1" />.
+    We can further show that the spectral sequence of the complex <fr:tex
+display="inline"><![CDATA[\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)]]></fr:tex>, filtered by <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> (<fr:ref
 addr="hodge-theory-iii-5.1.9.3"
 href="hodge-theory-iii-5.1.9.3.xml"
 taxon="Equation"
-number="5.1.9.3"></fr:ref> and <fr:ref
+number="5.1.9.3" /> and <fr:ref
 addr="hodge-theory-iii-5.1.12.2"
 href="hodge-theory-iii-5.1.12.2.xml"
 taxon="Equation"
-number="5.1.12.2"></fr:ref> for <fr:tex>S=P^t</fr:tex>)
+number="5.1.12.2" /> for <fr:tex
+display="inline"><![CDATA[S=P^t]]></fr:tex>)
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2015</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-5.2.3.2</fr:addr><fr:route>hodge-theory-iii-5.2.3.2.xml</fr:route><fr:number>5.2.3.2</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         E_1^{pq}         = \operatorname {H}^q(X_p,F^p)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,F^\bullet )       \tag{5.2.3.2}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2070</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.2.3.2</fr:addr><fr:route>hodge-theory-iii-5.2.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.2</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,F^p)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,F^\bullet )       \tag{5.2.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    is independent (up to unique isomorphism) of the choice of <fr:tex>K</fr:tex> (cf. <fr:ref
+    is independent (up to unique isomorphism) of the choice of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> (cf. <fr:ref
 addr="hodge-theory-iii-5.2.1.1"
 href="hodge-theory-iii-5.2.1.1.xml"
 taxon="Equation"
-number="5.2.1.1"></fr:ref>).
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="5.2.1.1" />).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2065</fr:anchor><fr:addr>hodge-theory-iii-7.1.4</fr:addr><fr:route>hodge-theory-iii-7.1.4.xml</fr:route><fr:number>7.1.4</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    We will need more precise results for the functors <fr:tex>\mathrm {R} a_*</fr:tex>, where <fr:tex>a\colon  X_\bullet \to  S</fr:tex> is an augmentation of a simplicial topological space.
-    The case <fr:tex>S=P^t</fr:tex>, where <fr:tex>\mathrm {R} a_*=\mathrm {R}\Gamma </fr:tex> will suffice.
-  </fr:p><fr:p>
-    We reuse the notation of <fr:ref
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2119</fr:anchor><fr:addr
+type="user">hodge-theory-iii-7.1.4</fr:addr><fr:route>hodge-theory-iii-7.1.4.xml</fr:route><fr:authors /><fr:number>7.1.4</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will need more precise results for the functors <fr:tex
+display="inline"><![CDATA[\mathrm {R} a_*]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> is an augmentation of a simplicial topological space.
+    The case <fr:tex
+display="inline"><![CDATA[S=P^t]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[\mathrm {R} a_*=\mathrm {R}\Gamma ]]></fr:tex> will suffice.</fr:p><fr:p>We reuse the notation of <fr:ref
 addr="hodge-theory-iii-5.1.12"
 href="hodge-theory-iii-5.1.12.xml"
-number="5.1.12"></fr:ref>, and recall <fr:ref
+number="5.1.12" />, and recall <fr:ref
 addr="hodge-theory-iii-5.2.6.1"
 href="hodge-theory-iii-5.2.6.1.xml"
 taxon="Equation"
-number="5.2.6.1"></fr:ref>:
+number="5.2.6.1" />:
     <fr:tex
-display="block">       \mathrm {R} a_*       = \mathrm {s}\mathrm {R} {a_\bullet }_*.     </fr:tex>
-    For every complex <fr:tex>K\in \operatorname {Ob}\mathrm {C}^+(S_\bullet )</fr:tex>, the simple complex <fr:tex>\mathrm {s} K</fr:tex> is endowed with a natural filtration <fr:tex>L</fr:tex> (<fr:ref
+display="block"><![CDATA[       \mathrm {R} a_*       = \mathrm {s}\mathrm {R} {a_\bullet }_*.     ]]></fr:tex>
+    For every complex <fr:tex
+display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {C}^+(S_\bullet )]]></fr:tex>, the simple complex <fr:tex
+display="inline"><![CDATA[\mathrm {s} K]]></fr:tex> is endowed with a natural filtration <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> (<fr:ref
 addr="hodge-theory-iii-5.1.9.3"
 href="hodge-theory-iii-5.1.9.3.xml"
 taxon="Equation"
-number="5.1.9.3"></fr:ref>).
-    A quasi-isomorphism <fr:tex>u\colon  K'\xrightarrow {\sim } K''</fr:tex> induces a filtered quasi-isomorphism <fr:tex>u\colon (\mathrm {s} K',L)\xrightarrow {\sim }(\mathrm {s} K'',L)</fr:tex>.
-    Then <fr:tex>\mathrm {s}</fr:tex> factors as
+number="5.1.9.3" />).
+    A quasi-isomorphism <fr:tex
+display="inline"><![CDATA[u\colon  K'\xrightarrow {\sim } K'']]></fr:tex> induces a filtered quasi-isomorphism <fr:tex
+display="inline"><![CDATA[u\colon (\mathrm {s} K',L)\xrightarrow {\sim }(\mathrm {s} K'',L)]]></fr:tex>.
+    Then <fr:tex
+display="inline"><![CDATA[\mathrm {s}]]></fr:tex> factors as
     <fr:tex
-display="block">       \mathrm {s}\colon  \mathrm {D}^+(S_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S)     </fr:tex>
-    and <fr:tex>\mathrm {R} a_*</fr:tex> factors as
+display="block"><![CDATA[       \mathrm {s}\colon  \mathrm {D}^+(S_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S)     ]]></fr:tex>
+    and <fr:tex
+display="inline"><![CDATA[\mathrm {R} a_*]]></fr:tex> factors as
     <fr:tex
-display="block">       \mathrm {R} a_*\colon  \mathrm {D}^+(X_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S).     </fr:tex>
-    The spectral sequence of the filtered complex <fr:tex>(\mathrm {R} a_* K,L)\in \mathrm {D}^+\mathrm {F}(S)</fr:tex> is exactly <fr:ref
+display="block"><![CDATA[       \mathrm {R} a_*\colon  \mathrm {D}^+(X_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S).     ]]></fr:tex>
+    The spectral sequence of the filtered complex <fr:tex
+display="inline"><![CDATA[(\mathrm {R} a_* K,L)\in \mathrm {D}^+\mathrm {F}(S)]]></fr:tex> is exactly <fr:ref
 addr="hodge-theory-iii-5.2.7.1"
 href="hodge-theory-iii-5.2.7.1.xml"
 taxon="Equation"
-number="5.2.7.1"></fr:ref>.
-  </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+number="5.2.7.1" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

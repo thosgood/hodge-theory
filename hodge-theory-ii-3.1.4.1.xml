@@ -1,160 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1420</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.4.1</fr:addr><fr:route>hodge-theory-ii-3.1.4.1.xml</fr:route><fr:number>3.1.4.1</fr:number><fr:parent>hodge-theory-ii-3.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \varepsilon _X^n         \simeq  \bigwedge ^n\varepsilon _X^1         \qquad \text {for }n\geqslant 0.       \tag{3.1.4.1}       </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1419</fr:anchor><fr:addr>hodge-theory-ii-3.1.4</fr:addr><fr:route>hodge-theory-ii-3.1.4.xml</fr:route><fr:number>3.1.4</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Locally on <fr:tex>X</fr:tex>, <fr:tex>Y</fr:tex> is the union of various smooth divisors <fr:tex>Y_i</fr:tex>, and we denote by <fr:tex>Y^n</fr:tex> (resp. <fr:tex>\widetilde {Y}^n</fr:tex>) the union (resp. disjoint sum) of the <fr:tex>n</fr:tex>-fold intersections of the <fr:tex>Y_i</fr:tex>.
-    The <fr:tex>Y^n</fr:tex> glue to give a subspace <fr:tex>Y^n</fr:tex> of <fr:tex>X</fr:tex>, and the <fr:tex>\widetilde {Y}^n</fr:tex> glue to give the normalisation variety of <fr:tex>Y^n</fr:tex>.
-    We have <fr:tex>\widetilde {Y}^0=Y^0=X</fr:tex>, and we set <fr:tex>\widetilde {Y}=\widetilde {Y}^1</fr:tex>.
-  </fr:p><fr:p>
-    We define the two-element set of <fr:em>orientations</fr:em> of an <fr:tex>n</fr:tex>-element set <fr:tex>E</fr:tex> as the set of generators of <fr:tex>\wedge ^n\mathbb {Z}^E</fr:tex>.
-    
-    For <fr:tex>n\geqslant 2</fr:tex>, this set is that of the conjugation classes under the alternating group of total orders on <fr:tex>E</fr:tex>.
-  </fr:p><fr:p>
-    If, to each point <fr:tex>y</fr:tex> of <fr:tex>\widetilde {Y}^n</fr:tex>, we associate the set of <fr:tex>n</fr:tex> local components of <fr:tex>Y</fr:tex> that contain the image in <fr:tex>X</fr:tex> of a neighbourhood of <fr:tex>y</fr:tex> in <fr:tex>\widetilde {Y}^n</fr:tex>, then we define on <fr:tex>\widetilde {Y}^n</fr:tex> a local system <fr:tex>E_n</fr:tex> of <fr:tex>n</fr:tex>-element sets.
-    The local system of orientations of these sets is a <fr:tex>\mathbb {Z}{/}(2)</fr:tex>-torsor.
-    This torsor defines, via the inclusion of <fr:tex>\mathbb {Z}{/}(2)</fr:tex> into <fr:tex>\mathbb {C}^*</fr:tex>, a complex local system <fr:tex>\varepsilon ^n</fr:tex> of rank <fr:tex>1</fr:tex> on <fr:tex>\widetilde {Y}^n</fr:tex>, endowed with an isomorphism <fr:tex>(\varepsilon ^n)^{\otimes 2}\simeq \mathbb {C}</fr:tex>.
-    We have
-    <fr:tex
-display="block">       \varepsilon ^n       \simeq  \bigwedge ^n \mathbb {C}^{E_n}.     </fr:tex></fr:p><fr:p>
-    Locally on <fr:tex>\widetilde {Y}^n</fr:tex>, <fr:tex>\varepsilon ^n</fr:tex> is endowed with two opposite isomorphisms <fr:tex>\pm \alpha \colon \varepsilon ^n\xrightarrow {\sim }\mathbb {C}</fr:tex>.
-    We set
-    <fr:tex
-display="block">       \varepsilon _\mathbb {Z}^n       = \alpha ^{-1}((2\pi  i)^{-n}\mathbb {Z}).     </fr:tex>
-    There is a way of seeing <fr:tex>\varepsilon ^n</fr:tex>, endowed with <fr:tex>\varepsilon _\mathbb {Z}^n</fr:tex>, as a twisted version of <fr:tex>\mathbb {Z}(-n)</fr:tex> over <fr:tex>\widetilde {Y}^n</fr:tex>.
-  </fr:p><fr:p>
-    We denote by <fr:tex>\varepsilon _X^n</fr:tex> (resp. by <fr:tex>(\varepsilon _X^n)_\mathbb {Z}</fr:tex>) the direct image of <fr:tex>\varepsilon ^n</fr:tex> (resp. of <fr:tex>\varepsilon _\mathbb {Z}^n</fr:tex>) under the mat from <fr:tex>\widetilde {Y}^n</fr:tex> to <fr:tex>X</fr:tex>.
-    We have
-
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1371</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.4.1</fr:addr><fr:route>hodge-theory-ii-3.1.4.1.xml</fr:route><fr:number>3.1.4.1</fr:number><fr:parent>hodge-theory-ii-3.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \varepsilon _X^n         \simeq  \bigwedge ^n\varepsilon _X^1         \qquad \text {for }n\geqslant 0.       \tag{3.1.4.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
-    If <fr:tex>Y</fr:tex> is the union of distinct smooth divisors <fr:tex>(Y_i)_{i\in  I}</fr:tex>, then the choice of a total order on <fr:tex>I</fr:tex> trivialises the <fr:tex>\varepsilon ^n</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1418</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-3.1.8</fr:addr><fr:route>hodge-theory-ii-3.1.8.xml</fr:route><fr:number>3.1.8</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    The morphisms of filtered complexes
-    <fr:tex
-display="block">       (\Omega _X^\bullet \langle  Y\rangle , W)       \xleftarrow {\alpha } (\Omega _X^\bullet \langle  Y\rangle , \tau )       \xhookrightarrow {\beta } (j_*\Omega _{X^*}^\bullet , \tau )     </fr:tex>
-    are filtered quasi-isomorphisms.
-    They define an isomorphism between the Leray spectral sequence for <fr:tex>j</fr:tex> in complex cohomology and the hypercohomology spectral sequence of the filtered complex <fr:tex>(\Omega _X^\bullet \langle  Y\rangle , W)</fr:tex> on <fr:tex>X</fr:tex>.
-  </fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1476</fr:anchor><fr:addr
+type="user">hodge-theory-ii-3.1.4.1</fr:addr><fr:route>hodge-theory-ii-3.1.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.4.1</fr:number><fr:parent>hodge-theory-ii-3.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \varepsilon _X^n         \simeq  \bigwedge ^n\varepsilon _X^1         \qquad \text {for }n\geqslant 0.       \tag{3.1.4.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>233</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#207</fr:addr><fr:route>unstable-207.xml</fr:route><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      By <fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-3.1.7"
-href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7"></fr:ref>, it suffices to prove the first claim.
-      In [<fr:link
-href="D1970.xml"
-type="local"
-addr="D1970">D1970</fr:link>, II, (6.9)] or [<fr:link
-href="AH1955.xml"
-type="local"
-addr="AH1955">AH1955</fr:link>], one can find a proof of the fact that <fr:tex>\beta </fr:tex> is a quasi-isomorphism, and thus a filtered quasi-isomorphism.
-      We can also directly calculate the cohomology sheaves of the two sides: those of <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex> are determined by <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, while those of <fr:tex>j_*\Omega _{X^*}^\bullet </fr:tex> are the <fr:tex>\mathrm {R}^ij_*\mathbb {C}</fr:tex>, which can be calculated by topological methods.
-    </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1477</fr:anchor><fr:addr
+type="user">hodge-theory-ii-3.1.4</fr:addr><fr:route>hodge-theory-ii-3.1.4.xml</fr:route><fr:authors /><fr:number>3.1.4</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Locally on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is the union of various smooth divisors <fr:tex
+display="inline"><![CDATA[Y_i]]></fr:tex>, and we denote by <fr:tex
+display="inline"><![CDATA[Y^n]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex>) the union (resp. disjoint sum) of the <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-fold intersections of the <fr:tex
+display="inline"><![CDATA[Y_i]]></fr:tex>.
+    The <fr:tex
+display="inline"><![CDATA[Y^n]]></fr:tex> glue to give a subspace <fr:tex
+display="inline"><![CDATA[Y^n]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, and the <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> glue to give the normalisation variety of <fr:tex
+display="inline"><![CDATA[Y^n]]></fr:tex>.
+    We have <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^0=Y^0=X]]></fr:tex>, and we set <fr:tex
+display="inline"><![CDATA[\widetilde {Y}=\widetilde {Y}^1]]></fr:tex>.</fr:p><fr:p>We define the two-element set of <fr:em>orientations</fr:em> of an <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-element set <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> as the set of generators of <fr:tex
+display="inline"><![CDATA[\wedge ^n\mathbb {Z}^E]]></fr:tex>.
+    
+    For <fr:tex
+display="inline"><![CDATA[n\geqslant 2]]></fr:tex>, this set is that of the conjugation classes under the alternating group of total orders on <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>.</fr:p><fr:p>If, to each point <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex>, we associate the set of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> local components of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> that contain the image in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> of a neighbourhood of <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex>, then we define on <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> a local system <fr:tex
+display="inline"><![CDATA[E_n]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-element sets.
+    The local system of orientations of these sets is a <fr:tex
+display="inline"><![CDATA[\mathbb {Z}{/}(2)]]></fr:tex>-torsor.
+    This torsor defines, via the inclusion of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}{/}(2)]]></fr:tex> into <fr:tex
+display="inline"><![CDATA[\mathbb {C}^*]]></fr:tex>, a complex local system <fr:tex
+display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> of rank <fr:tex
+display="inline"><![CDATA[1]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex>, endowed with an isomorphism <fr:tex
+display="inline"><![CDATA[(\varepsilon ^n)^{\otimes 2}\simeq \mathbb {C}]]></fr:tex>.
+    We have
+    <fr:tex
+display="block"><![CDATA[       \varepsilon ^n       \simeq  \bigwedge ^n \mathbb {C}^{E_n}.     ]]></fr:tex></fr:p><fr:p>Locally on <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> is endowed with two opposite isomorphisms <fr:tex
+display="inline"><![CDATA[\pm \alpha \colon \varepsilon ^n\xrightarrow {\sim }\mathbb {C}]]></fr:tex>.
+    We set
+    <fr:tex
+display="block"><![CDATA[       \varepsilon _\mathbb {Z}^n       = \alpha ^{-1}((2\pi  i)^{-n}\mathbb {Z}).     ]]></fr:tex>
+    There is a way of seeing <fr:tex
+display="inline"><![CDATA[\varepsilon ^n]]></fr:tex>, endowed with <fr:tex
+display="inline"><![CDATA[\varepsilon _\mathbb {Z}^n]]></fr:tex>, as a twisted version of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(-n)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex>.</fr:p><fr:p>We denote by <fr:tex
+display="inline"><![CDATA[\varepsilon _X^n]]></fr:tex> (resp. by <fr:tex
+display="inline"><![CDATA[(\varepsilon _X^n)_\mathbb {Z}]]></fr:tex>) the direct image of <fr:tex
+display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> (resp. of <fr:tex
+display="inline"><![CDATA[\varepsilon _\mathbb {Z}^n]]></fr:tex>) under the mat from <fr:tex
+display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
+    We have
 
-    <fr:p>
-      For <fr:tex>n\geqslant  p</fr:tex>, we have
-      <fr:tex
-display="block">         W_n(\Omega _X^p\langle  Y\rangle )         = \Omega _X^p\langle  Y\rangle        </fr:tex>
-      and so <fr:tex>\alpha </fr:tex> is a morphism from <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex>, endowed with <fr:tex>\tau </fr:tex>, to <fr:tex>\Omega _X^\bullet \langle  Y\rangle </fr:tex>, endowed with the decreasing filtration associated to <fr:tex>W</fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.1.3"
-href="hodge-theory-ii-1.1.3.xml"
-number="1.1.3"></fr:ref>).
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2"></fr:ref>, we have
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+    <fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>232</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.8.1</fr:addr><fr:route>hodge-theory-ii-3.1.8.1.xml</fr:route><fr:number>3.1.8.1</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           \operatorname {\mathscr {H}}^i(\operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )) =           \begin {cases}             0 &amp;\text {for }i\neq  n           \\\varepsilon _X^n &amp;\text {for }i=n           \end {cases}         \tag{3.1.8.1}         </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1432</fr:anchor><fr:addr
+type="user">hodge-theory-ii-3.1.4.1</fr:addr><fr:route>hodge-theory-ii-3.1.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.4.1</fr:number><fr:parent>hodge-theory-ii-3.1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \varepsilon _X^n         \simeq  \bigwedge ^n\varepsilon _X^1         \qquad \text {for }n\geqslant 0.       \tag{3.1.4.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is the union of distinct smooth divisors <fr:tex
+display="inline"><![CDATA[(Y_i)_{i\in  I}]]></fr:tex>, then the choice of a total order on <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> trivialises the <fr:tex
+display="inline"><![CDATA[\varepsilon ^n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1478</fr:anchor><fr:addr
+type="user">hodge-theory-ii-3.1.8</fr:addr><fr:route>hodge-theory-ii-3.1.8.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>3.1.8</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The morphisms of filtered complexes
+    <fr:tex
+display="block"><![CDATA[       (\Omega _X^\bullet \langle  Y\rangle , W)       \xleftarrow {\alpha } (\Omega _X^\bullet \langle  Y\rangle , \tau )       \xhookrightarrow {\beta } (j_*\Omega _{X^*}^\bullet , \tau )     ]]></fr:tex>
+    are filtered quasi-isomorphisms.
+    They define an isomorphism between the Leray spectral sequence for <fr:tex
+display="inline"><![CDATA[j]]></fr:tex> in complex cohomology and the hypercohomology spectral sequence of the filtered complex <fr:tex
+display="inline"><![CDATA[(\Omega _X^\bullet \langle  Y\rangle , W)]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By <fr:ref
+addr="hodge-theory-ii-1.4.5"
+href="hodge-theory-ii-1.4.5.xml"
+number="1.4.5" /> and <fr:ref
+addr="hodge-theory-ii-3.1.7"
+href="hodge-theory-ii-3.1.7.xml"
+number="3.1.7" />, it suffices to prove the first claim.
+      In [<fr:link
+type="local"
+href="D1970.xml"
+addr="D1970"
+title="Equations différentielles à points singuliers réguliers">D1970</fr:link>, II, (6.9)] or [<fr:link
+type="local"
+href="AH1955.xml"
+addr="AH1955"
+title="Integrals of the second kind on an algebraic variety">AH1955</fr:link>], one can find a proof of the fact that <fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex> is a quasi-isomorphism, and thus a filtered quasi-isomorphism.
+      We can also directly calculate the cohomology sheaves of the two sides: those of <fr:tex
+display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex> are determined by <fr:ref
+addr="hodge-theory-ii-3.1.5.2"
+href="hodge-theory-ii-3.1.5.2.xml"
+taxon="Equation"
+number="3.1.5.2" />, while those of <fr:tex
+display="inline"><![CDATA[j_*\Omega _{X^*}^\bullet ]]></fr:tex> are the <fr:tex
+display="inline"><![CDATA[\mathrm {R}^ij_*\mathbb {C}]]></fr:tex>, which can be calculated by topological methods.</fr:p>
 
-      and we deduce from the first line of this equation that <fr:tex>\alpha </fr:tex> is a filtered quasi-isomorphism.
+    <fr:p>For <fr:tex
+display="inline"><![CDATA[n\geqslant  p]]></fr:tex>, we have
+      <fr:tex
+display="block"><![CDATA[         W_n(\Omega _X^p\langle  Y\rangle )         = \Omega _X^p\langle  Y\rangle        ]]></fr:tex>
+      and so <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a morphism from <fr:tex
+display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex>, endowed with <fr:tex
+display="inline"><![CDATA[\tau ]]></fr:tex>, to <fr:tex
+display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex>, endowed with the decreasing filtration associated to <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> (<fr:ref
+addr="hodge-theory-ii-1.1.3"
+href="hodge-theory-ii-1.1.3.xml"
+number="1.1.3" />).
+      By <fr:ref
+addr="hodge-theory-ii-3.1.5.2"
+href="hodge-theory-ii-3.1.5.2.xml"
+taxon="Equation"
+number="3.1.5.2" />, we have
+
+      <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr
+type="user">hodge-theory-ii-3.1.8.1</fr:addr><fr:route>hodge-theory-ii-3.1.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.8.1</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           \operatorname {\mathscr {H}}^i(\operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )) =           \begin {cases}             0 &\text {for }i\neq  n           \\\varepsilon _X^n &\text {for }i=n           \end {cases}         \tag{3.1.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      and we deduce from the first line of this equation that <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a filtered quasi-isomorphism.
       This proves <fr:ref
 addr="hodge-theory-ii-3.1.8"
 href="hodge-theory-ii-3.1.8.xml"
 taxon="Proposition"
-number="3.1.8"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="3.1.8" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-<fr:p>
-    By <fr:ref
+<fr:p>By <fr:ref
 addr="hodge-theory-ii-3.1.7"
 href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7"></fr:ref>, the isomorphism <fr:ref
+number="3.1.7" />, the isomorphism <fr:ref
 addr="hodge-theory-ii-3.1.8.1"
 href="hodge-theory-ii-3.1.8.1.xml"
 taxon="Equation"
-number="3.1.8.1"></fr:ref> defines an isomorphism
+number="3.1.8.1" /> defines an isomorphism
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>234</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-3.1.8.2</fr:addr><fr:route>hodge-theory-ii-3.1.8.2.xml</fr:route><fr:number>3.1.8.2</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \mathrm {R}^n j_*\mathbb {C}         \simeq  \operatorname {\mathscr {H}}^n(j_*\Omega _{X^*}^\bullet )         \simeq  \operatorname {\mathscr {H}}^n(\Omega _X^\bullet \langle  Y\rangle )         \simeq  \varepsilon _X^n.       \tag{3.1.8.2}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>300</fr:anchor><fr:addr
+type="user">hodge-theory-ii-3.1.8.2</fr:addr><fr:route>hodge-theory-ii-3.1.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.8.2</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \mathrm {R}^n j_*\mathbb {C}         \simeq  \operatorname {\mathscr {H}}^n(j_*\Omega _{X^*}^\bullet )         \simeq  \operatorname {\mathscr {H}}^n(\Omega _X^\bullet \langle  Y\rangle )         \simeq  \varepsilon _X^n.       \tag{3.1.8.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     The isomorphisms <fr:ref
 addr="hodge-theory-ii-3.1.4.1"
 href="hodge-theory-ii-3.1.4.1.xml"
 taxon="Equation"
-number="3.1.4.1"></fr:ref> correspond, via <fr:ref
+number="3.1.4.1" /> correspond, via <fr:ref
 addr="hodge-theory-ii-3.1.8.1"
 href="hodge-theory-ii-3.1.8.1.xml"
 taxon="Equation"
-number="3.1.8.1"></fr:ref>, to the cup product.
-  </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+number="3.1.8.1" />, to the cup product.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

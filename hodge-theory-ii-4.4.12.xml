@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1842</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.4.12</fr:addr><fr:route>hodge-theory-ii-4.4.12.xml</fr:route><fr:number>4.4.12</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f\colon  X\to  S</fr:tex> be an abelian scheme over a smooth scheme <fr:tex>S</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1890</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.12</fr:addr><fr:route>hodge-theory-ii-4.4.12.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>4.4.12</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over a smooth scheme <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
     Then the following conditions are equivalent:
 
     
@@ -17,137 +19,204 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(i) &quot;">
-        For every abelian scheme <fr:tex>Y\to  S</fr:tex>, we have
+        For every abelian scheme <fr:tex
+display="inline"><![CDATA[Y\to  S]]></fr:tex>, we have
         <fr:tex
-display="block">           \operatorname {Hom}_S(X,Y)           \xrightarrow {\sim } \operatorname {Hom}_S(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).         </fr:tex>
+display="block"><![CDATA[           \operatorname {Hom}_S(X,Y)           \xrightarrow {\sim } \operatorname {Hom}_S(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).         ]]></fr:tex>
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;(ii) &quot;">
-        Condition (i) is satisfied for <fr:tex>X=Y</fr:tex>, and the centre <fr:tex>Z</fr:tex> of <fr:tex>\operatorname {End}_S(X)\otimes \mathbb {Q}</fr:tex> does not admit any complex place <fr:tex>\rho \colon  Z\to \mathbb {C}</fr:tex> such that the direct factor <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}</fr:tex> of <fr:tex>\mathrm {R}_1f_*\mathbb {C}</fr:tex> is of pure Hodge degree <fr:tex>(-1,0)</fr:tex>.
+        Condition (i) is satisfied for <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>, and the centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {End}_S(X)\otimes \mathbb {Q}]]></fr:tex> does not admit any complex place <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that the direct factor <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {C}]]></fr:tex> is of pure Hodge degree <fr:tex
+display="inline"><![CDATA[(-1,0)]]></fr:tex>.
       </html:li>
 
     </html:ol></fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1149</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#184</fr:addr><fr:route>unstable-184.xml</fr:route><fr:parent>hodge-theory-ii-4.4.12</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We can reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected, with generic point <fr:tex>\eta </fr:tex>, and where <fr:tex>X_\eta </fr:tex> is a simple abelian variety over <fr:tex>k(\eta )</fr:tex>.
-      If (i) or (ii) is satisfied, then <fr:tex>D=\operatorname {End}(X_\eta )\otimes \mathbb {Q}</fr:tex> is a field, and, for <fr:tex>s\in  S</fr:tex>, <fr:tex>(\mathrm {R}_1f_*\mathbb {Q})_s</fr:tex> is an irreducible representation of <fr:tex>\pi _1(S,s)</fr:tex>.
-    </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1202</fr:anchor><fr:addr
+type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.12</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is non-empty and connected, with generic point <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>, and where <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> is a simple abelian variety over <fr:tex
+display="inline"><![CDATA[k(\eta )]]></fr:tex>.
+      If (i) or (ii) is satisfied, then <fr:tex
+display="inline"><![CDATA[D=\operatorname {End}(X_\eta )\otimes \mathbb {Q}]]></fr:tex> is a field, and, for <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is an irreducible representation of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      To prove that (ii) <fr:tex>\implies </fr:tex> (i), we can suppose <fr:tex>Y_\eta </fr:tex> to be simple, and <fr:tex>(\mathrm {R}_1g_*\mathbb {Q})_s</fr:tex> to be isotypic of type <fr:tex>(\mathrm {R}_1f_*\mathbb {Q})_s</fr:tex>.
-      We then have an isomorphism of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures (with <fr:tex>D</fr:tex> of degree <fr:tex>(0,0)</fr:tex>)
+    <fr:p>To prove that (ii) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (i), we can suppose <fr:tex
+display="inline"><![CDATA[Y_\eta ]]></fr:tex> to be simple, and <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1g_*\mathbb {Q})_s]]></fr:tex> to be isotypic of type <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex>.
+      We then have an isomorphism of continuous families of Hodge <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures (with <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>)
       <fr:tex
-display="block">         \mathrm {R}_1g_*\mathbb {Q}         \approx  \mathrm {R}_1f_*\mathbb {Q}\otimes _D\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q}).       </fr:tex></fr:p>
+display="block"><![CDATA[         \mathrm {R}_1g_*\mathbb {Q}         \approx  \mathrm {R}_1f_*\mathbb {Q}\otimes _D\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q}).       ]]></fr:tex></fr:p>
 
-    <fr:p>
-      We have that <fr:tex>D\otimes \mathbb {C}\simeq \mathbb {M}_n(Z\otimes \mathbb {C})</fr:tex>.
-      If <fr:tex>e\in  D\otimes \mathbb {C}</fr:tex> is sent by such an isomorphism to the idempotent <fr:tex>e_{11}</fr:tex>, then we again have an isomorphism of bigraded vector spaces
+    <fr:p>We have that <fr:tex
+display="inline"><![CDATA[D\otimes \mathbb {C}\simeq \mathbb {M}_n(Z\otimes \mathbb {C})]]></fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[e\in  D\otimes \mathbb {C}]]></fr:tex> is sent by such an isomorphism to the idempotent <fr:tex
+display="inline"><![CDATA[e_{11}]]></fr:tex>, then we again have an isomorphism of bigraded vector spaces
       <fr:tex
-display="block">         (\mathrm {R}_1g_*\mathbb {C})_s         \approx  (\mathrm {R}_1f_*\mathbb {C})_s\otimes _{Z\otimes \mathbb {C}}e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C})).       </fr:tex></fr:p>
+display="block"><![CDATA[         (\mathrm {R}_1g_*\mathbb {C})_s         \approx  (\mathrm {R}_1f_*\mathbb {C})_s\otimes _{Z\otimes \mathbb {C}}e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C})).       ]]></fr:tex></fr:p>
 
-    <fr:p>
-      If condition (ii) is satisfied, and if <fr:tex>e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C}))</fr:tex> is not of pure degree <fr:tex>(0,0)</fr:tex>, then <fr:tex>(\mathrm {R}_1g_*\mathbb {C})_s</fr:tex> cannot be of pure degree <fr:tex>(-1,0)+(0,-1)</fr:tex>, which is a contradiction.
-      We thus deduce that <fr:tex>\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})</fr:tex> is of pure degree <fr:tex>(0,0)</fr:tex>, and (i) then follows by <fr:ref
+    <fr:p>If condition (ii) is satisfied, and if <fr:tex
+display="inline"><![CDATA[e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C}))]]></fr:tex> is not of pure degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1g_*\mathbb {C})_s]]></fr:tex> cannot be of pure degree <fr:tex
+display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>, which is a contradiction.
+      We thus deduce that <fr:tex
+display="inline"><![CDATA[\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})]]></fr:tex> is of pure degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>, and (i) then follows by <fr:ref
 addr="hodge-theory-ii-4.4.3"
 href="hodge-theory-ii-4.4.3.xml"
 taxon="Reminder"
-number="4.4.3"></fr:ref> and <fr:ref
+number="4.4.3" /> and <fr:ref
 addr="hodge-theory-ii-2.1.11.1"
 href="hodge-theory-ii-2.1.11.1.xml"
 taxon="Remark"
-number="2.1.11.1"></fr:ref>.
-    </fr:p>
+number="2.1.11.1" />.</fr:p>
 
-    <fr:p>
-      Let <fr:tex>Z</fr:tex> be a completely imaginary quadratic extension of a completely real number field <fr:tex>Z^0</fr:tex>.
-      If <fr:tex>Z\otimes \mathbb {R}\approx \mathbb {C}\oplus \ldots \oplus \mathbb {C}</fr:tex>, then we define an action by homotheties of <fr:tex>S</fr:tex> on <fr:tex>Z\otimes \mathbb {R}</fr:tex> by sending <fr:tex>s\in  S(\mathbb {R})\simeq \mathbb {C}^*</fr:tex> to <fr:tex>(s^2\cdot  N(s)^{-1},1,\ldots ,1)</fr:tex>.
-      The pair consisting of <fr:tex>Z</fr:tex> and this action of <fr:tex>S</fr:tex> on <fr:tex>Z\otimes \mathbb {R}</fr:tex> is a polarisable Hodge structure <fr:tex>Z_\rho </fr:tex> of degree <fr:tex>(-1,1)+(0,0)+(1,-1)</fr:tex> that depends on <fr:tex>Z</fr:tex> and the chose place <fr:tex>\rho \colon  Z\to \mathbb {C}</fr:tex>.
-    </fr:p>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> be a completely imaginary quadratic extension of a completely real number field <fr:tex
+display="inline"><![CDATA[Z^0]]></fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[Z\otimes \mathbb {R}\approx \mathbb {C}\oplus \ldots \oplus \mathbb {C}]]></fr:tex>, then we define an action by homotheties of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[Z\otimes \mathbb {R}]]></fr:tex> by sending <fr:tex
+display="inline"><![CDATA[s\in  S(\mathbb {R})\simeq \mathbb {C}^*]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[(s^2\cdot  N(s)^{-1},1,\ldots ,1)]]></fr:tex>.
+      The pair consisting of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> and this action of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[Z\otimes \mathbb {R}]]></fr:tex> is a polarisable Hodge structure <fr:tex
+display="inline"><![CDATA[Z_\rho ]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[(-1,1)+(0,0)+(1,-1)]]></fr:tex> that depends on <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> and the chose place <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      Let <fr:tex>X</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex> such that <fr:tex>X_\eta </fr:tex> is simple.
-      If the centre <fr:tex>Z</fr:tex> of <fr:tex>\operatorname {End}(\mathrm {R}_1f_*\mathbb {Q})</fr:tex> is not completely real, then it is a completely imaginary quadratic extension of a completely real number field.
-      If the second hypothesis of (ii) is not satisfied, then the direct factor <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho </fr:tex> of the continuous family of polarisable Hodge structures <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _\mathbb {Q} Z_\rho </fr:tex> is of pure degree <fr:tex>(-1,0)+(0,-1)</fr:tex>.
-    </fr:p>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be an abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> is simple.
+      If the centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {End}(\mathrm {R}_1f_*\mathbb {Q})]]></fr:tex> is not completely real, then it is a completely imaginary quadratic extension of a completely real number field.
+      If the second hypothesis of (ii) is not satisfied, then the direct factor <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho ]]></fr:tex> of the continuous family of polarisable Hodge structures <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _\mathbb {Q} Z_\rho ]]></fr:tex> is of pure degree <fr:tex
+display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      By <fr:ref
+    <fr:p>By <fr:ref
 addr="hodge-theory-ii-4.4.3"
 href="hodge-theory-ii-4.4.3.xml"
 taxon="Reminder"
-number="4.4.3"></fr:ref>, the choice of an integer lattice in <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho </fr:tex> defines an abelian scheme <fr:tex>g\colon  Y\to  S</fr:tex>, and <fr:tex>\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q})</fr:tex> is not of pure degree <fr:tex>(0,0)</fr:tex>, which contradicts (i).
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="4.4.3" />, the choice of an integer lattice in <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho ]]></fr:tex> defines an abelian scheme <fr:tex
+display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q})]]></fr:tex> is not of pure degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>, which contradicts (i).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1841</fr:anchor><fr:addr>hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1891</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4</fr:addr><fr:route>hodge-theory-ii-4.4.xml</fr:route><fr:title
+text="Hodge Theory II › Applications and supplements › Homomorphisms of abelian schemes"><fr:link
+type="local"
 href="hodge-theory-ii-4.xml"
+addr="hodge-theory-ii-4"
+title="Hodge Theory II › Applications and supplements"><fr:link
 type="local"
-addr="hodge-theory-ii-4"><fr:link
 href="hodge-theory-ii.xml"
-type="local"
-addr="hodge-theory-ii">Hodge Theory II</fr:link> › Applications and supplements</fr:link> › Homomorphisms of abelian schemes</fr:title><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  We intend to show how, in some cases, we can remove from <fr:ref
+addr="hodge-theory-ii"
+title="Hodge Theory II">Hodge Theory II</fr:link> › Applications and supplements</fr:link> › Homomorphisms of abelian schemes</fr:title><fr:authors /><fr:number>4.4</fr:number><fr:parent>hodge-theory-ii-4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We intend to show how, in some cases, we can remove from <fr:ref
 addr="hodge-theory-ii-4.1.3.2"
 href="hodge-theory-ii-4.1.3.2.xml"
-number="4.1.3.2"></fr:ref> the assumption of algebraicity at a point.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="4.1.3.2" /> the assumption of algebraicity at a point.</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1659</fr:anchor><fr:addr>hodge-theory-ii-4.4.1</fr:addr><fr:route>hodge-theory-ii-4.4.1.xml</fr:route><fr:number>4.4.1</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f\colon  X\to  S</fr:tex> be a smooth proper morphism;
-    we denote by <fr:tex>\mathrm {R}_i f_*\mathbb {Z}</fr:tex> the local system on <fr:tex>S^\mathrm {an}</fr:tex> whose homology is the fibres of <fr:tex>f</fr:tex>.
-    At each point <fr:tex>s\in  S</fr:tex>, <fr:tex>(\mathrm {R}_i f_*\mathbb {Z})_s\simeq \operatorname {H}_i(X_s,\mathbb {Z})</fr:tex> is endowed with a Hodge structure of weight <fr:tex>-i</fr:tex>, dual to the Hodge structure on <fr:tex>\operatorname {H}^i(X_s,\mathbb {Z})</fr:tex>.
-    This structure varies continuously with <fr:tex>s\in  S</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1716</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.1</fr:addr><fr:route>hodge-theory-ii-4.4.1.xml</fr:route><fr:authors /><fr:number>4.4.1</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be a smooth proper morphism;
+    we denote by <fr:tex
+display="inline"><![CDATA[\mathrm {R}_i f_*\mathbb {Z}]]></fr:tex> the local system on <fr:tex
+display="inline"><![CDATA[S^\mathrm {an}]]></fr:tex> whose homology is the fibres of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>.
+    At each point <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_i f_*\mathbb {Z})_s\simeq \operatorname {H}_i(X_s,\mathbb {Z})]]></fr:tex> is endowed with a Hodge structure of weight <fr:tex
+display="inline"><![CDATA[-i]]></fr:tex>, dual to the Hodge structure on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^i(X_s,\mathbb {Z})]]></fr:tex>.
+    This structure varies continuously with <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1660</fr:anchor><fr:addr>hodge-theory-ii-4.4.2</fr:addr><fr:route>hodge-theory-ii-4.4.2.xml</fr:route><fr:number>4.4.2</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>f\colon  X\to  S</fr:tex> is an abelian scheme, then the exponential defines an exact sequence
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1717</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.2</fr:addr><fr:route>hodge-theory-ii-4.4.2.xml</fr:route><fr:authors /><fr:number>4.4.2</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> is an abelian scheme, then the exponential defines an exact sequence
     <fr:tex
-display="block">       0       \to  \mathrm {R}_1f_*\mathbb {Z}       \to  \operatorname {Lie}(X)       \to  X       \to  0     </fr:tex>
-    of sheaves on <fr:tex>S^\mathrm {an}</fr:tex>, and the Hodge filtration is the short exact sequence
+display="block"><![CDATA[       0       \to  \mathrm {R}_1f_*\mathbb {Z}       \to  \operatorname {Lie}(X)       \to  X       \to  0     ]]></fr:tex>
+    of sheaves on <fr:tex
+display="inline"><![CDATA[S^\mathrm {an}]]></fr:tex>, and the Hodge filtration is the short exact sequence
     <fr:tex
-display="block">       0       \to  \operatorname {Ker}(\alpha )       \to  \mathrm {R}_1f_*\mathbb {Z}\otimes \mathcal {O}       \xrightarrow {\alpha } \operatorname {Lie}(X)       \to  0.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:p>
-  It is known that:
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[       0       \to  \operatorname {Ker}(\alpha )       \to  \mathrm {R}_1f_*\mathbb {Z}\otimes \mathcal {O}       \xrightarrow {\alpha } \operatorname {Lie}(X)       \to  0.     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>It is known that:</fr:p><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1665</fr:anchor><fr:taxon>Reminder</fr:taxon><fr:addr>hodge-theory-ii-4.4.3</fr:addr><fr:route>hodge-theory-ii-4.4.3.xml</fr:route><fr:number>4.4.3</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a smooth scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1718</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.3</fr:addr><fr:route>hodge-theory-ii-4.4.3.xml</fr:route><fr:taxon>Reminder</fr:taxon><fr:authors /><fr:number>4.4.3</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a smooth scheme of finite type over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
     The construction of <fr:ref
 addr="hodge-theory-ii-4.4.2"
 href="hodge-theory-ii-4.4.2.xml"
-number="4.4.2"></fr:ref> establishes an equivalence of categories between
+number="4.4.2" /> establishes an equivalence of categories between
 
     
  <html:ol
@@ -155,68 +224,121 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(a) &quot;">
-        the category of abelian schemes over <fr:tex>S</fr:tex>; and
+        the category of abelian schemes over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>; and
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;(b) &quot;">
-        the category of polarisable continuous families of Hodge structures <fr:tex>H</fr:tex> of type <fr:tex>(-1,0)+(0,-1)</fr:tex> on <fr:tex>S</fr:tex> such that <fr:tex>H_\mathbb {Z}</fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex>S</fr:tex>.
+        the category of polarisable continuous families of Hodge structures <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> of type <fr:tex
+display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[H_\mathbb {Z}]]></fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
       </html:li>
 
     </html:ol></fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1664</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#182</fr:addr><fr:route>unstable-182.xml</fr:route><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
-      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex> over <fr:tex>S</fr:tex>, the <fr:tex>S</fr:tex>-scheme <fr:tex>\underline {\operatorname {Hom}}_S(X_1,X_2)</fr:tex> is unramified over <fr:tex>S</fr:tex>, and thus has the same algebraic and holomorphic sections.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1722</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
+      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex
+display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X_2]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, the <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[\underline {\operatorname {Hom}}_S(X_1,X_2)]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and thus has the same algebraic and holomorphic sections.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1666</fr:anchor><fr:addr>hodge-theory-ii-4.4.4</fr:addr><fr:route>hodge-theory-ii-4.4.4.xml</fr:route><fr:number>4.4.4</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>Z</fr:tex> be a commutative field, <fr:tex>H</fr:tex> a simple central algebra over <fr:tex>Z</fr:tex>, and <fr:tex>*</fr:tex> a <fr:tex>Z</fr:tex>-linear anti-automorphism of <fr:tex>H</fr:tex>.
-    After extension of scalars, we have <fr:tex>H\simeq \operatorname {End}(V)</fr:tex> for some vector space <fr:tex>V</fr:tex> over <fr:tex>Z</fr:tex>, and <fr:tex>*</fr:tex> is then the transposition with respect to a bilinear form <fr:tex>\Phi </fr:tex> on <fr:tex>V</fr:tex>, unique up to a factor.
-    Suppose that <fr:tex>*</fr:tex> is involutive;
-    the forms <fr:tex>\Phi (X,Y)</fr:tex> and <fr:tex>\Phi (Y,X)</fr:tex> are then proportional, i.e. <fr:tex>\Phi (X,Y)=\lambda \Phi (Y,X)</fr:tex> for some <fr:tex>\lambda ^2=1</fr:tex>.
-    <fr:em>We set <fr:tex>\varepsilon _*=\lambda </fr:tex></fr:em>.
-    If <fr:tex>[H:Z]=d^2</fr:tex>, then
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1723</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.4</fr:addr><fr:route>hodge-theory-ii-4.4.4.xml</fr:route><fr:authors /><fr:number>4.4.4</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> be a commutative field, <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> a simple central algebra over <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[*]]></fr:tex> a <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>-linear anti-automorphism of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex>.
+    After extension of scalars, we have <fr:tex
+display="inline"><![CDATA[H\simeq \operatorname {End}(V)]]></fr:tex> for some vector space <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[*]]></fr:tex> is then the transposition with respect to a bilinear form <fr:tex
+display="inline"><![CDATA[\Phi ]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>, unique up to a factor.
+    Suppose that <fr:tex
+display="inline"><![CDATA[*]]></fr:tex> is involutive;
+    the forms <fr:tex
+display="inline"><![CDATA[\Phi (X,Y)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Phi (Y,X)]]></fr:tex> are then proportional, i.e. <fr:tex
+display="inline"><![CDATA[\Phi (X,Y)=\lambda \Phi (Y,X)]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[\lambda ^2=1]]></fr:tex>.
+    <fr:em>We set <fr:tex
+display="inline"><![CDATA[\varepsilon _*=\lambda ]]></fr:tex></fr:em>.
+    If <fr:tex
+display="inline"><![CDATA[[H:Z]=d^2]]></fr:tex>, then
     <fr:tex
-display="block">       \operatorname {Tr}(*\colon  H\to  H)       = \varepsilon _*\cdot  d.     </fr:tex></fr:p><fr:p>
-    Every <fr:tex>Z</fr:tex>-linear automorphism <fr:tex>C</fr:tex> of <fr:tex>H</fr:tex> is interior: <fr:tex>Cx=cxc^{-1}</fr:tex>.
-    If <fr:tex>C</fr:tex> is involutive and commutes with <fr:tex>*</fr:tex>, then the elements <fr:tex>c^2</fr:tex> and <fr:tex>cc^*</fr:tex> are central, so that <fr:tex>c^*=\lambda  c</fr:tex> with <fr:tex>\lambda </fr:tex> central.
-    Since <fr:tex>c^{**}=c</fr:tex>, we have that <fr:tex>\lambda ^2=1</fr:tex>.
-    <fr:em>We set <fr:tex>\varepsilon _C=\lambda </fr:tex></fr:em>.
-  </fr:p><fr:p>
-    We easily see that the involution <fr:tex>C\circ  *</fr:tex> satisfies
+display="block"><![CDATA[       \operatorname {Tr}(*\colon  H\to  H)       = \varepsilon _*\cdot  d.     ]]></fr:tex></fr:p><fr:p>Every <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>-linear automorphism <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is interior: <fr:tex
+display="inline"><![CDATA[Cx=cxc^{-1}]]></fr:tex>.
+    If <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> is involutive and commutes with <fr:tex
+display="inline"><![CDATA[*]]></fr:tex>, then the elements <fr:tex
+display="inline"><![CDATA[c^2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[cc^*]]></fr:tex> are central, so that <fr:tex
+display="inline"><![CDATA[c^*=\lambda  c]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex> central.
+    Since <fr:tex
+display="inline"><![CDATA[c^{**}=c]]></fr:tex>, we have that <fr:tex
+display="inline"><![CDATA[\lambda ^2=1]]></fr:tex>.
+    <fr:em>We set <fr:tex
+display="inline"><![CDATA[\varepsilon _C=\lambda ]]></fr:tex></fr:em>.</fr:p><fr:p>We easily see that the involution <fr:tex
+display="inline"><![CDATA[C\circ  *]]></fr:tex> satisfies
     <fr:tex
-display="block">       \varepsilon _{C\circ  *}       = \varepsilon _C\cdot \varepsilon _*.     </fr:tex></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[       \varepsilon _{C\circ  *}       = \varepsilon _C\cdot \varepsilon _*.     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1671</fr:anchor><fr:taxon>Reminder</fr:taxon><fr:addr>hodge-theory-ii-4.4.5</fr:addr><fr:route>hodge-theory-ii-4.4.5.xml</fr:route><fr:number>4.4.5</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>X</fr:tex> be a simple abelian variety over a field <fr:tex>K</fr:tex>, and let <fr:tex>H</fr:tex> be the field <fr:tex>\operatorname {End}_K(X)\otimes \mathbb {Q}</fr:tex>.
-    Every polarisation of <fr:tex>X</fr:tex> defines a positive involution <fr:tex>*</fr:tex> of <fr:tex>H</fr:tex>, i.e.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1724</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.5</fr:addr><fr:route>hodge-theory-ii-4.4.5.xml</fr:route><fr:taxon>Reminder</fr:taxon><fr:authors /><fr:number>4.4.5</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a simple abelian variety over a field <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> be the field <fr:tex
+display="inline"><![CDATA[\operatorname {End}_K(X)\otimes \mathbb {Q}]]></fr:tex>.
+    Every polarisation of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> defines a positive involution <fr:tex
+display="inline"><![CDATA[*]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex>, i.e.
     <fr:tex
-display="block">       \operatorname {Tr}(hh^*) &gt; 0       \quad \text {if }h\neq 0.     </fr:tex>
-    If <fr:tex>Z_0</fr:tex> is the <fr:tex>*</fr:tex>-invariant subfield of the centre <fr:tex>Z</fr:tex> of <fr:tex>H</fr:tex>, then <fr:tex>Z_0</fr:tex> is completely real and we are in one of the following cases:
+display="block"><![CDATA[       \operatorname {Tr}(hh^*) > 0       \quad \text {if }h\neq 0.     ]]></fr:tex>
+    If <fr:tex
+display="inline"><![CDATA[Z_0]]></fr:tex> is the <fr:tex
+display="inline"><![CDATA[*]]></fr:tex>-invariant subfield of the centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[Z_0]]></fr:tex> is completely real and we are in one of the following cases:
 
     
  <html:ol
@@ -224,135 +346,191 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(a) &quot;">
-        <fr:tex>Z=Z_0</fr:tex> and, for every real place <fr:tex>\rho </fr:tex> of <fr:tex>Z</fr:tex>, <fr:tex>H\otimes _\rho \mathbb {R}</fr:tex> is an algebra of matrices over <fr:tex>\mathbb {R}</fr:tex>, and <fr:tex>\varepsilon _*=1</fr:tex>.
+        <fr:tex
+display="inline"><![CDATA[Z=Z_0]]></fr:tex> and, for every real place <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[H\otimes _\rho \mathbb {R}]]></fr:tex> is an algebra of matrices over <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\varepsilon _*=1]]></fr:tex>.
       </html:li>
 
 
       
  <html:li
 style="list-style-type: &quot;(b) &quot;">
-        <fr:tex>Z=Z_0</fr:tex> and, for every real place <fr:tex>\rho </fr:tex> of <fr:tex>Z</fr:tex>, <fr:tex>H\otimes _\rho \mathbb {R}</fr:tex> is an algebra of matrices over <fr:tex>\mathbb {H}</fr:tex>, and <fr:tex>\varepsilon _*=-1</fr:tex>.
+        <fr:tex
+display="inline"><![CDATA[Z=Z_0]]></fr:tex> and, for every real place <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[H\otimes _\rho \mathbb {R}]]></fr:tex> is an algebra of matrices over <fr:tex
+display="inline"><![CDATA[\mathbb {H}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\varepsilon _*=-1]]></fr:tex>.
       </html:li>
 
 
       
  <html:li
 style="list-style-type: &quot;(c) &quot;">
-        <fr:tex>Z</fr:tex> is a completely imaginary quadratic extension of <fr:tex>Z_0</fr:tex>.
+        <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is a completely imaginary quadratic extension of <fr:tex
+display="inline"><![CDATA[Z_0]]></fr:tex>.
       </html:li>
 
-    </html:ol></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+    </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1672</fr:anchor><fr:addr>hodge-theory-ii-4.4.6</fr:addr><fr:route>hodge-theory-ii-4.4.6.xml</fr:route><fr:number>4.4.6</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f_i\colon  X_i\to  S</fr:tex> (for <fr:tex>i=1,2</fr:tex>) be an abelian scheme over a smooth scheme <fr:tex>S</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1729</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.6</fr:addr><fr:route>hodge-theory-ii-4.4.6.xml</fr:route><fr:authors /><fr:number>4.4.6</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f_i\colon  X_i\to  S]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[i=1,2]]></fr:tex>) be an abelian scheme over a smooth scheme <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
     The free abelian group
     <fr:tex
-display="block">       \operatorname {Hom}(\mathrm {R}_1{f_1}_*\mathbb {Z},\mathrm {R}_1{f_2}_*\mathbb {Z})       \simeq  \Gamma (S,\underline {\operatorname {Hom}}(\mathrm {R}_1{f_1}_*\mathbb {Z},\mathrm {R}_1{f_2}_*\mathbb {Z}))     </fr:tex>
+display="block"><![CDATA[       \operatorname {Hom}(\mathrm {R}_1{f_1}_*\mathbb {Z},\mathrm {R}_1{f_2}_*\mathbb {Z})       \simeq  \Gamma (S,\underline {\operatorname {Hom}}(\mathrm {R}_1{f_1}_*\mathbb {Z},\mathrm {R}_1{f_2}_*\mathbb {Z}))     ]]></fr:tex>
     
-    is then endowed with a Hodge structure of weight <fr:tex>0</fr:tex> (<fr:ref
+    is then endowed with a Hodge structure of weight <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> (<fr:ref
 addr="hodge-theory-ii-4.2.8"
 href="hodge-theory-ii-4.2.8.xml"
 taxon="Corollary"
-number="4.2.8"></fr:ref>).
+number="4.2.8" />).
     Further, by <fr:ref
 addr="hodge-theory-ii-2.1.11.1"
 href="hodge-theory-ii-2.1.11.1.xml"
 taxon="Remark"
-number="2.1.11.1"></fr:ref> and <fr:ref
+number="2.1.11.1" /> and <fr:ref
 addr="hodge-theory-ii-4.4.3"
 href="hodge-theory-ii-4.4.3.xml"
 taxon="Reminder"
-number="4.4.3"></fr:ref>, the group <fr:tex>\operatorname {Hom}_S(X_1,X_2)</fr:tex> is the degree <fr:tex>(0,0)</fr:tex> component of this group.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+number="4.4.3" />, the group <fr:tex
+display="inline"><![CDATA[\operatorname {Hom}_S(X_1,X_2)]]></fr:tex> is the degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex> component of this group.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1674</fr:anchor><fr:addr>hodge-theory-ii-4.4.7</fr:addr><fr:route>hodge-theory-ii-4.4.7.xml</fr:route><fr:number>4.4.7</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex>\eta </fr:tex>, and let <fr:tex>f\colon  X\to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex>.
-    The centre <fr:tex>Z</fr:tex> of <fr:tex>H=\operatorname {End}(\mathrm {R}_1f_*\mathbb {Z})</fr:tex> is then of degree <fr:tex>(0,0)</fr:tex> (<fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1730</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.7</fr:addr><fr:route>hodge-theory-ii-4.4.7.xml</fr:route><fr:authors /><fr:number>4.4.7</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+    The centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H=\operatorname {End}(\mathrm {R}_1f_*\mathbb {Z})]]></fr:tex> is then of degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex> (<fr:ref
 addr="hodge-theory-ii-4.2.8"
 href="hodge-theory-ii-4.2.8.xml"
 taxon="Corollary"
-number="4.2.8"></fr:ref>), and thus contained in <fr:tex>\operatorname {End}_S(X)\simeq \operatorname {End}_{k(\eta )}(X_\eta )</fr:tex>.
-  </fr:p><fr:p>
-    A polarisation of <fr:tex>X</fr:tex> defines an involution <fr:tex>*</fr:tex> of <fr:tex>H</fr:tex>.
-    The restriction of this to <fr:tex>\operatorname {End}_S(X)</fr:tex> is positive, so that <fr:tex>Z</fr:tex> is the product of completely real fields or quadratic imaginary extensions of completely real fields.
-  </fr:p><fr:p>
-    Denote by <fr:tex>C</fr:tex> the actions of <fr:tex>i\in  S(\mathbb {R})</fr:tex> on <fr:tex>H_\mathbb {R}=H\otimes \mathbb {R}</fr:tex> and on the <fr:tex>(\mathrm {R}_1f_*\mathbb {R})_s</fr:tex> for <fr:tex>s\in  S</fr:tex>.
-    On <fr:tex>H_\mathbb {R}</fr:tex>, <fr:tex>C^2=1</fr:tex>, and <fr:tex>C</fr:tex> commutes with <fr:tex>*</fr:tex>;
-    on <fr:tex>(\mathrm {R}_1f_*\mathbb {R})_s</fr:tex>, <fr:tex>C^2=-1</fr:tex>.
-    If <fr:tex>\psi </fr:tex> is the alternating form on <fr:tex>\mathrm {R}_1f_*\mathbb {Z}</fr:tex> with integer values induced by the polarisation of <fr:tex>X</fr:tex>, then
+number="4.2.8" />), and thus contained in <fr:tex
+display="inline"><![CDATA[\operatorname {End}_S(X)\simeq \operatorname {End}_{k(\eta )}(X_\eta )]]></fr:tex>.</fr:p><fr:p>A polarisation of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> defines an involution <fr:tex
+display="inline"><![CDATA[*]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex>.
+    The restriction of this to <fr:tex
+display="inline"><![CDATA[\operatorname {End}_S(X)]]></fr:tex> is positive, so that <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is the product of completely real fields or quadratic imaginary extensions of completely real fields.</fr:p><fr:p>Denote by <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> the actions of <fr:tex
+display="inline"><![CDATA[i\in  S(\mathbb {R})]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[H_\mathbb {R}=H\otimes \mathbb {R}]]></fr:tex> and on the <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {R})_s]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>.
+    On <fr:tex
+display="inline"><![CDATA[H_\mathbb {R}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[C^2=1]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> commutes with <fr:tex
+display="inline"><![CDATA[*]]></fr:tex>;
+    on <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {R})_s]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[C^2=-1]]></fr:tex>.
+    If <fr:tex
+display="inline"><![CDATA[\psi ]]></fr:tex> is the alternating form on <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Z}]]></fr:tex> with integer values induced by the polarisation of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then
     <fr:tex
-display="block">       \psi (hx,Cy)       = \psi (x,h^*Cy)       = \psi (x,C\cdot  C(h^*)\cdot  y).     </fr:tex>
+display="block"><![CDATA[       \psi (hx,Cy)       = \psi (x,h^*Cy)       = \psi (x,C\cdot  C(h^*)\cdot  y).     ]]></fr:tex>
     We thus deduce that
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1673</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.7.1</fr:addr><fr:route>hodge-theory-ii-4.4.7.1.xml</fr:route><fr:number>4.4.7.1</fr:number><fr:parent>hodge-theory-ii-4.4.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \operatorname {Tr}(h\cdot  C(h^*)) &gt; 0         \quad \text {for }h\neq 0.       \tag{4.4.7.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1731</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.7.1</fr:addr><fr:route>hodge-theory-ii-4.4.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.7.1</fr:number><fr:parent>hodge-theory-ii-4.4.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \operatorname {Tr}(h\cdot  C(h^*)) > 0         \quad \text {for }h\neq 0.       \tag{4.4.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1680</fr:anchor><fr:addr>hodge-theory-ii-4.4.8</fr:addr><fr:route>hodge-theory-ii-4.4.8.xml</fr:route><fr:number>4.4.8</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Now suppose that <fr:tex>X_\eta </fr:tex> is simple, so that <fr:tex>Z</fr:tex> is a field.
-    Let <fr:tex>\rho \colon  Z\to \mathbb {C}</fr:tex> be a complex embedding.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1732</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.8</fr:addr><fr:route>hodge-theory-ii-4.4.8.xml</fr:route><fr:authors /><fr:number>4.4.8</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Now suppose that <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> is simple, so that <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is a field.
+    Let <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> be a complex embedding.
     Then the algebra
     <fr:tex
-display="block">       H_\rho        = H\otimes _{Z,\rho }\mathbb {C}     </fr:tex>
-    is an algebra of matrices and a bigraded direct factor of <fr:tex>H_\mathbb {C}=H\otimes _\mathbb {Q}\mathbb {C}</fr:tex>.
+display="block"><![CDATA[       H_\rho        = H\otimes _{Z,\rho }\mathbb {C}     ]]></fr:tex>
+    is an algebra of matrices and a bigraded direct factor of <fr:tex
+display="inline"><![CDATA[H_\mathbb {C}=H\otimes _\mathbb {Q}\mathbb {C}]]></fr:tex>.
     Pick an isomorphism
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1675</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.8.1</fr:addr><fr:route>hodge-theory-ii-4.4.8.1.xml</fr:route><fr:number>4.4.8.1</fr:number><fr:parent>hodge-theory-ii-4.4.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         H_\rho          \simeq  \operatorname {End}(V_\rho ).       \tag{4.4.8.1}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1733</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.8.1</fr:addr><fr:route>hodge-theory-ii-4.4.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.8.1</fr:number><fr:parent>hodge-theory-ii-4.4.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         H_\rho          \simeq  \operatorname {End}(V_\rho ).       \tag{4.4.8.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    From the fact that the infinitesimal generators of <fr:tex>S</fr:tex> act on <fr:tex>H_\rho </fr:tex>, by derivations, which are necessarily interior, we deduce that <fr:tex>V_\rho </fr:tex> admits a bigrading, unique up to translation, such that <fr:ref
+    From the fact that the infinitesimal generators of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> act on <fr:tex
+display="inline"><![CDATA[H_\rho ]]></fr:tex>, by derivations, which are necessarily interior, we deduce that <fr:tex
+display="inline"><![CDATA[V_\rho ]]></fr:tex> admits a bigrading, unique up to translation, such that <fr:ref
 addr="hodge-theory-ii-4.4.8.1"
 href="hodge-theory-ii-4.4.8.1.xml"
 taxon="Equation"
-number="4.4.8.1"></fr:ref> is a bigraded isomorphism.
-    Let <fr:tex>(\mathrm {R}_1f_*\mathbb {C})_\rho </fr:tex> be the bigraded local system
+number="4.4.8.1" /> is a bigraded isomorphism.
+    Let <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {C})_\rho ]]></fr:tex> be the bigraded local system
     <fr:tex
-display="block">       (\mathrm {R}_1f_*\mathbb {C})\otimes _{Z\otimes \mathbb {C},\rho }\mathbb {C}     </fr:tex>
-    which is a direct factor of <fr:tex>\mathrm {R}_1f_*\mathbb {C}</fr:tex>.
-    Denote by <fr:tex>T_\rho </fr:tex> the local system
+display="block"><![CDATA[       (\mathrm {R}_1f_*\mathbb {C})\otimes _{Z\otimes \mathbb {C},\rho }\mathbb {C}     ]]></fr:tex>
+    which is a direct factor of <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {C}]]></fr:tex>.
+    Denote by <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> the local system
     <fr:tex
-display="block">       T_\rho        = \operatorname {Hom}_{H_\rho }(V_\rho ,(\mathrm {R}_1f_*\mathbb {C})_\rho ).     </fr:tex></fr:p><fr:p>
-    We have the bigraded isomorphism
+display="block"><![CDATA[       T_\rho        = \operatorname {Hom}_{H_\rho }(V_\rho ,(\mathrm {R}_1f_*\mathbb {C})_\rho ).     ]]></fr:tex></fr:p><fr:p>We have the bigraded isomorphism
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1676</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.8.2</fr:addr><fr:route>hodge-theory-ii-4.4.8.2.xml</fr:route><fr:number>4.4.8.2</fr:number><fr:parent>hodge-theory-ii-4.4.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         V_\rho \otimes _\mathbb {C} T_\rho          \xrightarrow {\sim } (\mathrm {R}_1f_*\mathbb {C})_\rho .       \tag{4.4.8.2}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1734</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.8.2</fr:addr><fr:route>hodge-theory-ii-4.4.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.8.2</fr:number><fr:parent>hodge-theory-ii-4.4.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         V_\rho \otimes _\mathbb {C} T_\rho          \xrightarrow {\sim } (\mathrm {R}_1f_*\mathbb {C})_\rho .       \tag{4.4.8.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    Since <fr:tex>(\mathrm {R}_1f_*\mathbb {C})_\rho </fr:tex> is of degree <fr:tex>(-1,0)+(0,-1)</fr:tex>, one of the following conditions is satisfied:
+    Since <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {C})_\rho ]]></fr:tex> is of degree <fr:tex
+display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>, one of the following conditions is satisfied:
 
     
  <html:ol
@@ -360,148 +538,201 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(a) &quot;">
-        <fr:tex>V_\rho </fr:tex> is bihomogeneous;
+        <fr:tex
+display="inline"><![CDATA[V_\rho ]]></fr:tex> is bihomogeneous;
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;(b) &quot;">
-        <fr:tex>T_\rho </fr:tex> is bihomogeneous.
+        <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> is bihomogeneous.
       </html:li>
 
-    </html:ol></fr:p><fr:p>
-    It is clear that condition (a) (resp. (b)) is simultaneously satisfied by <fr:tex>\rho </fr:tex> and <fr:tex>\bar {\rho }</fr:tex>.
-    If condition (a) is satisfied at each place, then <fr:tex>H</fr:tex> is of degree <fr:tex>(0,0)</fr:tex>.
-    If condition (b) is satisfied at each place, then the Hodge structure on <fr:tex>\mathrm {R}_1f_*\mathbb {Q}</fr:tex> is locally constant.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+    </html:ol></fr:p><fr:p>It is clear that condition (a) (resp. (b)) is simultaneously satisfied by <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {\rho }]]></fr:tex>.
+    If condition (a) is satisfied at each place, then <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is of degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>.
+    If condition (b) is satisfied at each place, then the Hodge structure on <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}]]></fr:tex> is locally constant.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1694</fr:anchor><fr:addr>hodge-theory-ii-4.4.9</fr:addr><fr:route>hodge-theory-ii-4.4.9.xml</fr:route><fr:number>4.4.9</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Now suppose that <fr:tex>Z</fr:tex> is completely real.
-    For each real embedding <fr:tex>\varphi </fr:tex> of <fr:tex>Z</fr:tex>, we set <fr:tex>\varepsilon _{H,\varphi }=+1</fr:tex> if <fr:tex>H\otimes _{Z,\varphi }\mathbb {R}</fr:tex> is an algebra of matrices; we set <fr:tex>\varepsilon _{H,\varphi }=-1</fr:tex> otherwise.
-    If a complex embedding <fr:tex>\rho </fr:tex> induces a real embedding <fr:tex>\varphi </fr:tex>, then we set <fr:tex>\varepsilon _{H\rho }=\varepsilon _{H\varphi }</fr:tex>.
-  </fr:p><fr:p>
-    Let <fr:tex>\rho \colon  Z\to \mathbb {C}</fr:tex> factor through <fr:tex>\varphi \colon  Z\to \mathbb {R}</fr:tex>.
-    Complex conjugation on <fr:tex>H_\rho </fr:tex> is induced by an antilinear automorphism <fr:tex>\sigma _1</fr:tex> of <fr:tex>V_\rho </fr:tex>, unique up to real scalar, with scalar square.
-    Since <fr:tex>\sigma _1</fr:tex> commutes with <fr:tex>\sigma _1^2</fr:tex>, <fr:tex>\sigma _1^2</fr:tex> is real and, by normalising <fr:tex>\sigma _1</fr:tex>, we can assume that <fr:tex>\sigma _1^2=\pm 1</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1738</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.9</fr:addr><fr:route>hodge-theory-ii-4.4.9.xml</fr:route><fr:authors /><fr:number>4.4.9</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Now suppose that <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely real.
+    For each real embedding <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, we set <fr:tex
+display="inline"><![CDATA[\varepsilon _{H,\varphi }=+1]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[H\otimes _{Z,\varphi }\mathbb {R}]]></fr:tex> is an algebra of matrices; we set <fr:tex
+display="inline"><![CDATA[\varepsilon _{H,\varphi }=-1]]></fr:tex> otherwise.
+    If a complex embedding <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> induces a real embedding <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex>, then we set <fr:tex
+display="inline"><![CDATA[\varepsilon _{H\rho }=\varepsilon _{H\varphi }]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> factor through <fr:tex
+display="inline"><![CDATA[\varphi \colon  Z\to \mathbb {R}]]></fr:tex>.
+    Complex conjugation on <fr:tex
+display="inline"><![CDATA[H_\rho ]]></fr:tex> is induced by an antilinear automorphism <fr:tex
+display="inline"><![CDATA[\sigma _1]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[V_\rho ]]></fr:tex>, unique up to real scalar, with scalar square.
+    Since <fr:tex
+display="inline"><![CDATA[\sigma _1]]></fr:tex> commutes with <fr:tex
+display="inline"><![CDATA[\sigma _1^2]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\sigma _1^2]]></fr:tex> is real and, by normalising <fr:tex
+display="inline"><![CDATA[\sigma _1]]></fr:tex>, we can assume that <fr:tex
+display="inline"><![CDATA[\sigma _1^2=\pm 1]]></fr:tex>.
     We then have that
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1681</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.1</fr:addr><fr:route>hodge-theory-ii-4.4.9.1.xml</fr:route><fr:number>4.4.9.1</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \sigma _1^2         = \varepsilon _{H\rho }.       \tag{4.4.9.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
-    The complex conjugation automorphism on
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1739</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.9.1</fr:addr><fr:route>hodge-theory-ii-4.4.9.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.9.1</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \sigma _1^2         = \varepsilon _{H\rho }.       \tag{4.4.9.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>The complex conjugation automorphism on
     <fr:tex
-display="block">       (\mathrm {R}_1f_*\mathbb {C})_\rho        =((\mathrm {R}_1f_*\mathbb {Q})\otimes _{Z,\varphi }\mathbb {R})\otimes _\mathbb {R}\mathbb {C}     </fr:tex>
+display="block"><![CDATA[       (\mathrm {R}_1f_*\mathbb {C})_\rho        =((\mathrm {R}_1f_*\mathbb {Q})\otimes _{Z,\varphi }\mathbb {R})\otimes _\mathbb {R}\mathbb {C}     ]]></fr:tex>
     is "compatible" with <fr:ref
 addr="hodge-theory-ii-4.4.8.2"
 href="hodge-theory-ii-4.4.8.2.xml"
 taxon="Equation"
-number="4.4.8.2"></fr:ref> and can be written as
+number="4.4.8.2" /> and can be written as
     <fr:tex
-display="block">       \sigma        = \sigma _1\otimes \sigma _2.     </fr:tex>
-    Since <fr:tex>\sigma ^2=1</fr:tex>, we have, by <fr:ref
+display="block"><![CDATA[       \sigma        = \sigma _1\otimes \sigma _2.     ]]></fr:tex>
+    Since <fr:tex
+display="inline"><![CDATA[\sigma ^2=1]]></fr:tex>, we have, by <fr:ref
 addr="hodge-theory-ii-4.4.9.1"
 href="hodge-theory-ii-4.4.9.1.xml"
 taxon="Equation"
-number="4.4.9.1"></fr:ref>, that
+number="4.4.9.1" />, that
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1682</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.2</fr:addr><fr:route>hodge-theory-ii-4.4.9.2.xml</fr:route><fr:number>4.4.9.2</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \sigma _1^2         = \sigma _2^2         = \varepsilon _{H\rho }.       \tag{4.4.9.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
-    Let <fr:tex>\Phi </fr:tex> be a polarisation form on <fr:tex>\mathrm {R}_1f_*\mathbb {Z}</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1740</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.9.2</fr:addr><fr:route>hodge-theory-ii-4.4.9.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.9.2</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \sigma _1^2         = \sigma _2^2         = \varepsilon _{H\rho }.       \tag{4.4.9.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Phi ]]></fr:tex> be a polarisation form on <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Z}]]></fr:tex>.
     This form is necessarily of the form
     <fr:tex
-display="block">       \Phi        = \operatorname {Tr}_{Z/\mathbb {Q}}(\psi )     </fr:tex>
-    where <fr:tex>\psi </fr:tex> is an alternating <fr:tex>Z</fr:tex>-bilinear form on <fr:tex>\mathrm {R}_1f_*\mathbb {Q}</fr:tex>.
-  </fr:p><fr:p>
-    Let <fr:tex>\psi _\rho </fr:tex> be the form induced on <fr:tex>V_\rho \otimes _\mathbb {C} T_\rho </fr:tex>.
-    The alternating form <fr:tex>\psi _\rho </fr:tex> is invariant under <fr:tex>\pi _1(S,s)</fr:tex>.
-    Since <fr:tex>T_\rho </fr:tex> is irreducible, we can write <fr:tex>\psi _\rho </fr:tex> as
+display="block"><![CDATA[       \Phi        = \operatorname {Tr}_{Z/\mathbb {Q}}(\psi )     ]]></fr:tex>
+    where <fr:tex
+display="inline"><![CDATA[\psi ]]></fr:tex> is an alternating <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>-bilinear form on <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[\psi _\rho ]]></fr:tex> be the form induced on <fr:tex
+display="inline"><![CDATA[V_\rho \otimes _\mathbb {C} T_\rho ]]></fr:tex>.
+    The alternating form <fr:tex
+display="inline"><![CDATA[\psi _\rho ]]></fr:tex> is invariant under <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>.
+    Since <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> is irreducible, we can write <fr:tex
+display="inline"><![CDATA[\psi _\rho ]]></fr:tex> as
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1683</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.3</fr:addr><fr:route>hodge-theory-ii-4.4.9.3.xml</fr:route><fr:number>4.4.9.3</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \psi _\rho          = A_\rho \otimes  B_\rho        \tag{4.4.9.3}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1741</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.9.3</fr:addr><fr:route>hodge-theory-ii-4.4.9.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.9.3</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \psi _\rho          = A_\rho \otimes  B_\rho        \tag{4.4.9.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    with <fr:tex>A_\rho </fr:tex> on <fr:tex>V_\rho </fr:tex>, and <fr:tex>B_\rho </fr:tex> on <fr:tex>T_\rho </fr:tex> invariant under <fr:tex>\pi _1(S,s)</fr:tex>.
-  </fr:p><fr:p>
-    Since <fr:tex>T_\rho </fr:tex> is irreducible, <fr:tex>B_\rho </fr:tex> is either symmetric or alternating.
-    Since <fr:tex>\psi _\rho </fr:tex> is alternating, <fr:tex>A_\rho </fr:tex> is either symmetric or alternating.
-    Since the <fr:tex>T_\rho </fr:tex> are conjugate to one another, whether we are in one case or the other does not depend on <fr:tex>\rho </fr:tex>.
+    with <fr:tex
+display="inline"><![CDATA[A_\rho ]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[V_\rho ]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B_\rho ]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> invariant under <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>.</fr:p><fr:p>Since <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> is irreducible, <fr:tex
+display="inline"><![CDATA[B_\rho ]]></fr:tex> is either symmetric or alternating.
+    Since <fr:tex
+display="inline"><![CDATA[\psi _\rho ]]></fr:tex> is alternating, <fr:tex
+display="inline"><![CDATA[A_\rho ]]></fr:tex> is either symmetric or alternating.
+    Since the <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> are conjugate to one another, whether we are in one case or the other does not depend on <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex>.
     We set
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1684</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.4</fr:addr><fr:route>hodge-theory-ii-4.4.9.4.xml</fr:route><fr:number>4.4.9.4</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         A_\rho (X,Y)         = \varepsilon _V A_\rho (Y,X)       \tag{4.4.9.4}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1742</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.9.4</fr:addr><fr:route>hodge-theory-ii-4.4.9.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.9.4</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         A_\rho (X,Y)         = \varepsilon _V A_\rho (Y,X)       \tag{4.4.9.4}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1685</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.5</fr:addr><fr:route>hodge-theory-ii-4.4.9.5.xml</fr:route><fr:number>4.4.9.5</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         B_\rho (X,Y)         = \varepsilon _T B_\rho (Y,X).       \tag{4.4.9.5}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1743</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.9.5</fr:addr><fr:route>hodge-theory-ii-4.4.9.5.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.9.5</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         B_\rho (X,Y)         = \varepsilon _T B_\rho (Y,X).       \tag{4.4.9.5}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     We thus have
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1686</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.6</fr:addr><fr:route>hodge-theory-ii-4.4.9.6.xml</fr:route><fr:number>4.4.9.6</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \varepsilon _V\varepsilon _T         = -1       \tag{4.4.9.6}       </fr:tex></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1744</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.9.6</fr:addr><fr:route>hodge-theory-ii-4.4.9.6.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.9.6</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \varepsilon _V\varepsilon _T         = -1       \tag{4.4.9.6}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     and it is clear by <fr:ref
 addr="hodge-theory-ii-4.4.4"
 href="hodge-theory-ii-4.4.4.xml"
-number="4.4.4"></fr:ref> that if <fr:tex>*</fr:tex> is the involution of <fr:tex>H</fr:tex> induced by <fr:tex>\psi </fr:tex>, then
+number="4.4.4" /> that if <fr:tex
+display="inline"><![CDATA[*]]></fr:tex> is the involution of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> induced by <fr:tex
+display="inline"><![CDATA[\psi ]]></fr:tex>, then
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1687</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.9.7</fr:addr><fr:route>hodge-theory-ii-4.4.9.7.xml</fr:route><fr:number>4.4.9.7</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \varepsilon _*         = \varepsilon _V.       \tag{4.4.9.7}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
-    In case (a) (resp. (b)) of <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1745</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.9.7</fr:addr><fr:route>hodge-theory-ii-4.4.9.7.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.9.7</fr:number><fr:parent>hodge-theory-ii-4.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \varepsilon _*         = \varepsilon _V.       \tag{4.4.9.7}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>In case (a) (resp. (b)) of <fr:ref
 addr="hodge-theory-ii-4.4.8"
 href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref>, we normalise the bigradings so that <fr:tex>V_\rho </fr:tex> (resp. <fr:tex>T_\rho </fr:tex>) is of bidegree <fr:tex>(0,0)</fr:tex>.
-    We then have, for non-zero <fr:tex>x\in  V_\rho </fr:tex> and non-zero <fr:tex>y\in  T_\rho </fr:tex>, the two cases:
+number="4.4.8" />, we normalise the bigradings so that <fr:tex
+display="inline"><![CDATA[V_\rho ]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex>) is of bidegree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>.
+    We then have, for non-zero <fr:tex
+display="inline"><![CDATA[x\in  V_\rho ]]></fr:tex> and non-zero <fr:tex
+display="inline"><![CDATA[y\in  T_\rho ]]></fr:tex>, the two cases:
 
     
  <html:ol
@@ -509,17 +740,20 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(a) &quot;">
-        <fr:tex>A_\rho (x,\sigma _1 x)B_\rho (y,C\sigma _2 y)           &gt;0</fr:tex>;
+        <fr:tex
+display="inline"><![CDATA[A_\rho (x,\sigma _1 x)B_\rho (y,C\sigma _2 y)           >0]]></fr:tex>;
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;(b) &quot;">
-        <fr:tex>A_\rho (x,C\sigma _1 x)B_\rho (y,\sigma _2 y)           &gt;0</fr:tex>.
+        <fr:tex
+display="inline"><![CDATA[A_\rho (x,C\sigma _1 x)B_\rho (y,\sigma _2 y)           >0]]></fr:tex>.
       </html:li>
 
-    </html:ol></fr:p><fr:p>
-    By normalising <fr:tex>A_\rho </fr:tex> and <fr:tex>B_\rho </fr:tex> (of which only their tensor product is given), we can suppose, in each respective case, that
+    </html:ol></fr:p><fr:p>By normalising <fr:tex
+display="inline"><![CDATA[A_\rho ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B_\rho ]]></fr:tex> (of which only their tensor product is given), we can suppose, in each respective case, that
 
     
  <html:ol
@@ -527,42 +761,60 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(a) &quot;">
-        <fr:tex>A_\rho (x,\sigma _1x)&gt;0</fr:tex> and <fr:tex>B_\rho (y,C\sigma _2y)&gt;0</fr:tex>;
+        <fr:tex
+display="inline"><![CDATA[A_\rho (x,\sigma _1x)>0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B_\rho (y,C\sigma _2y)>0]]></fr:tex>;
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;(b) &quot;">
-        <fr:tex>A_\rho (x,C\sigma _1x)&gt;0</fr:tex> and <fr:tex>B_\rho (y,\sigma _2y)</fr:tex>.
+        <fr:tex
+display="inline"><![CDATA[A_\rho (x,C\sigma _1x)>0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B_\rho (y,\sigma _2y)]]></fr:tex>.
       </html:li>
 
-    </html:ol></fr:p><fr:p>
-    Furthermore, <fr:tex>A_\rho </fr:tex> and <fr:tex>B_\rho </fr:tex>, just like <fr:tex>\Phi </fr:tex>, are invariant under the compact sub-torus <fr:tex>\operatorname {Ker}(N)</fr:tex> of <fr:tex>S</fr:tex>, and in particular under <fr:tex>C</fr:tex>.
+    </html:ol></fr:p><fr:p>Furthermore, <fr:tex
+display="inline"><![CDATA[A_\rho ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B_\rho ]]></fr:tex>, just like <fr:tex
+display="inline"><![CDATA[\Phi ]]></fr:tex>, are invariant under the compact sub-torus <fr:tex
+display="inline"><![CDATA[\operatorname {Ker}(N)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and in particular under <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>.
     In case (a), we have that
     <fr:tex
-display="block">       0       &lt; A_\rho (\sigma _1x,\sigma _1\sigma _1x)       = \varepsilon _V\cdot \varepsilon _{H,\rho }A_\rho (x,\sigma _1x)     </fr:tex>
-    whence <fr:tex>\varepsilon _V\cdot \varepsilon _{H\rho }=1</fr:tex>.
-    Similarly, in case (b), we see that <fr:tex>\varepsilon _T\cdot \varepsilon _{H\rho }=1</fr:tex>.
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[       0       < A_\rho (\sigma _1x,\sigma _1\sigma _1x)       = \varepsilon _V\cdot \varepsilon _{H,\rho }A_\rho (x,\sigma _1x)     ]]></fr:tex>
+    whence <fr:tex
+display="inline"><![CDATA[\varepsilon _V\cdot \varepsilon _{H\rho }=1]]></fr:tex>.
+    Similarly, in case (b), we see that <fr:tex
+display="inline"><![CDATA[\varepsilon _T\cdot \varepsilon _{H\rho }=1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1695</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-4.4.10</fr:addr><fr:route>hodge-theory-ii-4.4.10.xml</fr:route><fr:number>4.4.10</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    For <fr:tex>\varepsilon _T=\varepsilon _{H\rho }</fr:tex>, we are in case (b);
-    for <fr:tex>\varepsilon _T=-\varepsilon _{H\rho }</fr:tex>, we are in case (a).
-  </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1752</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.10</fr:addr><fr:route>hodge-theory-ii-4.4.10.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>4.4.10</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[\varepsilon _T=\varepsilon _{H\rho }]]></fr:tex>, we are in case (b);
+    for <fr:tex
+display="inline"><![CDATA[\varepsilon _T=-\varepsilon _{H\rho }]]></fr:tex>, we are in case (a).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1705</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.4.11</fr:addr><fr:route>hodge-theory-ii-4.4.11.xml</fr:route><fr:number>4.4.11</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex>\eta </fr:tex>, and let <fr:tex>f\colon  X\to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex>.
-    Let <fr:tex>H=\operatorname {End}(\mathbb {R}_1f_*\mathbb {Q})</fr:tex>, and let <fr:tex>Z</fr:tex> be the centre of <fr:tex>H</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1753</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.11</fr:addr><fr:route>hodge-theory-ii-4.4.11.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>4.4.11</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+    Let <fr:tex
+display="inline"><![CDATA[H=\operatorname {End}(\mathbb {R}_1f_*\mathbb {Q})]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> be the centre of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex>.
     Suppose that
 
     
@@ -571,14 +823,18 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(a) &quot;">
-        <fr:tex>X_\eta </fr:tex> is simple over <fr:tex>k(\eta )</fr:tex>.
+        <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> is simple over <fr:tex
+display="inline"><![CDATA[k(\eta )]]></fr:tex>.
       </html:li>
 
 
       
  <html:li
 style="list-style-type: &quot;(b) &quot;">
-        <fr:tex>X</fr:tex> does not become constant on any finite covering of <fr:tex>S</fr:tex>.
+        <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> does not become constant on any finite covering of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
       </html:li>
 
 
@@ -589,94 +845,109 @@ style="list-style-type: &quot;(c) &quot;">
 addr="hodge-theory-ii-4.4.5"
 href="hodge-theory-ii-4.4.5.xml"
 taxon="Reminder"
-number="4.4.5"></fr:ref>):
+number="4.4.5" />):
 
         
  <html:ol>
           
  <html:li
 style="list-style-type: &quot;(1) &quot;">
-            <fr:tex>Z</fr:tex> is imaginary <fr:em>quadratic</fr:em>;
+            <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is imaginary <fr:em>quadratic</fr:em>;
           </html:li>
 
           
  <html:li
 style="list-style-type: &quot;(2) &quot;">
-            <fr:tex>Z</fr:tex> is completely real, and for each real embedding <fr:tex>\varphi \colon  Z\to \mathbb {R}</fr:tex>, <fr:tex>H\otimes _{Z,\varphi }\mathbb {R}</fr:tex> is an algebra of matrices over <fr:tex>\mathbb {R}</fr:tex>;
+            <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely real, and for each real embedding <fr:tex
+display="inline"><![CDATA[\varphi \colon  Z\to \mathbb {R}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[H\otimes _{Z,\varphi }\mathbb {R}]]></fr:tex> is an algebra of matrices over <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>;
           </html:li>
 
           
  <html:li
 style="list-style-type: &quot;(3) &quot;">
-            <fr:tex>Z</fr:tex> is completely real, and for each real embedding <fr:tex>\varphi \colon  Z\to \mathbb {R}</fr:tex>, <fr:tex>H\otimes _{Z,\varphi }\mathbb {R}</fr:tex> is an algebra of matrices over <fr:tex>\mathbb {H}</fr:tex>.
+            <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely real, and for each real embedding <fr:tex
+display="inline"><![CDATA[\varphi \colon  Z\to \mathbb {R}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[H\otimes _{Z,\varphi }\mathbb {R}]]></fr:tex> is an algebra of matrices over <fr:tex
+display="inline"><![CDATA[\mathbb {H}]]></fr:tex>.
           </html:li>
 
         </html:ol>
 
       </html:li>
 
-    </html:ol></fr:p><fr:p>
-    Then
+    </html:ol></fr:p><fr:p>Then
     <fr:tex
-display="block">       \operatorname {End}(X)       \xrightarrow {\sim } \operatorname {End}(\mathrm {R}_1f_*\mathbb {Z}).     </fr:tex></fr:p>
+display="block"><![CDATA[       \operatorname {End}(X)       \xrightarrow {\sim } \operatorname {End}(\mathrm {R}_1f_*\mathbb {Z}).     ]]></fr:tex></fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1704</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#183</fr:addr><fr:route>unstable-183.xml</fr:route><fr:parent>hodge-theory-ii-4.4.11</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We will show that we are either in case (a) or case (b) of <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1762</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We will show that we are either in case (a) or case (b) of <fr:ref
 addr="hodge-theory-ii-4.4.8"
 href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref>, for every place of <fr:tex>Z</fr:tex> simultaneously.
+number="4.4.8" />, for every place of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> simultaneously.
       This is clear (<fr:ref
 addr="hodge-theory-ii-4.4.8"
 href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref>) under the hypothesis (c.1), and follows from <fr:ref
+number="4.4.8" />) under the hypothesis (c.1), and follows from <fr:ref
 addr="hodge-theory-ii-4.4.10"
 href="hodge-theory-ii-4.4.10.xml"
 taxon="Lemma"
-number="4.4.10"></fr:ref> under the hypotheses (c.2) or (c.3), since not only <fr:tex>\varepsilon _T</fr:tex>, but also <fr:tex>\varepsilon _{H\rho }</fr:tex>, is then independent of <fr:tex>\rho </fr:tex>.
-    </fr:p>
+number="4.4.10" /> under the hypotheses (c.2) or (c.3), since not only <fr:tex
+display="inline"><![CDATA[\varepsilon _T]]></fr:tex>, but also <fr:tex
+display="inline"><![CDATA[\varepsilon _{H\rho }]]></fr:tex>, is then independent of <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      Condition (b) of <fr:ref
+    <fr:p>Condition (b) of <fr:ref
 addr="hodge-theory-ii-4.4.8"
 href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref> cannot be satisfied at every place of <fr:tex>Z</fr:tex>, since the Hodge structure would then be locally constant, which (by <fr:ref
+number="4.4.8" /> cannot be satisfied at every place of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, since the Hodge structure would then be locally constant, which (by <fr:ref
 addr="hodge-theory-ii-4.1.3.3"
 href="hodge-theory-ii-4.1.3.3.xml"
-number="4.1.3.3"></fr:ref> and <fr:ref
+number="4.1.3.3" /> and <fr:ref
 addr="hodge-theory-ii-4.4.3"
 href="hodge-theory-ii-4.4.3.xml"
 taxon="Reminder"
-number="4.4.3"></fr:ref>) contradicts (b).
-      Condition (a) is thus satisfied at each place of <fr:tex>Z</fr:tex>, and so <fr:tex>H</fr:tex> is of degree <fr:tex>(0,0)</fr:tex> (<fr:ref
+number="4.4.3" />) contradicts (b).
+      Condition (a) is thus satisfied at each place of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is of degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex> (<fr:ref
 addr="hodge-theory-ii-4.4.8"
 href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref>).
+number="4.4.8" />).
       Taking <fr:ref
 addr="hodge-theory-ii-4.4.3"
 href="hodge-theory-ii-4.4.3.xml"
 taxon="Reminder"
-number="4.4.3"></fr:ref> into account, this finishes the proof.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="4.4.3" /> into account, this finishes the proof.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1706</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-ii-4.4.12</fr:addr><fr:route>hodge-theory-ii-4.4.12.xml</fr:route><fr:number>4.4.12</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f\colon  X\to  S</fr:tex> be an abelian scheme over a smooth scheme <fr:tex>S</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1763</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.12</fr:addr><fr:route>hodge-theory-ii-4.4.12.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>4.4.12</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over a smooth scheme <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
     Then the following conditions are equivalent:
 
     
@@ -685,125 +956,186 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(i) &quot;">
-        For every abelian scheme <fr:tex>Y\to  S</fr:tex>, we have
+        For every abelian scheme <fr:tex
+display="inline"><![CDATA[Y\to  S]]></fr:tex>, we have
         <fr:tex
-display="block">           \operatorname {Hom}_S(X,Y)           \xrightarrow {\sim } \operatorname {Hom}_S(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).         </fr:tex>
+display="block"><![CDATA[           \operatorname {Hom}_S(X,Y)           \xrightarrow {\sim } \operatorname {Hom}_S(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).         ]]></fr:tex>
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;(ii) &quot;">
-        Condition (i) is satisfied for <fr:tex>X=Y</fr:tex>, and the centre <fr:tex>Z</fr:tex> of <fr:tex>\operatorname {End}_S(X)\otimes \mathbb {Q}</fr:tex> does not admit any complex place <fr:tex>\rho \colon  Z\to \mathbb {C}</fr:tex> such that the direct factor <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}</fr:tex> of <fr:tex>\mathrm {R}_1f_*\mathbb {C}</fr:tex> is of pure Hodge degree <fr:tex>(-1,0)</fr:tex>.
+        Condition (i) is satisfied for <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>, and the centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {End}_S(X)\otimes \mathbb {Q}]]></fr:tex> does not admit any complex place <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that the direct factor <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {C}]]></fr:tex> is of pure Hodge degree <fr:tex
+display="inline"><![CDATA[(-1,0)]]></fr:tex>.
       </html:li>
 
     </html:ol></fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1149</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#184</fr:addr><fr:route>unstable-184.xml</fr:route><fr:parent>hodge-theory-ii-4.4.12</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      We can reduce to the case where <fr:tex>S</fr:tex> is non-empty and connected, with generic point <fr:tex>\eta </fr:tex>, and where <fr:tex>X_\eta </fr:tex> is a simple abelian variety over <fr:tex>k(\eta )</fr:tex>.
-      If (i) or (ii) is satisfied, then <fr:tex>D=\operatorname {End}(X_\eta )\otimes \mathbb {Q}</fr:tex> is a field, and, for <fr:tex>s\in  S</fr:tex>, <fr:tex>(\mathrm {R}_1f_*\mathbb {Q})_s</fr:tex> is an irreducible representation of <fr:tex>\pi _1(S,s)</fr:tex>.
-    </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1202</fr:anchor><fr:addr
+type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.12</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is non-empty and connected, with generic point <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>, and where <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> is a simple abelian variety over <fr:tex
+display="inline"><![CDATA[k(\eta )]]></fr:tex>.
+      If (i) or (ii) is satisfied, then <fr:tex
+display="inline"><![CDATA[D=\operatorname {End}(X_\eta )\otimes \mathbb {Q}]]></fr:tex> is a field, and, for <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is an irreducible representation of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      To prove that (ii) <fr:tex>\implies </fr:tex> (i), we can suppose <fr:tex>Y_\eta </fr:tex> to be simple, and <fr:tex>(\mathrm {R}_1g_*\mathbb {Q})_s</fr:tex> to be isotypic of type <fr:tex>(\mathrm {R}_1f_*\mathbb {Q})_s</fr:tex>.
-      We then have an isomorphism of continuous families of Hodge <fr:tex>\mathbb {Q}</fr:tex>-structures (with <fr:tex>D</fr:tex> of degree <fr:tex>(0,0)</fr:tex>)
+    <fr:p>To prove that (ii) <fr:tex
+display="inline"><![CDATA[\implies ]]></fr:tex> (i), we can suppose <fr:tex
+display="inline"><![CDATA[Y_\eta ]]></fr:tex> to be simple, and <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1g_*\mathbb {Q})_s]]></fr:tex> to be isotypic of type <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex>.
+      We then have an isomorphism of continuous families of Hodge <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures (with <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>)
       <fr:tex
-display="block">         \mathrm {R}_1g_*\mathbb {Q}         \approx  \mathrm {R}_1f_*\mathbb {Q}\otimes _D\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q}).       </fr:tex></fr:p>
+display="block"><![CDATA[         \mathrm {R}_1g_*\mathbb {Q}         \approx  \mathrm {R}_1f_*\mathbb {Q}\otimes _D\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q}).       ]]></fr:tex></fr:p>
 
-    <fr:p>
-      We have that <fr:tex>D\otimes \mathbb {C}\simeq \mathbb {M}_n(Z\otimes \mathbb {C})</fr:tex>.
-      If <fr:tex>e\in  D\otimes \mathbb {C}</fr:tex> is sent by such an isomorphism to the idempotent <fr:tex>e_{11}</fr:tex>, then we again have an isomorphism of bigraded vector spaces
+    <fr:p>We have that <fr:tex
+display="inline"><![CDATA[D\otimes \mathbb {C}\simeq \mathbb {M}_n(Z\otimes \mathbb {C})]]></fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[e\in  D\otimes \mathbb {C}]]></fr:tex> is sent by such an isomorphism to the idempotent <fr:tex
+display="inline"><![CDATA[e_{11}]]></fr:tex>, then we again have an isomorphism of bigraded vector spaces
       <fr:tex
-display="block">         (\mathrm {R}_1g_*\mathbb {C})_s         \approx  (\mathrm {R}_1f_*\mathbb {C})_s\otimes _{Z\otimes \mathbb {C}}e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C})).       </fr:tex></fr:p>
+display="block"><![CDATA[         (\mathrm {R}_1g_*\mathbb {C})_s         \approx  (\mathrm {R}_1f_*\mathbb {C})_s\otimes _{Z\otimes \mathbb {C}}e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C})).       ]]></fr:tex></fr:p>
 
-    <fr:p>
-      If condition (ii) is satisfied, and if <fr:tex>e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C}))</fr:tex> is not of pure degree <fr:tex>(0,0)</fr:tex>, then <fr:tex>(\mathrm {R}_1g_*\mathbb {C})_s</fr:tex> cannot be of pure degree <fr:tex>(-1,0)+(0,-1)</fr:tex>, which is a contradiction.
-      We thus deduce that <fr:tex>\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})</fr:tex> is of pure degree <fr:tex>(0,0)</fr:tex>, and (i) then follows by <fr:ref
+    <fr:p>If condition (ii) is satisfied, and if <fr:tex
+display="inline"><![CDATA[e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C}))]]></fr:tex> is not of pure degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1g_*\mathbb {C})_s]]></fr:tex> cannot be of pure degree <fr:tex
+display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>, which is a contradiction.
+      We thus deduce that <fr:tex
+display="inline"><![CDATA[\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})]]></fr:tex> is of pure degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>, and (i) then follows by <fr:ref
 addr="hodge-theory-ii-4.4.3"
 href="hodge-theory-ii-4.4.3.xml"
 taxon="Reminder"
-number="4.4.3"></fr:ref> and <fr:ref
+number="4.4.3" /> and <fr:ref
 addr="hodge-theory-ii-2.1.11.1"
 href="hodge-theory-ii-2.1.11.1.xml"
 taxon="Remark"
-number="2.1.11.1"></fr:ref>.
-    </fr:p>
+number="2.1.11.1" />.</fr:p>
 
-    <fr:p>
-      Let <fr:tex>Z</fr:tex> be a completely imaginary quadratic extension of a completely real number field <fr:tex>Z^0</fr:tex>.
-      If <fr:tex>Z\otimes \mathbb {R}\approx \mathbb {C}\oplus \ldots \oplus \mathbb {C}</fr:tex>, then we define an action by homotheties of <fr:tex>S</fr:tex> on <fr:tex>Z\otimes \mathbb {R}</fr:tex> by sending <fr:tex>s\in  S(\mathbb {R})\simeq \mathbb {C}^*</fr:tex> to <fr:tex>(s^2\cdot  N(s)^{-1},1,\ldots ,1)</fr:tex>.
-      The pair consisting of <fr:tex>Z</fr:tex> and this action of <fr:tex>S</fr:tex> on <fr:tex>Z\otimes \mathbb {R}</fr:tex> is a polarisable Hodge structure <fr:tex>Z_\rho </fr:tex> of degree <fr:tex>(-1,1)+(0,0)+(1,-1)</fr:tex> that depends on <fr:tex>Z</fr:tex> and the chose place <fr:tex>\rho \colon  Z\to \mathbb {C}</fr:tex>.
-    </fr:p>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> be a completely imaginary quadratic extension of a completely real number field <fr:tex
+display="inline"><![CDATA[Z^0]]></fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[Z\otimes \mathbb {R}\approx \mathbb {C}\oplus \ldots \oplus \mathbb {C}]]></fr:tex>, then we define an action by homotheties of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[Z\otimes \mathbb {R}]]></fr:tex> by sending <fr:tex
+display="inline"><![CDATA[s\in  S(\mathbb {R})\simeq \mathbb {C}^*]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[(s^2\cdot  N(s)^{-1},1,\ldots ,1)]]></fr:tex>.
+      The pair consisting of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> and this action of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[Z\otimes \mathbb {R}]]></fr:tex> is a polarisable Hodge structure <fr:tex
+display="inline"><![CDATA[Z_\rho ]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[(-1,1)+(0,0)+(1,-1)]]></fr:tex> that depends on <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> and the chose place <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      Let <fr:tex>X</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex> such that <fr:tex>X_\eta </fr:tex> is simple.
-      If the centre <fr:tex>Z</fr:tex> of <fr:tex>\operatorname {End}(\mathrm {R}_1f_*\mathbb {Q})</fr:tex> is not completely real, then it is a completely imaginary quadratic extension of a completely real number field.
-      If the second hypothesis of (ii) is not satisfied, then the direct factor <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho </fr:tex> of the continuous family of polarisable Hodge structures <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _\mathbb {Q} Z_\rho </fr:tex> is of pure degree <fr:tex>(-1,0)+(0,-1)</fr:tex>.
-    </fr:p>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be an abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> is simple.
+      If the centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {End}(\mathrm {R}_1f_*\mathbb {Q})]]></fr:tex> is not completely real, then it is a completely imaginary quadratic extension of a completely real number field.
+      If the second hypothesis of (ii) is not satisfied, then the direct factor <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho ]]></fr:tex> of the continuous family of polarisable Hodge structures <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _\mathbb {Q} Z_\rho ]]></fr:tex> is of pure degree <fr:tex
+display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      By <fr:ref
+    <fr:p>By <fr:ref
 addr="hodge-theory-ii-4.4.3"
 href="hodge-theory-ii-4.4.3.xml"
 taxon="Reminder"
-number="4.4.3"></fr:ref>, the choice of an integer lattice in <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho </fr:tex> defines an abelian scheme <fr:tex>g\colon  Y\to  S</fr:tex>, and <fr:tex>\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q})</fr:tex> is not of pure degree <fr:tex>(0,0)</fr:tex>, which contradicts (i).
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="4.4.3" />, the choice of an integer lattice in <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho ]]></fr:tex> defines an abelian scheme <fr:tex
+display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q})]]></fr:tex> is not of pure degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>, which contradicts (i).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1712</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a smooth connected scheme with generic point <fr:tex>\eta </fr:tex>, and let <fr:tex>f\colon  X\to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex> of relative dimension <fr:tex>g\leqslant 3</fr:tex>.
-    Suppose that, on any finite étale covering of <fr:tex>S</fr:tex>, <fr:tex>X</fr:tex> does not admit a constant abelian subscheme.
-    Then, for every abelian scheme <fr:tex>g\colon  Y\to  S</fr:tex>, we have
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1764</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a smooth connected scheme with generic point <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> of relative dimension <fr:tex
+display="inline"><![CDATA[g\leqslant 3]]></fr:tex>.
+    Suppose that, on any finite étale covering of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> does not admit a constant abelian subscheme.
+    Then, for every abelian scheme <fr:tex
+display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, we have
     <fr:tex
-display="block">       \begin {aligned}         \operatorname {Hom}(X,Y)         &amp;\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})       \\\operatorname {Hom}(Y,X)         &amp;\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1g_*\mathbb {Z},\mathrm {R}_1f_*\mathbb {Z}).       \end {aligned}     </fr:tex></fr:p>
+display="block"><![CDATA[       \begin {aligned}         \operatorname {Hom}(X,Y)         &\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})       \\\operatorname {Hom}(Y,X)         &\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1g_*\mathbb {Z},\mathrm {R}_1f_*\mathbb {Z}).       \end {aligned}     ]]></fr:tex></fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1711</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#185</fr:addr><fr:route>unstable-185.xml</fr:route><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      By duality, it suffices to prove the first claim.
-      We can also suppose <fr:tex>X_\eta </fr:tex> to be simple.
-      We will show that <fr:tex>X</fr:tex> satisfies one of the conditions of (c) in <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1765</fr:anchor><fr:addr
+type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By duality, it suffices to prove the first claim.
+      We can also suppose <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> to be simple.
+      We will show that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies one of the conditions of (c) in <fr:ref
 addr="hodge-theory-ii-4.4.11"
 href="hodge-theory-ii-4.4.11.xml"
 taxon="Proposition"
-number="4.4.11"></fr:ref>.
-    </fr:p>
+number="4.4.11" />.</fr:p>
 
-    <fr:p>
-      Set <fr:tex>H=\mathbb {M}_c(D)</fr:tex>, with <fr:tex>D</fr:tex> a skew field of rank <fr:tex>b^2</fr:tex> over its centre <fr:tex>Z</fr:tex>, which we know to be either completely real or completely imaginary.
-      If we set <fr:tex>a=[Z:\mathbb {Q}]</fr:tex>, then we have
+    <fr:p>Set <fr:tex
+display="inline"><![CDATA[H=\mathbb {M}_c(D)]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> a skew field of rank <fr:tex
+display="inline"><![CDATA[b^2]]></fr:tex> over its centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, which we know to be either completely real or completely imaginary.
+      If we set <fr:tex
+display="inline"><![CDATA[a=[Z:\mathbb {Q}]]]></fr:tex>, then we have
 
       <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1707</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           ab^2c \mathbin {\vert } 2g \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1766</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           ab^2c \mathbin {\vert } 2g \leqslant  6.         \tag{4.4.13.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
 
     
  <html:ol
@@ -811,245 +1143,511 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(i) &quot;">
-        <fr:p>
-          If <fr:tex>Z</fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex>a=2g=4</fr:tex>.
-          For <fr:tex>s\in  S</fr:tex>, the centraliser of <fr:tex>Z</fr:tex> acting on <fr:tex>(\mathrm {R}_1f_*\mathbb {Q})_s</fr:tex> is thus commutative, and so the action of <fr:tex>\pi _1(S,s)</fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
+        <fr:p>If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex
+display="inline"><![CDATA[a=2g=4]]></fr:tex>.
+          For <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, the centraliser of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> acting on <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is thus commutative, and so the action of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
 addr="hodge-theory-ii-4.2.8"
 href="hodge-theory-ii-4.2.8.xml"
 taxon="Corollary"
-number="4.2.8"></fr:ref> or <fr:ref
+number="4.2.8" /> or <fr:ref
 addr="hodge-theory-ii-4.2.9"
 href="hodge-theory-ii-4.2.9.xml"
 taxon="Corollary"
-number="4.2.9"></fr:ref>).
+number="4.2.9" />).
           This is a contradiction (<fr:ref
 addr="hodge-theory-ii-4.1.3.3"
 href="hodge-theory-ii-4.1.3.3.xml"
-number="4.1.3.3"></fr:ref> and <fr:ref
+number="4.1.3.3" /> and <fr:ref
 addr="hodge-theory-ii-4.4.3"
 href="hodge-theory-ii-4.4.3.xml"
 taxon="Reminder"
-number="4.4.3"></fr:ref>).
-        </fr:p>
+number="4.4.3" />).</fr:p>
 
-        <fr:p>
-          With the notation of <fr:ref
+        <fr:p>With the notation of <fr:ref
 addr="hodge-theory-ii-4.4.8"
 href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref>, we can also note that the <fr:tex>T_\rho </fr:tex> are then of rank <fr:tex>1</fr:tex>, and so condition (b) of <fr:ref
+number="4.4.8" />, we can also note that the <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> are then of rank <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, and so condition (b) of <fr:ref
 addr="hodge-theory-ii-4.4.8"
 href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref> is satisfied at each place, and the Hodge structure is locally constant.
-        </fr:p>
+number="4.4.8" /> is satisfied at each place, and the Hodge structure is locally constant.</fr:p>
       </html:li>
 
 
       
  <html:li
 style="list-style-type: &quot;(ii) &quot;">
-        If <fr:tex>Z</fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex>a\geqslant 2</fr:tex> and <fr:tex>b\geqslant 2</fr:tex>, which is a contradiction.
+        If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex
+display="inline"><![CDATA[a\geqslant 2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\geqslant 2]]></fr:tex>, which is a contradiction.
       </html:li>
 
     </html:ol>
 
 
-    <fr:p>
-      We will show that <fr:tex>X</fr:tex> satisfies the conditions of <fr:ref
+    <fr:p>We will show that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies the conditions of <fr:ref
 addr="hodge-theory-ii-4.4.12"
 href="hodge-theory-ii-4.4.12.xml"
 taxon="Proposition"
-number="4.4.12"></fr:ref>.
-      If <fr:tex>Z</fr:tex> is imaginary quadratic, and if there exists <fr:tex>\rho \colon  Z\to \mathbb {C}</fr:tex> such that <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}</fr:tex> is of pure Hodge type <fr:tex>(-1,0)</fr:tex>, then the Hodge structure on <fr:tex>\mathrm {R}_1f_*\mathbb {Q}</fr:tex> is locally constant, which is a contradiction.
+number="4.4.12" />.
+      If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is imaginary quadratic, and if there exists <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> is of pure Hodge type <fr:tex
+display="inline"><![CDATA[(-1,0)]]></fr:tex>, then the Hodge structure on <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}]]></fr:tex> is locally constant, which is a contradiction.
       This proves <fr:ref
 addr="hodge-theory-ii-4.4.13"
 href="hodge-theory-ii-4.4.13.xml"
 taxon="Corollary"
-number="4.4.13"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="4.4.13" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1714</fr:anchor><fr:addr>hodge-theory-ii-4.4.14</fr:addr><fr:route>hodge-theory-ii-4.4.14.xml</fr:route><fr:number>4.4.14</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>f\colon  X\to  S</fr:tex> be a polarised abelian scheme of dimension <fr:tex>g</fr:tex> over a smooth connected base <fr:tex>S</fr:tex>.
-    For <fr:tex>s\in  S</fr:tex>, the fundamental group <fr:tex>\pi _1(S,s)</fr:tex> acts on the fibre <fr:tex>\operatorname {H}^1(X_s,\mathbb {Z})</fr:tex> of <fr:tex>\mathrm {R}_1f_*\mathbb {Z}</fr:tex> over <fr:tex>s</fr:tex>.
-    The polarisation of <fr:tex>X</fr:tex> defines an alternating form on <fr:tex>\operatorname {H}^1(X_s,\mathbb {Z})</fr:tex>, with values in <fr:tex>\mathbb {Z}(-1)</fr:tex>, that is non-degenerate over <fr:tex>\mathbb {Q}</fr:tex>, and the action of <fr:tex>\pi _1(S,s)</fr:tex> respects this form.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1770</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.14</fr:addr><fr:route>hodge-theory-ii-4.4.14.xml</fr:route><fr:authors /><fr:number>4.4.14</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be a polarised abelian scheme of dimension <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> over a smooth connected base <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+    For <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, the fundamental group <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> acts on the fibre <fr:tex
+display="inline"><![CDATA[\operatorname {H}^1(X_s,\mathbb {Z})]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Z}]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>.
+    The polarisation of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> defines an alternating form on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^1(X_s,\mathbb {Z})]]></fr:tex>, with values in <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(-1)]]></fr:tex>, that is non-degenerate over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, and the action of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> respects this form.
     Consider the hypothesis:
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1713</fr:anchor><fr:taxon>Hypothesis</fr:taxon><fr:addr>hodge-theory-ii-4.4.14.1</fr:addr><fr:route>hodge-theory-ii-4.4.14.1.xml</fr:route><fr:number>4.4.14.1</fr:number><fr:parent>hodge-theory-ii-4.4.14</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        The morphism defined by <fr:tex>X</fr:tex> from <fr:tex>S</fr:tex> to one of the irreducible components of the corresponding scheme of modules of polarised abelian varieties is a dominant morphism.
-      </fr:p></fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1771</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.14.1</fr:addr><fr:route>hodge-theory-ii-4.4.14.1.xml</fr:route><fr:taxon>Hypothesis</fr:taxon><fr:authors /><fr:number>4.4.14.1</fr:number><fr:parent>hodge-theory-ii-4.4.14</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The morphism defined by <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to one of the irreducible components of the corresponding scheme of modules of polarised abelian varieties is a dominant morphism.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    <fr:p>
-      The following result was suggested to me by J.-P. Serre.
-    </fr:p></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+    <fr:p>The following result was suggested to me by J.-P. Serre.</fr:p></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1716</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.15</fr:addr><fr:route>hodge-theory-ii-4.4.15.xml</fr:route><fr:number>4.4.15</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a smooth connected scheme, and <fr:tex>f\colon  X\to  S</fr:tex> a polarised abelian scheme over <fr:tex>S</fr:tex> that satisfies <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1772</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.15</fr:addr><fr:route>hodge-theory-ii-4.4.15.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.4.15</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a smooth connected scheme, and <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> a polarised abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> that satisfies <fr:ref
 addr="hodge-theory-ii-4.4.14.1"
 href="hodge-theory-ii-4.4.14.1.xml"
 taxon="Hypothesis"
-number="4.4.14.1"></fr:ref>.
-    Then, for every abelian scheme <fr:tex>g\colon  Y\to  S</fr:tex>, we have
+number="4.4.14.1" />.
+    Then, for every abelian scheme <fr:tex
+display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, we have
     <fr:tex
-display="block">       \operatorname {Hom}(X,Y)       \xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).     </fr:tex></fr:p>
+display="block"><![CDATA[       \operatorname {Hom}(X,Y)       \xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).     ]]></fr:tex></fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1715</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#186</fr:addr><fr:route>unstable-186.xml</fr:route><fr:parent>hodge-theory-ii-4.4.15</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>s\in  S</fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1773</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.15</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>.
       By <fr:ref
 addr="hodge-theory-ii-4.4.11"
 href="hodge-theory-ii-4.4.11.xml"
 taxon="Proposition"
-number="4.4.11"></fr:ref> and <fr:ref
+number="4.4.11" /> and <fr:ref
 addr="hodge-theory-ii-4.4.12"
 href="hodge-theory-ii-4.4.12.xml"
 taxon="Proposition"
-number="4.4.12"></fr:ref>, it suffices to show that the representation of <fr:tex>\pi _1(S,s)</fr:tex> on <fr:tex>(\mathrm {R}_1f_*\mathbb {Q})_s</fr:tex> is absolutely irreducible, so that <fr:tex>H=\mathbb {Q}</fr:tex>.
-      This follows from the following lemma.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+number="4.4.12" />, it suffices to show that the representation of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is absolutely irreducible, so that <fr:tex
+display="inline"><![CDATA[H=\mathbb {Q}]]></fr:tex>.
+      This follows from the following lemma.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1718</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-4.4.16</fr:addr><fr:route>hodge-theory-ii-4.4.16.xml</fr:route><fr:number>4.4.16</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:tex>X</fr:tex> satisfies <fr:ref
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1774</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.16</fr:addr><fr:route>hodge-theory-ii-4.4.16.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>4.4.16</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies <fr:ref
 addr="hodge-theory-ii-4.4.14.1"
 href="hodge-theory-ii-4.4.14.1.xml"
 taxon="Hypothesis"
-number="4.4.14.1"></fr:ref>, then the image of <fr:tex>\pi _1(S,s)</fr:tex> in the group of symplectic automorphisms of <fr:tex>\operatorname {H}^1(X_s,\mathbb {Z})</fr:tex> is of finite index.
-  </fr:p>
+number="4.4.14.1" />, then the image of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in the group of symplectic automorphisms of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^1(X_s,\mathbb {Z})]]></fr:tex> is of finite index.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1717</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#187</fr:addr><fr:route>unstable-187.xml</fr:route><fr:parent>hodge-theory-ii-4.4.16</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>n</fr:tex> be an integer.
-      Replacing <fr:tex>S</fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex>\pi _1(S,s)</fr:tex>, if necessary, we can assume that the local system <fr:tex>{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)</fr:tex> is trivial on <fr:tex>S</fr:tex>.
-      Replacing <fr:tex>X</fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex>X</fr:tex> is polarised in the principal series.
-      Suppose that <fr:tex>n\geqslant  3</fr:tex>.
-    </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1775</fr:anchor><fr:addr
+type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.16</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be an integer.
+      Replacing <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>, if necessary, we can assume that the local system <fr:tex
+display="inline"><![CDATA[{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)]]></fr:tex> is trivial on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+      Replacing <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is polarised in the principal series.
+      Suppose that <fr:tex
+display="inline"><![CDATA[n\geqslant  3]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      The abelian scheme <fr:tex>X</fr:tex> then defines a dominant morphism <fr:tex>x</fr:tex> from the <fr:tex>S</fr:tex> to the scheme of "Jacobi" modules <fr:tex>M_n</fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex>{}_nX</fr:tex> and <fr:tex>(\mathbb {Z}{/}n)^{2g}</fr:tex>;
-      furthermore, <fr:tex>X</fr:tex> is an inverse image under <fr:tex>x</fr:tex> of the universal abelian scheme on <fr:tex>M_n</fr:tex>.
+    <fr:p>The abelian scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> then defines a dominant morphism <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> from the <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to the scheme of "Jacobi" modules <fr:tex
+display="inline"><![CDATA[M_n]]></fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex
+display="inline"><![CDATA[{}_nX]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(\mathbb {Z}{/}n)^{2g}]]></fr:tex>;
+      furthermore, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an inverse image under <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of the universal abelian scheme on <fr:tex
+display="inline"><![CDATA[M_n]]></fr:tex>.
       
-      We know that <fr:tex>\pi _1(M_n,x(s))</fr:tex> is sent isomorphically to the subgroup of <fr:tex>\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))</fr:tex> given by the kernel of the reduction <fr:tex>\operatorname {mod}{n}</fr:tex> map.
-      It thus remains to show that:
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+      We know that <fr:tex
+display="inline"><![CDATA[\pi _1(M_n,x(s))]]></fr:tex> is sent isomorphically to the subgroup of <fr:tex
+display="inline"><![CDATA[\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))]]></fr:tex> given by the kernel of the reduction <fr:tex
+display="inline"><![CDATA[\operatorname {mod}{n}]]></fr:tex> map.
+      It thus remains to show that:</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1720</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hodge-theory-ii-4.4.17</fr:addr><fr:route>hodge-theory-ii-4.4.17.xml</fr:route><fr:number>4.4.17</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>p\colon  S\to  M</fr:tex> be a dominant morphism of smooth connected schemes.
-    The subgroup <fr:tex>p(\pi _1(S,s))</fr:tex> of <fr:tex>\pi _1(M,p(s))</fr:tex> is then of finite index.
-  </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1776</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.17</fr:addr><fr:route>hodge-theory-ii-4.4.17.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>4.4.17</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[p\colon  S\to  M]]></fr:tex> be a dominant morphism of smooth connected schemes.
+    The subgroup <fr:tex
+display="inline"><![CDATA[p(\pi _1(S,s))]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\pi _1(M,p(s))]]></fr:tex> is then of finite index.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1719</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#188</fr:addr><fr:route>unstable-188.xml</fr:route><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>t</fr:tex> be a closed point of the generic fibre of <fr:tex>p</fr:tex>, and let <fr:tex>T'</fr:tex> be its closure in <fr:tex>S</fr:tex>.
-      There exists a dense Zariski open <fr:tex>U</fr:tex> of <fr:tex>M</fr:tex> such that <fr:tex>T=p^{-1}(U)\cap  T'</fr:tex> is an étale covering of <fr:tex>U</fr:tex>.
-    </fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1777</fr:anchor><fr:addr
+type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+      There exists a dense Zariski open <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
 
-    <fr:p>
-      We lose no generality by assuming that <fr:tex>s\in  T</fr:tex>.
+    <fr:p>We lose no generality by assuming that <fr:tex
+display="inline"><![CDATA[s\in  T]]></fr:tex>.
       In the diagram
       
   <fr:embedded-tex
-hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble>
+hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
         \pi _1(T,s)
           \ar [r]
           \ar [d,swap,"a"]
-        &amp; \pi _1(S,s)
+        & \pi _1(S,s)
           \ar [d,"c"]
       \\\pi _1(U,p(s))
         \ar [r,swap,"b"]
-        &amp; \pi _1(M,p(s))
-      \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+        & \pi _1(M,p(s))
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-      the image of the arrow <fr:tex>a</fr:tex> is of finite index, since <fr:tex>T</fr:tex> is a finite étale covering, and the arrow <fr:tex>b</fr:tex> is surjective, since <fr:tex>M\setminus  U</fr:tex> is of real codimension <fr:tex>\geqslant 2</fr:tex>.
-      The image of the arrow <fr:tex>c</fr:tex> is thus of finite index.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+      the image of the arrow <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex
+display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex
+display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
+      The image of the arrow <fr:tex
+display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1892</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a smooth connected scheme with generic point <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> of relative dimension <fr:tex
+display="inline"><![CDATA[g\leqslant 3]]></fr:tex>.
+    Suppose that, on any finite étale covering of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> does not admit a constant abelian subscheme.
+    Then, for every abelian scheme <fr:tex
+display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, we have
+    <fr:tex
+display="block"><![CDATA[       \begin {aligned}         \operatorname {Hom}(X,Y)         &\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})       \\\operatorname {Hom}(Y,X)         &\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1g_*\mathbb {Z},\mathrm {R}_1f_*\mathbb {Z}).       \end {aligned}     ]]></fr:tex></fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1839</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hodge-theory-ii-2.1.11.1</fr:addr><fr:route>hodge-theory-ii-2.1.11.1.xml</fr:route><fr:number>2.1.11.1</fr:number><fr:parent>hodge-theory-ii-2.1.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:tex>\operatorname {Hom}(H,H')</fr:tex> is the subgroup of
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1765</fr:anchor><fr:addr
+type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By duality, it suffices to prove the first claim.
+      We can also suppose <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> to be simple.
+      We will show that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies one of the conditions of (c) in <fr:ref
+addr="hodge-theory-ii-4.4.11"
+href="hodge-theory-ii-4.4.11.xml"
+taxon="Proposition"
+number="4.4.11" />.</fr:p>
+
+    <fr:p>Set <fr:tex
+display="inline"><![CDATA[H=\mathbb {M}_c(D)]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> a skew field of rank <fr:tex
+display="inline"><![CDATA[b^2]]></fr:tex> over its centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, which we know to be either completely real or completely imaginary.
+      If we set <fr:tex
+display="inline"><![CDATA[a=[Z:\mathbb {Q}]]]></fr:tex>, then we have
+
+      <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1766</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           ab^2c \mathbin {\vert } 2g \leqslant  6.         \tag{4.4.13.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        <fr:p>If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex
+display="inline"><![CDATA[a=2g=4]]></fr:tex>.
+          For <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, the centraliser of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> acting on <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is thus commutative, and so the action of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
+addr="hodge-theory-ii-4.2.8"
+href="hodge-theory-ii-4.2.8.xml"
+taxon="Corollary"
+number="4.2.8" /> or <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9" />).
+          This is a contradiction (<fr:ref
+addr="hodge-theory-ii-4.1.3.3"
+href="hodge-theory-ii-4.1.3.3.xml"
+number="4.1.3.3" /> and <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3" />).</fr:p>
+
+        <fr:p>With the notation of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8" />, we can also note that the <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> are then of rank <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, and so condition (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8" /> is satisfied at each place, and the Hodge structure is locally constant.</fr:p>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex
+display="inline"><![CDATA[a\geqslant 2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\geqslant 2]]></fr:tex>, which is a contradiction.
+      </html:li>
+
+    </html:ol>
+
+
+    <fr:p>We will show that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies the conditions of <fr:ref
+addr="hodge-theory-ii-4.4.12"
+href="hodge-theory-ii-4.4.12.xml"
+taxon="Proposition"
+number="4.4.12" />.
+      If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is imaginary quadratic, and if there exists <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> is of pure Hodge type <fr:tex
+display="inline"><![CDATA[(-1,0)]]></fr:tex>, then the Hodge structure on <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}]]></fr:tex> is locally constant, which is a contradiction.
+      This proves <fr:ref
+addr="hodge-theory-ii-4.4.13"
+href="hodge-theory-ii-4.4.13.xml"
+taxon="Corollary"
+number="4.4.13" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1893</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.15</fr:addr><fr:route>hodge-theory-ii-4.4.15.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.4.15</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a smooth connected scheme, and <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> a polarised abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> that satisfies <fr:ref
+addr="hodge-theory-ii-4.4.14.1"
+href="hodge-theory-ii-4.4.14.1.xml"
+taxon="Hypothesis"
+number="4.4.14.1" />.
+    Then, for every abelian scheme <fr:tex
+display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, we have
+    <fr:tex
+display="block"><![CDATA[       \operatorname {Hom}(X,Y)       \xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).     ]]></fr:tex></fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1773</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.15</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>.
+      By <fr:ref
+addr="hodge-theory-ii-4.4.11"
+href="hodge-theory-ii-4.4.11.xml"
+taxon="Proposition"
+number="4.4.11" /> and <fr:ref
+addr="hodge-theory-ii-4.4.12"
+href="hodge-theory-ii-4.4.12.xml"
+taxon="Proposition"
+number="4.4.12" />, it suffices to show that the representation of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is absolutely irreducible, so that <fr:tex
+display="inline"><![CDATA[H=\mathbb {Q}]]></fr:tex>.
+      This follows from the following lemma.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1894</fr:anchor><fr:addr
+type="user">hodge-theory-ii-2.1.11.1</fr:addr><fr:route>hodge-theory-ii-2.1.11.1.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:authors /><fr:number>2.1.11.1</fr:number><fr:parent>hodge-theory-ii-2.1.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[\operatorname {Hom}(H,H')]]></fr:tex> is the subgroup of
         <fr:tex
-display="block">           \underline {\operatorname {Hom}}(H,H')_\mathbb {Z}           = \operatorname {Hom}_\mathbb {Z}(H_\mathbb {Z},H'_\mathbb {Z})         </fr:tex>
-        consisting of elements of degree <fr:tex>(0,0)</fr:tex>.
-      </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[           \underline {\operatorname {Hom}}(H,H')_\mathbb {Z}           = \operatorname {Hom}_\mathbb {Z}(H_\mathbb {Z},H'_\mathbb {Z})         ]]></fr:tex>
+        consisting of elements of degree <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1840</fr:anchor><fr:taxon>Reminder</fr:taxon><fr:addr>hodge-theory-ii-4.4.3</fr:addr><fr:route>hodge-theory-ii-4.4.3.xml</fr:route><fr:number>4.4.3</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a smooth scheme of finite type over <fr:tex>\mathbb {C}</fr:tex>.
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1895</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.3</fr:addr><fr:route>hodge-theory-ii-4.4.3.xml</fr:route><fr:taxon>Reminder</fr:taxon><fr:authors /><fr:number>4.4.3</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a smooth scheme of finite type over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
     The construction of <fr:ref
 addr="hodge-theory-ii-4.4.2"
 href="hodge-theory-ii-4.4.2.xml"
-number="4.4.2"></fr:ref> establishes an equivalence of categories between
+number="4.4.2" /> establishes an equivalence of categories between
 
     
  <html:ol
@@ -1057,181 +1655,41 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(a) &quot;">
-        the category of abelian schemes over <fr:tex>S</fr:tex>; and
+        the category of abelian schemes over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>; and
       </html:li>
 
       
  <html:li
 style="list-style-type: &quot;(b) &quot;">
-        the category of polarisable continuous families of Hodge structures <fr:tex>H</fr:tex> of type <fr:tex>(-1,0)+(0,-1)</fr:tex> on <fr:tex>S</fr:tex> such that <fr:tex>H_\mathbb {Z}</fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex>S</fr:tex>.
+        the category of polarisable continuous families of Hodge structures <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> of type <fr:tex
+display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[H_\mathbb {Z}]]></fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
       </html:li>
 
     </html:ol></fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1664</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#182</fr:addr><fr:route>unstable-182.xml</fr:route><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
-      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex>X_1</fr:tex> and <fr:tex>X_2</fr:tex> over <fr:tex>S</fr:tex>, the <fr:tex>S</fr:tex>-scheme <fr:tex>\underline {\operatorname {Hom}}_S(X_1,X_2)</fr:tex> is unramified over <fr:tex>S</fr:tex>, and thus has the same algebraic and holomorphic sections.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1722</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
+      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex
+display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X_2]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, the <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[\underline {\operatorname {Hom}}_S(X_1,X_2)]]></fr:tex> is unramified over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and thus has the same algebraic and holomorphic sections.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1837</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a smooth connected scheme with generic point <fr:tex>\eta </fr:tex>, and let <fr:tex>f\colon  X\to  S</fr:tex> be an abelian scheme over <fr:tex>S</fr:tex> of relative dimension <fr:tex>g\leqslant 3</fr:tex>.
-    Suppose that, on any finite étale covering of <fr:tex>S</fr:tex>, <fr:tex>X</fr:tex> does not admit a constant abelian subscheme.
-    Then, for every abelian scheme <fr:tex>g\colon  Y\to  S</fr:tex>, we have
-    <fr:tex
-display="block">       \begin {aligned}         \operatorname {Hom}(X,Y)         &amp;\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})       \\\operatorname {Hom}(Y,X)         &amp;\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1g_*\mathbb {Z},\mathrm {R}_1f_*\mathbb {Z}).       \end {aligned}     </fr:tex></fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1711</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#185</fr:addr><fr:route>unstable-185.xml</fr:route><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      By duality, it suffices to prove the first claim.
-      We can also suppose <fr:tex>X_\eta </fr:tex> to be simple.
-      We will show that <fr:tex>X</fr:tex> satisfies one of the conditions of (c) in <fr:ref
-addr="hodge-theory-ii-4.4.11"
-href="hodge-theory-ii-4.4.11.xml"
-taxon="Proposition"
-number="4.4.11"></fr:ref>.
-    </fr:p>
-
-    <fr:p>
-      Set <fr:tex>H=\mathbb {M}_c(D)</fr:tex>, with <fr:tex>D</fr:tex> a skew field of rank <fr:tex>b^2</fr:tex> over its centre <fr:tex>Z</fr:tex>, which we know to be either completely real or completely imaginary.
-      If we set <fr:tex>a=[Z:\mathbb {Q}]</fr:tex>, then we have
-
-      <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1707</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">           ab^2c \mathbin {\vert } 2g \leqslant  6.         \tag{4.4.13.1}         </fr:tex></fr:mainmatter></fr:tree></fr:p>
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        <fr:p>
-          If <fr:tex>Z</fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex>a=2g=4</fr:tex>.
-          For <fr:tex>s\in  S</fr:tex>, the centraliser of <fr:tex>Z</fr:tex> acting on <fr:tex>(\mathrm {R}_1f_*\mathbb {Q})_s</fr:tex> is thus commutative, and so the action of <fr:tex>\pi _1(S,s)</fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
-addr="hodge-theory-ii-4.2.8"
-href="hodge-theory-ii-4.2.8.xml"
-taxon="Corollary"
-number="4.2.8"></fr:ref> or <fr:ref
-addr="hodge-theory-ii-4.2.9"
-href="hodge-theory-ii-4.2.9.xml"
-taxon="Corollary"
-number="4.2.9"></fr:ref>).
-          This is a contradiction (<fr:ref
-addr="hodge-theory-ii-4.1.3.3"
-href="hodge-theory-ii-4.1.3.3.xml"
-number="4.1.3.3"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-4.4.3"
-href="hodge-theory-ii-4.4.3.xml"
-taxon="Reminder"
-number="4.4.3"></fr:ref>).
-        </fr:p>
-
-        <fr:p>
-          With the notation of <fr:ref
-addr="hodge-theory-ii-4.4.8"
-href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref>, we can also note that the <fr:tex>T_\rho </fr:tex> are then of rank <fr:tex>1</fr:tex>, and so condition (b) of <fr:ref
-addr="hodge-theory-ii-4.4.8"
-href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8"></fr:ref> is satisfied at each place, and the Hodge structure is locally constant.
-        </fr:p>
-      </html:li>
-
-
-      
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        If <fr:tex>Z</fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex>a\geqslant 2</fr:tex> and <fr:tex>b\geqslant 2</fr:tex>, which is a contradiction.
-      </html:li>
-
-    </html:ol>
-
-
-    <fr:p>
-      We will show that <fr:tex>X</fr:tex> satisfies the conditions of <fr:ref
-addr="hodge-theory-ii-4.4.12"
-href="hodge-theory-ii-4.4.12.xml"
-taxon="Proposition"
-number="4.4.12"></fr:ref>.
-      If <fr:tex>Z</fr:tex> is imaginary quadratic, and if there exists <fr:tex>\rho \colon  Z\to \mathbb {C}</fr:tex> such that <fr:tex>\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}</fr:tex> is of pure Hodge type <fr:tex>(-1,0)</fr:tex>, then the Hodge structure on <fr:tex>\mathrm {R}_1f_*\mathbb {Q}</fr:tex> is locally constant, which is a contradiction.
-      This proves <fr:ref
-addr="hodge-theory-ii-4.4.13"
-href="hodge-theory-ii-4.4.13.xml"
-taxon="Corollary"
-number="4.4.13"></fr:ref>.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1838</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hodge-theory-ii-4.4.15</fr:addr><fr:route>hodge-theory-ii-4.4.15.xml</fr:route><fr:number>4.4.15</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>S</fr:tex> be a smooth connected scheme, and <fr:tex>f\colon  X\to  S</fr:tex> a polarised abelian scheme over <fr:tex>S</fr:tex> that satisfies <fr:ref
-addr="hodge-theory-ii-4.4.14.1"
-href="hodge-theory-ii-4.4.14.1.xml"
-taxon="Hypothesis"
-number="4.4.14.1"></fr:ref>.
-    Then, for every abelian scheme <fr:tex>g\colon  Y\to  S</fr:tex>, we have
-    <fr:tex
-display="block">       \operatorname {Hom}(X,Y)       \xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).     </fr:tex></fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1715</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#186</fr:addr><fr:route>unstable-186.xml</fr:route><fr:parent>hodge-theory-ii-4.4.15</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      Let <fr:tex>s\in  S</fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-4.4.11"
-href="hodge-theory-ii-4.4.11.xml"
-taxon="Proposition"
-number="4.4.11"></fr:ref> and <fr:ref
-addr="hodge-theory-ii-4.4.12"
-href="hodge-theory-ii-4.4.12.xml"
-taxon="Proposition"
-number="4.4.12"></fr:ref>, it suffices to show that the representation of <fr:tex>\pi _1(S,s)</fr:tex> on <fr:tex>(\mathrm {R}_1f_*\mathbb {Q})_s</fr:tex> is absolutely irreducible, so that <fr:tex>H=\mathbb {Q}</fr:tex>.
-      This follows from the following lemma.
-    </fr:p>
-  </fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

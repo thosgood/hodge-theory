@@ -1,72 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2476</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.2.6.1</fr:addr><fr:route>hodge-theory-iii-7.2.6.1.xml</fr:route><fr:number>7.2.6.1</fr:number><fr:parent>hodge-theory-iii-7.2.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \operatorname {Gr}_F^p(E_r(K,W))         \simeq  E_r(\operatorname {Gr}_F^pK,W)         \qquad \text {for }r\leqslant  r_0.       \tag{7.2.6.1}       </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2527</fr:anchor><fr:addr
+type="user">hodge-theory-iii-7.2.6.1</fr:addr><fr:route>hodge-theory-iii-7.2.6.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.2.6.1</fr:number><fr:parent>hodge-theory-iii-7.2.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \operatorname {Gr}_F^p(E_r(K,W))         \simeq  E_r(\operatorname {Gr}_F^pK,W)         \qquad \text {for }r\leqslant  r_0.       \tag{7.2.6.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2475</fr:anchor><fr:addr>hodge-theory-iii-7.2.6</fr:addr><fr:route>hodge-theory-iii-7.2.6.xml</fr:route><fr:number>7.2.6</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    If <fr:ref
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2528</fr:anchor><fr:addr
+type="user">hodge-theory-iii-7.2.6</fr:addr><fr:route>hodge-theory-iii-7.2.6.xml</fr:route><fr:authors /><fr:number>7.2.6</fr:number><fr:parent>hodge-theory-iii-7.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:ref
 addr="hodge-theory-iii-7.2.2"
 href="hodge-theory-iii-7.2.2.xml"
 taxon="Condition"
-number="7.2.2"></fr:ref> is satisfied for <fr:tex>r_0</fr:tex>, and <fr:tex>r\leqslant  r_0+1</fr:tex>, then we denote by <fr:tex>F</fr:tex> the filtration <fr:tex>F_d=F_{d^*}=F_\mathrm {rec}</fr:tex> of <fr:tex>E_r(W,K)</fr:tex>.
+number="7.2.2" /> is satisfied for <fr:tex
+display="inline"><![CDATA[r_0]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[r\leqslant  r_0+1]]></fr:tex>, then we denote by <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> the filtration <fr:tex
+display="inline"><![CDATA[F_d=F_{d^*}=F_\mathrm {rec}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[E_r(W,K)]]></fr:tex>.
     The exact sequences from (ii) of <fr:ref
 addr="hodge-theory-iii-7.2.5"
 href="hodge-theory-iii-7.2.5.xml"
 taxon="Proposition"
-number="7.2.5"></fr:ref>
+number="7.2.5" />
 
     
   <fr:embedded-tex
-hash="f04341f3dc3e7b3f49c6cd0a384d802b"><fr:embedded-tex-preamble>
+hash="f04341f3dc3e7b3f49c6cd0a384d802b"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
-  </fr:embedded-tex-preamble><fr:embedded-tex-body>\begin {tikzcd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
       0
-      &amp; E_r(K/F^pK,W)
+      & E_r(K/F^pK,W)
         \ar [l]
-      &amp;&amp; E_r(K/F^{p+1}K,W)
+      && E_r(K/F^{p+1}K,W)
         \ar [ll]
-      &amp;&amp; 0
-    \\&amp;&amp; E_r(K,W)
+      && 0
+    \\&& E_r(K,W)
         \ar [ul]
         \ar [ur]
-      &amp;&amp; E_r(\operatorname {Gr}_F^pK,W)
+      && E_r(\operatorname {Gr}_F^pK,W)
         \ar [ul]
         \ar [ur]
     \\0
         \ar [r]
-      &amp; E_r(F^{p+1}K,W)
+      & E_r(F^{p+1}K,W)
         \ar [rr]
         \ar [ur]
-      &amp;&amp; E_r(F^pK,W)
+      && E_r(F^pK,W)
         \ar [ul]
         \ar [ur]
-      &amp;&amp; 0
+      && 0
         \ar [ul]
-    \end {tikzcd}</fr:embedded-tex-body></fr:embedded-tex>
+    \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
 
-    define, for <fr:tex>r\leqslant  r_0</fr:tex>, an (autodual) isomorphism that is compatible with the differentials <fr:tex>d_r</fr:tex>, namely
+    define, for <fr:tex
+display="inline"><![CDATA[r\leqslant  r_0]]></fr:tex>, an (autodual) isomorphism that is compatible with the differentials <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex>, namely
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>973</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-7.2.6.1</fr:addr><fr:route>hodge-theory-iii-7.2.6.1.xml</fr:route><fr:number>7.2.6.1</fr:number><fr:parent>hodge-theory-iii-7.2.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \operatorname {Gr}_F^p(E_r(K,W))         \simeq  E_r(\operatorname {Gr}_F^pK,W)         \qquad \text {for }r\leqslant  r_0.       \tag{7.2.6.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1028</fr:anchor><fr:addr
+type="user">hodge-theory-iii-7.2.6.1</fr:addr><fr:route>hodge-theory-iii-7.2.6.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.2.6.1</fr:number><fr:parent>hodge-theory-iii-7.2.6</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \operatorname {Gr}_F^p(E_r(K,W))         \simeq  E_r(\operatorname {Gr}_F^pK,W)         \qquad \text {for }r\leqslant  r_0.       \tag{7.2.6.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

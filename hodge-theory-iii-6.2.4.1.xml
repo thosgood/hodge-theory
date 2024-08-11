@@ -1,28 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2306</fr:anchor><fr:addr>hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Finite projective limits exist in <fr:tex>\mathbb {C}</fr:tex>.
-        Finite projective sums exist in <fr:tex>\mathbb {C}</fr:tex>, and they are disjoint and universal.
-      </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2357</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:authors /><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Finite projective limits exist in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
+        Finite projective sums exist in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, and they are disjoint and universal.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2305</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>hodge-theory-iii-6.2.4</fr:addr><fr:route>hodge-theory-iii-6.2.4.xml</fr:route><fr:number>6.2.4</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    Let <fr:tex>(Y,N,\beta )</fr:tex> satisfy <fr:ref
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2358</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.2.4</fr:addr><fr:route>hodge-theory-iii-6.2.4.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>6.2.4</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(Y,N,\beta )]]></fr:tex> satisfy <fr:ref
 addr="hodge-theory-iii-6.2.star"
 href="hodge-theory-iii-6.2.star.xml"
 taxon="Property"
-number="*"></fr:ref> above.
+number="*" /> above.
 
     
  <html:ol
@@ -30,29 +40,37 @@ xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li
 style="list-style-type: &quot;(i) &quot;">
-        Up to unique isomorphism, there exists exactly one <fr:tex>s</fr:tex>-split <fr:tex>(n+1)</fr:tex>-truncated topological space <fr:tex>X</fr:tex> augmented over <fr:tex>S</fr:tex> such that <fr:tex>\alpha (X)\simeq (Y,N,\beta )</fr:tex>.
+        Up to unique isomorphism, there exists exactly one <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex
+display="inline"><![CDATA[(n+1)]]></fr:tex>-truncated topological space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> augmented over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\alpha (X)\simeq (Y,N,\beta )]]></fr:tex>.
       </html:li>
 
 
       
  <html:li
 style="list-style-type: &quot;(ii) &quot;">
-        It is equivalent to give either <fr:tex>f\colon  X\to  Z</fr:tex> or:
+        It is equivalent to give either <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Z]]></fr:tex> or:
 
         
  <html:ol>
           
  <html:li
 style="list-style-type: &quot;(a) &quot;">
-            a morphism <fr:tex>f'\colon  Y\to \operatorname {sq}_n(Z)</fr:tex>; and
+            a morphism <fr:tex
+display="inline"><![CDATA[f'\colon  Y\to \operatorname {sq}_n(Z)]]></fr:tex>; and
           </html:li>
 
           
  <html:li
 style="list-style-type: &quot;(b) &quot;">
-            a morphism <fr:tex>f''\colon  N\to  Z_{n+1}</fr:tex>, such that the diagram
+            a morphism <fr:tex
+display="inline"><![CDATA[f''\colon  N\to  Z_{n+1}]]></fr:tex>, such that the diagram
             <fr:tex
-display="block">               \begin {CD}                 N @&gt;\beta &gt;&gt; (\operatorname {cosq} Y)_{n+1}               \\@V{f''}VV @VV{f'}V               \\Z_{n+1} @&gt;&gt;&gt; (\operatorname {cosq}\operatorname {sq}_n Z)_{n+1}               \end {CD}             </fr:tex>
+display="block"><![CDATA[               \begin {CD}                 N @>\beta >> (\operatorname {cosq} Y)_{n+1}               \\@V{f''}VV @VV{f'}V               \\Z_{n+1} @>>> (\operatorname {cosq}\operatorname {sq}_n Z)_{n+1}               \end {CD}             ]]></fr:tex>
             commutes.
           </html:li>
 
@@ -64,32 +82,34 @@ display="block">               \begin {CD}                 N @&gt;\beta &gt;&gt;
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2274</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#179</fr:addr><fr:route>unstable-179.xml</fr:route><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>
-      [5.1.3, <fr:link
-href="SD.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2329</fr:anchor><fr:addr
+type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>[5.1.3, <fr:link
 type="local"
-addr="SD">SD</fr:link>].
-    </fr:p>
-  </fr:mainmatter></fr:tree>
+href="SD.xml"
+addr="SD"
+title="Techniques de descente cohomologique">SD</fr:link>].</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-<fr:p>
-    This proposition also applies to simplicial objects in other categories <fr:tex>\mathscr {C}</fr:tex> apart from that of topological spaces; it suffices that <fr:tex>\mathscr {C}</fr:tex> satisfy the following:
+<fr:p>This proposition also applies to simplicial objects in other categories <fr:tex
+display="inline"><![CDATA[\mathscr {C}]]></fr:tex> apart from that of topological spaces; it suffices that <fr:tex
+display="inline"><![CDATA[\mathscr {C}]]></fr:tex> satisfy the following:
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2275</fr:anchor><fr:addr>hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Finite projective limits exist in <fr:tex>\mathbb {C}</fr:tex>.
-        Finite projective sums exist in <fr:tex>\mathbb {C}</fr:tex>, and they are disjoint and universal.
-      </fr:p></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2330</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:authors /><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Finite projective limits exist in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
+        Finite projective sums exist in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, and they are disjoint and universal.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

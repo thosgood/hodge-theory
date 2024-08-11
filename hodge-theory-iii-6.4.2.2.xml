@@ -1,55 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2368</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.4.2.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.2.xml</fr:route><fr:number>6.4.2.2</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \mathrm {R}\Gamma (X_\bullet ,K)         \xrightarrow {\sim } \mathrm {R}\Gamma (\delta  X_\bullet ,\delta  K).       \tag{6.4.2.2}       </fr:tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2419</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.4.2.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.4.2.2</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \mathrm {R}\Gamma (X_\bullet ,K)         \xrightarrow {\sim } \mathrm {R}\Gamma (\delta  X_\bullet ,\delta  K).       \tag{6.4.2.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2367</fr:anchor><fr:addr>hodge-theory-iii-6.4.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.xml</fr:route><fr:number>6.4.2</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-    As in <fr:ref
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2420</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.4.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.xml</fr:route><fr:authors /><fr:number>6.4.2</fr:number><fr:parent>hodge-theory-iii-6.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>As in <fr:ref
 addr="hodge-theory-iii-5.1.6"
 href="hodge-theory-iii-5.1.6.xml"
-number="5.1.6"></fr:ref>, we define the topos of <fr:em>sheaves</fr:em> on an <fr:tex>r</fr:tex>-simplicial topological space.
-    Let <fr:tex>\Gamma ^\bullet </fr:tex> be the functor
+number="5.1.6" />, we define the topos of <fr:em>sheaves</fr:em> on an <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>-simplicial topological space.
+    Let <fr:tex
+display="inline"><![CDATA[\Gamma ^\bullet ]]></fr:tex> be the functor
     <fr:tex
-display="block">       F       \mapsto  (\Gamma (X_{n_1\ldots  n_r},F^{n_1\ldots  n_r}))     </fr:tex>
-    from sheaves on <fr:tex>X_\bullet </fr:tex> to <fr:tex>r</fr:tex>-cosimplicial sets.
-    For small <fr:tex>r</fr:tex>, we often prefer to write <fr:tex>\Gamma ^{\bullet \ldots \bullet }</fr:tex> (with <fr:tex>r</fr:tex>-many copies of <fr:tex>\bullet </fr:tex>).
-    We have a co-augmentation <fr:tex>\Gamma (X_\bullet ,F^\bullet )\to \Gamma ^\bullet (X_\bullet ,F^\bullet )</fr:tex>.
-    The functors of <fr:em>cohomology with values in an abelian sheaf <fr:tex>F</fr:tex></fr:em> are the derived functors of the "global sections" functor <fr:tex>\Gamma </fr:tex>.
+display="block"><![CDATA[       F       \mapsto  (\Gamma (X_{n_1\ldots  n_r},F^{n_1\ldots  n_r}))     ]]></fr:tex>
+    from sheaves on <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>-cosimplicial sets.
+    For small <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>, we often prefer to write <fr:tex
+display="inline"><![CDATA[\Gamma ^{\bullet \ldots \bullet }]]></fr:tex> (with <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>-many copies of <fr:tex
+display="inline"><![CDATA[\bullet ]]></fr:tex>).
+    We have a co-augmentation <fr:tex
+display="inline"><![CDATA[\Gamma (X_\bullet ,F^\bullet )\to \Gamma ^\bullet (X_\bullet ,F^\bullet )]]></fr:tex>.
+    The functors of <fr:em>cohomology with values in an abelian sheaf <fr:tex
+display="inline"><![CDATA[F]]></fr:tex></fr:em> are the derived functors of the "global sections" functor <fr:tex
+display="inline"><![CDATA[\Gamma ]]></fr:tex>.
     They can be calculated by a procedure parallel to that of <fr:ref
 addr="hodge-theory-iii-5.2.3"
 href="hodge-theory-iii-5.2.3.xml"
-number="5.2.3"></fr:ref>, i.e.
+number="5.2.3" />, i.e.
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2044</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.4.2.1</fr:addr><fr:route>hodge-theory-iii-6.4.2.1.xml</fr:route><fr:number>6.4.2.1</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \mathrm {R}\Gamma          =\mathrm {s}\mathrm {R}\Gamma ^\bullet          \colon  \mathrm {D}^+(X_\bullet )         \to \mathrm {D}^+((\mathsf {Ab})).       \tag{6.4.2.1}       </fr:tex></fr:mainmatter></fr:tree></fr:p><fr:p>
-    A sheaf <fr:tex>F</fr:tex> on an <fr:tex>r</fr:tex>-simplicial topological space <fr:tex>X_\bullet </fr:tex> induces a sheaf <fr:tex>\delta  F</fr:tex> on the diagonal simplicial space <fr:tex>\delta  X_\bullet </fr:tex>.
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2099</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.4.2.1</fr:addr><fr:route>hodge-theory-iii-6.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.4.2.1</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \mathrm {R}\Gamma          =\mathrm {s}\mathrm {R}\Gamma ^\bullet          \colon  \mathrm {D}^+(X_\bullet )         \to \mathrm {D}^+((\mathsf {Ab})).       \tag{6.4.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>A sheaf <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> on an <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>-simplicial topological space <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> induces a sheaf <fr:tex
+display="inline"><![CDATA[\delta  F]]></fr:tex> on the diagonal simplicial space <fr:tex
+display="inline"><![CDATA[\delta  X_\bullet ]]></fr:tex>.
     It follows from the Cartier–Eilenberg–Zilber theorem that
 
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2045</fr:anchor><fr:taxon>Equation</fr:taxon><fr:addr>hodge-theory-iii-6.4.2.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.2.xml</fr:route><fr:number>6.4.2.2</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block">         \mathrm {R}\Gamma (X_\bullet ,K)         \xrightarrow {\sim } \mathrm {R}\Gamma (\delta  X_\bullet ,\delta  K).       \tag{6.4.2.2}       </fr:tex></fr:mainmatter></fr:tree></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2100</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.4.2.2</fr:addr><fr:route>hodge-theory-iii-6.4.2.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.4.2.2</fr:number><fr:parent>hodge-theory-iii-6.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         \mathrm {R}\Gamma (X_\bullet ,K)         \xrightarrow {\sim } \mathrm {R}\Gamma (\delta  X_\bullet ,\delta  K).       \tag{6.4.2.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
