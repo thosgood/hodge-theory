@@ -278,6 +278,45 @@
   \number{8.1.10}
 
   \p{
-    We
+    We abbreviate "differential graded" to DG, and "bounded below differential graded" to DG+.
+    A DG complex of #{A}-modules can be seen as a double complex of #{A}-modules;
+    the \em{first} degree is that of the complex, and the \em{second} degree is that defined by the grading of DG modules.
+    \oldpage{31}
+    We denote by #{\DD^+(\dgmodpluscat{A})} the derived category of the category of bounded below complexes of DG #{A}-modules, with degrees uniformly bounded below.
+  }
+
+  \p{
+    A \em{DG mixed Hodge #{A}-complex} #{K} consists of:
+
+    \olc{
+      \lic{(a)}{
+        a complex #{K_A\in\Ob\DD^+(\dgmodpluscat{A})};
+      }
+      \lic{(b)}{
+        a filtered complex #{(K_{A\otimes\QQ},W)\in\Ob\DD^+F(\dgmodpluscat{(A\otimes\QQ)})}, and is isomorphism #{K_A\otimes\QQ\simeq K_{A\otimes\QQ}} in #{\DD^+};
+      }
+      \lic{(c)}{
+        a bifiltered complex #{(K_\CC,F,W)\in\Ob\DD^+F_2(\dgmodpluscat{\CC})}, and an isomorphism #{K_{A\otimes\QQ}\otimes\CC\simeq K_\CC} in #{\DD^+F}.
+      }
+    }
+  }
+
+  \p{
+    We require that, for each #{n}, the component #{(K^{\bullet n},F,W)} of #{K} whose second degree is #{n} be a mixed Hodge #{A}-complex.
+  }
+
+  \p{
+    We denote by #{L} the filtration by the second degree of #{\simp K}.
+    We denote by #{\Dec_1W} the filtration of #{K_{A\otimes\QQ}} induced by shifting (\ref{hodge-theory-ii-1.3.3}) #{W}.
+    We will not confuse the filtration that this induces on #{\simp K_{A\otimes\QQ}} (also denoted by #{\Dec_1W}) with the shifted filtration of the filtration induced on #{\simp K_{A\otimes\QQ}} by #{W}.
+  }
+
+  \subtree[hodge-theory-iii-8.1.10.1]{
+    \taxon{variation}
+    \number{8.1.10.1}
+
+    \p{
+      We
+    }
   }
 }

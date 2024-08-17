@@ -124,3 +124,6 @@
 \def\cat[x]{#{\mathscr{\x}}}
 \def\Cat[x]{#{\mathsf{\x}}}
 \def\ourrar[x][y]{#{\,\overset{\x}{\underset{\y}{\rightrightarrows}}\,}}
+\def\modcat[x]{#{\x\mathsf{-mod}}}
+\def\dgmodcat[x]{#{\modcat{\x}_\mathsf{DG}}}
+\def\dgmodpluscat[x]{#{\modcat{\x}_{\mathsf{DG}^+}}}
