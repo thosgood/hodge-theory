@@ -382,6 +382,39 @@
   \number{8.1.13}
 
   \p{
-    Let
+    Let #{K} be a cohomological mixed Hodge #{A}-complex on #{X_\bullet}.
+    Write #{\cosimpmodcat{A}} to mean the category of cosimplicial #{A}-modules.
+    If we apply the functor #{\Rd\Gamma^\bullet} to #{K}, then we obtain
+
+    \olc{
+      \lic{(a)}{
+        a cosimplicial complex #{\Rd\Gamma^\bullet K_A\in\Ob\DD^+(\cosimpmodcat{A})};
+      }
+
+      \lic{(b)}{
+        a cosimplicial filtered complex #{\Rd\Gamma^\bullet(K_{A\otimes\QQ},W)\in\Ob\DD^+F(\cosimpmodcat{A\otimes\QQ})};
+      }
+
+      \lic{(c)}{
+        a cosimplicial bifiltered complex #{\Rd\Gamma^\bullet(K_\CC,W,F)\in\Ob\DD^+F_2(\cosimpmodcat{\CC})};
+      }
+
+      \lic{(d)}{
+        isomorphisms as in (b) and (c) of \ref{hodge-theory-iii-8.1.10} between these objects.
+      }
+    }
+  }
+
+  \p{
+    It is clear that the #{\Rd\Gamma^\bullet(K,W,F)} described above is a cosimplicial mixed Hodge #{A}-module.
+    It defines a DG mixed Hodge #{A}-complex (\ref{hodge-theory-iii-8.1.10.1}).
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.14]{
+  \number{8.1.14}
+
+  \p{
+    Let #{K}
   }
 }
