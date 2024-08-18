@@ -415,6 +415,90 @@
   \number{8.1.14}
 
   \p{
-    Let #{K}
+    Let #{K} be a DG mixed Hodge #{A}-complex, and consider the spectral sequence abutting to the cohomology of #{\simp K}, which is defined by the filtration #{L}.
+    By hypothesis, the #{E_1} pages of this spectral sequence are endowed with mixed Hodge #{A}-structures.
+    The content of \ref{hodge-theory-iii-8.1.15} is that every spectral sequence, including its abutment, is endowed with a mixed Hodge #{A}-structure.
+    In other words, #{c'} is a spectral sequence in the abelian category of mixed Hodge #{A}-structures.
+    The structure on the abutment corresponds to a natural mixed Hodge #{A}-complex "structure" on #{\simp K}.
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.15]{
+  \taxon{theorem}
+  \number{8.1.15}
+
+  \p{
+    Let #{K} be a DG mixed Hodge #{A}-complex.
+
+    \olc{
+      \lic{(i)}{
+        With the notation of \ref{hodge-theory-iii-8.1.10}, \ref{hodge-theory-iii-8.1.10.1}, and \ref{hodge-theory-iii-7.1.6}, #{(\simp K,\delta(W,L),F)} is a mixed Hodge #{A}-complex.
+      }
+
+      \lic{(ii)}{
+        We have
+
+        \subtree[hodge-theory-iii-8.1.15.1]{
+          \taxon{equation}
+          \number{8.1.15.1}
+          ##{
+            {}_{\delta(W,L)}E_1^{ab}(\simp K\otimes\QQ)
+            = \sum_{\substack{\alpha=\gamma-\beta\\b=\alpha+\beta}} \HH^\alpha(\Gr_\beta^W K^{\bullet\gamma})
+          \startverb\tag{8.1.15.1}\stopverb
+          }
+        }
+
+        where the complex #{({}_{\delta(W,L)}E_1^{\bullet b},d_1)} is the simple complex associated to the double complex of Hodge #{A\otimes\QQ}-structures of weight #{b} given by
+
+        \subtree[hodge-theory-iii-8.1.15.2]{
+          \taxon{equation}
+          \number{8.1.15.2}
+          ##{
+            \small
+            \begin{CD}
+              \HH^{b-(\beta+1)}(\Gr_{\beta+1}^W K^{\bullet,\gamma+1}) @>{\partial}>> \HH^{b-\beta}(\Gr_\beta^W K^{\bullet,\gamma+1}) @>{\partial}>> \HH^{b-(\beta-1)}(\Gr_{\beta-1}^W K^{\bullet,\gamma+1})
+            \\@. @A{d''}AA @AA{d''}A
+            \\@. \HH^{b-\beta}(\Gr_\beta^W K^{\bullet,\gamma}) @>>{\partial}> \HH^{b-(\beta-1)}(\Gr_{\beta-1}^W K^{\bullet,\gamma})
+            \end{CD}
+          \startverb\tag{8.1.15.2}\stopverb
+          }
+        }
+      }
+
+      \lic{(iii)}{
+        \oldpage{33}
+        On the #{{}_LE_r} pages of the spectral sequence defined by #{(\simp K_{A\otimes\QQ},L)}, the recurrent filtration and the two direct filtrations defined by #{\Dec_1(W)} agree;
+        similarly, on the #{{}_LE_r(\simp K_\CC)}, the recurrent filtration and the two direct filtrations induced by #{F} agree.
+        We denoted these filtrations again by #{W} and #{F} (respectively).
+      }
+
+      \lic{(iv)}{
+        For #{r\geqslant1}, #{({}_LE_r,W,F)} is a mixed Hodge #{A}-structure (\ref{hodge-theory-iii-0.4}).
+        The differentials #{d_r} are morphisms of mixed Hodge #{A}-structures.
+      }
+
+      \lic{(v)}{
+        The filtration #{L} on #{\HH^\bullet(\simp K)} is a filtration in the category of mixed Hodge structures, and
+
+        \subtree[hodge-theory-iii-8.1.15.3]{
+          \taxon{equation}
+          \number{8.1.15.3}
+          ##{
+            \Gr_L^p\big( \HH^{p+q}(\simp K), \delta(W,L)[p+q], F \big)
+            = ({}_LE_\infty^{pq},W,F).
+          \startverb\tag{8.1.15.3}\stopverb
+          }
+        }
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.16]{
+  \taxon{remark}
+  \number{8.1.16}
+
+  \p{
+    In
   }
 }
