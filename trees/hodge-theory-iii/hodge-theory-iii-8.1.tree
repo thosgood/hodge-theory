@@ -27,7 +27,7 @@
   \p{
     The following axioms have to be satisfied:
 
-    \subtree[hodge-theory-iii-8.1-ch1]{
+    \subtree[hodge-theory-iii-8.1.1-ch1]{
       \taxon{axiom}
       \number{CH1}
       \p{
@@ -36,7 +36,7 @@
       }
     }
 
-    \subtree[hodge-theory-iii-8.1-ch2]{
+    \subtree[hodge-theory-iii-8.1.1-ch2]{
       \taxon{axiom}
       \number{CH2}
       \p{
@@ -69,7 +69,7 @@
   \p{
     The following axiom has to be satisfied:
 
-    \subtree[hodge-theory-iii-8.1-chc]{
+    \subtree[hodge-theory-iii-8.1.2-chc]{
       \taxon{axiom}
       \number{CHC}
       \p{
@@ -267,7 +267,7 @@
   \proof{
     \p{
       The proof of (i), (ii), (iii), (iv) is parallel to that of \ref{hodge-theory-ii-3.2.5}.
-      The analogy of \ref{hodge-theory-ii-3.2.6} and \ref{hodge-theory-ii-3.2.7} has been taken as an axiom (\ref{hodge-theory-iii-8.1-ch1} and \ref{hodge-theory-iii-8.1-ch2}).
+      The analogy of \ref{hodge-theory-ii-3.2.6} and \ref{hodge-theory-ii-3.2.7} has been taken as an axiom (\ref{hodge-theory-iii-8.1.1-ch1} and \ref{hodge-theory-iii-8.1.1-ch2}).
       The proofs of \ref{hodge-theory-ii-3.2.8}, \ref{hodge-theory-ii-3.2.9}, and \ref{hodge-theory-ii-3.2.10} can be carried over as they are, and, as in \ref{hodge-theory-ii-3.2.10}, we thus deduce (i), (ii), (iii), and (iv).
       Claims (v) and (vi) then follow from \ref{hodge-theory-iii-7.2.8}.
     }
@@ -316,7 +316,72 @@
     \number{8.1.10.1}
 
     \p{
-      We
+      We similarly define \em{cosimplicial} (resp. \em{#{r}-cosimplicial}) \em{mixed Hodge #{A}-complexes} by replacing "DG" with "cosimplicial" (resp. #{r}-cosimplicial) everywhere in the definition.
+      The functor from cosimplicial #{A}-modules to DG #{A}-modules sends cosimplicial mixed Hodge #{A}-complexes to DG mixed Hodge #{A}-complexes (and similarly for #{r}-cosimplicial).
     }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.11]{
+  \number{8.1.11}
+
+  \p{
+    Let #{X_\bullet} be a simplicial topological space.
+    A \em{cohomological mixed Hodge #{A}-complex} #{K} on #{X_\bullet} consists of:
+
+    \olc{
+      \lic{(𝛼)}{
+        a complex #{K_A\in\Ob\DD^+(X_\bullet,A)};
+      }
+
+      \lic{(𝛽)}{
+        a filtered complex #{(K_{A\otimes\QQ},W)\in\Ob\DD^+F(X_\bullet,A\otimes\QQ)}, and an isomorphism #{K_{A\otimes\QQ}\simeq K_A\otimes\QQ} in #{\DD^+(X_\bullet,A\otimes\QQ)};
+      }
+
+      \lic{(𝛾)}{
+        a bifiltered complex #{(K_\CC,W,F)\in\Ob\DD^+F_2(X_\bullet,\CC)}, and an isomorphism #{(K_\CC,W)\simeq(K_{A\otimes\QQ},W)\otimes\CC} in #{\DD^+F(X_\bullet,\CC)}.
+      }
+    }
+  }
+
+  \p{
+    The following axiom has to be satisfied:
+
+    \subtree[hodge-theory-iii-8.1.11-chmbullet]{
+      \taxon{axiom}
+      \number{CHM●}
+      \p{
+        The restriction of #{K} to each of the #{X_n} is a cohomological mixed Hodge #{A}-complex.
+      }
+    }
+  }
+
+  \p{
+    For #{A=\ZZ}, we simply speak of a cohomological mixed Hodge complex.
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.12]{
+  \taxon{example}
+  \number{8.1.12}
+
+  \p{
+    Let #{X_\bullet} be a smooth proper scheme (over #{\CC}), and let #{Y_\bullet} be a normal crossing divisor in #{X_\bullet}.
+    We set #{U_\bullet=X_\bullet\setminus Y_\bullet}, and we denote by #{j} the inclusion of #{U_\bullet} into #{X_\bullet}.
+    The constructions in \ref{hodge-theory-iii-8.1.8} can be performed "uniformly in #{X_n}", as \ref{hodge-theory-iii-5.2.5} and \ref{hodge-theory-iii-6.2.7} show.
+    \oldpage{32}
+    They thus give a cohomological mixed Hodge complex
+    ##{
+      \big(\Rd j_*\ZZ, (\Rd j_*\QQ,\tau_{\leqslant}), (\Omega_{X_\bullet}^\bullet(\log Y_\bullet),W,F)\big)
+    }
+    on #{X_\bullet}.
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.13]{
+  \number{8.1.13}
+
+  \p{
+    Let
   }
 }
