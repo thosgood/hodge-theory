@@ -7,84 +7,9 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2603</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.10</fr:addr><fr:route>hodge-theory-iii-8.1.10.xml</fr:route><fr:authors /><fr:number>8.1.10</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We abbreviate "differential graded" to DG, and "bounded below differential graded" to DG+.
-    A DG complex of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-modules can be seen as a double complex of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-modules;
-    the <fr:em>first</fr:em> degree is that of the complex, and the <fr:em>second</fr:em> degree is that defined by the grading of DG modules.
-    
-    We denote by <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+(A\mathsf {-mod}_{\mathsf {DG}^+})]]></fr:tex> the derived category of the category of bounded below complexes of DG <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-modules, with degrees uniformly bounded below.</fr:p><fr:p>A <fr:em>DG mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complex</fr:em> <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> consists of:
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        a complex <fr:tex
-display="inline"><![CDATA[K_A\in \operatorname {Ob}\mathrm {D}^+(A\mathsf {-mod}_{\mathsf {DG}^+})]]></fr:tex>;
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        a filtered complex <fr:tex
-display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}},W)\in \operatorname {Ob}\mathrm {D}^+F((A\otimes \mathbb {Q})\mathsf {-mod}_{\mathsf {DG}^+})]]></fr:tex>, and is isomorphism <fr:tex
-display="inline"><![CDATA[K_A\otimes \mathbb {Q}\simeq  K_{A\otimes \mathbb {Q}}]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+]]></fr:tex>;
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(c) &quot;">
-        a bifiltered complex <fr:tex
-display="inline"><![CDATA[(K_\mathbb {C},F,W)\in \operatorname {Ob}\mathrm {D}^+F_2(\mathbb {C}\mathsf {-mod}_{\mathsf {DG}^+})]]></fr:tex>, and an isomorphism <fr:tex
-display="inline"><![CDATA[K_{A\otimes \mathbb {Q}}\otimes \mathbb {C}\simeq  K_\mathbb {C}]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+F]]></fr:tex>.
-      </html:li>
-
-    </html:ol></fr:p><fr:p>We require that, for each <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, the component <fr:tex
-display="inline"><![CDATA[(K^{\bullet  n},F,W)]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> whose second degree is <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> be a mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complex.</fr:p><fr:p>We denote by <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> the filtration by the second degree of <fr:tex
-display="inline"><![CDATA[\mathrm {s} K]]></fr:tex>.
-    We denote by <fr:tex
-display="inline"><![CDATA[\operatorname {Dec}_1W]]></fr:tex> the filtration of <fr:tex
-display="inline"><![CDATA[K_{A\otimes \mathbb {Q}}]]></fr:tex> induced by shifting (<fr:ref
-addr="hodge-theory-ii-1.3.3"
-href="hodge-theory-ii-1.3.3.xml"
-number="1.3.3" />) <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>.
-    We will not confuse the filtration that this induces on <fr:tex
-display="inline"><![CDATA[\mathrm {s} K_{A\otimes \mathbb {Q}}]]></fr:tex> (also denoted by <fr:tex
-display="inline"><![CDATA[\operatorname {Dec}_1W]]></fr:tex>) with the shifted filtration of the filtration induced on <fr:tex
-display="inline"><![CDATA[\mathrm {s} K_{A\otimes \mathbb {Q}}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1075</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.10.1</fr:addr><fr:route>hodge-theory-iii-8.1.10.1.xml</fr:route><fr:taxon>Variation</fr:taxon><fr:authors /><fr:number>8.1.10.1</fr:number><fr:parent>hodge-theory-iii-8.1.10</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We similarly define <fr:em>cosimplicial</fr:em> (resp. <fr:em><fr:tex
-display="inline"><![CDATA[r]]></fr:tex>-cosimplicial</fr:em>) <fr:em>mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complexes</fr:em> by replacing "DG" with "cosimplicial" (resp. <fr:tex
-display="inline"><![CDATA[r]]></fr:tex>-cosimplicial) everywhere in the definition.
-      The functor from cosimplicial <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-modules to DG <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-modules sends cosimplicial mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complexes to DG mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complexes (and similarly for <fr:tex
-display="inline"><![CDATA[r]]></fr:tex>-cosimplicial).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2623</fr:anchor><fr:addr
+type="user">hodge-theory-iii-8.1.14</fr:addr><fr:route>hodge-theory-iii-8.1.14.xml</fr:route><fr:authors /><fr:number>8.1.14</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[K]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -99,7 +24,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2604</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2624</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8.1</fr:addr><fr:route>hodge-theory-iii-8.1.xml</fr:route><fr:title
 text="Hodge Theory III › Hodge theory of algebraic spaces › Hodge complexes"><fr:link
 type="local"
@@ -873,126 +798,4 @@ expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1386</fr:anchor><fr:addr
 type="user">hodge-theory-iii-8.1.14</fr:addr><fr:route>hodge-theory-iii-8.1.14.xml</fr:route><fr:authors /><fr:number>8.1.14</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[K]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2605</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.13</fr:addr><fr:route>hodge-theory-iii-8.1.13.xml</fr:route><fr:authors /><fr:number>8.1.13</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be a cohomological mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complex on <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
-    Write <fr:tex
-display="inline"><![CDATA[A\mathsf {-mod}_\mathsf {cosimp}]]></fr:tex> to mean the category of cosimplicial <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-modules.
-    If we apply the functor <fr:tex
-display="inline"><![CDATA[\mathrm {R}\Gamma ^\bullet ]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, then we obtain
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        a cosimplicial complex <fr:tex
-display="inline"><![CDATA[\mathrm {R}\Gamma ^\bullet  K_A\in \operatorname {Ob}\mathrm {D}^+(A\mathsf {-mod}_\mathsf {cosimp})]]></fr:tex>;
-      </html:li>
-
-
-      
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        a cosimplicial filtered complex <fr:tex
-display="inline"><![CDATA[\mathrm {R}\Gamma ^\bullet (K_{A\otimes \mathbb {Q}},W)\in \operatorname {Ob}\mathrm {D}^+F(A\otimes \mathbb {Q}\mathsf {-mod}_\mathsf {cosimp})]]></fr:tex>;
-      </html:li>
-
-
-      
- <html:li
-style="list-style-type: &quot;(c) &quot;">
-        a cosimplicial bifiltered complex <fr:tex
-display="inline"><![CDATA[\mathrm {R}\Gamma ^\bullet (K_\mathbb {C},W,F)\in \operatorname {Ob}\mathrm {D}^+F_2(\mathbb {C}\mathsf {-mod}_\mathsf {cosimp})]]></fr:tex>;
-      </html:li>
-
-
-      
- <html:li
-style="list-style-type: &quot;(d) &quot;">
-        isomorphisms as in (b) and (c) of <fr:ref
-addr="hodge-theory-iii-8.1.10"
-href="hodge-theory-iii-8.1.10.xml"
-number="8.1.10" /> between these objects.
-      </html:li>
-
-    </html:ol></fr:p><fr:p>It is clear that the <fr:tex
-display="inline"><![CDATA[\mathrm {R}\Gamma ^\bullet (K,W,F)]]></fr:tex> described above is a cosimplicial mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-module.
-    It defines a DG mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complex (<fr:ref
-addr="hodge-theory-iii-8.1.10.1"
-href="hodge-theory-iii-8.1.10.1.xml"
-taxon="Variation"
-number="8.1.10.1" />).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2606</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.3.3</fr:addr><fr:route>hodge-theory-ii-1.3.3.xml</fr:route><fr:authors /><fr:number>1.3.3</fr:number><fr:parent>hodge-theory-ii-1.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[(K,F)]]></fr:tex> is a filtered complex, we denote by <fr:tex
-display="inline"><![CDATA[\operatorname {Dec}(K)]]></fr:tex> the complex <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> endowed with the <fr:em>shifted filtration</fr:em>
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Dec}(F)^p K^n       = Z_1^{p+n,-p}.     ]]></fr:tex></fr:p><fr:p>This filtration is compatible with the differentials:
-    <fr:tex
-display="block"><![CDATA[       \begin {aligned}         dZ_1^{p+n,-p}         &\subset  F^{p+n+1}(K^{n+1}) \cap  \operatorname {Ker}(d)       \\&\subset  Z_\infty ^{p+n+1,-p}       \\&\subset  Z_1^{p+n+1,-p}.       \end {aligned}     ]]></fr:tex>
-
-    Since
-
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>919</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.3.3.1</fr:addr><fr:route>hodge-theory-ii-1.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3.3.1</fr:number><fr:parent>hodge-theory-ii-1.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \begin {aligned}           Z_1^{p+1+n,-p-1}           &\subset  F^{p+1+n}(K^n)         \\&\subset  B_1^{p+n,-p}         \\&\subset  Z_1^{p+n,-p}         \end {aligned}       \tag{1.3.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-    the evident arrow from <fr:tex
-display="inline"><![CDATA[Z_1^{p+n,-p}/Z_1^{p+1+n,-p-1}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[Z_1^{p+n,-p}/B_1^{p+n,-p}]]></fr:tex> is a morphism
-
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>920</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.3.3.2</fr:addr><fr:route>hodge-theory-ii-1.3.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.3.3.2</fr:number><fr:parent>hodge-theory-ii-1.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         u\colon  E_0^{p,n-p}(\operatorname {Dec}(K)) \to  E_1^{p+n,-p}(K).       \tag{1.3.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+display="inline"><![CDATA[K]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
