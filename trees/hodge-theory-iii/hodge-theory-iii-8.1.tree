@@ -499,6 +499,58 @@
   \number{8.1.16}
 
   \p{
-    In
+    In \ref{hodge-theory-iii-8.1.15}, the filtration #{\Dec_1(W)} (\ref{hodge-theory-iii-8.1.10}) plays a more important role than #{W}.
+    We have
+
+    \subtree[hodge-theory-iii-8.1.16.1]{
+      \taxon{equation}
+      \number{8.1.16.1}
+      ##{
+        \Dec(\delta(W,L))
+        = \Dec_1(W)
+        \qquad\text{on }\simp K
+      \startverb\tag{8.1.16.1}\stopverb
+      }
+    }
+
+    and \ref{hodge-theory-iii-8.1.15.3} can be rewritten as
+
+    \subtree[hodge-theory-iii-8.1.16.2]{
+      \taxon{equation}
+      \number{8.1.16.2}
+      ##{
+        \Gr_L(\HH(K),\Dec_1(W,F))
+        = ({}_LE_\infty,W,F).
+      \startverb\tag{8.1.16.2}\stopverb
+      }
+    }
+
+    In the same spirit, we note that, with the notation of \ref{hodge-theory-iii-8.1.8},
+    ##{
+      \Rd\Gamma\big( \Rd j_*\ZZ, (\Rd j_*\QQ,\Dec W), (\Omega_X^\bullet(\log D),\Dec W,F) \big)
+    }
+    depends only on #{U}, and not on the choice of compactification #{X}.
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.17]{
+  \number{8.1.17}
+
+  \p{
+    We now prove \ref{hodge-theory-iii-8.1.15}.
+    Claims (i) and (ii) follow from the fact that
+    ##{
+      \begin{aligned}
+        \Gr_n^{\delta(W,L)}(\simp K\otimes\QQ)
+        &= \sum_{p-q=n} \Gr_p^W\Gr_L^q(\simp K\otimes\QQ)
+      \\&= \sum_{p-q=n} (\Gr_p^W K^{\bullet q})[-q]
+      \end{aligned}
+    }
+    (this isomorphism is compatible with #{F}, and we apply \ref{hodge-theory-iii-8.1.4}).
+    The proof of \ref{hodge-theory-iii-8.1.15.2} is left to the reader.
+  }
+
+  \p{
+    Consider the claims:
   }
 }
