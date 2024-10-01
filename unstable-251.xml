@@ -7,47 +7,38 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2801</fr:anchor><fr:addr
-type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2853</fr:anchor><fr:addr
+type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.16</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Let <fr:tex
-display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be an integer.
+      Replacing <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>, if necessary, we can assume that the local system <fr:tex
+display="inline"><![CDATA[{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)]]></fr:tex> is trivial on <fr:tex
 display="inline"><![CDATA[S]]></fr:tex>.
-      There exists a dense Zariski open <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
+      Replacing <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is polarised in the principal series.
+      Suppose that <fr:tex
+display="inline"><![CDATA[n\geqslant  3]]></fr:tex>.</fr:p>
 
-    <fr:p>We lose no generality by assuming that <fr:tex
-display="inline"><![CDATA[s\in  T]]></fr:tex>.
-      In the diagram
+    <fr:p>The abelian scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> then defines a dominant morphism <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> from the <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to the scheme of "Jacobi" modules <fr:tex
+display="inline"><![CDATA[M_n]]></fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex
+display="inline"><![CDATA[{}_nX]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(\mathbb {Z}{/}n)^{2g}]]></fr:tex>;
+      furthermore, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an inverse image under <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of the universal abelian scheme on <fr:tex
+display="inline"><![CDATA[M_n]]></fr:tex>.
       
-  <fr:embedded-tex
-hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        \pi _1(T,s)
-          \ar [r]
-          \ar [d,swap,"a"]
-        & \pi _1(S,s)
-          \ar [d,"c"]
-      \\\pi _1(U,p(s))
-        \ar [r,swap,"b"]
-        & \pi _1(M,p(s))
-      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-
-      the image of the arrow <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex
-display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex
-display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
-      The image of the arrow <fr:tex
-display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
+      We know that <fr:tex
+display="inline"><![CDATA[\pi _1(M_n,x(s))]]></fr:tex> is sent isomorphically to the subgroup of <fr:tex
+display="inline"><![CDATA[\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))]]></fr:tex> given by the kernel of the reduction <fr:tex
+display="inline"><![CDATA[\operatorname {mod}{n}]]></fr:tex> map.
+      It thus remains to show that:</fr:p>
   </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -63,12 +54,15 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2802</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.17</fr:addr><fr:route>hodge-theory-ii-4.4.17.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>4.4.17</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[p\colon  S\to  M]]></fr:tex> be a dominant morphism of smooth connected schemes.
-    The subgroup <fr:tex
-display="inline"><![CDATA[p(\pi _1(S,s))]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\pi _1(M,p(s))]]></fr:tex> is then of finite index.</fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2854</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.16</fr:addr><fr:route>hodge-theory-ii-4.4.16.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>4.4.16</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies <fr:ref
+addr="hodge-theory-ii-4.4.14.1"
+href="hodge-theory-ii-4.4.14.1.xml"
+taxon="Hypothesis"
+number="4.4.14.1" />, then the image of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in the group of symplectic automorphisms of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^1(X_s,\mathbb {Z})]]></fr:tex> is of finite index.</fr:p>
   
     
     <fr:tree
@@ -78,47 +72,38 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1868</fr:anchor><fr:addr
-type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1878</fr:anchor><fr:addr
+type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.16</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Let <fr:tex
-display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be an integer.
+      Replacing <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>, if necessary, we can assume that the local system <fr:tex
+display="inline"><![CDATA[{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)]]></fr:tex> is trivial on <fr:tex
 display="inline"><![CDATA[S]]></fr:tex>.
-      There exists a dense Zariski open <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
+      Replacing <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is polarised in the principal series.
+      Suppose that <fr:tex
+display="inline"><![CDATA[n\geqslant  3]]></fr:tex>.</fr:p>
 
-    <fr:p>We lose no generality by assuming that <fr:tex
-display="inline"><![CDATA[s\in  T]]></fr:tex>.
-      In the diagram
+    <fr:p>The abelian scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> then defines a dominant morphism <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> from the <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> to the scheme of "Jacobi" modules <fr:tex
+display="inline"><![CDATA[M_n]]></fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex
+display="inline"><![CDATA[{}_nX]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(\mathbb {Z}{/}n)^{2g}]]></fr:tex>;
+      furthermore, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an inverse image under <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of the universal abelian scheme on <fr:tex
+display="inline"><![CDATA[M_n]]></fr:tex>.
       
-  <fr:embedded-tex
-hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        \pi _1(T,s)
-          \ar [r]
-          \ar [d,swap,"a"]
-        & \pi _1(S,s)
-          \ar [d,"c"]
-      \\\pi _1(U,p(s))
-        \ar [r,swap,"b"]
-        & \pi _1(M,p(s))
-      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-
-      the image of the arrow <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex
-display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex
-display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
-      The image of the arrow <fr:tex
-display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
+      We know that <fr:tex
+display="inline"><![CDATA[\pi _1(M_n,x(s))]]></fr:tex> is sent isomorphically to the subgroup of <fr:tex
+display="inline"><![CDATA[\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))]]></fr:tex> given by the kernel of the reduction <fr:tex
+display="inline"><![CDATA[\operatorname {mod}{n}]]></fr:tex> map.
+      It thus remains to show that:</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

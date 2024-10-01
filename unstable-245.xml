@@ -7,17 +7,38 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2789</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
-      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex
-display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X_2]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, the <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex
-display="inline"><![CDATA[\underline {\operatorname {Hom}}_S(X_1,X_2)]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, and thus has the same algebraic and holomorphic sections.</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3154</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:title
+text="Untitled › Geometric realisation"><fr:link
+type="local"
+href="hodge-theory-iii-5.2.1.xml"
+addr="hodge-theory-iii-5.2.1">Untitled</fr:link> › Geometric realisation</fr:title><fr:authors /><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For an integer <fr:tex
+display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex
+display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex
+display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
+      We identify <fr:tex
+display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex
+display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
+      Every function <fr:tex
+display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex
+display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
+      Let
+      <fr:tex
+display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
+      Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex
+display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex
+display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex
+display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
+      <fr:tex
+display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
+      The <fr:em>geometric realisation</fr:em> of <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
+      <fr:tex
+display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -32,56 +53,66 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2790</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.3</fr:addr><fr:route>hodge-theory-ii-4.4.3.xml</fr:route><fr:taxon>Reminder</fr:taxon><fr:authors /><fr:number>4.4.3</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be a smooth scheme of finite type over <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
-    The construction of <fr:ref
-addr="hodge-theory-ii-4.4.2"
-href="hodge-theory-ii-4.4.2.xml"
-number="4.4.2" /> establishes an equivalence of categories between
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3155</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.2.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.xml</fr:route><fr:authors /><fr:number>5.2.1</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>To each simplicial topological space <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> is associated a usual topological space <fr:tex
+display="inline"><![CDATA[|X_\bullet |]]></fr:tex>, called its geometric realisation (see below).
+    In the particular case where the <fr:tex
+display="inline"><![CDATA[X_n]]></fr:tex> are discrete, we recover the usual notion of geometric realisation of a simplicial set.</fr:p><fr:p>In [<fr:link
+type="local"
+href="S1968.xml"
+addr="S1968"
+title="Classifying spaces and spectral sequences">S1968</fr:link>], G. Segal defined the cohomology of <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> with values in an abelian group <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\operatorname {H}^\bullet (|X_\bullet |,A)]]></fr:tex>.
+    Under suitable hypotheses, the filtration of <fr:tex
+display="inline"><![CDATA[|X_\bullet |]]></fr:tex> by successive skeletons gives a spectral sequence
 
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        the category of abelian schemes over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>; and
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        the category of polarisable continuous families of Hodge structures <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> of type <fr:tex
-display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[H_\mathbb {Z}]]></fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-      </html:li>
-
-    </html:ol></fr:p>
-  
-    
     <fr:tree
-toc="false"
+toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1813</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.3</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
-      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex
-display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X_2]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, the <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex
-display="inline"><![CDATA[\underline {\operatorname {Hom}}_S(X_1,X_2)]]></fr:tex> is unramified over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, and thus has the same algebraic and holomorphic sections.</fr:p>
-  </fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>422</fr:anchor><fr:addr
+type="user">hodge-theory-iii-5.2.1.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.1.1</fr:number><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,A)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,A).       \tag{5.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>One of the interests in using this definition is that it also applies, for example, to the definition of the groups <fr:tex
+display="inline"><![CDATA[K(X_\bullet )]]></fr:tex>.
+    We will adopt another definition, which is better adapted to sheaf-theoretic techniques.</fr:p><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:title
+text="Geometric realisation">Geometric realisation</fr:title><fr:authors /><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For an integer <fr:tex
+display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex
+display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex
+display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
+      We identify <fr:tex
+display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex
+display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
+      Every function <fr:tex
+display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex
+display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
+      Let
+      <fr:tex
+display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
+      Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex
+display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex
+display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex
+display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
+      <fr:tex
+display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
+      The <fr:em>geometric realisation</fr:em> of <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
+      <fr:tex
+display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

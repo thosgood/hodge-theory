@@ -7,23 +7,109 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2797</fr:anchor><fr:addr
-type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.15</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Let <fr:tex
-display="inline"><![CDATA[s\in  S]]></fr:tex>.
-      By <fr:ref
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2849</fr:anchor><fr:addr
+type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By duality, it suffices to prove the first claim.
+      We can also suppose <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> to be simple.
+      We will show that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies one of the conditions of (c) in <fr:ref
 addr="hodge-theory-ii-4.4.11"
 href="hodge-theory-ii-4.4.11.xml"
 taxon="Proposition"
-number="4.4.11" /> and <fr:ref
+number="4.4.11" />.</fr:p>
+
+    <fr:p>Set <fr:tex
+display="inline"><![CDATA[H=\mathbb {M}_c(D)]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> a skew field of rank <fr:tex
+display="inline"><![CDATA[b^2]]></fr:tex> over its centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, which we know to be either completely real or completely imaginary.
+      If we set <fr:tex
+display="inline"><![CDATA[a=[Z:\mathbb {Q}]]]></fr:tex>, then we have
+
+      <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1869</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           ab^2c \mathbin {\vert } 2g \leqslant  6.         \tag{4.4.13.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        <fr:p>If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex
+display="inline"><![CDATA[a=2g=4]]></fr:tex>.
+          For <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, the centraliser of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> acting on <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is thus commutative, and so the action of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
+addr="hodge-theory-ii-4.2.8"
+href="hodge-theory-ii-4.2.8.xml"
+taxon="Corollary"
+number="4.2.8" /> or <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9" />).
+          This is a contradiction (<fr:ref
+addr="hodge-theory-ii-4.1.3.3"
+href="hodge-theory-ii-4.1.3.3.xml"
+number="4.1.3.3" /> and <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3" />).</fr:p>
+
+        <fr:p>With the notation of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8" />, we can also note that the <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> are then of rank <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, and so condition (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8" /> is satisfied at each place, and the Hodge structure is locally constant.</fr:p>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex
+display="inline"><![CDATA[a\geqslant 2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\geqslant 2]]></fr:tex>, which is a contradiction.
+      </html:li>
+
+    </html:ol>
+
+
+    <fr:p>We will show that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies the conditions of <fr:ref
 addr="hodge-theory-ii-4.4.12"
 href="hodge-theory-ii-4.4.12.xml"
 taxon="Proposition"
-number="4.4.12" />, it suffices to show that the representation of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is absolutely irreducible, so that <fr:tex
-display="inline"><![CDATA[H=\mathbb {Q}]]></fr:tex>.
-      This follows from the following lemma.</fr:p>
+number="4.4.12" />.
+      If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is imaginary quadratic, and if there exists <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> is of pure Hodge type <fr:tex
+display="inline"><![CDATA[(-1,0)]]></fr:tex>, then the Hodge structure on <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}]]></fr:tex> is locally constant, which is a contradiction.
+      This proves <fr:ref
+addr="hodge-theory-ii-4.4.13"
+href="hodge-theory-ii-4.4.13.xml"
+taxon="Corollary"
+number="4.4.13" />.</fr:p>
   </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -39,19 +125,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2798</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.15</fr:addr><fr:route>hodge-theory-ii-4.4.15.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.4.15</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be a smooth connected scheme, and <fr:tex
-display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> a polarised abelian scheme over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> that satisfies <fr:ref
-addr="hodge-theory-ii-4.4.14.1"
-href="hodge-theory-ii-4.4.14.1.xml"
-taxon="Hypothesis"
-number="4.4.14.1" />.
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2850</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a smooth connected scheme with generic point <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> of relative dimension <fr:tex
+display="inline"><![CDATA[g\leqslant 3]]></fr:tex>.
+    Suppose that, on any finite étale covering of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> does not admit a constant abelian subscheme.
     Then, for every abelian scheme <fr:tex
 display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, we have
     <fr:tex
-display="block"><![CDATA[       \operatorname {Hom}(X,Y)       \xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).     ]]></fr:tex></fr:p>
+display="block"><![CDATA[       \begin {aligned}         \operatorname {Hom}(X,Y)         &\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})       \\\operatorname {Hom}(Y,X)         &\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1g_*\mathbb {Z},\mathrm {R}_1f_*\mathbb {Z}).       \end {aligned}     ]]></fr:tex></fr:p>
   
     
     <fr:tree
@@ -61,23 +148,109 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1864</fr:anchor><fr:addr
-type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.15</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Let <fr:tex
-display="inline"><![CDATA[s\in  S]]></fr:tex>.
-      By <fr:ref
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1868</fr:anchor><fr:addr
+type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By duality, it suffices to prove the first claim.
+      We can also suppose <fr:tex
+display="inline"><![CDATA[X_\eta ]]></fr:tex> to be simple.
+      We will show that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies one of the conditions of (c) in <fr:ref
 addr="hodge-theory-ii-4.4.11"
 href="hodge-theory-ii-4.4.11.xml"
 taxon="Proposition"
-number="4.4.11" /> and <fr:ref
+number="4.4.11" />.</fr:p>
+
+    <fr:p>Set <fr:tex
+display="inline"><![CDATA[H=\mathbb {M}_c(D)]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> a skew field of rank <fr:tex
+display="inline"><![CDATA[b^2]]></fr:tex> over its centre <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, which we know to be either completely real or completely imaginary.
+      If we set <fr:tex
+display="inline"><![CDATA[a=[Z:\mathbb {Q}]]]></fr:tex>, then we have
+
+      <fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1869</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[           ab^2c \mathbin {\vert } 2g \leqslant  6.         \tag{4.4.13.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        <fr:p>If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex
+display="inline"><![CDATA[a=2g=4]]></fr:tex>.
+          For <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, the centraliser of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> acting on <fr:tex
+display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is thus commutative, and so the action of <fr:tex
+display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
+addr="hodge-theory-ii-4.2.8"
+href="hodge-theory-ii-4.2.8.xml"
+taxon="Corollary"
+number="4.2.8" /> or <fr:ref
+addr="hodge-theory-ii-4.2.9"
+href="hodge-theory-ii-4.2.9.xml"
+taxon="Corollary"
+number="4.2.9" />).
+          This is a contradiction (<fr:ref
+addr="hodge-theory-ii-4.1.3.3"
+href="hodge-theory-ii-4.1.3.3.xml"
+number="4.1.3.3" /> and <fr:ref
+addr="hodge-theory-ii-4.4.3"
+href="hodge-theory-ii-4.4.3.xml"
+taxon="Reminder"
+number="4.4.3" />).</fr:p>
+
+        <fr:p>With the notation of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8" />, we can also note that the <fr:tex
+display="inline"><![CDATA[T_\rho ]]></fr:tex> are then of rank <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, and so condition (b) of <fr:ref
+addr="hodge-theory-ii-4.4.8"
+href="hodge-theory-ii-4.4.8.xml"
+number="4.4.8" /> is satisfied at each place, and the Hodge structure is locally constant.</fr:p>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex
+display="inline"><![CDATA[a\geqslant 2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\geqslant 2]]></fr:tex>, which is a contradiction.
+      </html:li>
+
+    </html:ol>
+
+
+    <fr:p>We will show that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> satisfies the conditions of <fr:ref
 addr="hodge-theory-ii-4.4.12"
 href="hodge-theory-ii-4.4.12.xml"
 taxon="Proposition"
-number="4.4.12" />, it suffices to show that the representation of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is absolutely irreducible, so that <fr:tex
-display="inline"><![CDATA[H=\mathbb {Q}]]></fr:tex>.
-      This follows from the following lemma.</fr:p>
+number="4.4.12" />.
+      If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is imaginary quadratic, and if there exists <fr:tex
+display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> is of pure Hodge type <fr:tex
+display="inline"><![CDATA[(-1,0)]]></fr:tex>, then the Hodge structure on <fr:tex
+display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}]]></fr:tex> is locally constant, which is a contradiction.
+      This proves <fr:ref
+addr="hodge-theory-ii-4.4.13"
+href="hodge-theory-ii-4.4.13.xml"
+taxon="Corollary"
+number="4.4.13" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
