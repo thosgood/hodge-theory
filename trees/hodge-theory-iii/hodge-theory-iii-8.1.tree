@@ -278,11 +278,11 @@
   \number{8.1.10}
 
   \p{
-    We abbreviate "differential graded" to DG, and "bounded below differential graded" to DG+.
+    We abbreviate "differential graded" to DG, and "bounded-below differential graded" to DG+.
     A DG complex of #{A}-modules can be seen as a double complex of #{A}-modules;
     the \em{first} degree is that of the complex, and the \em{second} degree is that defined by the grading of DG modules.
     \oldpage{31}
-    We denote by #{\DD^+(\dgmodpluscat{A})} the derived category of the category of bounded below complexes of DG #{A}-modules, with degrees uniformly bounded below.
+    We denote by #{\DD^+(\dgmodpluscat{A})} the derived category of the category of bounded-below complexes of DG #{A}-modules, with degrees uniformly bounded below.
   }
 
   \p{
@@ -732,8 +732,151 @@
 
     \olc{
       \lic{(i)}{
-        The
+        The mixed Hodge structure of #{\HH^n(U_\bullet,\ZZ)} is functorial in the pair #{(U_\bullet,X_\bullet)}.
+      }
+
+      \lic{(ii)}{
+        In rational cohomology, the spectral sequence \ref{hodge-theory-iii-8.1.19.1} degenerates at #{E_2} (i.e. #{E_2=E_\infty}) and abuts to the weight filtration of #{\HH^n(U_\bullet,\QQ)}.
+        The Hodge structure of #{E_2} induced by that of #{E_1} is also that of #{\Gr_W\HH^n(U_\bullet,\QQ)}.
+      }
+
+      \lic{(iii)}{
+        The Hodge numbers of #{\HH^n(U_\bullet,\ZZ)} satisfy
+        ##{
+          h^{pq}\neq0
+          \implies
+          0\leqslant p,q\leqslant n.
+        }
+      }
+
+      \lic{(iv)}{
+        For #{Y_\bullet=\varnothing}, the Hodge numbers of #{\HH^n(X_\bullet,\ZZ)} satisfy
+        ##{
+          h^{pq}\neq0
+          \implies
+          [0\leqslant p,q\leqslant n
+          \quad\text{and}\quad p+q\leqslant n].
+        }
       }
     }
+
+    \proof{
+      \p{
+        Both (i) and (ii) follow from the general theory (\ref{hodge-theory-iii-8.1.9}).
+        To prove (iii), we contemplate \ref{hodge-theory-iii-8.1.19} and note that the Hodge structures #{\HH^p(\widetilde{Y}_q^r,\varepsilon_\QQ^r)[-r]} (for #{p+q+r=n}) satisfy (iii).
+        To prove (iv), we note that the Hodge structures #{\HH^p(X_q)} (for #{p+q=n}) satisfy (iv).
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.21]{
+  \number{8.1.21}
+
+  \p{
+    We define a \em{cohomological mixed Hodge #{A}-complex on an #{r}-simplicial topological space} by transposing \ref{hodge-theory-iii-8.1.11}.
+    If #{K} is such a complex, then we see, as in \ref{hodge-theory-iii-8.1.13}, that #{\Rd\Gamma^\bullet K} is an #{r}-cosimplicial mixed Hodge #{A}-complex (\ref{hodge-theory-iii-8.1.10.1}).
+  }
+
+  \p{
+    \oldpage{36}
+    Let #{X_\bullet} be a smooth and proper #{r}-simplicial scheme.
+    A normal crossing divisor #{D_\bullet} on #{X_\bullet} is a system of normal crossing divisors on the #{X_n} such that #{X_\bullet\setminus D_\bullet=U_\bullet} is an #{r}-simplicial subscheme of #{X_\bullet}.
+    Let #{j\colon U_\bullet\hookrightarrow X_\bullet}.
+    We define, as in \ref{hodge-theory-iii-8.1.12}, a cohomological mixed Hodge complex #{\Rd j_*\ZZ} on #{X_\bullet}.
+  }
+
+  \p{
+    We can, as in \ref{hodge-theory-iii-8.1.20}, thus deduce a mixed Hodge structure on #{\HH^\bullet(U_\bullet,\ZZ)}, but, since
+    ##{
+      \HH^\bullet(U_\bullet,\ZZ)
+      = \HH^\bullet(\delta U_\bullet,\ZZ),
+    }
+    this does not teach us anything new (the above equality would be an identity between mixed Hodge structures).
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.22]{
+  \number{8.1.22}
+
+  \p{
+    Set #{r=2}.
+    For every bounded-below bicosimplicial complex #{K=(K^{pn_1n_2})} (where #{p} is the differential degree, and #{n_i} is the #{i}-th simplicial degree), we denote by #{\simp_1K} the cosimplicial complex of simplicial degree #{n_2} given by
+    ##{
+      (\simp_1K)^{\bullet n_2}
+      = \simp K^{\bullet\bullet n_2}.
+    }
+    We denote by #{L_1} the filtration on #{\simp_1K} that, on each #{\simp K^{\bullet\bullet n_2}}, induces the filtration by the simplicial degree #{n_1}.
+  }
+
+  \p{
+    Let #{K} be a bicosimplicial mixed Hodge #{A}-complex.
+    It follows from \ref{hodge-theory-iii-8.1.15} that #{(\simp_1K,\delta(W,L_1),F)} is a cosimplicial mixed Hodge complex.
+    Let #{L_2} be the filtration of #{\simp K=\simp\simp_1K} by the simplicial degree #{n_2}.
+    By \ref{hodge-theory-iii-8.1.14} and \ref{hodge-theory-iii-8.1.15}, the spectral sequence defined by #{L_2} comes from a spectral sequence in the abelian category of mixed Hodge #{A}-structures
+
+    \subtree[hodge-theory-iii-8.1.22.1]{
+      \taxon{equation}
+      \number{8.1.22.1}
+      ##{
+        {}_{L_2}E_1^{pq}
+        = \HH^q(\simp K^{\bullet\bullet p})
+        \To \HH^{p+q}(\simp K).
+      \startverb\tag{8.1.22.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    In this spectral sequence, the mixed Hodge #{A}-structure on #{E_1^{pq}} is the mixed Hodge #{A}-structure ((ii) of \ref{hodge-theory-iii-8.1.9}) of the cohomology of the mixed Hodge #{A}-complex #{(\simp K^{\bullet\bullet p},\delta(W,L_1),F)}.
+    The mixed Hodge #{A}-structure of the abutment is the mixed Hodge #{A}-structure of the cohomology of the mixed Hodge #{A}-complex #{(\simp K,\delta(\delta(W,L_1),L_2),F)}.
+    The filtration #{\delta(\delta(W,L_1),L_2)\eqqcolon\delta(W,L_1,L_2)} is given by
+    ##{
+      \delta(W,L_1,L_2)_k(K^{pn_1n_2})
+      = W_{k+n_1+n_2}K^{pn_1n_2}.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.23]{
+  \number{8.1.23}
+
+  \p{
+    In particular, a cohomological mixed Hodge #{A}-complex on a bisimplicial topological space #{X_{\bullet\bullet}} defines a spectral sequence of mixed Hodge #{A}-structures
+
+    \subtree[hodge-theory-iii-8.1.23.1]{
+      \taxon{equation}
+      \number{8.1.23.1}
+      ##{
+        E_1^{pq}
+        = \HH^q(X_{\bullet p},K)
+        \To \HH^{p+q}(X_{\bullet\bullet},K).
+      \startverb\tag{8.1.23.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    In the particular case considered in \ref{hodge-theory-iii-8.1.21}, for #{r=2}, we have #{A=\ZZ}, and \ref{hodge-theory-iii-8.1.23.1} can be written as
+
+    \subtree[hodge-theory-iii-8.1.23.2]{
+      \taxon{equation}
+      \number{8.1.23.2}
+      ##{
+        E_1^{pq}
+        = \HH^q(U_{\bullet p},\ZZ)
+        \To \HH^{p+q}(U_{\bullet\bullet},\ZZ).
+      \startverb\tag{8.1.23.2}\stopverb
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.24]{
+  \number{8.1.24}
+
+  \p{
+    \oldpage{37}
+    If
   }
 }
