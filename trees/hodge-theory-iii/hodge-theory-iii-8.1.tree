@@ -877,6 +877,92 @@
 
   \p{
     \oldpage{37}
-    If
+    If #{K'} and #{K''} are mixed Hodge #{A}-complexes, then then their product #{K'\otimes K''}, defined by
+    ##{
+      \begin{aligned}
+        (K'\otimes K'')_A
+        &= K'_A\Lotimes K''_A
+      \\((K'\otimes K'')_{A\otimes\QQ},W)
+        &= (K'_{A\otimes\QQ},W')\otimes(K''_{A\otimes\QQ},W'')
+      \\((K'\otimes K'')_\CC,W,F)
+        &= (K'_\CC,W',F')\otimes(K''_\CC,W'',F'')
+      \end{aligned}
+    }
+    is again a mixed Hodge #{A}-complex.
+  }
+
+  \p{
+    Let #{U'} (resp. #{U''}) be the complement of a normal crossing divisor #{Y'} (resp. #{Y''}) in a smooth and proper scheme #{X'} (resp. #{X''}).
+    Then #{U=U'\times U''} is the complement of a normal crossing divisor #{Y} in #{X=X'\times X''}.
+    Let #{j} (resp. #{j'}, #{j''}) be the inclusion of #{U} (resp. #{U'}, #{U''}) into #{X} (resp. #{X'}, #{X''}).
+  }
+
+  \p{
+    We have a quasi-isomorphism
+    ##{
+      \Rd j'_*\ZZ\Lboxtimes \Rd j''_*\ZZ
+      \coloneqq \pr_1^*\Rd j'_*\ZZ\Lotimes\pr_2^*\Rd j''_*\ZZ
+      \simto \Rd j_*\ZZ,
+    }
+    a filtered quasi-isomorphism
+    ##{
+      (\Rd j'_*\QQ,\tau_\leqslant)\Lboxtimes(\Rd j''_*\QQ,\tau_\leqslant)
+      \simto (\Rd j_*\QQ,\tau_\leqslant),
+    }
+    and a bifiltered morphism
+    ##{
+      (\Omega_{X'}^\bullet(\log Y'),W,F)\boxtimes(\Omega_{X''}(\log Y''),W,F)
+      \to (\Omega_X^\bullet(\log Y),W,F).
+    }
+  }
+
+  \p{
+    Applying the functor #{\Rd\Gamma} gives us, by the Künneth formula, and by its analogue for cohomology of coherent analytic sheaves, an isomorphism of mixed Hodge complexes
+    ##{
+      \Rd\Gamma(U',\ZZ)\Lotimes\Rd\Gamma(U'',\ZZ)
+      \simto \Rd\Gamma(U,\ZZ)
+    }
+    whence an isomorphism of mixed Hodge #{\QQ}-structures
+    ##{
+      \HH^\bullet(U',\QQ)\otimes\HH^\bullet(U'',\QQ)
+      \simto \HH^\bullet(U,\QQ).
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.25]{
+  \number{8.1.25}
+
+  \p{
+    Standard arguments, based on the Cartier–Eilenberg–Zilber theorem, give us the following simplicial variant of \ref{hodge-theory-iii-8.1.24}.
+  }
+
+  \p{
+    Let #{U'_\bullet} (resp. #{U''_\bullet}) be the complement of a normal crossing divisor in a smooth and proper simplicial scheme #{X'_\bullet} (resp. #{X''_\bullet}).
+    Let #{U_\bullet=U'_\bullet\times U''_\bullet} and #{X_\bullet=X'_\bullet\times X''_\bullet}.
+  }
+
+  \p{
+    We have an isomorphism of mixed Hodge complexes
+    ##{
+      \Rd\Gamma(U'_\bullet,\ZZ)\Lotimes\Rd\Gamma(U''_\bullet,\ZZ)
+      \simto \Rd\Gamma(U_\bullet,\ZZ)
+    }
+    and, in particular, an isomorphism of mixed Hodge #{\QQ}-structures
+    ##{
+      \HH^\bullet(U'_\bullet,\QQ)\otimes\HH^\bullet(U''_\bullet,\QQ)
+      \simto \HH^\bullet(U_\bullet,\QQ).
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.1.26]{
+  \number{8.1.26}
+
+  \p{
+    Let #{U'_{\bullet\bullet}} (resp. #{U''_{\bullet\bullet}}) be the complement of a normal crossing divisor in a smooth and proper bisimplicial scheme #{X'_{\bullet\bullet}} (resp. #{X''_{\bullet\bullet}}).
+    Let #{U_{\bullet\bullet}=U'_{\bullet\bullet}\times U''_{\bullet\bullet}} and #{X_{\bullet\bullet}=X'_{\bullet\bullet}\times X''_{\bullet\bullet}}.
+    \oldpage{38}
+    Standard arguments show that, in rational cohomology, the spectral sequence \ref{hodge-theory-iii-8.1.23.2} for #{U_{\bullet\bullet}} is the tensor product of the spectral sequences \ref{hodge-theory-iii-8.1.23.2} for #{U'_{\bullet\bullet}} and #{U''_{\bullet\bullet}}.
   }
 }
