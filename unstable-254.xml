@@ -7,48 +7,47 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2872</fr:anchor><fr:addr
-type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.3</fr:parent></fr:frontmatter><fr:mainmatter>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2918</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Let <fr:tex
-display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> be a sub-object of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, in the category of continuous families of Hodge <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures.
-      We will show that <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> is a direct factor of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> in this category.
-      We can suppose <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> to be homogeneous.
-      If <fr:tex
-display="inline"><![CDATA[\psi ]]></fr:tex> is a polarisation form for <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, then the orthogonal of <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> with respect to <fr:tex
-display="inline"><![CDATA[\psi ]]></fr:tex> is indeed a sub-object of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> that is a supplement to <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex>.
-      This proves (i)</fr:p>
+display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+      There exists a dense Zariski open <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
 
-    <fr:p>If <fr:tex
-display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex> is of weight <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, then a polarisation of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> defines an isomorphism between <fr:tex
-display="inline"><![CDATA[H^*]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[H\otimes \mathbb {Q}(n)]]></fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-4.2.2.1"
-href="hodge-theory-ii-4.2.2.1.xml"
-taxon="Condition"
-number="4.2.2.1" />, we thus have that <fr:tex
-display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      For arbitrary <fr:tex
-display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, if we decompose <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> into its homogeneous components, then <fr:tex
-display="inline"><![CDATA[H^*=\bigoplus _n(H^n)^*]]></fr:tex>, whence again <fr:tex
-display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      Finally, <fr:tex
-display="inline"><![CDATA[\wedge ^p H]]></fr:tex> is a direct factor of <fr:tex
-display="inline"><![CDATA[\bigotimes ^p H]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2]]></fr:tex>.</fr:p>
+    <fr:p>We lose no generality by assuming that <fr:tex
+display="inline"><![CDATA[s\in  T]]></fr:tex>.
+      In the diagram
+      
+  <fr:embedded-tex
+hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        \pi _1(T,s)
+          \ar [r]
+          \ar [d,swap,"a"]
+        & \pi _1(S,s)
+          \ar [d,"c"]
+      \\\pi _1(U,p(s))
+        \ar [r,swap,"b"]
+        & \pi _1(M,p(s))
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      the image of the arrow <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex
+display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex
+display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
+      The image of the arrow <fr:tex
+display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
   </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -64,44 +63,12 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2873</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.2.3</fr:addr><fr:route>hodge-theory-ii-4.2.3.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>4.2.3</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> satisfies <fr:ref
-addr="hodge-theory-ii-4.2.2.1"
-href="hodge-theory-ii-4.2.2.1.xml"
-taxon="Condition"
-number="4.2.2.1" /> and <fr:ref
-addr="hodge-theory-ii-4.2.2.2"
-href="hodge-theory-ii-4.2.2.2.xml"
-taxon="Condition"
-number="4.2.2.2" />, then:
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a semi-simple abelian subcategory of the abelian subcategory of continuous families of Hodge <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-      </html:li>
-
-      
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        If <fr:tex
-display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, then its dual <fr:tex
-display="inline"><![CDATA[H^*]]></fr:tex> and the <fr:tex
-display="inline"><![CDATA[\wedge ^p H]]></fr:tex> are also in <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex>;
-        if <fr:tex
-display="inline"><![CDATA[H_1,H_2\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      </html:li>
-
-    </html:ol></fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2919</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.4.17</fr:addr><fr:route>hodge-theory-ii-4.4.17.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>4.4.17</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[p\colon  S\to  M]]></fr:tex> be a dominant morphism of smooth connected schemes.
+    The subgroup <fr:tex
+display="inline"><![CDATA[p(\pi _1(S,s))]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\pi _1(M,p(s))]]></fr:tex> is then of finite index.</fr:p>
   
     
     <fr:tree
@@ -111,48 +78,47 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1269</fr:anchor><fr:addr
-type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.3</fr:parent></fr:frontmatter><fr:mainmatter>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1894</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
     <fr:p>Let <fr:tex
-display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> be a sub-object of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, in the category of continuous families of Hodge <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures.
-      We will show that <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> is a direct factor of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> in this category.
-      We can suppose <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> to be homogeneous.
-      If <fr:tex
-display="inline"><![CDATA[\psi ]]></fr:tex> is a polarisation form for <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, then the orthogonal of <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> with respect to <fr:tex
-display="inline"><![CDATA[\psi ]]></fr:tex> is indeed a sub-object of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> that is a supplement to <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex>.
-      This proves (i)</fr:p>
+display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.
+      There exists a dense Zariski open <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
 
-    <fr:p>If <fr:tex
-display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex> is of weight <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, then a polarisation of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> defines an isomorphism between <fr:tex
-display="inline"><![CDATA[H^*]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[H\otimes \mathbb {Q}(n)]]></fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-4.2.2.1"
-href="hodge-theory-ii-4.2.2.1.xml"
-taxon="Condition"
-number="4.2.2.1" />, we thus have that <fr:tex
-display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      For arbitrary <fr:tex
-display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, if we decompose <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> into its homogeneous components, then <fr:tex
-display="inline"><![CDATA[H^*=\bigoplus _n(H^n)^*]]></fr:tex>, whence again <fr:tex
-display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      Finally, <fr:tex
-display="inline"><![CDATA[\wedge ^p H]]></fr:tex> is a direct factor of <fr:tex
-display="inline"><![CDATA[\bigotimes ^p H]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2]]></fr:tex>.</fr:p>
+    <fr:p>We lose no generality by assuming that <fr:tex
+display="inline"><![CDATA[s\in  T]]></fr:tex>.
+      In the diagram
+      
+  <fr:embedded-tex
+hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        \pi _1(T,s)
+          \ar [r]
+          \ar [d,swap,"a"]
+        & \pi _1(S,s)
+          \ar [d,"c"]
+      \\\pi _1(U,p(s))
+        \ar [r,swap,"b"]
+        & \pi _1(M,p(s))
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      the image of the arrow <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex
+display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex
+display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
+      The image of the arrow <fr:tex
+display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,38 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3168</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:title
-text="Untitled › Geometric realisation"><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2902</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>[5.1.3, <fr:link
 type="local"
-href="hodge-theory-iii-5.2.1.xml"
-addr="hodge-theory-iii-5.2.1">Untitled</fr:link> › Geometric realisation</fr:title><fr:authors /><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For an integer <fr:tex
-display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex
-display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex
-display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
-      We identify <fr:tex
-display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex
-display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
-      Every function <fr:tex
-display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex
-display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
-      Let
-      <fr:tex
-display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
-      Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex
-display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex
-display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex
-display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
-      <fr:tex
-display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
-      The <fr:em>geometric realisation</fr:em> of <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
-      <fr:tex
-display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+href="SD.xml"
+addr="SD"
+title="Techniques de descente cohomologique">SD</fr:link>].</fr:p>
+  </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -53,21 +29,80 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3169</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.xml</fr:route><fr:authors /><fr:number>5.2.1</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>To each simplicial topological space <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is associated a usual topological space <fr:tex
-display="inline"><![CDATA[|X_\bullet |]]></fr:tex>, called its geometric realisation (see below).
-    In the particular case where the <fr:tex
-display="inline"><![CDATA[X_n]]></fr:tex> are discrete, we recover the usual notion of geometric realisation of a simplicial set.</fr:p><fr:p>In [<fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2903</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.2.4</fr:addr><fr:route>hodge-theory-iii-6.2.4.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>6.2.4</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(Y,N,\beta )]]></fr:tex> satisfy <fr:ref
+addr="hodge-theory-iii-6.2.star"
+href="hodge-theory-iii-6.2.star.xml"
+taxon="Property"
+number="*" /> above.
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        Up to unique isomorphism, there exists exactly one <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex
+display="inline"><![CDATA[(n+1)]]></fr:tex>-truncated topological space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> augmented over <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\alpha (X)\simeq (Y,N,\beta )]]></fr:tex>.
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        It is equivalent to give either <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Z]]></fr:tex> or:
+
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+            a morphism <fr:tex
+display="inline"><![CDATA[f'\colon  Y\to \operatorname {sq}_n(Z)]]></fr:tex>; and
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+            a morphism <fr:tex
+display="inline"><![CDATA[f''\colon  N\to  Z_{n+1}]]></fr:tex>, such that the diagram
+            <fr:tex
+display="block"><![CDATA[               \begin {CD}                 N @>\beta >> (\operatorname {cosq} Y)_{n+1}               \\@V{f''}VV @VV{f'}V               \\Z_{n+1} @>>> (\operatorname {cosq}\operatorname {sq}_n Z)_{n+1}               \end {CD}             ]]></fr:tex>
+            commutes.
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2453</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>[5.1.3, <fr:link
 type="local"
-href="S1968.xml"
-addr="S1968"
-title="Classifying spaces and spectral sequences">S1968</fr:link>], G. Segal defined the cohomology of <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> with values in an abelian group <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> as <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (|X_\bullet |,A)]]></fr:tex>.
-    Under suitable hypotheses, the filtration of <fr:tex
-display="inline"><![CDATA[|X_\bullet |]]></fr:tex> by successive skeletons gives a spectral sequence
+href="SD.xml"
+addr="SD"
+title="Techniques de descente cohomologique">SD</fr:link>].</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+<fr:p>This proposition also applies to simplicial objects in other categories <fr:tex
+display="inline"><![CDATA[\mathscr {C}]]></fr:tex> apart from that of topological spaces; it suffices that <fr:tex
+display="inline"><![CDATA[\mathscr {C}]]></fr:tex> satisfy the following:
 
     <fr:tree
 toc="true"
@@ -76,43 +111,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>422</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.1.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.1.1</fr:number><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,A)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,A).       \tag{5.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>One of the interests in using this definition is that it also applies, for example, to the definition of the groups <fr:tex
-display="inline"><![CDATA[K(X_\bullet )]]></fr:tex>.
-    We will adopt another definition, which is better adapted to sheaf-theoretic techniques.</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:title
-text="Geometric realisation">Geometric realisation</fr:title><fr:authors /><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For an integer <fr:tex
-display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex
-display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex
-display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
-      We identify <fr:tex
-display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex
-display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
-      Every function <fr:tex
-display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex
-display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
-      Let
-      <fr:tex
-display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
-      Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex
-display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex
-display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex
-display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
-      <fr:tex
-display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
-      The <fr:em>geometric realisation</fr:em> of <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
-      <fr:tex
-display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2454</fr:anchor><fr:addr
+type="user">hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:authors /><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Finite projective limits exist in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
+        Finite projective sums exist in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, and they are disjoint and universal.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

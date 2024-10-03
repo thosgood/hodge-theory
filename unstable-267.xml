@@ -7,14 +7,60 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2898</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.14</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>This is the particular case of (ii) of <fr:ref
-addr="hodge-theory-ii-3.2.13"
-href="hodge-theory-ii-3.2.13.xml"
-taxon="Corollary"
-number="3.2.13" /> where <fr:tex
-display="inline"><![CDATA[{}_FE_1^{p0}={}_FE_\infty ^{p0}]]></fr:tex>.</fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2944</fr:anchor><fr:addr
+type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>For <fr:tex
+display="inline"><![CDATA[r=0]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[r=1]]></fr:tex>) we apply <fr:ref
+addr="hodge-theory-ii-3.2.6"
+href="hodge-theory-ii-3.2.6.xml"
+taxon="Lemma"
+number="3.2.6" /> and (iii) of <fr:ref
+addr="hodge-theory-ii-1.4.8"
+href="hodge-theory-ii-1.4.8.xml"
+taxon="Example"
+number="1.4.8" /> (resp. <fr:ref
+addr="hodge-theory-ii-3.2.8"
+href="hodge-theory-ii-3.2.8.xml"
+taxon="Lemma"
+number="3.2.8" />).
+      For <fr:tex
+display="inline"><![CDATA[r\geqslant 2]]></fr:tex>, it suffices to prove that <fr:tex
+display="inline"><![CDATA[d_r=0]]></fr:tex>.
+      By induction, and following <fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16" />, we can assume that, on the pages <fr:tex
+display="inline"><![CDATA[{}_WE^s]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[s\geqslant  r+1]]></fr:tex>), we have <fr:tex
+display="inline"><![CDATA[F_d=F_r=F_{d^*}]]></fr:tex>, and that <fr:tex
+display="inline"><![CDATA[{}_WE_r={}_WE_2]]></fr:tex>.
+      By (i) of <fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13" />, <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex> is thus compatible with the filtration <fr:tex
+display="inline"><![CDATA[F_r]]></fr:tex>.</fr:p>
+
+    <fr:p>On <fr:tex
+display="inline"><![CDATA[{}_WE_r^{pq}={}_WE_2^{pq}]]></fr:tex>, the filtration <fr:tex
+display="inline"><![CDATA[F_r]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[q]]></fr:tex>-opposite to its complex conjugate.
+      The morphism
+      <fr:tex
+display="block"><![CDATA[         d_r\colon  {}_WE_r^{pq}         \to  {}_WE_r^{p+r,q-r+1}       ]]></fr:tex>
+      thus satisfies, for <fr:tex
+display="inline"><![CDATA[r-1>0]]></fr:tex>,
+      <fr:tex
+display="block"><![CDATA[         \begin {aligned}           d_r({}_WE_r^{pq})           &= d_r\left (             \sum _{a+b=q} \Big (               F^a({}_WE_r^{pq}) \cap  \bar {F}^b({}_WE_r^{pq})             \Big )           \right )         \\&\subset  \sum _{a+b=q} \Big (             F^a({}_WE_r^{p+r,q-r+1}) \cap  \bar {F}^b({}_WE_r^{p+r,q-r+1})           \Big )         \\&= 0.         \end {aligned}       ]]></fr:tex></fr:p>
+
+    <fr:p>This proves <fr:ref
+addr="hodge-theory-ii-3.2.10"
+href="hodge-theory-ii-3.2.10.xml"
+taxon="Lemma"
+number="3.2.10" />.</fr:p>
   </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -30,20 +76,14 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2899</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.14</fr:addr><fr:route>hodge-theory-ii-3.2.14.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>3.2.14</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\omega ]]></fr:tex> be a meromorphic differential <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-form on <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex> that is holomorphic on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and presents at worst logarithmic poles along <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.
-    Then the restriction <fr:tex
-display="inline"><![CDATA[\omega |X]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\omega ]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is closed, and if the cohomology class in <fr:tex
-display="inline"><![CDATA[\operatorname {H}^p(X,\mathbb {C})]]></fr:tex> defined by <fr:tex
-display="inline"><![CDATA[\omega ]]></fr:tex> is zero then <fr:tex
-display="inline"><![CDATA[\omega =0]]></fr:tex>.</fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2945</fr:anchor><fr:addr
+type="user">hodge-theory-ii-3.2.10</fr:addr><fr:route>hodge-theory-ii-3.2.10.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>3.2.10</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[r\geqslant 0]]></fr:tex>, the differentials <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex> of the spectral sequence <fr:tex
+display="inline"><![CDATA[{}_WE]]></fr:tex> are strictly compatible with the recurrent filtration <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>.
+    For <fr:tex
+display="inline"><![CDATA[r\geqslant 2]]></fr:tex>, they are zero.</fr:p>
   
     
     <fr:tree
@@ -53,14 +93,60 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>601</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.14</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>This is the particular case of (ii) of <fr:ref
-addr="hodge-theory-ii-3.2.13"
-href="hodge-theory-ii-3.2.13.xml"
-taxon="Corollary"
-number="3.2.13" /> where <fr:tex
-display="inline"><![CDATA[{}_FE_1^{p0}={}_FE_\infty ^{p0}]]></fr:tex>.</fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>587</fr:anchor><fr:addr
+type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>For <fr:tex
+display="inline"><![CDATA[r=0]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[r=1]]></fr:tex>) we apply <fr:ref
+addr="hodge-theory-ii-3.2.6"
+href="hodge-theory-ii-3.2.6.xml"
+taxon="Lemma"
+number="3.2.6" /> and (iii) of <fr:ref
+addr="hodge-theory-ii-1.4.8"
+href="hodge-theory-ii-1.4.8.xml"
+taxon="Example"
+number="1.4.8" /> (resp. <fr:ref
+addr="hodge-theory-ii-3.2.8"
+href="hodge-theory-ii-3.2.8.xml"
+taxon="Lemma"
+number="3.2.8" />).
+      For <fr:tex
+display="inline"><![CDATA[r\geqslant 2]]></fr:tex>, it suffices to prove that <fr:tex
+display="inline"><![CDATA[d_r=0]]></fr:tex>.
+      By induction, and following <fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16" />, we can assume that, on the pages <fr:tex
+display="inline"><![CDATA[{}_WE^s]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[s\geqslant  r+1]]></fr:tex>), we have <fr:tex
+display="inline"><![CDATA[F_d=F_r=F_{d^*}]]></fr:tex>, and that <fr:tex
+display="inline"><![CDATA[{}_WE_r={}_WE_2]]></fr:tex>.
+      By (i) of <fr:ref
+addr="hodge-theory-ii-1.3.13"
+href="hodge-theory-ii-1.3.13.xml"
+taxon="Proposition"
+number="1.3.13" />, <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex> is thus compatible with the filtration <fr:tex
+display="inline"><![CDATA[F_r]]></fr:tex>.</fr:p>
+
+    <fr:p>On <fr:tex
+display="inline"><![CDATA[{}_WE_r^{pq}={}_WE_2^{pq}]]></fr:tex>, the filtration <fr:tex
+display="inline"><![CDATA[F_r]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[q]]></fr:tex>-opposite to its complex conjugate.
+      The morphism
+      <fr:tex
+display="block"><![CDATA[         d_r\colon  {}_WE_r^{pq}         \to  {}_WE_r^{p+r,q-r+1}       ]]></fr:tex>
+      thus satisfies, for <fr:tex
+display="inline"><![CDATA[r-1>0]]></fr:tex>,
+      <fr:tex
+display="block"><![CDATA[         \begin {aligned}           d_r({}_WE_r^{pq})           &= d_r\left (             \sum _{a+b=q} \Big (               F^a({}_WE_r^{pq}) \cap  \bar {F}^b({}_WE_r^{pq})             \Big )           \right )         \\&\subset  \sum _{a+b=q} \Big (             F^a({}_WE_r^{p+r,q-r+1}) \cap  \bar {F}^b({}_WE_r^{p+r,q-r+1})           \Big )         \\&= 0.         \end {aligned}       ]]></fr:tex></fr:p>
+
+    <fr:p>This proves <fr:ref
+addr="hodge-theory-ii-3.2.10"
+href="hodge-theory-ii-3.2.10.xml"
+taxon="Lemma"
+number="3.2.10" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

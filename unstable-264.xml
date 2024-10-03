@@ -7,65 +7,29 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2892</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>On the <fr:tex
-display="inline"><![CDATA[E_1]]></fr:tex> pages, there is only the filtration induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> to consider (<fr:ref
-addr="hodge-theory-ii-1.3.10"
-href="hodge-theory-ii-1.3.10.xml"
-taxon="Lemma"
-number="1.3.10" /> and (iii) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13" />), and <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> is compatible with this filtration ((i) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13" />).
-      This filtration is the abutment of the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6" /> ((ii) of <fr:ref
-addr="hodge-theory-ii-1.4.8"
-href="hodge-theory-ii-1.4.8.xml"
-taxon="Example"
-number="1.4.8" />).
-      By <fr:ref
-addr="hodge-theory-ii-3.2.7"
-href="hodge-theory-ii-3.2.7.xml"
-taxon="Lemma"
-number="3.2.7" />, the arrow
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2938</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[X_s=f^{-1}(s)]]></fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is smooth, and if <fr:tex
+display="inline"><![CDATA[\bar {X}]]></fr:tex> is a smooth compactification of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then, by <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1" />, the subspace <fr:tex
+display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(\bar {X},\mathbb {Q})]]></fr:tex>.
+      Since the restriction map
       <fr:tex
-display="block"><![CDATA[         d_1\colon          \operatorname {\mathbb {H}}^k(\bar {X},\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\bar {X},\operatorname {Gr}_{n-1}^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))       ]]></fr:tex>
-      or
-
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>582</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.2.8.1</fr:number><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-      is compatible with the filtrations that are <fr:tex
-display="inline"><![CDATA[(k+n)]]></fr:tex>-opposite to their complex conjugate.
-      Since <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> commutes up to complex conjugation, <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> respects the bigrading (of weight <fr:tex
-display="inline"><![CDATA[k+n]]></fr:tex>) defined by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {F}]]></fr:tex>, which proves <fr:ref
-addr="hodge-theory-ii-3.2.8"
-href="hodge-theory-ii-3.2.8.xml"
-taxon="Lemma"
-number="3.2.8" />.</fr:p>
+display="block"><![CDATA[         \operatorname {H}^n(\bar {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       ]]></fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>, given by the quotient of that on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(\bar {X},\mathbb {Q})]]></fr:tex>, is independent of <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -81,11 +45,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2893</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.8</fr:addr><fr:route>hodge-theory-ii-3.2.8.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>3.2.8</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The differentials <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequence <fr:tex
-display="inline"><![CDATA[{}_WE]]></fr:tex> are strictly compatible with the filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>.</fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2939</fr:anchor><fr:addr
+type="user">hodge-theory-ii-4.1.2</fr:addr><fr:route>hodge-theory-ii-4.1.2.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.1.2</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be a proper smooth morphism, with <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> reduced, connected, and separated.
+    Let <fr:tex
+display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})^0]]></fr:tex> be the largest constant local system on <fr:tex
+display="inline"><![CDATA[\mathrm {R}^n f_*\mathbb {Q}]]></fr:tex>, with fibre <fr:tex
+display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>.
+    Then, for each <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> is a Hodge sub-structure of <fr:tex
+display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})\simeq \operatorname {H}^n(X_s,\mathbb {Q})]]></fr:tex>, and the induced Hodge structure on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex> is independent of <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
   
     
     <fr:tree
@@ -95,65 +68,29 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>581</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>On the <fr:tex
-display="inline"><![CDATA[E_1]]></fr:tex> pages, there is only the filtration induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> to consider (<fr:ref
-addr="hodge-theory-ii-1.3.10"
-href="hodge-theory-ii-1.3.10.xml"
-taxon="Lemma"
-number="1.3.10" /> and (iii) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13" />), and <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> is compatible with this filtration ((i) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13" />).
-      This filtration is the abutment of the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6" /> ((ii) of <fr:ref
-addr="hodge-theory-ii-1.4.8"
-href="hodge-theory-ii-1.4.8.xml"
-taxon="Example"
-number="1.4.8" />).
-      By <fr:ref
-addr="hodge-theory-ii-3.2.7"
-href="hodge-theory-ii-3.2.7.xml"
-taxon="Lemma"
-number="3.2.7" />, the arrow
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1798</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex
+display="inline"><![CDATA[s\in  S]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[X_s=f^{-1}(s)]]></fr:tex>.
+      If <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is smooth, and if <fr:tex
+display="inline"><![CDATA[\bar {X}]]></fr:tex> is a smooth compactification of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then, by <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1" />, the subspace <fr:tex
+display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(\bar {X},\mathbb {Q})]]></fr:tex>.
+      Since the restriction map
       <fr:tex
-display="block"><![CDATA[         d_1\colon          \operatorname {\mathbb {H}}^k(\bar {X},\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\bar {X},\operatorname {Gr}_{n-1}^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle ))       ]]></fr:tex>
-      or
-
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>582</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.2.8.1</fr:number><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-      is compatible with the filtrations that are <fr:tex
-display="inline"><![CDATA[(k+n)]]></fr:tex>-opposite to their complex conjugate.
-      Since <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> commutes up to complex conjugation, <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> respects the bigrading (of weight <fr:tex
-display="inline"><![CDATA[k+n]]></fr:tex>) defined by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {F}]]></fr:tex>, which proves <fr:ref
-addr="hodge-theory-ii-3.2.8"
-href="hodge-theory-ii-3.2.8.xml"
-taxon="Lemma"
-number="3.2.8" />.</fr:p>
+display="block"><![CDATA[         \operatorname {H}^n(\bar {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       ]]></fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>, given by the quotient of that on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(\bar {X},\mathbb {Q})]]></fr:tex>, is independent of <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
