@@ -10,6 +10,114 @@
   \number{8.2.1}
 
   \p{
-    Let
+    Let #{X} be a scheme (or an algebraic space) of finite type over #{\CC}, and assume it to be separated.
+    Then there exists a diagram
+
+    \subtree[hodge-theory-iii-8.2.1.1]{
+      \taxon{equation}
+      \number{8.2.1.1}
+      ##{
+        X
+        \xleftarrow{\alpha} Y_\bullet
+        \hookrightarrow \bar{Y}_\bullet
+      \startverb\tag{8.2.1.1}\stopverb
+      }
+    }
+
+    in which #{Y_\bullet} is the complement of a normal crossing divisor in a smooth and proper simplicial scheme #{\bar{Y}_\bullet}, and is a proper hypercover of #{X}.
+    We have ((II) of \ref{hodge-theory-iii-5.3.5})
+
+    \subtree[hodge-theory-iii-8.2.1.2]{
+      \taxon{equation}
+      \number{8.2.1.2}
+      ##{
+        \HH^\bullet(X)
+        \simto \HH^\bullet(Y_\bullet).
+      \startverb\tag{8.2.1.2}\stopverb
+      }
+    }
+  }
+
+  \p{
+    In \ref{hodge-theory-iii-8.1.19}, we endow #{\HH^\bullet(Y_\bullet)} with a mixed Hodge structure.
+    Let #{\sHH(\alpha)} be the mixed Hodge structure on #{\HH^\bullet(X)} induced by \ref{hodge-theory-iii-8.2.1.2}.
+  }
+}
+
+\subtree[hodge-theory-iii-8.2.2]{
+  \taxon{proposition}
+  \number{8.2.2}
+
+  \p{
+    With the above notation, the mixed Hodge structure #{\sHH(\alpha)} on #{\HH^\bullet(X)} is independent of the choice of #{\alpha}.
+    We call it the \em{mixed Hodge structure of #{\HH^\bullet(X,\ZZ)}}.
+    For every morphism #{f\colon X_1\to X_2} of schemes, #{f^*\colon\HH^\bullet(X_2)\to\HH^\bullet(X_1)} is a morphism of mixed Hodge structures.
+  }
+
+  \proof{
+    \p{
+      The proof uses \ref{hodge-theory-iii-6.2.8}, and is parallel to that of (C) of \ref{hodge-theory-ii-3.2.11} (cf. also \fref{hodge-theory-iii-8.3.3}).
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.2.3]{
+  \number{8.2.3}
+
+  \p{
+    For smooth #{X}, we can show, by taking #{\bar{Y}_\bullet} to be a constant simplicial scheme, that the mixed Hodge structure in \ref{hodge-theory-iii-8.2.2} coincides with that defined in \ref{hodge-theory-ii-3.2.12}.
+  }
+}
+
+\subtree[hodge-theory-iii-8.2.4]{
+  \taxon{theorem}
+  \number{8.2.4}
+
+  \p{
+    The pairs #{(p,q)} such that the Hodge number #{h^{pq}} of #{\HH^n(X)} are non-zero satisfy the following conditions:
+
+    \olc{
+      \lic{(i)}{
+        #{(p,q)\in[0,n]\times[0,n]}.
+      }
+
+      \lic{(ii)}{
+        If #{\dim X=N}, and #{n\geqslant N}, then
+        ##{
+          (p,q)\in[n-N,N]\times[n-N,N].
+        }
+      }
+
+      \lic{(iii)}{
+        If #{X} is proper, then #{p+q\leqslant n}.
+      }
+
+      \lic{(iv)}{
+        If #{X} is smooth, then #{p+q\geqslant n}.
+        The same conclusion holds if #{X} is an equidimensional "rational homology manifold" of dimension #{N}, i.e. if, for all #{x\in X},
+        ##{
+          \HH^i_{(x)}(X,\QQ)
+          =
+          \begin{cases}
+            0 &\text{if }i\neq 2N
+          \\\QQ &\text{if }i=2N.
+          \end{cases}
+        }
+      }
+    }
+  }
+
+  \p{
+    ...
+  }
+
+  \proof{
+    \p{
+      Claim (ii) will be proven in \fref{hodge-theory-iii-8.3.10}.
+      Claim (i) follows from (iii) of \ref{hodge-theory-iii-8.1.20}.
+      For proper #{X}, we can find a diagram as in \ref{hodge-theory-iii-8.2.1.1} in which #{Y_\bullet=\bar{Y}_\bullet}, and (iii) then follows from (iv) of \ref{hodge-theory-iii-8.1.20}.
+      For smooth #{X}, (iv) follows from \ref{hodge-theory-iii-8.2.3} and \ref{hodge-theory-ii-3.2.15}.
+      The general case then follows: if #{p\colon\widetilde{X}\to X} is a resolution of singularities of #{X}, then #{p^*\colon\HH^\bullet(X,\QQ)\to\HH^\bullet(\widetilde{X},\QQ)} is injective, since the Poincaré dual transpose #{p_!} of #{p^*\colon\HH^\bullet_\cc(X,\QQ)\to\HH^\bullet_\cc(\widetilde{X},\QQ)} is a retraction for it.
+    }
   }
 }
