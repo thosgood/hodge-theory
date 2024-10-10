@@ -1855,7 +1855,40 @@ display="inline"><![CDATA[x\in  X]]></fr:tex>,
 display="block"><![CDATA[           \operatorname {H}^i_{(x)}(X,\mathbb {Q})           =           \begin {cases}             0 &\text {if }i\neq  2N           \\\mathbb {Q} &\text {if }i=2N.           \end {cases}         ]]></fr:tex>
       </html:li>
 
-    </html:ol></fr:p><fr:p>...</fr:p>
+    </html:ol></fr:p><fr:p><fr:embedded-tex
+hash="5d5d4b1665baee6d5a31251d0d4f7b2e"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+      \begin {scope}
+        \draw [->] (0,0) to (3,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2,0) {\scriptsize $N$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [below] at (1.3,0) {\scriptsize $n$};
+        \node [left] at (0,1.3) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw  (0,1.3) to (1.3,1.3) to (1.3,0) to cycle;
+        \node  at (0.5,0.2) {\scriptsize  proper};
+        \node  at (0.8,1.1) {\scriptsize  smooth};
+      \end {scope}
+      \begin {scope}[shift={(4,0)}]
+        \draw [->] (0,0) to (4,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2.35,0) {\scriptsize $N\qquad  n$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [left] at (0,2.7) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw [dashed] (2.7,0) to (0,2.7);
+        \draw  (0.7,2) to (2,2) to (2,0.7) to (0.7,0.7) to cycle;
+        \draw  (0.7,2) to (2,0.7);
+        \node  at (1.2,0.9) {\scriptsize  proper};
+        \node  at (1.5,1.8) {\scriptsize  smooth};
+      \end {scope}
+    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
   
     
     <fr:tree
@@ -7462,7 +7495,40 @@ display="inline"><![CDATA[x\in  X]]></fr:tex>,
 display="block"><![CDATA[           \operatorname {H}^i_{(x)}(X,\mathbb {Q})           =           \begin {cases}             0 &\text {if }i\neq  2N           \\\mathbb {Q} &\text {if }i=2N.           \end {cases}         ]]></fr:tex>
       </html:li>
 
-    </html:ol></fr:p><fr:p>...</fr:p>
+    </html:ol></fr:p><fr:p><fr:embedded-tex
+hash="5d5d4b1665baee6d5a31251d0d4f7b2e"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+      \begin {scope}
+        \draw [->] (0,0) to (3,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2,0) {\scriptsize $N$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [below] at (1.3,0) {\scriptsize $n$};
+        \node [left] at (0,1.3) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw  (0,1.3) to (1.3,1.3) to (1.3,0) to cycle;
+        \node  at (0.5,0.2) {\scriptsize  proper};
+        \node  at (0.8,1.1) {\scriptsize  smooth};
+      \end {scope}
+      \begin {scope}[shift={(4,0)}]
+        \draw [->] (0,0) to (4,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2.35,0) {\scriptsize $N\qquad  n$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [left] at (0,2.7) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw [dashed] (2.7,0) to (0,2.7);
+        \draw  (0.7,2) to (2,2) to (2,0.7) to (0.7,0.7) to cycle;
+        \draw  (0.7,2) to (2,0.7);
+        \node  at (1.2,0.9) {\scriptsize  proper};
+        \node  at (1.5,1.8) {\scriptsize  smooth};
+      \end {scope}
+    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
   
     
     <fr:tree
