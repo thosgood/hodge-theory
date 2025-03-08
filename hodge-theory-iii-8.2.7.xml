@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2962</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-8.2.7</fr:addr>
+    <fr:route>hodge-theory-iii-8.2.7.xml</fr:route>
+    <fr:taxon>Proposition</fr:taxon>
+    <fr:authors />
+    <fr:number>8.2.7</fr:number>
+    <fr:parent>hodge-theory-iii-8.2</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter><fr:p>Let
+    <fr:tex display="block"><![CDATA[       \widetilde {X}       \xrightarrow {\pi } X       \xrightarrow {f} Y     ]]></fr:tex>
+    be morphisms of schemes.
+    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is smooth, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper, <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is smooth and proper, and that <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex> is surjective.
+    Then the kernels of <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[(f\pi )^*]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {Q})]]></fr:tex> are equal.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2850</fr:anchor><fr:addr type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We will prove that <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {Gr}_i^W(f^*))=\operatorname {Ker}(\operatorname {Gr}_i^W((f\pi )^*))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+
+      
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these kernels are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
+
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these kernels are both all of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
+
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these kernels are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(\pi ^*)]]></fr:tex> is injective (<fr:ref addr="hodge-theory-iii-8.2.5.2" href="hodge-theory-iii-8.2.5.2.xml" taxon="Equation" number="8.2.5.2" />).
+        </html:li>
+
+      </html:ol></fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2963</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.2</fr:addr>
+            <fr:route>hodge-theory-iii-8.2.xml</fr:route>
+            <fr:title text="Hodge Theory III › Hodge theory of algebraic spaces › Separated algebraic spaces"><fr:link type="local" href="hodge-theory-iii-8.xml" addr="hodge-theory-iii-8" title="Hodge Theory III › Hodge theory of algebraic spaces"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory of algebraic spaces</fr:link> › Separated algebraic spaces</fr:title>
+            <fr:authors />
+            <fr:number>8.2</fr:number>
+            <fr:parent>hodge-theory-iii-8</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2843</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.1</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.1.xml</fr:route>
+                <fr:authors />
+                <fr:number>8.2.1</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a scheme (or an algebraic space) of finite type over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, and assume it to be separated.
+    Then there exists a diagram
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2366</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.1.1</fr:addr><fr:route>hodge-theory-iii-8.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.1.1</fr:number><fr:parent>hodge-theory-iii-8.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         X         \xleftarrow {\alpha } Y_\bullet          \hookrightarrow  \overline {Y}_\bullet        \tag{8.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    in which <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> is the complement of a normal crossing divisor in a smooth and proper simplicial scheme <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex>, and is a proper hypercover of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    We have ((II) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />)
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2367</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.1.2</fr:addr><fr:route>hodge-theory-iii-8.2.1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.1.2</fr:number><fr:parent>hodge-theory-iii-8.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (X)         \xrightarrow {\sim } \operatorname {H}^\bullet (Y_\bullet ).       \tag{8.2.1.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+                <fr:p>In <fr:ref addr="hodge-theory-iii-8.1.19" href="hodge-theory-iii-8.1.19.xml" number="8.1.19" />, we endow <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y_\bullet )]]></fr:tex> with a mixed Hodge structure.
+    Let <fr:tex display="inline"><![CDATA[\operatorname {\mathscr {H}}(\alpha )]]></fr:tex> be the mixed Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X)]]></fr:tex> induced by <fr:ref addr="hodge-theory-iii-8.2.1.2" href="hodge-theory-iii-8.2.1.2.xml" taxon="Equation" number="8.2.1.2" />.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2844</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.2</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.2.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.2</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>With the above notation, the mixed Hodge structure <fr:tex display="inline"><![CDATA[\operatorname {\mathscr {H}}(\alpha )]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X)]]></fr:tex> is independent of the choice of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>.
+    We call it the <fr:em>mixed Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Z})]]></fr:tex></fr:em>.
+    For every morphism <fr:tex display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> of schemes, <fr:tex display="inline"><![CDATA[f^*\colon \operatorname {H}^\bullet (X_2)\to \operatorname {H}^\bullet (X_1)]]></fr:tex> is a morphism of mixed Hodge structures.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1658</fr:anchor><fr:addr type="machine">#237</fr:addr><fr:route>unstable-237.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2845</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.3</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.3.xml</fr:route>
+                <fr:authors />
+                <fr:number>8.2.3</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>For smooth <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can show, by taking <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> to be a constant simplicial scheme, that the mixed Hodge structure in <fr:ref addr="hodge-theory-iii-8.2.2" href="hodge-theory-iii-8.2.2.xml" taxon="Proposition" number="8.2.2" /> coincides with that defined in <fr:ref addr="hodge-theory-ii-3.2.12" href="hodge-theory-ii-3.2.12.xml" taxon="Definition" number="3.2.12" />.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2846</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.4</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.4.xml</fr:route>
+                <fr:taxon>Theorem</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.4</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>The pairs <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex> such that the Hodge number <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X)]]></fr:tex> are non-zero satisfy the following conditions:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(i) &quot;">
+        <fr:tex display="inline"><![CDATA[(p,q)\in [0,n]\times [0,n]]]></fr:tex>.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+        If <fr:tex display="inline"><![CDATA[\dim  X=N]]></fr:tex>, and <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>, then
+        <fr:tex display="block"><![CDATA[           (p,q)\in [n-N,N]\times [n-N,N].         ]]></fr:tex>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(iii) &quot;">
+        If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper, then <fr:tex display="inline"><![CDATA[p+q\leqslant  n]]></fr:tex>.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(iv) &quot;">
+        If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is smooth, then <fr:tex display="inline"><![CDATA[p+q\geqslant  n]]></fr:tex>.
+        The same conclusion holds if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an equidimensional "rational homology manifold" of dimension <fr:tex display="inline"><![CDATA[N]]></fr:tex>, i.e. if, for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>,
+        <fr:tex display="block"><![CDATA[           \operatorname {H}^i_{(x)}(X,\mathbb {Q})           =           \begin {cases}             0 &\text {if }i\neq  2N           \\\mathbb {Q} &\text {if }i=2N.           \end {cases}         ]]></fr:tex>
+      </html:li>
+
+    </html:ol></fr:p><fr:p><fr:embedded-tex hash="5d5d4b1665baee6d5a31251d0d4f7b2e"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+      \begin {scope}
+        \draw [->] (0,0) to (3,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2,0) {\scriptsize $N$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [below] at (1.3,0) {\scriptsize $n$};
+        \node [left] at (0,1.3) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw  (0,1.3) to (1.3,1.3) to (1.3,0) to cycle;
+        \node  at (0.5,0.2) {\scriptsize  proper};
+        \node  at (0.8,1.1) {\scriptsize  smooth};
+      \end {scope}
+      \begin {scope}[shift={(4,0)}]
+        \draw [->] (0,0) to (4,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2.35,0) {\scriptsize $N\qquad  n$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [left] at (0,2.7) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw [dashed] (2.7,0) to (0,2.7);
+        \draw  (0.7,2) to (2,2) to (2,0.7) to (0.7,0.7) to cycle;
+        \draw  (0.7,2) to (2,0.7);
+        \node  at (1.2,0.9) {\scriptsize  proper};
+        \node  at (1.5,1.8) {\scriptsize  smooth};
+      \end {scope}
+    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1699</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Claim (ii) will be proven in [hodge-theory-iii-8.3.10 <fr:strong>(?)</fr:strong>].
+      Claim (i) follows from (iii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
+      For proper <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can find a diagram as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" /> in which <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>, and (iii) then follows from (iv) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
+      For smooth <fr:tex display="inline"><![CDATA[X]]></fr:tex>, (iv) follows from <fr:ref addr="hodge-theory-iii-8.2.3" href="hodge-theory-iii-8.2.3.xml" number="8.2.3" /> and <fr:ref addr="hodge-theory-ii-3.2.15" href="hodge-theory-ii-3.2.15.xml" taxon="Corollary" number="3.2.15" />.
+      The general case then follows: if <fr:tex display="inline"><![CDATA[p\colon \widetilde {X}\to  X]]></fr:tex> is a resolution of singularities of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then <fr:tex display="inline"><![CDATA[p^*\colon \operatorname {H}^\bullet (X,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})]]></fr:tex> is injective, since the Poincaré dual transpose <fr:tex display="inline"><![CDATA[p_!]]></fr:tex> of <fr:tex display="inline"><![CDATA[p^*\colon \operatorname {H}^\bullet _\mathrm {c}(X,\mathbb {Q})\to \operatorname {H}^\bullet _\mathrm {c}(\widetilde {X},\mathbb {Q})]]></fr:tex> is a retraction for it.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2847</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.5</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.5.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.5</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Suppose that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper.
+    If <fr:tex display="inline"><![CDATA[u\colon  Y\to  X]]></fr:tex> is a surjective proper morphism, with <fr:tex display="inline"><![CDATA[Y]]></fr:tex> smooth, then the weight-<fr:tex display="inline"><![CDATA[n]]></fr:tex> quotient of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+    The sequence
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2805</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.5.1</fr:addr><fr:route>hodge-theory-iii-8.2.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.5.1</fr:number><fr:parent>hodge-theory-iii-8.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^n(X,\mathbb {Q})         \to  \operatorname {H}^n(Y,\mathbb {Q})         \xrightarrow {\operatorname {pr}_1^*-\operatorname {pr}_2^*} \operatorname {H}^n(Y\times _X Y,\mathbb {Q})       \tag{8.2.5.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    is exact.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2806</fr:anchor><fr:addr type="machine">#239</fr:addr><fr:route>unstable-239.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> be as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" />, with <fr:tex display="inline"><![CDATA[Y_0=Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>.
+      By (ii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />, we have an exact sequence
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2807</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.5.2</fr:addr><fr:route>hodge-theory-iii-8.2.5.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.5.2</fr:number><fr:parent>hodge-theory-iii-8.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           0           \to  \operatorname {H}^n(X,\mathbb {Q})/W^{n-1}\operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^n(Y_0,\mathbb {Q})           \underset {\delta _1}{\overset {\delta _0}{\rightrightarrows }} \operatorname {H}^n(Y_1,\mathbb {Q})         \tag{8.2.5.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      which implies <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" /> (conversely, this exact sequence can easily be deduced from <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" /> and <fr:ref addr="hodge-theory-iii-8.2.7" href="hodge-theory-iii-8.2.7.xml" taxon="Proposition" number="8.2.7" /> below).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2848</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.6</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.6.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.6</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let
+    <fr:tex display="block"><![CDATA[       Y       \xrightarrow {f} X       \overset {j}{\hookrightarrow } \overline {X}     ]]></fr:tex>
+    be morphisms of schemes.
+    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is proper and <fr:tex display="inline"><![CDATA[X]]></fr:tex> is smooth, and that <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is a smooth compactification of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    Then <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Q})]]></fr:tex> have the same image in <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {Q})]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1709</fr:anchor><fr:addr type="machine">#240</fr:addr><fr:route>unstable-240.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.6</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof is parallel to that of <fr:ref addr="hodge-theory-ii-3.2.18" href="hodge-theory-ii-3.2.18.xml" taxon="Corollary" number="3.2.18" />.
+      It suffices to prove, for any <fr:tex display="inline"><![CDATA[i]]></fr:tex> and any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, that <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W(f^*)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W((jf)^*)]]></fr:tex> have the same image in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+
+      
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these images are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
+
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these images are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
+
+        
+ <html:li style="list-style-type: &quot;(c) &quot;">
+          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these images are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(j^*)]]></fr:tex> is surjective (<fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" />).
+        </html:li>
+
+      </html:ol></fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2849</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.7</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.7.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.7</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let
+    <fr:tex display="block"><![CDATA[       \widetilde {X}       \xrightarrow {\pi } X       \xrightarrow {f} Y     ]]></fr:tex>
+    be morphisms of schemes.
+    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is smooth, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper, <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is smooth and proper, and that <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex> is surjective.
+    Then the kernels of <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[(f\pi )^*]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {Q})]]></fr:tex> are equal.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2850</fr:anchor><fr:addr type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We will prove that <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {Gr}_i^W(f^*))=\operatorname {Ker}(\operatorname {Gr}_i^W((f\pi )^*))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+
+      
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these kernels are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
+
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these kernels are both all of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
+
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these kernels are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(\pi ^*)]]></fr:tex> is injective (<fr:ref addr="hodge-theory-iii-8.2.5.2" href="hodge-theory-iii-8.2.5.2.xml" taxon="Equation" number="8.2.5.2" />).
+        </html:li>
+
+      </html:ol></fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2855</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.8</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.8.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.8</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let
+    <fr:tex display="block"><![CDATA[       \widetilde {X}       \xrightarrow {\pi } X       \overset {f}{\hookrightarrow } Y     ]]></fr:tex>
+    be morphisms of schemes.
+    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is smooth and proper, that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a closed subscheme of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and that <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is a resolution of singularities of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    Let <fr:tex display="inline"><![CDATA[q=f\pi ]]></fr:tex> and <fr:tex display="inline"><![CDATA[U=Y\setminus  X]]></fr:tex>.
+    Then the sequence
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2856</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.1</fr:addr><fr:route>hodge-theory-iii-8.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.1</fr:number><fr:parent>hodge-theory-iii-8.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \xrightarrow {q_!} \operatorname {H}^\bullet (Y,\mathbb {Q})         \to  \operatorname {H}^\bullet (U,\mathbb {Q})       \tag{8.2.8.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    is exact.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2857</fr:anchor><fr:addr type="machine">#242</fr:addr><fr:route>unstable-242.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By <fr:ref addr="hodge-theory-iii-8.2.7" href="hodge-theory-iii-8.2.7.xml" taxon="Proposition" number="8.2.7" />, we have that
+      <fr:tex display="block"><![CDATA[         \operatorname {Ker}(f^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (X,\mathbb {Q}))         = \operatorname {Ker}(q^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})).       ]]></fr:tex>
+      The long exact sequence in cohomology of the pair <fr:tex display="inline"><![CDATA[Y,X]]></fr:tex> thus gives an exact sequence
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2858</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.2</fr:addr><fr:route>hodge-theory-iii-8.2.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.2</fr:number><fr:parent>hodge-theory-iii-8.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}_c^\bullet (U,\mathbb {Q})           \to  \operatorname {H}^\bullet (Y,\mathbb {Q})           \to  \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \tag{8.2.8.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      and <fr:ref addr="hodge-theory-iii-8.2.8.1" href="hodge-theory-iii-8.2.8.1.xml" taxon="Equation" number="8.2.8.1" /> is the transpose sequence of <fr:ref addr="hodge-theory-iii-8.2.8.2" href="hodge-theory-iii-8.2.8.2.xml" taxon="Equation" number="8.2.8.2" /> under Poincaré duality.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2859</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.9</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.9.xml</fr:route>
+                <fr:taxon>Remark</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.9</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p><fr:ref addr="hodge-theory-iii-8.2.8" href="hodge-theory-iii-8.2.8.xml" taxon="Corollary" number="8.2.8" /> is used under more general hypotheses in [<fr:link type="local" href="G1968.xml" addr="G1968" title="Le groupe de Brauer, III: Exemples et compléments">G1968</fr:link>, (9.7), p. 161].
+    As Lieberman remarked, the justification given loc. cit. is insufficient.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>From <fr:ref addr="hodge-theory-iii-8.1.25" href="hodge-theory-iii-8.1.25.xml" number="8.1.25" /> we deduce the following:</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2860</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.10</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.10.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.10</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The Künneth isomorphisms
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^\bullet (X\times  Y,\mathbb {Q})       \simeq  \operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^\bullet (Y,\mathbb {Q})     ]]></fr:tex>
+    are isomorphisms of mixed Hodge structures.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2861</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.2.11</fr:addr>
+                <fr:route>hodge-theory-iii-8.2.11.xml</fr:route>
+                <fr:taxon>Corollary</fr:taxon>
+                <fr:authors />
+                <fr:number>8.2.11</fr:number>
+                <fr:parent>hodge-theory-iii-8.2</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>The cup product
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^\bullet (X)\otimes \operatorname {H}^\bullet (X)       \to  \operatorname {H}^\bullet (X)     ]]></fr:tex>
+    is a morphism of mixed Hodge structures.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2862</fr:anchor><fr:addr type="machine">#243</fr:addr><fr:route>unstable-243.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.11</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>This follows from <fr:ref addr="hodge-theory-iii-8.2.10" href="hodge-theory-iii-8.2.10.xml" taxon="Proposition" number="8.2.10" /> and from <fr:ref addr="hodge-theory-iii-8.2.2" href="hodge-theory-iii-8.2.2.xml" taxon="Proposition" number="8.2.2" /> applied to the diagonal morphism <fr:tex display="inline"><![CDATA[\Delta \colon  X\to  X\times  X]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2964</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.2.5</fr:addr>
+            <fr:route>hodge-theory-iii-8.2.5.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
+            <fr:authors />
+            <fr:number>8.2.5</fr:number>
+            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Suppose that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper.
+    If <fr:tex display="inline"><![CDATA[u\colon  Y\to  X]]></fr:tex> is a surjective proper morphism, with <fr:tex display="inline"><![CDATA[Y]]></fr:tex> smooth, then the weight-<fr:tex display="inline"><![CDATA[n]]></fr:tex> quotient of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+    The sequence
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2805</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.5.1</fr:addr><fr:route>hodge-theory-iii-8.2.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.5.1</fr:number><fr:parent>hodge-theory-iii-8.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^n(X,\mathbb {Q})         \to  \operatorname {H}^n(Y,\mathbb {Q})         \xrightarrow {\operatorname {pr}_1^*-\operatorname {pr}_2^*} \operatorname {H}^n(Y\times _X Y,\mathbb {Q})       \tag{8.2.5.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    is exact.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2806</fr:anchor><fr:addr type="machine">#239</fr:addr><fr:route>unstable-239.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.5</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> be as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" />, with <fr:tex display="inline"><![CDATA[Y_0=Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>.
+      By (ii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />, we have an exact sequence
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2807</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.5.2</fr:addr><fr:route>hodge-theory-iii-8.2.5.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.5.2</fr:number><fr:parent>hodge-theory-iii-8.2.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           0           \to  \operatorname {H}^n(X,\mathbb {Q})/W^{n-1}\operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^n(Y_0,\mathbb {Q})           \underset {\delta _1}{\overset {\delta _0}{\rightrightarrows }} \operatorname {H}^n(Y_1,\mathbb {Q})         \tag{8.2.5.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      which implies <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" /> (conversely, this exact sequence can easily be deduced from <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" /> and <fr:ref addr="hodge-theory-iii-8.2.7" href="hodge-theory-iii-8.2.7.xml" taxon="Proposition" number="8.2.7" /> below).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2965</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.2.8</fr:addr>
+            <fr:route>hodge-theory-iii-8.2.8.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>8.2.8</fr:number>
+            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let
+    <fr:tex display="block"><![CDATA[       \widetilde {X}       \xrightarrow {\pi } X       \overset {f}{\hookrightarrow } Y     ]]></fr:tex>
+    be morphisms of schemes.
+    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is smooth and proper, that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a closed subscheme of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and that <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is a resolution of singularities of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    Let <fr:tex display="inline"><![CDATA[q=f\pi ]]></fr:tex> and <fr:tex display="inline"><![CDATA[U=Y\setminus  X]]></fr:tex>.
+    Then the sequence
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2856</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.1</fr:addr><fr:route>hodge-theory-iii-8.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.1</fr:number><fr:parent>hodge-theory-iii-8.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \xrightarrow {q_!} \operatorname {H}^\bullet (Y,\mathbb {Q})         \to  \operatorname {H}^\bullet (U,\mathbb {Q})       \tag{8.2.8.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    is exact.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2857</fr:anchor><fr:addr type="machine">#242</fr:addr><fr:route>unstable-242.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By <fr:ref addr="hodge-theory-iii-8.2.7" href="hodge-theory-iii-8.2.7.xml" taxon="Proposition" number="8.2.7" />, we have that
+      <fr:tex display="block"><![CDATA[         \operatorname {Ker}(f^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (X,\mathbb {Q}))         = \operatorname {Ker}(q^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})).       ]]></fr:tex>
+      The long exact sequence in cohomology of the pair <fr:tex display="inline"><![CDATA[Y,X]]></fr:tex> thus gives an exact sequence
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2858</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.2</fr:addr><fr:route>hodge-theory-iii-8.2.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.2</fr:number><fr:parent>hodge-theory-iii-8.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}_c^\bullet (U,\mathbb {Q})           \to  \operatorname {H}^\bullet (Y,\mathbb {Q})           \to  \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \tag{8.2.8.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      and <fr:ref addr="hodge-theory-iii-8.2.8.1" href="hodge-theory-iii-8.2.8.1.xml" taxon="Equation" number="8.2.8.1" /> is the transpose sequence of <fr:ref addr="hodge-theory-iii-8.2.8.2" href="hodge-theory-iii-8.2.8.2.xml" taxon="Equation" number="8.2.8.2" /> under Poincaré duality.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2966</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.2.4</fr:addr>
+            <fr:route>hodge-theory-iii-8.2.4.xml</fr:route>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:authors />
+            <fr:number>8.2.4</fr:number>
+            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The pairs <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex> such that the Hodge number <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X)]]></fr:tex> are non-zero satisfy the following conditions:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(i) &quot;">
+        <fr:tex display="inline"><![CDATA[(p,q)\in [0,n]\times [0,n]]]></fr:tex>.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+        If <fr:tex display="inline"><![CDATA[\dim  X=N]]></fr:tex>, and <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>, then
+        <fr:tex display="block"><![CDATA[           (p,q)\in [n-N,N]\times [n-N,N].         ]]></fr:tex>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(iii) &quot;">
+        If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper, then <fr:tex display="inline"><![CDATA[p+q\leqslant  n]]></fr:tex>.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(iv) &quot;">
+        If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is smooth, then <fr:tex display="inline"><![CDATA[p+q\geqslant  n]]></fr:tex>.
+        The same conclusion holds if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an equidimensional "rational homology manifold" of dimension <fr:tex display="inline"><![CDATA[N]]></fr:tex>, i.e. if, for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>,
+        <fr:tex display="block"><![CDATA[           \operatorname {H}^i_{(x)}(X,\mathbb {Q})           =           \begin {cases}             0 &\text {if }i\neq  2N           \\\mathbb {Q} &\text {if }i=2N.           \end {cases}         ]]></fr:tex>
+      </html:li>
+
+    </html:ol></fr:p><fr:p><fr:embedded-tex hash="5d5d4b1665baee6d5a31251d0d4f7b2e"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+      \begin {scope}
+        \draw [->] (0,0) to (3,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2,0) {\scriptsize $N$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [below] at (1.3,0) {\scriptsize $n$};
+        \node [left] at (0,1.3) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw  (0,1.3) to (1.3,1.3) to (1.3,0) to cycle;
+        \node  at (0.5,0.2) {\scriptsize  proper};
+        \node  at (0.8,1.1) {\scriptsize  smooth};
+      \end {scope}
+      \begin {scope}[shift={(4,0)}]
+        \draw [->] (0,0) to (4,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2.35,0) {\scriptsize $N\qquad  n$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [left] at (0,2.7) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw [dashed] (2.7,0) to (0,2.7);
+        \draw  (0.7,2) to (2,2) to (2,0.7) to (0.7,0.7) to cycle;
+        \draw  (0.7,2) to (2,0.7);
+        \node  at (1.2,0.9) {\scriptsize  proper};
+        \node  at (1.5,1.8) {\scriptsize  smooth};
+      \end {scope}
+    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1699</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Claim (ii) will be proven in [hodge-theory-iii-8.3.10 <fr:strong>(?)</fr:strong>].
+      Claim (i) follows from (iii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
+      For proper <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can find a diagram as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" /> in which <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>, and (iii) then follows from (iv) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
+      For smooth <fr:tex display="inline"><![CDATA[X]]></fr:tex>, (iv) follows from <fr:ref addr="hodge-theory-iii-8.2.3" href="hodge-theory-iii-8.2.3.xml" number="8.2.3" /> and <fr:ref addr="hodge-theory-ii-3.2.15" href="hodge-theory-ii-3.2.15.xml" taxon="Corollary" number="3.2.15" />.
+      The general case then follows: if <fr:tex display="inline"><![CDATA[p\colon \widetilde {X}\to  X]]></fr:tex> is a resolution of singularities of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then <fr:tex display="inline"><![CDATA[p^*\colon \operatorname {H}^\bullet (X,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})]]></fr:tex> is injective, since the Poincaré dual transpose <fr:tex display="inline"><![CDATA[p_!]]></fr:tex> of <fr:tex display="inline"><![CDATA[p^*\colon \operatorname {H}^\bullet _\mathrm {c}(X,\mathbb {Q})\to \operatorname {H}^\bullet _\mathrm {c}(\widetilde {X},\mathbb {Q})]]></fr:tex> is a retraction for it.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2967</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.2.5.2</fr:addr>
+            <fr:route>hodge-theory-iii-8.2.5.2.xml</fr:route>
+            <fr:taxon>Equation</fr:taxon>
+            <fr:authors />
+            <fr:number>8.2.5.2</fr:number>
+            <fr:parent>hodge-theory-iii-8.2.5</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tex display="block"><![CDATA[           0           \to  \operatorname {H}^n(X,\mathbb {Q})/W^{n-1}\operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^n(Y_0,\mathbb {Q})           \underset {\delta _1}{\overset {\delta _0}{\rightrightarrows }} \operatorname {H}^n(Y_1,\mathbb {Q})         \tag{8.2.5.2}         ]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

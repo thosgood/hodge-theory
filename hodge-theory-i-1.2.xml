@@ -1,145 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>514</fr:anchor><fr:addr
-type="user">hodge-theory-i-1.2</fr:addr><fr:route>hodge-theory-i-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number><fr:parent>hodge-theory-i-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The <fr:em>Hodge numbers</fr:em> of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> are the integers
-    <fr:tex
-display="block"><![CDATA[       h^{pq} = \dim  H^{pq} = h^{qp}.     \tag{1.2}     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>515</fr:anchor><fr:addr
-type="user">hodge-theory-i-1</fr:addr><fr:route>hodge-theory-i-1.xml</fr:route><fr:authors /><fr:number>1</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:addr
-type="user">hodge-theory-i-definition-1.1</fr:addr><fr:route>hodge-theory-i-definition-1.1.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>1.1</fr:number><fr:parent>hodge-theory-i-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>mixed Hodge structure</fr:em> <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> consists of
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>519</fr:anchor>
+    <fr:addr type="user">hodge-theory-i-1.2</fr:addr>
+    <fr:route>hodge-theory-i-1.2.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>1.2</fr:number>
+    <fr:parent>hodge-theory-i-1</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The <fr:em>Hodge numbers</fr:em> of <fr:tex display="inline"><![CDATA[H]]></fr:tex> are the integers
+    <fr:tex display="block"><![CDATA[       h^{pq} = \dim  H^{pq} = h^{qp}.     \tag{1.2}     ]]></fr:tex></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>520</fr:anchor>
+            <fr:addr type="user">hodge-theory-i-1</fr:addr>
+            <fr:route>hodge-theory-i-1.xml</fr:route>
+            <fr:authors />
+            <fr:number>1</fr:number>
+            <fr:parent>hodge-theory-i</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>347</fr:anchor>
+                <fr:addr type="user">hodge-theory-i-definition-1.1</fr:addr>
+                <fr:route>hodge-theory-i-definition-1.1.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>1.1</fr:number>
+                <fr:parent>hodge-theory-i-1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>A <fr:em>mixed Hodge structure</fr:em> <fr:tex display="inline"><![CDATA[H]]></fr:tex> consists of
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        a <fr:tex
-display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-module <fr:tex
-display="inline"><![CDATA[H_\mathbb {Z}]]></fr:tex> of finite type (the "<fr:em>integer lattice</fr:em>");
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        a <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-module <fr:tex display="inline"><![CDATA[H_\mathbb {Z}]]></fr:tex> of finite type (the "<fr:em>integer lattice</fr:em>");
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        a finite increasing filtration <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H_\mathbb {Q}=H_\mathbb {Z}\otimes \mathbb {Q}]]></fr:tex> (the "<fr:em>weight filtration</fr:em>");
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        a finite increasing filtration <fr:tex display="inline"><![CDATA[W]]></fr:tex> of <fr:tex display="inline"><![CDATA[H_\mathbb {Q}=H_\mathbb {Z}\otimes \mathbb {Q}]]></fr:tex> (the "<fr:em>weight filtration</fr:em>");
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;(c) &quot;">
-        a finite decreasing filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H_\mathbb {C}=H_\mathbb {Z}\otimes \mathbb {C}]]></fr:tex> (the "<fr:em>Hodge filtration</fr:em>").
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        a finite decreasing filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[H_\mathbb {C}=H_\mathbb {Z}\otimes \mathbb {C}]]></fr:tex> (the "<fr:em>Hodge filtration</fr:em>").
       </html:li>
 
     </html:ol>
 
 
     This data is subject to the following condition:
-    there exists a (unique) bigradation of <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W(H_\mathbb {C})]]></fr:tex> by subspaces <fr:tex
-display="inline"><![CDATA[H^{p,q}]]></fr:tex> such that
+    there exists a (unique) bigradation of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W(H_\mathbb {C})]]></fr:tex> by subspaces <fr:tex display="inline"><![CDATA[H^{p,q}]]></fr:tex> such that
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^n(H_\mathbb {C})=\bigoplus _{p+q=n}H^{p,q}]]></fr:tex>
+ <html:li style="list-style-type: &quot;(i) &quot;">
+        <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(H_\mathbb {C})=\bigoplus _{p+q=n}H^{p,q}]]></fr:tex>
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        the filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> induces on <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W(H_\mathbb {C})]]></fr:tex> the filtration
-        <fr:tex
-display="block"><![CDATA[           \operatorname {Gr}_W(F)^p           = \bigoplus _{p'\geq  p} H^{p',q'}         ]]></fr:tex>
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+        the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> induces on <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W(H_\mathbb {C})]]></fr:tex> the filtration
+        <fr:tex display="block"><![CDATA[           \operatorname {Gr}_W(F)^p           = \bigoplus _{p'\geq  p} H^{p',q'}         ]]></fr:tex>
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;(iii) &quot;">
-        <fr:tex
-display="inline"><![CDATA[\overline {H^{pq}}=H^{qp}]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(iii) &quot;">
+        <fr:tex display="inline"><![CDATA[\overline {H^{pq}}=H^{qp}]]></fr:tex>.
       </html:li>
 
-    </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>A <fr:em>morphism</fr:em> <fr:tex
-display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is a homomorphism <fr:tex
-display="inline"><![CDATA[f_\mathbb {Z}\colon  H_\mathbb {Z}\to  H'_\mathbb {Z}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[f_\mathbb {Q}\colon  H_\mathbb {Q}\to  H'_\mathbb {Q}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f_\mathbb {C}\colon  H_\mathbb {C}\to  H'_\mathbb {C}]]></fr:tex> are compatible with the filtrations <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> (respectively).</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:addr
-type="user">hodge-theory-i-1.2</fr:addr><fr:route>hodge-theory-i-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number><fr:parent>hodge-theory-i-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The <fr:em>Hodge numbers</fr:em> of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> are the integers
-    <fr:tex
-display="block"><![CDATA[       h^{pq} = \dim  H^{pq} = h^{qp}.     \tag{1.2}     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We say that <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is pure <fr:em>of weight <fr:tex
-display="inline"><![CDATA[n]]></fr:tex></fr:em> if <fr:tex
-display="inline"><![CDATA[h^{pq}=0]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[p+q\neq  n]]></fr:tex> (i.e. if <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^i(H)=0]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[i\neq  n]]></fr:tex>).
-  We also say that <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is a <fr:em>Hodge structure of weight <fr:tex
-display="inline"><![CDATA[n]]></fr:tex></fr:em>.</fr:p><fr:p>The <fr:em>Tate Hodge structure</fr:em> <fr:tex
-display="inline"><![CDATA[\mathbb {Z}(1)]]></fr:tex> is the Hodge structure of weight <fr:tex
-display="inline"><![CDATA[-2]]></fr:tex>, of pure degree <fr:tex
-display="inline"><![CDATA[(-1,-1)]]></fr:tex>, for which <fr:tex
-display="inline"><![CDATA[\mathbb {Z}(1)_\mathbb {C}=\mathbb {C}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbb {Z}(1)_\mathbb {Z} = 2\pi  i\mathbb {Z} = \operatorname {Ker}(\exp \colon \mathbb {C}\to \mathbb {C}^*)\subset \mathbb {C}]]></fr:tex>.
-  We set <fr:tex
-display="inline"><![CDATA[\mathbb {Z}(n)=\mathbb {Z}(1)^{\otimes  n}]]></fr:tex>.</fr:p><fr:p>We can show that mixed Hodge structures form an abelian category.
-  If <fr:tex
-display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is a morphism, then <fr:tex
-display="inline"><![CDATA[f_\mathbb {Q}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f_\mathbb {C}]]></fr:tex> are strictly compatible with the filtrations <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> (cf. <fr:link
-type="local"
-href="hodge-theory-ii-2.3.5.xml"
-addr="hodge-theory-ii-2.3.5">[Hodge Theory II, 2.3.5]</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    </html:ol></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>A <fr:em>morphism</fr:em> <fr:tex display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is a homomorphism <fr:tex display="inline"><![CDATA[f_\mathbb {Z}\colon  H_\mathbb {Z}\to  H'_\mathbb {Z}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f_\mathbb {Q}\colon  H_\mathbb {Q}\to  H'_\mathbb {Q}]]></fr:tex> and <fr:tex display="inline"><![CDATA[f_\mathbb {C}\colon  H_\mathbb {C}\to  H'_\mathbb {C}]]></fr:tex> are compatible with the filtrations <fr:tex display="inline"><![CDATA[W]]></fr:tex> and <fr:tex display="inline"><![CDATA[F]]></fr:tex> (respectively).</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>356</fr:anchor>
+                <fr:addr type="user">hodge-theory-i-1.2</fr:addr>
+                <fr:route>hodge-theory-i-1.2.xml</fr:route>
+                <fr:taxon>Equation</fr:taxon>
+                <fr:authors />
+                <fr:number>1.2</fr:number>
+                <fr:parent>hodge-theory-i-1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The <fr:em>Hodge numbers</fr:em> of <fr:tex display="inline"><![CDATA[H]]></fr:tex> are the integers
+    <fr:tex display="block"><![CDATA[       h^{pq} = \dim  H^{pq} = h^{qp}.     \tag{1.2}     ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>We say that <fr:tex display="inline"><![CDATA[H]]></fr:tex> is pure <fr:em>of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex></fr:em> if <fr:tex display="inline"><![CDATA[h^{pq}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[p+q\neq  n]]></fr:tex> (i.e. if <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^i(H)=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i\neq  n]]></fr:tex>).
+  We also say that <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:em>Hodge structure of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex></fr:em>.</fr:p>
+            <fr:p>The <fr:em>Tate Hodge structure</fr:em> <fr:tex display="inline"><![CDATA[\mathbb {Z}(1)]]></fr:tex> is the Hodge structure of weight <fr:tex display="inline"><![CDATA[-2]]></fr:tex>, of pure degree <fr:tex display="inline"><![CDATA[(-1,-1)]]></fr:tex>, for which <fr:tex display="inline"><![CDATA[\mathbb {Z}(1)_\mathbb {C}=\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {Z}(1)_\mathbb {Z} = 2\pi  i\mathbb {Z} = \operatorname {Ker}(\exp \colon \mathbb {C}\to \mathbb {C}^*)\subset \mathbb {C}]]></fr:tex>.
+  We set <fr:tex display="inline"><![CDATA[\mathbb {Z}(n)=\mathbb {Z}(1)^{\otimes  n}]]></fr:tex>.</fr:p>
+            <fr:p>We can show that mixed Hodge structures form an abelian category.
+  If <fr:tex display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is a morphism, then <fr:tex display="inline"><![CDATA[f_\mathbb {Q}]]></fr:tex> and <fr:tex display="inline"><![CDATA[f_\mathbb {C}]]></fr:tex> are strictly compatible with the filtrations <fr:tex display="inline"><![CDATA[W]]></fr:tex> and <fr:tex display="inline"><![CDATA[F]]></fr:tex> (cf. <fr:link type="local" href="hodge-theory-ii-2.3.5.xml" addr="hodge-theory-ii-2.3.5">[Hodge Theory II, 2.3.5]</fr:link>).</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

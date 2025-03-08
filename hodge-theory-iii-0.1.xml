@@ -1,248 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2102</fr:anchor><fr:addr
-type="user">hodge-theory-iii-0.1</fr:addr><fr:route>hodge-theory-iii-0.1.xml</fr:route><fr:authors /><fr:number>III.0.1</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[u\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces.
-    We say that <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is <fr:em>proper</fr:em> if it is proper in the sense of Bourbaki (i.e. universally closed) and furthermore separated (i.e. the diagonal of <fr:tex
-display="inline"><![CDATA[X\times _Y X]]></fr:tex> is closed).</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2103</fr:anchor><fr:addr
-type="user">hodge-theory-iii-terminology-and-notation</fr:addr><fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route><fr:title
-text="Hodge Theory III › Terminology and notation"><fr:link
-type="local"
-href="hodge-theory-iii.xml"
-addr="hodge-theory-iii"
-title="Hodge Theory III">Hodge Theory III</fr:link> › Terminology and notation</fr:title><fr:authors /><fr:parent>hodge-theory-iii</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2104</fr:anchor><fr:addr
-type="user">hodge-theory-iii-0.1</fr:addr><fr:route>hodge-theory-iii-0.1.xml</fr:route><fr:authors /><fr:number>III.0.1</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[u\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces.
-    We say that <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is <fr:em>proper</fr:em> if it is proper in the sense of Bourbaki (i.e. universally closed) and furthermore separated (i.e. the diagonal of <fr:tex
-display="inline"><![CDATA[X\times _Y X]]></fr:tex> is closed).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2105</fr:anchor><fr:addr
-type="user">hodge-theory-iii-0.2</fr:addr><fr:route>hodge-theory-iii-0.2.xml</fr:route><fr:authors /><fr:number>III.0.2</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Following Gabriel and Zisman, we say <fr:em>simplicial</fr:em> where we would have previously said semi-simplicial.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2106</fr:anchor><fr:addr
-type="user">hodge-theory-iii-0.3</fr:addr><fr:route>hodge-theory-iii-0.3.xml</fr:route><fr:authors /><fr:number>III.0.3</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We denote by <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> a Noetherian subring of <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[A\otimes \mathbb {Q}]]></fr:tex> is a field.
-    The useful cases are <fr:tex
-display="inline"><![CDATA[A=\mathbb {Z}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, or <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2107</fr:anchor><fr:addr
-type="user">hodge-theory-iii-0.4</fr:addr><fr:route>hodge-theory-iii-0.4.xml</fr:route><fr:authors /><fr:number>III.0.4</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-structure</fr:em> consists of an <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-module <fr:tex
-display="inline"><![CDATA[H_A]]></fr:tex> of finite type, a finite increasing filtration <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> on the <fr:tex
-display="inline"><![CDATA[A\otimes \mathbb {Q}]]></fr:tex>-vector space <fr:tex
-display="inline"><![CDATA[H_{A\otimes \mathbb {Q}}=H_A\otimes \mathbb {Q}]]></fr:tex>, and a finite decreasing filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> on the <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex>-vector space <fr:tex
-display="inline"><![CDATA[H_\mathbb {C}=H_A\otimes _A\mathbb {C}]]></fr:tex>.
-    We demand that the <fr:tex
-display="inline"><![CDATA[(\operatorname {Gr}_n^W(H_{A\otimes \mathbb {Q}}),\operatorname {Gr}_n^W(F))]]></fr:tex> be Hodge <fr:tex
-display="inline"><![CDATA[A\otimes \mathbb {Q}]]></fr:tex>-structures.
-    For <fr:tex
-display="inline"><![CDATA[A=\mathbb {Z}]]></fr:tex> (resp. <fr:tex
-display="inline"><![CDATA[A=\mathbb {Q}]]></fr:tex>), we recover <fr:ref
-addr="hodge-theory-ii-2.3.1"
-href="hodge-theory-ii-2.3.1.xml"
-taxon="Definition"
-number="2.3.1" /> (resp. <fr:ref
-addr="hodge-theory-ii-2.3.8"
-href="hodge-theory-ii-2.3.8.xml"
-number="2.3.8" />);
-    the results of <fr:ref
-addr="hodge-theory-ii-2.3"
-href="hodge-theory-ii-2.3.xml"
-number="2.3" /> carry over as they are.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2108</fr:anchor><fr:addr
-type="user">hodge-theory-iii-0.5</fr:addr><fr:route>hodge-theory-iii-0.5.xml</fr:route><fr:authors /><fr:number>III.0.5</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathscr {E}]]></fr:tex> be a subset of <fr:tex
-display="inline"><![CDATA[\mathbb {Z}\times \mathbb {Z}]]></fr:tex>.
-    We say that a mixed Hodge structure <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is of <fr:em>degree <fr:tex
-display="inline"><![CDATA[\mathscr {E}]]></fr:tex></fr:em> if the Hodge numbers <fr:tex
-display="inline"><![CDATA[h^{pq}]]></fr:tex> are zero for <fr:tex
-display="inline"><![CDATA[(p,q)\not \in \mathscr {E}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2109</fr:anchor><fr:addr
-type="user">hodge-theory-iii-0.6</fr:addr><fr:route>hodge-theory-iii-0.6.xml</fr:route><fr:authors /><fr:number>III.0.6</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>From now on, we denote by <fr:tex
-display="inline"><![CDATA[\Omega _X^\bullet (\log  D)]]></fr:tex> what we previously denoted by <fr:tex
-display="inline"><![CDATA[\Omega _X^\bullet \langle  D\rangle ]]></fr:tex> (<fr:ref
-addr="hodge-theory-ii-3.1.2"
-href="hodge-theory-ii-3.1.2.xml"
-number="3.1.2" />).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2110</fr:anchor><fr:addr
-type="user">hodge-theory-iii-0.7</fr:addr><fr:route>hodge-theory-iii-0.7.xml</fr:route><fr:authors /><fr:number>III.0.7</fr:number><fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Unless explicitly stated otherwise, <fr:em>scheme</fr:em> means "scheme of finite type over <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex>", and a <fr:em>sheaf</fr:em> on a scheme <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is a sheaf on the underlying topological space of <fr:tex
-display="inline"><![CDATA[X_\mathrm {an}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2111</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.5</fr:addr><fr:route>hodge-theory-iii-5.3.5.xml</fr:route><fr:authors /><fr:number>5.3.5</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The fundamental results, proven in [<fr:link
-type="local"
-href="SD.xml"
-addr="SD"
-title="Techniques de descente cohomologique">SD</fr:link>], are the following.
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2114</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-0.1</fr:addr>
+    <fr:route>hodge-theory-iii-0.1.xml</fr:route>
+    <fr:authors />
+    <fr:number>III.0.1</fr:number>
+    <fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[u\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces.
+    We say that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is <fr:em>proper</fr:em> if it is proper in the sense of Bourbaki (i.e. universally closed) and furthermore separated (i.e. the diagonal of <fr:tex display="inline"><![CDATA[X\times _Y X]]></fr:tex> is closed).</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2115</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-terminology-and-notation</fr:addr>
+            <fr:route>hodge-theory-iii-terminology-and-notation.xml</fr:route>
+            <fr:title text="Hodge Theory III › Terminology and notation"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Terminology and notation</fr:title>
+            <fr:authors />
+            <fr:parent>hodge-theory-iii</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2116</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-0.1</fr:addr>
+                <fr:route>hodge-theory-iii-0.1.xml</fr:route>
+                <fr:authors />
+                <fr:number>III.0.1</fr:number>
+                <fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[u\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces.
+    We say that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is <fr:em>proper</fr:em> if it is proper in the sense of Bourbaki (i.e. universally closed) and furthermore separated (i.e. the diagonal of <fr:tex display="inline"><![CDATA[X\times _Y X]]></fr:tex> is closed).</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2117</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-0.2</fr:addr>
+                <fr:route>hodge-theory-iii-0.2.xml</fr:route>
+                <fr:authors />
+                <fr:number>III.0.2</fr:number>
+                <fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Following Gabriel and Zisman, we say <fr:em>simplicial</fr:em> where we would have previously said semi-simplicial.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2118</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-0.3</fr:addr>
+                <fr:route>hodge-theory-iii-0.3.xml</fr:route>
+                <fr:authors />
+                <fr:number>III.0.3</fr:number>
+                <fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We denote by <fr:tex display="inline"><![CDATA[A]]></fr:tex> a Noetherian subring of <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[A\otimes \mathbb {Q}]]></fr:tex> is a field.
+    The useful cases are <fr:tex display="inline"><![CDATA[A=\mathbb {Z}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, or <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2119</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-0.4</fr:addr>
+                <fr:route>hodge-theory-iii-0.4.xml</fr:route>
+                <fr:authors />
+                <fr:number>III.0.4</fr:number>
+                <fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>A <fr:em>mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-structure</fr:em> consists of an <fr:tex display="inline"><![CDATA[A]]></fr:tex>-module <fr:tex display="inline"><![CDATA[H_A]]></fr:tex> of finite type, a finite increasing filtration <fr:tex display="inline"><![CDATA[W]]></fr:tex> on the <fr:tex display="inline"><![CDATA[A\otimes \mathbb {Q}]]></fr:tex>-vector space <fr:tex display="inline"><![CDATA[H_{A\otimes \mathbb {Q}}=H_A\otimes \mathbb {Q}]]></fr:tex>, and a finite decreasing filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> on the <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>-vector space <fr:tex display="inline"><![CDATA[H_\mathbb {C}=H_A\otimes _A\mathbb {C}]]></fr:tex>.
+    We demand that the <fr:tex display="inline"><![CDATA[(\operatorname {Gr}_n^W(H_{A\otimes \mathbb {Q}}),\operatorname {Gr}_n^W(F))]]></fr:tex> be Hodge <fr:tex display="inline"><![CDATA[A\otimes \mathbb {Q}]]></fr:tex>-structures.
+    For <fr:tex display="inline"><![CDATA[A=\mathbb {Z}]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[A=\mathbb {Q}]]></fr:tex>), we recover <fr:ref addr="hodge-theory-ii-2.3.1" href="hodge-theory-ii-2.3.1.xml" taxon="Definition" number="2.3.1" /> (resp. <fr:ref addr="hodge-theory-ii-2.3.8" href="hodge-theory-ii-2.3.8.xml" number="2.3.8" />);
+    the results of <fr:ref addr="hodge-theory-ii-2.3" href="hodge-theory-ii-2.3.xml" number="2.3" /> carry over as they are.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2120</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-0.5</fr:addr>
+                <fr:route>hodge-theory-iii-0.5.xml</fr:route>
+                <fr:authors />
+                <fr:number>III.0.5</fr:number>
+                <fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[\mathscr {E}]]></fr:tex> be a subset of <fr:tex display="inline"><![CDATA[\mathbb {Z}\times \mathbb {Z}]]></fr:tex>.
+    We say that a mixed Hodge structure <fr:tex display="inline"><![CDATA[H]]></fr:tex> is of <fr:em>degree <fr:tex display="inline"><![CDATA[\mathscr {E}]]></fr:tex></fr:em> if the Hodge numbers <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[(p,q)\not \in \mathscr {E}]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2121</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-0.6</fr:addr>
+                <fr:route>hodge-theory-iii-0.6.xml</fr:route>
+                <fr:authors />
+                <fr:number>III.0.6</fr:number>
+                <fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>From now on, we denote by <fr:tex display="inline"><![CDATA[\Omega _X^\bullet (\log  D)]]></fr:tex> what we previously denoted by <fr:tex display="inline"><![CDATA[\Omega _X^\bullet \langle  D\rangle ]]></fr:tex> (<fr:ref addr="hodge-theory-ii-3.1.2" href="hodge-theory-ii-3.1.2.xml" number="3.1.2" />).</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2122</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-0.7</fr:addr>
+                <fr:route>hodge-theory-iii-0.7.xml</fr:route>
+                <fr:authors />
+                <fr:number>III.0.7</fr:number>
+                <fr:parent>hodge-theory-iii-terminology-and-notation</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Unless explicitly stated otherwise, <fr:em>scheme</fr:em> means "scheme of finite type over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>", and a <fr:em>sheaf</fr:em> on a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a sheaf on the underlying topological space of <fr:tex display="inline"><![CDATA[X_\mathrm {an}]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2123</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.3.5</fr:addr>
+            <fr:route>hodge-theory-iii-5.3.5.xml</fr:route>
+            <fr:authors />
+            <fr:number>5.3.5</fr:number>
+            <fr:parent>hodge-theory-iii-5.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The fundamental results, proven in [<fr:link type="local" href="SD.xml" addr="SD" title="Techniques de descente cohomologique">SD</fr:link>], are the following.
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(I) &quot;">
+ <html:li style="list-style-type: &quot;(I) &quot;">
         The continuous maps of universal cohomological descent form a Grothendieck topology on the category of topological spaces, which we call the <fr:em>universal cohomological descent topology</fr:em>.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(II) &quot;">
-        A proper (<fr:ref
-addr="hodge-theory-iii-0.1"
-href="hodge-theory-iii-0.1.xml"
-number="III.0.1" />) surjective map is of universal cohomological descent.
+ <html:li style="list-style-type: &quot;(II) &quot;">
+        A proper (<fr:ref addr="hodge-theory-iii-0.1" href="hodge-theory-iii-0.1.xml" number="III.0.1" />) surjective map is of universal cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(III) &quot;">
-        A map <fr:tex
-display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> that admits sections locally on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is of universal cohomological descent.
+ <html:li style="list-style-type: &quot;(III) &quot;">
+        A map <fr:tex display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> that admits sections locally on <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of universal cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(IV) &quot;">
-        Let <fr:tex
-display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be a <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated augmented simplicial space (with <fr:tex
-display="inline"><![CDATA[-1\leqslant  k\leqslant \infty ]]></fr:tex>).
-        For <fr:tex
-display="inline"><![CDATA[k\geqslant  n\geqslant -1]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet ]]></fr:tex> be the evident map.
-        We say that <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em><fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
+ <html:li style="list-style-type: &quot;(IV) &quot;">
+        Let <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated augmented simplicial space (with <fr:tex display="inline"><![CDATA[-1\leqslant  k\leqslant \infty ]]></fr:tex>).
+        For <fr:tex display="inline"><![CDATA[k\geqslant  n\geqslant -1]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet ]]></fr:tex> be the evident map.
+        We say that <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em><fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
 
-        <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2117</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2129</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-        (for <fr:tex
-display="inline"><![CDATA[-1\leqslant  n\leqslant  k-1]]></fr:tex>) are of universal cohomological descent.
-        If <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is such a hypercover, then the simplicial space <fr:tex
-display="inline"><![CDATA[\operatorname {cosq}(X_\bullet )]]></fr:tex> augmented over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is of cohomological descent.
+        (for <fr:tex display="inline"><![CDATA[-1\leqslant  n\leqslant  k-1]]></fr:tex>) are of universal cohomological descent.
+        If <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is such a hypercover, then the simplicial space <fr:tex display="inline"><![CDATA[\operatorname {cosq}(X_\bullet )]]></fr:tex> augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(V) &quot;">
-        Let <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-        <fr:tex
-display="block"><![CDATA[           \begin {CD}             X_\bullet  @>a>> Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         ]]></fr:tex>
-        We say that <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex
-display="inline"><![CDATA[X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n]]></fr:tex> are of universal cohomological descent.
-        If <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is such a hypercover then, for every <fr:tex
-display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>,
-        <fr:tex
-display="block"><![CDATA[           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         ]]></fr:tex>
+ <html:li style="list-style-type: &quot;(V) &quot;">
+        Let <fr:tex display="inline"><![CDATA[a]]></fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+        <fr:tex display="block"><![CDATA[           \begin {CD}             X_\bullet  @>a>> Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         ]]></fr:tex>
+        We say that <fr:tex display="inline"><![CDATA[a]]></fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex display="inline"><![CDATA[X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n]]></fr:tex> are of universal cohomological descent.
+        If <fr:tex display="inline"><![CDATA[a]]></fr:tex> is such a hypercover then, for every <fr:tex display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>,
+        <fr:tex display="block"><![CDATA[           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         ]]></fr:tex>
       </html:li>
 
-    </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,350 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>626</fr:anchor><fr:addr
-type="user">hodge-theory-i-8.2</fr:addr><fr:route>hodge-theory-i-8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       M\colon  \mathbb {Z}_l(1)\otimes  H \to  H.     \tag{8.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>627</fr:anchor><fr:addr
-type="user">hodge-theory-i-8</fr:addr><fr:route>hodge-theory-i-8.xml</fr:route><fr:authors /><fr:number>8</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex> be the spectrum of a Henselian discrete valuation ring (a <fr:em>Henselian trait</fr:em>) with field of fractions <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, and residue field <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> that is of finite type over the prime field of characteristic <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>.
-  Let <fr:tex
-display="inline"><![CDATA[\overline {K}]]></fr:tex> be an algebraic closure of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> be a vector space of finite dimension over <fr:tex
-display="inline"><![CDATA[\mathbb {Q}_l]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[l\neq  p]]></fr:tex>) on which <fr:tex
-display="inline"><![CDATA[\operatorname {Gal}(\overline {K}/K)]]></fr:tex> acts continuously.
-  By Grothendieck, we know ([<fr:link
-type="local"
-href="ST1968.xml"
-addr="ST1968"
-title="Good reduction of abelian varieties">ST1968</fr:link>, Appendix]) that a subgroup of finite index of the inertia group <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> acts unipotently.
-  By replacing <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> with a finite extension, we arrive to the case where the action of all of <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> is unipotent (the <fr:em>semi-stable</fr:em>case);
-  it then factors as the largest pro-<fr:tex
-display="inline"><![CDATA[l]]></fr:tex>-group <fr:tex
-display="inline"><![CDATA[I_l]]></fr:tex> that is a quotient of <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>, and canonically isomorphic to <fr:tex
-display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>380</fr:anchor><fr:addr
-type="user">hodge-theory-i-principle-8.1</fr:addr><fr:route>hodge-theory-i-principle-8.1.xml</fr:route><fr:taxon>Principle</fr:taxon><fr:authors /><fr:number>8.1</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>In the semi-stable case, if the Galois module <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> (the "<fr:em>weight filtration</fr:em>") such that <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> acts trivially on <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex>, and such that <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex>, as a Galois module under <fr:tex
-display="inline"><![CDATA[\operatorname {Gal}(\overline {k}/k)\simeq \operatorname {Gal}(\overline {K}/K)/I]]></fr:tex>, is pure of weight <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can compare this with <fr:ref
-addr="hodge-theory-i-principle-2.1"
-href="hodge-theory-i-principle-2.1.xml"
-taxon="Principle"
-number="2.1" /> and with the appendix of <fr:ref
-addr="ST1968"
-href="ST1968.xml"
-taxon="Reference" />.</fr:p><fr:p>If we have a resolution of singularities, then we can sometimes give a conjectural definition of <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> whose validity follows from the Weil conjectures.
-  With the help of the resolution and of Weil, it is sometimes easy to show that, in any case, <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> splits into pure Galois modules (under <fr:tex
-display="inline"><![CDATA[\operatorname {Gal}(\overline {k}/k)]]></fr:tex>).</fr:p><fr:p>Suppose that <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is semi-stable.
-  For <fr:tex
-display="inline"><![CDATA[T\in  I_t]]></fr:tex>, we define <fr:tex
-display="inline"><![CDATA[\log  T]]></fr:tex> by the <fr:em>finite</fr:em> sum <fr:tex
-display="inline"><![CDATA[-\sum _{n>0}(\mathrm {Id} -T)^n/n]]></fr:tex>.
-  The map <fr:tex
-display="inline"><![CDATA[(T,x)\mapsto \log  T(x)]]></fr:tex> can be identified with a homomorphism
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>631</fr:anchor>
+    <fr:addr type="user">hodge-theory-i-8.2</fr:addr>
+    <fr:route>hodge-theory-i-8.2.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>8.2</fr:number>
+    <fr:parent>hodge-theory-i-8</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[       M\colon  \mathbb {Z}_l(1)\otimes  H \to  H.     \tag{8.2}     ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>632</fr:anchor>
+            <fr:addr type="user">hodge-theory-i-8</fr:addr>
+            <fr:route>hodge-theory-i-8.xml</fr:route>
+            <fr:authors />
+            <fr:number>8</fr:number>
+            <fr:parent>hodge-theory-i</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex> be the spectrum of a Henselian discrete valuation ring (a <fr:em>Henselian trait</fr:em>) with field of fractions <fr:tex display="inline"><![CDATA[K]]></fr:tex>, and residue field <fr:tex display="inline"><![CDATA[k]]></fr:tex> that is of finite type over the prime field of characteristic <fr:tex display="inline"><![CDATA[p]]></fr:tex>.
+  Let <fr:tex display="inline"><![CDATA[\overline {K}]]></fr:tex> be an algebraic closure of <fr:tex display="inline"><![CDATA[K]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[H]]></fr:tex> be a vector space of finite dimension over <fr:tex display="inline"><![CDATA[\mathbb {Q}_l]]></fr:tex> (for <fr:tex display="inline"><![CDATA[l\neq  p]]></fr:tex>) on which <fr:tex display="inline"><![CDATA[\operatorname {Gal}(\overline {K}/K)]]></fr:tex> acts continuously.
+  By Grothendieck, we know ([<fr:link type="local" href="ST1968.xml" addr="ST1968" title="Good reduction of abelian varieties">ST1968</fr:link>, Appendix]) that a subgroup of finite index of the inertia group <fr:tex display="inline"><![CDATA[I]]></fr:tex> acts unipotently.
+  By replacing <fr:tex display="inline"><![CDATA[V]]></fr:tex> with a finite extension, we arrive to the case where the action of all of <fr:tex display="inline"><![CDATA[I]]></fr:tex> is unipotent (the <fr:em>semi-stable</fr:em>case);
+  it then factors as the largest pro-<fr:tex display="inline"><![CDATA[l]]></fr:tex>-group <fr:tex display="inline"><![CDATA[I_l]]></fr:tex> that is a quotient of <fr:tex display="inline"><![CDATA[I]]></fr:tex>, and canonically isomorphic to <fr:tex display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>.</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>384</fr:anchor>
+                <fr:addr type="user">hodge-theory-i-principle-8.1</fr:addr>
+                <fr:route>hodge-theory-i-principle-8.1.xml</fr:route>
+                <fr:taxon>Principle</fr:taxon>
+                <fr:authors />
+                <fr:number>8.1</fr:number>
+                <fr:parent>hodge-theory-i-8</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>In the semi-stable case, if the Galois module <fr:tex display="inline"><![CDATA[H]]></fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex display="inline"><![CDATA[W]]></fr:tex> of <fr:tex display="inline"><![CDATA[H]]></fr:tex> (the "<fr:em>weight filtration</fr:em>") such that <fr:tex display="inline"><![CDATA[I]]></fr:tex> acts trivially on <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex>, and such that <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex>, as a Galois module under <fr:tex display="inline"><![CDATA[\operatorname {Gal}(\overline {k}/k)\simeq \operatorname {Gal}(\overline {K}/K)/I]]></fr:tex>, is pure of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>We can compare this with <fr:ref addr="hodge-theory-i-principle-2.1" href="hodge-theory-i-principle-2.1.xml" taxon="Principle" number="2.1" /> and with the appendix of <fr:ref addr="ST1968" href="ST1968.xml" taxon="Reference" />.</fr:p>
+            <fr:p>If we have a resolution of singularities, then we can sometimes give a conjectural definition of <fr:tex display="inline"><![CDATA[W]]></fr:tex> whose validity follows from the Weil conjectures.
+  With the help of the resolution and of Weil, it is sometimes easy to show that, in any case, <fr:tex display="inline"><![CDATA[H]]></fr:tex> splits into pure Galois modules (under <fr:tex display="inline"><![CDATA[\operatorname {Gal}(\overline {k}/k)]]></fr:tex>).</fr:p>
+            <fr:p>Suppose that <fr:tex display="inline"><![CDATA[H]]></fr:tex> is semi-stable.
+  For <fr:tex display="inline"><![CDATA[T\in  I_t]]></fr:tex>, we define <fr:tex display="inline"><![CDATA[\log  T]]></fr:tex> by the <fr:em>finite</fr:em> sum <fr:tex display="inline"><![CDATA[-\sum _{n>0}(\mathrm {Id} -T)^n/n]]></fr:tex>.
+  The map <fr:tex display="inline"><![CDATA[(T,x)\mapsto \log  T(x)]]></fr:tex> can be identified with a homomorphism
 
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:addr
-type="user">hodge-theory-i-8.2</fr:addr><fr:route>hodge-theory-i-8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       M\colon  \mathbb {Z}_l(1)\otimes  H \to  H.     \tag{8.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:addr type="user">hodge-theory-i-8.2</fr:addr><fr:route>hodge-theory-i-8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       M\colon  \mathbb {Z}_l(1)\otimes  H \to  H.     \tag{8.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  Since <fr:tex
-display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex> is of weight <fr:tex
-display="inline"><![CDATA[-2]]></fr:tex>, we necessarily have (cf. <fr:ref
-addr="hodge-theory-i-5"
-href="hodge-theory-i-5.xml"
-number="5" />)
+  Since <fr:tex display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex> is of weight <fr:tex display="inline"><![CDATA[-2]]></fr:tex>, we necessarily have (cf. <fr:ref addr="hodge-theory-i-5" href="hodge-theory-i-5.xml" number="5" />)
 
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>382</fr:anchor><fr:addr
-type="user">hodge-theory-i-8.3</fr:addr><fr:route>hodge-theory-i-8.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.3</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       M(\mathbb {Z}_l(1)\otimes  W_n(H)) \subset  W_{n-2}(H),     \tag{8.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:addr type="user">hodge-theory-i-8.3</fr:addr><fr:route>hodge-theory-i-8.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.3</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       M(\mathbb {Z}_l(1)\otimes  W_n(H)) \subset  W_{n-2}(H),     \tag{8.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-  and <fr:tex
-display="inline"><![CDATA[M]]></fr:tex> induces
+  and <fr:tex display="inline"><![CDATA[M]]></fr:tex> induces
 
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>383</fr:anchor><fr:addr
-type="user">hodge-theory-i-8.4</fr:addr><fr:route>hodge-theory-i-8.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.4</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[       \operatorname {Gr}(M)\colon  \mathbb {Z}_l(1)\otimes \operatorname {Gr}_n^W(H) \to  \operatorname {Gr}_{n-2}^W(H).     \tag{8.4}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:addr
-type="user">hodge-theory-i-8.5</fr:addr><fr:route>hodge-theory-i-8.5.xml</fr:route><fr:authors /><fr:number>8.5</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is a non-singular projective variety over an algebraically closed field <fr:tex
-display="inline"><![CDATA[k_0]]></fr:tex>, then we define
-    <fr:tex
-display="block"><![CDATA[       L\colon  \mathbb {Z}_l(-1)\otimes  H^\bullet (X,\mathbb {Z}_l)       \to  H^\bullet (X,\mathbb {Z}_l)     ]]></fr:tex>
+  <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>387</fr:anchor><fr:addr type="user">hodge-theory-i-8.4</fr:addr><fr:route>hodge-theory-i-8.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.4</fr:number><fr:parent>hodge-theory-i-8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[       \operatorname {Gr}(M)\colon  \mathbb {Z}_l(1)\otimes \operatorname {Gr}_n^W(H) \to  \operatorname {Gr}_{n-2}^W(H).     \tag{8.4}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>388</fr:anchor>
+                <fr:addr type="user">hodge-theory-i-8.5</fr:addr>
+                <fr:route>hodge-theory-i-8.5.xml</fr:route>
+                <fr:authors />
+                <fr:number>8.5</fr:number>
+                <fr:parent>hodge-theory-i-8</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a non-singular projective variety over an algebraically closed field <fr:tex display="inline"><![CDATA[k_0]]></fr:tex>, then we define
+    <fr:tex display="block"><![CDATA[       L\colon  \mathbb {Z}_l(-1)\otimes  H^\bullet (X,\mathbb {Z}_l)       \to  H^\bullet (X,\mathbb {Z}_l)     ]]></fr:tex>
     as being the cup product with the cohomology class of a hyperplane section.
-    We note that there is a formal analogy between <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[M]]></fr:tex>;
-    in the same way that <fr:tex
-display="inline"><![CDATA[M]]></fr:tex> is defined by an action of <fr:tex
-display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>, we can think of <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> as being defined by an action of <fr:tex
-display="inline"><![CDATA[\mathbb {Z}_l(-1)]]></fr:tex>;
-    <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> increases the degree by <fr:tex
-display="inline"><![CDATA[2]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\operatorname {Gr} M]]></fr:tex> <fr:ref
-addr="hodge-theory-i-8.4"
-href="hodge-theory-i-8.4.xml"
-taxon="Equation"
-number="8.4" /> decreases it by <fr:tex
-display="inline"><![CDATA[2]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>628</fr:anchor><fr:addr
-type="user">hodge-theory-i-9</fr:addr><fr:route>hodge-theory-i-9.xml</fr:route><fr:authors /><fr:number>9</fr:number><fr:parent>hodge-theory-i</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> be the unit disc, <fr:tex
-display="inline"><![CDATA[D^*=D\setminus \{0\}]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>
-  <fr:tex
-display="block"><![CDATA[     \begin {CD}       X @>>> \mathbb {P}^r(\mathbb {C})\times  D     \\@VfVV @VV\mathrm {pr}_2V     \\D @= D     \end {CD}   ]]></fr:tex>
-  a family of projective varieties parameterised by <fr:tex
-display="inline"><![CDATA[D]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> proper, and <fr:tex
-display="inline"><![CDATA[f|D^*]]></fr:tex> smooth.</fr:p><fr:p>Keeping the notation of <fr:ref
-addr="hodge-theory-i-8"
-href="hodge-theory-i-8.xml"
-number="8" />, and recalling that, in the analogy between Henselian traits and small neighbourhoods of <fr:tex
-display="inline"><![CDATA[0]]></fr:tex> in the complex line, we have the following dictionary (note that the spectrum of the ring of germs at <fr:tex
-display="inline"><![CDATA[0]]></fr:tex> of holomorphic functions is a Henselian trait):</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:addr
-type="user">hodge-theory-i-dictionary-9.1</fr:addr><fr:route>hodge-theory-i-dictionary-9.1.xml</fr:route><fr:taxon>Dictionary</fr:taxon><fr:authors /><fr:number>9.1</fr:number><fr:parent>hodge-theory-i-9</fr:parent></fr:frontmatter><fr:mainmatter><html:table
-xmlns:html="http://www.w3.org/1999/xhtml">
+    We note that there is a formal analogy between <fr:tex display="inline"><![CDATA[L]]></fr:tex> and <fr:tex display="inline"><![CDATA[M]]></fr:tex>;
+    in the same way that <fr:tex display="inline"><![CDATA[M]]></fr:tex> is defined by an action of <fr:tex display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>, we can think of <fr:tex display="inline"><![CDATA[L]]></fr:tex> as being defined by an action of <fr:tex display="inline"><![CDATA[\mathbb {Z}_l(-1)]]></fr:tex>;
+    <fr:tex display="inline"><![CDATA[L]]></fr:tex> increases the degree by <fr:tex display="inline"><![CDATA[2]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Gr} M]]></fr:tex> <fr:ref addr="hodge-theory-i-8.4" href="hodge-theory-i-8.4.xml" taxon="Equation" number="8.4" /> decreases it by <fr:tex display="inline"><![CDATA[2]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>633</fr:anchor>
+            <fr:addr type="user">hodge-theory-i-9</fr:addr>
+            <fr:route>hodge-theory-i-9.xml</fr:route>
+            <fr:authors />
+            <fr:number>9</fr:number>
+            <fr:parent>hodge-theory-i</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[D]]></fr:tex> be the unit disc, <fr:tex display="inline"><![CDATA[D^*=D\setminus \{0\}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[X]]></fr:tex>
+  <fr:tex display="block"><![CDATA[     \begin {CD}       X @>>> \mathbb {P}^r(\mathbb {C})\times  D     \\@VfVV @VV\mathrm {pr}_2V     \\D @= D     \end {CD}   ]]></fr:tex>
+  a family of projective varieties parameterised by <fr:tex display="inline"><![CDATA[D]]></fr:tex>, with <fr:tex display="inline"><![CDATA[f]]></fr:tex> proper, and <fr:tex display="inline"><![CDATA[f|D^*]]></fr:tex> smooth.</fr:p>
+            <fr:p>Keeping the notation of <fr:ref addr="hodge-theory-i-8" href="hodge-theory-i-8.xml" number="8" />, and recalling that, in the analogy between Henselian traits and small neighbourhoods of <fr:tex display="inline"><![CDATA[0]]></fr:tex> in the complex line, we have the following dictionary (note that the spectrum of the ring of germs at <fr:tex display="inline"><![CDATA[0]]></fr:tex> of holomorphic functions is a Henselian trait):</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>390</fr:anchor>
+                <fr:addr type="user">hodge-theory-i-dictionary-9.1</fr:addr>
+                <fr:route>hodge-theory-i-dictionary-9.1.xml</fr:route>
+                <fr:taxon>Dictionary</fr:taxon>
+                <fr:authors />
+                <fr:number>9.1</fr:number>
+                <fr:parent>hodge-theory-i-9</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:table xmlns:html="http://www.w3.org/1999/xhtml">
     <html:tr>
-      <html:td><fr:tex
-display="inline"><![CDATA[D]]></fr:tex></html:td>
-      <html:td><fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[D]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex></html:td>
     </html:tr>
     <html:tr>
-      <html:td><fr:tex
-display="inline"><![CDATA[D^*]]></fr:tex></html:td>
-      <html:td><fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(K)]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[D^*]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[\operatorname {Spec}(K)]]></fr:tex></html:td>
     </html:tr>
     <html:tr>
-      <html:td>a universal covering <fr:tex
-display="inline"><![CDATA[\widetilde {D^*}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[D^*]]></fr:tex></html:td>
-      <html:td><fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(\overline {K})]]></fr:tex></html:td>
+      <html:td>a universal covering <fr:tex display="inline"><![CDATA[\widetilde {D^*}]]></fr:tex> of <fr:tex display="inline"><![CDATA[D^*]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[\operatorname {Spec}(\overline {K})]]></fr:tex></html:td>
     </html:tr>
     <html:tr>
-      <html:td>the fundamental group <fr:tex
-display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex></html:td>
-      <html:td>the inertia group <fr:tex
-display="inline"><![CDATA[I]]></fr:tex></html:td>
+      <html:td>the fundamental group <fr:tex display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex></html:td>
+      <html:td>the inertia group <fr:tex display="inline"><![CDATA[I]]></fr:tex></html:td>
     </html:tr>
     <html:tr>
-      <html:td>(with <fr:tex
-display="inline"><![CDATA[\pi _1(D^*)=\mathbb {Z}\simeq \mathbb {Z}(1)_\mathbb {Z}]]></fr:tex>)</html:td>
-      <html:td>(with <fr:tex
-display="inline"><![CDATA[I_l=\mathbb {Z}_l(1)]]></fr:tex>)</html:td>
+      <html:td>(with <fr:tex display="inline"><![CDATA[\pi _1(D^*)=\mathbb {Z}\simeq \mathbb {Z}(1)_\mathbb {Z}]]></fr:tex>)</html:td>
+      <html:td>(with <fr:tex display="inline"><![CDATA[I_l=\mathbb {Z}_l(1)]]></fr:tex>)</html:td>
     </html:tr>
     <html:tr>
-      <html:td><fr:tex
-display="inline"><![CDATA[X]]></fr:tex></html:td>
-      <html:td>a projective scheme <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[X]]></fr:tex></html:td>
+      <html:td>a projective scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> over <fr:tex display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex></html:td>
     </html:tr>
     <html:tr>
-      <html:td><fr:tex
-display="inline"><![CDATA[X^*=f^{-1}(D^*)]]></fr:tex></html:td>
-      <html:td><fr:tex
-display="inline"><![CDATA[X_K]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[X^*=f^{-1}(D^*)]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[X_K]]></fr:tex></html:td>
     </html:tr>
     <html:tr>
-      <html:td><fr:tex
-display="inline"><![CDATA[\widetilde {X}=X\times _D\widetilde {D^*}]]></fr:tex></html:td>
-      <html:td><fr:tex
-display="inline"><![CDATA[X_{\overline {K}}]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[\widetilde {X}=X\times _D\widetilde {D^*}]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[X_{\overline {K}}]]></fr:tex></html:td>
     </html:tr>
     <html:tr>
-      <html:td>the local system <fr:tex
-display="inline"><![CDATA[R^if_*\mathbb {Z}|D^*]]></fr:tex></html:td>
-      <html:td>the Galois module <fr:tex
-display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex></html:td>
+      <html:td>the local system <fr:tex display="inline"><![CDATA[R^if_*\mathbb {Z}|D^*]]></fr:tex></html:td>
+      <html:td>the Galois module <fr:tex display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex></html:td>
     </html:tr>
     <html:tr>
-      <html:td><fr:tex
-display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Z})]]></fr:tex></html:td>
-      <html:td><fr:tex
-display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Z})]]></fr:tex></html:td>
+      <html:td><fr:tex display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex></html:td>
     </html:tr>
-  </html:table></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Note that <fr:tex
-display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is homotopically equivalent to each of the fibres <fr:tex
-display="inline"><![CDATA[X_t=f^{-1}(t)]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[t\in  D^*]]></fr:tex>): <fr:tex
-display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex> is again analogous to <fr:tex
-display="inline"><![CDATA[H^i(X_t,\mathbb {Z})]]></fr:tex>, and the transformation of the monodromy <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> corresponds to the action of <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>.</fr:p><fr:p>Here, again, we know that a subgroup of finite index of <fr:tex
-display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex> acts unipotently on <fr:tex
-display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Q})=H^i(X_t,\mathbb {Q})]]></fr:tex>.
-  We place ourselves in the semi-stable case, where all of <fr:tex
-display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex> acts unipotently (this reduces to replacing <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> by a finite covering), and let <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> be the action of the canonical generator of <fr:tex
-display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex>.</fr:p><fr:p>By <fr:ref
-addr="hodge-theory-i-3"
-href="hodge-theory-i-3.xml"
-number="3" /> and <fr:ref
-addr="hodge-theory-i-8"
-href="hodge-theory-i-8.xml"
-number="8" />, we expect for <fr:tex
-display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Q})\simeq  H^i(X_t,\mathbb {Q})]]></fr:tex> to be endowed with an increasing filtration <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>, for <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_n^W(H^i(\widetilde {X},\mathbb {Q}))]]></fr:tex> to be endowed with a Hodge structure of weight <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, for <fr:tex
-display="inline"><![CDATA[\log  T(W_n)\subset  W_{n-2}]]></fr:tex>, and for <fr:tex
-display="inline"><![CDATA[\log  T]]></fr:tex> to induce a morphism of Hodge structures
-  <fr:tex
-display="block"><![CDATA[     M_n\colon  \mathbb {Z}(-1)\otimes \operatorname {Gr}_n^W(H^i)     \to  \operatorname {Gr}_{n-2}^W(H^i).   ]]></fr:tex>
-  We would further like for <fr:ref
-addr="hodge-theory-i-8.2"
-href="hodge-theory-i-8.2.xml"
-taxon="Equation"
-number="8.2" />, and not just <fr:ref
-addr="hodge-theory-i-8.3"
-href="hodge-theory-i-8.3.xml"
-taxon="Equation"
-number="8.3" /> and <fr:ref
-addr="hodge-theory-i-8.4"
-href="hodge-theory-i-8.4.xml"
-taxon="Equation"
-number="8.4" />, to have an analogue.</fr:p><fr:p>We have in fact managed to define, for each vector <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> of the tangent space to <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> at <fr:tex
-display="inline"><![CDATA[\{0\}]]></fr:tex>, a mixed Hodge structure <fr:tex
-display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Z})]]></fr:tex>.
-  The filtration <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> and the Hodge structures on the <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_n^W(H^i)]]></fr:tex> are independent of <fr:tex
-display="inline"><![CDATA[u]]></fr:tex>, and the dependence on <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> can be expressed simply in terms of <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>.
+  </html:table>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>Note that <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is homotopically equivalent to each of the fibres <fr:tex display="inline"><![CDATA[X_t=f^{-1}(t)]]></fr:tex> (for <fr:tex display="inline"><![CDATA[t\in  D^*]]></fr:tex>): <fr:tex display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex> is again analogous to <fr:tex display="inline"><![CDATA[H^i(X_t,\mathbb {Z})]]></fr:tex>, and the transformation of the monodromy <fr:tex display="inline"><![CDATA[T]]></fr:tex> corresponds to the action of <fr:tex display="inline"><![CDATA[I]]></fr:tex>.</fr:p>
+            <fr:p>Here, again, we know that a subgroup of finite index of <fr:tex display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex> acts unipotently on <fr:tex display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Q})=H^i(X_t,\mathbb {Q})]]></fr:tex>.
+  We place ourselves in the semi-stable case, where all of <fr:tex display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex> acts unipotently (this reduces to replacing <fr:tex display="inline"><![CDATA[D]]></fr:tex> by a finite covering), and let <fr:tex display="inline"><![CDATA[T]]></fr:tex> be the action of the canonical generator of <fr:tex display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex>.</fr:p>
+            <fr:p>By <fr:ref addr="hodge-theory-i-3" href="hodge-theory-i-3.xml" number="3" /> and <fr:ref addr="hodge-theory-i-8" href="hodge-theory-i-8.xml" number="8" />, we expect for <fr:tex display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Q})\simeq  H^i(X_t,\mathbb {Q})]]></fr:tex> to be endowed with an increasing filtration <fr:tex display="inline"><![CDATA[W]]></fr:tex>, for <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(H^i(\widetilde {X},\mathbb {Q}))]]></fr:tex> to be endowed with a Hodge structure of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>, for <fr:tex display="inline"><![CDATA[\log  T(W_n)\subset  W_{n-2}]]></fr:tex>, and for <fr:tex display="inline"><![CDATA[\log  T]]></fr:tex> to induce a morphism of Hodge structures
+  <fr:tex display="block"><![CDATA[     M_n\colon  \mathbb {Z}(-1)\otimes \operatorname {Gr}_n^W(H^i)     \to  \operatorname {Gr}_{n-2}^W(H^i).   ]]></fr:tex>
+  We would further like for <fr:ref addr="hodge-theory-i-8.2" href="hodge-theory-i-8.2.xml" taxon="Equation" number="8.2" />, and not just <fr:ref addr="hodge-theory-i-8.3" href="hodge-theory-i-8.3.xml" taxon="Equation" number="8.3" /> and <fr:ref addr="hodge-theory-i-8.4" href="hodge-theory-i-8.4.xml" taxon="Equation" number="8.4" />, to have an analogue.</fr:p>
+            <fr:p>We have in fact managed to define, for each vector <fr:tex display="inline"><![CDATA[u]]></fr:tex> of the tangent space to <fr:tex display="inline"><![CDATA[D]]></fr:tex> at <fr:tex display="inline"><![CDATA[\{0\}]]></fr:tex>, a mixed Hodge structure <fr:tex display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> on <fr:tex display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Z})]]></fr:tex>.
+  The filtration <fr:tex display="inline"><![CDATA[W]]></fr:tex> and the Hodge structures on the <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(H^i)]]></fr:tex> are independent of <fr:tex display="inline"><![CDATA[u]]></fr:tex>, and the dependence on <fr:tex display="inline"><![CDATA[u]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> can be expressed simply in terms of <fr:tex display="inline"><![CDATA[T]]></fr:tex>.
   
-  Analogously to <fr:ref
-addr="hodge-theory-i-8.2"
-href="hodge-theory-i-8.2.xml"
-taxon="Equation"
-number="8.2" />, we find that, for any <fr:tex
-display="inline"><![CDATA[u]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\log  T]]></fr:tex> induces a homomorphism of mixed Hodge structures
-  <fr:tex
-display="block"><![CDATA[     M\colon  \mathbb {Z}(1)\otimes  H^i(\widetilde {X},\mathbb {Z})     \to  H^i(\widetilde {X},\mathbb {Z}).   ]]></fr:tex></fr:p><fr:p>Finally, the analogy in <fr:ref
-addr="hodge-theory-i-8.5"
-href="hodge-theory-i-8.5.xml"
-number="8.5" /> is not misleading (but here, the fact that <fr:tex
-display="inline"><![CDATA[f|D^*]]></fr:tex> is assumed to be proper and smooth is probably essential).
+  Analogously to <fr:ref addr="hodge-theory-i-8.2" href="hodge-theory-i-8.2.xml" taxon="Equation" number="8.2" />, we find that, for any <fr:tex display="inline"><![CDATA[u]]></fr:tex>, <fr:tex display="inline"><![CDATA[\log  T]]></fr:tex> induces a homomorphism of mixed Hodge structures
+  <fr:tex display="block"><![CDATA[     M\colon  \mathbb {Z}(1)\otimes  H^i(\widetilde {X},\mathbb {Z})     \to  H^i(\widetilde {X},\mathbb {Z}).   ]]></fr:tex></fr:p>
+            <fr:p>Finally, the analogy in <fr:ref addr="hodge-theory-i-8.5" href="hodge-theory-i-8.5.xml" number="8.5" /> is not misleading (but here, the fact that <fr:tex display="inline"><![CDATA[f|D^*]]></fr:tex> is assumed to be proper and smooth is probably essential).
   We can prove that
-  <fr:tex
-display="block"><![CDATA[     (\log  T)^k\colon  \operatorname {Gr}_{n+k}^W(H^n(\widetilde {X},\mathbb {Q}))     \to  \operatorname {Gr}_{n-k}^W(H^n(\widetilde {X},\mathbb {Q}))   ]]></fr:tex>
-  is an isomorphism for all <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> (cf. [<fr:link
-type="local"
-href="W1958.xml"
-addr="W1958"
-title="Introduction à L'Étude des Variétés Kählériennes">W1958</fr:link>, IV 6, Corollary to Theorem 5]).
-  This characterises the filtration <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>.
-  Until now, we have only had an analogue of the positivity theorem of Hodge (cf. [<fr:link
-type="local"
-href="W1958.xml"
-addr="W1958"
-title="Introduction à L'Étude des Variétés Kählériennes">W1958</fr:link>, IV 7, Corollary to Theorem 7]) in very particular cases.
-  We hope that the mixed structures <fr:tex
-display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> determine the asymptotic behaviour, for <fr:tex
-display="inline"><![CDATA[t\to 0]]></fr:tex>, of the family of pure structures <fr:tex
-display="inline"><![CDATA[H^i(X,\mathbb {Z})]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[t\in  D^*]]></fr:tex>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+  <fr:tex display="block"><![CDATA[     (\log  T)^k\colon  \operatorname {Gr}_{n+k}^W(H^n(\widetilde {X},\mathbb {Q}))     \to  \operatorname {Gr}_{n-k}^W(H^n(\widetilde {X},\mathbb {Q}))   ]]></fr:tex>
+  is an isomorphism for all <fr:tex display="inline"><![CDATA[k]]></fr:tex> (cf. [<fr:link type="local" href="W1958.xml" addr="W1958" title="Introduction à L'Étude des Variétés Kählériennes">W1958</fr:link>, IV 6, Corollary to Theorem 5]).
+  This characterises the filtration <fr:tex display="inline"><![CDATA[W]]></fr:tex>.
+  Until now, we have only had an analogue of the positivity theorem of Hodge (cf. [<fr:link type="local" href="W1958.xml" addr="W1958" title="Introduction à L'Étude des Variétés Kählériennes">W1958</fr:link>, IV 7, Corollary to Theorem 7]) in very particular cases.
+  We hope that the mixed structures <fr:tex display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> determine the asymptotic behaviour, for <fr:tex display="inline"><![CDATA[t\to 0]]></fr:tex>, of the family of pure structures <fr:tex display="inline"><![CDATA[H^i(X,\mathbb {Z})]]></fr:tex> (for <fr:tex display="inline"><![CDATA[t\in  D^*]]></fr:tex>).</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

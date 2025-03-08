@@ -1,64 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2891</fr:anchor><fr:addr
-type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof uses <fr:ref
-addr="hodge-theory-iii-6.2.8"
-href="hodge-theory-iii-6.2.8.xml"
-number="6.2.8" />, and is parallel to that of (C) of <fr:ref
-addr="hodge-theory-ii-3.2.11"
-href="hodge-theory-ii-3.2.11.xml"
-number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2892</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.2.2</fr:addr><fr:route>hodge-theory-iii-8.2.2.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>8.2.2</fr:number><fr:parent>hodge-theory-iii-8.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>With the above notation, the mixed Hodge structure <fr:tex
-display="inline"><![CDATA[\operatorname {\mathscr {H}}(\alpha )]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (X)]]></fr:tex> is independent of the choice of <fr:tex
-display="inline"><![CDATA[\alpha ]]></fr:tex>.
-    We call it the <fr:em>mixed Hodge structure of <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Z})]]></fr:tex></fr:em>.
-    For every morphism <fr:tex
-display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> of schemes, <fr:tex
-display="inline"><![CDATA[f^*\colon \operatorname {H}^\bullet (X_2)\to \operatorname {H}^\bullet (X_1)]]></fr:tex> is a morphism of mixed Hodge structures.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3020</fr:anchor>
+    <fr:addr type="machine">#238</fr:addr>
+    <fr:route>unstable-238.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>hodge-theory-iii-8.2.4</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Claim (ii) will be proven in [hodge-theory-iii-8.3.10 <fr:strong>(?)</fr:strong>].
+      Claim (i) follows from (iii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
+      For proper <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can find a diagram as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" /> in which <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>, and (iii) then follows from (iv) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
+      For smooth <fr:tex display="inline"><![CDATA[X]]></fr:tex>, (iv) follows from <fr:ref addr="hodge-theory-iii-8.2.3" href="hodge-theory-iii-8.2.3.xml" number="8.2.3" /> and <fr:ref addr="hodge-theory-ii-3.2.15" href="hodge-theory-ii-3.2.15.xml" taxon="Corollary" number="3.2.15" />.
+      The general case then follows: if <fr:tex display="inline"><![CDATA[p\colon \widetilde {X}\to  X]]></fr:tex> is a resolution of singularities of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then <fr:tex display="inline"><![CDATA[p^*\colon \operatorname {H}^\bullet (X,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})]]></fr:tex> is injective, since the Poincaré dual transpose <fr:tex display="inline"><![CDATA[p_!]]></fr:tex> of <fr:tex display="inline"><![CDATA[p^*\colon \operatorname {H}^\bullet _\mathrm {c}(X,\mathbb {Q})\to \operatorname {H}^\bullet _\mathrm {c}(\widetilde {X},\mathbb {Q})]]></fr:tex> is a retraction for it.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3021</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.2.4</fr:addr>
+            <fr:route>hodge-theory-iii-8.2.4.xml</fr:route>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:authors />
+            <fr:number>8.2.4</fr:number>
+            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The pairs <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex> such that the Hodge number <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X)]]></fr:tex> are non-zero satisfy the following conditions:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(i) &quot;">
+        <fr:tex display="inline"><![CDATA[(p,q)\in [0,n]\times [0,n]]]></fr:tex>.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+        If <fr:tex display="inline"><![CDATA[\dim  X=N]]></fr:tex>, and <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>, then
+        <fr:tex display="block"><![CDATA[           (p,q)\in [n-N,N]\times [n-N,N].         ]]></fr:tex>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(iii) &quot;">
+        If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper, then <fr:tex display="inline"><![CDATA[p+q\leqslant  n]]></fr:tex>.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(iv) &quot;">
+        If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is smooth, then <fr:tex display="inline"><![CDATA[p+q\geqslant  n]]></fr:tex>.
+        The same conclusion holds if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an equidimensional "rational homology manifold" of dimension <fr:tex display="inline"><![CDATA[N]]></fr:tex>, i.e. if, for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>,
+        <fr:tex display="block"><![CDATA[           \operatorname {H}^i_{(x)}(X,\mathbb {Q})           =           \begin {cases}             0 &\text {if }i\neq  2N           \\\mathbb {Q} &\text {if }i=2N.           \end {cases}         ]]></fr:tex>
+      </html:li>
+
+    </html:ol></fr:p><fr:p><fr:embedded-tex hash="5d5d4b1665baee6d5a31251d0d4f7b2e"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+      \begin {scope}
+        \draw [->] (0,0) to (3,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2,0) {\scriptsize $N$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [below] at (1.3,0) {\scriptsize $n$};
+        \node [left] at (0,1.3) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw  (0,1.3) to (1.3,1.3) to (1.3,0) to cycle;
+        \node  at (0.5,0.2) {\scriptsize  proper};
+        \node  at (0.8,1.1) {\scriptsize  smooth};
+      \end {scope}
+      \begin {scope}[shift={(4,0)}]
+        \draw [->] (0,0) to (4,0) node[label={below:$p$}]{};
+        \draw [->] (0,0) to (0,3) node[label={left:$q$}]{};
+        \node [below] at (2.35,0) {\scriptsize $N\qquad  n$};
+        \node [left] at (0,2) {\scriptsize $N$};
+        \node [left] at (0,2.7) {\scriptsize $n$};
+        \draw [dashed] (2,0) to (2,2.7);
+        \draw [dashed] (0,2) to (2.7,2);
+        \draw [dashed] (2.7,0) to (0,2.7);
+        \draw  (0.7,2) to (2,2) to (2,0.7) to (0.7,0.7) to cycle;
+        \draw  (0.7,2) to (2,0.7);
+        \node  at (1.2,0.9) {\scriptsize  proper};
+        \node  at (1.5,1.8) {\scriptsize  smooth};
+      \end {scope}
+    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1653</fr:anchor><fr:addr
-type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof uses <fr:ref
-addr="hodge-theory-iii-6.2.8"
-href="hodge-theory-iii-6.2.8.xml"
-number="6.2.8" />, and is parallel to that of (C) of <fr:ref
-addr="hodge-theory-ii-3.2.11"
-href="hodge-theory-ii-3.2.11.xml"
-number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1699</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Claim (ii) will be proven in [hodge-theory-iii-8.3.10 <fr:strong>(?)</fr:strong>].
+      Claim (i) follows from (iii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
+      For proper <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can find a diagram as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" /> in which <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>, and (iii) then follows from (iv) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
+      For smooth <fr:tex display="inline"><![CDATA[X]]></fr:tex>, (iv) follows from <fr:ref addr="hodge-theory-iii-8.2.3" href="hodge-theory-iii-8.2.3.xml" number="8.2.3" /> and <fr:ref addr="hodge-theory-ii-3.2.15" href="hodge-theory-ii-3.2.15.xml" taxon="Corollary" number="3.2.15" />.
+      The general case then follows: if <fr:tex display="inline"><![CDATA[p\colon \widetilde {X}\to  X]]></fr:tex> is a resolution of singularities of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then <fr:tex display="inline"><![CDATA[p^*\colon \operatorname {H}^\bullet (X,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})]]></fr:tex> is injective, since the Poincaré dual transpose <fr:tex display="inline"><![CDATA[p_!]]></fr:tex> of <fr:tex display="inline"><![CDATA[p^*\colon \operatorname {H}^\bullet _\mathrm {c}(X,\mathbb {Q})\to \operatorname {H}^\bullet _\mathrm {c}(\widetilde {X},\mathbb {Q})]]></fr:tex> is a retraction for it.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,376 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2724</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.15.2</fr:addr><fr:route>hodge-theory-iii-8.1.15.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.1.15.2</fr:number><fr:parent>hodge-theory-iii-8.1.15</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             \small              \begin {CD}               \operatorname {H}^{b-(\beta +1)}(\operatorname {Gr}_{\beta +1}^W K^{\bullet ,\gamma +1}) @>{\partial }>> \operatorname {H}^{b-\beta }(\operatorname {Gr}_\beta ^W K^{\bullet ,\gamma +1}) @>{\partial }>> \operatorname {H}^{b-(\beta -1)}(\operatorname {Gr}_{\beta -1}^W K^{\bullet ,\gamma +1})             \\@. @A{d''}AA @AA{d''}A             \\@. \operatorname {H}^{b-\beta }(\operatorname {Gr}_\beta ^W K^{\bullet ,\gamma }) @>>{\partial }> \operatorname {H}^{b-(\beta -1)}(\operatorname {Gr}_{\beta -1}^W K^{\bullet ,\gamma })             \end {CD}           \tag{8.1.15.2}           ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2725</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.15</fr:addr><fr:route>hodge-theory-iii-8.1.15.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>8.1.15</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be a DG mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complex.
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2748</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-8.1.15.2</fr:addr>
+    <fr:route>hodge-theory-iii-8.1.15.2.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>8.1.15.2</fr:number>
+    <fr:parent>hodge-theory-iii-8.1.15</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[             \small              \begin {CD}               \operatorname {H}^{b-(\beta +1)}(\operatorname {Gr}_{\beta +1}^W K^{\bullet ,\gamma +1}) @>{\partial }>> \operatorname {H}^{b-\beta }(\operatorname {Gr}_\beta ^W K^{\bullet ,\gamma +1}) @>{\partial }>> \operatorname {H}^{b-(\beta -1)}(\operatorname {Gr}_{\beta -1}^W K^{\bullet ,\gamma +1})             \\@. @A{d''}AA @AA{d''}A             \\@. \operatorname {H}^{b-\beta }(\operatorname {Gr}_\beta ^W K^{\bullet ,\gamma }) @>>{\partial }> \operatorname {H}^{b-(\beta -1)}(\operatorname {Gr}_{\beta -1}^W K^{\bullet ,\gamma })             \end {CD}           \tag{8.1.15.2}           ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2749</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.1.15</fr:addr>
+            <fr:route>hodge-theory-iii-8.1.15.xml</fr:route>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:authors />
+            <fr:number>8.1.15</fr:number>
+            <fr:parent>hodge-theory-iii-8.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be a DG mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-complex.
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        With the notation of <fr:ref
-addr="hodge-theory-iii-8.1.10"
-href="hodge-theory-iii-8.1.10.xml"
-number="8.1.10" />, <fr:ref
-addr="hodge-theory-iii-8.1.10.1"
-href="hodge-theory-iii-8.1.10.1.xml"
-taxon="Variation"
-number="8.1.10.1" />, and <fr:ref
-addr="hodge-theory-iii-7.1.6"
-href="hodge-theory-iii-7.1.6.xml"
-number="7.1.6" />, <fr:tex
-display="inline"><![CDATA[(\mathrm {s} K,\delta (W,L),F)]]></fr:tex> is a mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-complex.
+ <html:li style="list-style-type: &quot;(i) &quot;">
+        With the notation of <fr:ref addr="hodge-theory-iii-8.1.10" href="hodge-theory-iii-8.1.10.xml" number="8.1.10" />, <fr:ref addr="hodge-theory-iii-8.1.10.1" href="hodge-theory-iii-8.1.10.1.xml" taxon="Variation" number="8.1.10.1" />, and <fr:ref addr="hodge-theory-iii-7.1.6" href="hodge-theory-iii-7.1.6.xml" number="7.1.6" />, <fr:tex display="inline"><![CDATA[(\mathrm {s} K,\delta (W,L),F)]]></fr:tex> is a mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-complex.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
+ <html:li style="list-style-type: &quot;(ii) &quot;">
         We have
 
-        <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1410</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.15.1</fr:addr><fr:route>hodge-theory-iii-8.1.15.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.1.15.1</fr:number><fr:parent>hodge-theory-iii-8.1.15</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             {}_{\delta (W,L)}E_1^{ab}(\mathrm {s} K\otimes \mathbb {Q})             = \sum _{\substack {\alpha =\gamma -\beta \\b=\alpha +\beta }} \operatorname {H}^\alpha (\operatorname {Gr}_\beta ^W K^{\bullet \gamma })           \tag{8.1.15.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1415</fr:anchor><fr:addr type="user">hodge-theory-iii-8.1.15.1</fr:addr><fr:route>hodge-theory-iii-8.1.15.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.1.15.1</fr:number><fr:parent>hodge-theory-iii-8.1.15</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             {}_{\delta (W,L)}E_1^{ab}(\mathrm {s} K\otimes \mathbb {Q})             = \sum _{\substack {\alpha =\gamma -\beta \\b=\alpha +\beta }} \operatorname {H}^\alpha (\operatorname {Gr}_\beta ^W K^{\bullet \gamma })           \tag{8.1.15.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-        where the complex <fr:tex
-display="inline"><![CDATA[({}_{\delta (W,L)}E_1^{\bullet  b},d_1)]]></fr:tex> is the simple complex associated to the double complex of Hodge <fr:tex
-display="inline"><![CDATA[A\otimes \mathbb {Q}]]></fr:tex>-structures of weight <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> given by
+        where the complex <fr:tex display="inline"><![CDATA[({}_{\delta (W,L)}E_1^{\bullet  b},d_1)]]></fr:tex> is the simple complex associated to the double complex of Hodge <fr:tex display="inline"><![CDATA[A\otimes \mathbb {Q}]]></fr:tex>-structures of weight <fr:tex display="inline"><![CDATA[b]]></fr:tex> given by
 
-        <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1411</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.15.2</fr:addr><fr:route>hodge-theory-iii-8.1.15.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.1.15.2</fr:number><fr:parent>hodge-theory-iii-8.1.15</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             \small              \begin {CD}               \operatorname {H}^{b-(\beta +1)}(\operatorname {Gr}_{\beta +1}^W K^{\bullet ,\gamma +1}) @>{\partial }>> \operatorname {H}^{b-\beta }(\operatorname {Gr}_\beta ^W K^{\bullet ,\gamma +1}) @>{\partial }>> \operatorname {H}^{b-(\beta -1)}(\operatorname {Gr}_{\beta -1}^W K^{\bullet ,\gamma +1})             \\@. @A{d''}AA @AA{d''}A             \\@. \operatorname {H}^{b-\beta }(\operatorname {Gr}_\beta ^W K^{\bullet ,\gamma }) @>>{\partial }> \operatorname {H}^{b-(\beta -1)}(\operatorname {Gr}_{\beta -1}^W K^{\bullet ,\gamma })             \end {CD}           \tag{8.1.15.2}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1416</fr:anchor><fr:addr type="user">hodge-theory-iii-8.1.15.2</fr:addr><fr:route>hodge-theory-iii-8.1.15.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.1.15.2</fr:number><fr:parent>hodge-theory-iii-8.1.15</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             \small              \begin {CD}               \operatorname {H}^{b-(\beta +1)}(\operatorname {Gr}_{\beta +1}^W K^{\bullet ,\gamma +1}) @>{\partial }>> \operatorname {H}^{b-\beta }(\operatorname {Gr}_\beta ^W K^{\bullet ,\gamma +1}) @>{\partial }>> \operatorname {H}^{b-(\beta -1)}(\operatorname {Gr}_{\beta -1}^W K^{\bullet ,\gamma +1})             \\@. @A{d''}AA @AA{d''}A             \\@. \operatorname {H}^{b-\beta }(\operatorname {Gr}_\beta ^W K^{\bullet ,\gamma }) @>>{\partial }> \operatorname {H}^{b-(\beta -1)}(\operatorname {Gr}_{\beta -1}^W K^{\bullet ,\gamma })             \end {CD}           \tag{8.1.15.2}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(iii) &quot;">
+ <html:li style="list-style-type: &quot;(iii) &quot;">
         
-        On the <fr:tex
-display="inline"><![CDATA[{}_LE_r]]></fr:tex> pages of the spectral sequence defined by <fr:tex
-display="inline"><![CDATA[(\mathrm {s} K_{A\otimes \mathbb {Q}},L)]]></fr:tex>, the recurrent filtration and the two direct filtrations defined by <fr:tex
-display="inline"><![CDATA[\operatorname {Dec}_1(W)]]></fr:tex> agree;
-        similarly, on the <fr:tex
-display="inline"><![CDATA[{}_LE_r(\mathrm {s} K_\mathbb {C})]]></fr:tex>, the recurrent filtration and the two direct filtrations induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> agree.
-        We denoted these filtrations again by <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> (respectively).
+        On the <fr:tex display="inline"><![CDATA[{}_LE_r]]></fr:tex> pages of the spectral sequence defined by <fr:tex display="inline"><![CDATA[(\mathrm {s} K_{A\otimes \mathbb {Q}},L)]]></fr:tex>, the recurrent filtration and the two direct filtrations defined by <fr:tex display="inline"><![CDATA[\operatorname {Dec}_1(W)]]></fr:tex> agree;
+        similarly, on the <fr:tex display="inline"><![CDATA[{}_LE_r(\mathrm {s} K_\mathbb {C})]]></fr:tex>, the recurrent filtration and the two direct filtrations induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex> agree.
+        We denoted these filtrations again by <fr:tex display="inline"><![CDATA[W]]></fr:tex> and <fr:tex display="inline"><![CDATA[F]]></fr:tex> (respectively).
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(iv) &quot;">
-        For <fr:tex
-display="inline"><![CDATA[r\geqslant 1]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[({}_LE_r,W,F)]]></fr:tex> is a mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-structure (<fr:ref
-addr="hodge-theory-iii-0.4"
-href="hodge-theory-iii-0.4.xml"
-number="III.0.4" />).
-        The differentials <fr:tex
-display="inline"><![CDATA[d_r]]></fr:tex> are morphisms of mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-structures.
+ <html:li style="list-style-type: &quot;(iv) &quot;">
+        For <fr:tex display="inline"><![CDATA[r\geqslant 1]]></fr:tex>, <fr:tex display="inline"><![CDATA[({}_LE_r,W,F)]]></fr:tex> is a mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-structure (<fr:ref addr="hodge-theory-iii-0.4" href="hodge-theory-iii-0.4.xml" number="III.0.4" />).
+        The differentials <fr:tex display="inline"><![CDATA[d_r]]></fr:tex> are morphisms of mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-structures.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(v) &quot;">
-        The filtration <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (\mathrm {s} K)]]></fr:tex> is a filtration in the category of mixed Hodge structures, and
+ <html:li style="list-style-type: &quot;(v) &quot;">
+        The filtration <fr:tex display="inline"><![CDATA[L]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\mathrm {s} K)]]></fr:tex> is a filtration in the category of mixed Hodge structures, and
 
-        <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1415</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.15.3</fr:addr><fr:route>hodge-theory-iii-8.1.15.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.1.15.3</fr:number><fr:parent>hodge-theory-iii-8.1.15</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             \operatorname {Gr}_L^p\big ( \operatorname {H}^{p+q}(\mathrm {s} K), \delta (W,L)[p+q], F \big )             = ({}_LE_\infty ^{pq},W,F).           \tag{8.1.15.3}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1420</fr:anchor><fr:addr type="user">hodge-theory-iii-8.1.15.3</fr:addr><fr:route>hodge-theory-iii-8.1.15.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.1.15.3</fr:number><fr:parent>hodge-theory-iii-8.1.15</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             \operatorname {Gr}_L^p\big ( \operatorname {H}^{p+q}(\mathrm {s} K), \delta (W,L)[p+q], F \big )             = ({}_LE_\infty ^{pq},W,F).           \tag{8.1.15.3}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
       </html:li>
 
-    </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2726</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.17</fr:addr><fr:route>hodge-theory-iii-8.1.17.xml</fr:route><fr:authors /><fr:number>8.1.17</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We now prove <fr:ref
-addr="hodge-theory-iii-8.1.15"
-href="hodge-theory-iii-8.1.15.xml"
-taxon="Theorem"
-number="8.1.15" />.
+    </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2750</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.1.17</fr:addr>
+            <fr:route>hodge-theory-iii-8.1.17.xml</fr:route>
+            <fr:authors />
+            <fr:number>8.1.17</fr:number>
+            <fr:parent>hodge-theory-iii-8.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>We now prove <fr:ref addr="hodge-theory-iii-8.1.15" href="hodge-theory-iii-8.1.15.xml" taxon="Theorem" number="8.1.15" />.
     Claims (i) and (ii) follow from the fact that
-    <fr:tex
-display="block"><![CDATA[       \begin {aligned}         \operatorname {Gr}_n^{\delta (W,L)}(\mathrm {s} K\otimes \mathbb {Q})         &= \sum _{p-q=n} \operatorname {Gr}_p^W\operatorname {Gr}_L^q(\mathrm {s} K\otimes \mathbb {Q})       \\&= \sum _{p-q=n} (\operatorname {Gr}_p^W K^{\bullet  q})[-q]       \end {aligned}     ]]></fr:tex>
-    (this isomorphism is compatible with <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>, and we apply <fr:ref
-addr="hodge-theory-iii-8.1.4"
-href="hodge-theory-iii-8.1.4.xml"
-taxon="Remark"
-number="8.1.4" />).
-    The proof of <fr:ref
-addr="hodge-theory-iii-8.1.15.2"
-href="hodge-theory-iii-8.1.15.2.xml"
-taxon="Equation"
-number="8.1.15.2" /> is left to the reader.</fr:p><fr:p>Consider the claims:
+    <fr:tex display="block"><![CDATA[       \begin {aligned}         \operatorname {Gr}_n^{\delta (W,L)}(\mathrm {s} K\otimes \mathbb {Q})         &= \sum _{p-q=n} \operatorname {Gr}_p^W\operatorname {Gr}_L^q(\mathrm {s} K\otimes \mathbb {Q})       \\&= \sum _{p-q=n} (\operatorname {Gr}_p^W K^{\bullet  q})[-q]       \end {aligned}     ]]></fr:tex>
+    (this isomorphism is compatible with <fr:tex display="inline"><![CDATA[F]]></fr:tex>, and we apply <fr:ref addr="hodge-theory-iii-8.1.4" href="hodge-theory-iii-8.1.4.xml" taxon="Remark" number="8.1.4" />).
+    The proof of <fr:ref addr="hodge-theory-iii-8.1.15.2" href="hodge-theory-iii-8.1.15.2.xml" taxon="Equation" number="8.1.15.2" /> is left to the reader.</fr:p>
+            <fr:p>Consider the claims:
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(aᵣ) &quot;">
-        The morphisms <fr:tex
-display="inline"><![CDATA[d_r]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[{}_LE_r(\mathrm {s} K_{A\otimes \mathbb {Q}})]]></fr:tex> are strictly compatible with the recurrent filtration defined by <fr:tex
-display="inline"><![CDATA[\operatorname {Dec}_1(W)]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(aᵣ) &quot;">
+        The morphisms <fr:tex display="inline"><![CDATA[d_r]]></fr:tex> of <fr:tex display="inline"><![CDATA[{}_LE_r(\mathrm {s} K_{A\otimes \mathbb {Q}})]]></fr:tex> are strictly compatible with the recurrent filtration defined by <fr:tex display="inline"><![CDATA[\operatorname {Dec}_1(W)]]></fr:tex>.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(bᵣ) &quot;">
-        The morphisms <fr:tex
-display="inline"><![CDATA[d_r]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[{}_LE_r(\mathrm {s} K_\mathbb {C})]]></fr:tex> are strictly compatible with the recurrent filtration defined by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(bᵣ) &quot;">
+        The morphisms <fr:tex display="inline"><![CDATA[d_r]]></fr:tex> of <fr:tex display="inline"><![CDATA[{}_LE_r(\mathrm {s} K_\mathbb {C})]]></fr:tex> are strictly compatible with the recurrent filtration defined by <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(cᵣ) &quot;">
-        <fr:tex
-display="inline"><![CDATA[{}_LE_r]]></fr:tex>, endowed with the filtrations considered in (a) and (b) is a mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-structure.
+ <html:li style="list-style-type: &quot;(cᵣ) &quot;">
+        <fr:tex display="inline"><![CDATA[{}_LE_r]]></fr:tex>, endowed with the filtrations considered in (a) and (b) is a mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-structure.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(dᵣ) &quot;">
-        The <fr:tex
-display="inline"><![CDATA[d_r]]></fr:tex> are morphisms of mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-structures.
+ <html:li style="list-style-type: &quot;(dᵣ) &quot;">
+        The <fr:tex display="inline"><![CDATA[d_r]]></fr:tex> are morphisms of mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-structures.
       </html:li>
 
-    </html:ol></fr:p><fr:p>We will prove (a<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>) and (b<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>) for <fr:tex
-display="inline"><![CDATA[r\geqslant 0]]></fr:tex>, and (c<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>) and (d<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>) for <fr:tex
-display="inline"><![CDATA[r\geqslant 1]]></fr:tex>, by simultaneous induction.
+    </html:ol></fr:p>
+            <fr:p>We will prove (a<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>) and (b<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>) for <fr:tex display="inline"><![CDATA[r\geqslant 0]]></fr:tex>, and (c<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>) and (d<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>) for <fr:tex display="inline"><![CDATA[r\geqslant 1]]></fr:tex>, by simultaneous induction.
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(A) &quot;">
-        <fr:em>Proof of (a<fr:tex
-display="inline"><![CDATA[{}_0]]></fr:tex>).</fr:em>
+ <html:li style="list-style-type: &quot;(A) &quot;">
+        <fr:em>Proof of (a<fr:tex display="inline"><![CDATA[{}_0]]></fr:tex>).</fr:em>
         We have
-        <fr:tex
-display="block"><![CDATA[           \big ( {}_LE_0^{p\bullet }(\mathrm {s} K_{A\otimes \mathbb {Q}}), \operatorname {Dec}_1 W \big )           = (K_{A\otimes \mathbb {Q}}^{\bullet  p}, \operatorname {Dec} W).         ]]></fr:tex>
-        By (iv) of <fr:ref
-addr="hodge-theory-iii-8.1.9"
-href="hodge-theory-iii-8.1.9.xml"
-taxon="Scholium"
-number="8.1.9" />, the spectral sequence of <fr:tex
-display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}}^{\bullet  p},W)]]></fr:tex> degenerates at <fr:tex
-display="inline"><![CDATA[E_2]]></fr:tex>.
-        By <fr:ref
-addr="hodge-theory-ii-1.3.4"
-href="hodge-theory-ii-1.3.4.xml"
-taxon="Proposition"
-number="1.3.4" />, the spectral sequence of <fr:tex
-display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}}^{\bullet  p},\operatorname {Dec} W)]]></fr:tex> degenerates at <fr:tex
-display="inline"><![CDATA[E_1]]></fr:tex>, and this proves (a<fr:tex
-display="inline"><![CDATA[{}_0]]></fr:tex>) (<fr:ref
-addr="hodge-theory-ii-1.3.2"
-href="hodge-theory-ii-1.3.2.xml"
-taxon="Proposition"
-number="1.3.2" />).
+        <fr:tex display="block"><![CDATA[           \big ( {}_LE_0^{p\bullet }(\mathrm {s} K_{A\otimes \mathbb {Q}}), \operatorname {Dec}_1 W \big )           = (K_{A\otimes \mathbb {Q}}^{\bullet  p}, \operatorname {Dec} W).         ]]></fr:tex>
+        By (iv) of <fr:ref addr="hodge-theory-iii-8.1.9" href="hodge-theory-iii-8.1.9.xml" taxon="Scholium" number="8.1.9" />, the spectral sequence of <fr:tex display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}}^{\bullet  p},W)]]></fr:tex> degenerates at <fr:tex display="inline"><![CDATA[E_2]]></fr:tex>.
+        By <fr:ref addr="hodge-theory-ii-1.3.4" href="hodge-theory-ii-1.3.4.xml" taxon="Proposition" number="1.3.4" />, the spectral sequence of <fr:tex display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}}^{\bullet  p},\operatorname {Dec} W)]]></fr:tex> degenerates at <fr:tex display="inline"><![CDATA[E_1]]></fr:tex>, and this proves (a<fr:tex display="inline"><![CDATA[{}_0]]></fr:tex>) (<fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(B) &quot;">
+ <html:li style="list-style-type: &quot;(B) &quot;">
         
-        <fr:em>Proof of (b<fr:tex
-display="inline"><![CDATA[{}_0]]></fr:tex>).</fr:em>
+        <fr:em>Proof of (b<fr:tex display="inline"><![CDATA[{}_0]]></fr:tex>).</fr:em>
         We have
-        <fr:tex
-display="block"><![CDATA[           \big ( {}_LE_0^{p\bullet }(\mathrm {s} K_\mathbb {C}),F \big )           = (K_\mathbb {C}^{\bullet  p}, F).         ]]></fr:tex>
-        We apply (v) of <fr:ref
-addr="hodge-theory-iii-8.1.9"
-href="hodge-theory-iii-8.1.9.xml"
-taxon="Scholium"
-number="8.1.9" /> and <fr:ref
-addr="hodge-theory-ii-1.3.2"
-href="hodge-theory-ii-1.3.2.xml"
-taxon="Proposition"
-number="1.3.2" />.
+        <fr:tex display="block"><![CDATA[           \big ( {}_LE_0^{p\bullet }(\mathrm {s} K_\mathbb {C}),F \big )           = (K_\mathbb {C}^{\bullet  p}, F).         ]]></fr:tex>
+        We apply (v) of <fr:ref addr="hodge-theory-iii-8.1.9" href="hodge-theory-iii-8.1.9.xml" taxon="Scholium" number="8.1.9" /> and <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(C) &quot;">
-        <fr:em>Proof of (c<fr:tex
-display="inline"><![CDATA[{}_1]]></fr:tex>).</fr:em>
-        We have to show that <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(K_A^{\bullet  p})]]></fr:tex>, endowed with the filtrations induced by <fr:tex
-display="inline"><![CDATA[\operatorname {Dec} W]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(K_{A\otimes \mathbb {Q}}^{\bullet  p})=\operatorname {H}^n(K_A^{\bullet  p})\otimes \mathbb {Q}]]></fr:tex> and by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(K_\mathbb {C}^{\bullet  p})=\operatorname {H}^n(K_A^{\bullet  p})\otimes _A\mathbb {C}]]></fr:tex>, is a mixed Hodge <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-structure.
-        But <fr:tex
-display="inline"><![CDATA[\operatorname {Dec} W]]></fr:tex> induces on <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(K_{A\otimes \mathbb {Q}}^{\bullet  p})]]></fr:tex> the same filtration as <fr:tex
-display="inline"><![CDATA[W[n]]]></fr:tex>, and so we conclude by (ii) of <fr:ref
-addr="hodge-theory-iii-8.1.9"
-href="hodge-theory-iii-8.1.9.xml"
-taxon="Scholium"
-number="8.1.9" />.
+ <html:li style="list-style-type: &quot;(C) &quot;">
+        <fr:em>Proof of (c<fr:tex display="inline"><![CDATA[{}_1]]></fr:tex>).</fr:em>
+        We have to show that <fr:tex display="inline"><![CDATA[\operatorname {H}^n(K_A^{\bullet  p})]]></fr:tex>, endowed with the filtrations induced by <fr:tex display="inline"><![CDATA[\operatorname {Dec} W]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(K_{A\otimes \mathbb {Q}}^{\bullet  p})=\operatorname {H}^n(K_A^{\bullet  p})\otimes \mathbb {Q}]]></fr:tex> and by <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(K_\mathbb {C}^{\bullet  p})=\operatorname {H}^n(K_A^{\bullet  p})\otimes _A\mathbb {C}]]></fr:tex>, is a mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-structure.
+        But <fr:tex display="inline"><![CDATA[\operatorname {Dec} W]]></fr:tex> induces on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(K_{A\otimes \mathbb {Q}}^{\bullet  p})]]></fr:tex> the same filtration as <fr:tex display="inline"><![CDATA[W[n]]]></fr:tex>, and so we conclude by (ii) of <fr:ref addr="hodge-theory-iii-8.1.9" href="hodge-theory-iii-8.1.9.xml" taxon="Scholium" number="8.1.9" />.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(D) &quot;">
-        <fr:em>Proof of (c<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>)+(d<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>)<fr:tex
-display="inline"><![CDATA[\implies ]]></fr:tex>(a<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>)+(b<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>)+(c<fr:tex
-display="inline"><![CDATA[{}_{r+1}]]></fr:tex>).</fr:em>
-        This is the key point of the proof, and is a simple application of <fr:ref
-addr="hodge-theory-ii-2.3.5"
-href="hodge-theory-ii-2.3.5.xml"
-taxon="Theorem"
-number="2.3.5" /> (along with <fr:ref
-addr="hodge-theory-iii-0.4"
-href="hodge-theory-iii-0.4.xml"
-number="III.0.4" />).
+ <html:li style="list-style-type: &quot;(D) &quot;">
+        <fr:em>Proof of (c<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>)+(d<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>)<fr:tex display="inline"><![CDATA[\implies ]]></fr:tex>(a<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>)+(b<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>)+(c<fr:tex display="inline"><![CDATA[{}_{r+1}]]></fr:tex>).</fr:em>
+        This is the key point of the proof, and is a simple application of <fr:ref addr="hodge-theory-ii-2.3.5" href="hodge-theory-ii-2.3.5.xml" taxon="Theorem" number="2.3.5" /> (along with <fr:ref addr="hodge-theory-iii-0.4" href="hodge-theory-iii-0.4.xml" number="III.0.4" />).
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(E) &quot;">
-        <fr:em>Proof of (a<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>)<fr:tex
-display="inline"><![CDATA[{}_{r\leqslant  r_0-2}]]></fr:tex>+(b<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>)<fr:tex
-display="inline"><![CDATA[{}_{r\leqslant  r_0-2}]]></fr:tex>+(c<fr:tex
-display="inline"><![CDATA[{}_{r_0}]]></fr:tex>)<fr:tex
-display="inline"><![CDATA[\implies ]]></fr:tex>(d<fr:tex
-display="inline"><![CDATA[{}_{r_0}]]></fr:tex>).</fr:em>
-        By <fr:ref
-addr="hodge-theory-ii-1.3.16"
-href="hodge-theory-ii-1.3.16.xml"
-taxon="Theorem"
-number="1.3.16" />, the recurrent filtration and the direct filtrations induced by <fr:tex
-display="inline"><![CDATA[\operatorname {Dec}_1W]]></fr:tex> (resp. <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>) on <fr:tex
-display="inline"><![CDATA[{}_LE_r]]></fr:tex> agree for <fr:tex
-display="inline"><![CDATA[r\leqslant  r_0]]></fr:tex>, and we apply (i) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13" />.
+ <html:li style="list-style-type: &quot;(E) &quot;">
+        <fr:em>Proof of (a<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>)<fr:tex display="inline"><![CDATA[{}_{r\leqslant  r_0-2}]]></fr:tex>+(b<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>)<fr:tex display="inline"><![CDATA[{}_{r\leqslant  r_0-2}]]></fr:tex>+(c<fr:tex display="inline"><![CDATA[{}_{r_0}]]></fr:tex>)<fr:tex display="inline"><![CDATA[\implies ]]></fr:tex>(d<fr:tex display="inline"><![CDATA[{}_{r_0}]]></fr:tex>).</fr:em>
+        By <fr:ref addr="hodge-theory-ii-1.3.16" href="hodge-theory-ii-1.3.16.xml" taxon="Theorem" number="1.3.16" />, the recurrent filtration and the direct filtrations induced by <fr:tex display="inline"><![CDATA[\operatorname {Dec}_1W]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[F]]></fr:tex>) on <fr:tex display="inline"><![CDATA[{}_LE_r]]></fr:tex> agree for <fr:tex display="inline"><![CDATA[r\leqslant  r_0]]></fr:tex>, and we apply (i) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />.
       </html:li>
 
-    </html:ol></fr:p><fr:p>This finishes the proof by induction of (a), (b), (c), and (d).</fr:p><fr:p>Claim (iii) was proven in part (E) of the proof by induction, and the claims of (iv) are (c<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>) and (d<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>).
-    We will prove <fr:ref
-addr="hodge-theory-iii-8.1.15.3"
-href="hodge-theory-iii-8.1.15.3.xml"
-taxon="Equation"
-number="8.1.15.3" /> in the form of <fr:ref
-addr="hodge-theory-iii-8.1.16.2"
-href="hodge-theory-iii-8.1.16.2.xml"
-taxon="Equation"
-number="8.1.16.2" />.</fr:p><fr:p>The fact that
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Gr}_L(\operatorname {H}(\mathrm {s} K_{A\otimes \mathbb {Q}}),\operatorname {Dec}_1W)       = ({}_LE_\infty (\mathrm {s} K_{A\otimes \mathbb {Q}}),W)     ]]></fr:tex>
-    follows from (a<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>) and <fr:ref
-addr="hodge-theory-ii-1.3.17"
-href="hodge-theory-ii-1.3.17.xml"
-taxon="Corollary"
-number="1.3.17" />.
+    </html:ol></fr:p>
+            <fr:p>This finishes the proof by induction of (a), (b), (c), and (d).</fr:p>
+            <fr:p>Claim (iii) was proven in part (E) of the proof by induction, and the claims of (iv) are (c<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>) and (d<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>).
+    We will prove <fr:ref addr="hodge-theory-iii-8.1.15.3" href="hodge-theory-iii-8.1.15.3.xml" taxon="Equation" number="8.1.15.3" /> in the form of <fr:ref addr="hodge-theory-iii-8.1.16.2" href="hodge-theory-iii-8.1.16.2.xml" taxon="Equation" number="8.1.16.2" />.</fr:p>
+            <fr:p>The fact that
+    <fr:tex display="block"><![CDATA[       \operatorname {Gr}_L(\operatorname {H}(\mathrm {s} K_{A\otimes \mathbb {Q}}),\operatorname {Dec}_1W)       = ({}_LE_\infty (\mathrm {s} K_{A\otimes \mathbb {Q}}),W)     ]]></fr:tex>
+    follows from (a<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>) and <fr:ref addr="hodge-theory-ii-1.3.17" href="hodge-theory-ii-1.3.17.xml" taxon="Corollary" number="1.3.17" />.
     The fact that
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Gr}_L(\operatorname {H}(\mathrm {s} K_\mathbb {C}),F)       = ({}_LE_\infty (\mathrm {s} K_\mathbb {C}),F)     ]]></fr:tex>
-    follows from (b<fr:tex
-display="inline"><![CDATA[{}_r]]></fr:tex>) and <fr:ref
-addr="hodge-theory-ii-1.3.17"
-href="hodge-theory-ii-1.3.17.xml"
-taxon="Corollary"
-number="1.3.17" />.</fr:p><fr:p>We conclude by the following lemma, whose proof is left to the reader:</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    <fr:tex display="block"><![CDATA[       \operatorname {Gr}_L(\operatorname {H}(\mathrm {s} K_\mathbb {C}),F)       = ({}_LE_\infty (\mathrm {s} K_\mathbb {C}),F)     ]]></fr:tex>
+    follows from (b<fr:tex display="inline"><![CDATA[{}_r]]></fr:tex>) and <fr:ref addr="hodge-theory-ii-1.3.17" href="hodge-theory-ii-1.3.17.xml" taxon="Corollary" number="1.3.17" />.</fr:p>
+            <fr:p>We conclude by the following lemma, whose proof is left to the reader:</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

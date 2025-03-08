@@ -1,282 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1658</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:authors /><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             \begin {CD}               X_1 @>f>> X_2             \\@V{j_1}VV @VV{j_2}V             \\\bar {X}_1 @>>{\bar {f}}> \bar {X}_2             \end {CD}           \tag{3.2.11.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1659</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:authors /><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We now prove (ii) and (iii) of <fr:ref
-addr="hodge-theory-ii-3.2.5"
-href="hodge-theory-ii-3.2.5.xml"
-taxon="Theorem"
-number="3.2.5" />, which will finish the proof.</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1663</fr:anchor>
+    <fr:addr type="user">hodge-theory-ii-3.2.11.1</fr:addr>
+    <fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route>
+    <fr:authors />
+    <fr:number>3.2.11.1</fr:number>
+    <fr:parent>hodge-theory-ii-3.2.11</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[             \begin {CD}               X_1 @>f>> X_2             \\@V{j_1}VV @VV{j_2}V             \\\overline {X}_1 @>>{\overline {f}}> \overline {X}_2             \end {CD}           \tag{3.2.11.1}           ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1664</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.2.11</fr:addr>
+            <fr:route>hodge-theory-ii-3.2.11.xml</fr:route>
+            <fr:authors />
+            <fr:number>3.2.11</fr:number>
+            <fr:parent>hodge-theory-ii-3.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>We now prove (ii) and (iii) of <fr:ref addr="hodge-theory-ii-3.2.5" href="hodge-theory-ii-3.2.5.xml" taxon="Theorem" number="3.2.5" />, which will finish the proof.</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;(A) &quot;">
-      <fr:p><fr:em>Independence from the choice of <fr:tex
-display="inline"><![CDATA[K^\bullet ]]></fr:tex>.</fr:em></fr:p>
+ <html:li style="list-style-type: &quot;(A) &quot;">
+      <fr:p><fr:em>Independence from the choice of <fr:tex display="inline"><![CDATA[K^\bullet ]]></fr:tex>.</fr:em></fr:p>
 
-      <fr:p>The filtrations <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {C})]]></fr:tex> are the abutments of the hypercohomology spectral sequences of <fr:tex
-display="inline"><![CDATA[\Omega _{\bar {X}}^\bullet \langle  Y\rangle ]]></fr:tex> for the filtrations <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>.
-        These whole spectral sequences do not depend on the choice of <fr:tex
-display="inline"><![CDATA[K^\bullet ]]></fr:tex>.</fr:p>
+      <fr:p>The filtrations <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {C})]]></fr:tex> are the abutments of the hypercohomology spectral sequences of <fr:tex display="inline"><![CDATA[\Omega _{\overline {X}}^\bullet \langle  Y\rangle ]]></fr:tex> for the filtrations <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex>.
+        These whole spectral sequences do not depend on the choice of <fr:tex display="inline"><![CDATA[K^\bullet ]]></fr:tex>.</fr:p>
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(B) &quot;">
+ <html:li style="list-style-type: &quot;(B) &quot;">
       <fr:p><fr:em>Functoriality.</fr:em></fr:p>
 
-      <fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> be a morphism of schemes.
+      <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> be a morphism of schemes.
         Suppose that we are given a morphism of smooth compactifications
 
-        <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>592</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:authors /><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             \begin {CD}               X_1 @>f>> X_2             \\@V{j_1}VV @VV{j_2}V             \\\bar {X}_1 @>>{\bar {f}}> \bar {X}_2             \end {CD}           \tag{3.2.11.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>597</fr:anchor><fr:addr type="user">hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:authors /><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             \begin {CD}               X_1 @>f>> X_2             \\@V{j_1}VV @VV{j_2}V             \\\overline {X}_1 @>>{\overline {f}}> \overline {X}_2             \end {CD}           \tag{3.2.11.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-        with the <fr:tex
-display="inline"><![CDATA[Y_i=\bar {X}_i\setminus  X_i]]></fr:tex> normal crossing divisors.
-        The canonical morphism (cf. <fr:ref
-addr="hodge-theory-ii-3.1.3"
-href="hodge-theory-ii-3.1.3.xml"
-taxon="Proposition"
-number="3.1.3" />) from <fr:tex
-display="inline"><![CDATA[\bar {f}^*\Omega _{\bar {X}_2}^\bullet \langle  Y_2\rangle ]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\Omega _{\bar {X}_1}^\bullet \langle  Y_1\rangle ]]></fr:tex> is then a morphism of bifiltered complexes;
-        on hypercohomology, it induces a morphism compatible with <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>, and thus <fr:tex
-display="inline"><![CDATA[f^*\colon \operatorname {H}^n(X_2,\mathbb {Z})\to \operatorname {H}^n(X_1,\mathbb {Z})]]></fr:tex> is a morphism of mixed Hodge structures, for the structures defined by the compactifications <fr:tex
-display="inline"><![CDATA[\bar {X}_i]]></fr:tex>.</fr:p>
+        with the <fr:tex display="inline"><![CDATA[Y_i=\overline {X}_i\setminus  X_i]]></fr:tex> normal crossing divisors.
+        The canonical morphism (cf. <fr:ref addr="hodge-theory-ii-3.1.3" href="hodge-theory-ii-3.1.3.xml" taxon="Proposition" number="3.1.3" />) from <fr:tex display="inline"><![CDATA[\overline {f}^*\Omega _{\overline {X}_2}^\bullet \langle  Y_2\rangle ]]></fr:tex> to <fr:tex display="inline"><![CDATA[\Omega _{\overline {X}_1}^\bullet \langle  Y_1\rangle ]]></fr:tex> is then a morphism of bifiltered complexes;
+        on hypercohomology, it induces a morphism compatible with <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex>, and thus <fr:tex display="inline"><![CDATA[f^*\colon \operatorname {H}^n(X_2,\mathbb {Z})\to \operatorname {H}^n(X_1,\mathbb {Z})]]></fr:tex> is a morphism of mixed Hodge structures, for the structures defined by the compactifications <fr:tex display="inline"><![CDATA[\overline {X}_i]]></fr:tex>.</fr:p>
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(C) &quot;">
+ <html:li style="list-style-type: &quot;(C) &quot;">
       <fr:p><fr:em>Independence from the choice of compactification.</fr:em></fr:p>
 
-      <fr:p>With the notation of (B), if <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is an isomorphism, then <fr:tex
-display="inline"><![CDATA[f^*]]></fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref
-addr="hodge-theory-ii-2.3.5"
-href="hodge-theory-ii-2.3.5.xml"
-taxon="Theorem"
-number="2.3.5" />).</fr:p>
+      <fr:p>With the notation of (B), if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is an isomorphism, then <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref addr="hodge-theory-ii-2.3.5" href="hodge-theory-ii-2.3.5.xml" taxon="Theorem" number="2.3.5" />).</fr:p>
 
-      <fr:p>If <fr:tex
-display="inline"><![CDATA[\bar {X}_1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {X}_2]]></fr:tex> are two smooth compactifications of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[Y_i=\bar {X}_i\setminus  X]]></fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[Y=\bar {X}\setminus  X]]></fr:tex> a smooth crossing divisor, that fits into a commutative diagram
+      <fr:p>If <fr:tex display="inline"><![CDATA[\overline {X}_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {X}_2]]></fr:tex> are two smooth compactifications of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, with <fr:tex display="inline"><![CDATA[Y_i=\overline {X}_i\setminus  X]]></fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex>, with <fr:tex display="inline"><![CDATA[Y=\overline {X}\setminus  X]]></fr:tex> a smooth crossing divisor, that fits into a commutative diagram
         
         
-  <fr:embedded-tex
-hash="0bd984e8fdc9b7f6eb6610b925ddb156"><fr:embedded-tex-preamble><![CDATA[
+  <fr:embedded-tex hash="d0cb2084ea2218d010360cd8d3dda16b"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
   ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
           & X \ar [dl,hook] \ar [d,hook] \ar [dr,hook]
-        \\\bar {X}_1
-          & \bar {X} \ar [l] \ar [r]
-          & \bar {X}_2
+        \\\overline {X}_1
+          & \overline {X} \ar [l] \ar [r]
+          & \overline {X}_2
         \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-        Namely, we can take <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\bar {X}_1\times \bar {X}_2]]></fr:tex>.
-        The identity map from <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> endowed with the mixed Hodge structure defined by <fr:tex
-display="inline"><![CDATA[\bar {X}_1]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> endowed with the mixed Hodge structure defined by <fr:tex
-display="inline"><![CDATA[\bar {X}_2]]></fr:tex> is thus the composite of two isomorphisms.</fr:p>
+        Namely, we can take <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in <fr:tex display="inline"><![CDATA[\overline {X}_1\times \overline {X}_2]]></fr:tex>.
+        The identity map from <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> endowed with the mixed Hodge structure defined by <fr:tex display="inline"><![CDATA[\overline {X}_1]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> endowed with the mixed Hodge structure defined by <fr:tex display="inline"><![CDATA[\overline {X}_2]]></fr:tex> is thus the composite of two isomorphisms.</fr:p>
     </html:li>
 
   </html:ol>
-<fr:p>To finish the proof of (ii) and (iii), we note that every morphism <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> fits into a diagram of the form in <fr:ref
-addr="hodge-theory-ii-3.2.11.1"
-href="hodge-theory-ii-3.2.11.1.xml"
-number="3.2.11.1" />: we choose compactifications <fr:tex
-display="inline"><![CDATA[\bar {X}'_1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {X}_2]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X_2]]></fr:tex>, then we take <fr:tex
-display="inline"><![CDATA[\bar {X}_1]]></fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex
-display="inline"><![CDATA[X_1]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\bar {X}'_1\times \bar {X}_2]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1660</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.11</fr:addr><fr:route>hodge-theory-ii-3.2.11.xml</fr:route><fr:authors /><fr:number>3.2.11</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We now prove (ii) and (iii) of <fr:ref
-addr="hodge-theory-ii-3.2.5"
-href="hodge-theory-ii-3.2.5.xml"
-taxon="Theorem"
-number="3.2.5" />, which will finish the proof.</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+<fr:p>To finish the proof of (ii) and (iii), we note that every morphism <fr:tex display="inline"><![CDATA[f]]></fr:tex> fits into a diagram of the form in <fr:ref addr="hodge-theory-ii-3.2.11.1" href="hodge-theory-ii-3.2.11.1.xml" number="3.2.11.1" />: we choose compactifications <fr:tex display="inline"><![CDATA[\overline {X}'_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {X}_2]]></fr:tex> of <fr:tex display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[X_2]]></fr:tex>, then we take <fr:tex display="inline"><![CDATA[\overline {X}_1]]></fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex display="inline"><![CDATA[X_1]]></fr:tex> in <fr:tex display="inline"><![CDATA[\overline {X}'_1\times \overline {X}_2]]></fr:tex>.</fr:p></fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1665</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.2.11</fr:addr>
+            <fr:route>hodge-theory-ii-3.2.11.xml</fr:route>
+            <fr:authors />
+            <fr:number>3.2.11</fr:number>
+            <fr:parent>hodge-theory-ii-3.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>We now prove (ii) and (iii) of <fr:ref addr="hodge-theory-ii-3.2.5" href="hodge-theory-ii-3.2.5.xml" taxon="Theorem" number="3.2.5" />, which will finish the proof.</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;(A) &quot;">
-      <fr:p><fr:em>Independence from the choice of <fr:tex
-display="inline"><![CDATA[K^\bullet ]]></fr:tex>.</fr:em></fr:p>
+ <html:li style="list-style-type: &quot;(A) &quot;">
+      <fr:p><fr:em>Independence from the choice of <fr:tex display="inline"><![CDATA[K^\bullet ]]></fr:tex>.</fr:em></fr:p>
 
-      <fr:p>The filtrations <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {C})]]></fr:tex> are the abutments of the hypercohomology spectral sequences of <fr:tex
-display="inline"><![CDATA[\Omega _{\bar {X}}^\bullet \langle  Y\rangle ]]></fr:tex> for the filtrations <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>.
-        These whole spectral sequences do not depend on the choice of <fr:tex
-display="inline"><![CDATA[K^\bullet ]]></fr:tex>.</fr:p>
+      <fr:p>The filtrations <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {C})]]></fr:tex> are the abutments of the hypercohomology spectral sequences of <fr:tex display="inline"><![CDATA[\Omega _{\overline {X}}^\bullet \langle  Y\rangle ]]></fr:tex> for the filtrations <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex>.
+        These whole spectral sequences do not depend on the choice of <fr:tex display="inline"><![CDATA[K^\bullet ]]></fr:tex>.</fr:p>
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(B) &quot;">
+ <html:li style="list-style-type: &quot;(B) &quot;">
       <fr:p><fr:em>Functoriality.</fr:em></fr:p>
 
-      <fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> be a morphism of schemes.
+      <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> be a morphism of schemes.
         Suppose that we are given a morphism of smooth compactifications
 
-        <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>592</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:authors /><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             \begin {CD}               X_1 @>f>> X_2             \\@V{j_1}VV @VV{j_2}V             \\\bar {X}_1 @>>{\bar {f}}> \bar {X}_2             \end {CD}           \tag{3.2.11.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>597</fr:anchor><fr:addr type="user">hodge-theory-ii-3.2.11.1</fr:addr><fr:route>hodge-theory-ii-3.2.11.1.xml</fr:route><fr:authors /><fr:number>3.2.11.1</fr:number><fr:parent>hodge-theory-ii-3.2.11</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             \begin {CD}               X_1 @>f>> X_2             \\@V{j_1}VV @VV{j_2}V             \\\overline {X}_1 @>>{\overline {f}}> \overline {X}_2             \end {CD}           \tag{3.2.11.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-        with the <fr:tex
-display="inline"><![CDATA[Y_i=\bar {X}_i\setminus  X_i]]></fr:tex> normal crossing divisors.
-        The canonical morphism (cf. <fr:ref
-addr="hodge-theory-ii-3.1.3"
-href="hodge-theory-ii-3.1.3.xml"
-taxon="Proposition"
-number="3.1.3" />) from <fr:tex
-display="inline"><![CDATA[\bar {f}^*\Omega _{\bar {X}_2}^\bullet \langle  Y_2\rangle ]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\Omega _{\bar {X}_1}^\bullet \langle  Y_1\rangle ]]></fr:tex> is then a morphism of bifiltered complexes;
-        on hypercohomology, it induces a morphism compatible with <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>, and thus <fr:tex
-display="inline"><![CDATA[f^*\colon \operatorname {H}^n(X_2,\mathbb {Z})\to \operatorname {H}^n(X_1,\mathbb {Z})]]></fr:tex> is a morphism of mixed Hodge structures, for the structures defined by the compactifications <fr:tex
-display="inline"><![CDATA[\bar {X}_i]]></fr:tex>.</fr:p>
+        with the <fr:tex display="inline"><![CDATA[Y_i=\overline {X}_i\setminus  X_i]]></fr:tex> normal crossing divisors.
+        The canonical morphism (cf. <fr:ref addr="hodge-theory-ii-3.1.3" href="hodge-theory-ii-3.1.3.xml" taxon="Proposition" number="3.1.3" />) from <fr:tex display="inline"><![CDATA[\overline {f}^*\Omega _{\overline {X}_2}^\bullet \langle  Y_2\rangle ]]></fr:tex> to <fr:tex display="inline"><![CDATA[\Omega _{\overline {X}_1}^\bullet \langle  Y_1\rangle ]]></fr:tex> is then a morphism of bifiltered complexes;
+        on hypercohomology, it induces a morphism compatible with <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex>, and thus <fr:tex display="inline"><![CDATA[f^*\colon \operatorname {H}^n(X_2,\mathbb {Z})\to \operatorname {H}^n(X_1,\mathbb {Z})]]></fr:tex> is a morphism of mixed Hodge structures, for the structures defined by the compactifications <fr:tex display="inline"><![CDATA[\overline {X}_i]]></fr:tex>.</fr:p>
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(C) &quot;">
+ <html:li style="list-style-type: &quot;(C) &quot;">
       <fr:p><fr:em>Independence from the choice of compactification.</fr:em></fr:p>
 
-      <fr:p>With the notation of (B), if <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is an isomorphism, then <fr:tex
-display="inline"><![CDATA[f^*]]></fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref
-addr="hodge-theory-ii-2.3.5"
-href="hodge-theory-ii-2.3.5.xml"
-taxon="Theorem"
-number="2.3.5" />).</fr:p>
+      <fr:p>With the notation of (B), if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is an isomorphism, then <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> is a bijective morphism of mixed Hodge structures, and thus an isomorphism (<fr:ref addr="hodge-theory-ii-2.3.5" href="hodge-theory-ii-2.3.5.xml" taxon="Theorem" number="2.3.5" />).</fr:p>
 
-      <fr:p>If <fr:tex
-display="inline"><![CDATA[\bar {X}_1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {X}_2]]></fr:tex> are two smooth compactifications of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[Y_i=\bar {X}_i\setminus  X]]></fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[Y=\bar {X}\setminus  X]]></fr:tex> a smooth crossing divisor, that fits into a commutative diagram
+      <fr:p>If <fr:tex display="inline"><![CDATA[\overline {X}_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {X}_2]]></fr:tex> are two smooth compactifications of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, with <fr:tex display="inline"><![CDATA[Y_i=\overline {X}_i\setminus  X]]></fr:tex> smooth crossing divisors, then there exists a third smooth compactification <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex>, with <fr:tex display="inline"><![CDATA[Y=\overline {X}\setminus  X]]></fr:tex> a smooth crossing divisor, that fits into a commutative diagram
         
         
-  <fr:embedded-tex
-hash="0bd984e8fdc9b7f6eb6610b925ddb156"><fr:embedded-tex-preamble><![CDATA[
+  <fr:embedded-tex hash="d0cb2084ea2218d010360cd8d3dda16b"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
   ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
           & X \ar [dl,hook] \ar [d,hook] \ar [dr,hook]
-        \\\bar {X}_1
-          & \bar {X} \ar [l] \ar [r]
-          & \bar {X}_2
+        \\\overline {X}_1
+          & \overline {X} \ar [l] \ar [r]
+          & \overline {X}_2
         \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-        Namely, we can take <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\bar {X}_1\times \bar {X}_2]]></fr:tex>.
-        The identity map from <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> endowed with the mixed Hodge structure defined by <fr:tex
-display="inline"><![CDATA[\bar {X}_1]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> endowed with the mixed Hodge structure defined by <fr:tex
-display="inline"><![CDATA[\bar {X}_2]]></fr:tex> is thus the composite of two isomorphisms.</fr:p>
+        Namely, we can take <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> to be a resolution of singularities of the closure of the diagonal image of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in <fr:tex display="inline"><![CDATA[\overline {X}_1\times \overline {X}_2]]></fr:tex>.
+        The identity map from <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> endowed with the mixed Hodge structure defined by <fr:tex display="inline"><![CDATA[\overline {X}_1]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> endowed with the mixed Hodge structure defined by <fr:tex display="inline"><![CDATA[\overline {X}_2]]></fr:tex> is thus the composite of two isomorphisms.</fr:p>
     </html:li>
 
   </html:ol>
-<fr:p>To finish the proof of (ii) and (iii), we note that every morphism <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> fits into a diagram of the form in <fr:ref
-addr="hodge-theory-ii-3.2.11.1"
-href="hodge-theory-ii-3.2.11.1.xml"
-number="3.2.11.1" />: we choose compactifications <fr:tex
-display="inline"><![CDATA[\bar {X}'_1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {X}_2]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X_2]]></fr:tex>, then we take <fr:tex
-display="inline"><![CDATA[\bar {X}_1]]></fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex
-display="inline"><![CDATA[X_1]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\bar {X}'_1\times \bar {X}_2]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:p>To finish the proof of (ii) and (iii), we note that every morphism <fr:tex display="inline"><![CDATA[f]]></fr:tex> fits into a diagram of the form in <fr:ref addr="hodge-theory-ii-3.2.11.1" href="hodge-theory-ii-3.2.11.1.xml" number="3.2.11.1" />: we choose compactifications <fr:tex display="inline"><![CDATA[\overline {X}'_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {X}_2]]></fr:tex> of <fr:tex display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[X_2]]></fr:tex>, then we take <fr:tex display="inline"><![CDATA[\overline {X}_1]]></fr:tex> to be a resolution of singularities of the closure of the image of <fr:tex display="inline"><![CDATA[X_1]]></fr:tex> in <fr:tex display="inline"><![CDATA[\overline {X}'_1\times \overline {X}_2]]></fr:tex>.</fr:p></fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

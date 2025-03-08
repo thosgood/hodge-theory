@@ -1,93 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>433</fr:anchor><fr:addr
-type="user">Q1968</fr:addr><fr:route>Q1968.xml</fr:route><fr:title
-text="Notes on the homology of commutative rings">Notes on the homology of commutative rings</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>D.G. Quillen</fr:author></fr:authors><fr:meta
-name="venue"><fr:em>M.I.T.</fr:em></fr:meta><fr:meta
-name="bibtex"><![CDATA[@article{Q1968,
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>438</fr:anchor>
+    <fr:addr type="user">Q1968</fr:addr>
+    <fr:route>Q1968.xml</fr:route>
+    <fr:title text="Notes on the homology of commutative rings">Notes on the homology of commutative rings</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+    <fr:date>
+      <fr:year>1968</fr:year>
+    </fr:date>
+    <fr:authors>
+      <fr:author>D.G. Quillen</fr:author>
+    </fr:authors>
+    <fr:meta name="venue">
+      <fr:em>M.I.T.</fr:em>
+    </fr:meta>
+    <fr:meta name="bibtex"><![CDATA[@article{Q1968,
   author = {Quillen, D.G.},
   title = {Notes on the homology of commutative rings},
   journal = {M.I.T.},
   year = {1968},
-}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>435</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.1.5</fr:addr><fr:route>hodge-theory-iii-6.1.5.xml</fr:route><fr:authors /><fr:number>6.1.5</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The spectral sequence in <fr:ref
-addr="hodge-theory-iii-5.2.3.2"
-href="hodge-theory-iii-5.2.3.2.xml"
-taxon="Equation"
-number="5.2.3.2" /> for <fr:tex
-display="inline"><![CDATA[B_{\bullet  G}]]></fr:tex>
-    <fr:tex
-display="block"><![CDATA[       E_1^{pq}       = \operatorname {H}^q(G^{\Delta _p}/G)       \Rightarrow  \operatorname {H}^{p+q}(B_{\bullet  G})       =\operatorname {H}^{p+q}(B_G)     ]]></fr:tex>
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>440</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-6.1.5</fr:addr>
+            <fr:route>hodge-theory-iii-6.1.5.xml</fr:route>
+            <fr:authors />
+            <fr:number>6.1.5</fr:number>
+            <fr:parent>hodge-theory-iii-6.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The spectral sequence in <fr:ref addr="hodge-theory-iii-5.2.3.2" href="hodge-theory-iii-5.2.3.2.xml" taxon="Equation" number="5.2.3.2" /> for <fr:tex display="inline"><![CDATA[B_{\bullet  G}]]></fr:tex>
+    <fr:tex display="block"><![CDATA[       E_1^{pq}       = \operatorname {H}^q(G^{\Delta _p}/G)       \Rightarrow  \operatorname {H}^{p+q}(B_{\bullet  G})       =\operatorname {H}^{p+q}(B_G)     ]]></fr:tex>
     is essentially the <fr:em>Eilenberg–Moore spectral sequence</fr:em>.
-    We briefly recall how it allows us to relate the rational cohomologies of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> and of <fr:tex
-display="inline"><![CDATA[B_G]]></fr:tex>, for connected <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+    We briefly recall how it allows us to relate the rational cohomologies of <fr:tex display="inline"><![CDATA[G]]></fr:tex> and of <fr:tex display="inline"><![CDATA[B_G]]></fr:tex>, for connected <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-      The algebra <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (G,\mathbb {Q})]]></fr:tex> is a connected graded Hopf algebra of finite dimension over <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
-      If <fr:tex
-display="inline"><![CDATA[P^\bullet (G)]]></fr:tex> is the graded module of its primitive elements, then we have
-      <fr:tex
-display="block"><![CDATA[         H^\bullet (G,\mathbb {Q})         = \bigwedge  P^\bullet (G)       ]]></fr:tex>
-      and the generators of <fr:tex
-display="inline"><![CDATA[P^\bullet (G)]]></fr:tex> are of odd degree.
+ <html:li style="list-style-type: &quot;(a) &quot;">
+      The algebra <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (G,\mathbb {Q})]]></fr:tex> is a connected graded Hopf algebra of finite dimension over <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[P^\bullet (G)]]></fr:tex> is the graded module of its primitive elements, then we have
+      <fr:tex display="block"><![CDATA[         H^\bullet (G,\mathbb {Q})         = \bigwedge  P^\bullet (G)       ]]></fr:tex>
+      and the generators of <fr:tex display="inline"><![CDATA[P^\bullet (G)]]></fr:tex> are of odd degree.
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-      The simplicial algebra <fr:tex
-display="inline"><![CDATA[(E_1^{p\bullet })_{p\geqslant 0}]]></fr:tex> is
-      <fr:tex
-display="block"><![CDATA[         E_1^{p\bullet }         = \bigwedge \big (P^\bullet (G)^{\Delta _p}/P^\bullet (G)\big )       ]]></fr:tex>
-      which is the exterior algebra of the suspension of the constant cosimplicial module <fr:tex
-display="inline"><![CDATA[P^\bullet (G)]]></fr:tex>;
-      we thus have (by Quillen [<fr:link
-type="local"
-href="Q1968.xml"
-addr="Q1968"
-title="Notes on the homology of commutative rings">Q1968</fr:link>]) that <fr:tex
-display="inline"><![CDATA[E_2^{p\bullet }=\operatorname {Sym}^p(P^\bullet (G))]]></fr:tex>.
-      The pages <fr:tex
-display="inline"><![CDATA[E_2^{pq}]]></fr:tex> are only zero for <fr:tex
-display="inline"><![CDATA[p+q]]></fr:tex> even;
-      we thus have that <fr:tex
-display="inline"><![CDATA[E_2^{pq}=E_\infty ^{pq}]]></fr:tex>, and, for a suitable filtration, we canonically have that
-      <fr:tex
-display="block"><![CDATA[         \operatorname {Gr}\operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1])       ]]></fr:tex>
+ <html:li style="list-style-type: &quot;(b) &quot;">
+      The simplicial algebra <fr:tex display="inline"><![CDATA[(E_1^{p\bullet })_{p\geqslant 0}]]></fr:tex> is
+      <fr:tex display="block"><![CDATA[         E_1^{p\bullet }         = \bigwedge \big (P^\bullet (G)^{\Delta _p}/P^\bullet (G)\big )       ]]></fr:tex>
+      which is the exterior algebra of the suspension of the constant cosimplicial module <fr:tex display="inline"><![CDATA[P^\bullet (G)]]></fr:tex>;
+      we thus have (by Quillen [<fr:link type="local" href="Q1968.xml" addr="Q1968" title="Notes on the homology of commutative rings">Q1968</fr:link>]) that <fr:tex display="inline"><![CDATA[E_2^{p\bullet }=\operatorname {Sym}^p(P^\bullet (G))]]></fr:tex>.
+      The pages <fr:tex display="inline"><![CDATA[E_2^{pq}]]></fr:tex> are only zero for <fr:tex display="inline"><![CDATA[p+q]]></fr:tex> even;
+      we thus have that <fr:tex display="inline"><![CDATA[E_2^{pq}=E_\infty ^{pq}]]></fr:tex>, and, for a suitable filtration, we canonically have that
+      <fr:tex display="block"><![CDATA[         \operatorname {Gr}\operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1])       ]]></fr:tex>
       and non-canonically that
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1]).       ]]></fr:tex>
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (B_G,\mathbb {Q})         \simeq  \operatorname {Sym}^\bullet (P^\bullet (G)[-1]).       ]]></fr:tex>
     </html:li>
 
   </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

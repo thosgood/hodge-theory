@@ -1,194 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2983</fr:anchor><fr:addr
-type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We will prove by induction on <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> the following claim:</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3112</fr:anchor>
+    <fr:addr type="machine">#285</fr:addr>
+    <fr:route>unstable-285.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>hodge-theory-ii-1.3.15</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>It suffices, by duality, to prove (i).</fr:p>
 
-    <fr:p><fr:em>The projection from <fr:tex
-display="inline"><![CDATA[W^n(A)/W^{n+k}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism from
-        <fr:tex
-display="block"><![CDATA[           \begin {aligned}             \Bigg [             &\left ( \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A)) + W^{n+k}(A) \right )           \\\cap              &\left ( \sum _{i<k} (W^{n+i}(A)\cap \bar {F}^{q_i}(A)) + W^{n+k}(A) \right )             \Bigg ] / W^{n+k}(A)           \end {aligned}           \tag{$*_k$}         ]]></fr:tex>
-        to <fr:tex
-display="inline"><![CDATA[A^{p,q}\subset \operatorname {Gr}_W^n(A)]]></fr:tex>.</fr:em></fr:p>
+    <fr:p>By <fr:ref addr="hodge-theory-ii-1.3.3" href="hodge-theory-ii-1.3.3.xml" number="1.3.3" /> and <fr:ref addr="hodge-theory-ii-1.3.4" href="hodge-theory-ii-1.3.4.xml" taxon="Proposition" number="1.3.4" />, the complex <fr:tex display="inline"><![CDATA[E_1(K,W)]]></fr:tex> filtered by <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a quotient of the filtered complex <fr:tex display="inline"><![CDATA[\operatorname {Gr}_{\operatorname {Dec}(W)}(K)]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> be the filtered complex given by the kernel, which is acyclic by (ii) of <fr:ref addr="hodge-theory-ii-1.3.4" href="hodge-theory-ii-1.3.4.xml" taxon="Proposition" number="1.3.4" />.
+      The long exact sequence in cohomology associated to the exact sequence of complexes
+      <fr:tex display="block"><![CDATA[         0         \to  \operatorname {Gr}_F(U)         \to  \operatorname {Gr}_F(\operatorname {Gr}_{\operatorname {Dec}(W)}(K))         \to  \operatorname {Gr}_F(E_1(K,W))         \to  0       ]]></fr:tex>
+      shows that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is a filtered quasi-isomorphism if and only if <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F(U)]]></fr:tex> is an acyclic complex.
+      By <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />, and since <fr:tex display="inline"><![CDATA[U]]></fr:tex> is acyclic, this reduces to asking that the differentials of <fr:tex display="inline"><![CDATA[U]]></fr:tex> be strictly compatible with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+      From <fr:ref addr="hodge-theory-ii-1.3.3.1" href="hodge-theory-ii-1.3.3.1.xml" taxon="Equation" number="1.3.3.1" /> we obtain that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is the sum over <fr:tex display="inline"><![CDATA[p]]></fr:tex> of the complexes
+      <fr:tex display="block"><![CDATA[         (U^p)^n         = B_1^{p+n,-p}/Z_1^{p+1+n,-p-1}       ]]></fr:tex>
+      endowed with the filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex>.</fr:p>
 
-    <fr:p>For <fr:tex
-display="inline"><![CDATA[k=1]]></fr:tex>, this is exactly the definition of <fr:tex
-display="inline"><![CDATA[A^{p,q}]]></fr:tex>.</fr:p>
+    <fr:p>Each differential <fr:tex display="inline"><![CDATA[d]]></fr:tex> of each of the complexes <fr:tex display="inline"><![CDATA[U^p]]></fr:tex> fits into a commutative diagram of filtered objects of the following type, where, for simplicity, we have omitted the total or complementary degree:
 
-    <fr:p>By (i) of <fr:ref
-addr="hodge-theory-ii-1.2.5"
-href="hodge-theory-ii-1.2.5.xml"
-taxon="Proposition"
-number="1.2.5" /> we have
+      
+  <fr:embedded-tex hash="8181a2f04a99d36fed60b4d5682bf7b4"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        B^p/Z^{p+1}
+          \ar [rrr,"d"]
+          \ar [dr]
+        &&& B^{p+1}/Z^{p+1}
+          \ar [dd]
+      \\& \operatorname {Coim}(d)
+          \ar [r,"(5)"]
+        & \operatorname {Im}(d)
+          \ar [ur] \ar [dr]
+      \\W^{p+1}/Z^{p+1}
+          \ar [uu]
+          \ar [ur]
+          \ar [rrr,near start,swap,"(3)"]
+          \ar [white,urr,near end,swap,"\color {black}(4)"]
+        &&& B^{p+1}/W^{p+2}
+          \ar [d]
+      \\W^{p+1}/W^{p+2}
+          \ar [u]
+          \ar [rrr,near start,swap,"(1)"]
+          \ar [white,urrr,"\color {black}(2)"description]
+        &&& W^{p+1}/W^{p+2}
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>765</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \bar {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-      Set
-      <fr:tex
-display="block"><![CDATA[         \begin {aligned}           B &= \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A))         \\C &= \sum _{i<k} (W^{n+i}(A)\cap \bar {F}^{q_i}(A))         \\B' &= (W^{n+k}(A)\cap  F^{p_k}(A)) + W^{n+k+1}(A)         \\C' &= (W^{n+k}(A)\cap \bar {F}^{q_k}(A)) + W^{n+k+1}(A)         \\D &= W^{n+k}(A)         \\E &= W^{n+k+1}(A).         \end {aligned}       ]]></fr:tex></fr:p>
 
-    <fr:p><fr:ref
-addr="hodge-theory-ii-1.2.8.1"
-href="hodge-theory-ii-1.2.8.1.xml"
-taxon="Equation"
-number="1.2.8.1" /> can then be written as
-      <fr:tex
-display="block"><![CDATA[         \begin {aligned}           B'+C' &= D         \\B'\cap  C' &= E.         \end {aligned}       ]]></fr:tex>
-      We also have, since <fr:tex
-display="inline"><![CDATA[p_k\leqslant  p_i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
-      <fr:tex
-display="block"><![CDATA[         B\cap  D         \subset  F^{p_k}(A) \cap  W^{n+k}(A)         \subset  B'       ]]></fr:tex>
-      and, since <fr:tex
-display="inline"><![CDATA[q_k\leqslant  q_i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
-      <fr:tex
-display="block"><![CDATA[         C\cap  D         \subset  \bar {F}^{q_k}(A)\cap  W^{n+k}(A)         \subset  C'.       ]]></fr:tex></fr:p>
-
-    <fr:p>The claim (<fr:tex
-display="inline"><![CDATA[*_{k+1}]]></fr:tex>) and then follows from (<fr:tex
-display="inline"><![CDATA[*_k]]></fr:tex>) and the following lemma.</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2984</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.8</fr:addr><fr:route>hodge-theory-ii-1.2.8.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>1.2.8</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\bar {F}]]></fr:tex> be three finite opposite filtrations, and <fr:tex
-display="inline"><![CDATA[\sigma ]]></fr:tex> a sequence <fr:tex
-display="inline"><![CDATA[(p_i,q_i)_{i\geqslant 0}]]></fr:tex> pairs of integers satisfying
+      By hypothesis, the morphism <fr:tex display="inline"><![CDATA[(1)]]></fr:tex> is strict.
+      Since the square <fr:tex display="inline"><![CDATA[(2)]]></fr:tex> is exactly the canonical decomposition of <fr:tex display="inline"><![CDATA[(1)]]></fr:tex>, the arrow <fr:tex display="inline"><![CDATA[(3)]]></fr:tex> is a filtered isomorphism.
+      The arrows of the trapezium <fr:tex display="inline"><![CDATA[(4)]]></fr:tex> are isomorphisms;
+      they are thus filtered isomorphisms, since <fr:tex display="inline"><![CDATA[(3)]]></fr:tex> is a filtered isomorphism.
+      The fact that <fr:tex display="inline"><![CDATA[(5)]]></fr:tex> is a filtered isomorphism implies that <fr:tex display="inline"><![CDATA[d]]></fr:tex> is strict.
+      This proves the lemma.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3113</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.3.15</fr:addr>
+            <fr:route>hodge-theory-ii-1.3.15.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
+            <fr:authors />
+            <fr:number>1.3.15</fr:number>
+            <fr:parent>hodge-theory-ii-1.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>If the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> is biregular, and if, on the <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^p(K)]]></fr:tex>, the morphisms <fr:tex display="inline"><![CDATA[d]]></fr:tex> are strictly compatible with the filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex>, then
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        <fr:tex
-display="inline"><![CDATA[p_i\leqslant  p_j]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[q_i\leqslant  q_j]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[i\geqslant  j]]></fr:tex>, and
+ <html:li style="list-style-type: &quot;(i) &quot;">
+        The morphism <fr:ref addr="hodge-theory-ii-1.3.3.2" href="hodge-theory-ii-1.3.3.2.xml" taxon="Equation" number="1.3.3.2" /> of graded complexes filtered by <fr:tex display="inline"><![CDATA[F]]></fr:tex>
+        <fr:tex display="block"><![CDATA[           u\colon  \operatorname {Gr}_{\operatorname {Dec}(W)}(K)           \to  E_1(K,W)         ]]></fr:tex>
+        is a filtered quasi-isomorphism.
       </html:li>
 
+
       
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        <fr:tex
-display="inline"><![CDATA[p_i+q_i=p_0+q_0-i+1]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[i>0]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+        Dually, the morphism in <fr:ref addr="hodge-theory-ii-1.3.5" href="hodge-theory-ii-1.3.5.xml" number="1.3.5" />
+        <fr:tex display="block"><![CDATA[           u\colon  E_1(K,W)           \to  \operatorname {Gr}_{\operatorname {Dec}^\bullet (W)}(K)         ]]></fr:tex>
+        is a filtered quasi-isomorphism.
       </html:li>
 
-    </html:ol>
-
-
-    Set <fr:tex
-display="inline"><![CDATA[p=p_0]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[q=q_0]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[n=-p-q]]></fr:tex>, and
-    <fr:tex
-display="block"><![CDATA[       A_\sigma        = \left ( \sum _{0\leqslant  i}(W^{n+i}(A)\cap  F^{p_i}(A)) \right )       \cap  \left ( \sum _{0\leqslant  i}(W^{n+i}(A)\cap \bar {F}^{q_i}(A)) \right ).     ]]></fr:tex>
-    Then the projection from <fr:tex
-display="inline"><![CDATA[W^n(A)]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism
-    <fr:tex
-display="block"><![CDATA[       A_\sigma        \xrightarrow {\sim } A^{p,q} \subset  \operatorname {Gr}_W^n(A).     ]]></fr:tex></fr:p>
+    </html:ol></fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>764</fr:anchor><fr:addr
-type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We will prove by induction on <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> the following claim:</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>962</fr:anchor><fr:addr type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.3.15</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>It suffices, by duality, to prove (i).</fr:p>
 
-    <fr:p><fr:em>The projection from <fr:tex
-display="inline"><![CDATA[W^n(A)/W^{n+k}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism from
-        <fr:tex
-display="block"><![CDATA[           \begin {aligned}             \Bigg [             &\left ( \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A)) + W^{n+k}(A) \right )           \\\cap              &\left ( \sum _{i<k} (W^{n+i}(A)\cap \bar {F}^{q_i}(A)) + W^{n+k}(A) \right )             \Bigg ] / W^{n+k}(A)           \end {aligned}           \tag{$*_k$}         ]]></fr:tex>
-        to <fr:tex
-display="inline"><![CDATA[A^{p,q}\subset \operatorname {Gr}_W^n(A)]]></fr:tex>.</fr:em></fr:p>
+    <fr:p>By <fr:ref addr="hodge-theory-ii-1.3.3" href="hodge-theory-ii-1.3.3.xml" number="1.3.3" /> and <fr:ref addr="hodge-theory-ii-1.3.4" href="hodge-theory-ii-1.3.4.xml" taxon="Proposition" number="1.3.4" />, the complex <fr:tex display="inline"><![CDATA[E_1(K,W)]]></fr:tex> filtered by <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a quotient of the filtered complex <fr:tex display="inline"><![CDATA[\operatorname {Gr}_{\operatorname {Dec}(W)}(K)]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> be the filtered complex given by the kernel, which is acyclic by (ii) of <fr:ref addr="hodge-theory-ii-1.3.4" href="hodge-theory-ii-1.3.4.xml" taxon="Proposition" number="1.3.4" />.
+      The long exact sequence in cohomology associated to the exact sequence of complexes
+      <fr:tex display="block"><![CDATA[         0         \to  \operatorname {Gr}_F(U)         \to  \operatorname {Gr}_F(\operatorname {Gr}_{\operatorname {Dec}(W)}(K))         \to  \operatorname {Gr}_F(E_1(K,W))         \to  0       ]]></fr:tex>
+      shows that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is a filtered quasi-isomorphism if and only if <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F(U)]]></fr:tex> is an acyclic complex.
+      By <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />, and since <fr:tex display="inline"><![CDATA[U]]></fr:tex> is acyclic, this reduces to asking that the differentials of <fr:tex display="inline"><![CDATA[U]]></fr:tex> be strictly compatible with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+      From <fr:ref addr="hodge-theory-ii-1.3.3.1" href="hodge-theory-ii-1.3.3.1.xml" taxon="Equation" number="1.3.3.1" /> we obtain that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is the sum over <fr:tex display="inline"><![CDATA[p]]></fr:tex> of the complexes
+      <fr:tex display="block"><![CDATA[         (U^p)^n         = B_1^{p+n,-p}/Z_1^{p+1+n,-p-1}       ]]></fr:tex>
+      endowed with the filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex>.</fr:p>
 
-    <fr:p>For <fr:tex
-display="inline"><![CDATA[k=1]]></fr:tex>, this is exactly the definition of <fr:tex
-display="inline"><![CDATA[A^{p,q}]]></fr:tex>.</fr:p>
+    <fr:p>Each differential <fr:tex display="inline"><![CDATA[d]]></fr:tex> of each of the complexes <fr:tex display="inline"><![CDATA[U^p]]></fr:tex> fits into a commutative diagram of filtered objects of the following type, where, for simplicity, we have omitted the total or complementary degree:
 
-    <fr:p>By (i) of <fr:ref
-addr="hodge-theory-ii-1.2.5"
-href="hodge-theory-ii-1.2.5.xml"
-taxon="Proposition"
-number="1.2.5" /> we have
+      
+  <fr:embedded-tex hash="8181a2f04a99d36fed60b4d5682bf7b4"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        B^p/Z^{p+1}
+          \ar [rrr,"d"]
+          \ar [dr]
+        &&& B^{p+1}/Z^{p+1}
+          \ar [dd]
+      \\& \operatorname {Coim}(d)
+          \ar [r,"(5)"]
+        & \operatorname {Im}(d)
+          \ar [ur] \ar [dr]
+      \\W^{p+1}/Z^{p+1}
+          \ar [uu]
+          \ar [ur]
+          \ar [rrr,near start,swap,"(3)"]
+          \ar [white,urr,near end,swap,"\color {black}(4)"]
+        &&& B^{p+1}/W^{p+2}
+          \ar [d]
+      \\W^{p+1}/W^{p+2}
+          \ar [u]
+          \ar [rrr,near start,swap,"(1)"]
+          \ar [white,urrr,"\color {black}(2)"description]
+        &&& W^{p+1}/W^{p+2}
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>765</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \bar {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-      Set
-      <fr:tex
-display="block"><![CDATA[         \begin {aligned}           B &= \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A))         \\C &= \sum _{i<k} (W^{n+i}(A)\cap \bar {F}^{q_i}(A))         \\B' &= (W^{n+k}(A)\cap  F^{p_k}(A)) + W^{n+k+1}(A)         \\C' &= (W^{n+k}(A)\cap \bar {F}^{q_k}(A)) + W^{n+k+1}(A)         \\D &= W^{n+k}(A)         \\E &= W^{n+k+1}(A).         \end {aligned}       ]]></fr:tex></fr:p>
 
-    <fr:p><fr:ref
-addr="hodge-theory-ii-1.2.8.1"
-href="hodge-theory-ii-1.2.8.1.xml"
-taxon="Equation"
-number="1.2.8.1" /> can then be written as
-      <fr:tex
-display="block"><![CDATA[         \begin {aligned}           B'+C' &= D         \\B'\cap  C' &= E.         \end {aligned}       ]]></fr:tex>
-      We also have, since <fr:tex
-display="inline"><![CDATA[p_k\leqslant  p_i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
-      <fr:tex
-display="block"><![CDATA[         B\cap  D         \subset  F^{p_k}(A) \cap  W^{n+k}(A)         \subset  B'       ]]></fr:tex>
-      and, since <fr:tex
-display="inline"><![CDATA[q_k\leqslant  q_i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
-      <fr:tex
-display="block"><![CDATA[         C\cap  D         \subset  \bar {F}^{q_k}(A)\cap  W^{n+k}(A)         \subset  C'.       ]]></fr:tex></fr:p>
-
-    <fr:p>The claim (<fr:tex
-display="inline"><![CDATA[*_{k+1}]]></fr:tex>) and then follows from (<fr:tex
-display="inline"><![CDATA[*_k]]></fr:tex>) and the following lemma.</fr:p>
+      By hypothesis, the morphism <fr:tex display="inline"><![CDATA[(1)]]></fr:tex> is strict.
+      Since the square <fr:tex display="inline"><![CDATA[(2)]]></fr:tex> is exactly the canonical decomposition of <fr:tex display="inline"><![CDATA[(1)]]></fr:tex>, the arrow <fr:tex display="inline"><![CDATA[(3)]]></fr:tex> is a filtered isomorphism.
+      The arrows of the trapezium <fr:tex display="inline"><![CDATA[(4)]]></fr:tex> are isomorphisms;
+      they are thus filtered isomorphisms, since <fr:tex display="inline"><![CDATA[(3)]]></fr:tex> is a filtered isomorphism.
+      The fact that <fr:tex display="inline"><![CDATA[(5)]]></fr:tex> is a filtered isomorphism implies that <fr:tex display="inline"><![CDATA[d]]></fr:tex> is strict.
+      This proves the lemma.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

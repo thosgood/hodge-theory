@@ -1,256 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2915</fr:anchor><fr:addr
-type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>By duality, it suffices to prove the first claim.
-      We can also suppose <fr:tex
-display="inline"><![CDATA[X_\eta ]]></fr:tex> to be simple.
-      We will show that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> satisfies one of the conditions of (c) in <fr:ref
-addr="hodge-theory-ii-4.4.11"
-href="hodge-theory-ii-4.4.11.xml"
-taxon="Proposition"
-number="4.4.11" />.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3359</fr:anchor>
+    <fr:addr type="machine">#251</fr:addr>
+    <fr:route>unstable-251.xml</fr:route>
+    <fr:title text="Untitled › Geometric realisation"><fr:link type="local" href="hodge-theory-iii-5.2.1.xml" addr="hodge-theory-iii-5.2.1">Untitled</fr:link> › Geometric realisation</fr:title>
+    <fr:authors />
+    <fr:parent>hodge-theory-iii-5.2.1</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>For an integer <fr:tex display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
+      We identify <fr:tex display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
+      Every function <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
+      Let
+      <fr:tex display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
+      Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
+      <fr:tex display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
+      The <fr:em>geometric realisation</fr:em> of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
+      <fr:tex display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3360</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.2.1</fr:addr>
+            <fr:route>hodge-theory-iii-5.2.1.xml</fr:route>
+            <fr:authors />
+            <fr:number>5.2.1</fr:number>
+            <fr:parent>hodge-theory-iii-5.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>To each simplicial topological space <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is associated a usual topological space <fr:tex display="inline"><![CDATA[|X_\bullet |]]></fr:tex>, called its geometric realisation (see below).
+    In the particular case where the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex> are discrete, we recover the usual notion of geometric realisation of a simplicial set.</fr:p>
+            <fr:p>In [<fr:link type="local" href="S1968.xml" addr="S1968" title="Classifying spaces and spectral sequences">S1968</fr:link>], G. Segal defined the cohomology of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> with values in an abelian group <fr:tex display="inline"><![CDATA[A]]></fr:tex> as <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (|X_\bullet |,A)]]></fr:tex>.
+    Under suitable hypotheses, the filtration of <fr:tex display="inline"><![CDATA[|X_\bullet |]]></fr:tex> by successive skeletons gives a spectral sequence
 
-    <fr:p>Set <fr:tex
-display="inline"><![CDATA[H=\mathbb {M}_c(D)]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> a skew field of rank <fr:tex
-display="inline"><![CDATA[b^2]]></fr:tex> over its centre <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex>, which we know to be either completely real or completely imaginary.
-      If we set <fr:tex
-display="inline"><![CDATA[a=[Z:\mathbb {Q}]]]></fr:tex>, then we have
-
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1883</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           ab^2c \mathbin {\vert } 2g \leqslant  6.         \tag{4.4.13.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        <fr:p>If <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex
-display="inline"><![CDATA[a=2g=4]]></fr:tex>.
-          For <fr:tex
-display="inline"><![CDATA[s\in  S]]></fr:tex>, the centraliser of <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> acting on <fr:tex
-display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is thus commutative, and so the action of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
-addr="hodge-theory-ii-4.2.8"
-href="hodge-theory-ii-4.2.8.xml"
-taxon="Corollary"
-number="4.2.8" /> or <fr:ref
-addr="hodge-theory-ii-4.2.9"
-href="hodge-theory-ii-4.2.9.xml"
-taxon="Corollary"
-number="4.2.9" />).
-          This is a contradiction (<fr:ref
-addr="hodge-theory-ii-4.1.3.3"
-href="hodge-theory-ii-4.1.3.3.xml"
-number="4.1.3.3" /> and <fr:ref
-addr="hodge-theory-ii-4.4.3"
-href="hodge-theory-ii-4.4.3.xml"
-taxon="Reminder"
-number="4.4.3" />).</fr:p>
-
-        <fr:p>With the notation of <fr:ref
-addr="hodge-theory-ii-4.4.8"
-href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8" />, we can also note that the <fr:tex
-display="inline"><![CDATA[T_\rho ]]></fr:tex> are then of rank <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, and so condition (b) of <fr:ref
-addr="hodge-theory-ii-4.4.8"
-href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8" /> is satisfied at each place, and the Hodge structure is locally constant.</fr:p>
-      </html:li>
-
-
-      
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        If <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex
-display="inline"><![CDATA[a\geqslant 2]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b\geqslant 2]]></fr:tex>, which is a contradiction.
-      </html:li>
-
-    </html:ol>
-
-
-    <fr:p>We will show that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> satisfies the conditions of <fr:ref
-addr="hodge-theory-ii-4.4.12"
-href="hodge-theory-ii-4.4.12.xml"
-taxon="Proposition"
-number="4.4.12" />.
-      If <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> is imaginary quadratic, and if there exists <fr:tex
-display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> is of pure Hodge type <fr:tex
-display="inline"><![CDATA[(-1,0)]]></fr:tex>, then the Hodge structure on <fr:tex
-display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}]]></fr:tex> is locally constant, which is a contradiction.
-      This proves <fr:ref
-addr="hodge-theory-ii-4.4.13"
-href="hodge-theory-ii-4.4.13.xml"
-taxon="Corollary"
-number="4.4.13" />.</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2916</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.13</fr:addr><fr:route>hodge-theory-ii-4.4.13.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.4.13</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be a smooth connected scheme with generic point <fr:tex
-display="inline"><![CDATA[\eta ]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> of relative dimension <fr:tex
-display="inline"><![CDATA[g\leqslant 3]]></fr:tex>.
-    Suppose that, on any finite étale covering of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> does not admit a constant abelian subscheme.
-    Then, for every abelian scheme <fr:tex
-display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, we have
-    <fr:tex
-display="block"><![CDATA[       \begin {aligned}         \operatorname {Hom}(X,Y)         &\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})       \\\operatorname {Hom}(Y,X)         &\xrightarrow {\sim } \operatorname {Hom}(\mathrm {R}_1g_*\mathbb {Z},\mathrm {R}_1f_*\mathbb {Z}).       \end {aligned}     ]]></fr:tex></fr:p>
-  
-    
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1882</fr:anchor><fr:addr
-type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>By duality, it suffices to prove the first claim.
-      We can also suppose <fr:tex
-display="inline"><![CDATA[X_\eta ]]></fr:tex> to be simple.
-      We will show that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> satisfies one of the conditions of (c) in <fr:ref
-addr="hodge-theory-ii-4.4.11"
-href="hodge-theory-ii-4.4.11.xml"
-taxon="Proposition"
-number="4.4.11" />.</fr:p>
-
-    <fr:p>Set <fr:tex
-display="inline"><![CDATA[H=\mathbb {M}_c(D)]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> a skew field of rank <fr:tex
-display="inline"><![CDATA[b^2]]></fr:tex> over its centre <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex>, which we know to be either completely real or completely imaginary.
-      If we set <fr:tex
-display="inline"><![CDATA[a=[Z:\mathbb {Q}]]]></fr:tex>, then we have
-
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1883</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.13.1</fr:addr><fr:route>hodge-theory-ii-4.4.13.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.13.1</fr:number><fr:parent>hodge-theory-ii-4.4.13</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           ab^2c \mathbin {\vert } 2g \leqslant  6.         \tag{4.4.13.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        <fr:p>If <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> is completely imaginary, and not imaginary quadratic, then we must have <fr:tex
-display="inline"><![CDATA[a=2g=4]]></fr:tex>.
-          For <fr:tex
-display="inline"><![CDATA[s\in  S]]></fr:tex>, the centraliser of <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> acting on <fr:tex
-display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is thus commutative, and so the action of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is abelian, and thus factors through a finite group ((iii.b) of <fr:ref
-addr="hodge-theory-ii-4.2.8"
-href="hodge-theory-ii-4.2.8.xml"
-taxon="Corollary"
-number="4.2.8" /> or <fr:ref
-addr="hodge-theory-ii-4.2.9"
-href="hodge-theory-ii-4.2.9.xml"
-taxon="Corollary"
-number="4.2.9" />).
-          This is a contradiction (<fr:ref
-addr="hodge-theory-ii-4.1.3.3"
-href="hodge-theory-ii-4.1.3.3.xml"
-number="4.1.3.3" /> and <fr:ref
-addr="hodge-theory-ii-4.4.3"
-href="hodge-theory-ii-4.4.3.xml"
-taxon="Reminder"
-number="4.4.3" />).</fr:p>
-
-        <fr:p>With the notation of <fr:ref
-addr="hodge-theory-ii-4.4.8"
-href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8" />, we can also note that the <fr:tex
-display="inline"><![CDATA[T_\rho ]]></fr:tex> are then of rank <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, and so condition (b) of <fr:ref
-addr="hodge-theory-ii-4.4.8"
-href="hodge-theory-ii-4.4.8.xml"
-number="4.4.8" /> is satisfied at each place, and the Hodge structure is locally constant.</fr:p>
-      </html:li>
-
-
-      
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        If <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> is completely real, and if conditions (c.1) and (c.2) are not satisfied, then <fr:tex
-display="inline"><![CDATA[a\geqslant 2]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b\geqslant 2]]></fr:tex>, which is a contradiction.
-      </html:li>
-
-    </html:ol>
-
-
-    <fr:p>We will show that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> satisfies the conditions of <fr:ref
-addr="hodge-theory-ii-4.4.12"
-href="hodge-theory-ii-4.4.12.xml"
-taxon="Proposition"
-number="4.4.12" />.
-      If <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> is imaginary quadratic, and if there exists <fr:tex
-display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> is of pure Hodge type <fr:tex
-display="inline"><![CDATA[(-1,0)]]></fr:tex>, then the Hodge structure on <fr:tex
-display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}]]></fr:tex> is locally constant, which is a contradiction.
-      This proves <fr:ref
-addr="hodge-theory-ii-4.4.13"
-href="hodge-theory-ii-4.4.13.xml"
-taxon="Corollary"
-number="4.4.13" />.</fr:p>
-  </fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>428</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.1.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.1.1</fr:number><fr:parent>hodge-theory-iii-5.2.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,A)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,A).       \tag{5.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+            <fr:p>One of the interests in using this definition is that it also applies, for example, to the definition of the groups <fr:tex display="inline"><![CDATA[K(X_\bullet )]]></fr:tex>.
+    We will adopt another definition, which is better adapted to sheaf-theoretic techniques.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>429</fr:anchor>
+                <fr:addr type="machine">#251</fr:addr>
+                <fr:route>unstable-251.xml</fr:route>
+                <fr:title text="Geometric realisation">Geometric realisation</fr:title>
+                <fr:authors />
+                <fr:parent>hodge-theory-iii-5.2.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>For an integer <fr:tex display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
+      We identify <fr:tex display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
+      Every function <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
+      Let
+      <fr:tex display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
+      Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
+      <fr:tex display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
+      The <fr:em>geometric realisation</fr:em> of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
+      <fr:tex display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,123 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2897</fr:anchor><fr:addr
-type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.1.20</fr:parent></fr:frontmatter><fr:mainmatter>
-      <fr:p>Both (i) and (ii) follow from the general theory (<fr:ref
-addr="hodge-theory-iii-8.1.9"
-href="hodge-theory-iii-8.1.9.xml"
-taxon="Scholium"
-number="8.1.9" />).
-        To prove (iii), we contemplate <fr:ref
-addr="hodge-theory-iii-8.1.19"
-href="hodge-theory-iii-8.1.19.xml"
-number="8.1.19" /> and note that the Hodge structures <fr:tex
-display="inline"><![CDATA[\operatorname {H}^p(\widetilde {Y}_q^r,\varepsilon _\mathbb {Q}^r)[-r]]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[p+q+r=n]]></fr:tex>) satisfy (iii).
-        To prove (iv), we note that the Hodge structures <fr:tex
-display="inline"><![CDATA[\operatorname {H}^p(X_q)]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[p+q=n]]></fr:tex>) satisfy (iv).</fr:p>
-    </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2898</fr:anchor><fr:addr
-type="user">hodge-theory-iii-8.1.20</fr:addr><fr:route>hodge-theory-iii-8.1.20.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>8.1.20</fr:number><fr:parent>hodge-theory-iii-8.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the above hypotheses:
-
-    
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-        The mixed Hodge structure of <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(U_\bullet ,\mathbb {Z})]]></fr:tex> is functorial in the pair <fr:tex
-display="inline"><![CDATA[(U_\bullet ,X_\bullet )]]></fr:tex>.
-      </html:li>
-
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3026</fr:anchor>
+    <fr:addr type="machine">#241</fr:addr>
+    <fr:route>unstable-241.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>hodge-theory-iii-8.2.7</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>We will prove that <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {Gr}_i^W(f^*))=\operatorname {Ker}(\operatorname {Gr}_i^W((f\pi )^*))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
 
       
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        In rational cohomology, the spectral sequence <fr:ref
-addr="hodge-theory-iii-8.1.19.1"
-href="hodge-theory-iii-8.1.19.1.xml"
-taxon="Equation"
-number="8.1.19.1" /> degenerates at <fr:tex
-display="inline"><![CDATA[E_2]]></fr:tex> (i.e. <fr:tex
-display="inline"><![CDATA[E_2=E_\infty ]]></fr:tex>) and abuts to the weight filtration of <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(U_\bullet ,\mathbb {Q})]]></fr:tex>.
-        The Hodge structure of <fr:tex
-display="inline"><![CDATA[E_2]]></fr:tex> induced by that of <fr:tex
-display="inline"><![CDATA[E_1]]></fr:tex> is also that of <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W\operatorname {H}^n(U_\bullet ,\mathbb {Q})]]></fr:tex>.
-      </html:li>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these kernels are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
 
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these kernels are both all of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
 
-      
- <html:li
-style="list-style-type: &quot;(iii) &quot;">
-        The Hodge numbers of <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(U_\bullet ,\mathbb {Z})]]></fr:tex> satisfy
-        <fr:tex
-display="block"><![CDATA[           h^{pq}\neq 0           \implies            0\leqslant  p,q\leqslant  n.         ]]></fr:tex>
-      </html:li>
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these kernels are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(\pi ^*)]]></fr:tex> is injective (<fr:ref addr="hodge-theory-iii-8.2.5.2" href="hodge-theory-iii-8.2.5.2.xml" taxon="Equation" number="8.2.5.2" />).
+        </html:li>
 
-
-      
- <html:li
-style="list-style-type: &quot;(iv) &quot;">
-        For <fr:tex
-display="inline"><![CDATA[Y_\bullet =\varnothing ]]></fr:tex>, the Hodge numbers of <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(X_\bullet ,\mathbb {Z})]]></fr:tex> satisfy
-        <fr:tex
-display="block"><![CDATA[           h^{pq}\neq 0           \implies            [0\leqslant  p,q\leqslant  n           \quad \text {and}\quad  p+q\leqslant  n].         ]]></fr:tex>
-      </html:li>
-
-    </html:ol>
-
-
-    
+      </html:ol></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3027</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.2.7</fr:addr>
+            <fr:route>hodge-theory-iii-8.2.7.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
+            <fr:authors />
+            <fr:number>8.2.7</fr:number>
+            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let
+    <fr:tex display="block"><![CDATA[       \widetilde {X}       \xrightarrow {\pi } X       \xrightarrow {f} Y     ]]></fr:tex>
+    be morphisms of schemes.
+    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is smooth, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper, <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is smooth and proper, and that <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex> is surjective.
+    Then the kernels of <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[(f\pi )^*]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {Q})]]></fr:tex> are equal.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1433</fr:anchor><fr:addr
-type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.1.20</fr:parent></fr:frontmatter><fr:mainmatter>
-      <fr:p>Both (i) and (ii) follow from the general theory (<fr:ref
-addr="hodge-theory-iii-8.1.9"
-href="hodge-theory-iii-8.1.9.xml"
-taxon="Scholium"
-number="8.1.9" />).
-        To prove (iii), we contemplate <fr:ref
-addr="hodge-theory-iii-8.1.19"
-href="hodge-theory-iii-8.1.19.xml"
-number="8.1.19" /> and note that the Hodge structures <fr:tex
-display="inline"><![CDATA[\operatorname {H}^p(\widetilde {Y}_q^r,\varepsilon _\mathbb {Q}^r)[-r]]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[p+q+r=n]]></fr:tex>) satisfy (iii).
-        To prove (iv), we note that the Hodge structures <fr:tex
-display="inline"><![CDATA[\operatorname {H}^p(X_q)]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[p+q=n]]></fr:tex>) satisfy (iv).</fr:p>
-    </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2850</fr:anchor><fr:addr type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.7</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We will prove that <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {Gr}_i^W(f^*))=\operatorname {Ker}(\operatorname {Gr}_i^W((f\pi )^*))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+
+      
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these kernels are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
+
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these kernels are both all of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+        </html:li>
+
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these kernels are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(\pi ^*)]]></fr:tex> is injective (<fr:ref addr="hodge-theory-iii-8.2.5.2" href="hodge-theory-iii-8.2.5.2.xml" taxon="Equation" number="8.2.5.2" />).
+        </html:li>
+
+      </html:ol></fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

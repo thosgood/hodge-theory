@@ -1,140 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2943</fr:anchor><fr:addr
-type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.6</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Define the <fr:tex
-display="inline"><![CDATA[Y^n]]></fr:tex> and the <fr:tex
-display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> as in <fr:ref
-addr="hodge-theory-ii-3.1.4"
-href="hodge-theory-ii-3.1.4.xml"
-number="3.1.4" />, and let <fr:tex
-display="inline"><![CDATA[i_n\colon \widetilde {Y}^n\to  X]]></fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2" />, we have
-      <fr:tex
-display="block"><![CDATA[         \operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       ]]></fr:tex>
-      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5" />), and so the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6" /> is given by translations of the degrees of the classical spectral sequence
-      <fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       ]]></fr:tex></fr:p>
-
-    <fr:p>If <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex> is projective and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> the union of smooth divisors, then <fr:tex
-display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> is projective, <fr:tex
-display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref
-addr="hodge-theory-ii-2.2.1"
-href="hodge-theory-ii-2.2.1.xml"
-number="2.2.1" />) gives the degeneration claimed in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6" />.
-      For the general case, refer to [<fr:link
-type="local"
-href="D1968.xml"
-addr="D1968"
-title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>] (see also <fr:ref
-addr="hodge-theory-ii-2.2.2"
-href="hodge-theory-ii-2.2.2.xml"
-number="2.2.2" /> and <fr:ref
-addr="hodge-theory-ii-2.2.3"
-href="hodge-theory-ii-2.2.3.xml"
-number="2.2.3" />).</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2944</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.2.6</fr:addr><fr:route>hodge-theory-ii-3.2.6.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>3.2.6</fr:number><fr:parent>hodge-theory-ii-3.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The hypercohomology spectral sequences of the filtered complexes <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )]]></fr:tex>, endowed with the filtration induced by the Hodge filtration, degenerate at the <fr:tex
-display="inline"><![CDATA[E_1]]></fr:tex> page.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3072</fr:anchor>
+    <fr:addr type="machine">#265</fr:addr>
+    <fr:route>unstable-265.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>hodge-theory-ii-4.2.10</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex>, <fr:tex display="inline"><![CDATA[G']]></fr:tex>, and <fr:tex display="inline"><![CDATA[G'']]></fr:tex> be the groups defined by <fr:tex display="inline"><![CDATA[V]]></fr:tex>, <fr:tex display="inline"><![CDATA[V']]></fr:tex>, and <fr:tex display="inline"><![CDATA[V'']]></fr:tex>, respectively.
+      Then <fr:tex display="inline"><![CDATA[V']]></fr:tex> is stable under <fr:tex display="inline"><![CDATA[G]]></fr:tex>, just as it is under <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex>, whence a morphism
+      <fr:tex display="block"><![CDATA[         u         = (u',u'')\colon  G\to  G'\times  G''       ]]></fr:tex>
+      with unipotent kernel, and such that <fr:tex display="inline"><![CDATA[u']]></fr:tex> and <fr:tex display="inline"><![CDATA[u'']]></fr:tex> are surjective.
+      Let <fr:tex display="inline"><![CDATA[N]]></fr:tex> be the identity component of the kernel of <fr:tex display="inline"><![CDATA[u'']]></fr:tex>.
+      Since <fr:tex display="inline"><![CDATA[u']]></fr:tex> is surjective, <fr:tex display="inline"><![CDATA[u'(N)]]></fr:tex> is distinguished in <fr:tex display="inline"><![CDATA[G']]></fr:tex>, and thus does not admit any quotient of multiplicative type.
+      
+      If <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is a character of <fr:tex display="inline"><![CDATA[G^0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> factors through <fr:tex display="inline"><![CDATA[u(G^0)]]></fr:tex> and vanishes on <fr:tex display="inline"><![CDATA[N]]></fr:tex>;
+      then a power of <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> factors through <fr:tex display="inline"><![CDATA[{G''}^0]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is trivial.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3073</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.2.10</fr:addr>
+            <fr:route>hodge-theory-ii-4.2.10.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
+            <fr:authors />
+            <fr:number>4.2.10</fr:number>
+            <fr:parent>hodge-theory-ii-4.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[0\to  V'\to  V\to  V''\to 0]]></fr:tex> be an exact sequence of representations of the above type.
+    Then <fr:tex display="inline"><![CDATA[V]]></fr:tex> satisfies <fr:ref addr="hodge-theory-ii-4.2.star" href="hodge-theory-ii-4.2.star.xml" taxon="Property" number="*" /> if (and only if) <fr:tex display="inline"><![CDATA[V']]></fr:tex> and <fr:tex display="inline"><![CDATA[V'']]></fr:tex> satisfy <fr:ref addr="hodge-theory-ii-4.2.star" href="hodge-theory-ii-4.2.star.xml" taxon="Property" number="*" />.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>443</fr:anchor><fr:addr
-type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.6</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Define the <fr:tex
-display="inline"><![CDATA[Y^n]]></fr:tex> and the <fr:tex
-display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> as in <fr:ref
-addr="hodge-theory-ii-3.1.4"
-href="hodge-theory-ii-3.1.4.xml"
-number="3.1.4" />, and let <fr:tex
-display="inline"><![CDATA[i_n\colon \widetilde {Y}^n\to  X]]></fr:tex>.
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2" />, we have
-      <fr:tex
-display="block"><![CDATA[         \operatorname {Gr}_n^W(\Omega _{\bar {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       ]]></fr:tex>
-      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5" />), and so the spectral sequence in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6" /> is given by translations of the degrees of the classical spectral sequence
-      <fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       ]]></fr:tex></fr:p>
-
-    <fr:p>If <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex> is projective and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> the union of smooth divisors, then <fr:tex
-display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> is projective, <fr:tex
-display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref
-addr="hodge-theory-ii-2.2.1"
-href="hodge-theory-ii-2.2.1.xml"
-number="2.2.1" />) gives the degeneration claimed in <fr:ref
-addr="hodge-theory-ii-3.2.6"
-href="hodge-theory-ii-3.2.6.xml"
-taxon="Lemma"
-number="3.2.6" />.
-      For the general case, refer to [<fr:link
-type="local"
-href="D1968.xml"
-addr="D1968"
-title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>] (see also <fr:ref
-addr="hodge-theory-ii-2.2.2"
-href="hodge-theory-ii-2.2.2.xml"
-number="2.2.2" /> and <fr:ref
-addr="hodge-theory-ii-2.2.3"
-href="hodge-theory-ii-2.2.3.xml"
-number="2.2.3" />).</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1314</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex>, <fr:tex display="inline"><![CDATA[G']]></fr:tex>, and <fr:tex display="inline"><![CDATA[G'']]></fr:tex> be the groups defined by <fr:tex display="inline"><![CDATA[V]]></fr:tex>, <fr:tex display="inline"><![CDATA[V']]></fr:tex>, and <fr:tex display="inline"><![CDATA[V'']]></fr:tex>, respectively.
+      Then <fr:tex display="inline"><![CDATA[V']]></fr:tex> is stable under <fr:tex display="inline"><![CDATA[G]]></fr:tex>, just as it is under <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex>, whence a morphism
+      <fr:tex display="block"><![CDATA[         u         = (u',u'')\colon  G\to  G'\times  G''       ]]></fr:tex>
+      with unipotent kernel, and such that <fr:tex display="inline"><![CDATA[u']]></fr:tex> and <fr:tex display="inline"><![CDATA[u'']]></fr:tex> are surjective.
+      Let <fr:tex display="inline"><![CDATA[N]]></fr:tex> be the identity component of the kernel of <fr:tex display="inline"><![CDATA[u'']]></fr:tex>.
+      Since <fr:tex display="inline"><![CDATA[u']]></fr:tex> is surjective, <fr:tex display="inline"><![CDATA[u'(N)]]></fr:tex> is distinguished in <fr:tex display="inline"><![CDATA[G']]></fr:tex>, and thus does not admit any quotient of multiplicative type.
+      
+      If <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is a character of <fr:tex display="inline"><![CDATA[G^0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> factors through <fr:tex display="inline"><![CDATA[u(G^0)]]></fr:tex> and vanishes on <fr:tex display="inline"><![CDATA[N]]></fr:tex>;
+      then a power of <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> factors through <fr:tex display="inline"><![CDATA[{G''}^0]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is trivial.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

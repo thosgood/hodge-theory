@@ -1,78 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2067</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.7.1</fr:addr><fr:route>hodge-theory-ii-4.4.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.7.1</fr:number><fr:parent>hodge-theory-ii-4.4.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {Tr}(h\cdot  C(h^*)) > 0         \quad \text {for }h\neq 0.       \tag{4.4.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2068</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.7</fr:addr><fr:route>hodge-theory-ii-4.4.7.xml</fr:route><fr:authors /><fr:number>4.4.7</fr:number><fr:parent>hodge-theory-ii-4.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex
-display="inline"><![CDATA[\eta ]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-    The centre <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H=\operatorname {End}(\mathrm {R}_1f_*\mathbb {Z})]]></fr:tex> is then of degree <fr:tex
-display="inline"><![CDATA[(0,0)]]></fr:tex> (<fr:ref
-addr="hodge-theory-ii-4.2.8"
-href="hodge-theory-ii-4.2.8.xml"
-taxon="Corollary"
-number="4.2.8" />), and thus contained in <fr:tex
-display="inline"><![CDATA[\operatorname {End}_S(X)\simeq \operatorname {End}_{k(\eta )}(X_\eta )]]></fr:tex>.</fr:p><fr:p>A polarisation of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> defines an involution <fr:tex
-display="inline"><![CDATA[*]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>.
-    The restriction of this to <fr:tex
-display="inline"><![CDATA[\operatorname {End}_S(X)]]></fr:tex> is positive, so that <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> is the product of completely real fields or quadratic imaginary extensions of completely real fields.</fr:p><fr:p>Denote by <fr:tex
-display="inline"><![CDATA[C]]></fr:tex> the actions of <fr:tex
-display="inline"><![CDATA[i\in  S(\mathbb {R})]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[H_\mathbb {R}=H\otimes \mathbb {R}]]></fr:tex> and on the <fr:tex
-display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {R})_s]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[s\in  S]]></fr:tex>.
-    On <fr:tex
-display="inline"><![CDATA[H_\mathbb {R}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[C^2=1]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[C]]></fr:tex> commutes with <fr:tex
-display="inline"><![CDATA[*]]></fr:tex>;
-    on <fr:tex
-display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {R})_s]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[C^2=-1]]></fr:tex>.
-    If <fr:tex
-display="inline"><![CDATA[\psi ]]></fr:tex> is the alternating form on <fr:tex
-display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Z}]]></fr:tex> with integer values induced by the polarisation of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, then
-    <fr:tex
-display="block"><![CDATA[       \psi (hx,Cy)       = \psi (x,h^*Cy)       = \psi (x,C\cdot  C(h^*)\cdot  y).     ]]></fr:tex>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2079</fr:anchor>
+    <fr:addr type="user">hodge-theory-ii-4.4.7.1</fr:addr>
+    <fr:route>hodge-theory-ii-4.4.7.1.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>4.4.7.1</fr:number>
+    <fr:parent>hodge-theory-ii-4.4.7</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[         \operatorname {Tr}(h\cdot  C(h^*)) > 0         \quad \text {for }h\neq 0.       \tag{4.4.7.1}       ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2080</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.4.7</fr:addr>
+            <fr:route>hodge-theory-ii-4.4.7.xml</fr:route>
+            <fr:authors />
+            <fr:number>4.4.7</fr:number>
+            <fr:parent>hodge-theory-ii-4.4</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a non-empty, connected, smooth scheme, with generic point <fr:tex display="inline"><![CDATA[\eta ]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+    The centre <fr:tex display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex display="inline"><![CDATA[H=\operatorname {End}(\mathrm {R}_1f_*\mathbb {Z})]]></fr:tex> is then of degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex> (<fr:ref addr="hodge-theory-ii-4.2.8" href="hodge-theory-ii-4.2.8.xml" taxon="Corollary" number="4.2.8" />), and thus contained in <fr:tex display="inline"><![CDATA[\operatorname {End}_S(X)\simeq \operatorname {End}_{k(\eta )}(X_\eta )]]></fr:tex>.</fr:p>
+            <fr:p>A polarisation of <fr:tex display="inline"><![CDATA[X]]></fr:tex> defines an involution <fr:tex display="inline"><![CDATA[*]]></fr:tex> of <fr:tex display="inline"><![CDATA[H]]></fr:tex>.
+    The restriction of this to <fr:tex display="inline"><![CDATA[\operatorname {End}_S(X)]]></fr:tex> is positive, so that <fr:tex display="inline"><![CDATA[Z]]></fr:tex> is the product of completely real fields or quadratic imaginary extensions of completely real fields.</fr:p>
+            <fr:p>Denote by <fr:tex display="inline"><![CDATA[C]]></fr:tex> the actions of <fr:tex display="inline"><![CDATA[i\in  S(\mathbb {R})]]></fr:tex> on <fr:tex display="inline"><![CDATA[H_\mathbb {R}=H\otimes \mathbb {R}]]></fr:tex> and on the <fr:tex display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {R})_s]]></fr:tex> for <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>.
+    On <fr:tex display="inline"><![CDATA[H_\mathbb {R}]]></fr:tex>, <fr:tex display="inline"><![CDATA[C^2=1]]></fr:tex>, and <fr:tex display="inline"><![CDATA[C]]></fr:tex> commutes with <fr:tex display="inline"><![CDATA[*]]></fr:tex>;
+    on <fr:tex display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {R})_s]]></fr:tex>, <fr:tex display="inline"><![CDATA[C^2=-1]]></fr:tex>.
+    If <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is the alternating form on <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Z}]]></fr:tex> with integer values induced by the polarisation of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then
+    <fr:tex display="block"><![CDATA[       \psi (hx,Cy)       = \psi (x,h^*Cy)       = \psi (x,C\cdot  C(h^*)\cdot  y).     ]]></fr:tex>
     We thus deduce that
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1848</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.4.7.1</fr:addr><fr:route>hodge-theory-ii-4.4.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.7.1</fr:number><fr:parent>hodge-theory-ii-4.4.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {Tr}(h\cdot  C(h^*)) > 0         \quad \text {for }h\neq 0.       \tag{4.4.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1860</fr:anchor><fr:addr type="user">hodge-theory-ii-4.4.7.1</fr:addr><fr:route>hodge-theory-ii-4.4.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.4.7.1</fr:number><fr:parent>hodge-theory-ii-4.4.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {Tr}(h\cdot  C(h^*)) > 0         \quad \text {for }h\neq 0.       \tag{4.4.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

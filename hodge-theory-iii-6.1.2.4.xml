@@ -1,175 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2402</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.1.2.4</fr:addr><fr:route>hodge-theory-iii-6.1.2.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.4</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet (X/G,F^{-1})         \tag{6.1.2.4}         ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2403</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.1.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.xml</fr:route><fr:authors /><fr:number>6.1.2</fr:number><fr:parent>hodge-theory-iii-6.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If a topological group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> acts on a space <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> acts on <fr:tex
-display="inline"><![CDATA[G^{\Delta _n}\times  X]]></fr:tex> by
-    <fr:tex
-display="block"><![CDATA[       g\cdot (g_0,\ldots ,g_n,x)       = (g_0g^{-1},\ldots ,g_ng^{-1},gx).     ]]></fr:tex>
-    We denote by <fr:tex
-display="inline"><![CDATA[[X/G]_\bullet ]]></fr:tex> the simplicial space
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2415</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-6.1.2.4</fr:addr>
+    <fr:route>hodge-theory-iii-6.1.2.4.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>6.1.2.4</fr:number>
+    <fr:parent>hodge-theory-iii-6.1.2</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet (X/G,F^{-1})         \tag{6.1.2.4}         ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2416</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-6.1.2</fr:addr>
+            <fr:route>hodge-theory-iii-6.1.2.xml</fr:route>
+            <fr:authors />
+            <fr:number>6.1.2</fr:number>
+            <fr:parent>hodge-theory-iii-6.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>If a topological group <fr:tex display="inline"><![CDATA[G]]></fr:tex> acts on a space <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then <fr:tex display="inline"><![CDATA[G]]></fr:tex> acts on <fr:tex display="inline"><![CDATA[G^{\Delta _n}\times  X]]></fr:tex> by
+    <fr:tex display="block"><![CDATA[       g\cdot (g_0,\ldots ,g_n,x)       = (g_0g^{-1},\ldots ,g_ng^{-1},gx).     ]]></fr:tex>
+    We denote by <fr:tex display="inline"><![CDATA[[X/G]_\bullet ]]></fr:tex> the simplicial space
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2344</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.1.2.1</fr:addr><fr:route>hodge-theory-iii-6.1.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.1</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         [X/G]_\bullet          = \big ((G^{\Delta _n}\times  X)/G\big )_{n\geqslant 0}.       \tag{6.1.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2356</fr:anchor><fr:addr type="user">hodge-theory-iii-6.1.2.1</fr:addr><fr:route>hodge-theory-iii-6.1.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.1</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         [X/G]_\bullet          = \big ((G^{\Delta _n}\times  X)/G\big )_{n\geqslant 0}.       \tag{6.1.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-      If <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is a principal homogeneous space for the group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[S=X/G]]></fr:tex>, then the map
-      <fr:tex
-display="block"><![CDATA[         \begin {aligned}           G^{\Delta _n}\times  X           &\to  X^{\Delta _n}         \\(g_0,\ldots ,g_n,x)           &\mapsto  (g_0x,\ldots ,g_nx)         \end {aligned}       ]]></fr:tex>
-      identifies <fr:tex
-display="inline"><![CDATA[[X/G]_n]]></fr:tex> with the iterated fibre product <fr:tex
-display="inline"><![CDATA[(X/S)^{\Delta _n}]]></fr:tex>:
-      <fr:tex
-display="block"><![CDATA[         \operatorname {cosq}(X\to  S)         = ([X/G]_\bullet \to  S).       ]]></fr:tex>
+ <html:li style="list-style-type: &quot;(a) &quot;">
+      If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a principal homogeneous space for the group <fr:tex display="inline"><![CDATA[G]]></fr:tex> on <fr:tex display="inline"><![CDATA[S=X/G]]></fr:tex>, then the map
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           G^{\Delta _n}\times  X           &\to  X^{\Delta _n}         \\(g_0,\ldots ,g_n,x)           &\mapsto  (g_0x,\ldots ,g_nx)         \end {aligned}       ]]></fr:tex>
+      identifies <fr:tex display="inline"><![CDATA[[X/G]_n]]></fr:tex> with the iterated fibre product <fr:tex display="inline"><![CDATA[(X/S)^{\Delta _n}]]></fr:tex>:
+      <fr:tex display="block"><![CDATA[         \operatorname {cosq}(X\to  S)         = ([X/G]_\bullet \to  S).       ]]></fr:tex>
       
-      In particular, we have (by (III) of <fr:ref
-addr="hodge-theory-iii-5.3.5"
-href="hodge-theory-iii-5.3.5.xml"
-number="5.3.5" />)
+      In particular, we have (by (III) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />)
 
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2347</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.1.2.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.2</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \operatorname {H}^\bullet ([X/G]_\bullet )           \simeq  \operatorname {H}^\bullet (X/G)         \tag{6.1.2.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2359</fr:anchor><fr:addr type="user">hodge-theory-iii-6.1.2.2</fr:addr><fr:route>hodge-theory-iii-6.1.2.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.2</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}^\bullet ([X/G]_\bullet )           \simeq  \operatorname {H}^\bullet (X/G)         \tag{6.1.2.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
       (for a principal homogeneous space).
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-      For all <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[G^{\Delta _n}\times  X]]></fr:tex> is a principal homogeneous space for the group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[[X/G]_n]]></fr:tex>.
-      For every equivariant sheaf <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\operatorname {pr}_2^*F]]></fr:tex> is an equivariant sheaf on <fr:tex
-display="inline"><![CDATA[G^{\Delta _n}\times  X]]></fr:tex>;
-      by <fr:ref
-addr="hodge-theory-iii-6.1.1"
-href="hodge-theory-iii-6.1.1.xml"
-number="6.1.1" />, the latter is the inverse image of <fr:tex
-display="inline"><![CDATA[F^n]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[[X/G]_n]]></fr:tex>.
-      Every equivariant sheaf <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> thus defines a sheaf on <fr:tex
-display="inline"><![CDATA[[X/G]_\bullet ]]></fr:tex>.
-      It is easy to show that we thus obtain an equivalence between the category of equivariant sheaves on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and the category of sheaves <fr:tex
-display="inline"><![CDATA[F^\bullet ]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[[X/G]_\bullet ]]></fr:tex> that satisfy
+ <html:li style="list-style-type: &quot;(b) &quot;">
+      For all <fr:tex display="inline"><![CDATA[n]]></fr:tex>, <fr:tex display="inline"><![CDATA[G^{\Delta _n}\times  X]]></fr:tex> is a principal homogeneous space for the group <fr:tex display="inline"><![CDATA[G]]></fr:tex> on <fr:tex display="inline"><![CDATA[[X/G]_n]]></fr:tex>.
+      For every equivariant sheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {pr}_2^*F]]></fr:tex> is an equivariant sheaf on <fr:tex display="inline"><![CDATA[G^{\Delta _n}\times  X]]></fr:tex>;
+      by <fr:ref addr="hodge-theory-iii-6.1.1" href="hodge-theory-iii-6.1.1.xml" number="6.1.1" />, the latter is the inverse image of <fr:tex display="inline"><![CDATA[F^n]]></fr:tex> on <fr:tex display="inline"><![CDATA[[X/G]_n]]></fr:tex>.
+      Every equivariant sheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> thus defines a sheaf on <fr:tex display="inline"><![CDATA[[X/G]_\bullet ]]></fr:tex>.
+      It is easy to show that we thus obtain an equivalence between the category of equivariant sheaves on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and the category of sheaves <fr:tex display="inline"><![CDATA[F^\bullet ]]></fr:tex> on <fr:tex display="inline"><![CDATA[[X/G]_\bullet ]]></fr:tex> that satisfy
 
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2349</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.1.star</fr:addr><fr:route>hodge-theory-iii-6.1.star.xml</fr:route><fr:taxon>Property</fr:taxon><fr:authors /><fr:number>*</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex
-display="inline"><![CDATA[(*)]]></fr:tex> For every <fr:tex
-display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex>, the structure morphism <fr:tex
-display="inline"><![CDATA[f^*F^n\to  F^m]]></fr:tex> is an isomorphism.</fr:em></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2361</fr:anchor><fr:addr type="user">hodge-theory-iii-6.1.star</fr:addr><fr:route>hodge-theory-iii-6.1.star.xml</fr:route><fr:taxon>Property</fr:taxon><fr:authors /><fr:number>*</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em><fr:tex display="inline"><![CDATA[(*)]]></fr:tex> For every <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex>, the structure morphism <fr:tex display="inline"><![CDATA[f^*F^n\to  F^m]]></fr:tex> is an isomorphism.</fr:em></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(c) &quot;">
-      Construction (b) above is natural in <fr:tex
-display="inline"><![CDATA[(G,X,F)]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(c) &quot;">
+      Construction (b) above is natural in <fr:tex display="inline"><![CDATA[(G,X,F)]]></fr:tex>.
       We set
 
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2351</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.1.2.3</fr:addr><fr:route>hodge-theory-iii-6.1.2.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.3</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet ([X/G]_\bullet ,F^\bullet )         \tag{6.1.2.3}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2363</fr:anchor><fr:addr type="user">hodge-theory-iii-6.1.2.3</fr:addr><fr:route>hodge-theory-iii-6.1.2.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.3</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet ([X/G]_\bullet ,F^\bullet )         \tag{6.1.2.3}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-      (mixed cohomology of <fr:tex
-display="inline"><![CDATA[X,G]]></fr:tex> with coefficients in <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>).
-      Under the hypotheses of (a), if <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is the inverse image of <fr:tex
-display="inline"><![CDATA[F^{-1}]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[S=X/G]]></fr:tex>, then
+      (mixed cohomology of <fr:tex display="inline"><![CDATA[X,G]]></fr:tex> with coefficients in <fr:tex display="inline"><![CDATA[F]]></fr:tex>).
+      Under the hypotheses of (a), if <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the inverse image of <fr:tex display="inline"><![CDATA[F^{-1}]]></fr:tex> on <fr:tex display="inline"><![CDATA[S=X/G]]></fr:tex>, then
 
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2352</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.1.2.4</fr:addr><fr:route>hodge-theory-iii-6.1.2.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.4</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet (X/G,F^{-1})         \tag{6.1.2.4}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2364</fr:anchor><fr:addr type="user">hodge-theory-iii-6.1.2.4</fr:addr><fr:route>hodge-theory-iii-6.1.2.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1.2.4</fr:number><fr:parent>hodge-theory-iii-6.1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}^\bullet (X,G;F)           = \operatorname {H}^\bullet (X/G,F^{-1})         \tag{6.1.2.4}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
       (for a principal homogeneous space).
-      This generalises <fr:ref
-addr="hodge-theory-iii-6.1.2.2"
-href="hodge-theory-iii-6.1.2.2.xml"
-taxon="Equation"
-number="6.1.2.2" /> (which is the case <fr:tex
-display="inline"><![CDATA[F=\underline {\mathbb {Z}}]]></fr:tex>).
+      This generalises <fr:ref addr="hodge-theory-iii-6.1.2.2" href="hodge-theory-iii-6.1.2.2.xml" taxon="Equation" number="6.1.2.2" /> (which is the case <fr:tex display="inline"><![CDATA[F=\underline {\mathbb {Z}}]]></fr:tex>).
     </html:li>
 
   </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

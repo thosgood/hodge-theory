@@ -1,199 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>718</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.3</fr:addr><fr:route>hodge-theory-ii-1.1.3.xml</fr:route><fr:authors /><fr:number>1.1.3</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is a decreasing (resp. increasing) filtration of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, then the <fr:tex
-display="inline"><![CDATA[F_n(A)=F^{-n}(A)]]></fr:tex> (resp the <fr:tex
-display="inline"><![CDATA[F^n(A)=F_{-n}(A)]]></fr:tex>) form an increasing (resp. decreasing) filtration of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>723</fr:anchor>
+    <fr:addr type="user">hodge-theory-ii-1.1.3</fr:addr>
+    <fr:route>hodge-theory-ii-1.1.3.xml</fr:route>
+    <fr:authors />
+    <fr:number>1.1.3</fr:number>
+    <fr:parent>hodge-theory-ii-1.1</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>If <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a decreasing (resp. increasing) filtration of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then the <fr:tex display="inline"><![CDATA[F_n(A)=F^{-n}(A)]]></fr:tex> (resp the <fr:tex display="inline"><![CDATA[F^n(A)=F_{-n}(A)]]></fr:tex>) form an increasing (resp. decreasing) filtration of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
     
     This allows us in principal to consider only decreasing filtrations;
-    <fr:em>unless otherwise explicitly mentioned, when we say "filtration" we always mean "decreasing filtration"</fr:em>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>719</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1</fr:addr><fr:route>hodge-theory-ii-1.1.xml</fr:route><fr:title
-text="Hodge Theory II › Filtrations › Filtered objects"><fr:link
-type="local"
-href="hodge-theory-ii-1.xml"
-addr="hodge-theory-ii-1"
-title="Hodge Theory II › Filtrations"><fr:link
-type="local"
-href="hodge-theory-ii.xml"
-addr="hodge-theory-ii"
-title="Hodge Theory II">Hodge Theory II</fr:link> › Filtrations</fr:link> › Filtered objects</fr:title><fr:authors /><fr:number>1.1</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>662</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.1</fr:addr><fr:route>hodge-theory-ii-1.1.1.xml</fr:route><fr:authors /><fr:number>1.1.1</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> be an abelian category.</fr:p><fr:p>We will be considering <fr:tex
-display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-filtrations, finite, in general, on the objects of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex>:</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>663</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.2</fr:addr><fr:route>hodge-theory-ii-1.1.2.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>1.1.2</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>decreasing</fr:em> (resp. <fr:em>increasing</fr:em>) <fr:em>filtration</fr:em> <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> of an object <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> is a family <fr:tex
-display="inline"><![CDATA[(F^n(A))_{n\in \mathbb {Z}}]]></fr:tex> (resp. <fr:tex
-display="inline"><![CDATA[(F_n(A))_{n\in \mathbb {Z}}]]></fr:tex>) of sub-objects of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> satisfying
-    <fr:tex
-display="block"><![CDATA[       \forall  n,m       \quad  n\leqslant  m \implies  F^m(A)\subset  F^n(A)     ]]></fr:tex>
-    (resp. <fr:tex
-display="inline"><![CDATA[n\leqslant  m\implies  F_n(A)\subset  F_m(A)]]></fr:tex>).</fr:p><fr:p>A <fr:em>filtered object</fr:em> is an object endowed with a filtration.
-    When there is no chance of confusion, we often denote by the same letter filtrations on different objects of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex>.</fr:p><fr:p>If <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is a decreasing (resp. increasing) filtration on <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, then we set <fr:tex
-display="inline"><![CDATA[F^\infty (A)=0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F^{-\infty }(A)=A]]></fr:tex> (resp. <fr:tex
-display="inline"><![CDATA[F_{-\infty }(A)=0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F_\infty (A)=A]]></fr:tex>).</fr:p><fr:p>The <fr:em>shifted filtrations</fr:em> of a decreasing filtration <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> are defined by
-    <fr:tex
-display="block"><![CDATA[       W[n]^p(A)       = W^{n+p}(A)     ]]></fr:tex>
-    for <fr:tex
-display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>664</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.3</fr:addr><fr:route>hodge-theory-ii-1.1.3.xml</fr:route><fr:authors /><fr:number>1.1.3</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is a decreasing (resp. increasing) filtration of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, then the <fr:tex
-display="inline"><![CDATA[F_n(A)=F^{-n}(A)]]></fr:tex> (resp the <fr:tex
-display="inline"><![CDATA[F^n(A)=F_{-n}(A)]]></fr:tex>) form an increasing (resp. decreasing) filtration of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.
+    <fr:em>unless otherwise explicitly mentioned, when we say "filtration" we always mean "decreasing filtration"</fr:em>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>724</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.1</fr:addr>
+            <fr:route>hodge-theory-ii-1.1.xml</fr:route>
+            <fr:title text="Hodge Theory II › Filtrations › Filtered objects"><fr:link type="local" href="hodge-theory-ii-1.xml" addr="hodge-theory-ii-1" title="Hodge Theory II › Filtrations"><fr:link type="local" href="hodge-theory-ii.xml" addr="hodge-theory-ii" title="Hodge Theory II">Hodge Theory II</fr:link> › Filtrations</fr:link> › Filtered objects</fr:title>
+            <fr:authors />
+            <fr:number>1.1</fr:number>
+            <fr:parent>hodge-theory-ii-1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>667</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.1</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.1.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.1</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> be an abelian category.</fr:p>
+                <fr:p>We will be considering <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-filtrations, finite, in general, on the objects of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex>:</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>668</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.2</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.2.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>1.1.2</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>A <fr:em>decreasing</fr:em> (resp. <fr:em>increasing</fr:em>) <fr:em>filtration</fr:em> <fr:tex display="inline"><![CDATA[F]]></fr:tex> of an object <fr:tex display="inline"><![CDATA[A]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> is a family <fr:tex display="inline"><![CDATA[(F^n(A))_{n\in \mathbb {Z}}]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[(F_n(A))_{n\in \mathbb {Z}}]]></fr:tex>) of sub-objects of <fr:tex display="inline"><![CDATA[A]]></fr:tex> satisfying
+    <fr:tex display="block"><![CDATA[       \forall  n,m       \quad  n\leqslant  m \implies  F^m(A)\subset  F^n(A)     ]]></fr:tex>
+    (resp. <fr:tex display="inline"><![CDATA[n\leqslant  m\implies  F_n(A)\subset  F_m(A)]]></fr:tex>).</fr:p>
+                <fr:p>A <fr:em>filtered object</fr:em> is an object endowed with a filtration.
+    When there is no chance of confusion, we often denote by the same letter filtrations on different objects of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex>.</fr:p>
+                <fr:p>If <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a decreasing (resp. increasing) filtration on <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then we set <fr:tex display="inline"><![CDATA[F^\infty (A)=0]]></fr:tex> and <fr:tex display="inline"><![CDATA[F^{-\infty }(A)=A]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[F_{-\infty }(A)=0]]></fr:tex> and <fr:tex display="inline"><![CDATA[F_\infty (A)=A]]></fr:tex>).</fr:p>
+                <fr:p>The <fr:em>shifted filtrations</fr:em> of a decreasing filtration <fr:tex display="inline"><![CDATA[W]]></fr:tex> are defined by
+    <fr:tex display="block"><![CDATA[       W[n]^p(A)       = W^{n+p}(A)     ]]></fr:tex>
+    for <fr:tex display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>669</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.3</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.3.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.3</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>If <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a decreasing (resp. increasing) filtration of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then the <fr:tex display="inline"><![CDATA[F_n(A)=F^{-n}(A)]]></fr:tex> (resp the <fr:tex display="inline"><![CDATA[F^n(A)=F_{-n}(A)]]></fr:tex>) form an increasing (resp. decreasing) filtration of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
     
     This allows us in principal to consider only decreasing filtrations;
-    <fr:em>unless otherwise explicitly mentioned, when we say "filtration" we always mean "decreasing filtration"</fr:em>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>665</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.4</fr:addr><fr:route>hodge-theory-ii-1.1.4.xml</fr:route><fr:authors /><fr:number>1.1.4</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is said to be <fr:em>finite</fr:em> if there exist <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[m]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[F^n(A)=A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F^m(A)=0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>666</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.5</fr:addr><fr:route>hodge-theory-ii-1.1.5.xml</fr:route><fr:authors /><fr:number>1.1.5</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>morphism</fr:em> from a filtered object <fr:tex
-display="inline"><![CDATA[(A,F)]]></fr:tex> to a filtered object <fr:tex
-display="inline"><![CDATA[(B,F)]]></fr:tex> is a morphism <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> from <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> that satisfies <fr:tex
-display="inline"><![CDATA[f(F^n(A))\subset  F^n(B)]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p><fr:p>Filtered objects (resp. finite filtered objects) of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> form an additive category in which inductive limits and finite projective limits exist (and thus kernels, cokernels, images, and coimages of a morphism).</fr:p><fr:p>A morphism <fr:tex
-display="inline"><![CDATA[f\colon (A,F)\to (B,F)]]></fr:tex> is said to be <fr:em>strict</fr:em>, or <fr:em>strictly compatible with the filtrations</fr:em>, if the canonical arrows from <fr:tex
-display="inline"><![CDATA[\operatorname {Coim}(f)]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\operatorname {Im}(f)]]></fr:tex> is an isomorphism of filtered objects (cf. <fr:ref
-addr="hodge-theory-ii-1.1.11"
-href="hodge-theory-ii-1.1.11.xml"
-taxon="Proposition"
-number="1.1.11" />).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>667</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.6</fr:addr><fr:route>hodge-theory-ii-1.1.6.xml</fr:route><fr:authors /><fr:number>1.1.6</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(-)^\circ ]]></fr:tex> be the contravariant identity functor from <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> to the dual category <fr:tex
-display="inline"><![CDATA[\mathscr {A}^\circ ]]></fr:tex>.
-    If <fr:tex
-display="inline"><![CDATA[(A,F)]]></fr:tex> is a filtered object of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex>, then the <fr:tex
-display="inline"><![CDATA[(A/F^n(A))^\circ ]]></fr:tex> can be identified with sub-objects of <fr:tex
-display="inline"><![CDATA[A^\circ ]]></fr:tex>.
-    The <fr:em>dual</fr:em> filtration on <fr:tex
-display="inline"><![CDATA[A^\circ ]]></fr:tex> is defined by
-    <fr:tex
-display="block"><![CDATA[       F^n(A^\circ )       = (A/F^{1-n})^\circ .     ]]></fr:tex></fr:p><fr:p>The double dual of <fr:tex
-display="inline"><![CDATA[(A,F)]]></fr:tex> can be identified with <fr:tex
-display="inline"><![CDATA[(A,F)]]></fr:tex>.
-    This construction identifies the dual of the category of filtered objects of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> with the category of filtered objects of <fr:tex
-display="inline"><![CDATA[\mathscr {A}^\circ ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>668</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.7</fr:addr><fr:route>hodge-theory-ii-1.1.7.xml</fr:route><fr:authors /><fr:number>1.1.7</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[(A,F)]]></fr:tex> is a filtered object of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex>, then its <fr:em>associated graded</fr:em> is the object of <fr:tex
-display="inline"><![CDATA[\mathscr {A}^\mathbb {Z}]]></fr:tex> defined by
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Gr}^n(A)       = F^n(A)/F^{n+1}(A).     ]]></fr:tex>
-    The convention <fr:ref
-addr="hodge-theory-ii-1.1.6"
-href="hodge-theory-ii-1.1.6.xml"
-number="1.1.6" /> is justified by the simple formula
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Gr}^n(A^\circ )       = \operatorname {Gr}^{-n}(A)^\circ      ]]></fr:tex>
+    <fr:em>unless otherwise explicitly mentioned, when we say "filtration" we always mean "decreasing filtration"</fr:em>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>670</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.4</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.4.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.4</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>A filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> is said to be <fr:em>finite</fr:em> if there exist <fr:tex display="inline"><![CDATA[n]]></fr:tex> and <fr:tex display="inline"><![CDATA[m]]></fr:tex> such that <fr:tex display="inline"><![CDATA[F^n(A)=A]]></fr:tex> and <fr:tex display="inline"><![CDATA[F^m(A)=0]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>671</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.5</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.5.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.5</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>A <fr:em>morphism</fr:em> from a filtered object <fr:tex display="inline"><![CDATA[(A,F)]]></fr:tex> to a filtered object <fr:tex display="inline"><![CDATA[(B,F)]]></fr:tex> is a morphism <fr:tex display="inline"><![CDATA[f]]></fr:tex> from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to <fr:tex display="inline"><![CDATA[B]]></fr:tex> that satisfies <fr:tex display="inline"><![CDATA[f(F^n(A))\subset  F^n(B)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p>
+                <fr:p>Filtered objects (resp. finite filtered objects) of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> form an additive category in which inductive limits and finite projective limits exist (and thus kernels, cokernels, images, and coimages of a morphism).</fr:p>
+                <fr:p>A morphism <fr:tex display="inline"><![CDATA[f\colon (A,F)\to (B,F)]]></fr:tex> is said to be <fr:em>strict</fr:em>, or <fr:em>strictly compatible with the filtrations</fr:em>, if the canonical arrows from <fr:tex display="inline"><![CDATA[\operatorname {Coim}(f)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {Im}(f)]]></fr:tex> is an isomorphism of filtered objects (cf. <fr:ref addr="hodge-theory-ii-1.1.11" href="hodge-theory-ii-1.1.11.xml" taxon="Proposition" number="1.1.11" />).</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>672</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.6</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.6.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.6</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[(-)^\circ ]]></fr:tex> be the contravariant identity functor from <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> to the dual category <fr:tex display="inline"><![CDATA[\mathscr {A}^\circ ]]></fr:tex>.
+    If <fr:tex display="inline"><![CDATA[(A,F)]]></fr:tex> is a filtered object of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex>, then the <fr:tex display="inline"><![CDATA[(A/F^n(A))^\circ ]]></fr:tex> can be identified with sub-objects of <fr:tex display="inline"><![CDATA[A^\circ ]]></fr:tex>.
+    The <fr:em>dual</fr:em> filtration on <fr:tex display="inline"><![CDATA[A^\circ ]]></fr:tex> is defined by
+    <fr:tex display="block"><![CDATA[       F^n(A^\circ )       = (A/F^{1-n})^\circ .     ]]></fr:tex></fr:p>
+                <fr:p>The double dual of <fr:tex display="inline"><![CDATA[(A,F)]]></fr:tex> can be identified with <fr:tex display="inline"><![CDATA[(A,F)]]></fr:tex>.
+    This construction identifies the dual of the category of filtered objects of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> with the category of filtered objects of <fr:tex display="inline"><![CDATA[\mathscr {A}^\circ ]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>673</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.7</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.7.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.7</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>If <fr:tex display="inline"><![CDATA[(A,F)]]></fr:tex> is a filtered object of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex>, then its <fr:em>associated graded</fr:em> is the object of <fr:tex display="inline"><![CDATA[\mathscr {A}^\mathbb {Z}]]></fr:tex> defined by
+    <fr:tex display="block"><![CDATA[       \operatorname {Gr}^n(A)       = F^n(A)/F^{n+1}(A).     ]]></fr:tex>
+    The convention <fr:ref addr="hodge-theory-ii-1.1.6" href="hodge-theory-ii-1.1.6.xml" number="1.1.6" /> is justified by the simple formula
+    <fr:tex display="block"><![CDATA[       \operatorname {Gr}^n(A^\circ )       = \operatorname {Gr}^{-n}(A)^\circ      ]]></fr:tex>
     which follows from the self-dual diagram
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>669</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.7.1</fr:addr><fr:route>hodge-theory-ii-1.1.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.1.7.1</fr:number><fr:parent>hodge-theory-ii-1.1.7</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:embedded-tex
-hash="4c8cf20a648de469d2843c0b0f11c1b9"><fr:embedded-tex-preamble><![CDATA[
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>674</fr:anchor><fr:addr type="user">hodge-theory-ii-1.1.7.1</fr:addr><fr:route>hodge-theory-ii-1.1.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.1.7.1</fr:number><fr:parent>hodge-theory-ii-1.1.7</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:embedded-tex hash="4c8cf20a648de469d2843c0b0f11c1b9"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
@@ -214,49 +175,44 @@ hash="4c8cf20a648de469d2843c0b0f11c1b9"><fr:embedded-tex-preamble><![CDATA[
         && 0
           \ar [ul]
       \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.8</fr:addr><fr:route>hodge-theory-ii-1.1.8.xml</fr:route><fr:authors /><fr:number>1.1.8</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(A,F)]]></fr:tex> be a filtered object, and <fr:tex
-display="inline"><![CDATA[j\colon  X\hookrightarrow  A]]></fr:tex> a sub-object of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.
-    The <fr:em>filtration induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex></fr:em> (or simply the <fr:em>induced filtration</fr:em>) on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is the unique filtration on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[j]]></fr:tex> is strictly compatible with the filtrations;
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>675</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.8</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.8.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.8</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[(A,F)]]></fr:tex> be a filtered object, and <fr:tex display="inline"><![CDATA[j\colon  X\hookrightarrow  A]]></fr:tex> a sub-object of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+    The <fr:em>filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex></fr:em> (or simply the <fr:em>induced filtration</fr:em>) on <fr:tex display="inline"><![CDATA[X]]></fr:tex> is the unique filtration on <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[j]]></fr:tex> is strictly compatible with the filtrations;
     we have
-    <fr:tex
-display="block"><![CDATA[       F^n(X)       = j^{-1}(F^n(A))       = X\cap  F^n(A).     ]]></fr:tex></fr:p><fr:p>Dually, the <fr:em>quotient filtration</fr:em> on <fr:tex
-display="inline"><![CDATA[A/X]]></fr:tex> (the unique filtration such that <fr:tex
-display="inline"><![CDATA[p\colon  A\to  A/X]]></fr:tex> is strictly compatible with the filtrations) is given by
-    <fr:tex
-display="block"><![CDATA[       F^n(A/X)       = p(F^n(A))       \cong  (X+F^n(A))/X       \cong  F^n(A)/(X\cap  F^n(A)).     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>671</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.9</fr:addr><fr:route>hodge-theory-ii-1.1.9.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>1.1.9</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> are sub-objects of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[X\subset  Y]]></fr:tex>, then on <fr:tex
-display="inline"><![CDATA[Y/X\xrightarrow {\sim }\operatorname {Ker}(A/X\to  A/Y)]]></fr:tex> the quotient filtration of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> agrees with that induced by that of <fr:tex
-display="inline"><![CDATA[A/X]]></fr:tex>.
+    <fr:tex display="block"><![CDATA[       F^n(X)       = j^{-1}(F^n(A))       = X\cap  F^n(A).     ]]></fr:tex></fr:p>
+                <fr:p>Dually, the <fr:em>quotient filtration</fr:em> on <fr:tex display="inline"><![CDATA[A/X]]></fr:tex> (the unique filtration such that <fr:tex display="inline"><![CDATA[p\colon  A\to  A/X]]></fr:tex> is strictly compatible with the filtrations) is given by
+    <fr:tex display="block"><![CDATA[       F^n(A/X)       = p(F^n(A))       \cong  (X+F^n(A))/X       \cong  F^n(A)/(X\cap  F^n(A)).     ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>676</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.9</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.9.xml</fr:route>
+                <fr:taxon>Lemma</fr:taxon>
+                <fr:authors />
+                <fr:number>1.1.9</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>If <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> are sub-objects of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, with <fr:tex display="inline"><![CDATA[X\subset  Y]]></fr:tex>, then on <fr:tex display="inline"><![CDATA[Y/X\xrightarrow {\sim }\operatorname {Ker}(A/X\to  A/Y)]]></fr:tex> the quotient filtration of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> agrees with that induced by that of <fr:tex display="inline"><![CDATA[A/X]]></fr:tex>.
     In the diagram
     
-  <fr:embedded-tex
-hash="a02137ad2b8968d01ad871f220398f31"><fr:embedded-tex-preamble><![CDATA[
+  <fr:embedded-tex hash="a02137ad2b8968d01ad871f220398f31"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
@@ -274,278 +230,165 @@ hash="a02137ad2b8968d01ad871f220398f31"><fr:embedded-tex-preamble><![CDATA[
         \ar [ul] \ar [uu] \ar [ur]
     \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-    the arrows are strict.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.10</fr:addr><fr:route>hodge-theory-ii-1.1.10.xml</fr:route><fr:authors /><fr:number>1.1.10</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We call the filtration <fr:ref
-addr="hodge-theory-ii-1.1.9"
-href="hodge-theory-ii-1.1.9.xml"
-taxon="Lemma"
-number="1.1.9" /> on <fr:tex
-display="inline"><![CDATA[Y/X]]></fr:tex> the <fr:em>filtration induced by that of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex></fr:em> (or simply the <fr:em>induced filtration</fr:em>).
-    By <fr:ref
-addr="hodge-theory-ii-1.1.9"
-href="hodge-theory-ii-1.1.9.xml"
-taxon="Lemma"
-number="1.1.9" />, its definition is self-dual.
+    the arrows are strict.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>677</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.10</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.10.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.10</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We call the filtration <fr:ref addr="hodge-theory-ii-1.1.9" href="hodge-theory-ii-1.1.9.xml" taxon="Lemma" number="1.1.9" /> on <fr:tex display="inline"><![CDATA[Y/X]]></fr:tex> the <fr:em>filtration induced by that of <fr:tex display="inline"><![CDATA[A]]></fr:tex></fr:em> (or simply the <fr:em>induced filtration</fr:em>).
+    By <fr:ref addr="hodge-theory-ii-1.1.9" href="hodge-theory-ii-1.1.9.xml" taxon="Lemma" number="1.1.9" />, its definition is self-dual.
 
-    In particular, if <fr:tex
-display="inline"><![CDATA[\Sigma \colon  A\xrightarrow {f}B\xrightarrow {G}C]]></fr:tex> is a **!!<fr:strong><fr:em>TO-DO: o-suite</fr:em></fr:strong>?!!** sequence, and if <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is filtered, then <fr:tex
-display="inline"><![CDATA[\operatorname {H}(\Sigma )=\operatorname {Ker}(g)/\operatorname {Im}(f)=\operatorname {Ker}(\operatorname {Coker}(f)\to \operatorname {Coim}(g))]]></fr:tex> is endowed with a canonical induced filtration.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The reader can show that:</fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>673</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.11</fr:addr><fr:route>hodge-theory-ii-1.1.11.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>1.1.11</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+    In particular, if <fr:tex display="inline"><![CDATA[\Sigma \colon  A\xrightarrow {f}B\xrightarrow {G}C]]></fr:tex> is a **!!<fr:strong><fr:em>TO-DO: o-suite</fr:em></fr:strong>?!!** sequence, and if <fr:tex display="inline"><![CDATA[B]]></fr:tex> is filtered, then <fr:tex display="inline"><![CDATA[\operatorname {H}(\Sigma )=\operatorname {Ker}(g)/\operatorname {Im}(f)=\operatorname {Ker}(\operatorname {Coker}(f)\to \operatorname {Coim}(g))]]></fr:tex> is endowed with a canonical induced filtration.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>The reader can show that:</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>678</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.11</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.11.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>1.1.11</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-      Let <fr:tex
-display="inline"><![CDATA[f\colon (A,F)\to (B,F)]]></fr:tex> be a morphism of filtered objects with finite filtrations.
-      For <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> to be strict, it is necessary and sufficient that the sequence
-      <fr:tex
-display="block"><![CDATA[         0         \to  \operatorname {Gr}(\operatorname {Ker}(f))         \to  \operatorname {Gr}(A)         \to  \operatorname {Gr}(B)         \to  \operatorname {Gr}(\operatorname {Coker}(f))         \to  0       ]]></fr:tex>
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      Let <fr:tex display="inline"><![CDATA[f\colon (A,F)\to (B,F)]]></fr:tex> be a morphism of filtered objects with finite filtrations.
+      For <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be strict, it is necessary and sufficient that the sequence
+      <fr:tex display="block"><![CDATA[         0         \to  \operatorname {Gr}(\operatorname {Ker}(f))         \to  \operatorname {Gr}(A)         \to  \operatorname {Gr}(B)         \to  \operatorname {Gr}(\operatorname {Coker}(f))         \to  0       ]]></fr:tex>
       be exact.
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-      Let <fr:tex
-display="inline"><![CDATA[\sigma \colon (A,F)\to (B,F)\to (C,F)]]></fr:tex> be a **!!<fr:strong><fr:em>TO-DO: o-suite</fr:em></fr:strong>?!!** sequence of strict morphisms.
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      Let <fr:tex display="inline"><![CDATA[\sigma \colon (A,F)\to (B,F)\to (C,F)]]></fr:tex> be a **!!<fr:strong><fr:em>TO-DO: o-suite</fr:em></fr:strong>?!!** sequence of strict morphisms.
       We then have
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}(\operatorname {Gr}(\Sigma ))         \cong  \operatorname {Gr}(\operatorname {H}(\Sigma ))       ]]></fr:tex>
+      <fr:tex display="block"><![CDATA[         \operatorname {H}(\operatorname {Gr}(\Sigma ))         \cong  \operatorname {Gr}(\operatorname {H}(\Sigma ))       ]]></fr:tex>
       canonically.
-      In particular, if <fr:tex
-display="inline"><![CDATA[\Sigma ]]></fr:tex> is exact in <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}(\Sigma )]]></fr:tex> is exact in <fr:tex
-display="inline"><![CDATA[\mathscr {A}^\mathbb {Z}]]></fr:tex>.
+      In particular, if <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is exact in <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\operatorname {Gr}(\Sigma )]]></fr:tex> is exact in <fr:tex display="inline"><![CDATA[\mathscr {A}^\mathbb {Z}]]></fr:tex>.
     </html:li>
 
   </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>In a category of modules, to say that a morphism <fr:tex
-display="inline"><![CDATA[f\colon (A,F)\to (B,F)]]></fr:tex> is strict implies that every <fr:tex
-display="inline"><![CDATA[b\in  B]]></fr:tex> of filtration <fr:tex
-display="inline"><![CDATA[\geqslant  n]]></fr:tex> (i.e. <fr:tex
-display="inline"><![CDATA[b\in  F^n(B)]]></fr:tex>) that is in the image of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is already in the image of <fr:tex
-display="inline"><![CDATA[F^n(A)]]></fr:tex>:
-  <fr:tex
-display="block"><![CDATA[     f(F^n(A))     = f(A)\cap  F^n(B).   ]]></fr:tex></fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>677</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.1.12</fr:addr><fr:route>hodge-theory-ii-1.1.12.xml</fr:route><fr:authors /><fr:number>1.1.12</fr:number><fr:parent>hodge-theory-ii-1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[\otimes \colon \mathscr {A}_1\times \ldots \times \mathscr {A}_n\to \mathscr {B}]]></fr:tex> is a multiadditive right-exact functor, and if <fr:tex
-display="inline"><![CDATA[A_i]]></fr:tex> is an object of finite filtration of <fr:tex
-display="inline"><![CDATA[\mathscr {A}_i]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[1\leqslant  i\leqslant  n]]></fr:tex>), then we define a filtration on <fr:tex
-display="inline"><![CDATA[\bigotimes _{i=1}^n A_i]]></fr:tex> by
-    <fr:tex
-display="block"><![CDATA[       F^k(\bigotimes _{i=1}^n A_i)       = \sum _{\sum  k_i=k} \operatorname {Im}(\bigotimes _{i=1}^n F^{k_i}(A_i)\to \bigotimes _{i=1}^n A_i)     ]]></fr:tex>
-    (a sum of sub-objects).</fr:p><fr:p>Dually, if <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is left-exact, then we set
-    <fr:tex
-display="block"><![CDATA[       F^k(H(A_i))       = \bigcap _{\sum  k_i=k} \operatorname {Ker}(H(A_i)\to  H(A_i/F^{k_i}(A_i))).     ]]></fr:tex></fr:p><fr:p>If <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is exact, then the two definitions are equivalent.</fr:p><fr:p>We extend these definitions to contravariant functors in certain variables by <fr:ref
-addr="hodge-theory-ii-1.1.6"
-href="hodge-theory-ii-1.1.6.xml"
-number="1.1.6" />.
-    In particular, for the left-exact functor <fr:tex
-display="inline"><![CDATA[\operatorname {Hom}]]></fr:tex>, we set
-    <fr:tex
-display="block"><![CDATA[       F^k(\operatorname {Hom}(A,B))       = \{f\colon  A\to  B \mid  f(F^n(A))\subset  F^{n+k}(B)\,\,\forall  n\}.     ]]></fr:tex>
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>In a category of modules, to say that a morphism <fr:tex display="inline"><![CDATA[f\colon (A,F)\to (B,F)]]></fr:tex> is strict implies that every <fr:tex display="inline"><![CDATA[b\in  B]]></fr:tex> of filtration <fr:tex display="inline"><![CDATA[\geqslant  n]]></fr:tex> (i.e. <fr:tex display="inline"><![CDATA[b\in  F^n(B)]]></fr:tex>) that is in the image of <fr:tex display="inline"><![CDATA[A]]></fr:tex> is already in the image of <fr:tex display="inline"><![CDATA[F^n(A)]]></fr:tex>:
+  <fr:tex display="block"><![CDATA[     f(F^n(A))     = f(A)\cap  F^n(B).   ]]></fr:tex></fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>682</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.1.12</fr:addr>
+                <fr:route>hodge-theory-ii-1.1.12.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.1.12</fr:number>
+                <fr:parent>hodge-theory-ii-1.1</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>If <fr:tex display="inline"><![CDATA[\otimes \colon \mathscr {A}_1\times \ldots \times \mathscr {A}_n\to \mathscr {B}]]></fr:tex> is a multiadditive right-exact functor, and if <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> is an object of finite filtration of <fr:tex display="inline"><![CDATA[\mathscr {A}_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[1\leqslant  i\leqslant  n]]></fr:tex>), then we define a filtration on <fr:tex display="inline"><![CDATA[\bigotimes _{i=1}^n A_i]]></fr:tex> by
+    <fr:tex display="block"><![CDATA[       F^k(\bigotimes _{i=1}^n A_i)       = \sum _{\sum  k_i=k} \operatorname {Im}(\bigotimes _{i=1}^n F^{k_i}(A_i)\to \bigotimes _{i=1}^n A_i)     ]]></fr:tex>
+    (a sum of sub-objects).</fr:p>
+                <fr:p>Dually, if <fr:tex display="inline"><![CDATA[H]]></fr:tex> is left-exact, then we set
+    <fr:tex display="block"><![CDATA[       F^k(H(A_i))       = \bigcap _{\sum  k_i=k} \operatorname {Ker}(H(A_i)\to  H(A_i/F^{k_i}(A_i))).     ]]></fr:tex></fr:p>
+                <fr:p>If <fr:tex display="inline"><![CDATA[H]]></fr:tex> is exact, then the two definitions are equivalent.</fr:p>
+                <fr:p>We extend these definitions to contravariant functors in certain variables by <fr:ref addr="hodge-theory-ii-1.1.6" href="hodge-theory-ii-1.1.6.xml" number="1.1.6" />.
+    In particular, for the left-exact functor <fr:tex display="inline"><![CDATA[\operatorname {Hom}]]></fr:tex>, we set
+    <fr:tex display="block"><![CDATA[       F^k(\operatorname {Hom}(A,B))       = \{f\colon  A\to  B \mid  f(F^n(A))\subset  F^{n+k}(B)\,\,\forall  n\}.     ]]></fr:tex>
     We thus have
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Hom}((A,F),(B,F))       = F^0(\operatorname {Hom}(A,B)).     ]]></fr:tex>
+    <fr:tex display="block"><![CDATA[       \operatorname {Hom}((A,F),(B,F))       = F^0(\operatorname {Hom}(A,B)).     ]]></fr:tex>
 
     Under the above hypotheses, we have obvious morphisms
-    <fr:tex
-display="block"><![CDATA[       \begin {aligned}         \bigotimes _{i=1}^n \operatorname {Gr}(A_i)         &\to  \operatorname {Gr}(\bigotimes _{i=1}^n A_i)       \\\operatorname {Gr} H(A_i)         &\to  H(\operatorname {Gr}(A_i)).       \end {aligned}     ]]></fr:tex>
-    If <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is exact, then these are isomorphisms and inverse to one another.</fr:p><fr:p>These constructions are compatible with composition of functors, in a sense whose details we leave to the reader.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>720</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.13</fr:addr><fr:route>hodge-theory-ii-1.2.13.xml</fr:route><fr:authors /><fr:number>1.2.13</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be an object of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> endowed with a finite <fr:em>increasing</fr:em> filtration <fr:tex
-display="inline"><![CDATA[W_\bullet ]]></fr:tex>, and two finite decreasing filtrations <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {F}]]></fr:tex>.
-    The construction <fr:ref
-addr="hodge-theory-ii-1.1.3"
-href="hodge-theory-ii-1.1.3.xml"
-number="1.1.3" /> associates to <fr:tex
-display="inline"><![CDATA[W_\bullet ]]></fr:tex> a decreasing filtration <fr:tex
-display="inline"><![CDATA[W^\bullet ]]></fr:tex>.
-    We say that the filtrations <fr:tex
-display="inline"><![CDATA[W_\bullet ]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\bar {F}]]></fr:tex> are <fr:em>opposite</fr:em> if the filtrations <fr:tex
-display="inline"><![CDATA[W^\bullet ]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\bar {F}]]></fr:tex> are, i.e. if, for all <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, the filtrations induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {F}]]></fr:tex> on
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Gr}_n^W(A)       = W_n(A)/W_{n-1}(A)     ]]></fr:tex>
-    are <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-opposite.</fr:p><fr:p><fr:ref
-addr="hodge-theory-ii-1.2.10"
-href="hodge-theory-ii-1.2.10.xml"
-taxon="Theorem"
-number="1.2.10" /> translates trivially to this variation.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>721</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.1.8</fr:addr><fr:route>hodge-theory-ii-3.1.8.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:authors /><fr:number>3.1.8</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The morphisms of filtered complexes
-    <fr:tex
-display="block"><![CDATA[       (\Omega _X^\bullet \langle  Y\rangle , W)       \xleftarrow {\alpha } (\Omega _X^\bullet \langle  Y\rangle , \tau )       \xhookrightarrow {\beta } (j_*\Omega _{X^*}^\bullet , \tau )     ]]></fr:tex>
+    <fr:tex display="block"><![CDATA[       \begin {aligned}         \bigotimes _{i=1}^n \operatorname {Gr}(A_i)         &\to  \operatorname {Gr}(\bigotimes _{i=1}^n A_i)       \\\operatorname {Gr} H(A_i)         &\to  H(\operatorname {Gr}(A_i)).       \end {aligned}     ]]></fr:tex>
+    If <fr:tex display="inline"><![CDATA[H]]></fr:tex> is exact, then these are isomorphisms and inverse to one another.</fr:p>
+                <fr:p>These constructions are compatible with composition of functors, in a sense whose details we leave to the reader.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>725</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.2.13</fr:addr>
+            <fr:route>hodge-theory-ii-1.2.13.xml</fr:route>
+            <fr:authors />
+            <fr:number>1.2.13</fr:number>
+            <fr:parent>hodge-theory-ii-1.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be an object of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> endowed with a finite <fr:em>increasing</fr:em> filtration <fr:tex display="inline"><![CDATA[W_\bullet ]]></fr:tex>, and two finite decreasing filtrations <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex>.
+    The construction <fr:ref addr="hodge-theory-ii-1.1.3" href="hodge-theory-ii-1.1.3.xml" number="1.1.3" /> associates to <fr:tex display="inline"><![CDATA[W_\bullet ]]></fr:tex> a decreasing filtration <fr:tex display="inline"><![CDATA[W^\bullet ]]></fr:tex>.
+    We say that the filtrations <fr:tex display="inline"><![CDATA[W_\bullet ]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> are <fr:em>opposite</fr:em> if the filtrations <fr:tex display="inline"><![CDATA[W^\bullet ]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> are, i.e. if, for all <fr:tex display="inline"><![CDATA[n]]></fr:tex>, the filtrations induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> on
+    <fr:tex display="block"><![CDATA[       \operatorname {Gr}_n^W(A)       = W_n(A)/W_{n-1}(A)     ]]></fr:tex>
+    are <fr:tex display="inline"><![CDATA[n]]></fr:tex>-opposite.</fr:p>
+            <fr:p><fr:ref addr="hodge-theory-ii-1.2.10" href="hodge-theory-ii-1.2.10.xml" taxon="Theorem" number="1.2.10" /> translates trivially to this variation.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>726</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.1.8</fr:addr>
+            <fr:route>hodge-theory-ii-3.1.8.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
+            <fr:authors />
+            <fr:number>3.1.8</fr:number>
+            <fr:parent>hodge-theory-ii-3.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The morphisms of filtered complexes
+    <fr:tex display="block"><![CDATA[       (\Omega _X^\bullet \langle  Y\rangle , W)       \xleftarrow {\alpha } (\Omega _X^\bullet \langle  Y\rangle , \tau )       \xhookrightarrow {\beta } (j_*\Omega _{X^*}^\bullet , \tau )     ]]></fr:tex>
     are filtered quasi-isomorphisms.
-    They define an isomorphism between the Leray spectral sequence for <fr:tex
-display="inline"><![CDATA[j]]></fr:tex> in complex cohomology and the hypercohomology spectral sequence of the filtered complex <fr:tex
-display="inline"><![CDATA[(\Omega _X^\bullet \langle  Y\rangle , W)]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+    They define an isomorphism between the Leray spectral sequence for <fr:tex display="inline"><![CDATA[j]]></fr:tex> in complex cohomology and the hypercohomology spectral sequence of the filtered complex <fr:tex display="inline"><![CDATA[(\Omega _X^\bullet \langle  Y\rangle , W)]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>By <fr:ref
-addr="hodge-theory-ii-1.4.5"
-href="hodge-theory-ii-1.4.5.xml"
-number="1.4.5" /> and <fr:ref
-addr="hodge-theory-ii-3.1.7"
-href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7" />, it suffices to prove the first claim.
-      In [<fr:link
-type="local"
-href="D1970.xml"
-addr="D1970"
-title="Equations différentielles à points singuliers réguliers">D1970</fr:link>, II, (6.9)] or [<fr:link
-type="local"
-href="AH1955.xml"
-addr="AH1955"
-title="Integrals of the second kind on an algebraic variety">AH1955</fr:link>], one can find a proof of the fact that <fr:tex
-display="inline"><![CDATA[\beta ]]></fr:tex> is a quasi-isomorphism, and thus a filtered quasi-isomorphism.
-      We can also directly calculate the cohomology sheaves of the two sides: those of <fr:tex
-display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex> are determined by <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2" />, while those of <fr:tex
-display="inline"><![CDATA[j_*\Omega _{X^*}^\bullet ]]></fr:tex> are the <fr:tex
-display="inline"><![CDATA[\mathrm {R}^ij_*\mathbb {C}]]></fr:tex>, which can be calculated by topological methods.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:addr type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>By <fr:ref addr="hodge-theory-ii-1.4.5" href="hodge-theory-ii-1.4.5.xml" number="1.4.5" /> and <fr:ref addr="hodge-theory-ii-3.1.7" href="hodge-theory-ii-3.1.7.xml" number="3.1.7" />, it suffices to prove the first claim.
+      In [<fr:link type="local" href="D1970.xml" addr="D1970" title="Equations différentielles à points singuliers réguliers">D1970</fr:link>, II, (6.9)] or [<fr:link type="local" href="AH1955.xml" addr="AH1955" title="Integrals of the second kind on an algebraic variety">AH1955</fr:link>], one can find a proof of the fact that <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> is a quasi-isomorphism, and thus a filtered quasi-isomorphism.
+      We can also directly calculate the cohomology sheaves of the two sides: those of <fr:tex display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex> are determined by <fr:ref addr="hodge-theory-ii-3.1.5.2" href="hodge-theory-ii-3.1.5.2.xml" taxon="Equation" number="3.1.5.2" />, while those of <fr:tex display="inline"><![CDATA[j_*\Omega _{X^*}^\bullet ]]></fr:tex> are the <fr:tex display="inline"><![CDATA[\mathrm {R}^ij_*\mathbb {C}]]></fr:tex>, which can be calculated by topological methods.</fr:p>
 
-    <fr:p>For <fr:tex
-display="inline"><![CDATA[n\geqslant  p]]></fr:tex>, we have
-      <fr:tex
-display="block"><![CDATA[         W_n(\Omega _X^p\langle  Y\rangle )         = \Omega _X^p\langle  Y\rangle        ]]></fr:tex>
-      and so <fr:tex
-display="inline"><![CDATA[\alpha ]]></fr:tex> is a morphism from <fr:tex
-display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex>, endowed with <fr:tex
-display="inline"><![CDATA[\tau ]]></fr:tex>, to <fr:tex
-display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex>, endowed with the decreasing filtration associated to <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.1.3"
-href="hodge-theory-ii-1.1.3.xml"
-number="1.1.3" />).
-      By <fr:ref
-addr="hodge-theory-ii-3.1.5.2"
-href="hodge-theory-ii-3.1.5.2.xml"
-taxon="Equation"
-number="3.1.5.2" />, we have
+    <fr:p>For <fr:tex display="inline"><![CDATA[n\geqslant  p]]></fr:tex>, we have
+      <fr:tex display="block"><![CDATA[         W_n(\Omega _X^p\langle  Y\rangle )         = \Omega _X^p\langle  Y\rangle        ]]></fr:tex>
+      and so <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is a morphism from <fr:tex display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex>, endowed with <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex>, to <fr:tex display="inline"><![CDATA[\Omega _X^\bullet \langle  Y\rangle ]]></fr:tex>, endowed with the decreasing filtration associated to <fr:tex display="inline"><![CDATA[W]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.1.3" href="hodge-theory-ii-1.1.3.xml" number="1.1.3" />).
+      By <fr:ref addr="hodge-theory-ii-3.1.5.2" href="hodge-theory-ii-3.1.5.2.xml" taxon="Equation" number="3.1.5.2" />, we have
 
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>303</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.1.8.1</fr:addr><fr:route>hodge-theory-ii-3.1.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.8.1</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \operatorname {\mathscr {H}}^i(\operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )) =           \begin {cases}             0 &\text {for }i\neq  n           \\\varepsilon _X^n &\text {for }i=n           \end {cases}         \tag{3.1.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:addr type="user">hodge-theory-ii-3.1.8.1</fr:addr><fr:route>hodge-theory-ii-3.1.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.8.1</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {\mathscr {H}}^i(\operatorname {Gr}_n^W(\Omega _X^\bullet \langle  Y\rangle )) =           \begin {cases}             0 &\text {for }i\neq  n           \\\varepsilon _X^n &\text {for }i=n           \end {cases}         \tag{3.1.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-      and we deduce from the first line of this equation that <fr:tex
-display="inline"><![CDATA[\alpha ]]></fr:tex> is a filtered quasi-isomorphism.
-      This proves <fr:ref
-addr="hodge-theory-ii-3.1.8"
-href="hodge-theory-ii-3.1.8.xml"
-taxon="Proposition"
-number="3.1.8" />.</fr:p>
+      and we deduce from the first line of this equation that <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is a filtered quasi-isomorphism.
+      This proves <fr:ref addr="hodge-theory-ii-3.1.8" href="hodge-theory-ii-3.1.8.xml" taxon="Proposition" number="3.1.8" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-<fr:p>By <fr:ref
-addr="hodge-theory-ii-3.1.7"
-href="hodge-theory-ii-3.1.7.xml"
-number="3.1.7" />, the isomorphism <fr:ref
-addr="hodge-theory-ii-3.1.8.1"
-href="hodge-theory-ii-3.1.8.1.xml"
-taxon="Equation"
-number="3.1.8.1" /> defines an isomorphism
+<fr:p>By <fr:ref addr="hodge-theory-ii-3.1.7" href="hodge-theory-ii-3.1.7.xml" number="3.1.7" />, the isomorphism <fr:ref addr="hodge-theory-ii-3.1.8.1" href="hodge-theory-ii-3.1.8.1.xml" taxon="Equation" number="3.1.8.1" /> defines an isomorphism
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.1.8.2</fr:addr><fr:route>hodge-theory-ii-3.1.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.8.2</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \mathrm {R}^n j_*\mathbb {C}         \simeq  \operatorname {\mathscr {H}}^n(j_*\Omega _{X^*}^\bullet )         \simeq  \operatorname {\mathscr {H}}^n(\Omega _X^\bullet \langle  Y\rangle )         \simeq  \varepsilon _X^n.       \tag{3.1.8.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:addr type="user">hodge-theory-ii-3.1.8.2</fr:addr><fr:route>hodge-theory-ii-3.1.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.8.2</fr:number><fr:parent>hodge-theory-ii-3.1.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \mathrm {R}^n j_*\mathbb {C}         \simeq  \operatorname {\mathscr {H}}^n(j_*\Omega _{X^*}^\bullet )         \simeq  \operatorname {\mathscr {H}}^n(\Omega _X^\bullet \langle  Y\rangle )         \simeq  \varepsilon _X^n.       \tag{3.1.8.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    The isomorphisms <fr:ref
-addr="hodge-theory-ii-3.1.4.1"
-href="hodge-theory-ii-3.1.4.1.xml"
-taxon="Equation"
-number="3.1.4.1" /> correspond, via <fr:ref
-addr="hodge-theory-ii-3.1.8.1"
-href="hodge-theory-ii-3.1.8.1.xml"
-taxon="Equation"
-number="3.1.8.1" />, to the cup product.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    The isomorphisms <fr:ref addr="hodge-theory-ii-3.1.4.1" href="hodge-theory-ii-3.1.4.1.xml" taxon="Equation" number="3.1.4.1" /> correspond, via <fr:ref addr="hodge-theory-ii-3.1.8.1" href="hodge-theory-ii-3.1.8.1.xml" taxon="Equation" number="3.1.8.1" />, to the cup product.</fr:p></fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

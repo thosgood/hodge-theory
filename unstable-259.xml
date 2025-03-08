@@ -1,483 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2931</fr:anchor><fr:addr
-type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The algebra <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is the commutator of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[(H_\mathbb {Q})_s]]></fr:tex>.
-      Its semi-simplicity thus follows from <fr:ref
-addr="hodge-theory-ii-4.2.6"
-href="hodge-theory-ii-4.2.6.xml"
-taxon="Theorem"
-number="4.2.6" /> and from Bourbaki, <fr:em>Algèbre commutative</fr:em>, Chapter 8, §5.2, Proposition 4.
-      The algebra <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is also the fibre of the largest constant local subsystem of <fr:tex
-display="inline"><![CDATA[\underline {\operatorname {Hom}}(H_\mathbb {Q},H_\mathbb {Q})]]></fr:tex>.
-      Since <fr:tex
-display="inline"><![CDATA[\underline {\operatorname {Hom}}(H,H)\in \mathbb {C}]]></fr:tex> (by (ii) of <fr:ref
-addr="hodge-theory-ii-4.2.3"
-href="hodge-theory-ii-4.2.3.xml"
-taxon="Lemma"
-number="4.2.3" />), the existence of the Hodge structure in (i) follows from the hypotheses (<fr:ref
-addr="hodge-theory-ii-4.2.2.4"
-href="hodge-theory-ii-4.2.2.4.xml"
-taxon="Condition"
-number="4.2.2.4" />).
-      It is clear that the composition law is a morphism of Hodge structures.
-      It thus follows that the centre <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is a Hodge substructure: <fr:tex
-display="inline"><![CDATA[Z_\mathbb {C}]]></fr:tex> is bigraded, as the intersection of kernels of bihomogeneous morphisms <fr:tex
-display="inline"><![CDATA[[x,-]]]></fr:tex>, for <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> bihomogeneous.
-      Finally, <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex>, and thus <fr:tex
-display="inline"><![CDATA[Z_\mathbb {C}]]></fr:tex>, is semi-simple, and, for <fr:tex
-display="inline"><![CDATA[(p,q)\neq (0,0)]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[Z^{pq}]]></fr:tex> is zero and thus nilpotent.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3060</fr:anchor>
+    <fr:addr type="machine">#259</fr:addr>
+    <fr:route>unstable-259.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>hodge-theory-ii-4.3.1</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Here is the proof.
+      As in <fr:em>loc. cit.</fr:em>, we can reduce to the case where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is bihomogeneous, with bidegree <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex>.
+      Since the spectral sequence of the double complex <fr:tex display="inline"><![CDATA[\operatorname {H}^0(X,\Omega ^{pq})]]></fr:tex> degenerates, the exterior differential <fr:tex display="inline"><![CDATA[d]]></fr:tex> is strictly compatible with the filtration by the first degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).
+      If <fr:tex display="inline"><![CDATA[a\sim 0]]></fr:tex>, then there thus exists a form <fr:tex display="inline"><![CDATA[\beta _1]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta _1=\alpha ]]></fr:tex> and such that the components <fr:tex display="inline"><![CDATA[\beta _1^{p'q'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\beta _1]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[p'<p]]></fr:tex>.</fr:p>
 
-    <fr:p>A complex local subsystem <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H_\mathbb {C}]]></fr:tex> is defined by a projector <fr:tex
-display="inline"><![CDATA[e]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A_\mathbb {C}]]></fr:tex>.
-      For <fr:tex
-display="inline"><![CDATA[t\in  S]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[tW^\mathrm {c}]]></fr:tex> is defined by the projector <fr:tex
-display="inline"><![CDATA[t\cdot  e]]></fr:tex>, and is thus locally constant.
-      Since the group <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is connected, to show that <fr:tex
-display="inline"><![CDATA[tW]]></fr:tex> is isomorphic to <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>, it suffices to show that, for <fr:tex
-display="inline"><![CDATA[t]]></fr:tex> in a small enough neighbourhood of <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, the <fr:tex
-display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex> module <fr:tex
-display="inline"><![CDATA[tW_s]]></fr:tex> is isomorphic to <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[H_i]]></fr:tex> be the isotypic components of the <fr:tex
-display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-module <fr:tex
-display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex>.
-      We have
-      <fr:tex
-display="block"><![CDATA[         \begin {aligned}           W_s           &= \bigoplus _i(W_s\cap  H_i)         \\tW_s           &= \bigoplus _i(tW_s\cap  H_i).         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:p>By complex conjugation, there similarly exists <fr:tex display="inline"><![CDATA[\beta _2]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta _2=\alpha ]]></fr:tex> and such that the components <fr:tex display="inline"><![CDATA[\beta _2^{p'q'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\beta _2]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[q'<q]]></fr:tex>.
+      We have <fr:tex display="inline"><![CDATA[\mathrm {d}(\beta _1-\beta _2)=0]]></fr:tex>.</fr:p>
 
-    <fr:p>Furthermore, for <fr:tex
-display="inline"><![CDATA[t]]></fr:tex> close enough to <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[tW_s]]></fr:tex> is close to <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> in the Grassmannian, and thus
-
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1298</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.2.8.1</fr:addr><fr:route>hodge-theory-ii-4.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.2.8.1</fr:number><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \dim (tW_s\cap  H_i)           \leqslant  \dim (W_s\cap  H_i).         \tag{4.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-      In fact, since <fr:tex
-display="inline"><![CDATA[\dim (tW_s)=\dim (W_s)]]></fr:tex>, we have equality in <fr:ref
-addr="hodge-theory-ii-4.2.8.1"
-href="hodge-theory-ii-4.2.8.1.xml"
-taxon="Equation"
-number="4.2.8.1" />.
-      The various isotypic components of <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[tW_s]]></fr:tex> thus have, respectively, the same length, and <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> is isomorphic to <fr:tex
-display="inline"><![CDATA[tW_s]]></fr:tex>.</fr:p>
-
-    <fr:p>We now prove (iii.b).
-      It suffices to consider the case where <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is homogeneous and <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> is a simple <fr:tex
-display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-module.
-      Let <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> be the isotypic component of <fr:tex
-display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex> that contains <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex>.
-      By (a), <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> is stable under <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-      If <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> is of dimension <fr:tex
-display="inline"><![CDATA[d]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> of length <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>, then
-      <fr:tex
-display="block"><![CDATA[         \bigwedge ^{kd}H_1         \approx  \left (\bigwedge ^d W_s\right )^{\otimes  k}       ]]></fr:tex>
-      as <fr:tex
-display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-modules.
-      If <fr:tex
-display="inline"><![CDATA[\chi ]]></fr:tex> is the character of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> defined by <fr:tex
-display="inline"><![CDATA[\wedge ^d W]]></fr:tex>, then the character <fr:tex
-display="inline"><![CDATA[\chi _1]]></fr:tex> defined by <fr:tex
-display="inline"><![CDATA[\wedge ^{kd}H_1]]></fr:tex> is thus <fr:tex
-display="inline"><![CDATA[\chi ^k]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[H_2=H_1+\bar {H}_1]]></fr:tex>.
-      Since <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> is stable under <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[H_2]]></fr:tex> is defined by a real Hodge substructure of <fr:tex
-display="inline"><![CDATA[(H_\mathbb {R})_s]]></fr:tex>.
-      Every polarisation form on <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> thus induces on <fr:tex
-display="inline"><![CDATA[H_2]]></fr:tex> a non-degenerate bilinear form that is <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>-invariant.
-      
-      If <fr:tex
-display="inline"><![CDATA[\dim (H_2)=e]]></fr:tex>, then the representation <fr:tex
-display="inline"><![CDATA[(\wedge ^e H_2)^{\otimes 2}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is thus trivial.
-      From this:
-
-      
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-        
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-          For real <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\chi ^{2k}]]></fr:tex> is trivial.
-        </html:li>
-
-        
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-          For non-real <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> (so <fr:tex
-display="inline"><![CDATA[H_1\neq \bar {H}_1]]></fr:tex>), <fr:tex
-display="inline"><![CDATA[\chi ^{2k}\cdot \bar {\chi }^{2k}]]></fr:tex> is trivial.
-        </html:li>
-
-      </html:ol></fr:p>
-
-    <fr:p>In both cases, <fr:tex
-display="inline"><![CDATA[|\chi |=1]]></fr:tex>.</fr:p>
-
-    <fr:p>The representation of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex> comes from extension of scalars of a representation defined over <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> (namely <fr:tex
-display="inline"><![CDATA[(H_\mathbb {Q})_s]]></fr:tex>).
-      The conjugate representations of <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> thus appear in <fr:tex
-display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex>;
-      there are at most <fr:tex
-display="inline"><![CDATA[N=\dim (H)]]></fr:tex> of them, and for every automorphism <fr:tex
-display="inline"><![CDATA[\sigma ]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex> we have
-      <fr:tex
-display="block"><![CDATA[         |\sigma (\chi )|         = 1.       ]]></fr:tex></fr:p>
-
-    <fr:p>For <fr:tex
-display="inline"><![CDATA[\gamma \in \pi _1(S,s)]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\chi (\gamma )]]></fr:tex> is an algebraic integer with at most <fr:tex
-display="inline"><![CDATA[N]]></fr:tex> complex conjugates, and these are all of absolute value <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>;
-      thus <fr:tex
-display="inline"><![CDATA[\chi (\gamma )]]></fr:tex> is a <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-th root of unity, with <fr:tex
-display="inline"><![CDATA[k\leqslant  N]]></fr:tex>.
-      Thus <fr:tex
-display="inline"><![CDATA[\chi ^{N!}=1]]></fr:tex>, which proves (b).</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2932</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.2.8</fr:addr><fr:route>hodge-theory-ii-4.2.8.xml</fr:route><fr:taxon>Corollary</fr:taxon><fr:authors /><fr:number>4.2.8</fr:number><fr:parent>hodge-theory-ii-4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the hypotheses of <fr:ref
-addr="hodge-theory-ii-4.2.6"
-href="hodge-theory-ii-4.2.6.xml"
-taxon="Theorem"
-number="4.2.6" />:</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-    
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-      The algebra <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> of endomorphisms of the local system <fr:tex
-display="inline"><![CDATA[H_\mathbb {Q}]]></fr:tex> is semi-simple.
-      It admits exactly one Hodge <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structure such that, at each point <fr:tex
-display="inline"><![CDATA[s]]></fr:tex>, the map <fr:tex
-display="inline"><![CDATA[A\otimes  H_s\to  H_s]]></fr:tex> is a morphism of Hodge structures.
-    </html:li>
-
+    <fr:p>Let <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> be a form satisfying <fr:tex display="inline"><![CDATA[\mathrm {d}'\gamma =\mathrm {d}''\gamma =0]]></fr:tex> in the cohomology class of <fr:tex display="inline"><![CDATA[\beta _1-\beta _2]]></fr:tex> (<fr:em>loc. cit.</fr:em>).
+      Let <fr:tex display="inline"><![CDATA[\gamma _1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\gamma _2]]></fr:tex>) be the sum of the components of <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p',q')]]></fr:tex> for <fr:tex display="inline"><![CDATA[p'\geqslant  p]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[q'\geqslant  q]]></fr:tex>).
+      If we set <fr:tex display="inline"><![CDATA[\beta '_1=\beta _1-\gamma _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta '_2=\beta _2+\gamma _2]]></fr:tex>, then we still have that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta '_1=\mathrm {d}\beta '_2=\alpha ]]></fr:tex>;
+      furthermore, <fr:tex display="inline"><![CDATA[\beta '_1-\beta '_2=\beta _1-\beta _2-\gamma ]]></fr:tex> is cohomologous to zero: there exists <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> such that
+      <fr:tex display="block"><![CDATA[         \mathrm {d}\delta          = \beta '_1 - \beta '_2.       ]]></fr:tex>
+      Let <fr:tex display="inline"><![CDATA[\delta _1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\delta _2]]></fr:tex>) be the sum of the components of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p',q')]]></fr:tex> for <fr:tex display="inline"><![CDATA[p'<p-1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[q'>q-1]]></fr:tex>);
+      let <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> be the component of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p-1,q-1)]]></fr:tex>.</fr:p>
 
     
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-      
-      The centre of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is of degree <fr:tex
-display="inline"><![CDATA[(0,0)]]></fr:tex>, and the composition law <fr:tex
-display="inline"><![CDATA[\cdot \colon  A\otimes  A\to  A]]></fr:tex> is a morphism of Hodge structures.
-    </html:li>
+  <fr:embedded-tex hash="c44701bd88c293718ac244d8a74864d8"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+      \draw [->] (0,0) to (2,0) node[label={below:$p$}]{};
+      \draw [->] (0,0) to (0,2) node[label={left:$q$}]{};
+      \node [point, label={below:$\beta $}] at (1.5,1.5) {};
+      \node [point, label={right:$(p,q)$}] at (3,2.5) {};
+      \begin {scope}[shift={(2.5,0.5)}, rotate=-45]
+        \node [point, label={[rotate=-45]right:$\delta _1$}] at (0,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+      \begin {scope}[shift={(0.5,2.5)}, rotate=135]
+        \node [point, label={[rotate=-45]left:$\delta _2$}] at (0,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+      \begin {scope}[shift={(4,1)}, rotate=-45]
+        \node [point, label={[rotate=-45]right:$\beta _1,\gamma _1,\beta '_1$}] at (0,0) {};
+        \node [point] at (1.75,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+      \begin {scope}[shift={(2,3)}, rotate=135]
+        \node [point, label={[rotate=-45]left:$\beta _2,\gamma _2,\beta '_2$}] at (0,0) {};
+        \node [point] at (01.75,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex>
 
 
-    
- <html:li
-style="list-style-type: &quot;(iii) &quot;">
-      Let <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> be a complex local subsystem of dimension <fr:tex
-display="inline"><![CDATA[d]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H_\mathbb {C}]]></fr:tex>.
-      Then:
-
-      
- <html:ol>
-        
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-          For <fr:tex
-display="inline"><![CDATA[t\in  S]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[tW^\mathrm {c}\subset  H_\mathbb {C}]]></fr:tex> is locally constant, and defines a local subsystem <fr:tex
-display="inline"><![CDATA[tW]]></fr:tex> which is isomorphic to <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>.
-        </html:li>
-
-
-        
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-          A power <fr:tex
-display="inline"><![CDATA[(\wedge ^d W)^{\otimes  n}]]></fr:tex> (for some <fr:tex
-display="inline"><![CDATA[n\geqslant 1]]></fr:tex>) of the local system <fr:tex
-display="inline"><![CDATA[\wedge ^d W]]></fr:tex> is a trivial local system.
-        </html:li>
-
-      </html:ol>
-
-    </html:li>
-
-  </html:ol>
-
+    <fr:p>We have that
+      <fr:tex display="block"><![CDATA[         \beta '_2         =\mathrm {d}\delta _2 + \mathrm {d}''\beta        ]]></fr:tex>
+      and
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           \alpha            = \mathrm {d}\beta '_2           &= \mathrm {d}\mathrm {d}\delta _2 + \mathrm {d}\mathrm {d}''\beta          \\&= \mathrm {d}'\mathrm {d}''\beta .         \end {aligned}       ]]></fr:tex></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3061</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.3.1</fr:addr>
+            <fr:route>hodge-theory-ii-4.3.1.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
+            <fr:authors />
+            <fr:number>4.3.1</fr:number>
+            <fr:parent>hodge-theory-ii-4.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a smooth proper scheme over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
+    If a <fr:tex display="inline"><![CDATA[C^\infty ]]></fr:tex> form <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[\mathrm {d}'\alpha =\mathrm {d}''\alpha =0]]></fr:tex> and is cohomologous to zero, then there exists <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\alpha =\mathrm {d}'\mathrm {d}''\beta ]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1297</fr:anchor><fr:addr
-type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The algebra <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is the commutator of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[(H_\mathbb {Q})_s]]></fr:tex>.
-      Its semi-simplicity thus follows from <fr:ref
-addr="hodge-theory-ii-4.2.6"
-href="hodge-theory-ii-4.2.6.xml"
-taxon="Theorem"
-number="4.2.6" /> and from Bourbaki, <fr:em>Algèbre commutative</fr:em>, Chapter 8, §5.2, Proposition 4.
-      The algebra <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is also the fibre of the largest constant local subsystem of <fr:tex
-display="inline"><![CDATA[\underline {\operatorname {Hom}}(H_\mathbb {Q},H_\mathbb {Q})]]></fr:tex>.
-      Since <fr:tex
-display="inline"><![CDATA[\underline {\operatorname {Hom}}(H,H)\in \mathbb {C}]]></fr:tex> (by (ii) of <fr:ref
-addr="hodge-theory-ii-4.2.3"
-href="hodge-theory-ii-4.2.3.xml"
-taxon="Lemma"
-number="4.2.3" />), the existence of the Hodge structure in (i) follows from the hypotheses (<fr:ref
-addr="hodge-theory-ii-4.2.2.4"
-href="hodge-theory-ii-4.2.2.4.xml"
-taxon="Condition"
-number="4.2.2.4" />).
-      It is clear that the composition law is a morphism of Hodge structures.
-      It thus follows that the centre <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is a Hodge substructure: <fr:tex
-display="inline"><![CDATA[Z_\mathbb {C}]]></fr:tex> is bigraded, as the intersection of kernels of bihomogeneous morphisms <fr:tex
-display="inline"><![CDATA[[x,-]]]></fr:tex>, for <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> bihomogeneous.
-      Finally, <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex>, and thus <fr:tex
-display="inline"><![CDATA[Z_\mathbb {C}]]></fr:tex>, is semi-simple, and, for <fr:tex
-display="inline"><![CDATA[(p,q)\neq (0,0)]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[Z^{pq}]]></fr:tex> is zero and thus nilpotent.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>453</fr:anchor><fr:addr type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Here is the proof.
+      As in <fr:em>loc. cit.</fr:em>, we can reduce to the case where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is bihomogeneous, with bidegree <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex>.
+      Since the spectral sequence of the double complex <fr:tex display="inline"><![CDATA[\operatorname {H}^0(X,\Omega ^{pq})]]></fr:tex> degenerates, the exterior differential <fr:tex display="inline"><![CDATA[d]]></fr:tex> is strictly compatible with the filtration by the first degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).
+      If <fr:tex display="inline"><![CDATA[a\sim 0]]></fr:tex>, then there thus exists a form <fr:tex display="inline"><![CDATA[\beta _1]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta _1=\alpha ]]></fr:tex> and such that the components <fr:tex display="inline"><![CDATA[\beta _1^{p'q'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\beta _1]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[p'<p]]></fr:tex>.</fr:p>
 
-    <fr:p>A complex local subsystem <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H_\mathbb {C}]]></fr:tex> is defined by a projector <fr:tex
-display="inline"><![CDATA[e]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[A_\mathbb {C}]]></fr:tex>.
-      For <fr:tex
-display="inline"><![CDATA[t\in  S]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[tW^\mathrm {c}]]></fr:tex> is defined by the projector <fr:tex
-display="inline"><![CDATA[t\cdot  e]]></fr:tex>, and is thus locally constant.
-      Since the group <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is connected, to show that <fr:tex
-display="inline"><![CDATA[tW]]></fr:tex> is isomorphic to <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>, it suffices to show that, for <fr:tex
-display="inline"><![CDATA[t]]></fr:tex> in a small enough neighbourhood of <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, the <fr:tex
-display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex> module <fr:tex
-display="inline"><![CDATA[tW_s]]></fr:tex> is isomorphic to <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[H_i]]></fr:tex> be the isotypic components of the <fr:tex
-display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-module <fr:tex
-display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex>.
-      We have
-      <fr:tex
-display="block"><![CDATA[         \begin {aligned}           W_s           &= \bigoplus _i(W_s\cap  H_i)         \\tW_s           &= \bigoplus _i(tW_s\cap  H_i).         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:p>By complex conjugation, there similarly exists <fr:tex display="inline"><![CDATA[\beta _2]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta _2=\alpha ]]></fr:tex> and such that the components <fr:tex display="inline"><![CDATA[\beta _2^{p'q'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\beta _2]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[q'<q]]></fr:tex>.
+      We have <fr:tex display="inline"><![CDATA[\mathrm {d}(\beta _1-\beta _2)=0]]></fr:tex>.</fr:p>
 
-    <fr:p>Furthermore, for <fr:tex
-display="inline"><![CDATA[t]]></fr:tex> close enough to <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[tW_s]]></fr:tex> is close to <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> in the Grassmannian, and thus
+    <fr:p>Let <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> be a form satisfying <fr:tex display="inline"><![CDATA[\mathrm {d}'\gamma =\mathrm {d}''\gamma =0]]></fr:tex> in the cohomology class of <fr:tex display="inline"><![CDATA[\beta _1-\beta _2]]></fr:tex> (<fr:em>loc. cit.</fr:em>).
+      Let <fr:tex display="inline"><![CDATA[\gamma _1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\gamma _2]]></fr:tex>) be the sum of the components of <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p',q')]]></fr:tex> for <fr:tex display="inline"><![CDATA[p'\geqslant  p]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[q'\geqslant  q]]></fr:tex>).
+      If we set <fr:tex display="inline"><![CDATA[\beta '_1=\beta _1-\gamma _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta '_2=\beta _2+\gamma _2]]></fr:tex>, then we still have that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta '_1=\mathrm {d}\beta '_2=\alpha ]]></fr:tex>;
+      furthermore, <fr:tex display="inline"><![CDATA[\beta '_1-\beta '_2=\beta _1-\beta _2-\gamma ]]></fr:tex> is cohomologous to zero: there exists <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> such that
+      <fr:tex display="block"><![CDATA[         \mathrm {d}\delta          = \beta '_1 - \beta '_2.       ]]></fr:tex>
+      Let <fr:tex display="inline"><![CDATA[\delta _1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\delta _2]]></fr:tex>) be the sum of the components of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p',q')]]></fr:tex> for <fr:tex display="inline"><![CDATA[p'<p-1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[q'>q-1]]></fr:tex>);
+      let <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> be the component of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p-1,q-1)]]></fr:tex>.</fr:p>
 
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1298</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.2.8.1</fr:addr><fr:route>hodge-theory-ii-4.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.2.8.1</fr:number><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \dim (tW_s\cap  H_i)           \leqslant  \dim (W_s\cap  H_i).         \tag{4.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    
+  <fr:embedded-tex hash="c44701bd88c293718ac244d8a74864d8"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
+      \draw [->] (0,0) to (2,0) node[label={below:$p$}]{};
+      \draw [->] (0,0) to (0,2) node[label={left:$q$}]{};
+      \node [point, label={below:$\beta $}] at (1.5,1.5) {};
+      \node [point, label={right:$(p,q)$}] at (3,2.5) {};
+      \begin {scope}[shift={(2.5,0.5)}, rotate=-45]
+        \node [point, label={[rotate=-45]right:$\delta _1$}] at (0,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+      \begin {scope}[shift={(0.5,2.5)}, rotate=135]
+        \node [point, label={[rotate=-45]left:$\delta _2$}] at (0,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+      \begin {scope}[shift={(4,1)}, rotate=-45]
+        \node [point, label={[rotate=-45]right:$\beta _1,\gamma _1,\beta '_1$}] at (0,0) {};
+        \node [point] at (1.75,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+      \begin {scope}[shift={(2,3)}, rotate=135]
+        \node [point, label={[rotate=-45]left:$\beta _2,\gamma _2,\beta '_2$}] at (0,0) {};
+        \node [point] at (01.75,0) {};
+        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
+      \end {scope}
+    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-      In fact, since <fr:tex
-display="inline"><![CDATA[\dim (tW_s)=\dim (W_s)]]></fr:tex>, we have equality in <fr:ref
-addr="hodge-theory-ii-4.2.8.1"
-href="hodge-theory-ii-4.2.8.1.xml"
-taxon="Equation"
-number="4.2.8.1" />.
-      The various isotypic components of <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[tW_s]]></fr:tex> thus have, respectively, the same length, and <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> is isomorphic to <fr:tex
-display="inline"><![CDATA[tW_s]]></fr:tex>.</fr:p>
 
-    <fr:p>We now prove (iii.b).
-      It suffices to consider the case where <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is homogeneous and <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> is a simple <fr:tex
-display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-module.
-      Let <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> be the isotypic component of <fr:tex
-display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex> that contains <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex>.
-      By (a), <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> is stable under <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-      If <fr:tex
-display="inline"><![CDATA[W_s]]></fr:tex> is of dimension <fr:tex
-display="inline"><![CDATA[d]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> of length <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>, then
-      <fr:tex
-display="block"><![CDATA[         \bigwedge ^{kd}H_1         \approx  \left (\bigwedge ^d W_s\right )^{\otimes  k}       ]]></fr:tex>
-      as <fr:tex
-display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-modules.
-      If <fr:tex
-display="inline"><![CDATA[\chi ]]></fr:tex> is the character of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> defined by <fr:tex
-display="inline"><![CDATA[\wedge ^d W]]></fr:tex>, then the character <fr:tex
-display="inline"><![CDATA[\chi _1]]></fr:tex> defined by <fr:tex
-display="inline"><![CDATA[\wedge ^{kd}H_1]]></fr:tex> is thus <fr:tex
-display="inline"><![CDATA[\chi ^k]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[H_2=H_1+\bar {H}_1]]></fr:tex>.
-      Since <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> is stable under <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[H_2]]></fr:tex> is defined by a real Hodge substructure of <fr:tex
-display="inline"><![CDATA[(H_\mathbb {R})_s]]></fr:tex>.
-      Every polarisation form on <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> thus induces on <fr:tex
-display="inline"><![CDATA[H_2]]></fr:tex> a non-degenerate bilinear form that is <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>-invariant.
-      
-      If <fr:tex
-display="inline"><![CDATA[\dim (H_2)=e]]></fr:tex>, then the representation <fr:tex
-display="inline"><![CDATA[(\wedge ^e H_2)^{\otimes 2}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is thus trivial.
-      From this:
-
-      
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
-        
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-          For real <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\chi ^{2k}]]></fr:tex> is trivial.
-        </html:li>
-
-        
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-          For non-real <fr:tex
-display="inline"><![CDATA[H_1]]></fr:tex> (so <fr:tex
-display="inline"><![CDATA[H_1\neq \bar {H}_1]]></fr:tex>), <fr:tex
-display="inline"><![CDATA[\chi ^{2k}\cdot \bar {\chi }^{2k}]]></fr:tex> is trivial.
-        </html:li>
-
-      </html:ol></fr:p>
-
-    <fr:p>In both cases, <fr:tex
-display="inline"><![CDATA[|\chi |=1]]></fr:tex>.</fr:p>
-
-    <fr:p>The representation of <fr:tex
-display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex> comes from extension of scalars of a representation defined over <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> (namely <fr:tex
-display="inline"><![CDATA[(H_\mathbb {Q})_s]]></fr:tex>).
-      The conjugate representations of <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> thus appear in <fr:tex
-display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex>;
-      there are at most <fr:tex
-display="inline"><![CDATA[N=\dim (H)]]></fr:tex> of them, and for every automorphism <fr:tex
-display="inline"><![CDATA[\sigma ]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex> we have
-      <fr:tex
-display="block"><![CDATA[         |\sigma (\chi )|         = 1.       ]]></fr:tex></fr:p>
-
-    <fr:p>For <fr:tex
-display="inline"><![CDATA[\gamma \in \pi _1(S,s)]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\chi (\gamma )]]></fr:tex> is an algebraic integer with at most <fr:tex
-display="inline"><![CDATA[N]]></fr:tex> complex conjugates, and these are all of absolute value <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>;
-      thus <fr:tex
-display="inline"><![CDATA[\chi (\gamma )]]></fr:tex> is a <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-th root of unity, with <fr:tex
-display="inline"><![CDATA[k\leqslant  N]]></fr:tex>.
-      Thus <fr:tex
-display="inline"><![CDATA[\chi ^{N!}=1]]></fr:tex>, which proves (b).</fr:p>
+    <fr:p>We have that
+      <fr:tex display="block"><![CDATA[         \beta '_2         =\mathrm {d}\delta _2 + \mathrm {d}''\beta        ]]></fr:tex>
+      and
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           \alpha            = \mathrm {d}\beta '_2           &= \mathrm {d}\mathrm {d}\delta _2 + \mathrm {d}\mathrm {d}''\beta          \\&= \mathrm {d}'\mathrm {d}''\beta .         \end {aligned}       ]]></fr:tex></fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

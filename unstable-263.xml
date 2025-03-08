@@ -1,448 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2939</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>For <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> smooth and projective, claim (i) is proven in <fr:link
-type="local"
-href="D1968.xml"
-addr="D1968"
-title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>.
-      The proof in <fr:link
-type="local"
-href="D1968.xml"
-addr="D1968"
-title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link> is rewritten in a more readable manner in <fr:link
-type="local"
-href="G1970.xml"
-addr="G1970"
-title="Periods of integrals on algebraic manifolds, III">G1970</fr:link>;
-      it does not use the smoothness of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3068</fr:anchor>
+    <fr:addr type="machine">#263</fr:addr>
+    <fr:route>unstable-263.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>hodge-theory-ii-4.2.8</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The algebra <fr:tex display="inline"><![CDATA[A]]></fr:tex> is the commutator of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in <fr:tex display="inline"><![CDATA[(H_\mathbb {Q})_s]]></fr:tex>.
+      Its semi-simplicity thus follows from <fr:ref addr="hodge-theory-ii-4.2.6" href="hodge-theory-ii-4.2.6.xml" taxon="Theorem" number="4.2.6" /> and from Bourbaki, <fr:em>Algèbre commutative</fr:em>, Chapter 8, §5.2, Proposition 4.
+      The algebra <fr:tex display="inline"><![CDATA[A]]></fr:tex> is also the fibre of the largest constant local subsystem of <fr:tex display="inline"><![CDATA[\underline {\operatorname {Hom}}(H_\mathbb {Q},H_\mathbb {Q})]]></fr:tex>.
+      Since <fr:tex display="inline"><![CDATA[\underline {\operatorname {Hom}}(H,H)\in \mathbb {C}]]></fr:tex> (by (ii) of <fr:ref addr="hodge-theory-ii-4.2.3" href="hodge-theory-ii-4.2.3.xml" taxon="Lemma" number="4.2.3" />), the existence of the Hodge structure in (i) follows from the hypotheses (<fr:ref addr="hodge-theory-ii-4.2.2.4" href="hodge-theory-ii-4.2.2.4.xml" taxon="Condition" number="4.2.2.4" />).
+      It is clear that the composition law is a morphism of Hodge structures.
+      It thus follows that the centre <fr:tex display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a Hodge substructure: <fr:tex display="inline"><![CDATA[Z_\mathbb {C}]]></fr:tex> is bigraded, as the intersection of kernels of bihomogeneous morphisms <fr:tex display="inline"><![CDATA[[x,-]]]></fr:tex>, for <fr:tex display="inline"><![CDATA[x]]></fr:tex> bihomogeneous.
+      Finally, <fr:tex display="inline"><![CDATA[Z]]></fr:tex>, and thus <fr:tex display="inline"><![CDATA[Z_\mathbb {C}]]></fr:tex>, is semi-simple, and, for <fr:tex display="inline"><![CDATA[(p,q)\neq (0,0)]]></fr:tex>, <fr:tex display="inline"><![CDATA[Z^{pq}]]></fr:tex> is zero and thus nilpotent.</fr:p>
 
-    <fr:p>Let us fix <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>, and prove that (i)<fr:tex
-display="inline"><![CDATA[\implies ]]></fr:tex>(ii).
-      We can reduce to the case where <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is non-empty and connected.
-      If <fr:tex
-display="inline"><![CDATA[s\in  S]]></fr:tex> is a point, then the local system <fr:tex
-display="inline"><![CDATA[\mathrm {R}^nf_*\mathbb {Q}]]></fr:tex> is entirely described by its fibre <fr:tex
-display="inline"><![CDATA[(\mathrm {R}^nf_*\mathbb {Q})_s]]></fr:tex> at <fr:tex
-display="inline"><![CDATA[s]]></fr:tex> and the action of the fundamental group <fr:tex
-display="inline"><![CDATA[\pi =\pi _1(S,s)]]></fr:tex> on this fibre.
+    <fr:p>A complex local subsystem <fr:tex display="inline"><![CDATA[W]]></fr:tex> of <fr:tex display="inline"><![CDATA[H_\mathbb {C}]]></fr:tex> is defined by a projector <fr:tex display="inline"><![CDATA[e]]></fr:tex> of <fr:tex display="inline"><![CDATA[A_\mathbb {C}]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[t\in  S]]></fr:tex>, <fr:tex display="inline"><![CDATA[tW^\mathrm {c}]]></fr:tex> is defined by the projector <fr:tex display="inline"><![CDATA[t\cdot  e]]></fr:tex>, and is thus locally constant.
+      Since the group <fr:tex display="inline"><![CDATA[S]]></fr:tex> is connected, to show that <fr:tex display="inline"><![CDATA[tW]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[W]]></fr:tex>, it suffices to show that, for <fr:tex display="inline"><![CDATA[t]]></fr:tex> in a small enough neighbourhood of <fr:tex display="inline"><![CDATA[1]]></fr:tex>, the <fr:tex display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex> module <fr:tex display="inline"><![CDATA[tW_s]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[W_s]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[H_i]]></fr:tex> be the isotypic components of the <fr:tex display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-module <fr:tex display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex>.
       We have
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } [(\mathrm {R}^n f_*\mathbb {Q})_s]^\pi .       ]]></fr:tex>
-      If <fr:tex
-display="inline"><![CDATA[X_s=f^{-1}(s)]]></fr:tex>, then the composite arrow
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \to  (\mathrm {R}^n f_*\mathbb {Q})         \approx  \operatorname {H}^n(X_s,\mathbb {Q})       ]]></fr:tex>
-      is thus injective.
-      Consider the arrows
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^n(\bar {X},\mathbb {Q})         \xrightarrow {a} \operatorname {H}^n(X,\mathbb {Q})         \xrightarrow {b} \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xhookrightarrow {c} \operatorname {H}^n(X_s,\mathbb {Q}).       ]]></fr:tex>
-      The arrows <fr:tex
-display="inline"><![CDATA[cb]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[cba]]></fr:tex> have the same image, by <fr:ref
-addr="hodge-theory-ii-3.2.18"
-href="hodge-theory-ii-3.2.18.xml"
-taxon="Corollary"
-number="3.2.18" />.
-      The arrow <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> is an "edge homomorphism" of the Leray spectral sequence, and is thus surjective by hypothesis.
-      Since <fr:tex
-display="inline"><![CDATA[c]]></fr:tex> is injective, <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[ba]]></fr:tex> have the same image, and <fr:tex
-display="inline"><![CDATA[ba]]></fr:tex> is surjective.</fr:p>
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           W_s           &= \bigoplus _i(W_s\cap  H_i)         \\tW_s           &= \bigoplus _i(tW_s\cap  H_i).         \end {aligned}       ]]></fr:tex></fr:p>
 
-    <fr:p>This proves (ii) for <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> projective.
-      From this we will deduce the general case.
-      We can again reduce to the case where <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is non-empty and connected.</fr:p>
+    <fr:p>Furthermore, for <fr:tex display="inline"><![CDATA[t]]></fr:tex> close enough to <fr:tex display="inline"><![CDATA[1]]></fr:tex>, <fr:tex display="inline"><![CDATA[tW_s]]></fr:tex> is close to <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> in the Grassmannian, and thus
 
-    <fr:p>By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme <fr:tex
-display="inline"><![CDATA[X']]></fr:tex> and a projective birational morphism <fr:tex
-display="inline"><![CDATA[p\colon  X'\to  X]]></fr:tex>.
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1303</fr:anchor><fr:addr type="user">hodge-theory-ii-4.2.8.1</fr:addr><fr:route>hodge-theory-ii-4.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.2.8.1</fr:number><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \dim (tW_s\cap  H_i)           \leqslant  \dim (W_s\cap  H_i).         \tag{4.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      In fact, since <fr:tex display="inline"><![CDATA[\dim (tW_s)=\dim (W_s)]]></fr:tex>, we have equality in <fr:ref addr="hodge-theory-ii-4.2.8.1" href="hodge-theory-ii-4.2.8.1.xml" taxon="Equation" number="4.2.8.1" />.
+      The various isotypic components of <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> and <fr:tex display="inline"><![CDATA[tW_s]]></fr:tex> thus have, respectively, the same length, and <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[tW_s]]></fr:tex>.</fr:p>
+
+    <fr:p>We now prove (iii.b).
+      It suffices to consider the case where <fr:tex display="inline"><![CDATA[H]]></fr:tex> is homogeneous and <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> is a simple <fr:tex display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-module.
+      Let <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> be the isotypic component of <fr:tex display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex> that contains <fr:tex display="inline"><![CDATA[W_s]]></fr:tex>.
+      By (a), <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is stable under <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> is of dimension <fr:tex display="inline"><![CDATA[d]]></fr:tex>, and <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> of length <fr:tex display="inline"><![CDATA[k]]></fr:tex>, then
+      <fr:tex display="block"><![CDATA[         \bigwedge ^{kd}H_1         \approx  \left (\bigwedge ^d W_s\right )^{\otimes  k}       ]]></fr:tex>
+      as <fr:tex display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-modules.
+      If <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is the character of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[\wedge ^d W]]></fr:tex>, then the character <fr:tex display="inline"><![CDATA[\chi _1]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[\wedge ^{kd}H_1]]></fr:tex> is thus <fr:tex display="inline"><![CDATA[\chi ^k]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[H_2=H_1+\overline {H}_1]]></fr:tex>.
+      Since <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is stable under <fr:tex display="inline"><![CDATA[S]]></fr:tex>, <fr:tex display="inline"><![CDATA[H_2]]></fr:tex> is defined by a real Hodge substructure of <fr:tex display="inline"><![CDATA[(H_\mathbb {R})_s]]></fr:tex>.
+      Every polarisation form on <fr:tex display="inline"><![CDATA[H]]></fr:tex> thus induces on <fr:tex display="inline"><![CDATA[H_2]]></fr:tex> a non-degenerate bilinear form that is <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>-invariant.
       
-      There thus exists (by Bertini, or Sard) a non-empty Zariski open <fr:tex
-display="inline"><![CDATA[S_1]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[X'_1=(fp)^{-1}(S_1)]]></fr:tex> is smooth over <fr:tex
-display="inline"><![CDATA[S_1]]></fr:tex>.
-      Finally, let <fr:tex
-display="inline"><![CDATA[X_1=f^{-1}(S_1)]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex> be a smooth compactification of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[\bar {X}'_1]]></fr:tex> be a smooth compactification of <fr:tex
-display="inline"><![CDATA[X'_1]]></fr:tex> that dominates <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[\dim (H_2)=e]]></fr:tex>, then the representation <fr:tex display="inline"><![CDATA[(\wedge ^e H_2)^{\otimes 2}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is thus trivial.
+      From this:
 
       
-  <fr:embedded-tex
-hash="479c210d5ad042cedd2fc23bd6a3b091"><fr:embedded-tex-preamble><![CDATA[
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        \bar {X}
-        && \bar {X}'_1
-          \ar [ll,swap,"\bar {p}"]
-      \\X
-          \ar [u,hook]
-          \ar [d,swap,"f"]
-        & X_1
-          \ar [l,hook']
-          \ar [d,swap,"f_1"]
-        & X'_1
-          \ar [u,hook]
-          \ar [l,swap,"p"]
-          \ar [d,swap,"f'_1"]
-      \\S
-        & S_1
-          \ar [l,hook',"i"]
-        & S_1
-          \ar [l,equals]
-      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For real <fr:tex display="inline"><![CDATA[H_1]]></fr:tex>, <fr:tex display="inline"><![CDATA[\chi ^{2k}]]></fr:tex> is trivial.
+        </html:li>
 
-    <fr:p>If <fr:tex
-display="inline"><![CDATA[s\in  S_1]]></fr:tex>, then the morphism <fr:tex
-display="inline"><![CDATA[i_*\colon \pi _1(S_1,s)\to \pi _1(S,s)]]></fr:tex> is surjective, since the topological codimension of <fr:tex
-display="inline"><![CDATA[S\setminus  S_1]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
-      We thus have
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       ]]></fr:tex>
-      and it suffices to prove that
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^n(\bar {X},\mathbb {Q})         \to  \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       ]]></fr:tex>
-      is surjective.</fr:p>
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          For non-real <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> (so <fr:tex display="inline"><![CDATA[H_1\neq \overline {H}_1]]></fr:tex>), <fr:tex display="inline"><![CDATA[\chi ^{2k}\cdot \overline {\chi }^{2k}]]></fr:tex> is trivial.
+        </html:li>
 
-    <fr:p>The vertical arrows in the diagram
-      <fr:tex
-display="block"><![CDATA[         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @>>> \operatorname {H}^n(X_1,\mathbb {Q}) @>>> \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@VV{\bar {p}^*}V @VV{p^*}V @VV{p^*}V         \\\operatorname {H}^n(\bar {X}'_1,\mathbb {Q}) @>>> \operatorname {H}^n(X'_1,\mathbb {Q}) @>>> \operatorname {H}^0(S_1,\mathrm {R}{f'_1}_*\mathbb {Q})         \end {CD}       ]]></fr:tex>
-      admit left inverses given by the <fr:em>Gysin morphisms</fr:em> <fr:tex
-display="inline"><![CDATA[\bar {p}_!]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[p_!]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[p_!]]></fr:tex> (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
-      Furthermore, the diagram
-      <fr:tex
-display="block"><![CDATA[         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @>{u}>> \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@A{\bar {p}_!}AA @AA{p_!}A         \\\operatorname {H}^n(\bar {X}',\mathbb {Q}) @>>{v}> \operatorname {H}^0(S_1,\mathrm {R}^n{f'_1}_*\mathbb {Q})         \end {CD}       ]]></fr:tex>
-      commutes.
-      The arrow <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is thus a direct factor of the arrow <fr:tex
-display="inline"><![CDATA[v]]></fr:tex>.
-      Since <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is surjective (because <fr:tex
-display="inline"><![CDATA[f'_1]]></fr:tex> is projective), so too is <fr:tex
-display="inline"><![CDATA[u]]></fr:tex>.</fr:p>
+      </html:ol></fr:p>
 
-    <fr:p>We now prove (i) in the general case.
-      We can reduce to the case where <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is of pure relative dimension <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[f\times  f]]></fr:tex> be the projection of <fr:tex
-display="inline"><![CDATA[X\times _S X]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
+    <fr:p>In both cases, <fr:tex display="inline"><![CDATA[|\chi |=1]]></fr:tex>.</fr:p>
 
-    <fr:p>Let <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex> be the image of the cohomology class of the diagonal of <fr:tex
-display="inline"><![CDATA[X\times _S X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n(f\times  f)_*,\mathbb {Q})]]></fr:tex>.
-      We have, by Künneth,
-      <fr:tex
-display="block"><![CDATA[         \mathrm {R}^n(f\times  f)_*\mathbb {Q}         = \sum _{p+q=n} (\mathrm {R}^p f_*\mathbb {Q}\otimes \mathrm {R}^q f_*\mathbb {Q}).       ]]></fr:tex>
-      We denote by <fr:tex
-display="inline"><![CDATA[\delta '_{pq}]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[p+q=n]]></fr:tex>) the components of <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex> in this decomposition, and by <fr:tex
-display="inline"><![CDATA[\delta _{pq}]]></fr:tex> the classes in <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(X\times _S X)]]></fr:tex> given by the images of the <fr:tex
-display="inline"><![CDATA[\delta '_{pq}]]></fr:tex>.</fr:p>
+    <fr:p>The representation of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> on <fr:tex display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex> comes from extension of scalars of a representation defined over <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> (namely <fr:tex display="inline"><![CDATA[(H_\mathbb {Q})_s]]></fr:tex>).
+      The conjugate representations of <fr:tex display="inline"><![CDATA[W]]></fr:tex> thus appear in <fr:tex display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex>;
+      there are at most <fr:tex display="inline"><![CDATA[N=\dim (H)]]></fr:tex> of them, and for every automorphism <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> we have
+      <fr:tex display="block"><![CDATA[         |\sigma (\chi )|         = 1.       ]]></fr:tex></fr:p>
 
-    <fr:p>The <fr:tex
-display="inline"><![CDATA[\delta _{pq}]]></fr:tex> define, in the derived category <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+(S)]]></fr:tex>, homomorphisms
-      <fr:tex
-display="block"><![CDATA[         \delta _p\colon          \mathrm {R} f_*\mathbb {Q}         \to  \mathrm {R} f_*\mathbb {Q}       ]]></fr:tex>
-      such that <fr:tex
-display="inline"><![CDATA[\operatorname {\mathscr {H}}^q(\delta _p)]]></fr:tex> is zero for <fr:tex
-display="inline"><![CDATA[p\neq  q]]></fr:tex>, and is the identity for <fr:tex
-display="inline"><![CDATA[p=q]]></fr:tex>.
-      By [<fr:link
-type="local"
-href="D1968.xml"
-addr="D1968"
-title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>], we thus have
-
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \mathrm {R} f_*\mathbb {Q}           \approx  \sum _p \mathrm {R}^p f_*\mathbb {Q}[-p]         \tag{4.1.1.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-      in <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+(S)]]></fr:tex>, and the Leray spectral sequence degenerates.</fr:p>
-  </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2940</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.xml</fr:route><fr:taxon>Theorem</fr:taxon><fr:authors /><fr:number>4.1.1</fr:number><fr:parent>hodge-theory-ii-4.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be a smooth separated scheme, and <fr:tex
-display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> a smooth proper morphism.</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+    <fr:p>For <fr:tex display="inline"><![CDATA[\gamma \in \pi _1(S,s)]]></fr:tex>, <fr:tex display="inline"><![CDATA[\chi (\gamma )]]></fr:tex> is an algebraic integer with at most <fr:tex display="inline"><![CDATA[N]]></fr:tex> complex conjugates, and these are all of absolute value <fr:tex display="inline"><![CDATA[1]]></fr:tex>;
+      thus <fr:tex display="inline"><![CDATA[\chi (\gamma )]]></fr:tex> is a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th root of unity, with <fr:tex display="inline"><![CDATA[k\leqslant  N]]></fr:tex>.
+      Thus <fr:tex display="inline"><![CDATA[\chi ^{N!}=1]]></fr:tex>, which proves (b).</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3069</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.2.8</fr:addr>
+            <fr:route>hodge-theory-ii-4.2.8.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>4.2.8</fr:number>
+            <fr:parent>hodge-theory-ii-4.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Under the hypotheses of <fr:ref addr="hodge-theory-ii-4.2.6" href="hodge-theory-ii-4.2.6.xml" taxon="Theorem" number="4.2.6" />:</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;(i) &quot;">
-      In rational cohomology, the Leray spectral sequence
-      <fr:tex
-display="block"><![CDATA[         E_2^{pq}         = \operatorname {H}^p(S,\mathrm {R}^qf_*\mathbb {Q})         \Rightarrow  \operatorname {H}^{p+q}(X,\mathbb {Q})       ]]></fr:tex>
-      degenerates (<fr:tex
-display="inline"><![CDATA[E_2=E_\infty ]]></fr:tex>).
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      The algebra <fr:tex display="inline"><![CDATA[A]]></fr:tex> of endomorphisms of the local system <fr:tex display="inline"><![CDATA[H_\mathbb {Q}]]></fr:tex> is semi-simple.
+      It admits exactly one Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structure such that, at each point <fr:tex display="inline"><![CDATA[s]]></fr:tex>, the map <fr:tex display="inline"><![CDATA[A\otimes  H_s\to  H_s]]></fr:tex> is a morphism of Hodge structures.
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-      If <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex> is a non-singular compactification of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, then the canonical morphism
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^n(\bar {X},\mathbb {Q})         \to  \operatorname {H}^0(S,\mathrm {R}^nf_*\mathbb {Q})       ]]></fr:tex>
-      is surjective.
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      
+      The centre of <fr:tex display="inline"><![CDATA[A]]></fr:tex> is of degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>, and the composition law <fr:tex display="inline"><![CDATA[\cdot \colon  A\otimes  A\to  A]]></fr:tex> is a morphism of Hodge structures.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(iii) &quot;">
+      Let <fr:tex display="inline"><![CDATA[W]]></fr:tex> be a complex local subsystem of dimension <fr:tex display="inline"><![CDATA[d]]></fr:tex> of <fr:tex display="inline"><![CDATA[H_\mathbb {C}]]></fr:tex>.
+      Then:
+
+      
+ <html:ol>
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For <fr:tex display="inline"><![CDATA[t\in  S]]></fr:tex>, <fr:tex display="inline"><![CDATA[tW^\mathrm {c}\subset  H_\mathbb {C}]]></fr:tex> is locally constant, and defines a local subsystem <fr:tex display="inline"><![CDATA[tW]]></fr:tex> which is isomorphic to <fr:tex display="inline"><![CDATA[W]]></fr:tex>.
+        </html:li>
+
+
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          A power <fr:tex display="inline"><![CDATA[(\wedge ^d W)^{\otimes  n}]]></fr:tex> (for some <fr:tex display="inline"><![CDATA[n\geqslant 1]]></fr:tex>) of the local system <fr:tex display="inline"><![CDATA[\wedge ^d W]]></fr:tex> is a trivial local system.
+        </html:li>
+
+      </html:ol>
+
     </html:li>
 
   </html:ol>
 
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>For <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> smooth and projective, claim (i) is proven in <fr:link
-type="local"
-href="D1968.xml"
-addr="D1968"
-title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>.
-      The proof in <fr:link
-type="local"
-href="D1968.xml"
-addr="D1968"
-title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link> is rewritten in a more readable manner in <fr:link
-type="local"
-href="G1970.xml"
-addr="G1970"
-title="Periods of integrals on algebraic manifolds, III">G1970</fr:link>;
-      it does not use the smoothness of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1302</fr:anchor><fr:addr type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The algebra <fr:tex display="inline"><![CDATA[A]]></fr:tex> is the commutator of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in <fr:tex display="inline"><![CDATA[(H_\mathbb {Q})_s]]></fr:tex>.
+      Its semi-simplicity thus follows from <fr:ref addr="hodge-theory-ii-4.2.6" href="hodge-theory-ii-4.2.6.xml" taxon="Theorem" number="4.2.6" /> and from Bourbaki, <fr:em>Algèbre commutative</fr:em>, Chapter 8, §5.2, Proposition 4.
+      The algebra <fr:tex display="inline"><![CDATA[A]]></fr:tex> is also the fibre of the largest constant local subsystem of <fr:tex display="inline"><![CDATA[\underline {\operatorname {Hom}}(H_\mathbb {Q},H_\mathbb {Q})]]></fr:tex>.
+      Since <fr:tex display="inline"><![CDATA[\underline {\operatorname {Hom}}(H,H)\in \mathbb {C}]]></fr:tex> (by (ii) of <fr:ref addr="hodge-theory-ii-4.2.3" href="hodge-theory-ii-4.2.3.xml" taxon="Lemma" number="4.2.3" />), the existence of the Hodge structure in (i) follows from the hypotheses (<fr:ref addr="hodge-theory-ii-4.2.2.4" href="hodge-theory-ii-4.2.2.4.xml" taxon="Condition" number="4.2.2.4" />).
+      It is clear that the composition law is a morphism of Hodge structures.
+      It thus follows that the centre <fr:tex display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a Hodge substructure: <fr:tex display="inline"><![CDATA[Z_\mathbb {C}]]></fr:tex> is bigraded, as the intersection of kernels of bihomogeneous morphisms <fr:tex display="inline"><![CDATA[[x,-]]]></fr:tex>, for <fr:tex display="inline"><![CDATA[x]]></fr:tex> bihomogeneous.
+      Finally, <fr:tex display="inline"><![CDATA[Z]]></fr:tex>, and thus <fr:tex display="inline"><![CDATA[Z_\mathbb {C}]]></fr:tex>, is semi-simple, and, for <fr:tex display="inline"><![CDATA[(p,q)\neq (0,0)]]></fr:tex>, <fr:tex display="inline"><![CDATA[Z^{pq}]]></fr:tex> is zero and thus nilpotent.</fr:p>
 
-    <fr:p>Let us fix <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>, and prove that (i)<fr:tex
-display="inline"><![CDATA[\implies ]]></fr:tex>(ii).
-      We can reduce to the case where <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is non-empty and connected.
-      If <fr:tex
-display="inline"><![CDATA[s\in  S]]></fr:tex> is a point, then the local system <fr:tex
-display="inline"><![CDATA[\mathrm {R}^nf_*\mathbb {Q}]]></fr:tex> is entirely described by its fibre <fr:tex
-display="inline"><![CDATA[(\mathrm {R}^nf_*\mathbb {Q})_s]]></fr:tex> at <fr:tex
-display="inline"><![CDATA[s]]></fr:tex> and the action of the fundamental group <fr:tex
-display="inline"><![CDATA[\pi =\pi _1(S,s)]]></fr:tex> on this fibre.
+    <fr:p>A complex local subsystem <fr:tex display="inline"><![CDATA[W]]></fr:tex> of <fr:tex display="inline"><![CDATA[H_\mathbb {C}]]></fr:tex> is defined by a projector <fr:tex display="inline"><![CDATA[e]]></fr:tex> of <fr:tex display="inline"><![CDATA[A_\mathbb {C}]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[t\in  S]]></fr:tex>, <fr:tex display="inline"><![CDATA[tW^\mathrm {c}]]></fr:tex> is defined by the projector <fr:tex display="inline"><![CDATA[t\cdot  e]]></fr:tex>, and is thus locally constant.
+      Since the group <fr:tex display="inline"><![CDATA[S]]></fr:tex> is connected, to show that <fr:tex display="inline"><![CDATA[tW]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[W]]></fr:tex>, it suffices to show that, for <fr:tex display="inline"><![CDATA[t]]></fr:tex> in a small enough neighbourhood of <fr:tex display="inline"><![CDATA[1]]></fr:tex>, the <fr:tex display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex> module <fr:tex display="inline"><![CDATA[tW_s]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[W_s]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[H_i]]></fr:tex> be the isotypic components of the <fr:tex display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-module <fr:tex display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex>.
       We have
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } [(\mathrm {R}^n f_*\mathbb {Q})_s]^\pi .       ]]></fr:tex>
-      If <fr:tex
-display="inline"><![CDATA[X_s=f^{-1}(s)]]></fr:tex>, then the composite arrow
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \to  (\mathrm {R}^n f_*\mathbb {Q})         \approx  \operatorname {H}^n(X_s,\mathbb {Q})       ]]></fr:tex>
-      is thus injective.
-      Consider the arrows
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^n(\bar {X},\mathbb {Q})         \xrightarrow {a} \operatorname {H}^n(X,\mathbb {Q})         \xrightarrow {b} \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xhookrightarrow {c} \operatorname {H}^n(X_s,\mathbb {Q}).       ]]></fr:tex>
-      The arrows <fr:tex
-display="inline"><![CDATA[cb]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[cba]]></fr:tex> have the same image, by <fr:ref
-addr="hodge-theory-ii-3.2.18"
-href="hodge-theory-ii-3.2.18.xml"
-taxon="Corollary"
-number="3.2.18" />.
-      The arrow <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> is an "edge homomorphism" of the Leray spectral sequence, and is thus surjective by hypothesis.
-      Since <fr:tex
-display="inline"><![CDATA[c]]></fr:tex> is injective, <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[ba]]></fr:tex> have the same image, and <fr:tex
-display="inline"><![CDATA[ba]]></fr:tex> is surjective.</fr:p>
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           W_s           &= \bigoplus _i(W_s\cap  H_i)         \\tW_s           &= \bigoplus _i(tW_s\cap  H_i).         \end {aligned}       ]]></fr:tex></fr:p>
 
-    <fr:p>This proves (ii) for <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> projective.
-      From this we will deduce the general case.
-      We can again reduce to the case where <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is non-empty and connected.</fr:p>
+    <fr:p>Furthermore, for <fr:tex display="inline"><![CDATA[t]]></fr:tex> close enough to <fr:tex display="inline"><![CDATA[1]]></fr:tex>, <fr:tex display="inline"><![CDATA[tW_s]]></fr:tex> is close to <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> in the Grassmannian, and thus
 
-    <fr:p>By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme <fr:tex
-display="inline"><![CDATA[X']]></fr:tex> and a projective birational morphism <fr:tex
-display="inline"><![CDATA[p\colon  X'\to  X]]></fr:tex>.
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1303</fr:anchor><fr:addr type="user">hodge-theory-ii-4.2.8.1</fr:addr><fr:route>hodge-theory-ii-4.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.2.8.1</fr:number><fr:parent>hodge-theory-ii-4.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \dim (tW_s\cap  H_i)           \leqslant  \dim (W_s\cap  H_i).         \tag{4.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      In fact, since <fr:tex display="inline"><![CDATA[\dim (tW_s)=\dim (W_s)]]></fr:tex>, we have equality in <fr:ref addr="hodge-theory-ii-4.2.8.1" href="hodge-theory-ii-4.2.8.1.xml" taxon="Equation" number="4.2.8.1" />.
+      The various isotypic components of <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> and <fr:tex display="inline"><![CDATA[tW_s]]></fr:tex> thus have, respectively, the same length, and <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[tW_s]]></fr:tex>.</fr:p>
+
+    <fr:p>We now prove (iii.b).
+      It suffices to consider the case where <fr:tex display="inline"><![CDATA[H]]></fr:tex> is homogeneous and <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> is a simple <fr:tex display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-module.
+      Let <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> be the isotypic component of <fr:tex display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex> that contains <fr:tex display="inline"><![CDATA[W_s]]></fr:tex>.
+      By (a), <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is stable under <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[W_s]]></fr:tex> is of dimension <fr:tex display="inline"><![CDATA[d]]></fr:tex>, and <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> of length <fr:tex display="inline"><![CDATA[k]]></fr:tex>, then
+      <fr:tex display="block"><![CDATA[         \bigwedge ^{kd}H_1         \approx  \left (\bigwedge ^d W_s\right )^{\otimes  k}       ]]></fr:tex>
+      as <fr:tex display="inline"><![CDATA[\mathbb {C}[\pi _1(S,s)]]]></fr:tex>-modules.
+      If <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is the character of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[\wedge ^d W]]></fr:tex>, then the character <fr:tex display="inline"><![CDATA[\chi _1]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[\wedge ^{kd}H_1]]></fr:tex> is thus <fr:tex display="inline"><![CDATA[\chi ^k]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[H_2=H_1+\overline {H}_1]]></fr:tex>.
+      Since <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is stable under <fr:tex display="inline"><![CDATA[S]]></fr:tex>, <fr:tex display="inline"><![CDATA[H_2]]></fr:tex> is defined by a real Hodge substructure of <fr:tex display="inline"><![CDATA[(H_\mathbb {R})_s]]></fr:tex>.
+      Every polarisation form on <fr:tex display="inline"><![CDATA[H]]></fr:tex> thus induces on <fr:tex display="inline"><![CDATA[H_2]]></fr:tex> a non-degenerate bilinear form that is <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>-invariant.
       
-      There thus exists (by Bertini, or Sard) a non-empty Zariski open <fr:tex
-display="inline"><![CDATA[S_1]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[X'_1=(fp)^{-1}(S_1)]]></fr:tex> is smooth over <fr:tex
-display="inline"><![CDATA[S_1]]></fr:tex>.
-      Finally, let <fr:tex
-display="inline"><![CDATA[X_1=f^{-1}(S_1)]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex> be a smooth compactification of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[\bar {X}'_1]]></fr:tex> be a smooth compactification of <fr:tex
-display="inline"><![CDATA[X'_1]]></fr:tex> that dominates <fr:tex
-display="inline"><![CDATA[\bar {X}]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[\dim (H_2)=e]]></fr:tex>, then the representation <fr:tex display="inline"><![CDATA[(\wedge ^e H_2)^{\otimes 2}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> is thus trivial.
+      From this:
 
       
-  <fr:embedded-tex
-hash="479c210d5ad042cedd2fc23bd6a3b091"><fr:embedded-tex-preamble><![CDATA[
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        \bar {X}
-        && \bar {X}'_1
-          \ar [ll,swap,"\bar {p}"]
-      \\X
-          \ar [u,hook]
-          \ar [d,swap,"f"]
-        & X_1
-          \ar [l,hook']
-          \ar [d,swap,"f_1"]
-        & X'_1
-          \ar [u,hook]
-          \ar [l,swap,"p"]
-          \ar [d,swap,"f'_1"]
-      \\S
-        & S_1
-          \ar [l,hook',"i"]
-        & S_1
-          \ar [l,equals]
-      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          For real <fr:tex display="inline"><![CDATA[H_1]]></fr:tex>, <fr:tex display="inline"><![CDATA[\chi ^{2k}]]></fr:tex> is trivial.
+        </html:li>
 
-    <fr:p>If <fr:tex
-display="inline"><![CDATA[s\in  S_1]]></fr:tex>, then the morphism <fr:tex
-display="inline"><![CDATA[i_*\colon \pi _1(S_1,s)\to \pi _1(S,s)]]></fr:tex> is surjective, since the topological codimension of <fr:tex
-display="inline"><![CDATA[S\setminus  S_1]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
-      We thus have
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})         \xrightarrow {\sim } \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       ]]></fr:tex>
-      and it suffices to prove that
-      <fr:tex
-display="block"><![CDATA[         \operatorname {H}^n(\bar {X},\mathbb {Q})         \to  \operatorname {H}^0(S_1,\mathrm {R}^n {f_1}_*\mathbb {Q})       ]]></fr:tex>
-      is surjective.</fr:p>
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          For non-real <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> (so <fr:tex display="inline"><![CDATA[H_1\neq \overline {H}_1]]></fr:tex>), <fr:tex display="inline"><![CDATA[\chi ^{2k}\cdot \overline {\chi }^{2k}]]></fr:tex> is trivial.
+        </html:li>
 
-    <fr:p>The vertical arrows in the diagram
-      <fr:tex
-display="block"><![CDATA[         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @>>> \operatorname {H}^n(X_1,\mathbb {Q}) @>>> \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@VV{\bar {p}^*}V @VV{p^*}V @VV{p^*}V         \\\operatorname {H}^n(\bar {X}'_1,\mathbb {Q}) @>>> \operatorname {H}^n(X'_1,\mathbb {Q}) @>>> \operatorname {H}^0(S_1,\mathrm {R}{f'_1}_*\mathbb {Q})         \end {CD}       ]]></fr:tex>
-      admit left inverses given by the <fr:em>Gysin morphisms</fr:em> <fr:tex
-display="inline"><![CDATA[\bar {p}_!]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[p_!]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[p_!]]></fr:tex> (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
-      Furthermore, the diagram
-      <fr:tex
-display="block"><![CDATA[         \begin {CD}           \operatorname {H}^n(\bar {X},\mathbb {Q}) @>{u}>> \operatorname {H}^0(S_1,\mathrm {R}^n{f_1}_*\mathbb {Q})         \\@A{\bar {p}_!}AA @AA{p_!}A         \\\operatorname {H}^n(\bar {X}',\mathbb {Q}) @>>{v}> \operatorname {H}^0(S_1,\mathrm {R}^n{f'_1}_*\mathbb {Q})         \end {CD}       ]]></fr:tex>
-      commutes.
-      The arrow <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is thus a direct factor of the arrow <fr:tex
-display="inline"><![CDATA[v]]></fr:tex>.
-      Since <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is surjective (because <fr:tex
-display="inline"><![CDATA[f'_1]]></fr:tex> is projective), so too is <fr:tex
-display="inline"><![CDATA[u]]></fr:tex>.</fr:p>
+      </html:ol></fr:p>
 
-    <fr:p>We now prove (i) in the general case.
-      We can reduce to the case where <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is of pure relative dimension <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>.
-      Let <fr:tex
-display="inline"><![CDATA[f\times  f]]></fr:tex> be the projection of <fr:tex
-display="inline"><![CDATA[X\times _S X]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
+    <fr:p>In both cases, <fr:tex display="inline"><![CDATA[|\chi |=1]]></fr:tex>.</fr:p>
 
-    <fr:p>Let <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex> be the image of the cohomology class of the diagonal of <fr:tex
-display="inline"><![CDATA[X\times _S X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n(f\times  f)_*,\mathbb {Q})]]></fr:tex>.
-      We have, by Künneth,
-      <fr:tex
-display="block"><![CDATA[         \mathrm {R}^n(f\times  f)_*\mathbb {Q}         = \sum _{p+q=n} (\mathrm {R}^p f_*\mathbb {Q}\otimes \mathrm {R}^q f_*\mathbb {Q}).       ]]></fr:tex>
-      We denote by <fr:tex
-display="inline"><![CDATA[\delta '_{pq}]]></fr:tex> (for <fr:tex
-display="inline"><![CDATA[p+q=n]]></fr:tex>) the components of <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex> in this decomposition, and by <fr:tex
-display="inline"><![CDATA[\delta _{pq}]]></fr:tex> the classes in <fr:tex
-display="inline"><![CDATA[\operatorname {H}^n(X\times _S X)]]></fr:tex> given by the images of the <fr:tex
-display="inline"><![CDATA[\delta '_{pq}]]></fr:tex>.</fr:p>
+    <fr:p>The representation of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> on <fr:tex display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex> comes from extension of scalars of a representation defined over <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> (namely <fr:tex display="inline"><![CDATA[(H_\mathbb {Q})_s]]></fr:tex>).
+      The conjugate representations of <fr:tex display="inline"><![CDATA[W]]></fr:tex> thus appear in <fr:tex display="inline"><![CDATA[(H_\mathbb {C})_s]]></fr:tex>;
+      there are at most <fr:tex display="inline"><![CDATA[N=\dim (H)]]></fr:tex> of them, and for every automorphism <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> we have
+      <fr:tex display="block"><![CDATA[         |\sigma (\chi )|         = 1.       ]]></fr:tex></fr:p>
 
-    <fr:p>The <fr:tex
-display="inline"><![CDATA[\delta _{pq}]]></fr:tex> define, in the derived category <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+(S)]]></fr:tex>, homomorphisms
-      <fr:tex
-display="block"><![CDATA[         \delta _p\colon          \mathrm {R} f_*\mathbb {Q}         \to  \mathrm {R} f_*\mathbb {Q}       ]]></fr:tex>
-      such that <fr:tex
-display="inline"><![CDATA[\operatorname {\mathscr {H}}^q(\delta _p)]]></fr:tex> is zero for <fr:tex
-display="inline"><![CDATA[p\neq  q]]></fr:tex>, and is the identity for <fr:tex
-display="inline"><![CDATA[p=q]]></fr:tex>.
-      By [<fr:link
-type="local"
-href="D1968.xml"
-addr="D1968"
-title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>], we thus have
-
-      <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:addr
-type="user">hodge-theory-ii-4.1.1.1</fr:addr><fr:route>hodge-theory-ii-4.1.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>4.1.1.1</fr:number><fr:parent>hodge-theory-ii-4.1.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[           \mathrm {R} f_*\mathbb {Q}           \approx  \sum _p \mathrm {R}^p f_*\mathbb {Q}[-p]         \tag{4.1.1.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-      in <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+(S)]]></fr:tex>, and the Leray spectral sequence degenerates.</fr:p>
+    <fr:p>For <fr:tex display="inline"><![CDATA[\gamma \in \pi _1(S,s)]]></fr:tex>, <fr:tex display="inline"><![CDATA[\chi (\gamma )]]></fr:tex> is an algebraic integer with at most <fr:tex display="inline"><![CDATA[N]]></fr:tex> complex conjugates, and these are all of absolute value <fr:tex display="inline"><![CDATA[1]]></fr:tex>;
+      thus <fr:tex display="inline"><![CDATA[\chi (\gamma )]]></fr:tex> is a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th root of unity, with <fr:tex display="inline"><![CDATA[k\leqslant  N]]></fr:tex>.
+      Thus <fr:tex display="inline"><![CDATA[\chi ^{N!}=1]]></fr:tex>, which proves (b).</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,59 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2903</fr:anchor><fr:addr
-type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-7.2.7.1</fr:parent></fr:frontmatter><fr:mainmatter>
-      <fr:p>This is a particular case of <fr:ref
-addr="hodge-theory-ii-1.3.2"
-href="hodge-theory-ii-1.3.2.xml"
-taxon="Proposition"
-number="1.3.2" />.</fr:p>
-    </fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2904</fr:anchor><fr:addr
-type="user">hodge-theory-iii-7.2.7.1</fr:addr><fr:route>hodge-theory-iii-7.2.7.1.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>7.2.7.1</fr:number><fr:parent>hodge-theory-iii-7.2.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> be a complex endowed with a biregular filtration <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.
-      For <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_G(L)]]></fr:tex> to be acyclic, it is necessary and sufficient that <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> be acyclic and that the differentials of <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> be strictly compatible with the filtration <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3032</fr:anchor>
+    <fr:addr type="machine">#244</fr:addr>
+    <fr:route>unstable-244.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:authors />
+    <fr:parent>hodge-theory-iii-8.1.9</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The proof of (i), (ii), (iii), (iv) is parallel to that of <fr:ref addr="hodge-theory-ii-3.2.5" href="hodge-theory-ii-3.2.5.xml" taxon="Theorem" number="3.2.5" />.
+      The analogy of <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> and <fr:ref addr="hodge-theory-ii-3.2.7" href="hodge-theory-ii-3.2.7.xml" taxon="Lemma" number="3.2.7" /> has been taken as an axiom (<fr:ref addr="hodge-theory-iii-8.1.1-ch1" href="hodge-theory-iii-8.1.1-ch1.xml" taxon="Axiom" number="CH1" /> and <fr:ref addr="hodge-theory-iii-8.1.1-ch2" href="hodge-theory-iii-8.1.1-ch2.xml" taxon="Axiom" number="CH2" />).
+      The proofs of <fr:ref addr="hodge-theory-ii-3.2.8" href="hodge-theory-ii-3.2.8.xml" taxon="Lemma" number="3.2.8" />, <fr:ref addr="hodge-theory-ii-3.2.9" href="hodge-theory-ii-3.2.9.xml" taxon="Lemma" number="3.2.9" />, and <fr:ref addr="hodge-theory-ii-3.2.10" href="hodge-theory-ii-3.2.10.xml" taxon="Lemma" number="3.2.10" /> can be carried over as they are, and, as in <fr:ref addr="hodge-theory-ii-3.2.10" href="hodge-theory-ii-3.2.10.xml" taxon="Lemma" number="3.2.10" />, we thus deduce (i), (ii), (iii), and (iv).
+      Claims (v) and (vi) then follow from <fr:ref addr="hodge-theory-iii-7.2.8" href="hodge-theory-iii-7.2.8.xml" taxon="Proposition" number="7.2.8" />.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3033</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.1.9</fr:addr>
+            <fr:route>hodge-theory-iii-8.1.9.xml</fr:route>
+            <fr:taxon>Scholium</fr:taxon>
+            <fr:authors />
+            <fr:number>8.1.9</fr:number>
+            <fr:parent>hodge-theory-iii-8.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be a mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-complex.</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      On the pages <fr:tex display="inline"><![CDATA[{}_WE_r^{pq}]]></fr:tex> of the spectral sequence of <fr:tex display="inline"><![CDATA[(K_\mathbb {C},W)]]></fr:tex>, the recurrent filtration and the two direct filtrations defined by <fr:tex display="inline"><![CDATA[F]]></fr:tex> all coincide.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      The filtration <fr:tex display="inline"><![CDATA[W[n]]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.1.2" href="hodge-theory-ii-1.1.2.xml" taxon="Definition" number="1.1.2" />) on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(K_{A\otimes \mathbb {Q}})\simeq \operatorname {H}^n(K_A)\otimes \mathbb {Q}]]></fr:tex> and the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(K_\mathbb {C})\simeq \operatorname {H}^n(K_A)\otimes _A\mathbb {C}]]></fr:tex> define a mixed Hodge <fr:tex display="inline"><![CDATA[A]]></fr:tex>-structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(K_A)]]></fr:tex> (<fr:ref addr="hodge-theory-ii-2.3.1" href="hodge-theory-ii-2.3.1.xml" taxon="Definition" number="2.3.1" /> along with <fr:ref addr="hodge-theory-iii-0.4" href="hodge-theory-iii-0.4.xml" number="III.0.4" />).
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(iii) &quot;">
+      The morphisms <fr:tex display="inline"><![CDATA[{}_Wd_1\colon {}_WE_1^{pq}\to {}_WE_1^{p+1,q}]]></fr:tex> are compatible with the Hodge bigrading;
+      in particular, they are strictly compatible with the Hodge filtration.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(iv) &quot;">
+      The spectral sequence of <fr:tex display="inline"><![CDATA[(K_{A\otimes \mathbb {Q}},W)]]></fr:tex> degenerates at <fr:tex display="inline"><![CDATA[E_2]]></fr:tex> (i.e. <fr:tex display="inline"><![CDATA[{}_WE_2={}_WE_\infty ]]></fr:tex>).
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(v) &quot;">
+      The spectral sequence of <fr:tex display="inline"><![CDATA[(K_\mathbb {C},F)]]></fr:tex> degenerates at <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> (i.e. <fr:tex display="inline"><![CDATA[{}_FE_2={}_FE_\infty ]]></fr:tex>).
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(vi) &quot;">
+      The spectral sequence of the complex <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F^p(K_\mathbb {C})]]></fr:tex>, endowed with the filtration induced by <fr:tex display="inline"><![CDATA[W]]></fr:tex>, degenerates at <fr:tex display="inline"><![CDATA[E_2]]></fr:tex>.
+    </html:li>
+
+  </html:ol>
+
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1057</fr:anchor><fr:addr
-type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-7.2.7.1</fr:parent></fr:frontmatter><fr:mainmatter>
-      <fr:p>This is a particular case of <fr:ref
-addr="hodge-theory-ii-1.3.2"
-href="hodge-theory-ii-1.3.2.xml"
-taxon="Proposition"
-number="1.3.2" />.</fr:p>
-    </fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>722</fr:anchor><fr:addr type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.1.9</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof of (i), (ii), (iii), (iv) is parallel to that of <fr:ref addr="hodge-theory-ii-3.2.5" href="hodge-theory-ii-3.2.5.xml" taxon="Theorem" number="3.2.5" />.
+      The analogy of <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> and <fr:ref addr="hodge-theory-ii-3.2.7" href="hodge-theory-ii-3.2.7.xml" taxon="Lemma" number="3.2.7" /> has been taken as an axiom (<fr:ref addr="hodge-theory-iii-8.1.1-ch1" href="hodge-theory-iii-8.1.1-ch1.xml" taxon="Axiom" number="CH1" /> and <fr:ref addr="hodge-theory-iii-8.1.1-ch2" href="hodge-theory-iii-8.1.1-ch2.xml" taxon="Axiom" number="CH2" />).
+      The proofs of <fr:ref addr="hodge-theory-ii-3.2.8" href="hodge-theory-ii-3.2.8.xml" taxon="Lemma" number="3.2.8" />, <fr:ref addr="hodge-theory-ii-3.2.9" href="hodge-theory-ii-3.2.9.xml" taxon="Lemma" number="3.2.9" />, and <fr:ref addr="hodge-theory-ii-3.2.10" href="hodge-theory-ii-3.2.10.xml" taxon="Lemma" number="3.2.10" /> can be carried over as they are, and, as in <fr:ref addr="hodge-theory-ii-3.2.10" href="hodge-theory-ii-3.2.10.xml" taxon="Lemma" number="3.2.10" />, we thus deduce (i), (ii), (iii), and (iv).
+      Claims (v) and (vi) then follow from <fr:ref addr="hodge-theory-iii-7.2.8" href="hodge-theory-iii-7.2.8.xml" taxon="Proposition" number="7.2.8" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

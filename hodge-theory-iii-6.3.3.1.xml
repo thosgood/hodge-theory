@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2529</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.3.3.1</fr:addr><fr:route>hodge-theory-iii-6.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.3.3.1</fr:number><fr:parent>hodge-theory-iii-6.3.3</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:embedded-tex
-hash="acb8708d7cf403620dd9ea1536d59c02"><fr:embedded-tex-preamble><![CDATA[
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2553</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-6.3.3.1</fr:addr>
+    <fr:route>hodge-theory-iii-6.3.3.1.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>6.3.3.1</fr:number>
+    <fr:parent>hodge-theory-iii-6.3.3</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:embedded-tex hash="acb8708d7cf403620dd9ea1536d59c02"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
@@ -23,53 +24,33 @@ hash="acb8708d7cf403620dd9ea1536d59c02"><fr:embedded-tex-preamble><![CDATA[
           \ar [ul]
         & (6.3.3.1)
       \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2530</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.3.3</fr:addr><fr:route>hodge-theory-iii-6.3.3.xml</fr:route><fr:authors /><fr:number>6.3.3</fr:number><fr:parent>hodge-theory-iii-6.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>More generally, let <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be bounded-below complexes of abelian sheaves on <fr:tex
-display="inline"><![CDATA[Y_\bullet ]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> (respectively), and let <fr:tex
-display="inline"><![CDATA[f\colon  K\to  L]]></fr:tex> be a <fr:tex
-display="inline"><![CDATA[u]]></fr:tex>-morphism.
-    We thus obtain a complex <fr:tex
-display="inline"><![CDATA[C(f)]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[C(u)]]></fr:tex>.
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2554</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-6.3.3</fr:addr>
+            <fr:route>hodge-theory-iii-6.3.3.xml</fr:route>
+            <fr:authors />
+            <fr:number>6.3.3</fr:number>
+            <fr:parent>hodge-theory-iii-6.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>More generally, let <fr:tex display="inline"><![CDATA[L]]></fr:tex> and <fr:tex display="inline"><![CDATA[K]]></fr:tex> be bounded-below complexes of abelian sheaves on <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> (respectively), and let <fr:tex display="inline"><![CDATA[f\colon  K\to  L]]></fr:tex> be a <fr:tex display="inline"><![CDATA[u]]></fr:tex>-morphism.
+    We thus obtain a complex <fr:tex display="inline"><![CDATA[C(f)]]></fr:tex> on <fr:tex display="inline"><![CDATA[C(u)]]></fr:tex>.
     We again define the hypercohomology
-    <fr:tex
-display="block"><![CDATA[       \operatorname {\mathbb {H}}^n(C(u),C(f))       = \operatorname {\mathbb {H}}^n(X_\bullet \operatorname {mod} Y_\bullet , K\operatorname {mod} L).     ]]></fr:tex>
+    <fr:tex display="block"><![CDATA[       \operatorname {\mathbb {H}}^n(C(u),C(f))       = \operatorname {\mathbb {H}}^n(X_\bullet \operatorname {mod} Y_\bullet , K\operatorname {mod} L).     ]]></fr:tex>
     
-    These groups appear in an exact sequence analogous to that of <fr:ref
-addr="hodge-theory-iii-6.3.2.2"
-href="hodge-theory-iii-6.3.2.2.xml"
-taxon="Equation"
-number="6.3.2.2" />, coming, in the suitable derived category, from a distinguished triangle
+    These groups appear in an exact sequence analogous to that of <fr:ref addr="hodge-theory-iii-6.3.2.2" href="hodge-theory-iii-6.3.2.2.xml" taxon="Equation" number="6.3.2.2" />, coming, in the suitable derived category, from a distinguished triangle
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2516</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.3.3.1</fr:addr><fr:route>hodge-theory-iii-6.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.3.3.1</fr:number><fr:parent>hodge-theory-iii-6.3.3</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:embedded-tex
-hash="acb8708d7cf403620dd9ea1536d59c02"><fr:embedded-tex-preamble><![CDATA[
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2540</fr:anchor><fr:addr type="user">hodge-theory-iii-6.3.3.1</fr:addr><fr:route>hodge-theory-iii-6.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.3.3.1</fr:number><fr:parent>hodge-theory-iii-6.3.3</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:embedded-tex hash="acb8708d7cf403620dd9ea1536d59c02"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
@@ -82,4 +63,12 @@ hash="acb8708d7cf403620dd9ea1536d59c02"><fr:embedded-tex-preamble><![CDATA[
           \ar [ul]
         & (6.3.3.1)
       \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

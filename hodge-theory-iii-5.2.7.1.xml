@@ -1,144 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2304</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.7.1</fr:addr><fr:route>hodge-theory-iii-5.2.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.7.1</fr:number><fr:parent>hodge-theory-iii-5.2.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \mathrm {R}^q{a_p}_*(K|X_p)         \Rightarrow  \mathrm {R}^{p+q}a_*K       \tag{5.2.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2305</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.7</fr:addr><fr:route>hodge-theory-iii-5.2.7.xml</fr:route><fr:authors /><fr:number>5.2.7</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Combined with <fr:ref
-addr="hodge-theory-iii-5.2.5"
-href="hodge-theory-iii-5.2.5.xml"
-number="5.2.5" /> and specialised to the case where <fr:tex
-display="inline"><![CDATA[S=P^t]]></fr:tex>, this equation proves <fr:ref
-addr="hodge-theory-iii-5.2.3.1"
-href="hodge-theory-iii-5.2.3.1.xml"
-taxon="Equation"
-number="5.2.3.1" />.
-    In concrete terms, this implies that, to calculate <fr:tex
-display="inline"><![CDATA[\mathrm {R} a_*K]]></fr:tex>, we can proceed in two steps:
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2316</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-5.2.7.1</fr:addr>
+    <fr:route>hodge-theory-iii-5.2.7.1.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>5.2.7.1</fr:number>
+    <fr:parent>hodge-theory-iii-5.2.7</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[         E_1^{pq}         = \mathrm {R}^q{a_p}_*(K|X_p)         \Rightarrow  \mathrm {R}^{p+q}a_*K       \tag{5.2.7.1}       ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2317</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.2.7</fr:addr>
+            <fr:route>hodge-theory-iii-5.2.7.xml</fr:route>
+            <fr:authors />
+            <fr:number>5.2.7</fr:number>
+            <fr:parent>hodge-theory-iii-5.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Combined with <fr:ref addr="hodge-theory-iii-5.2.5" href="hodge-theory-iii-5.2.5.xml" number="5.2.5" /> and specialised to the case where <fr:tex display="inline"><![CDATA[S=P^t]]></fr:tex>, this equation proves <fr:ref addr="hodge-theory-iii-5.2.3.1" href="hodge-theory-iii-5.2.3.1.xml" taxon="Equation" number="5.2.3.1" />.
+    In concrete terms, this implies that, to calculate <fr:tex display="inline"><![CDATA[\mathrm {R} a_*K]]></fr:tex>, we can proceed in two steps:
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        We take a resolution <fr:tex
-display="inline"><![CDATA[K\xrightarrow {\sim } K']]></fr:tex> such that the components <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[K']]></fr:tex> satisfy <fr:tex
-display="inline"><![CDATA[\mathrm {R}^i {a_p}_*(F^p)=0]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[i>0]]></fr:tex>.
-        The complex <fr:tex
-display="inline"><![CDATA[{a_\bullet }_*K'\in \mathrm {D}^+(S_\bullet )]]></fr:tex> (the derived category of the category of cosimplicial abelian sheaves on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>) can be identified with <fr:tex
-display="inline"><![CDATA[\mathrm {R}{a_\bullet }_*K]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        We take a resolution <fr:tex display="inline"><![CDATA[K\xrightarrow {\sim } K']]></fr:tex> such that the components <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[K']]></fr:tex> satisfy <fr:tex display="inline"><![CDATA[\mathrm {R}^i {a_p}_*(F^p)=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>.
+        The complex <fr:tex display="inline"><![CDATA[{a_\bullet }_*K'\in \mathrm {D}^+(S_\bullet )]]></fr:tex> (the derived category of the category of cosimplicial abelian sheaves on <fr:tex display="inline"><![CDATA[S]]></fr:tex>) can be identified with <fr:tex display="inline"><![CDATA[\mathrm {R}{a_\bullet }_*K]]></fr:tex>.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        <fr:tex
-display="inline"><![CDATA[\mathrm {R} a_*K]]></fr:tex> is the simple complex <fr:tex
-display="inline"><![CDATA[\mathrm {s}{a_\bullet }_*K']]></fr:tex> associated to the double complex <fr:tex
-display="inline"><![CDATA[{a_\bullet }_*K']]></fr:tex>.
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        <fr:tex display="inline"><![CDATA[\mathrm {R} a_*K]]></fr:tex> is the simple complex <fr:tex display="inline"><![CDATA[\mathrm {s}{a_\bullet }_*K']]></fr:tex> associated to the double complex <fr:tex display="inline"><![CDATA[{a_\bullet }_*K']]></fr:tex>.
       </html:li>
 
-    </html:ol></fr:p><fr:p>The spectral sequence <fr:ref
-addr="hodge-theory-iii-5.2.3.2"
-href="hodge-theory-iii-5.2.3.2.xml"
-taxon="Equation"
-number="5.2.3.2" /> generalises to a spectral sequence
+    </html:ol></fr:p>
+            <fr:p>The spectral sequence <fr:ref addr="hodge-theory-iii-5.2.3.2" href="hodge-theory-iii-5.2.3.2.xml" taxon="Equation" number="5.2.3.2" /> generalises to a spectral sequence
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2195</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.7.1</fr:addr><fr:route>hodge-theory-iii-5.2.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.7.1</fr:number><fr:parent>hodge-theory-iii-5.2.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \mathrm {R}^q{a_p}_*(K|X_p)         \Rightarrow  \mathrm {R}^{p+q}a_*K       \tag{5.2.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2207</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.7.1</fr:addr><fr:route>hodge-theory-iii-5.2.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.7.1</fr:number><fr:parent>hodge-theory-iii-5.2.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \mathrm {R}^q{a_p}_*(K|X_p)         \Rightarrow  \mathrm {R}^{p+q}a_*K       \tag{5.2.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    induced by <fr:ref
-addr="hodge-theory-iii-5.1.12.2"
-href="hodge-theory-iii-5.1.12.2.xml"
-taxon="Equation"
-number="5.1.12.2" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2306</fr:anchor><fr:addr
-type="user">hodge-theory-iii-7.1.4</fr:addr><fr:route>hodge-theory-iii-7.1.4.xml</fr:route><fr:authors /><fr:number>7.1.4</fr:number><fr:parent>hodge-theory-iii-7.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We will need more precise results for the functors <fr:tex
-display="inline"><![CDATA[\mathrm {R} a_*]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> is an augmentation of a simplicial topological space.
-    The case <fr:tex
-display="inline"><![CDATA[S=P^t]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[\mathrm {R} a_*=\mathrm {R}\Gamma ]]></fr:tex> will suffice.</fr:p><fr:p>We reuse the notation of <fr:ref
-addr="hodge-theory-iii-5.1.12"
-href="hodge-theory-iii-5.1.12.xml"
-number="5.1.12" />, and recall <fr:ref
-addr="hodge-theory-iii-5.2.6.1"
-href="hodge-theory-iii-5.2.6.1.xml"
-taxon="Equation"
-number="5.2.6.1" />:
-    <fr:tex
-display="block"><![CDATA[       \mathrm {R} a_*       = \mathrm {s}\mathrm {R} {a_\bullet }_*.     ]]></fr:tex>
-    For every complex <fr:tex
-display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {C}^+(S_\bullet )]]></fr:tex>, the simple complex <fr:tex
-display="inline"><![CDATA[\mathrm {s} K]]></fr:tex> is endowed with a natural filtration <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> (<fr:ref
-addr="hodge-theory-iii-5.1.9.3"
-href="hodge-theory-iii-5.1.9.3.xml"
-taxon="Equation"
-number="5.1.9.3" />).
-    A quasi-isomorphism <fr:tex
-display="inline"><![CDATA[u\colon  K'\xrightarrow {\sim } K'']]></fr:tex> induces a filtered quasi-isomorphism <fr:tex
-display="inline"><![CDATA[u\colon (\mathrm {s} K',L)\xrightarrow {\sim }(\mathrm {s} K'',L)]]></fr:tex>.
-    Then <fr:tex
-display="inline"><![CDATA[\mathrm {s}]]></fr:tex> factors as
-    <fr:tex
-display="block"><![CDATA[       \mathrm {s}\colon  \mathrm {D}^+(S_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S)     ]]></fr:tex>
-    and <fr:tex
-display="inline"><![CDATA[\mathrm {R} a_*]]></fr:tex> factors as
-    <fr:tex
-display="block"><![CDATA[       \mathrm {R} a_*\colon  \mathrm {D}^+(X_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S).     ]]></fr:tex>
-    The spectral sequence of the filtered complex <fr:tex
-display="inline"><![CDATA[(\mathrm {R} a_* K,L)\in \mathrm {D}^+\mathrm {F}(S)]]></fr:tex> is exactly <fr:ref
-addr="hodge-theory-iii-5.2.7.1"
-href="hodge-theory-iii-5.2.7.1.xml"
-taxon="Equation"
-number="5.2.7.1" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    induced by <fr:ref addr="hodge-theory-iii-5.1.12.2" href="hodge-theory-iii-5.1.12.2.xml" taxon="Equation" number="5.1.12.2" />.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2318</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-7.1.4</fr:addr>
+            <fr:route>hodge-theory-iii-7.1.4.xml</fr:route>
+            <fr:authors />
+            <fr:number>7.1.4</fr:number>
+            <fr:parent>hodge-theory-iii-7.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>We will need more precise results for the functors <fr:tex display="inline"><![CDATA[\mathrm {R} a_*]]></fr:tex>, where <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> is an augmentation of a simplicial topological space.
+    The case <fr:tex display="inline"><![CDATA[S=P^t]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\mathrm {R} a_*=\mathrm {R}\Gamma ]]></fr:tex> will suffice.</fr:p>
+            <fr:p>We reuse the notation of <fr:ref addr="hodge-theory-iii-5.1.12" href="hodge-theory-iii-5.1.12.xml" number="5.1.12" />, and recall <fr:ref addr="hodge-theory-iii-5.2.6.1" href="hodge-theory-iii-5.2.6.1.xml" taxon="Equation" number="5.2.6.1" />:
+    <fr:tex display="block"><![CDATA[       \mathrm {R} a_*       = \mathrm {s}\mathrm {R} {a_\bullet }_*.     ]]></fr:tex>
+    For every complex <fr:tex display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {C}^+(S_\bullet )]]></fr:tex>, the simple complex <fr:tex display="inline"><![CDATA[\mathrm {s} K]]></fr:tex> is endowed with a natural filtration <fr:tex display="inline"><![CDATA[L]]></fr:tex> (<fr:ref addr="hodge-theory-iii-5.1.9.3" href="hodge-theory-iii-5.1.9.3.xml" taxon="Equation" number="5.1.9.3" />).
+    A quasi-isomorphism <fr:tex display="inline"><![CDATA[u\colon  K'\xrightarrow {\sim } K'']]></fr:tex> induces a filtered quasi-isomorphism <fr:tex display="inline"><![CDATA[u\colon (\mathrm {s} K',L)\xrightarrow {\sim }(\mathrm {s} K'',L)]]></fr:tex>.
+    Then <fr:tex display="inline"><![CDATA[\mathrm {s}]]></fr:tex> factors as
+    <fr:tex display="block"><![CDATA[       \mathrm {s}\colon  \mathrm {D}^+(S_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S)     ]]></fr:tex>
+    and <fr:tex display="inline"><![CDATA[\mathrm {R} a_*]]></fr:tex> factors as
+    <fr:tex display="block"><![CDATA[       \mathrm {R} a_*\colon  \mathrm {D}^+(X_\bullet )       \to  \mathrm {D}^+\mathrm {F}(S).     ]]></fr:tex>
+    The spectral sequence of the filtered complex <fr:tex display="inline"><![CDATA[(\mathrm {R} a_* K,L)\in \mathrm {D}^+\mathrm {F}(S)]]></fr:tex> is exactly <fr:ref addr="hodge-theory-iii-5.2.7.1" href="hodge-theory-iii-5.2.7.1.xml" taxon="Equation" number="5.2.7.1" />.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,92 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>846</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.4.3</fr:addr><fr:route>hodge-theory-ii-1.2.4.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.4.3</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)         = A^{p,q}.       \tag{1.2.4.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>847</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.4</fr:addr><fr:route>hodge-theory-ii-1.2.4.xml</fr:route><fr:authors /><fr:number>1.2.4</fr:number><fr:parent>hodge-theory-ii-1.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[A^{p,q}]]></fr:tex> is a bigraded object of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> such that
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>851</fr:anchor>
+    <fr:addr type="user">hodge-theory-ii-1.2.4.3</fr:addr>
+    <fr:route>hodge-theory-ii-1.2.4.3.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>1.2.4.3</fr:number>
+    <fr:parent>hodge-theory-ii-1.2.4</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[         \operatorname {Gr}_F^p\operatorname {Gr}_{\overline {F}}^q(A)         = A^{p,q}.       \tag{1.2.4.3}       ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>852</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.2.4</fr:addr>
+            <fr:route>hodge-theory-ii-1.2.4.xml</fr:route>
+            <fr:authors />
+            <fr:number>1.2.4</fr:number>
+            <fr:parent>hodge-theory-ii-1.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>If <fr:tex display="inline"><![CDATA[A^{p,q}]]></fr:tex> is a bigraded object of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> such that
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        <fr:tex
-display="inline"><![CDATA[A^{p,q}=0]]></fr:tex> except for a finite number of pairs <fr:tex
-display="inline"><![CDATA[(p,q)]]></fr:tex>, and
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        <fr:tex display="inline"><![CDATA[A^{p,q}=0]]></fr:tex> except for a finite number of pairs <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex>, and
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        <fr:tex
-display="inline"><![CDATA[A^{p,q}=0]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[p+q\neq  n]]></fr:tex>
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        <fr:tex display="inline"><![CDATA[A^{p,q}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[p+q\neq  n]]></fr:tex>
       </html:li>
 
     </html:ol>
 
 
     
-    then we define two <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-opposite filtrations of <fr:tex
-display="inline"><![CDATA[A=\sum _{p,q}A^{p,q}]]></fr:tex> by setting
+    then we define two <fr:tex display="inline"><![CDATA[n]]></fr:tex>-opposite filtrations of <fr:tex display="inline"><![CDATA[A=\sum _{p,q}A^{p,q}]]></fr:tex> by setting
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>754</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.4.1</fr:addr><fr:route>hodge-theory-ii-1.2.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.4.1</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         F^p(A)         = \sum _{p'\geqslant  p} A^{p',q'}       \tag{1.2.4.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>759</fr:anchor><fr:addr type="user">hodge-theory-ii-1.2.4.1</fr:addr><fr:route>hodge-theory-ii-1.2.4.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.4.1</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         F^p(A)         = \sum _{p'\geqslant  p} A^{p',q'}       \tag{1.2.4.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>755</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.4.2</fr:addr><fr:route>hodge-theory-ii-1.2.4.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.4.2</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \bar {F}^q(A)         = \sum _{q'\geqslant  q} A^{p',q'}.       \tag{1.2.4.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>760</fr:anchor><fr:addr type="user">hodge-theory-ii-1.2.4.2</fr:addr><fr:route>hodge-theory-ii-1.2.4.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.4.2</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \overline {F}^q(A)         = \sum _{q'\geqslant  q} A^{p',q'}.       \tag{1.2.4.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     We have
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>756</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.2.4.3</fr:addr><fr:route>hodge-theory-ii-1.2.4.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.4.3</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {Gr}_F^p\operatorname {Gr}_{\bar {F}}^q(A)         = A^{p,q}.       \tag{1.2.4.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>761</fr:anchor><fr:addr type="user">hodge-theory-ii-1.2.4.3</fr:addr><fr:route>hodge-theory-ii-1.2.4.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.4.3</fr:number><fr:parent>hodge-theory-ii-1.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {Gr}_F^p\operatorname {Gr}_{\overline {F}}^q(A)         = A^{p,q}.       \tag{1.2.4.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

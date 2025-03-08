@@ -1,574 +1,378 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2367</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.8</fr:addr><fr:route>hodge-theory-iii-5.3.8.xml</fr:route><fr:authors /><fr:number>5.3.8</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be as in (IV) of <fr:ref
-addr="hodge-theory-iii-5.3.5"
-href="hodge-theory-iii-5.3.5.xml"
-number="5.3.5" />.
-    We say that <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em>proper <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover</fr:em> of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> if the arrows in <fr:ref
-addr="hodge-theory-iii-5.3.5.1"
-href="hodge-theory-iii-5.3.5.1.xml"
-taxon="Equation"
-number="5.3.5.1" /> are proper and surjective.
-    For <fr:tex
-display="inline"><![CDATA[k=\infty ]]></fr:tex>, we simply say "proper hypercover".</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2368</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3</fr:addr><fr:route>hodge-theory-iii-5.3.xml</fr:route><fr:title
-text="Hodge Theory III › Cohomological descent › Cohomological descent"><fr:link
-type="local"
-href="hodge-theory-iii-5.xml"
-addr="hodge-theory-iii-5"
-title="Hodge Theory III › Cohomological descent"><fr:link
-type="local"
-href="hodge-theory-iii.xml"
-addr="hodge-theory-iii"
-title="Hodge Theory III">Hodge Theory III</fr:link> › Cohomological descent</fr:link> › Cohomological descent</fr:title><fr:authors /><fr:number>5.3</fr:number><fr:parent>hodge-theory-iii-5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2310</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.1</fr:addr><fr:route>hodge-theory-iii-5.3.1.xml</fr:route><fr:authors /><fr:number>5.3.1</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be an augmented simplicial topological space.
-    For every sheaf <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, we have a morphism
-    <fr:tex
-display="block"><![CDATA[       \varphi \colon  F       \to  a_*a^*F     ]]></fr:tex>
-    from the adjunction <fr:tex
-display="inline"><![CDATA[a^*\dashv  a_*]]></fr:tex>.
-    This morphism derives to a morphism of functors from <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+(S)]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\mathrm {D}^+(S)]]></fr:tex>, namely
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2380</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-5.3.8</fr:addr>
+    <fr:route>hodge-theory-iii-5.3.8.xml</fr:route>
+    <fr:authors />
+    <fr:number>5.3.8</fr:number>
+    <fr:parent>hodge-theory-iii-5.3</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be as in (IV) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />.
+    We say that <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em>proper <fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover</fr:em> of <fr:tex display="inline"><![CDATA[S]]></fr:tex> if the arrows in <fr:ref addr="hodge-theory-iii-5.3.5.1" href="hodge-theory-iii-5.3.5.1.xml" taxon="Equation" number="5.3.5.1" /> are proper and surjective.
+    For <fr:tex display="inline"><![CDATA[k=\infty ]]></fr:tex>, we simply say "proper hypercover".</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2381</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.3</fr:addr>
+            <fr:route>hodge-theory-iii-5.3.xml</fr:route>
+            <fr:title text="Hodge Theory III › Cohomological descent › Cohomological descent"><fr:link type="local" href="hodge-theory-iii-5.xml" addr="hodge-theory-iii-5" title="Hodge Theory III › Cohomological descent"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Cohomological descent</fr:link> › Cohomological descent</fr:title>
+            <fr:authors />
+            <fr:number>5.3</fr:number>
+            <fr:parent>hodge-theory-iii-5</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2322</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-5.3.1</fr:addr>
+                <fr:route>hodge-theory-iii-5.3.1.xml</fr:route>
+                <fr:authors />
+                <fr:number>5.3.1</fr:number>
+                <fr:parent>hodge-theory-iii-5.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be an augmented simplicial topological space.
+    For every sheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[S]]></fr:tex>, we have a morphism
+    <fr:tex display="block"><![CDATA[       \varphi \colon  F       \to  a_*a^*F     ]]></fr:tex>
+    from the adjunction <fr:tex display="inline"><![CDATA[a^*\dashv  a_*]]></fr:tex>.
+    This morphism derives to a morphism of functors from <fr:tex display="inline"><![CDATA[\mathrm {D}^+(S)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\mathrm {D}^+(S)]]></fr:tex>, namely
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2308</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.1.1</fr:addr><fr:route>hodge-theory-iii-5.3.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.1.1</fr:number><fr:parent>hodge-theory-iii-5.3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \varphi \colon \mathrm {Id}         \to  \mathrm {R} a_*a^*.       \tag{5.3.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2311</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.2</fr:addr><fr:route>hodge-theory-iii-5.3.2.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>5.3.2</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We say that <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is of <fr:em>cohomological descent</fr:em> if, for every abelian sheaf <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, we have
-    <fr:tex
-display="block"><![CDATA[       F\xrightarrow {\sim }\operatorname {Ker}({a_0}_*{a_0}^*F\to {a_1}_*{a_1}^*F)     ]]></fr:tex>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2320</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.1.1</fr:addr><fr:route>hodge-theory-iii-5.3.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.1.1</fr:number><fr:parent>hodge-theory-iii-5.3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \varphi \colon \mathrm {Id}         \to  \mathrm {R} a_*a^*.       \tag{5.3.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2323</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-5.3.2</fr:addr>
+                <fr:route>hodge-theory-iii-5.3.2.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>5.3.2</fr:number>
+                <fr:parent>hodge-theory-iii-5.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We say that <fr:tex display="inline"><![CDATA[a]]></fr:tex> is of <fr:em>cohomological descent</fr:em> if, for every abelian sheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[S]]></fr:tex>, we have
+    <fr:tex display="block"><![CDATA[       F\xrightarrow {\sim }\operatorname {Ker}({a_0}_*{a_0}^*F\to {a_1}_*{a_1}^*F)     ]]></fr:tex>
     and
-    <fr:tex
-display="block"><![CDATA[       \mathrm {R}^i a_*a^*F       = 0       \quad \text {for }i>0.     ]]></fr:tex></fr:p><fr:p>This is equivalent to asking that <fr:ref
-addr="hodge-theory-iii-5.3.1.1"
-href="hodge-theory-iii-5.3.1.1.xml"
-taxon="Equation"
-number="5.3.1.1" /> be an isomorphism.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2312</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.3</fr:addr><fr:route>hodge-theory-iii-5.3.3.xml</fr:route><fr:authors /><fr:number>5.3.3</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is of cohomological descent, then, for <fr:tex
-display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>, the canonical map
+    <fr:tex display="block"><![CDATA[       \mathrm {R}^i a_*a^*F       = 0       \quad \text {for }i>0.     ]]></fr:tex></fr:p>
+                <fr:p>This is equivalent to asking that <fr:ref addr="hodge-theory-iii-5.3.1.1" href="hodge-theory-iii-5.3.1.1.xml" taxon="Equation" number="5.3.1.1" /> be an isomorphism.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2324</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-5.3.3</fr:addr>
+                <fr:route>hodge-theory-iii-5.3.3.xml</fr:route>
+                <fr:authors />
+                <fr:number>5.3.3</fr:number>
+                <fr:parent>hodge-theory-iii-5.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>If <fr:tex display="inline"><![CDATA[a]]></fr:tex> is of cohomological descent, then, for <fr:tex display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>, the canonical map
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2276</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.3.1</fr:addr><fr:route>hodge-theory-iii-5.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.1</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \mathrm {R}\Gamma (S,K)         \to  \mathrm {R}\Gamma (S,\mathrm {R} a_*a^*K)         \simeq  \mathrm {R}\Gamma (X_\bullet ,a^*K)       \tag{5.3.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2288</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.3.1</fr:addr><fr:route>hodge-theory-iii-5.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.1</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \mathrm {R}\Gamma (S,K)         \to  \mathrm {R}\Gamma (S,\mathrm {R} a_*a^*K)         \simeq  \mathrm {R}\Gamma (X_\bullet ,a^*K)       \tag{5.3.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     is an isomorphism.
-    In particular, for <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> an abelian sheaf on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, we have a spectral sequence (<fr:ref
-addr="hodge-theory-iii-5.2.3.2"
-href="hodge-theory-iii-5.2.3.2.xml"
-taxon="Equation"
-number="5.2.3.2" />)
+    In particular, for <fr:tex display="inline"><![CDATA[F]]></fr:tex> an abelian sheaf on <fr:tex display="inline"><![CDATA[S]]></fr:tex>, we have a spectral sequence (<fr:ref addr="hodge-theory-iii-5.2.3.2" href="hodge-theory-iii-5.2.3.2.xml" taxon="Equation" number="5.2.3.2" />)
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2277</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.3.2</fr:addr><fr:route>hodge-theory-iii-5.3.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.2</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,a_p^*F)         \Rightarrow  \operatorname {H}^{p+q}(S,F).       \tag{5.3.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>For a complex, we again have, in hypercohomology, a spectral sequence
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2289</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.3.2</fr:addr><fr:route>hodge-theory-iii-5.3.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.2</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,a_p^*F)         \Rightarrow  \operatorname {H}^{p+q}(S,F).       \tag{5.3.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+                <fr:p>For a complex, we again have, in hypercohomology, a spectral sequence
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2278</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.3.3</fr:addr><fr:route>hodge-theory-iii-5.3.3.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.3</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \operatorname {\mathbb {H}}^q(X_p,a_p^*K)         \Rightarrow  \operatorname {\mathbb {H}}^{p+q}(S,K).       \tag{5.3.3.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:p>In both cases, the <fr:tex
-display="inline"><![CDATA[E_1^{\bullet  q}]]></fr:tex> (for fixed <fr:tex
-display="inline"><![CDATA[q]]></fr:tex>) form a simplicial group, and
-    <fr:tex
-display="block"><![CDATA[       d_1       = \sum _i (-1)^i\delta _i       \colon  E_1^{p,q}       \to  E_1^{p+1,q}.     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2313</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.4</fr:addr><fr:route>hodge-theory-iii-5.3.4.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>5.3.4</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>A continuous map <fr:tex
-display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> is of <fr:em>cohomological descent</fr:em> if the augmentation morphism of <fr:tex
-display="inline"><![CDATA[\operatorname {cosq}(X\to  S)]]></fr:tex>, namely
-    <fr:tex
-display="block"><![CDATA[       \big ((X/S)^{\Delta _n}\big )_{n\geqslant 0}       \to  S,     ]]></fr:tex>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2290</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.3.3</fr:addr><fr:route>hodge-theory-iii-5.3.3.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.3.3</fr:number><fr:parent>hodge-theory-iii-5.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {\mathbb {H}}^q(X_p,a_p^*K)         \Rightarrow  \operatorname {\mathbb {H}}^{p+q}(S,K).       \tag{5.3.3.3}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+                <fr:p>In both cases, the <fr:tex display="inline"><![CDATA[E_1^{\bullet  q}]]></fr:tex> (for fixed <fr:tex display="inline"><![CDATA[q]]></fr:tex>) form a simplicial group, and
+    <fr:tex display="block"><![CDATA[       d_1       = \sum _i (-1)^i\delta _i       \colon  E_1^{p,q}       \to  E_1^{p+1,q}.     ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2325</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-5.3.4</fr:addr>
+                <fr:route>hodge-theory-iii-5.3.4.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>5.3.4</fr:number>
+                <fr:parent>hodge-theory-iii-5.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>A continuous map <fr:tex display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> is of <fr:em>cohomological descent</fr:em> if the augmentation morphism of <fr:tex display="inline"><![CDATA[\operatorname {cosq}(X\to  S)]]></fr:tex>, namely
+    <fr:tex display="block"><![CDATA[       \big ((X/S)^{\Delta _n}\big )_{n\geqslant 0}       \to  S,     ]]></fr:tex>
     is of cohomological descent.
-    We say that <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is of <fr:em>universal cohomological descent</fr:em> if, for every <fr:tex
-display="inline"><![CDATA[u\colon  S'\to  S]]></fr:tex>, the continuous map <fr:tex
-display="inline"><![CDATA[a'\colon  X\times _S S'\to  S']]></fr:tex> is of cohomological descent.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2314</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.5</fr:addr><fr:route>hodge-theory-iii-5.3.5.xml</fr:route><fr:authors /><fr:number>5.3.5</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The fundamental results, proven in [<fr:link
-type="local"
-href="SD.xml"
-addr="SD"
-title="Techniques de descente cohomologique">SD</fr:link>], are the following.
+    We say that <fr:tex display="inline"><![CDATA[a]]></fr:tex> is of <fr:em>universal cohomological descent</fr:em> if, for every <fr:tex display="inline"><![CDATA[u\colon  S'\to  S]]></fr:tex>, the continuous map <fr:tex display="inline"><![CDATA[a'\colon  X\times _S S'\to  S']]></fr:tex> is of cohomological descent.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2326</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-5.3.5</fr:addr>
+                <fr:route>hodge-theory-iii-5.3.5.xml</fr:route>
+                <fr:authors />
+                <fr:number>5.3.5</fr:number>
+                <fr:parent>hodge-theory-iii-5.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The fundamental results, proven in [<fr:link type="local" href="SD.xml" addr="SD" title="Techniques de descente cohomologique">SD</fr:link>], are the following.
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(I) &quot;">
+ <html:li style="list-style-type: &quot;(I) &quot;">
         The continuous maps of universal cohomological descent form a Grothendieck topology on the category of topological spaces, which we call the <fr:em>universal cohomological descent topology</fr:em>.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(II) &quot;">
-        A proper (<fr:ref
-addr="hodge-theory-iii-0.1"
-href="hodge-theory-iii-0.1.xml"
-number="III.0.1" />) surjective map is of universal cohomological descent.
+ <html:li style="list-style-type: &quot;(II) &quot;">
+        A proper (<fr:ref addr="hodge-theory-iii-0.1" href="hodge-theory-iii-0.1.xml" number="III.0.1" />) surjective map is of universal cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(III) &quot;">
-        A map <fr:tex
-display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> that admits sections locally on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is of universal cohomological descent.
+ <html:li style="list-style-type: &quot;(III) &quot;">
+        A map <fr:tex display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> that admits sections locally on <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of universal cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(IV) &quot;">
-        Let <fr:tex
-display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be a <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated augmented simplicial space (with <fr:tex
-display="inline"><![CDATA[-1\leqslant  k\leqslant \infty ]]></fr:tex>).
-        For <fr:tex
-display="inline"><![CDATA[k\geqslant  n\geqslant -1]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet ]]></fr:tex> be the evident map.
-        We say that <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em><fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
+ <html:li style="list-style-type: &quot;(IV) &quot;">
+        Let <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated augmented simplicial space (with <fr:tex display="inline"><![CDATA[-1\leqslant  k\leqslant \infty ]]></fr:tex>).
+        For <fr:tex display="inline"><![CDATA[k\geqslant  n\geqslant -1]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet ]]></fr:tex> be the evident map.
+        We say that <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em><fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
 
-        <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2117</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2129</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-        (for <fr:tex
-display="inline"><![CDATA[-1\leqslant  n\leqslant  k-1]]></fr:tex>) are of universal cohomological descent.
-        If <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is such a hypercover, then the simplicial space <fr:tex
-display="inline"><![CDATA[\operatorname {cosq}(X_\bullet )]]></fr:tex> augmented over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is of cohomological descent.
+        (for <fr:tex display="inline"><![CDATA[-1\leqslant  n\leqslant  k-1]]></fr:tex>) are of universal cohomological descent.
+        If <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is such a hypercover, then the simplicial space <fr:tex display="inline"><![CDATA[\operatorname {cosq}(X_\bullet )]]></fr:tex> augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(V) &quot;">
-        Let <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-        <fr:tex
-display="block"><![CDATA[           \begin {CD}             X_\bullet  @>a>> Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         ]]></fr:tex>
-        We say that <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex
-display="inline"><![CDATA[X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n]]></fr:tex> are of universal cohomological descent.
-        If <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is such a hypercover then, for every <fr:tex
-display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>,
-        <fr:tex
-display="block"><![CDATA[           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         ]]></fr:tex>
+ <html:li style="list-style-type: &quot;(V) &quot;">
+        Let <fr:tex display="inline"><![CDATA[a]]></fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+        <fr:tex display="block"><![CDATA[           \begin {CD}             X_\bullet  @>a>> Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         ]]></fr:tex>
+        We say that <fr:tex display="inline"><![CDATA[a]]></fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex display="inline"><![CDATA[X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n]]></fr:tex> are of universal cohomological descent.
+        If <fr:tex display="inline"><![CDATA[a]]></fr:tex> is such a hypercover then, for every <fr:tex display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>,
+        <fr:tex display="block"><![CDATA[           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         ]]></fr:tex>
       </html:li>
 
-    </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2315</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.6</fr:addr><fr:route>hodge-theory-iii-5.3.6.xml</fr:route><fr:authors /><fr:number>5.3.6</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
-display="inline"><![CDATA[k=\infty ]]></fr:tex>, (IV) of <fr:ref
-addr="hodge-theory-iii-5.3.5"
-href="hodge-theory-iii-5.3.5.xml"
-number="5.3.5" /> implies that the <fr:tex
-display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> are of cohomological descent if the <fr:tex
-display="inline"><![CDATA[(\varphi _n)_{n+1}]]></fr:tex> are of universal cohomological descent.
-    For <fr:tex
-display="inline"><![CDATA[n=-1,0]]></fr:tex>, these maps are
-    <fr:tex
-display="block"><![CDATA[       (\varphi _n)_{n+1}       =       \begin {cases}         X_0\xrightarrow {a}S         &\text {if }n=-1       \\X_1\xrightarrow {(\delta _0,\delta _1)}X_0\times _S X_0         &\text {if }n=0.       \end {cases}     ]]></fr:tex>
+    </html:ol></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2327</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-5.3.6</fr:addr>
+                <fr:route>hodge-theory-iii-5.3.6.xml</fr:route>
+                <fr:authors />
+                <fr:number>5.3.6</fr:number>
+                <fr:parent>hodge-theory-iii-5.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>For <fr:tex display="inline"><![CDATA[k=\infty ]]></fr:tex>, (IV) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" /> implies that the <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> are of cohomological descent if the <fr:tex display="inline"><![CDATA[(\varphi _n)_{n+1}]]></fr:tex> are of universal cohomological descent.
+    For <fr:tex display="inline"><![CDATA[n=-1,0]]></fr:tex>, these maps are
+    <fr:tex display="block"><![CDATA[       (\varphi _n)_{n+1}       =       \begin {cases}         X_0\xrightarrow {a}S         &\text {if }n=-1       \\X_1\xrightarrow {(\delta _0,\delta _1)}X_0\times _S X_0         &\text {if }n=0.       \end {cases}     ]]></fr:tex>
     
-    For <fr:tex
-display="inline"><![CDATA[n=1]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[(\operatorname {cosq}\operatorname {sq}_1(X_\bullet ))_1]]></fr:tex> is the subspace of <fr:tex
-display="inline"><![CDATA[X_1\times _S X_1\times _S X_1]]></fr:tex> consisting of the triples <fr:tex
-display="inline"><![CDATA[(x,y,z)]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\delta _0x=\delta _0y]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\delta _1x=\delta _0z]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\delta _1y=\delta _1z]]></fr:tex>.
-    The map <fr:tex
-display="inline"><![CDATA[(\varphi _1)_2]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[x\mapsto (\delta _0x,\delta _1x,\delta _2x)]]></fr:tex>.</fr:p><fr:p>For <fr:tex
-display="inline"><![CDATA[k=0]]></fr:tex>, (IV) of <fr:ref
-addr="hodge-theory-iii-5.3.5"
-href="hodge-theory-iii-5.3.5.xml"
-number="5.3.5" /> is <fr:ref
-addr="hodge-theory-iii-5.3.4"
-href="hodge-theory-iii-5.3.4.xml"
-taxon="Definition"
-number="5.3.4" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2316</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.7</fr:addr><fr:route>hodge-theory-iii-5.3.7.xml</fr:route><fr:taxon>Example</fr:taxon><fr:authors /><fr:number>5.3.7</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathscr {U}=(U_i)_{i\in  I}]]></fr:tex> be an open cover, or a finite locally closed cover, of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-    Let <fr:tex
-display="inline"><![CDATA[X=\coprod _{i\in  I}U_i]]></fr:tex>.
-    Then <fr:tex
-display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> is of cohomological descent.
-    The spectral sequence in <fr:ref
-addr="hodge-theory-iii-5.3.3.2"
-href="hodge-theory-iii-5.3.3.2.xml"
-taxon="Equation"
-number="5.3.3.2" /> for <fr:tex
-display="inline"><![CDATA[X_\bullet =\operatorname {cosq}(X\to  S)]]></fr:tex> is then exactly the Leray spectral sequence of the cover <fr:tex
-display="inline"><![CDATA[\mathscr {U}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2317</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.8</fr:addr><fr:route>hodge-theory-iii-5.3.8.xml</fr:route><fr:authors /><fr:number>5.3.8</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be as in (IV) of <fr:ref
-addr="hodge-theory-iii-5.3.5"
-href="hodge-theory-iii-5.3.5.xml"
-number="5.3.5" />.
-    We say that <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em>proper <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover</fr:em> of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> if the arrows in <fr:ref
-addr="hodge-theory-iii-5.3.5.1"
-href="hodge-theory-iii-5.3.5.1.xml"
-taxon="Equation"
-number="5.3.5.1" /> are proper and surjective.
-    For <fr:tex
-display="inline"><![CDATA[k=\infty ]]></fr:tex>, we simply say "proper hypercover".</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2369</fr:anchor><fr:addr
-type="user">hodge-theory-iii-6.2.5</fr:addr><fr:route>hodge-theory-iii-6.2.5.xml</fr:route><fr:authors /><fr:number>6.2.5</fr:number><fr:parent>hodge-theory-iii-6.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:ref
-addr="hodge-theory-iii-6.2.4"
-href="hodge-theory-iii-6.2.4.xml"
-taxon="Proposition"
-number="6.2.4" /> allows us to construct, by induction, proper hypercovers of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+    For <fr:tex display="inline"><![CDATA[n=1]]></fr:tex>, <fr:tex display="inline"><![CDATA[(\operatorname {cosq}\operatorname {sq}_1(X_\bullet ))_1]]></fr:tex> is the subspace of <fr:tex display="inline"><![CDATA[X_1\times _S X_1\times _S X_1]]></fr:tex> consisting of the triples <fr:tex display="inline"><![CDATA[(x,y,z)]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\delta _0x=\delta _0y]]></fr:tex>, <fr:tex display="inline"><![CDATA[\delta _1x=\delta _0z]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\delta _1y=\delta _1z]]></fr:tex>.
+    The map <fr:tex display="inline"><![CDATA[(\varphi _1)_2]]></fr:tex> is <fr:tex display="inline"><![CDATA[x\mapsto (\delta _0x,\delta _1x,\delta _2x)]]></fr:tex>.</fr:p>
+                <fr:p>For <fr:tex display="inline"><![CDATA[k=0]]></fr:tex>, (IV) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" /> is <fr:ref addr="hodge-theory-iii-5.3.4" href="hodge-theory-iii-5.3.4.xml" taxon="Definition" number="5.3.4" />.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2328</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-5.3.7</fr:addr>
+                <fr:route>hodge-theory-iii-5.3.7.xml</fr:route>
+                <fr:taxon>Example</fr:taxon>
+                <fr:authors />
+                <fr:number>5.3.7</fr:number>
+                <fr:parent>hodge-theory-iii-5.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[\mathscr {U}=(U_i)_{i\in  I}]]></fr:tex> be an open cover, or a finite locally closed cover, of <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+    Let <fr:tex display="inline"><![CDATA[X=\coprod _{i\in  I}U_i]]></fr:tex>.
+    Then <fr:tex display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> is of cohomological descent.
+    The spectral sequence in <fr:ref addr="hodge-theory-iii-5.3.3.2" href="hodge-theory-iii-5.3.3.2.xml" taxon="Equation" number="5.3.3.2" /> for <fr:tex display="inline"><![CDATA[X_\bullet =\operatorname {cosq}(X\to  S)]]></fr:tex> is then exactly the Leray spectral sequence of the cover <fr:tex display="inline"><![CDATA[\mathscr {U}]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2329</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-5.3.8</fr:addr>
+                <fr:route>hodge-theory-iii-5.3.8.xml</fr:route>
+                <fr:authors />
+                <fr:number>5.3.8</fr:number>
+                <fr:parent>hodge-theory-iii-5.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be as in (IV) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />.
+    We say that <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em>proper <fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover</fr:em> of <fr:tex display="inline"><![CDATA[S]]></fr:tex> if the arrows in <fr:ref addr="hodge-theory-iii-5.3.5.1" href="hodge-theory-iii-5.3.5.1.xml" taxon="Equation" number="5.3.5.1" /> are proper and surjective.
+    For <fr:tex display="inline"><![CDATA[k=\infty ]]></fr:tex>, we simply say "proper hypercover".</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2382</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-6.2.5</fr:addr>
+            <fr:route>hodge-theory-iii-6.2.5.xml</fr:route>
+            <fr:authors />
+            <fr:number>6.2.5</fr:number>
+            <fr:parent>hodge-theory-iii-6.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p><fr:ref addr="hodge-theory-iii-6.2.4" href="hodge-theory-iii-6.2.4.xml" taxon="Proposition" number="6.2.4" /> allows us to construct, by induction, proper hypercovers of <fr:tex display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
     
- <html:li
-style="list-style-type: &quot;(0) &quot;">
-      We take <fr:tex
-display="inline"><![CDATA[f_0\colon  X_0\to  S]]></fr:tex>, proper and surjective.
-      Then <fr:tex
-display="inline"><![CDATA[\{X_0\}]]></fr:tex> is a <fr:tex
-display="inline"><![CDATA[0]]></fr:tex>-truncated proper hypercover of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> (<fr:ref
-addr="hodge-theory-iii-5.3.8"
-href="hodge-theory-iii-5.3.8.xml"
-number="5.3.8" />), and it is <fr:tex
-display="inline"><![CDATA[s]]></fr:tex>-split.
+ <html:li style="list-style-type: &quot;(0) &quot;">
+      We take <fr:tex display="inline"><![CDATA[f_0\colon  X_0\to  S]]></fr:tex>, proper and surjective.
+      Then <fr:tex display="inline"><![CDATA[\{X_0\}]]></fr:tex> is a <fr:tex display="inline"><![CDATA[0]]></fr:tex>-truncated proper hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex> (<fr:ref addr="hodge-theory-iii-5.3.8" href="hodge-theory-iii-5.3.8.xml" number="5.3.8" />), and it is <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split.
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(1) &quot;">
-      We take <fr:tex
-display="inline"><![CDATA[f_1\colon  N_1\to \operatorname {cosq}(\{X_0\})_1]]></fr:tex>, i.e. <fr:tex
-display="inline"><![CDATA[f_1\colon  N_1\to  X_0\times _S X_0]]></fr:tex>.
-      Applying <fr:ref
-addr="hodge-theory-iii-6.2.4"
-href="hodge-theory-iii-6.2.4.xml"
-taxon="Proposition"
-number="6.2.4" />, we associate to <fr:tex
-display="inline"><![CDATA[f_1]]></fr:tex> the <fr:tex
-display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>-truncated augmented simplicial topological space
-      <fr:tex
-display="block"><![CDATA[         {}_1X_\bullet          = \left (         N_1{\textstyle \coprod } X_0         \xleftarrow [\to ]{\to } X_0         \to  S         \right ).       ]]></fr:tex>
-      Suppose <fr:tex
-display="inline"><![CDATA[f_1]]></fr:tex> to be chosen such that
-      <fr:tex
-display="block"><![CDATA[         f'_1         \colon  N_1{\textstyle \coprod } X_0\to  X_0\times _S X_0       ]]></fr:tex>
-      is proper and surjective (for example, if <fr:tex
-display="inline"><![CDATA[f_1]]></fr:tex> is proper and surjective).
-      Then <fr:tex
-display="inline"><![CDATA[{}_1X_\bullet ]]></fr:tex> is an <fr:tex
-display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>-truncated proper hypercover of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(1) &quot;">
+      We take <fr:tex display="inline"><![CDATA[f_1\colon  N_1\to \operatorname {cosq}(\{X_0\})_1]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[f_1\colon  N_1\to  X_0\times _S X_0]]></fr:tex>.
+      Applying <fr:ref addr="hodge-theory-iii-6.2.4" href="hodge-theory-iii-6.2.4.xml" taxon="Proposition" number="6.2.4" />, we associate to <fr:tex display="inline"><![CDATA[f_1]]></fr:tex> the <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex display="inline"><![CDATA[1]]></fr:tex>-truncated augmented simplicial topological space
+      <fr:tex display="block"><![CDATA[         {}_1X_\bullet          = \left (         N_1{\textstyle \coprod } X_0         \xleftarrow [\to ]{\to } X_0         \to  S         \right ).       ]]></fr:tex>
+      Suppose <fr:tex display="inline"><![CDATA[f_1]]></fr:tex> to be chosen such that
+      <fr:tex display="block"><![CDATA[         f'_1         \colon  N_1{\textstyle \coprod } X_0\to  X_0\times _S X_0       ]]></fr:tex>
+      is proper and surjective (for example, if <fr:tex display="inline"><![CDATA[f_1]]></fr:tex> is proper and surjective).
+      Then <fr:tex display="inline"><![CDATA[{}_1X_\bullet ]]></fr:tex> is an <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex display="inline"><![CDATA[1]]></fr:tex>-truncated proper hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(k+1) &quot;">
-      Assume that we have already constructed an <fr:tex
-display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated proper hypercover <fr:tex
-display="inline"><![CDATA[{}_kX_\bullet \to  S]]></fr:tex>.
-      We take <fr:tex
-display="inline"><![CDATA[f_{k+1}\colon  N_{k+1}\to (\operatorname {cosq}({}_kX_\bullet ))_{k+1}]]></fr:tex> and, applying <fr:ref
-addr="hodge-theory-iii-6.2.4"
-href="hodge-theory-iii-6.2.4.xml"
-taxon="Proposition"
-number="6.2.4" />, we associate to <fr:tex
-display="inline"><![CDATA[f_{k+1}]]></fr:tex> an <fr:tex
-display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex
-display="inline"><![CDATA[(k+1)]]></fr:tex>-truncated augmented semi-simplicial space <fr:tex
-display="inline"><![CDATA[{}_{k+1}X_\bullet ]]></fr:tex>.
-      Suppose that <fr:tex
-display="inline"><![CDATA[f_{k+1}]]></fr:tex> is such that
-      <fr:tex
-display="block"><![CDATA[         f'_{k+1}         \colon  {}_{k+1}X_{k+1}         \to  \operatorname {cosq}({}_kX_\bullet )_{k+1}       ]]></fr:tex>
-      is proper and surjective (for example, if <fr:tex
-display="inline"><![CDATA[f_{k+1}]]></fr:tex> is proper and surjective).
-      Then <fr:tex
-display="inline"><![CDATA[{}_{k+1}X_\bullet ]]></fr:tex> is an <fr:tex
-display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex
-display="inline"><![CDATA[(k+1)]]></fr:tex>-truncated proper hypercover of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(k+1) &quot;">
+      Assume that we have already constructed an <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated proper hypercover <fr:tex display="inline"><![CDATA[{}_kX_\bullet \to  S]]></fr:tex>.
+      We take <fr:tex display="inline"><![CDATA[f_{k+1}\colon  N_{k+1}\to (\operatorname {cosq}({}_kX_\bullet ))_{k+1}]]></fr:tex> and, applying <fr:ref addr="hodge-theory-iii-6.2.4" href="hodge-theory-iii-6.2.4.xml" taxon="Proposition" number="6.2.4" />, we associate to <fr:tex display="inline"><![CDATA[f_{k+1}]]></fr:tex> an <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-truncated augmented semi-simplicial space <fr:tex display="inline"><![CDATA[{}_{k+1}X_\bullet ]]></fr:tex>.
+      Suppose that <fr:tex display="inline"><![CDATA[f_{k+1}]]></fr:tex> is such that
+      <fr:tex display="block"><![CDATA[         f'_{k+1}         \colon  {}_{k+1}X_{k+1}         \to  \operatorname {cosq}({}_kX_\bullet )_{k+1}       ]]></fr:tex>
+      is proper and surjective (for example, if <fr:tex display="inline"><![CDATA[f_{k+1}]]></fr:tex> is proper and surjective).
+      Then <fr:tex display="inline"><![CDATA[{}_{k+1}X_\bullet ]]></fr:tex> is an <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-truncated proper hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
     </html:li>
 
 
     
- <html:li
-style="list-style-type: &quot;(∞) &quot;">
-      The <fr:tex
-display="inline"><![CDATA[{}_kX_\bullet ]]></fr:tex> thus constructed are the successive skeletons of an <fr:tex
-display="inline"><![CDATA[s]]></fr:tex>-split proper hypercover of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(∞) &quot;">
+      The <fr:tex display="inline"><![CDATA[{}_kX_\bullet ]]></fr:tex> thus constructed are the successive skeletons of an <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split proper hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
     </html:li>
 
   </html:ol>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2375</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.5</fr:addr><fr:route>hodge-theory-iii-5.3.5.xml</fr:route><fr:authors /><fr:number>5.3.5</fr:number><fr:parent>hodge-theory-iii-5.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The fundamental results, proven in [<fr:link
-type="local"
-href="SD.xml"
-addr="SD"
-title="Techniques de descente cohomologique">SD</fr:link>], are the following.
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2388</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.3.5</fr:addr>
+            <fr:route>hodge-theory-iii-5.3.5.xml</fr:route>
+            <fr:authors />
+            <fr:number>5.3.5</fr:number>
+            <fr:parent>hodge-theory-iii-5.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The fundamental results, proven in [<fr:link type="local" href="SD.xml" addr="SD" title="Techniques de descente cohomologique">SD</fr:link>], are the following.
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(I) &quot;">
+ <html:li style="list-style-type: &quot;(I) &quot;">
         The continuous maps of universal cohomological descent form a Grothendieck topology on the category of topological spaces, which we call the <fr:em>universal cohomological descent topology</fr:em>.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(II) &quot;">
-        A proper (<fr:ref
-addr="hodge-theory-iii-0.1"
-href="hodge-theory-iii-0.1.xml"
-number="III.0.1" />) surjective map is of universal cohomological descent.
+ <html:li style="list-style-type: &quot;(II) &quot;">
+        A proper (<fr:ref addr="hodge-theory-iii-0.1" href="hodge-theory-iii-0.1.xml" number="III.0.1" />) surjective map is of universal cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(III) &quot;">
-        A map <fr:tex
-display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> that admits sections locally on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is of universal cohomological descent.
+ <html:li style="list-style-type: &quot;(III) &quot;">
+        A map <fr:tex display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> that admits sections locally on <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of universal cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(IV) &quot;">
-        Let <fr:tex
-display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be a <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated augmented simplicial space (with <fr:tex
-display="inline"><![CDATA[-1\leqslant  k\leqslant \infty ]]></fr:tex>).
-        For <fr:tex
-display="inline"><![CDATA[k\geqslant  n\geqslant -1]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet ]]></fr:tex> be the evident map.
-        We say that <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em><fr:tex
-display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
+ <html:li style="list-style-type: &quot;(IV) &quot;">
+        Let <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated augmented simplicial space (with <fr:tex display="inline"><![CDATA[-1\leqslant  k\leqslant \infty ]]></fr:tex>).
+        For <fr:tex display="inline"><![CDATA[k\geqslant  n\geqslant -1]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet ]]></fr:tex> be the evident map.
+        We say that <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em><fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
 
-        <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2117</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2129</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-        (for <fr:tex
-display="inline"><![CDATA[-1\leqslant  n\leqslant  k-1]]></fr:tex>) are of universal cohomological descent.
-        If <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex> is such a hypercover, then the simplicial space <fr:tex
-display="inline"><![CDATA[\operatorname {cosq}(X_\bullet )]]></fr:tex> augmented over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is of cohomological descent.
+        (for <fr:tex display="inline"><![CDATA[-1\leqslant  n\leqslant  k-1]]></fr:tex>) are of universal cohomological descent.
+        If <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is such a hypercover, then the simplicial space <fr:tex display="inline"><![CDATA[\operatorname {cosq}(X_\bullet )]]></fr:tex> augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of cohomological descent.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(V) &quot;">
-        Let <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.
-        <fr:tex
-display="block"><![CDATA[           \begin {CD}             X_\bullet  @>a>> Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         ]]></fr:tex>
-        We say that <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex
-display="inline"><![CDATA[X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n]]></fr:tex> are of universal cohomological descent.
-        If <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is such a hypercover then, for every <fr:tex
-display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>,
-        <fr:tex
-display="block"><![CDATA[           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         ]]></fr:tex>
+ <html:li style="list-style-type: &quot;(V) &quot;">
+        Let <fr:tex display="inline"><![CDATA[a]]></fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+        <fr:tex display="block"><![CDATA[           \begin {CD}             X_\bullet  @>a>> Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         ]]></fr:tex>
+        We say that <fr:tex display="inline"><![CDATA[a]]></fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex display="inline"><![CDATA[X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n]]></fr:tex> are of universal cohomological descent.
+        If <fr:tex display="inline"><![CDATA[a]]></fr:tex> is such a hypercover then, for every <fr:tex display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>,
+        <fr:tex display="block"><![CDATA[           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         ]]></fr:tex>
       </html:li>
 
-    </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2376</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2389</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.3.5.1</fr:addr>
+            <fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route>
+            <fr:taxon>Equation</fr:taxon>
+            <fr:authors />
+            <fr:number>5.3.5.1</fr:number>
+            <fr:parent>hodge-theory-iii-5.3.5</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tex display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

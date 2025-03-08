@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3013</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-8.3.5</fr:addr>
+    <fr:route>hodge-theory-iii-8.3.5.xml</fr:route>
+    <fr:taxon>Proposition</fr:taxon>
+    <fr:authors />
+    <fr:number>8.3.5</fr:number>
+    <fr:parent>hodge-theory-iii-8.3</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a separated simplicial scheme</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3014</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.3</fr:addr>
+            <fr:route>hodge-theory-iii-8.3.xml</fr:route>
+            <fr:title text="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes"><fr:link type="local" href="hodge-theory-iii-8.xml" addr="hodge-theory-iii-8" title="Hodge Theory III › Hodge theory of algebraic spaces"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory of algebraic spaces</fr:link> › Hodge theory of simplicial schemes</fr:title>
+            <fr:authors />
+            <fr:number>8.3</fr:number>
+            <fr:parent>hodge-theory-iii-8</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2987</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.3.1</fr:addr>
+                <fr:route>hodge-theory-iii-8.3.1.xml</fr:route>
+                <fr:authors />
+                <fr:number>8.3.1</fr:number>
+                <fr:parent>hodge-theory-iii-8.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>For a separated simplicial scheme (or separated simplicial algebraic space) <fr:tex display="inline"><![CDATA[X^\bullet ]]></fr:tex>, we will have to consider diagrams
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2494</fr:anchor><fr:addr type="user">hodge-theory-iii-8.3.1.1</fr:addr><fr:route>hodge-theory-iii-8.3.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.3.1.1</fr:number><fr:parent>hodge-theory-iii-8.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:embedded-tex hash="385923405a7e2f06d2faa5b3b9efa8e5"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        X_\bullet 
+          \ar [r,hook,"j"]
+          \ar [d,swap,"p"]
+        & \overline {Z}_\bullet 
+      \\X_\bullet 
+        && (8.3.1.1)
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+
+    of simplicial schemes satisfying:
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        The morphism <fr:tex display="inline"><![CDATA[j]]></fr:tex> is an open immersion with dense image; <fr:tex display="inline"><![CDATA[\overline {Z}_\bullet ]]></fr:tex> is proper.
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        The evident morphisms <fr:tex display="inline"><![CDATA[Z_n\to (\operatorname {cosq}_{n-1}^{X_\bullet }\operatorname {sq}_{n-1}Z_\bullet )_n]]></fr:tex> are proper and surjective.
+      </html:li>
+
+    </html:ol></fr:p>
+                <fr:p>For reduced <fr:tex display="inline"><![CDATA[\overline {Z}_\bullet ]]></fr:tex>, we can consider <fr:tex display="inline"><![CDATA[j]]></fr:tex> as a simplicial object in the category <fr:tex display="inline"><![CDATA[\mathscr {C}]]></fr:tex> of pairs <fr:tex display="inline"><![CDATA[(Y,\overline {Y})]]></fr:tex> consisting of a proper reduced scheme <fr:tex display="inline"><![CDATA[\overline {Y}]]></fr:tex> and a dense (Zariski) open <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[\overline {Y}]]></fr:tex>.
+    The category <fr:tex display="inline"><![CDATA[\mathscr {C}]]></fr:tex> satisfies <fr:ref addr="hodge-theory-iii-6.2.4.1" href="hodge-theory-iii-6.2.4.1.xml" number="6.2.4.1" />, which allows us to apply the analogue of <fr:ref addr="hodge-theory-iii-6.2.4" href="hodge-theory-iii-6.2.4.xml" taxon="Proposition" number="6.2.4" />.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2988</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.3.2</fr:addr>
+                <fr:route>hodge-theory-iii-8.3.2.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>8.3.2</fr:number>
+                <fr:parent>hodge-theory-iii-8.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      For every separated simplicial scheme <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex>, there exists a diagram of the form <fr:ref addr="hodge-theory-iii-8.3.1.1" href="hodge-theory-iii-8.3.1.1.xml" taxon="Equation" number="8.3.1.1" /> that satisfies (a) and (b), and such that <fr:tex display="inline"><![CDATA[\overline {Z}_\bullet ]]></fr:tex> is smooth and proper, and <fr:tex display="inline"><![CDATA[Z_\bullet ]]></fr:tex> is the complement of a normal crossing divisor.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      Let <fr:tex display="inline"><![CDATA[F\colon  {X_\bullet }_1\to {X_\bullet }_2]]></fr:tex> be a morphism of separated simplicial schemes.
+      Let <fr:tex display="inline"><![CDATA[({X_\bullet }_i,{Z_\bullet }_i,{\overline {Z}_\bullet }_i)_{i=1,2}]]></fr:tex> be diagrams of the form <fr:ref addr="hodge-theory-iii-8.3.1.1" href="hodge-theory-iii-8.3.1.1.xml" taxon="Equation" number="8.3.1.1" /> that satisfy (a) and (b).
+      Then there exists <fr:tex display="inline"><![CDATA[({X_\bullet }_1,Z_\bullet ,\overline {Z}_\bullet )]]></fr:tex> as in (i), and a commutative diagram
+
+      
+  <fr:embedded-tex hash="2b420f7e5ffa8e6152a386f2b77a3007"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        Z_\bullet 
+          \ar [r,hook]
+          \ar [d]
+          \ar [drr]
+        & \overline {Z}_\bullet 
+          \ar [d]
+          \ar [drr]
+      \\{Z_\bullet }_1
+          \ar [r,hook,swap,"j_1"]
+          \ar [d,swap,"p_1"]
+        & {\overline {Z}_\bullet }_1
+        & {Z_\bullet }_2
+          \ar [r,hook,swap,"j_2"]
+          \ar [d,swap,"p_2"]
+        & {\overline {Z}_\bullet }_2
+      \\{X_\bullet }_1
+          \ar [rr,"f"]
+        && {X_\bullet }_2
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+    </html:li>
+
+  </html:ol>
+
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2509</fr:anchor><fr:addr type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof, which is a more complicated analogue of <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" />, is left to the reader.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2989</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.3.3</fr:addr>
+                <fr:route>hodge-theory-iii-8.3.3.xml</fr:route>
+                <fr:authors />
+                <fr:number>8.3.3</fr:number>
+                <fr:parent>hodge-theory-iii-8.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Consider a diagram of the form <fr:ref addr="hodge-theory-iii-8.3.1.1" href="hodge-theory-iii-8.3.1.1.xml" taxon="Equation" number="8.3.1.1" /> as in (ii) of <fr:ref addr="hodge-theory-iii-8.3.2" href="hodge-theory-iii-8.3.2.xml" taxon="Proposition" number="8.3.2" />.
+    By (V) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />, the map <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet {(X_\bullet ,\mathbb {Z})\to \operatorname {H}^\bullet (Z_\bullet ,\mathbb {Z})}]]></fr:tex> is an isomorphism.
+    In <fr:ref addr="hodge-theory-iii-8.1.19" href="hodge-theory-iii-8.1.19.xml" number="8.1.19" /> and <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />, we endowed <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Z_\bullet ,\mathbb {Z})]]></fr:tex> with a mixed Hodge structure, and obtained a mixed Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X_\bullet ,\mathbb {Z})]]></fr:tex>.
+    
+    This is independent of the choice of diagram of the form <fr:ref addr="hodge-theory-iii-8.3.1.1" href="hodge-theory-iii-8.3.1.1.xml" taxon="Equation" number="8.3.1.1" />: by (ii) of <fr:ref addr="hodge-theory-iii-8.3.2" href="hodge-theory-iii-8.3.2.xml" taxon="Proposition" number="8.3.2" /> for <fr:tex display="inline"><![CDATA[f=\mathrm {Id}]]></fr:tex>. any two systems <fr:tex display="inline"><![CDATA[({Z_\bullet }_i,{\overline {Z}_\bullet }_i,p_i)_{i=1,2}]]></fr:tex> are always covered by a third <fr:tex display="inline"><![CDATA[(Z_\bullet ,\overline {Z}_\bullet ,p)]]></fr:tex>, whence a commutative diagram of isomorphisms
+
+    
+  <fr:embedded-tex hash="d4632a0f985d07c9e3b6a7c7500bdc0c"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+      & \operatorname {H}^\bullet (X_\bullet ,\mathbb {Z})
+        \ar [dl] \ar [d] \ar [dr]
+    \\\operatorname {H}^\bullet ({Z_\bullet }_1,\mathbb {Z})
+        \ar [r]
+      & \operatorname {H}^\bullet (Z_\bullet ,\mathbb {Z})
+      & \operatorname {H}^\bullet ({Z_\bullet }_2,\mathbb {Z})
+        \ar [l]
+    \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2990</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.3.4</fr:addr>
+                <fr:route>hodge-theory-iii-8.3.4.xml</fr:route>
+                <fr:taxon>Definition</fr:taxon>
+                <fr:authors />
+                <fr:number>8.3.4</fr:number>
+                <fr:parent>hodge-theory-iii-8.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The <fr:em>mixed Hodge structure</fr:em> of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X_\bullet ,\mathbb {Z})]]></fr:tex> is the one defined above.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>It follows from (ii) of <fr:ref addr="hodge-theory-iii-8.3.2" href="hodge-theory-iii-8.3.2.xml" taxon="Proposition" number="8.3.2" /> that this mixed Hodge structure is functorial in <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex>.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2991</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-8.3.5</fr:addr>
+                <fr:route>hodge-theory-iii-8.3.5.xml</fr:route>
+                <fr:taxon>Proposition</fr:taxon>
+                <fr:authors />
+                <fr:number>8.3.5</fr:number>
+                <fr:parent>hodge-theory-iii-8.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a separated simplicial scheme</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

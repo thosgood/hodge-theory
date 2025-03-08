@@ -1,239 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2268</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2269</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.3</fr:addr><fr:route>hodge-theory-iii-5.2.3.xml</fr:route><fr:authors /><fr:number>5.2.3</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[F^\bullet ]]></fr:tex> be an abelian sheaf on <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
-    We can show (by example, using (III) of <fr:ref
-addr="hodge-theory-iii-5.1.9"
-href="hodge-theory-iii-5.1.9.xml"
-taxon="Examples"
-number="5.1.9" />) that <fr:tex
-display="inline"><![CDATA[F^\bullet ]]></fr:tex> always admits resolutions <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> on the right such that
-    <fr:tex
-display="block"><![CDATA[       \operatorname {H}^r(X_q,K^{p,q})       =0       \quad \text {for } p,q\geqslant 0 \text { and } r>0.     ]]></fr:tex>
-    If <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is such a resolution, then we canonically have that
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2280</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-5.2.3.1</fr:addr>
+    <fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>5.2.3.1</fr:number>
+    <fr:parent>hodge-theory-iii-5.2.3</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2281</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.2.3</fr:addr>
+            <fr:route>hodge-theory-iii-5.2.3.xml</fr:route>
+            <fr:authors />
+            <fr:number>5.2.3</fr:number>
+            <fr:parent>hodge-theory-iii-5.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[F^\bullet ]]></fr:tex> be an abelian sheaf on <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
+    We can show (by example, using (III) of <fr:ref addr="hodge-theory-iii-5.1.9" href="hodge-theory-iii-5.1.9.xml" taxon="Examples" number="5.1.9" />) that <fr:tex display="inline"><![CDATA[F^\bullet ]]></fr:tex> always admits resolutions <fr:tex display="inline"><![CDATA[K]]></fr:tex> on the right such that
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^r(X_q,K^{p,q})       =0       \quad \text {for } p,q\geqslant 0 \text { and } r>0.     ]]></fr:tex>
+    If <fr:tex display="inline"><![CDATA[K]]></fr:tex> is such a resolution, then we canonically have that
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2189</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2201</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    It is easy to show directly that the right-hand side is independent (up to unique isomorphism) of the choice of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>;
-    for what follows, we are free to <fr:em>define</fr:em> <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (X_\bullet ,F^\bullet )]]></fr:tex> by <fr:ref
-addr="hodge-theory-iii-5.2.3.1"
-href="hodge-theory-iii-5.2.3.1.xml"
-taxon="Equation"
-number="5.2.3.1" />.
-    We can further show that the spectral sequence of the complex <fr:tex
-display="inline"><![CDATA[\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)]]></fr:tex>, filtered by <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> (<fr:ref
-addr="hodge-theory-iii-5.1.9.3"
-href="hodge-theory-iii-5.1.9.3.xml"
-taxon="Equation"
-number="5.1.9.3" /> and <fr:ref
-addr="hodge-theory-iii-5.1.12.2"
-href="hodge-theory-iii-5.1.12.2.xml"
-taxon="Equation"
-number="5.1.12.2" /> for <fr:tex
-display="inline"><![CDATA[S=P^t]]></fr:tex>)
+    It is easy to show directly that the right-hand side is independent (up to unique isomorphism) of the choice of <fr:tex display="inline"><![CDATA[K]]></fr:tex>;
+    for what follows, we are free to <fr:em>define</fr:em> <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X_\bullet ,F^\bullet )]]></fr:tex> by <fr:ref addr="hodge-theory-iii-5.2.3.1" href="hodge-theory-iii-5.2.3.1.xml" taxon="Equation" number="5.2.3.1" />.
+    We can further show that the spectral sequence of the complex <fr:tex display="inline"><![CDATA[\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)]]></fr:tex>, filtered by <fr:tex display="inline"><![CDATA[L]]></fr:tex> (<fr:ref addr="hodge-theory-iii-5.1.9.3" href="hodge-theory-iii-5.1.9.3.xml" taxon="Equation" number="5.1.9.3" /> and <fr:ref addr="hodge-theory-iii-5.1.12.2" href="hodge-theory-iii-5.1.12.2.xml" taxon="Equation" number="5.1.12.2" /> for <fr:tex display="inline"><![CDATA[S=P^t]]></fr:tex>)
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.3.2</fr:addr><fr:route>hodge-theory-iii-5.2.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.2</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,F^p)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,F^\bullet )       \tag{5.2.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2202</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.3.2</fr:addr><fr:route>hodge-theory-iii-5.2.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.2</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,F^p)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,F^\bullet )       \tag{5.2.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    is independent (up to unique isomorphism) of the choice of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> (cf. <fr:ref
-addr="hodge-theory-iii-5.2.1.1"
-href="hodge-theory-iii-5.2.1.1.xml"
-taxon="Equation"
-number="5.2.1.1" />).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2270</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.3</fr:addr><fr:route>hodge-theory-iii-5.2.3.xml</fr:route><fr:authors /><fr:number>5.2.3</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[F^\bullet ]]></fr:tex> be an abelian sheaf on <fr:tex
-display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
-    We can show (by example, using (III) of <fr:ref
-addr="hodge-theory-iii-5.1.9"
-href="hodge-theory-iii-5.1.9.xml"
-taxon="Examples"
-number="5.1.9" />) that <fr:tex
-display="inline"><![CDATA[F^\bullet ]]></fr:tex> always admits resolutions <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> on the right such that
-    <fr:tex
-display="block"><![CDATA[       \operatorname {H}^r(X_q,K^{p,q})       =0       \quad \text {for } p,q\geqslant 0 \text { and } r>0.     ]]></fr:tex>
-    If <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is such a resolution, then we canonically have that
+    is independent (up to unique isomorphism) of the choice of <fr:tex display="inline"><![CDATA[K]]></fr:tex> (cf. <fr:ref addr="hodge-theory-iii-5.2.1.1" href="hodge-theory-iii-5.2.1.1.xml" taxon="Equation" number="5.2.1.1" />).</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2282</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.2.3</fr:addr>
+            <fr:route>hodge-theory-iii-5.2.3.xml</fr:route>
+            <fr:authors />
+            <fr:number>5.2.3</fr:number>
+            <fr:parent>hodge-theory-iii-5.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[F^\bullet ]]></fr:tex> be an abelian sheaf on <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex>.
+    We can show (by example, using (III) of <fr:ref addr="hodge-theory-iii-5.1.9" href="hodge-theory-iii-5.1.9.xml" taxon="Examples" number="5.1.9" />) that <fr:tex display="inline"><![CDATA[F^\bullet ]]></fr:tex> always admits resolutions <fr:tex display="inline"><![CDATA[K]]></fr:tex> on the right such that
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^r(X_q,K^{p,q})       =0       \quad \text {for } p,q\geqslant 0 \text { and } r>0.     ]]></fr:tex>
+    If <fr:tex display="inline"><![CDATA[K]]></fr:tex> is such a resolution, then we canonically have that
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2189</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2201</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.3.1</fr:addr><fr:route>hodge-theory-iii-5.2.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.1</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^n(X_\bullet ,F^\bullet )         \simeq  \operatorname {H}^n(\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)).       \tag{5.2.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    It is easy to show directly that the right-hand side is independent (up to unique isomorphism) of the choice of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>;
-    for what follows, we are free to <fr:em>define</fr:em> <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet (X_\bullet ,F^\bullet )]]></fr:tex> by <fr:ref
-addr="hodge-theory-iii-5.2.3.1"
-href="hodge-theory-iii-5.2.3.1.xml"
-taxon="Equation"
-number="5.2.3.1" />.
-    We can further show that the spectral sequence of the complex <fr:tex
-display="inline"><![CDATA[\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)]]></fr:tex>, filtered by <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> (<fr:ref
-addr="hodge-theory-iii-5.1.9.3"
-href="hodge-theory-iii-5.1.9.3.xml"
-taxon="Equation"
-number="5.1.9.3" /> and <fr:ref
-addr="hodge-theory-iii-5.1.12.2"
-href="hodge-theory-iii-5.1.12.2.xml"
-taxon="Equation"
-number="5.1.12.2" /> for <fr:tex
-display="inline"><![CDATA[S=P^t]]></fr:tex>)
+    It is easy to show directly that the right-hand side is independent (up to unique isomorphism) of the choice of <fr:tex display="inline"><![CDATA[K]]></fr:tex>;
+    for what follows, we are free to <fr:em>define</fr:em> <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X_\bullet ,F^\bullet )]]></fr:tex> by <fr:ref addr="hodge-theory-iii-5.2.3.1" href="hodge-theory-iii-5.2.3.1.xml" taxon="Equation" number="5.2.3.1" />.
+    We can further show that the spectral sequence of the complex <fr:tex display="inline"><![CDATA[\mathrm {s}\Gamma ^\bullet (X_\bullet ,K)]]></fr:tex>, filtered by <fr:tex display="inline"><![CDATA[L]]></fr:tex> (<fr:ref addr="hodge-theory-iii-5.1.9.3" href="hodge-theory-iii-5.1.9.3.xml" taxon="Equation" number="5.1.9.3" /> and <fr:ref addr="hodge-theory-iii-5.1.12.2" href="hodge-theory-iii-5.1.12.2.xml" taxon="Equation" number="5.1.12.2" /> for <fr:tex display="inline"><![CDATA[S=P^t]]></fr:tex>)
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.3.2</fr:addr><fr:route>hodge-theory-iii-5.2.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.2</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,F^p)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,F^\bullet )       \tag{5.2.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2202</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.3.2</fr:addr><fr:route>hodge-theory-iii-5.2.3.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.3.2</fr:number><fr:parent>hodge-theory-iii-5.2.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,F^p)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,F^\bullet )       \tag{5.2.3.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    is independent (up to unique isomorphism) of the choice of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> (cf. <fr:ref
-addr="hodge-theory-iii-5.2.1.1"
-href="hodge-theory-iii-5.2.1.1.xml"
-taxon="Equation"
-number="5.2.1.1" />).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2271</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.7</fr:addr><fr:route>hodge-theory-iii-5.2.7.xml</fr:route><fr:authors /><fr:number>5.2.7</fr:number><fr:parent>hodge-theory-iii-5.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Combined with <fr:ref
-addr="hodge-theory-iii-5.2.5"
-href="hodge-theory-iii-5.2.5.xml"
-number="5.2.5" /> and specialised to the case where <fr:tex
-display="inline"><![CDATA[S=P^t]]></fr:tex>, this equation proves <fr:ref
-addr="hodge-theory-iii-5.2.3.1"
-href="hodge-theory-iii-5.2.3.1.xml"
-taxon="Equation"
-number="5.2.3.1" />.
-    In concrete terms, this implies that, to calculate <fr:tex
-display="inline"><![CDATA[\mathrm {R} a_*K]]></fr:tex>, we can proceed in two steps:
+    is independent (up to unique isomorphism) of the choice of <fr:tex display="inline"><![CDATA[K]]></fr:tex> (cf. <fr:ref addr="hodge-theory-iii-5.2.1.1" href="hodge-theory-iii-5.2.1.1.xml" taxon="Equation" number="5.2.1.1" />).</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2283</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.2.7</fr:addr>
+            <fr:route>hodge-theory-iii-5.2.7.xml</fr:route>
+            <fr:authors />
+            <fr:number>5.2.7</fr:number>
+            <fr:parent>hodge-theory-iii-5.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Combined with <fr:ref addr="hodge-theory-iii-5.2.5" href="hodge-theory-iii-5.2.5.xml" number="5.2.5" /> and specialised to the case where <fr:tex display="inline"><![CDATA[S=P^t]]></fr:tex>, this equation proves <fr:ref addr="hodge-theory-iii-5.2.3.1" href="hodge-theory-iii-5.2.3.1.xml" taxon="Equation" number="5.2.3.1" />.
+    In concrete terms, this implies that, to calculate <fr:tex display="inline"><![CDATA[\mathrm {R} a_*K]]></fr:tex>, we can proceed in two steps:
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        We take a resolution <fr:tex
-display="inline"><![CDATA[K\xrightarrow {\sim } K']]></fr:tex> such that the components <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[K']]></fr:tex> satisfy <fr:tex
-display="inline"><![CDATA[\mathrm {R}^i {a_p}_*(F^p)=0]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[i>0]]></fr:tex>.
-        The complex <fr:tex
-display="inline"><![CDATA[{a_\bullet }_*K'\in \mathrm {D}^+(S_\bullet )]]></fr:tex> (the derived category of the category of cosimplicial abelian sheaves on <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>) can be identified with <fr:tex
-display="inline"><![CDATA[\mathrm {R}{a_\bullet }_*K]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        We take a resolution <fr:tex display="inline"><![CDATA[K\xrightarrow {\sim } K']]></fr:tex> such that the components <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[K']]></fr:tex> satisfy <fr:tex display="inline"><![CDATA[\mathrm {R}^i {a_p}_*(F^p)=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>.
+        The complex <fr:tex display="inline"><![CDATA[{a_\bullet }_*K'\in \mathrm {D}^+(S_\bullet )]]></fr:tex> (the derived category of the category of cosimplicial abelian sheaves on <fr:tex display="inline"><![CDATA[S]]></fr:tex>) can be identified with <fr:tex display="inline"><![CDATA[\mathrm {R}{a_\bullet }_*K]]></fr:tex>.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(b) &quot;">
-        <fr:tex
-display="inline"><![CDATA[\mathrm {R} a_*K]]></fr:tex> is the simple complex <fr:tex
-display="inline"><![CDATA[\mathrm {s}{a_\bullet }_*K']]></fr:tex> associated to the double complex <fr:tex
-display="inline"><![CDATA[{a_\bullet }_*K']]></fr:tex>.
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        <fr:tex display="inline"><![CDATA[\mathrm {R} a_*K]]></fr:tex> is the simple complex <fr:tex display="inline"><![CDATA[\mathrm {s}{a_\bullet }_*K']]></fr:tex> associated to the double complex <fr:tex display="inline"><![CDATA[{a_\bullet }_*K']]></fr:tex>.
       </html:li>
 
-    </html:ol></fr:p><fr:p>The spectral sequence <fr:ref
-addr="hodge-theory-iii-5.2.3.2"
-href="hodge-theory-iii-5.2.3.2.xml"
-taxon="Equation"
-number="5.2.3.2" /> generalises to a spectral sequence
+    </html:ol></fr:p>
+            <fr:p>The spectral sequence <fr:ref addr="hodge-theory-iii-5.2.3.2" href="hodge-theory-iii-5.2.3.2.xml" taxon="Equation" number="5.2.3.2" /> generalises to a spectral sequence
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2195</fr:anchor><fr:addr
-type="user">hodge-theory-iii-5.2.7.1</fr:addr><fr:route>hodge-theory-iii-5.2.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.7.1</fr:number><fr:parent>hodge-theory-iii-5.2.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{pq}         = \mathrm {R}^q{a_p}_*(K|X_p)         \Rightarrow  \mathrm {R}^{p+q}a_*K       \tag{5.2.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2207</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.7.1</fr:addr><fr:route>hodge-theory-iii-5.2.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.7.1</fr:number><fr:parent>hodge-theory-iii-5.2.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \mathrm {R}^q{a_p}_*(K|X_p)         \Rightarrow  \mathrm {R}^{p+q}a_*K       \tag{5.2.7.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    induced by <fr:ref
-addr="hodge-theory-iii-5.1.12.2"
-href="hodge-theory-iii-5.1.12.2.xml"
-taxon="Equation"
-number="5.1.12.2" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    induced by <fr:ref addr="hodge-theory-iii-5.1.12.2" href="hodge-theory-iii-5.1.12.2.xml" taxon="Equation" number="5.1.12.2" />.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

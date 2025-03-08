@@ -1,343 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1202</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.6</fr:addr><fr:route>hodge-theory-ii-1.4.6.xml</fr:route><fr:authors /><fr:number>1.4.6</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be a complex.
-    We denote by <fr:tex
-display="inline"><![CDATA[\tau _{\leqslant  p}(K)]]></fr:tex> the following subcomplex:
-    <fr:tex
-display="block"><![CDATA[       \tau _{\leqslant  p}(K)^n       = \begin {cases}         K^n         &\text {for }n<p       \\\operatorname {Ker}(d)         &\text {for }n=p       \\0         &\text {for }n>p.       \end {cases}     ]]></fr:tex></fr:p><fr:p>The <fr:em>filtration</fr:em>, said to be <fr:em>canonical</fr:em>, of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> by the <fr:tex
-display="inline"><![CDATA[\tau _{\leqslant  p}(K)]]></fr:tex> is induced by shifting the trivial filtration <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> for which <fr:tex
-display="inline"><![CDATA[G^0(K)=K]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[G^1(K)=0]]></fr:tex>.
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1207</fr:anchor>
+    <fr:addr type="user">hodge-theory-ii-1.4.6</fr:addr>
+    <fr:route>hodge-theory-ii-1.4.6.xml</fr:route>
+    <fr:authors />
+    <fr:number>1.4.6</fr:number>
+    <fr:parent>hodge-theory-ii-1.4</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be a complex.
+    We denote by <fr:tex display="inline"><![CDATA[\tau _{\leqslant  p}(K)]]></fr:tex> the following subcomplex:
+    <fr:tex display="block"><![CDATA[       \tau _{\leqslant  p}(K)^n       = \begin {cases}         K^n         &\text {for }n<p       \\\operatorname {Ker}(d)         &\text {for }n=p       \\0         &\text {for }n>p.       \end {cases}     ]]></fr:tex></fr:p>
+    <fr:p>The <fr:em>filtration</fr:em>, said to be <fr:em>canonical</fr:em>, of <fr:tex display="inline"><![CDATA[K]]></fr:tex> by the <fr:tex display="inline"><![CDATA[\tau _{\leqslant  p}(K)]]></fr:tex> is induced by shifting the trivial filtration <fr:tex display="inline"><![CDATA[G]]></fr:tex> for which <fr:tex display="inline"><![CDATA[G^0(K)=K]]></fr:tex> and <fr:tex display="inline"><![CDATA[G^1(K)=0]]></fr:tex>.
     We have, for the canonical filtration,
-    <fr:tex
-display="block"><![CDATA[       \begin {aligned}         E_1^{pq} = 0         &\qquad \text {if }p+q\neq -p       \\\\H^{-p}         &\qquad \text {if }p+q=-p.       \end {aligned}     ]]></fr:tex>
-    A quasi-isomorphism <fr:tex
-display="inline"><![CDATA[f\colon  K\to  K']]></fr:tex> is automatically a filtered quasi-isomorphism for the canonical filtrations.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1203</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4</fr:addr><fr:route>hodge-theory-ii-1.4.xml</fr:route><fr:title
-text="Hodge Theory II › Filtrations › Hypercohomology of filtered complexes"><fr:link
-type="local"
-href="hodge-theory-ii-1.xml"
-addr="hodge-theory-ii-1"
-title="Hodge Theory II › Filtrations"><fr:link
-type="local"
-href="hodge-theory-ii.xml"
-addr="hodge-theory-ii"
-title="Hodge Theory II">Hodge Theory II</fr:link> › Filtrations</fr:link> › Hypercohomology of filtered complexes</fr:title><fr:authors /><fr:number>1.4</fr:number><fr:parent>hodge-theory-ii-1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>In this section, we recall some standard constructions in hypercohomology.
-  We do not use the language of derived categories, which would be more natural here.</fr:p><fr:p><fr:em>Throughout this entire section, by "complex" we mean "bounded-below complex".</fr:em></fr:p><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1136</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.1</fr:addr><fr:route>hodge-theory-ii-1.4.1.xml</fr:route><fr:authors /><fr:number>1.4.1</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> be a left-exact functor from an abelian category <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> to an abelian category <fr:tex
-display="inline"><![CDATA[\mathscr {B}]]></fr:tex>.
-    Suppose that every object of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> injects into an injective object;
-    the derived functors <fr:tex
-display="inline"><![CDATA[\mathrm {R}^iT\colon \mathscr {A}\to \mathscr {B}]]></fr:tex> are then defined.
-    An object <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> is said to be *acyclic* for <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> if <fr:tex
-display="inline"><![CDATA[\mathrm {R}^iT(A)=0]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[i>0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1137</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.2</fr:addr><fr:route>hodge-theory-ii-1.4.2.xml</fr:route><fr:authors /><fr:number>1.4.2</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(A,F)]]></fr:tex> be a filtered object with finite filtration, and <fr:tex
-display="inline"><![CDATA[TF]]></fr:tex> the filtration of <fr:tex
-display="inline"><![CDATA[TA]]></fr:tex> by its sub-objects <fr:tex
-display="inline"><![CDATA[TF^p(A)]]></fr:tex> (these are sub-objects since <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> is left exact).
-    If <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F(A)]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic, then the <fr:tex
-display="inline"><![CDATA[F^p(A)]]></fr:tex> are <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic as successive extensions of <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic objects.
-    The image under <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> of the sequence
-    <fr:tex
-display="block"><![CDATA[       0       \to  F^{p+1}(A)       \to  F^p(A)       \to  \operatorname {Gr}^p(A)       \to  0     ]]></fr:tex>
+    <fr:tex display="block"><![CDATA[       \begin {aligned}         E_1^{pq} = 0         &\qquad \text {if }p+q\neq -p       \\\\H^{-p}         &\qquad \text {if }p+q=-p.       \end {aligned}     ]]></fr:tex>
+    A quasi-isomorphism <fr:tex display="inline"><![CDATA[f\colon  K\to  K']]></fr:tex> is automatically a filtered quasi-isomorphism for the canonical filtrations.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1208</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.4</fr:addr>
+            <fr:route>hodge-theory-ii-1.4.xml</fr:route>
+            <fr:title text="Hodge Theory II › Filtrations › Hypercohomology of filtered complexes"><fr:link type="local" href="hodge-theory-ii-1.xml" addr="hodge-theory-ii-1" title="Hodge Theory II › Filtrations"><fr:link type="local" href="hodge-theory-ii.xml" addr="hodge-theory-ii" title="Hodge Theory II">Hodge Theory II</fr:link> › Filtrations</fr:link> › Hypercohomology of filtered complexes</fr:title>
+            <fr:authors />
+            <fr:number>1.4</fr:number>
+            <fr:parent>hodge-theory-ii-1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>In this section, we recall some standard constructions in hypercohomology.
+  We do not use the language of derived categories, which would be more natural here.</fr:p>
+            <fr:p>
+              <fr:em>Throughout this entire section, by "complex" we mean "bounded-below complex".</fr:em>
+            </fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1141</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.1</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.1.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.1</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[T]]></fr:tex> be a left-exact functor from an abelian category <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> to an abelian category <fr:tex display="inline"><![CDATA[\mathscr {B}]]></fr:tex>.
+    Suppose that every object of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> injects into an injective object;
+    the derived functors <fr:tex display="inline"><![CDATA[\mathrm {R}^iT\colon \mathscr {A}\to \mathscr {B}]]></fr:tex> are then defined.
+    An object <fr:tex display="inline"><![CDATA[A]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> is said to be *acyclic* for <fr:tex display="inline"><![CDATA[T]]></fr:tex> if <fr:tex display="inline"><![CDATA[\mathrm {R}^iT(A)=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1142</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.2</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.2.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.2</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[(A,F)]]></fr:tex> be a filtered object with finite filtration, and <fr:tex display="inline"><![CDATA[TF]]></fr:tex> the filtration of <fr:tex display="inline"><![CDATA[TA]]></fr:tex> by its sub-objects <fr:tex display="inline"><![CDATA[TF^p(A)]]></fr:tex> (these are sub-objects since <fr:tex display="inline"><![CDATA[T]]></fr:tex> is left exact).
+    If <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F(A)]]></fr:tex> is <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic, then the <fr:tex display="inline"><![CDATA[F^p(A)]]></fr:tex> are <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic as successive extensions of <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic objects.
+    The image under <fr:tex display="inline"><![CDATA[T]]></fr:tex> of the sequence
+    <fr:tex display="block"><![CDATA[       0       \to  F^{p+1}(A)       \to  F^p(A)       \to  \operatorname {Gr}^p(A)       \to  0     ]]></fr:tex>
     
     is thus exact, and
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1138</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.2.1</fr:addr><fr:route>hodge-theory-ii-1.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.4.2.1</fr:number><fr:parent>hodge-theory-ii-1.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {Gr}_{FT}TA \xrightarrow {\sim } T\operatorname {Gr}_FA.       \tag{1.4.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1139</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.3</fr:addr><fr:route>hodge-theory-ii-1.4.3.xml</fr:route><fr:authors /><fr:number>1.4.3</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be an object endowed with finite filtrations <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F\operatorname {Gr}_W A]]></fr:tex> are <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic.
-    The objects <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_FA]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_WA]]></fr:tex> are then <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic, as well as the <fr:tex
-display="inline"><![CDATA[F^q(A)\cap  W^p(A)]]></fr:tex>.
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1143</fr:anchor><fr:addr type="user">hodge-theory-ii-1.4.2.1</fr:addr><fr:route>hodge-theory-ii-1.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.4.2.1</fr:number><fr:parent>hodge-theory-ii-1.4.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {Gr}_{FT}TA \xrightarrow {\sim } T\operatorname {Gr}_FA.       \tag{1.4.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1144</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.3</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.3.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.3</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be an object endowed with finite filtrations <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F\operatorname {Gr}_W A]]></fr:tex> are <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic.
+    The objects <fr:tex display="inline"><![CDATA[\operatorname {Gr}_FA]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Gr}_WA]]></fr:tex> are then <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic, as well as the <fr:tex display="inline"><![CDATA[F^q(A)\cap  W^p(A)]]></fr:tex>.
     The sequences
-    <fr:tex
-display="block"><![CDATA[       0       \to  T(F^q\cap  W^{p+1})       \to  T(F^q\cap  W^p)       \to  T((F^q\cap  W^p)/(F^q\cap  W^{p+1}))       \to  0     ]]></fr:tex>
-    are thus exact, and <fr:tex
-display="inline"><![CDATA[T(F^q(\operatorname {Gr}_W^p(A)))]]></fr:tex> is the image in <fr:tex
-display="inline"><![CDATA[T(\operatorname {Gr}_W^p(A))]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[T(F^p\cap  W^q)]]></fr:tex>.
+    <fr:tex display="block"><![CDATA[       0       \to  T(F^q\cap  W^{p+1})       \to  T(F^q\cap  W^p)       \to  T((F^q\cap  W^p)/(F^q\cap  W^{p+1}))       \to  0     ]]></fr:tex>
+    are thus exact, and <fr:tex display="inline"><![CDATA[T(F^q(\operatorname {Gr}_W^p(A)))]]></fr:tex> is the image in <fr:tex display="inline"><![CDATA[T(\operatorname {Gr}_W^p(A))]]></fr:tex> of <fr:tex display="inline"><![CDATA[T(F^p\cap  W^q)]]></fr:tex>.
     The diagram
-    <fr:tex
-display="block"><![CDATA[       \begin {CD}         T(F^q\cap  W^p) @>>> T(F^q\operatorname {Gr}_W^pA) @>>> T\operatorname {Gr}_W^pA       \\@V{\cong }VV @. @VV{\cong }V       \\TF^q\cap  TW^p @= TF^q\cap  TW^p @>>> \operatorname {Gr}_{TW}^pTA       \end {CD}     ]]></fr:tex>
-    then shows that the isomorphism in <fr:ref
-addr="hodge-theory-ii-1.4.2.1"
-href="hodge-theory-ii-1.4.2.1.xml"
-taxon="Equation"
-number="1.4.2.1" /> relative to <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> sends the filtration <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_{TW}(TF)]]></fr:tex> to the filtration <fr:tex
-display="inline"><![CDATA[T(\operatorname {Gr}_W(F))]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1140</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.4</fr:addr><fr:route>hodge-theory-ii-1.4.4.xml</fr:route><fr:authors /><fr:number>1.4.4</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be a complex of objects of <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex>.
-    The <fr:em>hypercohomology objects</fr:em> <fr:tex
-display="inline"><![CDATA[\mathrm {R}^iT(K)]]></fr:tex> are calculated as follows:
+    <fr:tex display="block"><![CDATA[       \begin {CD}         T(F^q\cap  W^p) @>>> T(F^q\operatorname {Gr}_W^pA) @>>> T\operatorname {Gr}_W^pA       \\@V{\cong }VV @. @VV{\cong }V       \\TF^q\cap  TW^p @= TF^q\cap  TW^p @>>> \operatorname {Gr}_{TW}^pTA       \end {CD}     ]]></fr:tex>
+    then shows that the isomorphism in <fr:ref addr="hodge-theory-ii-1.4.2.1" href="hodge-theory-ii-1.4.2.1.xml" taxon="Equation" number="1.4.2.1" /> relative to <fr:tex display="inline"><![CDATA[W]]></fr:tex> sends the filtration <fr:tex display="inline"><![CDATA[\operatorname {Gr}_{TW}(TF)]]></fr:tex> to the filtration <fr:tex display="inline"><![CDATA[T(\operatorname {Gr}_W(F))]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1145</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.4</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.4.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.4</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be a complex of objects of <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex>.
+    The <fr:em>hypercohomology objects</fr:em> <fr:tex display="inline"><![CDATA[\mathrm {R}^iT(K)]]></fr:tex> are calculated as follows:
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(a) &quot;">
-        We choose a quasi-isomorphism <fr:tex
-display="inline"><![CDATA[i\colon  K\to  K]]></fr:tex> such that the components of <fr:tex
-display="inline"><![CDATA[K']]></fr:tex> are acyclic for <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>.
-        For example, we can take <fr:tex
-display="inline"><![CDATA[K']]></fr:tex> to be the simple complex associated to an injective Cartan–Eilenberg resolution of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        We choose a quasi-isomorphism <fr:tex display="inline"><![CDATA[i\colon  K\to  K]]></fr:tex> such that the components of <fr:tex display="inline"><![CDATA[K']]></fr:tex> are acyclic for <fr:tex display="inline"><![CDATA[T]]></fr:tex>.
+        For example, we can take <fr:tex display="inline"><![CDATA[K']]></fr:tex> to be the simple complex associated to an injective Cartan–Eilenberg resolution of <fr:tex display="inline"><![CDATA[K]]></fr:tex>.
       </html:li>
 
       
- <html:li
-style="list-style-type: &quot;(b) &quot;">
+ <html:li style="list-style-type: &quot;(b) &quot;">
         We set
-        <fr:tex
-display="block"><![CDATA[           \mathrm {R}^iT(K)           = \operatorname {H}^i(T(K')).         ]]></fr:tex>
+        <fr:tex display="block"><![CDATA[           \mathrm {R}^iT(K)           = \operatorname {H}^i(T(K')).         ]]></fr:tex>
       </html:li>
 
     </html:ol>
 
 
-    We can show that <fr:tex
-display="inline"><![CDATA[\mathrm {R}^iT(K)]]></fr:tex> does not depend on the choice of <fr:tex
-display="inline"><![CDATA[K']]></fr:tex>, but depends functorially on <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, and that a quasi-isomorphism <fr:tex
-display="inline"><![CDATA[f\colon  K_1\to  K_2]]></fr:tex> induces *isomorphisms*
-    <fr:tex
-display="block"><![CDATA[       \mathrm {R}^iT(f)\colon        \mathrm {R}^iT(K_1)       \to  \mathrm {R}^iT(K_2).     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1144</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.5</fr:addr><fr:route>hodge-theory-ii-1.4.5.xml</fr:route><fr:authors /><fr:number>1.4.5</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> be a biregular filtration of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.
-    A <fr:em>{#T}-acyclic filtered resolution</fr:em> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is a filtered quasi-isomorphism <fr:tex
-display="inline"><![CDATA[i\colon  K\to  K']]></fr:tex> from <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> to a filtered biregular complex such that the <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}^p({K'}^n)]]></fr:tex> are acyclic for <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>.
-    If <fr:tex
-display="inline"><![CDATA[K']]></fr:tex> is such a resolution, then the <fr:tex
-display="inline"><![CDATA[{K'}^n]]></fr:tex> are acyclic for <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>, and the filtered complex (cf. <fr:ref
-addr="hodge-theory-ii-1.4.2"
-href="hodge-theory-ii-1.4.2.xml"
-number="1.4.2" />) <fr:tex
-display="inline"><![CDATA[T(K')]]></fr:tex> defines a spectral sequence
-    <fr:tex
-display="block"><![CDATA[       E_1^{pq}       = \mathrm {R}^{p+q}T(\operatorname {Gr}^p(K))       \Rightarrow  \mathrm {R}^{p+q}T(K).     ]]></fr:tex>
-    This is independent of the choice of <fr:tex
-display="inline"><![CDATA[K']]></fr:tex>.
-    We call this the <fr:em>hypercohomology spectral sequence of the filtered complex <fr:tex
-display="inline"><![CDATA[K]]></fr:tex></fr:em>.
-    It depends functorially on <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, and a filtered quasi-isomorphism induces an isomorphism of spectral sequences.</fr:p><fr:p>The differentials <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> of this spectral sequence are the connection morphisms defined by the short exact sequences
-    <fr:tex
-display="block"><![CDATA[       0       \to  \operatorname {Gr}^{p+1}K       \to  F^pK/F^{p+2}K       \to  \operatorname {Gr}^pK       \to  0.     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1145</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.6</fr:addr><fr:route>hodge-theory-ii-1.4.6.xml</fr:route><fr:authors /><fr:number>1.4.6</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be a complex.
-    We denote by <fr:tex
-display="inline"><![CDATA[\tau _{\leqslant  p}(K)]]></fr:tex> the following subcomplex:
-    <fr:tex
-display="block"><![CDATA[       \tau _{\leqslant  p}(K)^n       = \begin {cases}         K^n         &\text {for }n<p       \\\operatorname {Ker}(d)         &\text {for }n=p       \\0         &\text {for }n>p.       \end {cases}     ]]></fr:tex></fr:p><fr:p>The <fr:em>filtration</fr:em>, said to be <fr:em>canonical</fr:em>, of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> by the <fr:tex
-display="inline"><![CDATA[\tau _{\leqslant  p}(K)]]></fr:tex> is induced by shifting the trivial filtration <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> for which <fr:tex
-display="inline"><![CDATA[G^0(K)=K]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[G^1(K)=0]]></fr:tex>.
+    We can show that <fr:tex display="inline"><![CDATA[\mathrm {R}^iT(K)]]></fr:tex> does not depend on the choice of <fr:tex display="inline"><![CDATA[K']]></fr:tex>, but depends functorially on <fr:tex display="inline"><![CDATA[K]]></fr:tex>, and that a quasi-isomorphism <fr:tex display="inline"><![CDATA[f\colon  K_1\to  K_2]]></fr:tex> induces *isomorphisms*
+    <fr:tex display="block"><![CDATA[       \mathrm {R}^iT(f)\colon        \mathrm {R}^iT(K_1)       \to  \mathrm {R}^iT(K_2).     ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1149</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.5</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.5.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.5</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be a biregular filtration of <fr:tex display="inline"><![CDATA[K]]></fr:tex>.
+    A <fr:em>{#T}-acyclic filtered resolution</fr:em> of <fr:tex display="inline"><![CDATA[K]]></fr:tex> is a filtered quasi-isomorphism <fr:tex display="inline"><![CDATA[i\colon  K\to  K']]></fr:tex> from <fr:tex display="inline"><![CDATA[K]]></fr:tex> to a filtered biregular complex such that the <fr:tex display="inline"><![CDATA[\operatorname {Gr}^p({K'}^n)]]></fr:tex> are acyclic for <fr:tex display="inline"><![CDATA[T]]></fr:tex>.
+    If <fr:tex display="inline"><![CDATA[K']]></fr:tex> is such a resolution, then the <fr:tex display="inline"><![CDATA[{K'}^n]]></fr:tex> are acyclic for <fr:tex display="inline"><![CDATA[T]]></fr:tex>, and the filtered complex (cf. <fr:ref addr="hodge-theory-ii-1.4.2" href="hodge-theory-ii-1.4.2.xml" number="1.4.2" />) <fr:tex display="inline"><![CDATA[T(K')]]></fr:tex> defines a spectral sequence
+    <fr:tex display="block"><![CDATA[       E_1^{pq}       = \mathrm {R}^{p+q}T(\operatorname {Gr}^p(K))       \Rightarrow  \mathrm {R}^{p+q}T(K).     ]]></fr:tex>
+    This is independent of the choice of <fr:tex display="inline"><![CDATA[K']]></fr:tex>.
+    We call this the <fr:em>hypercohomology spectral sequence of the filtered complex <fr:tex display="inline"><![CDATA[K]]></fr:tex></fr:em>.
+    It depends functorially on <fr:tex display="inline"><![CDATA[K]]></fr:tex>, and a filtered quasi-isomorphism induces an isomorphism of spectral sequences.</fr:p>
+                <fr:p>The differentials <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of this spectral sequence are the connection morphisms defined by the short exact sequences
+    <fr:tex display="block"><![CDATA[       0       \to  \operatorname {Gr}^{p+1}K       \to  F^pK/F^{p+2}K       \to  \operatorname {Gr}^pK       \to  0.     ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1150</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.6</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.6.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.6</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be a complex.
+    We denote by <fr:tex display="inline"><![CDATA[\tau _{\leqslant  p}(K)]]></fr:tex> the following subcomplex:
+    <fr:tex display="block"><![CDATA[       \tau _{\leqslant  p}(K)^n       = \begin {cases}         K^n         &\text {for }n<p       \\\operatorname {Ker}(d)         &\text {for }n=p       \\0         &\text {for }n>p.       \end {cases}     ]]></fr:tex></fr:p>
+                <fr:p>The <fr:em>filtration</fr:em>, said to be <fr:em>canonical</fr:em>, of <fr:tex display="inline"><![CDATA[K]]></fr:tex> by the <fr:tex display="inline"><![CDATA[\tau _{\leqslant  p}(K)]]></fr:tex> is induced by shifting the trivial filtration <fr:tex display="inline"><![CDATA[G]]></fr:tex> for which <fr:tex display="inline"><![CDATA[G^0(K)=K]]></fr:tex> and <fr:tex display="inline"><![CDATA[G^1(K)=0]]></fr:tex>.
     We have, for the canonical filtration,
-    <fr:tex
-display="block"><![CDATA[       \begin {aligned}         E_1^{pq} = 0         &\qquad \text {if }p+q\neq -p       \\\\H^{-p}         &\qquad \text {if }p+q=-p.       \end {aligned}     ]]></fr:tex>
-    A quasi-isomorphism <fr:tex
-display="inline"><![CDATA[f\colon  K\to  K']]></fr:tex> is automatically a filtered quasi-isomorphism for the canonical filtrations.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1146</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.7</fr:addr><fr:route>hodge-theory-ii-1.4.7.xml</fr:route><fr:authors /><fr:number>1.4.7</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>The subcomplexes <fr:tex
-display="inline"><![CDATA[\sigma _{\geqslant  p}(K)]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>
-    <fr:tex
-display="block"><![CDATA[       \sigma _{\geqslant  p}(K)^n       = \begin {cases}         0         &\text {if }n<p       \\K^n         &\text {if }n\geqslant  p       \end {cases}     ]]></fr:tex>
-    define a biregular filtration, called the <fr:em>stupid filtration</fr:em> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.</fr:p><fr:p>The hypercohomology spectral sequences attached to the stupid or canonical filtrations of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> are the two <fr:em>hypercohomology spectral sequences</fr:em> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1147</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.8</fr:addr><fr:route>hodge-theory-ii-1.4.8.xml</fr:route><fr:taxon>Example</fr:taxon><fr:authors /><fr:number>1.4.8</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces, and let <fr:tex
-display="inline"><![CDATA[\mathscr {F}]]></fr:tex> be an abelian sheaf on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.
-    Let <fr:tex
-display="inline"><![CDATA[\mathscr {F}^\bullet ]]></fr:tex> be a resolution of <fr:tex
-display="inline"><![CDATA[\mathscr {F}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[f_*]]></fr:tex>-acyclic sheaves.
-    We have <fr:tex
-display="inline"><![CDATA[\mathrm {R}^i f_*\mathscr {F}\simeq \operatorname {\mathscr {H}}^i(f_*\mathscr {F}^\bullet )]]></fr:tex>.
-    We take the functor <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> to be the functor <fr:tex
-display="inline"><![CDATA[\Gamma (Y,-)]]></fr:tex>.
-    The hypercohomology spectral sequence of the complex <fr:tex
-display="inline"><![CDATA[f_*\mathscr {F}^\bullet ]]></fr:tex> endowed with its canonical filtration <fr:ref
-addr="hodge-theory-ii-1.4.6"
-href="hodge-theory-ii-1.4.6.xml"
-number="1.4.6" />
-    <fr:tex
-display="block"><![CDATA[       E_1^{pq}       = \operatorname {H}^{2p+q}(Y,\mathrm {R}^{-p}f_*\mathscr {F})       \Rightarrow  \operatorname {H}^{p+q}(X,\mathscr {F})     ]]></fr:tex>
-    is exactly, up to the renumbering <fr:tex
-display="inline"><![CDATA[E_r^{pq}\mapsto  E_{r+1}^{2p+q,-p}]]></fr:tex>, the <fr:em>Leray spectral sequence</fr:em> for <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathscr {F}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1148</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.9</fr:addr><fr:route>hodge-theory-ii-1.4.9.xml</fr:route><fr:authors /><fr:number>1.4.9</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(K,W,F)]]></fr:tex> be a biregular bifiltered complex.
+    <fr:tex display="block"><![CDATA[       \begin {aligned}         E_1^{pq} = 0         &\qquad \text {if }p+q\neq -p       \\\\H^{-p}         &\qquad \text {if }p+q=-p.       \end {aligned}     ]]></fr:tex>
+    A quasi-isomorphism <fr:tex display="inline"><![CDATA[f\colon  K\to  K']]></fr:tex> is automatically a filtered quasi-isomorphism for the canonical filtrations.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1151</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.7</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.7.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.7</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The subcomplexes <fr:tex display="inline"><![CDATA[\sigma _{\geqslant  p}(K)]]></fr:tex> of <fr:tex display="inline"><![CDATA[K]]></fr:tex>
+    <fr:tex display="block"><![CDATA[       \sigma _{\geqslant  p}(K)^n       = \begin {cases}         0         &\text {if }n<p       \\K^n         &\text {if }n\geqslant  p       \end {cases}     ]]></fr:tex>
+    define a biregular filtration, called the <fr:em>stupid filtration</fr:em> of <fr:tex display="inline"><![CDATA[K]]></fr:tex>.</fr:p>
+                <fr:p>The hypercohomology spectral sequences attached to the stupid or canonical filtrations of <fr:tex display="inline"><![CDATA[K]]></fr:tex> are the two <fr:em>hypercohomology spectral sequences</fr:em> of <fr:tex display="inline"><![CDATA[K]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1152</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.8</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.8.xml</fr:route>
+                <fr:taxon>Example</fr:taxon>
+                <fr:authors />
+                <fr:number>1.4.8</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces, and let <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex> be an abelian sheaf on <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    Let <fr:tex display="inline"><![CDATA[\mathscr {F}^\bullet ]]></fr:tex> be a resolution of <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex> by <fr:tex display="inline"><![CDATA[f_*]]></fr:tex>-acyclic sheaves.
+    We have <fr:tex display="inline"><![CDATA[\mathrm {R}^i f_*\mathscr {F}\simeq \operatorname {\mathscr {H}}^i(f_*\mathscr {F}^\bullet )]]></fr:tex>.
+    We take the functor <fr:tex display="inline"><![CDATA[T]]></fr:tex> to be the functor <fr:tex display="inline"><![CDATA[\Gamma (Y,-)]]></fr:tex>.
+    The hypercohomology spectral sequence of the complex <fr:tex display="inline"><![CDATA[f_*\mathscr {F}^\bullet ]]></fr:tex> endowed with its canonical filtration <fr:ref addr="hodge-theory-ii-1.4.6" href="hodge-theory-ii-1.4.6.xml" number="1.4.6" />
+    <fr:tex display="block"><![CDATA[       E_1^{pq}       = \operatorname {H}^{2p+q}(Y,\mathrm {R}^{-p}f_*\mathscr {F})       \Rightarrow  \operatorname {H}^{p+q}(X,\mathscr {F})     ]]></fr:tex>
+    is exactly, up to the renumbering <fr:tex display="inline"><![CDATA[E_r^{pq}\mapsto  E_{r+1}^{2p+q,-p}]]></fr:tex>, the <fr:em>Leray spectral sequence</fr:em> for <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1153</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.9</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.9.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.9</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[(K,W,F)]]></fr:tex> be a biregular bifiltered complex.
     To this complex, we associate:
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(a) &quot;">
+ <html:li style="list-style-type: &quot;(a) &quot;">
         A spectral sequence
-        <fr:tex
-display="block"><![CDATA[           {}_W E_1^{p,n-p}           = \operatorname {H}^n(\operatorname {Gr}_W^p(K)) \Rightarrow  \operatorname {H}^n(K)         ]]></fr:tex>
-        with differentials <fr:tex
-display="inline"><![CDATA[{}_W d_1]]></fr:tex> being the connecting morphisms induced by the short exact sequences
-        <fr:tex
-display="block"><![CDATA[           0           \to  \operatorname {Gr}_W^{p+1}(K)           \to  W^p(K)/W^{p+2}(K)           \to  \operatorname {Gr}_W^p(K)           \to  0;         ]]></fr:tex>
+        <fr:tex display="block"><![CDATA[           {}_W E_1^{p,n-p}           = \operatorname {H}^n(\operatorname {Gr}_W^p(K)) \Rightarrow  \operatorname {H}^n(K)         ]]></fr:tex>
+        with differentials <fr:tex display="inline"><![CDATA[{}_W d_1]]></fr:tex> being the connecting morphisms induced by the short exact sequences
+        <fr:tex display="block"><![CDATA[           0           \to  \operatorname {Gr}_W^{p+1}(K)           \to  W^p(K)/W^{p+2}(K)           \to  \operatorname {Gr}_W^p(K)           \to  0;         ]]></fr:tex>
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(b) &quot;">
+ <html:li style="list-style-type: &quot;(b) &quot;">
         
-        An analogous spectral sequence for the filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>;
+        An analogous spectral sequence for the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex>;
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(c) &quot;">
+ <html:li style="list-style-type: &quot;(c) &quot;">
         Exact squares
 
         
-  <fr:embedded-tex
-hash="d1c540d3093422efa35f66428f4ea2f8"><fr:embedded-tex-preamble><![CDATA[
+  <fr:embedded-tex hash="d1c540d3093422efa35f66428f4ea2f8"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
@@ -367,51 +281,23 @@ hash="d1c540d3093422efa35f66428f4ea2f8"><fr:embedded-tex-preamble><![CDATA[
 
       </html:li>
 
-    </html:ol></fr:p><fr:p>The exterior rows and columns of this square define connection morphisms
-    <fr:tex
-display="block"><![CDATA[       \begin {aligned}         {}_{F,W}d_1\colon  \operatorname {H}^n\operatorname {Gr}_F^p\operatorname {Gr}_W^q K         &\to  \operatorname {H}^{n+1}\operatorname {Gr}_F^{p+1}\operatorname {Gr}_W^q K       \\{}_{W,F}d_1\colon  \operatorname {H}^n\operatorname {Gr}_F^p\operatorname {Gr}_W^q K         &\to  \operatorname {H}^{n+1}\operatorname {Gr}_F^p\operatorname {Gr}_W^{q+1} K.       \end {aligned}     ]]></fr:tex>
+    </html:ol></fr:p>
+                <fr:p>The exterior rows and columns of this square define connection morphisms
+    <fr:tex display="block"><![CDATA[       \begin {aligned}         {}_{F,W}d_1\colon  \operatorname {H}^n\operatorname {Gr}_F^p\operatorname {Gr}_W^q K         &\to  \operatorname {H}^{n+1}\operatorname {Gr}_F^{p+1}\operatorname {Gr}_W^q K       \\{}_{W,F}d_1\colon  \operatorname {H}^n\operatorname {Gr}_F^p\operatorname {Gr}_W^q K         &\to  \operatorname {H}^{n+1}\operatorname {Gr}_F^p\operatorname {Gr}_W^{q+1} K.       \end {aligned}     ]]></fr:tex>
     These morphisms satisfy
-    <fr:tex
-display="block"><![CDATA[       \begin {gathered}         {}_{FW}d_1 \circ  {}_{WF}d_1 + {}_{WF}d_1 \circ  {}_{FW}d_1         = 0       \\ {}_{FW}d_1^2         = 0       \\ {}_{WF}d_1^2         = 0       \end {gathered}     ]]></fr:tex></fr:p><fr:p>The morphisms <fr:tex
-display="inline"><![CDATA[{}_{FW}d_1]]></fr:tex> are the morphisms <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequences <fr:tex
-display="inline"><![CDATA[E^{(q)}]]></fr:tex>, with the <fr:tex
-display="inline"><![CDATA[E_1^{(q)p,n-p}]]></fr:tex> term equal to
+    <fr:tex display="block"><![CDATA[       \begin {gathered}         {}_{FW}d_1 \circ  {}_{WF}d_1 + {}_{WF}d_1 \circ  {}_{FW}d_1         = 0       \\ {}_{FW}d_1^2         = 0       \\ {}_{WF}d_1^2         = 0       \end {gathered}     ]]></fr:tex></fr:p>
+                <fr:p>The morphisms <fr:tex display="inline"><![CDATA[{}_{FW}d_1]]></fr:tex> are the morphisms <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequences <fr:tex display="inline"><![CDATA[E^{(q)}]]></fr:tex>, with the <fr:tex display="inline"><![CDATA[E_1^{(q)p,n-p}]]></fr:tex> term equal to
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1153</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.9.1</fr:addr><fr:route>hodge-theory-ii-1.4.9.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.4.9.1</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{p,q,n-p-q}         \coloneqq  \operatorname {H}^n(\operatorname {Gr}_F^p\operatorname {Gr}_W^q K)         \Rightarrow  \operatorname {H}^n(\operatorname {Gr}_W^q K)         = {}_WE_1^{q,n-q}       \tag{1.4.9.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1158</fr:anchor><fr:addr type="user">hodge-theory-ii-1.4.9.1</fr:addr><fr:route>hodge-theory-ii-1.4.9.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.4.9.1</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{p,q,n-p-q}         \coloneqq  \operatorname {H}^n(\operatorname {Gr}_F^p\operatorname {Gr}_W^q K)         \Rightarrow  \operatorname {H}^n(\operatorname {Gr}_W^q K)         = {}_WE_1^{q,n-q}       \tag{1.4.9.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    defined by the filtered complex <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^q(K)]]></fr:tex>.
-    This spectral sequence abuts to the filtration induced by <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[\operatorname {H}^\bullet \operatorname {Gr}_W^q K]]></fr:tex>.
-    Similarly, the <fr:tex
-display="inline"><![CDATA[{}_{WF}d_1]]></fr:tex> are the <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> of spectral sequences with the same initial terms
+    defined by the filtered complex <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^q(K)]]></fr:tex>.
+    This spectral sequence abuts to the filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet \operatorname {Gr}_W^q K]]></fr:tex>.
+    Similarly, the <fr:tex display="inline"><![CDATA[{}_{WF}d_1]]></fr:tex> are the <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of spectral sequences with the same initial terms
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1154</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.9.2</fr:addr><fr:route>hodge-theory-ii-1.4.9.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.4.9.2</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         E_1^{p,q,n-p-q}         \coloneqq  \operatorname {H}^n(\operatorname {Gr}_F^p\operatorname {Gr}_W^q K)         \Rightarrow  \operatorname {H}^n(\operatorname {Gr}_F^p K).       \tag{1.4.9.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1159</fr:anchor><fr:addr type="user">hodge-theory-ii-1.4.9.2</fr:addr><fr:route>hodge-theory-ii-1.4.9.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.4.9.2</fr:number><fr:parent>hodge-theory-ii-1.4.9</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{p,q,n-p-q}         \coloneqq  \operatorname {H}^n(\operatorname {Gr}_F^p\operatorname {Gr}_W^q K)         \Rightarrow  \operatorname {H}^n(\operatorname {Gr}_F^p K).       \tag{1.4.9.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     
-  <fr:embedded-tex
-hash="3a9838ae5f85fd80d6630d0252e3ed9e"><fr:embedded-tex-preamble><![CDATA[
+  <fr:embedded-tex hash="3a9838ae5f85fd80d6630d0252e3ed9e"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
@@ -428,284 +314,167 @@ hash="3a9838ae5f85fd80d6630d0252e3ed9e"><fr:embedded-tex-preamble><![CDATA[
 
 
     
-    These constructions are symmetric in <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex> via the isomorphism
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Gr}_F^p\operatorname {Gr}_W^q       \sim  \operatorname {Gr}_W^q\operatorname {Gr}_F^p.     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1155</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.10</fr:addr><fr:route>hodge-theory-ii-1.4.10.xml</fr:route><fr:authors /><fr:number>1.4.10</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>We can also interpret the <fr:tex
-display="inline"><![CDATA[{}_{W,F}d_1]]></fr:tex> are the initial morphisms of a morphism of spectral sequences <fr:ref
-addr="hodge-theory-ii-1.4.9.2"
-href="hodge-theory-ii-1.4.9.2.xml"
-taxon="Equation"
-number="1.4.9.2" />, abutting to <fr:tex
-display="inline"><![CDATA[{}_Wd_1]]></fr:tex>.</fr:p><fr:p>Indeed, let <fr:tex
-display="inline"><![CDATA[C^q]]></fr:tex> be the cone of the morphism
-    <fr:tex
-display="block"><![CDATA[       W^q(K)/W^{q+2}(K) \to  \operatorname {Gr}_W^q(K).     ]]></fr:tex>
+    These constructions are symmetric in <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> via the isomorphism
+    <fr:tex display="block"><![CDATA[       \operatorname {Gr}_F^p\operatorname {Gr}_W^q       \sim  \operatorname {Gr}_W^q\operatorname {Gr}_F^p.     ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1160</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.10</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.10.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.10</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We can also interpret the <fr:tex display="inline"><![CDATA[{}_{W,F}d_1]]></fr:tex> are the initial morphisms of a morphism of spectral sequences <fr:ref addr="hodge-theory-ii-1.4.9.2" href="hodge-theory-ii-1.4.9.2.xml" taxon="Equation" number="1.4.9.2" />, abutting to <fr:tex display="inline"><![CDATA[{}_Wd_1]]></fr:tex>.</fr:p>
+                <fr:p>Indeed, let <fr:tex display="inline"><![CDATA[C^q]]></fr:tex> be the cone of the morphism
+    <fr:tex display="block"><![CDATA[       W^q(K)/W^{q+2}(K) \to  \operatorname {Gr}_W^q(K).     ]]></fr:tex>
     In the diagram
-    <fr:tex
-display="block"><![CDATA[       \Sigma \colon  \operatorname {Gr}_W^{q+1}(K)[1]       \xrightarrow {u} C^q       \xleftarrow {i} \operatorname {Gr}_W^q(K)     ]]></fr:tex>
-    the morphism <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is a quasi-isomorphism, and we have
-    <fr:tex
-display="block"><![CDATA[       {}_Wd_1       = \operatorname {H}(u)^{-1}\circ \operatorname {H}(i).     ]]></fr:tex></fr:p><fr:p>In fact, <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is even a filtered (for <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>) quasi-isomorphism, and the above construction defines a morphism from the spectral sequence defined by <fr:tex
-display="inline"><![CDATA[(\operatorname {Gr}_W^q(K),F)]]></fr:tex> to that defined by <fr:tex
-display="inline"><![CDATA[(\operatorname {Gr}_W^{q+1}(K)[1],F)]]></fr:tex>, and it abuts to <fr:tex
-display="inline"><![CDATA[{}_Wd_1]]></fr:tex>.
-    The initial term of this morphism, induced by <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F(\Sigma )]]></fr:tex> is exactly <fr:tex
-display="inline"><![CDATA[{}_{W,F}d_1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1156</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.11</fr:addr><fr:route>hodge-theory-ii-1.4.11.xml</fr:route><fr:authors /><fr:number>1.4.11</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>These constructions pass as they are to hypercohomology.
-    Let <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be a complex endowed with two biregular filtrations <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>.</fr:p><fr:p>A <fr:em>bifiltered <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic resolution</fr:em> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is a bifiltered quasi-isomorphism <fr:tex
-display="inline"><![CDATA[i\colon  K\to  K']]></fr:tex> such that the <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F^p\operatorname {Gr}_W^n({K'}^m)]]></fr:tex> are <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic.
+    <fr:tex display="block"><![CDATA[       \Sigma \colon  \operatorname {Gr}_W^{q+1}(K)[1]       \xrightarrow {u} C^q       \xleftarrow {i} \operatorname {Gr}_W^q(K)     ]]></fr:tex>
+    the morphism <fr:tex display="inline"><![CDATA[u]]></fr:tex> is a quasi-isomorphism, and we have
+    <fr:tex display="block"><![CDATA[       {}_Wd_1       = \operatorname {H}(u)^{-1}\circ \operatorname {H}(i).     ]]></fr:tex></fr:p>
+                <fr:p>In fact, <fr:tex display="inline"><![CDATA[u]]></fr:tex> is even a filtered (for <fr:tex display="inline"><![CDATA[F]]></fr:tex>) quasi-isomorphism, and the above construction defines a morphism from the spectral sequence defined by <fr:tex display="inline"><![CDATA[(\operatorname {Gr}_W^q(K),F)]]></fr:tex> to that defined by <fr:tex display="inline"><![CDATA[(\operatorname {Gr}_W^{q+1}(K)[1],F)]]></fr:tex>, and it abuts to <fr:tex display="inline"><![CDATA[{}_Wd_1]]></fr:tex>.
+    The initial term of this morphism, induced by <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F(\Sigma )]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[{}_{W,F}d_1]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1161</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.11</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.11.xml</fr:route>
+                <fr:authors />
+                <fr:number>1.4.11</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>These constructions pass as they are to hypercohomology.
+    Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be a complex endowed with two biregular filtrations <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex>.</fr:p>
+                <fr:p>A <fr:em>bifiltered <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic resolution</fr:em> of <fr:tex display="inline"><![CDATA[K]]></fr:tex> is a bifiltered quasi-isomorphism <fr:tex display="inline"><![CDATA[i\colon  K\to  K']]></fr:tex> such that the <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F^p\operatorname {Gr}_W^n({K'}^m)]]></fr:tex> are <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic.
     Such a morphism always exists.
-    In the particular case where <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> is the category of sheaves of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-modules on a topological space <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, and where <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> is the functor <fr:tex
-display="inline"><![CDATA[\Gamma ]]></fr:tex> from <fr:tex
-display="inline"><![CDATA[\mathscr {A}]]></fr:tex> to the category of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>-modules, then an example of a bifiltered <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic resolution of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is the simple complex associated to the double complex given by the Godement resolution <fr:tex
-display="inline"><![CDATA[\mathscr {C}^\bullet (K)]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, filtered by the <fr:tex
-display="inline"><![CDATA[\mathscr {C}^\bullet (F^p(K))]]></fr:tex> and the <fr:tex
-display="inline"><![CDATA[\mathscr {C}^\bullet (W^n(K))]]></fr:tex>.
-    Since <fr:tex
-display="inline"><![CDATA[\mathscr {C}^\bullet ]]></fr:tex> is exact, we have
-    <fr:tex
-display="block"><![CDATA[       \operatorname {Gr}_F\operatorname {Gr}_W(\mathscr {C}^\bullet (K))       \simeq  \mathscr {C}^\bullet (\operatorname {Gr}_F\operatorname {Gr}_W(K)).     ]]></fr:tex>
-    We will not have need here of any other case.</fr:p><fr:p>If <fr:tex
-display="inline"><![CDATA[K']]></fr:tex> is a bifiltered <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic resolution of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, then the complex <fr:tex
-display="inline"><![CDATA[TK']]></fr:tex> is filtered by the <fr:tex
-display="inline"><![CDATA[TF^pK']]></fr:tex> and the <fr:tex
-display="inline"><![CDATA[TW^qK']]></fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.4.3"
-href="hodge-theory-ii-1.4.3.xml"
-number="1.4.3" />).
-    Furthermore, <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^n(K')]]></fr:tex> is a <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic filtered (for <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>) resolution of <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F^n(K)]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F^n\operatorname {Gr}_W^m(K')]]></fr:tex> is a <fr:tex
-display="inline"><![CDATA[T]]></fr:tex>-acyclic resolution of <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F^n\operatorname {Gr}_W^m(K)]]></fr:tex>, and
-    <fr:tex
-display="block"><![CDATA[       \begin {gathered}         T\operatorname {Gr}_F K'         \approx  \operatorname {Gr}_F TK'         \qquad \text {as }W\text {-filtered complexes}       \\T\operatorname {Gr}_W K'         \approx  \operatorname {Gr}_W TK'         \qquad \text {as }F\text {-filtered complexes}       \\T\operatorname {Gr}_F\operatorname {Gr}_W K'         \approx  \operatorname {Gr}_F\operatorname {Gr}_W TK'.       \end {gathered}     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1157</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.12</fr:addr><fr:route>hodge-theory-ii-1.4.12.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>1.4.12</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Under the hypotheses of <fr:ref
-addr="hodge-theory-ii-1.4.11"
-href="hodge-theory-ii-1.4.11.xml"
-number="1.4.11" />:
+    In the particular case where <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> is the category of sheaves of <fr:tex display="inline"><![CDATA[A]]></fr:tex>-modules on a topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and where <fr:tex display="inline"><![CDATA[T]]></fr:tex> is the functor <fr:tex display="inline"><![CDATA[\Gamma ]]></fr:tex> from <fr:tex display="inline"><![CDATA[\mathscr {A}]]></fr:tex> to the category of <fr:tex display="inline"><![CDATA[A]]></fr:tex>-modules, then an example of a bifiltered <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic resolution of <fr:tex display="inline"><![CDATA[K]]></fr:tex> is the simple complex associated to the double complex given by the Godement resolution <fr:tex display="inline"><![CDATA[\mathscr {C}^\bullet (K)]]></fr:tex> of <fr:tex display="inline"><![CDATA[K]]></fr:tex>, filtered by the <fr:tex display="inline"><![CDATA[\mathscr {C}^\bullet (F^p(K))]]></fr:tex> and the <fr:tex display="inline"><![CDATA[\mathscr {C}^\bullet (W^n(K))]]></fr:tex>.
+    Since <fr:tex display="inline"><![CDATA[\mathscr {C}^\bullet ]]></fr:tex> is exact, we have
+    <fr:tex display="block"><![CDATA[       \operatorname {Gr}_F\operatorname {Gr}_W(\mathscr {C}^\bullet (K))       \simeq  \mathscr {C}^\bullet (\operatorname {Gr}_F\operatorname {Gr}_W(K)).     ]]></fr:tex>
+    We will not have need here of any other case.</fr:p>
+                <fr:p>If <fr:tex display="inline"><![CDATA[K']]></fr:tex> is a bifiltered <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic resolution of <fr:tex display="inline"><![CDATA[K]]></fr:tex>, then the complex <fr:tex display="inline"><![CDATA[TK']]></fr:tex> is filtered by the <fr:tex display="inline"><![CDATA[TF^pK']]></fr:tex> and the <fr:tex display="inline"><![CDATA[TW^qK']]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.4.3" href="hodge-theory-ii-1.4.3.xml" number="1.4.3" />).
+    Furthermore, <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(K')]]></fr:tex> is a <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic filtered (for <fr:tex display="inline"><![CDATA[F]]></fr:tex>) resolution of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F^n(K)]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F^n\operatorname {Gr}_W^m(K')]]></fr:tex> is a <fr:tex display="inline"><![CDATA[T]]></fr:tex>-acyclic resolution of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F^n\operatorname {Gr}_W^m(K)]]></fr:tex>, and
+    <fr:tex display="block"><![CDATA[       \begin {gathered}         T\operatorname {Gr}_F K'         \approx  \operatorname {Gr}_F TK'         \qquad \text {as }W\text {-filtered complexes}       \\T\operatorname {Gr}_W K'         \approx  \operatorname {Gr}_W TK'         \qquad \text {as }F\text {-filtered complexes}       \\T\operatorname {Gr}_F\operatorname {Gr}_W K'         \approx  \operatorname {Gr}_F\operatorname {Gr}_W TK'.       \end {gathered}     ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1162</fr:anchor>
+                <fr:addr type="user">hodge-theory-ii-1.4.12</fr:addr>
+                <fr:route>hodge-theory-ii-1.4.12.xml</fr:route>
+                <fr:taxon>Lemma</fr:taxon>
+                <fr:authors />
+                <fr:number>1.4.12</fr:number>
+                <fr:parent>hodge-theory-ii-1.4</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Under the hypotheses of <fr:ref addr="hodge-theory-ii-1.4.11" href="hodge-theory-ii-1.4.11.xml" number="1.4.11" />:
 
     
- <html:ol
-xmlns:html="http://www.w3.org/1999/xhtml">
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li
-style="list-style-type: &quot;(i) &quot;">
+ <html:li style="list-style-type: &quot;(i) &quot;">
         The initial terms of the hypercohomology spectral sequences
-        <fr:tex
-display="block"><![CDATA[           {}_WE_1^{q,n-q}           = \mathrm {R}^nT(\operatorname {Gr}_W^qK)           \Rightarrow  \mathrm {R}^nT(K)         \tag{1}         ]]></fr:tex>
-        <fr:tex
-display="block"><![CDATA[           {}_FE_1^{p,n-p}           = \mathrm {R}^nT(\operatorname {Gr}_F^pK)           \Rightarrow  \mathrm {R}^nT(K)         \tag{2}         ]]></fr:tex>
+        <fr:tex display="block"><![CDATA[           {}_WE_1^{q,n-q}           = \mathrm {R}^nT(\operatorname {Gr}_W^qK)           \Rightarrow  \mathrm {R}^nT(K)         \tag{1}         ]]></fr:tex>
+        <fr:tex display="block"><![CDATA[           {}_FE_1^{p,n-p}           = \mathrm {R}^nT(\operatorname {Gr}_F^pK)           \Rightarrow  \mathrm {R}^nT(K)         \tag{2}         ]]></fr:tex>
         
-        are abutments of the hypercohomology spectral sequences of the filtered complexes <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^qK]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_F^pK]]></fr:tex>, with <fr:tex
-display="inline"><![CDATA[E_1]]></fr:tex> pages given by
-        <fr:tex
-display="block"><![CDATA[           E_1^{p,q,n-p-q}           \coloneqq  \mathrm {R}^nT(\operatorname {Gr}_F^p\operatorname {Gr}_W^qK)           \Rightarrow  {}_WE_1^{q,n-q}           \qquad \text {for fixed }q         \tag{3}         ]]></fr:tex>
-        <fr:tex
-display="block"><![CDATA[           E_1^{p,q,n-p-q}           \coloneqq  \mathrm {R}^nT(\operatorname {Gr}_F^p\operatorname {Gr}_W^qK)           \Rightarrow  {}_FE_1^{p,n-p}           \qquad \text {for fixed }p         \tag{4}         ]]></fr:tex>
+        are abutments of the hypercohomology spectral sequences of the filtered complexes <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^qK]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Gr}_F^pK]]></fr:tex>, with <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> pages given by
+        <fr:tex display="block"><![CDATA[           E_1^{p,q,n-p-q}           \coloneqq  \mathrm {R}^nT(\operatorname {Gr}_F^p\operatorname {Gr}_W^qK)           \Rightarrow  {}_WE_1^{q,n-q}           \qquad \text {for fixed }q         \tag{3}         ]]></fr:tex>
+        <fr:tex display="block"><![CDATA[           E_1^{p,q,n-p-q}           \coloneqq  \mathrm {R}^nT(\operatorname {Gr}_F^p\operatorname {Gr}_W^qK)           \Rightarrow  {}_FE_1^{p,n-p}           \qquad \text {for fixed }p         \tag{4}         ]]></fr:tex>
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(ii) &quot;">
-        The filtration of <fr:tex
-display="inline"><![CDATA[{}_WE_1^{p,n-p}]]></fr:tex>, abutting to the spectral sequence <fr:tex
-display="inline"><![CDATA[(3)]]></fr:tex>, is the filtration of <fr:tex
-display="inline"><![CDATA[{}_WE_1^{p,n-p}(TK')]]></fr:tex> induced by the filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[TK']]></fr:tex>.
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+        The filtration of <fr:tex display="inline"><![CDATA[{}_WE_1^{p,n-p}]]></fr:tex>, abutting to the spectral sequence <fr:tex display="inline"><![CDATA[(3)]]></fr:tex>, is the filtration of <fr:tex display="inline"><![CDATA[{}_WE_1^{p,n-p}(TK')]]></fr:tex> induced by the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[TK']]></fr:tex>.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(iii) &quot;">
-        For the differentials of the complexes <fr:tex
-display="inline"><![CDATA[\operatorname {Gr}_W^n(T(K'))]]></fr:tex> to be strictly compatible with the filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>, it is necessary and sufficient that the hypercohomology spectral sequences <fr:tex
-display="inline"><![CDATA[(3)]]></fr:tex> degenerate on the <fr:tex
-display="inline"><![CDATA[E_1]]></fr:tex> page.
+ <html:li style="list-style-type: &quot;(iii) &quot;">
+        For the differentials of the complexes <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(T(K'))]]></fr:tex> to be strictly compatible with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex>, it is necessary and sufficient that the hypercohomology spectral sequences <fr:tex display="inline"><![CDATA[(3)]]></fr:tex> degenerate on the <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> page.
       </html:li>
 
 
       
- <html:li
-style="list-style-type: &quot;(iv) &quot;">
-        The morphisms <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequence <fr:tex
-display="inline"><![CDATA[(4)]]></fr:tex> are the initial terms of the degree-1 morphisms of the spectral sequences <fr:tex
-display="inline"><![CDATA[(3)]]></fr:tex> that abut to the morphisms <fr:tex
-display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequence <fr:tex
-display="inline"><![CDATA[(1)]]></fr:tex>.
+ <html:li style="list-style-type: &quot;(iv) &quot;">
+        The morphisms <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequence <fr:tex display="inline"><![CDATA[(4)]]></fr:tex> are the initial terms of the degree-1 morphisms of the spectral sequences <fr:tex display="inline"><![CDATA[(3)]]></fr:tex> that abut to the morphisms <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequence <fr:tex display="inline"><![CDATA[(1)]]></fr:tex>.
       </html:li>
 
     </html:ol></fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>988</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.4.12</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Claims (i) and (iv) follow from <fr:ref
-addr="hodge-theory-ii-1.4.9"
-href="hodge-theory-ii-1.4.9.xml"
-number="1.4.9" /> and <fr:ref
-addr="hodge-theory-ii-1.4.10"
-href="hodge-theory-ii-1.4.10.xml"
-number="1.4.10" /> applied to <fr:tex
-display="inline"><![CDATA[TK']]></fr:tex> via the isomorphisms <fr:ref
-addr="hodge-theory-ii-1.4.11"
-href="hodge-theory-ii-1.4.11.xml"
-number="1.4.11" />.
-      Claim (ii) is then trivial by the definition of the recurrent filtration <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> (identical to the discrete filtrations by <fr:ref
-addr="hodge-theory-ii-1.3.10"
-href="hodge-theory-ii-1.3.10.xml"
-taxon="Lemma"
-number="1.3.10" /> and (iii) of <fr:ref
-addr="hodge-theory-ii-1.3.13"
-href="hodge-theory-ii-1.3.13.xml"
-taxon="Proposition"
-number="1.3.13" />), and claim (iii) follows from <fr:ref
-addr="hodge-theory-ii-1.3.2"
-href="hodge-theory-ii-1.3.2.xml"
-taxon="Proposition"
-number="1.3.2" />.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>993</fr:anchor><fr:addr type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.4.12</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Claims (i) and (iv) follow from <fr:ref addr="hodge-theory-ii-1.4.9" href="hodge-theory-ii-1.4.9.xml" number="1.4.9" /> and <fr:ref addr="hodge-theory-ii-1.4.10" href="hodge-theory-ii-1.4.10.xml" number="1.4.10" /> applied to <fr:tex display="inline"><![CDATA[TK']]></fr:tex> via the isomorphisms <fr:ref addr="hodge-theory-ii-1.4.11" href="hodge-theory-ii-1.4.11.xml" number="1.4.11" />.
+      Claim (ii) is then trivial by the definition of the recurrent filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> (identical to the discrete filtrations by <fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />), and claim (iii) follows from <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1204</fr:anchor><fr:addr
-type="user">hodge-theory-ii-1.4.8</fr:addr><fr:route>hodge-theory-ii-1.4.8.xml</fr:route><fr:taxon>Example</fr:taxon><fr:authors /><fr:number>1.4.8</fr:number><fr:parent>hodge-theory-ii-1.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces, and let <fr:tex
-display="inline"><![CDATA[\mathscr {F}]]></fr:tex> be an abelian sheaf on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.
-    Let <fr:tex
-display="inline"><![CDATA[\mathscr {F}^\bullet ]]></fr:tex> be a resolution of <fr:tex
-display="inline"><![CDATA[\mathscr {F}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[f_*]]></fr:tex>-acyclic sheaves.
-    We have <fr:tex
-display="inline"><![CDATA[\mathrm {R}^i f_*\mathscr {F}\simeq \operatorname {\mathscr {H}}^i(f_*\mathscr {F}^\bullet )]]></fr:tex>.
-    We take the functor <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> to be the functor <fr:tex
-display="inline"><![CDATA[\Gamma (Y,-)]]></fr:tex>.
-    The hypercohomology spectral sequence of the complex <fr:tex
-display="inline"><![CDATA[f_*\mathscr {F}^\bullet ]]></fr:tex> endowed with its canonical filtration <fr:ref
-addr="hodge-theory-ii-1.4.6"
-href="hodge-theory-ii-1.4.6.xml"
-number="1.4.6" />
-    <fr:tex
-display="block"><![CDATA[       E_1^{pq}       = \operatorname {H}^{2p+q}(Y,\mathrm {R}^{-p}f_*\mathscr {F})       \Rightarrow  \operatorname {H}^{p+q}(X,\mathscr {F})     ]]></fr:tex>
-    is exactly, up to the renumbering <fr:tex
-display="inline"><![CDATA[E_r^{pq}\mapsto  E_{r+1}^{2p+q,-p}]]></fr:tex>, the <fr:em>Leray spectral sequence</fr:em> for <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathscr {F}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1205</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.1.7</fr:addr><fr:route>hodge-theory-ii-3.1.7.xml</fr:route><fr:authors /><fr:number>3.1.7</fr:number><fr:parent>hodge-theory-ii-3.1</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Every point of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> admits a fundamental system of Stein open neighbourhoods whose intersections on <fr:tex
-display="inline"><![CDATA[X^*]]></fr:tex> are again Stein.
-    For a coherent analytic sheaf <fr:tex
-display="inline"><![CDATA[\mathscr {F}]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[X^*]]></fr:tex>, we thus have <fr:tex
-display="inline"><![CDATA[\mathrm {R}^i j_*\mathscr {F}=0]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[i>0]]></fr:tex>.
-    The de Rham complex <fr:tex
-display="inline"><![CDATA[\Omega _{X^*}^\bullet ]]></fr:tex> is thus a resolution of the constant sheaf <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex> by sheaves acyclic for the functor <fr:tex
-display="inline"><![CDATA[j_*]]></fr:tex>.
+</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1209</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.4.8</fr:addr>
+            <fr:route>hodge-theory-ii-1.4.8.xml</fr:route>
+            <fr:taxon>Example</fr:taxon>
+            <fr:authors />
+            <fr:number>1.4.8</fr:number>
+            <fr:parent>hodge-theory-ii-1.4</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a continuous map between topological spaces, and let <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex> be an abelian sheaf on <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    Let <fr:tex display="inline"><![CDATA[\mathscr {F}^\bullet ]]></fr:tex> be a resolution of <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex> by <fr:tex display="inline"><![CDATA[f_*]]></fr:tex>-acyclic sheaves.
+    We have <fr:tex display="inline"><![CDATA[\mathrm {R}^i f_*\mathscr {F}\simeq \operatorname {\mathscr {H}}^i(f_*\mathscr {F}^\bullet )]]></fr:tex>.
+    We take the functor <fr:tex display="inline"><![CDATA[T]]></fr:tex> to be the functor <fr:tex display="inline"><![CDATA[\Gamma (Y,-)]]></fr:tex>.
+    The hypercohomology spectral sequence of the complex <fr:tex display="inline"><![CDATA[f_*\mathscr {F}^\bullet ]]></fr:tex> endowed with its canonical filtration <fr:ref addr="hodge-theory-ii-1.4.6" href="hodge-theory-ii-1.4.6.xml" number="1.4.6" />
+    <fr:tex display="block"><![CDATA[       E_1^{pq}       = \operatorname {H}^{2p+q}(Y,\mathrm {R}^{-p}f_*\mathscr {F})       \Rightarrow  \operatorname {H}^{p+q}(X,\mathscr {F})     ]]></fr:tex>
+    is exactly, up to the renumbering <fr:tex display="inline"><![CDATA[E_r^{pq}\mapsto  E_{r+1}^{2p+q,-p}]]></fr:tex>, the <fr:em>Leray spectral sequence</fr:em> for <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1210</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.1.7</fr:addr>
+            <fr:route>hodge-theory-ii-3.1.7.xml</fr:route>
+            <fr:authors />
+            <fr:number>3.1.7</fr:number>
+            <fr:parent>hodge-theory-ii-3.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Every point of <fr:tex display="inline"><![CDATA[X]]></fr:tex> admits a fundamental system of Stein open neighbourhoods whose intersections on <fr:tex display="inline"><![CDATA[X^*]]></fr:tex> are again Stein.
+    For a coherent analytic sheaf <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex> on <fr:tex display="inline"><![CDATA[X^*]]></fr:tex>, we thus have <fr:tex display="inline"><![CDATA[\mathrm {R}^i j_*\mathscr {F}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>.
+    The de Rham complex <fr:tex display="inline"><![CDATA[\Omega _{X^*}^\bullet ]]></fr:tex> is thus a resolution of the constant sheaf <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> by sheaves acyclic for the functor <fr:tex display="inline"><![CDATA[j_*]]></fr:tex>.
     Then
 
-    <fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1206</fr:anchor><fr:addr
-type="user">hodge-theory-ii-3.1.7.1</fr:addr><fr:route>hodge-theory-ii-3.1.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.7.1</fr:number><fr:parent>hodge-theory-ii-3.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex
-display="block"><![CDATA[         \operatorname {H}^\bullet (X^*,\mathbb {C})         \xrightarrow {\sim } \operatorname {\mathbb {H}}^\bullet (X^*,\Omega _{X^*}^\bullet )         \xleftarrow {\sim } \operatorname {\mathbb {H}}^\bullet (X,j_*\Omega _{X^*}^\bullet )       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1211</fr:anchor><fr:addr type="user">hodge-theory-ii-3.1.7.1</fr:addr><fr:route>hodge-theory-ii-3.1.7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.1.7.1</fr:number><fr:parent>hodge-theory-ii-3.1.7</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (X^*,\mathbb {C})         \xrightarrow {\sim } \operatorname {\mathbb {H}}^\bullet (X^*,\Omega _{X^*}^\bullet )         \xleftarrow {\sim } \operatorname {\mathbb {H}}^\bullet (X,j_*\Omega _{X^*}^\bullet )       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-    and the Leray spectral sequence for the morphism <fr:tex
-display="inline"><![CDATA[j]]></fr:tex> can be identified with the hypercohomology spectral sequence for <fr:tex
-display="inline"><![CDATA[j_*\Omega _{X^*}^\bullet ]]></fr:tex> corresponding to the filtration <fr:tex
-display="inline"><![CDATA[\tau ]]></fr:tex> by the subcomplexes <fr:tex
-display="inline"><![CDATA[\tau _{\leqslant  -n}(j_*\Omega _{X^*}^\bullet )]]></fr:tex> (<fr:ref
-addr="hodge-theory-ii-1.4.6"
-href="hodge-theory-ii-1.4.6.xml"
-number="1.4.6" />).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    and the Leray spectral sequence for the morphism <fr:tex display="inline"><![CDATA[j]]></fr:tex> can be identified with the hypercohomology spectral sequence for <fr:tex display="inline"><![CDATA[j_*\Omega _{X^*}^\bullet ]]></fr:tex> corresponding to the filtration <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> by the subcomplexes <fr:tex display="inline"><![CDATA[\tau _{\leqslant  -n}(j_*\Omega _{X^*}^\bullet )]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.4.6" href="hodge-theory-ii-1.4.6.xml" number="1.4.6" />).</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
