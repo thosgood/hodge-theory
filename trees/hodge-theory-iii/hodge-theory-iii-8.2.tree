@@ -168,14 +168,14 @@
     If #{u\colon Y\to X} is a surjective proper morphism, with #{Y} smooth, then the weight-#{n} quotient of #{\HH^n(X,\QQ)} is the image of #{\HH^n(X,\QQ)} in #{\HH^n(Y,\QQ)}.
     The sequence
 
-    \subtree[hodge-theory-iii-8.2.5.2]{
+    \subtree[hodge-theory-iii-8.2.5.1]{
       \taxon{equation}
-      \number{8.2.5.2}
+      \number{8.2.5.1}
       ##{
         \HH^n(X,\QQ)
         \to \HH^n(Y,\QQ)
         \xrightarrow{\pr_1^*-\pr_2^*} \HH^n(Y\times_X Y,\QQ)
-      \startverb\tag{8.2.5.2}\stopverb
+      \startverb\tag{8.2.5.1}\stopverb
       }
     }
 
@@ -214,6 +214,167 @@
       Y
       \xrightarrow{f} X
       \overset{j}{\hookrightarrow} \overline{X}
+    }
+    be morphisms of schemes.
+    Suppose that #{Y} is proper and #{X} is smooth, and that #{\overline{X}} is a smooth compactification of #{X}.
+    Then #{\HH^\bullet(\widetilde{X},\QQ)} and #{\HH^\bullet(X,\QQ)} have the same image in #{\HH^\bullet(Y,\QQ)}.
+  }
+
+  \proof{
+    \p{
+      The proof is parallel to that of \ref{hodge-theory-ii-3.2.18}.
+      It suffices to prove, for any #{i} and any #{n}, that #{\Gr_i^W(f^*)} and #{\Gr_i^W((jf)^*)} have the same image in #{\Gr_i^W\HH^n(Y,\QQ)}.
+
+      \olc{
+        \lic{(a)}{
+          For #{i>n}, these images are both zero since #{\Gr_i^W\HH^n(Y,\QQ)=0} ((iii) of \ref{hodge-theory-iii-8.2.4}).
+        }
+        \lic{(b)}{
+          For #{i<n}, these images are both zero since #{\Gr_i^W\HH^n(X,\QQ)=0} ((iv) of \ref{hodge-theory-iii-8.2.4}).
+        }
+        \lic{(c)}{
+          For #{i=n}, these images are equal since #{\Gr_n^W(j^*)} is surjective (\ref{hodge-theory-ii-3.2.17}).
+        }
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.2.7]{
+  \taxon{proposition}
+  \number{8.2.7}
+
+  \p{
+    \oldpage{40}
+    Let
+    ##{
+      \widetilde{X}
+      \xrightarrow{\pi} X
+      \xrightarrow{f} Y
+    }
+    be morphisms of schemes.
+    Suppose that #{Y} is smooth, #{X} is proper, #{\widetilde{X}} is smooth and proper, and that #{\pi} is surjective.
+    Then the kernels of #{f^*} and #{(f\pi)^*} in #{\HH^\bullet(Y,\QQ)} are equal.
+  }
+
+  \proof{
+    \p{
+      We will prove that #{\Ker(\Gr_i^W(f^*))=\Ker(\Gr_i^W((f\pi)^*))} in #{\Gr_i^W\HH^n(Y,\QQ)}.
+
+      \olc{
+        \lic{(a)}{
+          For #{i<n}, these kernels are both zero since #{\Gr_i^W\HH^n(Y,\QQ)=0} ((iv) of \ref{hodge-theory-iii-8.2.4}).
+        }
+        \lic{(b)}{
+          For #{i>n}, these kernels are both all of #{\Gr_i^W\HH^n(Y,\QQ)} since #{\Gr_i^W\HH^n(X,\QQ)=0} ((iii) of \ref{hodge-theory-iii-8.2.4}).
+        }
+        \lic{(a)}{
+          For #{i=n}, these kernels are equal since #{\Gr_n^W(\pi^*)} is injective (\ref{hodge-theory-iii-8.2.5.2}).
+        }
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.2.8]{
+  \taxon{corollary}
+  \number{8.2.8}
+
+  \p{
+    Let
+    ##{
+      \widetilde{X}
+      \xrightarrow{\pi} X
+      \overset{f}{\hookrightarrow} Y
+    }
+    be morphisms of schemes.
+    Suppose that #{Y} is smooth and proper, that #{X} is a closed subscheme of #{Y}, and that #{\widetilde{X}} is a resolution of singularities of #{X}.
+    Let #{q=f\pi} and #{U=Y\setminus X}.
+    Then the sequence
+
+    \subtree[hodge-theory-iii-8.2.8.1]{
+      \taxon{equation}
+      \number{8.2.8.1}
+      ##{
+        \HH^\bullet(\widetilde{X},\QQ)
+        \xrightarrow{q_!} \HH^\bullet(Y,\QQ)
+        \to \HH^\bullet(U,\QQ)
+      \startverb\tag{8.2.8.1}\stopverb
+      }
+    }
+
+    is exact.
+  }
+
+  \proof{
+    \p{
+      By \ref{hodge-theory-iii-8.2.7}, we have that
+      ##{
+        \Ker(f^*\colon\HH^\bullet(Y,\QQ)\to\HH^\bullet(X,\QQ))
+        = \Ker(q^*\colon\HH^\bullet(Y,\QQ)\to\HH^\bullet(\widetilde{X},\QQ)).
+      }
+      The long exact sequence in cohomology of the pair #{Y,X} thus gives an exact sequence
+
+      \subtree[hodge-theory-iii-8.2.8.2]{
+        \taxon{equation}
+        \number{8.2.8.2}
+        ##{
+          \HH_c^\bullet(U,\QQ)
+          \to \HH^\bullet(Y,\QQ)
+          \to \HH^\bullet(\widetilde{X},\QQ)
+        \startverb\tag{8.2.8.2}\stopverb
+        }
+      }
+
+      and \ref{hodge-theory-iii-8.2.8.1} is the transpose sequence of \ref{hodge-theory-iii-8.2.8.2} under Poincaré duality.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.2.9]{
+  \taxon{remark}
+  \number{8.2.9}
+
+  \p{
+    \ref{hodge-theory-iii-8.2.8} is used under more general hypotheses in [[G1968](G1968), (9.7), p. 161].
+    As Lieberman remarked, the justification given loc. cit. is insufficient.
+  }
+}
+
+\p{
+  From \ref{hodge-theory-iii-8.1.25} we deduce the following:
+}
+
+\subtree[hodge-theory-iii-8.2.10]{
+  \taxon{proposition}
+  \number{8.2.10}
+
+  \p{
+    The Künneth isomorphisms
+    ##{
+      \HH^\bullet(X\times Y,\QQ)
+      \simeq \HH^\bullet(X,\QQ)\otimes\HH^\bullet(Y,\QQ)
+    }
+    are isomorphisms of mixed Hodge structures.
+  }
+}
+
+\subtree[hodge-theory-iii-8.2.11]{
+  \taxon{corollary}
+  \number{8.2.11}
+
+  \p{
+    The cup product
+    ##{
+      \HH^\bullet(X)\otimes\HH^\bullet(X)
+      \to \HH^\bullet(X)
+    }
+    is a morphism of mixed Hodge structures.
+  }
+
+  \proof{
+    \p{
+      This follows from \ref{hodge-theory-iii-8.2.10} and from \ref{hodge-theory-iii-8.2.2} applied to the diagonal morphism #{\Delta\colon X\to X\times X}.
     }
   }
 }
