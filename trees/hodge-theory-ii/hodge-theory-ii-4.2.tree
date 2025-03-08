@@ -423,7 +423,7 @@
       }
       as #{\CC[\pi_1(S,s)]}-modules.
       If #{\chi} is the character of #{\pi_1(S,s)} defined by #{\wedge^d W}, then the character #{\chi_1} defined by #{\wedge^{kd}H_1} is thus #{\chi^k}.
-      Let #{H_2=H_1+\bar{H}_1}.
+      Let #{H_2=H_1+\overline{H}_1}.
       Since #{H_1} is stable under #{S}, #{H_2} is defined by a real Hodge substructure of #{(H_\RR)_s}.
       Every polarisation form on #{H} thus induces on #{H_2} a non-degenerate bilinear form that is #{\pi_1(S,s)}-invariant.
       \oldpage{48}
@@ -435,7 +435,7 @@
           For real #{H_1}, #{\chi^{2k}} is trivial.
         }
         \lic{(b)}{
-          For non-real #{H_1} (so #{H_1\neq\bar{H}_1}), #{\chi^{2k}\cdot\bar{\chi}^{2k}} is trivial.
+          For non-real #{H_1} (so #{H_1\neq\overline{H}_1}), #{\chi^{2k}\cdot\overline{\chi}^{2k}} is trivial.
         }
       }
     }
@@ -545,8 +545,8 @@
 
   \p{
     Suppose first of all that #{X} is quasi-projective.
-    Then there exists a non-empty open #{U} of #{S}, a dense open #{X'} of #{X_U=f^{-1}(U)} that is smooth over #{U}, and a compactification #{\bar{X}'} of #{X'} that is smooth and proper over #{U}.
-    We can choose #{\bar{X}'} to be such that some open #{X''} of #{\bar{X}'} contains #{X'} and is proper over #{X_U}.
+    Then there exists a non-empty open #{U} of #{S}, a dense open #{X'} of #{X_U=f^{-1}(U)} that is smooth over #{U}, and a compactification #{\overline{X}'} of #{X'} that is smooth and proper over #{U}.
+    We can choose #{\overline{X}'} to be such that some open #{X''} of #{\overline{X}'} contains #{X'} and is proper over #{X_U}.
 
     \bigtikzcd{
       X_U
@@ -555,8 +555,8 @@
         \ar[r,hook,"k"]
         \ar[ll,swap,"p"]
         \ar[ddl,"f''"]
-      & \bar{X}'
-        \ar[ddll,"\bar{f}'"]
+      & \overline{X}'
+        \ar[ddll,"\overline{f}'"]
     \\&X'
         \ar[ul,hook',swap,"i"]
         \ar[ur,hook,"j"]
@@ -579,17 +579,17 @@
         \to \ldots
       \\\ldots
         \to \Rd^i f''_!\QQ
-        \to \Rd^i\bar{f}'_*\QQ
-        \to \Rd^i\bar{f}'_*(\QQ{/}k_!\QQ)
+        \to \Rd^i\overline{f}'_*\QQ
+        \to \Rd^i\overline{f}'_*(\QQ{/}k_!\QQ)
         \to \ldots
       \end{gathered}
     }
   }
 
   \p{
-    For small enough #{U}, these sheaves are local systems, and the induction hypothesis applies to #{\Rd^\bullet{f_U}_*(\QQ{/}i_!\QQ)}, to #{\Rd^\bullet{f''}_*(\QQ{/}j_!\QQ)}, and to #{\Rd^\bullet\bar{f}'_*(\QQ{/}k_!\QQ)}.
-    By (a) of \ref{hodge-theory-ii-4.2.9}, \ref{hodge-theory-ii-4.2.star} is satisfied by #{\Rd^\bullet\bar{f}'_*\QQ}.
-    By \ref{hodge-theory-ii-4.2.10}, \ref{hodge-theory-ii-4.2.star} is then also satisfied by #{\Rd^\bullet{f''}_!\QQ}, and by the dual local system #{\Rd^\bullet\bar{f}'_*\QQ} (Poincaré duality).
+    For small enough #{U}, these sheaves are local systems, and the induction hypothesis applies to #{\Rd^\bullet{f_U}_*(\QQ{/}i_!\QQ)}, to #{\Rd^\bullet{f''}_*(\QQ{/}j_!\QQ)}, and to #{\Rd^\bullet\overline{f}'_*(\QQ{/}k_!\QQ)}.
+    By (a) of \ref{hodge-theory-ii-4.2.9}, \ref{hodge-theory-ii-4.2.star} is satisfied by #{\Rd^\bullet\overline{f}'_*\QQ}.
+    By \ref{hodge-theory-ii-4.2.10}, \ref{hodge-theory-ii-4.2.star} is then also satisfied by #{\Rd^\bullet{f''}_!\QQ}, and by the dual local system #{\Rd^\bullet\overline{f}'_*\QQ} (Poincaré duality).
     By \ref{hodge-theory-ii-4.2.10}, \ref{hodge-theory-ii-4.2.star} is satisfied by #{\Rd^\bullet{f''}_*(j_!\QQ)}, which is isomorphic to #{\Rd^\bullet{f_U}_*(i_!\QQ)}, since #{p} is proper, as well as by #{\Rd^\bullet{f_U}_*\QQ}.
     Since the morphism #{\pi_1(U)\to\pi_1(S)} is surjective, #{\Rd^if_*\QQ} satisfies (b) of \ref{hodge-theory-ii-4.2.9}.
   }

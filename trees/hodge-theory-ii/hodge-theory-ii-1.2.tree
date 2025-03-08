@@ -43,7 +43,7 @@
   \number{1.2.3}
 
   \p{
-    Two \em{finite} filtrations #{F} and #{\bar{F}} on #{A} are said to be \em{#{n}-opposite} if #{\Gr_F^p\Gr_{\bar{F}}^q(A)=0} for #{p+q\neq n}.
+    Two \em{finite} filtrations #{F} and #{\overline{F}} on #{A} are said to be \em{#{n}-opposite} if #{\Gr_F^p\Gr_{\overline{F}}^q(A)=0} for #{p+q\neq n}.
   }
 }
 
@@ -79,7 +79,7 @@
       \taxon{equation}
       \number{1.2.4.2}
       ##{
-        \bar{F}^q(A)
+        \overline{F}^q(A)
         = \sum_{q'\geqslant q} A^{p',q'}.
       \startverb\tag{1.2.4.2}\stopverb
       }
@@ -91,7 +91,7 @@
       \taxon{equation}
       \number{1.2.4.3}
       ##{
-        \Gr_F^p\Gr_{\bar{F}}^q(A)
+        \Gr_F^p\Gr_{\overline{F}}^q(A)
         = A^{p,q}.
       \startverb\tag{1.2.4.3}\stopverb
       }
@@ -109,38 +109,38 @@
 
   \olc{
     \lic{(i)}{
-      Let #{F} and #{\bar{F}} be finite filtrations on #{A}.
-      For #{F} and #{\bar{F}} to be #{n}-opposite, it is necessary and sufficient that, for all #{p,q},
+      Let #{F} and #{\overline{F}} be finite filtrations on #{A}.
+      For #{F} and #{\overline{F}} to be #{n}-opposite, it is necessary and sufficient that, for all #{p,q},
       ##{
         [p+q=n+1]
-        \implies [F^p(A)\oplus\bar{F}^q(A) \simto A].
+        \implies [F^p(A)\oplus\overline{F}^q(A) \simto A].
       }
     }
 
     \lic{(ii)}{
-      If #{F} and #{\bar{F}} are #{n}-opposite, and if we set
+      If #{F} and #{\overline{F}} are #{n}-opposite, and if we set
       ##{
         \begin{cases}
           A^{p,q} = 0
           &\text{for }p+q\neq n
-        \\A^{p,q} = F^p(A)\cap\bar{F}^q(A)
+        \\A^{p,q} = F^p(A)\cap\overline{F}^q(A)
           &\text{for }p+q=n
         \end{cases}
       }
-      then #{A} is the direct sum of the #{A^{p,q}}, and #{F} and #{\bar{F}} come from the bigrading #{A^{p,q}} of #{A} by the procedure of \ref{hodge-theory-ii-1.2.4}.
+      then #{A} is the direct sum of the #{A^{p,q}}, and #{F} and #{\overline{F}} come from the bigrading #{A^{p,q}} of #{A} by the procedure of \ref{hodge-theory-ii-1.2.4}.
     }
 
     \proof{
       \olc{
         \lic{(i)}{
-          The condition #{\Gr_F^p\Gr_{\bar{F}}^q(A)=0} for #{p+q>n} implies that #{F^p\cap\bar{F}^q=(F^{p+1}\cap\bar{F}^q)+(F^p\cap\bar{F}^{q+1})} for #{p+q>n}.
-          By hypothesis, #{F^p\cap\bar{F}^q} is zero for large enough #{p+q};
-          by decreasing induction, we thus deduce that the condition #{\Gr_F^p\Gr_{\bar{F}}^q(A)=0} for #{p+q>n} is equivalent to the condition #{F^p(A)\cap\bar{F}^q(A)=0} for #{p+q>n}.
-          Dually (\ref{hodge-theory-ii-1.1.6}, \ref{hodge-theory-ii-1.1.7}, \ref{hodge-theory-ii-1.1.10}), the condition #{\Gr_F^p\Gr_{\bar{F}}^q(A)=0} for #{p+q<n} is equivalent to the condition #{A=F^p(A)+\bar{F}^q(A)} for #{(1-p)+(1-q)>-n}, i.e. for #{p+q\leqslant n+1}, and the claim then follows.
+          The condition #{\Gr_F^p\Gr_{\overline{F}}^q(A)=0} for #{p+q>n} implies that #{F^p\cap\overline{F}^q=(F^{p+1}\cap\overline{F}^q)+(F^p\cap\overline{F}^{q+1})} for #{p+q>n}.
+          By hypothesis, #{F^p\cap\overline{F}^q} is zero for large enough #{p+q};
+          by decreasing induction, we thus deduce that the condition #{\Gr_F^p\Gr_{\overline{F}}^q(A)=0} for #{p+q>n} is equivalent to the condition #{F^p(A)\cap\overline{F}^q(A)=0} for #{p+q>n}.
+          Dually (\ref{hodge-theory-ii-1.1.6}, \ref{hodge-theory-ii-1.1.7}, \ref{hodge-theory-ii-1.1.10}), the condition #{\Gr_F^p\Gr_{\overline{F}}^q(A)=0} for #{p+q<n} is equivalent to the condition #{A=F^p(A)+\overline{F}^q(A)} for #{(1-p)+(1-q)>-n}, i.e. for #{p+q\leqslant n+1}, and the claim then follows.
         }
 
         \lic{(ii)}{
-          If #{F} and #{\bar{F}} are #{n}-opposite, then we can prove by decreasing induction on #{p} that
+          If #{F} and #{\overline{F}} are #{n}-opposite, then we can prove by decreasing induction on #{p} that
 
           \subtree[hodge-theory-ii-1.2.5.1]{
             \taxon{equation}
@@ -157,10 +157,10 @@
               For #{F^p(A)=0}, the claim is evident.
             }
             \lic{(b)}{
-              The decomposition #{A=F^{p+1}(A)\oplus\bar{F}^{n-p}(A)} induces on #{F^p(A)\supset F^{p+1}(A)} a decomposition
+              The decomposition #{A=F^{p+1}(A)\oplus\overline{F}^{n-p}(A)} induces on #{F^p(A)\supset F^{p+1}(A)} a decomposition
               ##{
                 F^p(A)
-                = F^{p+1}(A)\oplus(F^p(A)\cap\bar{F}^{n-p}(A))
+                = F^{p+1}(A)\oplus(F^p(A)\cap\overline{F}^{n-p}(A))
               }
               and we conclude by induction.
             }
@@ -168,7 +168,7 @@
 
           For #{p} small enough, we have #{F^p(A)=A}.
           By \ref{hodge-theory-ii-1.2.5.1}, the #{A^{p,q}} thus form a bigrading of #{A}, and #{F} satisfies \ref{hodge-theory-ii-1.2.4.1}.
-          The fact that #{\bar{F}} satisfies \ref{hodge-theory-ii-1.2.4.2} then follows by symmetry.
+          The fact that #{\overline{F}} satisfies \ref{hodge-theory-ii-1.2.4.2} then follows by symmetry.
         }
       }
     }
@@ -189,9 +189,9 @@
 
   \p{
     \oldpage{11}
-    Three \em{finite} filtrations #{W}, #{F}, and #{\bar{F}} on #{A} are said to be \em{opposite} if
+    Three \em{finite} filtrations #{W}, #{F}, and #{\overline{F}} on #{A} are said to be \em{opposite} if
     ##{
-      \Gr_F^p\Gr_{\bar{F}}^q\Gr_W^n(A)
+      \Gr_F^p\Gr_{\overline{F}}^q\Gr_W^n(A)
       = 0
     }
     for #{p+q+n\neq0}.
@@ -199,12 +199,12 @@
 }
 
 \p{
-  This condition is symmetric in #{F} and #{\bar{F}}.
-  It implies that #{F} and #{\bar{F}} induce on #{W^n(A)/W^{n+1}(A)} two #{(-n)}-opposite filtrations.
+  This condition is symmetric in #{F} and #{\overline{F}}.
+  It implies that #{F} and #{\overline{F}} induce on #{W^n(A)/W^{n+1}(A)} two #{(-n)}-opposite filtrations.
   We set
   ##{
     A^{p,q}
-    = \Gr_F^p\Gr_{\bar{F}}^q\Gr_F^{-p-q}(A)
+    = \Gr_F^p\Gr_{\overline{F}}^q\Gr_F^{-p-q}(A)
   }
   whence decompositions \ref{hodge-theory-ii-1.2.4}, \ref{hodge-theory-ii-1.2.5}
   ##{
@@ -220,7 +220,7 @@
   \number{1.2.8}
 
   \p{
-    Let #{W}, #{F}, and #{\bar{F}} be three finite opposite filtrations, and #{\sigma} a sequence #{(p_i,q_i)_{i\geqslant0}} pairs of integers satisfying
+    Let #{W}, #{F}, and #{\overline{F}} be three finite opposite filtrations, and #{\sigma} a sequence #{(p_i,q_i)_{i\geqslant0}} pairs of integers satisfying
 
     \olc{
       \lic{(a)}{
@@ -235,7 +235,7 @@
     ##{
       A_\sigma
       = \left( \sum_{0\leqslant i}(W^{n+i}(A)\cap F^{p_i}(A)) \right)
-      \cap \left( \sum_{0\leqslant i}(W^{n+i}(A)\cap\bar{F}^{q_i}(A)) \right).
+      \cap \left( \sum_{0\leqslant i}(W^{n+i}(A)\cap\overline{F}^{q_i}(A)) \right).
     }
     Then the projection from #{W^n(A)} to #{\Gr_W^n(A)} induces an isomorphism
     ##{
@@ -257,7 +257,7 @@
             \Bigg[
             &\left( \sum_{i<k} (W^{n+i}(A)\cap F^{p_i}(A)) + W^{n+k}(A) \right)
           \\\cap
-            &\left( \sum_{i<k} (W^{n+i}(A)\cap\bar{F}^{q_i}(A)) + W^{n+k}(A) \right)
+            &\left( \sum_{i<k} (W^{n+i}(A)\cap\overline{F}^{q_i}(A)) + W^{n+k}(A) \right)
             \Bigg] / W^{n+k}(A)
           \end{aligned}
           \startverb\tag{$*_k$}\stopverb
@@ -277,7 +277,7 @@
         \taxon{equation}
         \number{1.2.8.1}
         ##{
-          F^{p_k}(\Gr_W^{n+k}(A)) \oplus \bar{F}^{q_k}(\Gr_W^{n+k}(A))
+          F^{p_k}(\Gr_W^{n+k}(A)) \oplus \overline{F}^{q_k}(\Gr_W^{n+k}(A))
           \simto \Gr_W^{n+k}(A).
         \startverb\tag{1.2.8.1}\stopverb
         }
@@ -286,9 +286,9 @@
       ##{
         \begin{aligned}
           B &= \sum_{i<k} (W^{n+i}(A)\cap F^{p_i}(A))
-        \\C &= \sum_{i<k} (W^{n+i}(A)\cap\bar{F}^{q_i}(A))
+        \\C &= \sum_{i<k} (W^{n+i}(A)\cap\overline{F}^{q_i}(A))
         \\B' &= (W^{n+k}(A)\cap F^{p_k}(A)) + W^{n+k+1}(A)
-        \\C' &= (W^{n+k}(A)\cap\bar{F}^{q_k}(A)) + W^{n+k+1}(A)
+        \\C' &= (W^{n+k}(A)\cap\overline{F}^{q_k}(A)) + W^{n+k+1}(A)
         \\D &= W^{n+k}(A)
         \\E &= W^{n+k+1}(A).
         \end{aligned}
@@ -313,7 +313,7 @@
       and, since #{q_k\leqslant q_i} (for #{i\leqslant k}),
       ##{
         C\cap D
-        \subset \bar{F}^{q_k}(A)\cap W^{n+k}(A)
+        \subset \overline{F}^{q_k}(A)\cap W^{n+k}(A)
         \subset C'.
       }
     }
@@ -400,7 +400,7 @@
   \number{1.2.10}
 
   \p{
-    Let #{\mathscr{A}} be an abelian category, and provisionally denote by #{\mathscr{A}'} the category of objects of #{\mathscr{A}} endowed with three opposite filtrations #{W}, #{F}, and #{\bar{F}}.
+    Let #{\mathscr{A}} be an abelian category, and provisionally denote by #{\mathscr{A}'} the category of objects of #{\mathscr{A}} endowed with three opposite filtrations #{W}, #{F}, and #{\overline{F}}.
     The morphisms in #{\mathscr{A}'} are the morphisms of #{\mathscr{A}} that are compatible with the three filtrations.
 
     \olc{
@@ -411,19 +411,19 @@
         The kernel (resp. cokernel) of an arrow #{f\colon A\to B} in #{\mathscr{A}'} is the kernel (resp. cokernel) of #{f} in #{\mathscr{A}}, endowed with the filtrations induced by those of #{A} (resp. the quotients of those of #{B}).
       }
       \lic{(iii)}{
-        Every morphism #{f\colon A\to B} in #{\mathscr{A}'} is strictly compatible with the filtrations #{W}, #{F}, and #{\bar{F}};
+        Every morphism #{f\colon A\to B} in #{\mathscr{A}'} is strictly compatible with the filtrations #{W}, #{F}, and #{\overline{F}};
         the morphism #{\Gr_W(f)} is compatible with the bigradings of #{\Gr_W(A)} and #{\Gr_W(B)};
-        the morphisms #{\Gr_F(f)} and #{\Gr_{\bar{F}}(f)} are strictly compatible with the filtration induced by #{W}.
+        the morphisms #{\Gr_F(f)} and #{\Gr_{\overline{F}}(f)} are strictly compatible with the filtration induced by #{W}.
       }
       \lic{(iv)}{
-        The "forget the filtrations" functors, #{\Gr_W}, #{\Gr_F}, and #{\Gr_{\bar{F}}}, and
+        The "forget the filtrations" functors, #{\Gr_W}, #{\Gr_F}, and #{\Gr_{\overline{F}}}, and
         ##{
           \begin{gathered}
             \Gr_W\Gr_F
             \simeq \Gr_F\Gr_W
-          \\\simeq \Gr_{\bar{F}}\Gr_F\Gr_W
-          \\\simeq \Gr_{\bar{F}}\Gr_W
-            \simeq \Gr_W\Gr_{\bar{F}}
+          \\\simeq \Gr_{\overline{F}}\Gr_F\Gr_W
+          \\\simeq \Gr_{\overline{F}}\Gr_W
+            \simeq \Gr_W\Gr_{\overline{F}}
           \end{gathered}
         }
         from #{\mathscr{A}'} to #{\mathscr{A}} are exact.
@@ -452,7 +452,7 @@
 }
 
 \p{
-  If #{f\colon A\to B} is compatible with #{W}, #{F}, and #{\bar{F}}, then we have
+  If #{f\colon A\to B} is compatible with #{W}, #{F}, and #{\overline{F}}, then we have
 
   \subtree[hodge-theory-ii-1.2.10.1]{
     \taxon{equation}
@@ -501,7 +501,7 @@
       \taxon{equation}
       \number{1.2.11.3}
       ##{
-        \bar{F}^q(A)
+        \overline{F}^q(A)
         = \sum_{q'\geqslant q} A_1^{p',q'}.
       \startverb\tag{1.2.11.3}\stopverb
       }
@@ -544,7 +544,7 @@
     We now prove \ref{hodge-theory-ii-1.2.10}.
     Let #{f\colon A\to B} in #{\mathscr{A}'} and endow #{K=\Ker(f)} with the filtrations induced by those of #{A}.
     By \ref{hodge-theory-ii-1.2.11}, #{\Gr_W(K)\hookrightarrow\Gr_W(A)};
-    furthermore, the filtration #{F} (resp. #{\bar{F}}) on #{K} induces on #{\Gr_W(K)} the inverse image filtration of the filtration #{F} on #{\Gr_W(A)}.
+    furthermore, the filtration #{F} (resp. #{\overline{F}}) on #{K} induces on #{\Gr_W(K)} the inverse image filtration of the filtration #{F} on #{\Gr_W(A)}.
     The sub-object #{\Gr_W(K)} of #{\Gr_W(A)} is then compatible with the bigrading of #{\Gr_W(A)}:
     ##{
       \Gr_W(K)
@@ -555,11 +555,11 @@
   \p{
     We thus deduce that
     ##{
-      \Gr_F^p\Gr_{\bar{F}}^q\Gr_W^n(K)
-      \hookrightarrow \Gr_F^p\Gr_{\bar{F}}^q\Gr_W^n(A);
+      \Gr_F^p\Gr_{\overline{F}}^q\Gr_W^n(K)
+      \hookrightarrow \Gr_F^p\Gr_{\overline{F}}^q\Gr_W^n(A);
     }
     \oldpage{14}
-    the filtrations of #{W}, #{F}, and #{\bar{F}} on #{K} are thus opposite, and #{K} is a kernel of #{f} in #{\mathscr{A}'}.
+    the filtrations of #{W}, #{F}, and #{\overline{F}} on #{K} are thus opposite, and #{K} is a kernel of #{f} in #{\mathscr{A}'}.
     This, combined with the dual result, proves (ii).
   }
 
@@ -578,9 +578,9 @@
   \number{1.2.13}
 
   \p{
-    Let #{A} be an object of #{\mathscr{A}} endowed with a finite \em{increasing} filtration #{W_\bullet}, and two finite decreasing filtrations #{F} and #{\bar{F}}.
+    Let #{A} be an object of #{\mathscr{A}} endowed with a finite \em{increasing} filtration #{W_\bullet}, and two finite decreasing filtrations #{F} and #{\overline{F}}.
     The construction \ref{hodge-theory-ii-1.1.3} associates to #{W_\bullet} a decreasing filtration #{W^\bullet}.
-    We say that the filtrations #{W_\bullet}, #{F}, and #{\bar{F}} are \em{opposite} if the filtrations #{W^\bullet}, #{F}, and #{\bar{F}} are, i.e. if, for all #{n}, the filtrations induced by #{F} and #{\bar{F}} on
+    We say that the filtrations #{W_\bullet}, #{F}, and #{\overline{F}} are \em{opposite} if the filtrations #{W^\bullet}, #{F}, and #{\overline{F}} are, i.e. if, for all #{n}, the filtrations induced by #{F} and #{\overline{F}} on
     ##{
       \Gr_n^W(A)
       = W_n(A)/W_{n-1}(A)

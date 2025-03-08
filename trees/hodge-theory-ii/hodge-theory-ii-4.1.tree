@@ -26,9 +26,9 @@
     }
 
     \lic{(ii)}{
-      If #{\bar{X}} is a non-singular compactification of #{X}, then the canonical morphism
+      If #{\overline{X}} is a non-singular compactification of #{X}, then the canonical morphism
       ##{
-        \HH^n(\bar{X},\QQ)
+        \HH^n(\overline{X},\QQ)
         \to \HH^0(S,\Rd^nf_*\QQ)
       }
       is surjective.
@@ -60,7 +60,7 @@
       is thus injective.
       Consider the arrows
       ##{
-        \HH^n(\bar{X},\QQ)
+        \HH^n(\overline{X},\QQ)
         \xrightarrow{a} \HH^n(X,\QQ)
         \xrightarrow{b} \HH^0(S,\Rd^n f_*\QQ)
         \xhookrightarrow{c} \HH^n(X_s,\QQ).
@@ -80,12 +80,12 @@
       By Chow's lemma and the resolution of singularities, there exists a quasi-projective smooth scheme #{X'} and a projective birational morphism #{p\colon X'\to X}.
       \oldpage{41}
       There thus exists (by Bertini, or Sard) a non-empty Zariski open #{S_1} of #{S} such that #{X'_1=(fp)^{-1}(S_1)} is smooth over #{S_1}.
-      Finally, let #{X_1=f^{-1}(S_1)}, let #{\bar{X}} be a smooth compactification of #{X}, and let #{\bar{X}'_1} be a smooth compactification of #{X'_1} that dominates #{\bar{X}}.
+      Finally, let #{X_1=f^{-1}(S_1)}, let #{\overline{X}} be a smooth compactification of #{X}, and let #{\overline{X}'_1} be a smooth compactification of #{X'_1} that dominates #{\overline{X}}.
 
       \tikzcd{
-        \bar{X}
-        && \bar{X}'_1
-          \ar[ll,swap,"\bar{p}"]
+        \overline{X}
+        && \overline{X}'_1
+          \ar[ll,swap,"\overline{p}"]
       \\X
           \ar[u,hook]
           \ar[d,swap,"f"]
@@ -113,7 +113,7 @@
       }
       and it suffices to prove that
       ##{
-        \HH^n(\bar{X},\QQ)
+        \HH^n(\overline{X},\QQ)
         \to \HH^0(S_1,\Rd^n {f_1}_*\QQ)
       }
       is surjective.
@@ -123,18 +123,18 @@
       The vertical arrows in the diagram
       ##{
         \begin{CD}
-          \HH^n(\bar{X},\QQ) @>>> \HH^n(X_1,\QQ) @>>> \HH^0(S_1,\Rd^n{f_1}_*\QQ)
-        \\@VV{\bar{p}^*}V @VV{p^*}V @VV{p^*}V
-        \\\HH^n(\bar{X}'_1,\QQ) @>>> \HH^n(X'_1,\QQ) @>>> \HH^0(S_1,\Rd{f'_1}_*\QQ)
+          \HH^n(\overline{X},\QQ) @>>> \HH^n(X_1,\QQ) @>>> \HH^0(S_1,\Rd^n{f_1}_*\QQ)
+        \\@VV{\overline{p}^*}V @VV{p^*}V @VV{p^*}V
+        \\\HH^n(\overline{X}'_1,\QQ) @>>> \HH^n(X'_1,\QQ) @>>> \HH^0(S_1,\Rd{f'_1}_*\QQ)
         \end{CD}
       }
-      admit left inverses given by the \em{Gysin morphisms} #{\bar{p}_!}, #{p_!}, and #{p_!} (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
+      admit left inverses given by the \em{Gysin morphisms} #{\overline{p}_!}, #{p_!}, and #{p_!} (respectively), defined by Poincaré duality as the transposes of the arrows analogous to the above but in cohomology with proper support.
       Furthermore, the diagram
       ##{
         \begin{CD}
-          \HH^n(\bar{X},\QQ) @>{u}>> \HH^0(S_1,\Rd^n{f_1}_*\QQ)
-        \\@A{\bar{p}_!}AA @AA{p_!}A
-        \\\HH^n(\bar{X}',\QQ) @>>{v}> \HH^0(S_1,\Rd^n{f'_1}_*\QQ)
+          \HH^n(\overline{X},\QQ) @>{u}>> \HH^0(S_1,\Rd^n{f_1}_*\QQ)
+        \\@A{\overline{p}_!}AA @AA{p_!}A
+        \\\HH^n(\overline{X}',\QQ) @>>{v}> \HH^0(S_1,\Rd^n{f'_1}_*\QQ)
         \end{CD}
       }
       commutes.
@@ -197,12 +197,12 @@
   \proof{
     \p{
       Let #{s\in S}, and let #{X_s=f^{-1}(s)}.
-      If #{S} is smooth, and if #{\bar{X}} is a smooth compactification of #{X}, then, by \ref{hodge-theory-ii-4.1.1}, the subspace #{(\Rd^n f_*\QQ)_s^0} of #{(\Rd^n f_*\QQ)_s} is the image of #{\HH^n(\bar{X},\QQ)}.
+      If #{S} is smooth, and if #{\overline{X}} is a smooth compactification of #{X}, then, by \ref{hodge-theory-ii-4.1.1}, the subspace #{(\Rd^n f_*\QQ)_s^0} of #{(\Rd^n f_*\QQ)_s} is the image of #{\HH^n(\overline{X},\QQ)}.
       Since the restriction map
       ##{
-        \HH^n(\bar{X},\QQ) \to \HH^n(X_s,\QQ)
+        \HH^n(\overline{X},\QQ) \to \HH^n(X_s,\QQ)
       }
-      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on #{\HH^0(S,\Rd^n f_*\QQ)}, given by the quotient of that on #{\HH^n(\bar{X},\QQ)}, is independent of #{s}.
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on #{\HH^0(S,\Rd^n f_*\QQ)}, given by the quotient of that on #{\HH^n(\overline{X},\QQ)}, is independent of #{s}.
     }
   }
 }

@@ -19,12 +19,12 @@
       ##{
         X
         \xleftarrow{\alpha} Y_\bullet
-        \hookrightarrow \bar{Y}_\bullet
+        \hookrightarrow \overline{Y}_\bullet
       \startverb\tag{8.2.1.1}\stopverb
       }
     }
 
-    in which #{Y_\bullet} is the complement of a normal crossing divisor in a smooth and proper simplicial scheme #{\bar{Y}_\bullet}, and is a proper hypercover of #{X}.
+    in which #{Y_\bullet} is the complement of a normal crossing divisor in a smooth and proper simplicial scheme #{\overline{Y}_\bullet}, and is a proper hypercover of #{X}.
     We have ((II) of \ref{hodge-theory-iii-5.3.5})
 
     \subtree[hodge-theory-iii-8.2.1.2]{
@@ -65,7 +65,7 @@
   \number{8.2.3}
 
   \p{
-    For smooth #{X}, we can show, by taking #{\bar{Y}_\bullet} to be a constant simplicial scheme, that the mixed Hodge structure in \ref{hodge-theory-iii-8.2.2} coincides with that defined in \ref{hodge-theory-ii-3.2.12}.
+    For smooth #{X}, we can show, by taking #{\overline{Y}_\bullet} to be a constant simplicial scheme, that the mixed Hodge structure in \ref{hodge-theory-iii-8.2.2} coincides with that defined in \ref{hodge-theory-ii-3.2.12}.
   }
 }
 
@@ -152,7 +152,7 @@
     \p{
       Claim (ii) will be proven in \fref{hodge-theory-iii-8.3.10}.
       Claim (i) follows from (iii) of \ref{hodge-theory-iii-8.1.20}.
-      For proper #{X}, we can find a diagram as in \ref{hodge-theory-iii-8.2.1.1} in which #{Y_\bullet=\bar{Y}_\bullet}, and (iii) then follows from (iv) of \ref{hodge-theory-iii-8.1.20}.
+      For proper #{X}, we can find a diagram as in \ref{hodge-theory-iii-8.2.1.1} in which #{Y_\bullet=\overline{Y}_\bullet}, and (iii) then follows from (iv) of \ref{hodge-theory-iii-8.1.20}.
       For smooth #{X}, (iv) follows from \ref{hodge-theory-iii-8.2.3} and \ref{hodge-theory-ii-3.2.15}.
       The general case then follows: if #{p\colon\widetilde{X}\to X} is a resolution of singularities of #{X}, then #{p^*\colon\HH^\bullet(X,\QQ)\to\HH^\bullet(\widetilde{X},\QQ)} is injective, since the Poincaré dual transpose #{p_!} of #{p^*\colon\HH^\bullet_\cc(X,\QQ)\to\HH^\bullet_\cc(\widetilde{X},\QQ)} is a retraction for it.
     }
@@ -164,6 +164,56 @@
   \number{8.2.5}
 
   \p{
-    Suppose
+    Suppose that #{X} is proper.
+    If #{u\colon Y\to X} is a surjective proper morphism, with #{Y} smooth, then the weight-#{n} quotient of #{\HH^n(X,\QQ)} is the image of #{\HH^n(X,\QQ)} in #{\HH^n(Y,\QQ)}.
+    The sequence
+
+    \subtree[hodge-theory-iii-8.2.5.2]{
+      \taxon{equation}
+      \number{8.2.5.2}
+      ##{
+        \HH^n(X,\QQ)
+        \to \HH^n(Y,\QQ)
+        \xrightarrow{\pr_1^*-\pr_2^*} \HH^n(Y\times_X Y,\QQ)
+      \startverb\tag{8.2.5.2}\stopverb
+      }
+    }
+
+    is exact.
+  }
+
+  \proof{
+    \p{
+      Let #{Y_\bullet} be as in \ref{hodge-theory-iii-8.2.1.1}, with #{Y_0=Y} and #{Y_\bullet=\overline{Y}_\bullet}.
+      By (ii) of \ref{hodge-theory-iii-8.1.20}, we have an exact sequence
+
+      \subtree[hodge-theory-iii-8.2.5.2]{
+        \taxon{equation}
+        \number{8.2.5.2}
+        ##{
+          0
+          \to \HH^n(X,\QQ)/W^{n-1}\HH^n(X,\QQ)
+          \to \HH^n(Y_0,\QQ)
+          \underset{\delta_1}{\overset{\delta_0}{\rightrightarrows}} \HH^n(Y_1,\QQ)
+        \startverb\tag{8.2.5.2}\stopverb
+        }
+      }
+
+      which implies \ref{hodge-theory-iii-8.2.5} (conversely, this exact sequence can easily be deduced from \ref{hodge-theory-iii-8.2.5} and \ref{hodge-theory-iii-8.2.7} below).
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.2.6]{
+  \taxon{proposition}
+  \number{8.2.6}
+
+  \p{
+    Let
+    ##{
+      Y
+      \xrightarrow{f} X
+      \overset{j}{\hookrightarrow} \overline{X}
+    }
   }
 }
