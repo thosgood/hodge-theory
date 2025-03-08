@@ -127,6 +127,47 @@
   \number{8.3.5}
 
   \p{
-    Let #{X_\bullet} be a separated simplicial scheme
+    Let #{X_\bullet} be a separated simplicial scheme.
+    Then the spectral sequence
+    ##{
+      E_1^{pq}
+      = \HH^q(X_p,\ZZ)
+      \To \HH^{p+q}(X_\bullet,\ZZ)
+    }
+    is a spectral sequence of mixed Hodge structures.
   }
+}
+
+\p{
+  For a diagram as in \ref{hodge-theory-iii-8.3.1.1}, the maps #{p_n\colon Z_n\to X_n} are proper and surjective.
+  We can thus apply \ref{hodge-theory-iii-6.2.4} to the category of simplicial objects in the category #{\mathscr{C}} (\ref{hodge-theory-iii-8.3.1}) to obtain, as in \ref{hodge-theory-iii-6.2.5}, the following lemma:
+}
+
+\subtree[hodge-theory-iii-8.3.6]{
+  \taxon{lemma}
+  \number{8.3.6}
+
+  \p{
+    Let #{X_\bullet} be a separated simplicial scheme.
+    Then there exists a bisimplicial scheme ${Z_{\bullet\bullet}} augmented over #{X_\bullet}
+    ##{
+      \varepsilon_{n,m}
+      \colon Z_{n,m}
+      \to X_n
+    }
+    and #{i\colon Z_{\bullet\bullet}\hookrightarrow\overline{Z}_{\bullet\bullet}} such that:
+
+    \olc{
+      \lic{(a)}{
+        #{\overline{Z}_{\bullet\bullet}} is a smooth and proper bisimplicial scheme, and #{Z_{\bullet\bullet}} is the complement of a normal crossing divisor in #{\overline{Z}_{\bullet\bullet}};
+      }
+      \lic{(b)}{
+        for all #{n}, the augmented simplicial scheme #{Z_{n\bullet}\to X_n} is a proper hypercover of #{X_n}.
+      }
+    }
+  }
+}
+
+\p{
+  In
 }
