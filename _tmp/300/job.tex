@@ -1,0 +1,28 @@
+\documentclass[crop,dvisvgm]{standalone}
+
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  
+\begin{document}
+\[\begin {tikzcd}
+        Z_\bullet 
+          \ar [r,hook]
+          \ar [d]
+          \ar [drr]
+        & \overline {Z}_\bullet 
+          \ar [d]
+          \ar [drr]
+      \\{Z_\bullet }_1
+          \ar [r,hook,swap,"j_1"]
+          \ar [d,swap,"p_1"]
+        & {\overline {Z}_\bullet }_1
+        & {Z_\bullet }_2
+          \ar [r,hook,swap,"j_2"]
+          \ar [d,swap,"p_2"]
+        & {\overline {Z}_\bullet }_2
+      \\{X_\bullet }_1
+          \ar [rr,"f"]
+        && {X_\bullet }_2
+      \end {tikzcd}\]
+\end{document}

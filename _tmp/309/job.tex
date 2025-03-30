@@ -1,0 +1,22 @@
+\documentclass[crop,dvisvgm]{standalone}
+
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  
+\begin{document}
+\[\begin {tikzcd}
+      X_\bullet 
+        \ar [r]
+      & Y_\bullet 
+    \\U_\bullet 
+        \ar [r]
+        \ar [u,hook]
+        \ar [d,swap,"a"]
+      & V_\bullet 
+        \ar [u,hook]
+        \ar [d,"b"]
+    \\S \ar [r,swap,"u"]
+      & T
+    \end {tikzcd}\]
+\end{document}

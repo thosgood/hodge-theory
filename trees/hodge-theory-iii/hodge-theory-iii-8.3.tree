@@ -211,6 +211,56 @@
   }
 
   \p{
-    The
+    The map #{u^\bullet\colon\HH^\bullet(X_\bullet,\ZZ)\to\HH^\bullet(Y_\bullet,\ZZ)} is an isomorphism ((V) and (III) of \ref{hodge-theory-iii-5.3.5}).
+    By definition, the \em{mixed Hodge structure} of #{\HH^\bullet(X_\bullet,\ZZ)} is induced from that of #{\HH^\bullet(Y_\bullet,\ZZ)} \em{via #{u^\bullet}}.
+    It does not depend on the choice of #{Y_\bullet}.
+  }
+
+  \p{
+    For #{X} a non-separated scheme, the \em{mixed Hodge structure} of #{\HH^\bullet(X,\ZZ)} is that of #{\HH^\bullet(X_\bullet,\ZZ)}, where #{X_\bullet} is the constant simplicial scheme defined by #{X}.
+    It is plausible, but not proven, that (iv) of \ref{hodge-theory-iii-8.2.4} remains true for #{X} smooth and non-separated.
+  }
+}
+
+\subtree[hodge-theory-iii-8.3.8]{
+  \taxon{example}
+  \number{8.3.8}
+
+  \p{
+    Let #{u\colon X_\bullet\to Y_\bullet} be a morphism of simplicial schemes.
+    The relative cohomology groups #{\HH^n(Y_\bullet\mod X_\bullet,\ZZ)} are, by definition (\ref{hodge-theory-iii-6.3.2}), the cohomology groups of the simplicial scheme #{C(u)}.
+    They are thus endowed with a mixed Hodge structure.
+  }
+}
+
+\subtree[hodge-theory-iii-8.3.9]{
+  \number{8.3.9}
+
+  \p{
+    The long exact sequence of relative cohomology
+    ##{
+      \HH^n(Y_\bullet,\ZZ)
+      \to \HH^n(X_\bullet,\ZZ)
+      \xrightarrow{j} \HH^{n+1}(Y_\bullet\mod X_\bullet,\ZZ)
+      \to \HH^{n+1}(Y_\bullet,\ZZ)
+    }
+    is a long exact sequence of mixed Hodge structures.
+  }
+
+  \proof{
+    \p{
+      We can reduce to the case where #{X_\bullet} and #{Y_\bullet} are smooth, and where, furthermore, there exists a commutative diagram
+      \tikzcd{
+        X_\bullet \ar[r,"u"] \ar[d,hook]
+        & Y_\bullet \ar[d,hook]
+      \\\overline{X}_\bullet \ar[r,swap,"\overline{u}"]
+        & \overline{Y}_\bullet
+      }
+      with #{\overline{X}_\bullet} and #{\overline{Y}_\bullet} both smooth and proper, and #{X_\bullet} and #{Y_\bullet} both complements of normal crossing divisors #{D_\bullet} and #{E_\bullet} in #{\overline{X}_\bullet} and #{\overline{Y}_\bullet} (respectively).
+    }
+    \p{
+      \oldpage{44}
+      Then
+    }
   }
 }

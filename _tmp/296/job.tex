@@ -1,0 +1,23 @@
+\documentclass[crop,dvisvgm]{standalone}
+
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  
+\begin{document}
+\[\begin {tikzcd}
+        E_r(K,W)
+          \ar [r,"d_r"]
+        & E_r(K,W)
+          \ar [r,"d_r"]
+        & E_r(K,W)
+      \\E_r(F^pK,W)
+          \ar [r]
+          \ar [u,hook]
+        & E_r(F^pK,W)
+          \ar [r]
+          \ar [u,hook]
+        & E_r(F^pK,W)
+          \ar [u,hook,swap,"i"]
+      \end {tikzcd}\]
+\end{document}

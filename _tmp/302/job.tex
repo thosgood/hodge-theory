@@ -1,0 +1,32 @@
+\documentclass[crop,dvisvgm]{standalone}
+
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  
+\begin{document}
+\[\begin {tikzcd}
+      0
+      & E_r(K/F^pK,W)
+        \ar [l]
+      && E_r(K/F^{p+1}K,W)
+        \ar [ll]
+      && 0
+    \\&& E_r(K,W)
+        \ar [ul]
+        \ar [ur]
+      && E_r(\operatorname {Gr}_F^pK,W)
+        \ar [ul]
+        \ar [ur]
+    \\0
+        \ar [r]
+      & E_r(F^{p+1}K,W)
+        \ar [rr]
+        \ar [ur]
+      && E_r(F^pK,W)
+        \ar [ul]
+        \ar [ur]
+      && 0
+        \ar [ul]
+    \end {tikzcd}\]
+\end{document}

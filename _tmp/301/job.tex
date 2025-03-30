@@ -1,0 +1,31 @@
+\documentclass[crop,dvisvgm]{standalone}
+
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  
+\begin{document}
+\[\begin {tikzcd}
+          & 0 \dar 
+          & 0 \dar 
+          & 0 \dar 
+        \\0 \rar 
+          & \operatorname {Gr}_F^{p+1}\operatorname {Gr}_W^{q+1}K \rar  \dar 
+          & F^p/F^{p+2}(\operatorname {Gr}_W^{q+1}K) \rar  \dar 
+          & \operatorname {Gr}_F^p\operatorname {Gr}_W^{q+1}K \rar  \dar 
+          & 0
+        \\0 \rar 
+          & \operatorname {Gr}_F^{p+1}(W^q/W^{q+2}(K)) \rar  \dar 
+          & F^p/F^{p+2}(W^q/W^{q+2}(K)) \rar  \dar 
+          & \operatorname {Gr}_F^p(W^q/W^{q+2}(K)) \rar  \dar 
+          & 0
+        \\0 \rar 
+          & \operatorname {Gr}_F^{p+1}\operatorname {Gr}_W^q K \rar  \dar 
+          & F^p/F^{p+2}\operatorname {Gr}_W^q K \rar  \dar 
+          & \operatorname {Gr}_F^p\operatorname {Gr}_W^q K \rar  \dar 
+          & 0
+        \\& 0
+          & 0
+          & 0
+        \end {tikzcd}\]
+\end{document}
