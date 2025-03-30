@@ -2,25 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3138</fr:anchor>
+    <fr:anchor>3152</fr:anchor>
     <fr:addr type="machine">#290</fr:addr>
     <fr:route>unstable-290.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-ii-1.2.9</fr:parent>
+    <fr:parent>hodge-theory-ii-1.2.8</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>To prove surjectivity, we write
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           ((B+B')\cap (C+C'))+D           &= (((B+B')\cap (C+C'))+B')+C'         \\&= ((B+B')\cap (C+C'+B'))+C'         \\&= (B+B'+C')\cap (C+C'+B')         \\&= (B+D)\cap (C+D).         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:p>We will prove by induction on <fr:tex display="inline"><![CDATA[k]]></fr:tex> the following claim:</fr:p>
 
-    <fr:p>To prove injectivity, we write
-      <fr:tex display="block"><![CDATA[         (B+B')\cap (C+C')\cap  D         = ((B+B')\cap  D)\cap ((C+C')\cap  D).       ]]></fr:tex>
-      Since <fr:tex display="inline"><![CDATA[B'\subset  D]]></fr:tex>, we have
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           (B+B')\cap  D           &= (B\cap  D)+B'         \\&= B'         \end {aligned}       ]]></fr:tex>
-      and similarly
-      <fr:tex display="block"><![CDATA[         (C+C')\cap  D         = C'       ]]></fr:tex>
-      and
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           (B+B')\cap (C+C')\cap  D           &= B'\cap  C'         \\&= E.         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:p><fr:em>The projection from <fr:tex display="inline"><![CDATA[W^n(A)/W^{n+k}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism from
+        <fr:tex display="block"><![CDATA[           \begin {aligned}             \Bigg [             &\left ( \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A)) + W^{n+k}(A) \right )           \\\cap              &\left ( \sum _{i<k} (W^{n+i}(A)\cap \overline {F}^{q_i}(A)) + W^{n+k}(A) \right )             \Bigg ] / W^{n+k}(A)           \end {aligned}           \tag{$*_k$}         ]]></fr:tex>
+        to <fr:tex display="inline"><![CDATA[A^{p,q}\subset \operatorname {Gr}_W^n(A)]]></fr:tex>.</fr:em></fr:p>
+
+    <fr:p>For <fr:tex display="inline"><![CDATA[k=1]]></fr:tex>, this is exactly the definition of <fr:tex display="inline"><![CDATA[A^{p,q}]]></fr:tex>.</fr:p>
+
+    <fr:p>By (i) of <fr:ref addr="hodge-theory-ii-1.2.5" href="hodge-theory-ii-1.2.5.xml" taxon="Proposition" number="1.2.5" /> we have
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>771</fr:anchor><fr:addr type="user">hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \overline {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+      Set
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           B &= \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A))         \\C &= \sum _{i<k} (W^{n+i}(A)\cap \overline {F}^{q_i}(A))         \\B' &= (W^{n+k}(A)\cap  F^{p_k}(A)) + W^{n+k+1}(A)         \\C' &= (W^{n+k}(A)\cap \overline {F}^{q_k}(A)) + W^{n+k+1}(A)         \\D &= W^{n+k}(A)         \\E &= W^{n+k+1}(A).         \end {aligned}       ]]></fr:tex></fr:p>
+
+    <fr:p><fr:ref addr="hodge-theory-ii-1.2.8.1" href="hodge-theory-ii-1.2.8.1.xml" taxon="Equation" number="1.2.8.1" /> can then be written as
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           B'+C' &= D         \\B'\cap  C' &= E.         \end {aligned}       ]]></fr:tex>
+      We also have, since <fr:tex display="inline"><![CDATA[p_k\leqslant  p_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
+      <fr:tex display="block"><![CDATA[         B\cap  D         \subset  F^{p_k}(A) \cap  W^{n+k}(A)         \subset  B'       ]]></fr:tex>
+      and, since <fr:tex display="inline"><![CDATA[q_k\leqslant  q_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
+      <fr:tex display="block"><![CDATA[         C\cap  D         \subset  \overline {F}^{q_k}(A)\cap  W^{n+k}(A)         \subset  C'.       ]]></fr:tex></fr:p>
+
+    <fr:p>The claim (<fr:tex display="inline"><![CDATA[*_{k+1}]]></fr:tex>) and then follows from (<fr:tex display="inline"><![CDATA[*_k]]></fr:tex>) and the following lemma.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -31,33 +42,60 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3139</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-1.2.9</fr:addr>
-            <fr:route>hodge-theory-ii-1.2.9.xml</fr:route>
+            <fr:anchor>3153</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.2.8</fr:addr>
+            <fr:route>hodge-theory-ii-1.2.8.xml</fr:route>
             <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>1.2.9</fr:number>
+            <fr:number>1.2.8</fr:number>
             <fr:parent>hodge-theory-ii-1.2</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[B]]></fr:tex>, <fr:tex display="inline"><![CDATA[C]]></fr:tex>, <fr:tex display="inline"><![CDATA[B']]></fr:tex>, <fr:tex display="inline"><![CDATA[C']]></fr:tex>, <fr:tex display="inline"><![CDATA[D]]></fr:tex>, and <fr:tex display="inline"><![CDATA[E]]></fr:tex> be sub-objects of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
-    Suppose that
-    <fr:tex display="block"><![CDATA[       \begin {gathered}         B'+C' = D         \qquad  B'\cap  C' = E       \\B\cap  D \subset  B'         \qquad  C\cap  D \subset  C'.       \end {gathered}     ]]></fr:tex>
-    Then
-    <fr:tex display="block"><![CDATA[       ((B+B')\cap (C+C'))/E       \xrightarrow {\sim } ((B+D)\cap (C+D))/D.     ]]></fr:tex></fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[W]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> be three finite opposite filtrations, and <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex> a sequence <fr:tex display="inline"><![CDATA[(p_i,q_i)_{i\geqslant 0}]]></fr:tex> pairs of integers satisfying
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        <fr:tex display="inline"><![CDATA[p_i\leqslant  p_j]]></fr:tex> and <fr:tex display="inline"><![CDATA[q_i\leqslant  q_j]]></fr:tex> for <fr:tex display="inline"><![CDATA[i\geqslant  j]]></fr:tex>, and
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        <fr:tex display="inline"><![CDATA[p_i+q_i=p_0+q_0-i+1]]></fr:tex> for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>.
+      </html:li>
+
+    </html:ol>
+
+
+    Set <fr:tex display="inline"><![CDATA[p=p_0]]></fr:tex>, <fr:tex display="inline"><![CDATA[q=q_0]]></fr:tex>, <fr:tex display="inline"><![CDATA[n=-p-q]]></fr:tex>, and
+    <fr:tex display="block"><![CDATA[       A_\sigma        = \left ( \sum _{0\leqslant  i}(W^{n+i}(A)\cap  F^{p_i}(A)) \right )       \cap  \left ( \sum _{0\leqslant  i}(W^{n+i}(A)\cap \overline {F}^{q_i}(A)) \right ).     ]]></fr:tex>
+    Then the projection from <fr:tex display="inline"><![CDATA[W^n(A)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism
+    <fr:tex display="block"><![CDATA[       A_\sigma        \xrightarrow {\sim } A^{p,q} \subset  \operatorname {Gr}_W^n(A).     ]]></fr:tex></fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>772</fr:anchor><fr:addr type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.2.9</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>To prove surjectivity, we write
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           ((B+B')\cap (C+C'))+D           &= (((B+B')\cap (C+C'))+B')+C'         \\&= ((B+B')\cap (C+C'+B'))+C'         \\&= (B+B'+C')\cap (C+C'+B')         \\&= (B+D)\cap (C+D).         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We will prove by induction on <fr:tex display="inline"><![CDATA[k]]></fr:tex> the following claim:</fr:p>
 
-    <fr:p>To prove injectivity, we write
-      <fr:tex display="block"><![CDATA[         (B+B')\cap (C+C')\cap  D         = ((B+B')\cap  D)\cap ((C+C')\cap  D).       ]]></fr:tex>
-      Since <fr:tex display="inline"><![CDATA[B'\subset  D]]></fr:tex>, we have
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           (B+B')\cap  D           &= (B\cap  D)+B'         \\&= B'         \end {aligned}       ]]></fr:tex>
-      and similarly
-      <fr:tex display="block"><![CDATA[         (C+C')\cap  D         = C'       ]]></fr:tex>
-      and
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           (B+B')\cap (C+C')\cap  D           &= B'\cap  C'         \\&= E.         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:p><fr:em>The projection from <fr:tex display="inline"><![CDATA[W^n(A)/W^{n+k}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism from
+        <fr:tex display="block"><![CDATA[           \begin {aligned}             \Bigg [             &\left ( \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A)) + W^{n+k}(A) \right )           \\\cap              &\left ( \sum _{i<k} (W^{n+i}(A)\cap \overline {F}^{q_i}(A)) + W^{n+k}(A) \right )             \Bigg ] / W^{n+k}(A)           \end {aligned}           \tag{$*_k$}         ]]></fr:tex>
+        to <fr:tex display="inline"><![CDATA[A^{p,q}\subset \operatorname {Gr}_W^n(A)]]></fr:tex>.</fr:em></fr:p>
+
+    <fr:p>For <fr:tex display="inline"><![CDATA[k=1]]></fr:tex>, this is exactly the definition of <fr:tex display="inline"><![CDATA[A^{p,q}]]></fr:tex>.</fr:p>
+
+    <fr:p>By (i) of <fr:ref addr="hodge-theory-ii-1.2.5" href="hodge-theory-ii-1.2.5.xml" taxon="Proposition" number="1.2.5" /> we have
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>771</fr:anchor><fr:addr type="user">hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.8.1</fr:number><fr:parent>hodge-theory-ii-1.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \overline {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+      Set
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           B &= \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A))         \\C &= \sum _{i<k} (W^{n+i}(A)\cap \overline {F}^{q_i}(A))         \\B' &= (W^{n+k}(A)\cap  F^{p_k}(A)) + W^{n+k+1}(A)         \\C' &= (W^{n+k}(A)\cap \overline {F}^{q_k}(A)) + W^{n+k+1}(A)         \\D &= W^{n+k}(A)         \\E &= W^{n+k+1}(A).         \end {aligned}       ]]></fr:tex></fr:p>
+
+    <fr:p><fr:ref addr="hodge-theory-ii-1.2.8.1" href="hodge-theory-ii-1.2.8.1.xml" taxon="Equation" number="1.2.8.1" /> can then be written as
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           B'+C' &= D         \\B'\cap  C' &= E.         \end {aligned}       ]]></fr:tex>
+      We also have, since <fr:tex display="inline"><![CDATA[p_k\leqslant  p_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
+      <fr:tex display="block"><![CDATA[         B\cap  D         \subset  F^{p_k}(A) \cap  W^{n+k}(A)         \subset  B'       ]]></fr:tex>
+      and, since <fr:tex display="inline"><![CDATA[q_k\leqslant  q_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
+      <fr:tex display="block"><![CDATA[         C\cap  D         \subset  \overline {F}^{q_k}(A)\cap  W^{n+k}(A)         \subset  C'.       ]]></fr:tex></fr:p>
+
+    <fr:p>The claim (<fr:tex display="inline"><![CDATA[*_{k+1}]]></fr:tex>) and then follows from (<fr:tex display="inline"><![CDATA[*_k]]></fr:tex>) and the following lemma.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

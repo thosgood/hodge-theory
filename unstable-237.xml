@@ -2,15 +2,29 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3034</fr:anchor>
+    <fr:anchor>3048</fr:anchor>
     <fr:addr type="machine">#237</fr:addr>
     <fr:route>unstable-237.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-iii-8.2.2</fr:parent>
+    <fr:parent>hodge-theory-iii-8.3.9</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+    <fr:p>We can reduce to the case where <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> are smooth, and where, furthermore, there exists a commutative diagram
+      
+  <fr:embedded-tex hash="ed3a125f0de2b505f4e82455653d0022"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        X_\bullet  \ar [r,"u"] \ar [d,hook]
+        & Y_\bullet  \ar [d,hook]
+      \\\overline {X}_\bullet  \ar [r,swap,"\overline {u}"]
+        & \overline {Y}_\bullet 
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      with <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> both smooth and proper, and <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> both complements of normal crossing divisors <fr:tex display="inline"><![CDATA[D_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[E_\bullet ]]></fr:tex> in <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> (respectively).</fr:p>
+    <fr:p>Then</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -21,21 +35,34 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3035</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-8.2.2</fr:addr>
-            <fr:route>hodge-theory-iii-8.2.2.xml</fr:route>
-            <fr:taxon>Proposition</fr:taxon>
+            <fr:anchor>3049</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.3.9</fr:addr>
+            <fr:route>hodge-theory-iii-8.3.9.xml</fr:route>
             <fr:authors />
-            <fr:number>8.2.2</fr:number>
-            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+            <fr:number>8.3.9</fr:number>
+            <fr:parent>hodge-theory-iii-8.3</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>With the above notation, the mixed Hodge structure <fr:tex display="inline"><![CDATA[\operatorname {\mathscr {H}}(\alpha )]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X)]]></fr:tex> is independent of the choice of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>.
-    We call it the <fr:em>mixed Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Z})]]></fr:tex></fr:em>.
-    For every morphism <fr:tex display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> of schemes, <fr:tex display="inline"><![CDATA[f^*\colon \operatorname {H}^\bullet (X_2)\to \operatorname {H}^\bullet (X_1)]]></fr:tex> is a morphism of mixed Hodge structures.</fr:p>
+          <fr:mainmatter><fr:p>The long exact sequence of relative cohomology
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^n(Y_\bullet ,\mathbb {Z})       \to  \operatorname {H}^n(X_\bullet ,\mathbb {Z})       \xrightarrow {j} \operatorname {H}^{n+1}(Y_\bullet \operatorname {mod} X_\bullet ,\mathbb {Z})       \to  \operatorname {H}^{n+1}(Y_\bullet ,\mathbb {Z})     ]]></fr:tex>
+    is a long exact sequence of mixed Hodge structures.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1658</fr:anchor><fr:addr type="machine">#237</fr:addr><fr:route>unstable-237.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2517</fr:anchor><fr:addr type="machine">#237</fr:addr><fr:route>unstable-237.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.3.9</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> are smooth, and where, furthermore, there exists a commutative diagram
+      
+  <fr:embedded-tex hash="ed3a125f0de2b505f4e82455653d0022"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        X_\bullet  \ar [r,"u"] \ar [d,hook]
+        & Y_\bullet  \ar [d,hook]
+      \\\overline {X}_\bullet  \ar [r,swap,"\overline {u}"]
+        & \overline {Y}_\bullet 
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      with <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> both smooth and proper, and <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> both complements of normal crossing divisors <fr:tex display="inline"><![CDATA[D_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[E_\bullet ]]></fr:tex> in <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> (respectively).</fr:p>
+    <fr:p>Then</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

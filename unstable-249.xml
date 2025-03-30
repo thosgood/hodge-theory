@@ -2,16 +2,16 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3058</fr:anchor>
+    <fr:anchor>3072</fr:anchor>
     <fr:addr type="machine">#249</fr:addr>
     <fr:route>unstable-249.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-iii-6.2.4</fr:parent>
+    <fr:parent>hodge-theory-iii-7.2.7.1</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>[5.1.3, <fr:link type="local" href="SD.xml" addr="SD" title="Techniques de descente cohomologique">SD</fr:link>].</fr:p>
-  </fr:mainmatter>
+      <fr:p>This is a particular case of <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />.</fr:p>
+    </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -21,57 +21,23 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3059</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-6.2.4</fr:addr>
-            <fr:route>hodge-theory-iii-6.2.4.xml</fr:route>
-            <fr:taxon>Proposition</fr:taxon>
+            <fr:anchor>3073</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-7.2.7.1</fr:addr>
+            <fr:route>hodge-theory-iii-7.2.7.1.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>6.2.4</fr:number>
-            <fr:parent>hodge-theory-iii-6.2</fr:parent>
+            <fr:number>7.2.7.1</fr:number>
+            <fr:parent>hodge-theory-iii-7.2.7</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[(Y,N,\beta )]]></fr:tex> satisfy <fr:ref addr="hodge-theory-iii-6.2.star" href="hodge-theory-iii-6.2.star.xml" taxon="Property" number="*" /> above.
-
-    
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li style="list-style-type: &quot;(i) &quot;">
-        Up to unique isomorphism, there exists exactly one <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex>-truncated topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\alpha (X)\simeq (Y,N,\beta )]]></fr:tex>.
-      </html:li>
-
-
-      
- <html:li style="list-style-type: &quot;(ii) &quot;">
-        It is equivalent to give either <fr:tex display="inline"><![CDATA[f\colon  X\to  Z]]></fr:tex> or:
-
-        
- <html:ol>
-          
- <html:li style="list-style-type: &quot;(a) &quot;">
-            a morphism <fr:tex display="inline"><![CDATA[f'\colon  Y\to \operatorname {sq}_n(Z)]]></fr:tex>; and
-          </html:li>
-
-          
- <html:li style="list-style-type: &quot;(b) &quot;">
-            a morphism <fr:tex display="inline"><![CDATA[f''\colon  N\to  Z_{n+1}]]></fr:tex>, such that the diagram
-            <fr:tex display="block"><![CDATA[               \begin {CD}                 N @>\beta >> (\operatorname {cosq} Y)_{n+1}               \\@V{f''}VV @VV{f'}V               \\Z_{n+1} @>>> (\operatorname {cosq}\operatorname {sq}_n Z)_{n+1}               \end {CD}             ]]></fr:tex>
-            commutes.
-          </html:li>
-
-        </html:ol>
-
-      </html:li>
-
-    </html:ol></fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[L]]></fr:tex> be a complex endowed with a biregular filtration <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[\operatorname {Gr}_G(L)]]></fr:tex> to be acyclic, it is necessary and sufficient that <fr:tex display="inline"><![CDATA[L]]></fr:tex> be acyclic and that the differentials of <fr:tex display="inline"><![CDATA[L]]></fr:tex> be strictly compatible with the filtration <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2466</fr:anchor><fr:addr type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>[5.1.3, <fr:link type="local" href="SD.xml" addr="SD" title="Techniques de descente cohomologique">SD</fr:link>].</fr:p>
-  </fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1063</fr:anchor><fr:addr type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-7.2.7.1</fr:parent></fr:frontmatter><fr:mainmatter>
+      <fr:p>This is a particular case of <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />.</fr:p>
+    </fr:mainmatter><fr:backmatter /></fr:tree>
   
-<fr:p>This proposition also applies to simplicial objects in other categories <fr:tex display="inline"><![CDATA[\mathscr {C}]]></fr:tex> apart from that of topological spaces; it suffices that <fr:tex display="inline"><![CDATA[\mathscr {C}]]></fr:tex> satisfy the following:
-
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2467</fr:anchor><fr:addr type="user">hodge-theory-iii-6.2.4.1</fr:addr><fr:route>hodge-theory-iii-6.2.4.1.xml</fr:route><fr:authors /><fr:number>6.2.4.1</fr:number><fr:parent>hodge-theory-iii-6.2.4</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Finite projective limits exist in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
-        Finite projective sums exist in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, and they are disjoint and universal.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter>
+</fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>

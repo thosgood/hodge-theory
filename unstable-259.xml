@@ -2,65 +2,37 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3076</fr:anchor>
+    <fr:anchor>3090</fr:anchor>
     <fr:addr type="machine">#259</fr:addr>
     <fr:route>unstable-259.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-ii-4.3.1</fr:parent>
+    <fr:parent>hodge-theory-ii-4.4.17</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Here is the proof.
-      As in <fr:em>loc. cit.</fr:em>, we can reduce to the case where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is bihomogeneous, with bidegree <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex>.
-      Since the spectral sequence of the double complex <fr:tex display="inline"><![CDATA[\operatorname {H}^0(X,\Omega ^{pq})]]></fr:tex> degenerates, the exterior differential <fr:tex display="inline"><![CDATA[d]]></fr:tex> is strictly compatible with the filtration by the first degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).
-      If <fr:tex display="inline"><![CDATA[a\sim 0]]></fr:tex>, then there thus exists a form <fr:tex display="inline"><![CDATA[\beta _1]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta _1=\alpha ]]></fr:tex> and such that the components <fr:tex display="inline"><![CDATA[\beta _1^{p'q'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\beta _1]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[p'<p]]></fr:tex>.</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+      There exists a dense Zariski open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
 
-    <fr:p>By complex conjugation, there similarly exists <fr:tex display="inline"><![CDATA[\beta _2]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta _2=\alpha ]]></fr:tex> and such that the components <fr:tex display="inline"><![CDATA[\beta _2^{p'q'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\beta _2]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[q'<q]]></fr:tex>.
-      We have <fr:tex display="inline"><![CDATA[\mathrm {d}(\beta _1-\beta _2)=0]]></fr:tex>.</fr:p>
-
-    <fr:p>Let <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> be a form satisfying <fr:tex display="inline"><![CDATA[\mathrm {d}'\gamma =\mathrm {d}''\gamma =0]]></fr:tex> in the cohomology class of <fr:tex display="inline"><![CDATA[\beta _1-\beta _2]]></fr:tex> (<fr:em>loc. cit.</fr:em>).
-      Let <fr:tex display="inline"><![CDATA[\gamma _1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\gamma _2]]></fr:tex>) be the sum of the components of <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p',q')]]></fr:tex> for <fr:tex display="inline"><![CDATA[p'\geqslant  p]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[q'\geqslant  q]]></fr:tex>).
-      If we set <fr:tex display="inline"><![CDATA[\beta '_1=\beta _1-\gamma _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta '_2=\beta _2+\gamma _2]]></fr:tex>, then we still have that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta '_1=\mathrm {d}\beta '_2=\alpha ]]></fr:tex>;
-      furthermore, <fr:tex display="inline"><![CDATA[\beta '_1-\beta '_2=\beta _1-\beta _2-\gamma ]]></fr:tex> is cohomologous to zero: there exists <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> such that
-      <fr:tex display="block"><![CDATA[         \mathrm {d}\delta          = \beta '_1 - \beta '_2.       ]]></fr:tex>
-      Let <fr:tex display="inline"><![CDATA[\delta _1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\delta _2]]></fr:tex>) be the sum of the components of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p',q')]]></fr:tex> for <fr:tex display="inline"><![CDATA[p'<p-1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[q'>q-1]]></fr:tex>);
-      let <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> be the component of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p-1,q-1)]]></fr:tex>.</fr:p>
-
-    
-  <fr:embedded-tex hash="c44701bd88c293718ac244d8a74864d8"><fr:embedded-tex-preamble><![CDATA[
+    <fr:p>We lose no generality by assuming that <fr:tex display="inline"><![CDATA[s\in  T]]></fr:tex>.
+      In the diagram
+      
+  <fr:embedded-tex hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
-    \usepackage {tikz}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
-      \draw [->] (0,0) to (2,0) node[label={below:$p$}]{};
-      \draw [->] (0,0) to (0,2) node[label={left:$q$}]{};
-      \node [point, label={below:$\beta $}] at (1.5,1.5) {};
-      \node [point, label={right:$(p,q)$}] at (3,2.5) {};
-      \begin {scope}[shift={(2.5,0.5)}, rotate=-45]
-        \node [point, label={[rotate=-45]right:$\delta _1$}] at (0,0) {};
-        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
-      \end {scope}
-      \begin {scope}[shift={(0.5,2.5)}, rotate=135]
-        \node [point, label={[rotate=-45]left:$\delta _2$}] at (0,0) {};
-        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
-      \end {scope}
-      \begin {scope}[shift={(4,1)}, rotate=-45]
-        \node [point, label={[rotate=-45]right:$\beta _1,\gamma _1,\beta '_1$}] at (0,0) {};
-        \node [point] at (1.75,0) {};
-        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
-      \end {scope}
-      \begin {scope}[shift={(2,3)}, rotate=135]
-        \node [point, label={[rotate=-45]left:$\beta _2,\gamma _2,\beta '_2$}] at (0,0) {};
-        \node [point] at (01.75,0) {};
-        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
-      \end {scope}
-    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex>
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        \pi _1(T,s)
+          \ar [r]
+          \ar [d,swap,"a"]
+        & \pi _1(S,s)
+          \ar [d,"c"]
+      \\\pi _1(U,p(s))
+        \ar [r,swap,"b"]
+        & \pi _1(M,p(s))
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-
-    <fr:p>We have that
-      <fr:tex display="block"><![CDATA[         \beta '_2         =\mathrm {d}\delta _2 + \mathrm {d}''\beta        ]]></fr:tex>
-      and
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           \alpha            = \mathrm {d}\beta '_2           &= \mathrm {d}\mathrm {d}\delta _2 + \mathrm {d}\mathrm {d}''\beta          \\&= \mathrm {d}'\mathrm {d}''\beta .         \end {aligned}       ]]></fr:tex></fr:p>
+      the image of the arrow <fr:tex display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
+      The image of the arrow <fr:tex display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -71,70 +43,42 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3077</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-4.3.1</fr:addr>
-            <fr:route>hodge-theory-ii-4.3.1.xml</fr:route>
-            <fr:taxon>Proposition</fr:taxon>
+            <fr:anchor>3091</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.4.17</fr:addr>
+            <fr:route>hodge-theory-ii-4.4.17.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>4.3.1</fr:number>
-            <fr:parent>hodge-theory-ii-4.3</fr:parent>
+            <fr:number>4.4.17</fr:number>
+            <fr:parent>hodge-theory-ii-4.4</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a smooth proper scheme over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
-    If a <fr:tex display="inline"><![CDATA[C^\infty ]]></fr:tex> form <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[\mathrm {d}'\alpha =\mathrm {d}''\alpha =0]]></fr:tex> and is cohomologous to zero, then there exists <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\alpha =\mathrm {d}'\mathrm {d}''\beta ]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[p\colon  S\to  M]]></fr:tex> be a dominant morphism of smooth connected schemes.
+    The subgroup <fr:tex display="inline"><![CDATA[p(\pi _1(S,s))]]></fr:tex> of <fr:tex display="inline"><![CDATA[\pi _1(M,p(s))]]></fr:tex> is then of finite index.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>453</fr:anchor><fr:addr type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.3.1</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Here is the proof.
-      As in <fr:em>loc. cit.</fr:em>, we can reduce to the case where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is bihomogeneous, with bidegree <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex>.
-      Since the spectral sequence of the double complex <fr:tex display="inline"><![CDATA[\operatorname {H}^0(X,\Omega ^{pq})]]></fr:tex> degenerates, the exterior differential <fr:tex display="inline"><![CDATA[d]]></fr:tex> is strictly compatible with the filtration by the first degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).
-      If <fr:tex display="inline"><![CDATA[a\sim 0]]></fr:tex>, then there thus exists a form <fr:tex display="inline"><![CDATA[\beta _1]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta _1=\alpha ]]></fr:tex> and such that the components <fr:tex display="inline"><![CDATA[\beta _1^{p'q'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\beta _1]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[p'<p]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1907</fr:anchor><fr:addr type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+      There exists a dense Zariski open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
 
-    <fr:p>By complex conjugation, there similarly exists <fr:tex display="inline"><![CDATA[\beta _2]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta _2=\alpha ]]></fr:tex> and such that the components <fr:tex display="inline"><![CDATA[\beta _2^{p'q'}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\beta _2]]></fr:tex> are zero for <fr:tex display="inline"><![CDATA[q'<q]]></fr:tex>.
-      We have <fr:tex display="inline"><![CDATA[\mathrm {d}(\beta _1-\beta _2)=0]]></fr:tex>.</fr:p>
-
-    <fr:p>Let <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> be a form satisfying <fr:tex display="inline"><![CDATA[\mathrm {d}'\gamma =\mathrm {d}''\gamma =0]]></fr:tex> in the cohomology class of <fr:tex display="inline"><![CDATA[\beta _1-\beta _2]]></fr:tex> (<fr:em>loc. cit.</fr:em>).
-      Let <fr:tex display="inline"><![CDATA[\gamma _1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\gamma _2]]></fr:tex>) be the sum of the components of <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p',q')]]></fr:tex> for <fr:tex display="inline"><![CDATA[p'\geqslant  p]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[q'\geqslant  q]]></fr:tex>).
-      If we set <fr:tex display="inline"><![CDATA[\beta '_1=\beta _1-\gamma _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta '_2=\beta _2+\gamma _2]]></fr:tex>, then we still have that <fr:tex display="inline"><![CDATA[\mathrm {d}\beta '_1=\mathrm {d}\beta '_2=\alpha ]]></fr:tex>;
-      furthermore, <fr:tex display="inline"><![CDATA[\beta '_1-\beta '_2=\beta _1-\beta _2-\gamma ]]></fr:tex> is cohomologous to zero: there exists <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> such that
-      <fr:tex display="block"><![CDATA[         \mathrm {d}\delta          = \beta '_1 - \beta '_2.       ]]></fr:tex>
-      Let <fr:tex display="inline"><![CDATA[\delta _1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\delta _2]]></fr:tex>) be the sum of the components of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p',q')]]></fr:tex> for <fr:tex display="inline"><![CDATA[p'<p-1]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[q'>q-1]]></fr:tex>);
-      let <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> be the component of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(p-1,q-1)]]></fr:tex>.</fr:p>
-
-    
-  <fr:embedded-tex hash="c44701bd88c293718ac244d8a74864d8"><fr:embedded-tex-preamble><![CDATA[
+    <fr:p>We lose no generality by assuming that <fr:tex display="inline"><![CDATA[s\in  T]]></fr:tex>.
+      In the diagram
+      
+  <fr:embedded-tex hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
-    \usepackage {tikz}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]
-      \draw [->] (0,0) to (2,0) node[label={below:$p$}]{};
-      \draw [->] (0,0) to (0,2) node[label={left:$q$}]{};
-      \node [point, label={below:$\beta $}] at (1.5,1.5) {};
-      \node [point, label={right:$(p,q)$}] at (3,2.5) {};
-      \begin {scope}[shift={(2.5,0.5)}, rotate=-45]
-        \node [point, label={[rotate=-45]right:$\delta _1$}] at (0,0) {};
-        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
-      \end {scope}
-      \begin {scope}[shift={(0.5,2.5)}, rotate=135]
-        \node [point, label={[rotate=-45]left:$\delta _2$}] at (0,0) {};
-        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
-      \end {scope}
-      \begin {scope}[shift={(4,1)}, rotate=-45]
-        \node [point, label={[rotate=-45]right:$\beta _1,\gamma _1,\beta '_1$}] at (0,0) {};
-        \node [point] at (1.75,0) {};
-        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
-      \end {scope}
-      \begin {scope}[shift={(2,3)}, rotate=135]
-        \node [point, label={[rotate=-45]left:$\beta _2,\gamma _2,\beta '_2$}] at (0,0) {};
-        \node [point] at (01.75,0) {};
-        \draw  (1.5,0.5) arc [start angle=90, end angle=270, x radius=2cm, y radius=0.5cm];
-      \end {scope}
-    \end {tikzpicture}]]></fr:embedded-tex-body></fr:embedded-tex>
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        \pi _1(T,s)
+          \ar [r]
+          \ar [d,swap,"a"]
+        & \pi _1(S,s)
+          \ar [d,"c"]
+      \\\pi _1(U,p(s))
+        \ar [r,swap,"b"]
+        & \pi _1(M,p(s))
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-
-    <fr:p>We have that
-      <fr:tex display="block"><![CDATA[         \beta '_2         =\mathrm {d}\delta _2 + \mathrm {d}''\beta        ]]></fr:tex>
-      and
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           \alpha            = \mathrm {d}\beta '_2           &= \mathrm {d}\mathrm {d}\delta _2 + \mathrm {d}\mathrm {d}''\beta          \\&= \mathrm {d}'\mathrm {d}''\beta .         \end {aligned}       ]]></fr:tex></fr:p>
+      the image of the arrow <fr:tex display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
+      The image of the arrow <fr:tex display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
