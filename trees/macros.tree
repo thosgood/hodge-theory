@@ -52,6 +52,13 @@
     \usepackage{tikz-cd}
   }{\begin{tikzcd}[column sep=huge]\body\end{tikzcd}}
 }
+\def\thintikzcd[body]{
+  \tex{
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{tikz-cd}
+  }{\begin{tikzcd}[column sep=tiny]\body\end{tikzcd}}
+}
 \def\talltikzcd[body]{
   \tex{
     \usepackage{amsmath}

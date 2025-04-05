@@ -260,7 +260,101 @@
     }
     \p{
       \oldpage{44}
-      Then
+      There thus exist bifiltered resolutions (graded with acyclic components) #{a\colon\Omega_{\overline{X}_\bullet}^\bullet(\log D_\bullet)\to K} and #{b\colon\Omega_{\overline{Y}_\bullet}^\bullet(\log E_\bullet)\to L} that fit into a commutative diagram of bifiltered complexes
+      \tikzcd{
+        \Omega_{\overline{X}_\bullet}^\bullet(\log D_\bullet)
+          \ar[d,swap,"a"]
+        & \Omega_{\overline{Y}_\bullet}^\bullet(\log E_\bullet)
+          \ar[l,swap,"\overline{u}^*"]
+          \ar[d,"b"]
+      \\K
+        & L
+          \ar[l,"v"]
+      }
+      (where #{\overline{u}^*} and #{v} are #{\overline{u}}-morphisms).
+      The long exact sequence in \ref{hodge-theory-iii-8.3.9} is then identified with the exact sequence given by the distinguished triangle
+      \thintikzcd{
+        & C(\Gamma v)
+          \ar[dl]
+      \\\Gamma L
+          \ar[rr]
+        && \Gamma K
+          \ar[ul]
+      }
+      The complex #{C(v)} over #{C(\overline{u})} is a bifiltered resolution of #{C(u^*\colon\Omega_{\overline{Y}_\bullet}^\bullet(\log E_\bullet)\to\Omega_{\overline{X}_\bullet}^\bullet(\log D_\bullet))}.
+      From this it results that the Hodge and weight filtrations of #{\HH^\bullet(Y_\bullet\mod X_\bullet,\CC)} are induced by the filtrations of the cone #{C(\Gamma v)}, and \ref{hodge-theory-iii-8.3.9} then follows formally.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-8.3.10]{
+  \title{Proof of (ii) of \ref{hodge-theory-iii-8.2.4}}
+  \number{8.3.10}
+
+  \proof{
+    \p{
+      The proof proceeds by induction on #{N=\dim(X)}.
+      We can assume #{X} to be reduced.
+      Let #{U} be a smooth dense Zariski open of #{X}, and let #{Y=X\setminus U}.
+      By the resolution of singularities, there exists a proper birational morphism #{p\colon X'\to X}, with smooth source #{X'}, that induces an isomorphism from #{p^{-1}(U)} to #{U}.
+      Let #{Y'=p^{-1}(Y)}.
+      Consider, for #{n\geqslant N}, the diagram of mixed Hodge structures
+      \tikzcd{
+        & \HH^n(X\mod Y,\ZZ)
+          \ar[d,swap,"p^*"]
+          \ar[r]
+        & \HH^n(X,\ZZ)
+          \ar[d]
+          \ar[r]
+        & \HH^n(Y,\ZZ)
+          \ar[d]
+      \\\HH^{n-1}(Y',\ZZ)
+          \ar[r]
+        & \HH^n(X'\mod Y',\ZZ)
+          \ar[r]
+        & \HH^n(X',\ZZ)
+          \ar[r]
+        & \HH^n(Y',\ZZ)
+      }
+      Let #{\Phi} be the family of supports of #{U} consisting of those #{A\subset U} such that, in #{X} (or, equivalently, in #{X'}), #{\overline{A}\subset U}.
+      We have that
+      ##{
+        \HH^n(X\mod Y,\ZZ)
+        = \HH_\Phi^n(U,\ZZ)
+        = \HH^n(X'\mod Y',\ZZ)
+      }
+      and so the arrow denoted #{p^*} is an isomorphism.
+    }
+
+    \p{
+      For #{h^{pq}} a non-zero Hodge number of one of the mixed Hodge structures in play, we have:
+      \oldpage{45}
+      \olc{
+        \lic{(a)}{
+          for #{\HH^n(X',\ZZ)}, #{(p,q)\in[n-N,N]\times[n-N,N]}
+        }
+
+        \lic{(b)}{
+          for #{\HH^{n-1}(Y',\ZZ)}, #{(p,q)\in[n-N,N-1]\times[n-N,N-1]}
+        }
+
+        \lic{(c)}{
+          for #{\HH^n(X'\mod Y',\ZZ)=\HH^n(X\mod Y,\ZZ)}, #{(p,q)\in[n-N,N]\times[n-N,N]}
+        }
+
+        \lic{(d)}{
+          for #{\HH^n(Y,\ZZ)}, #{(p,q)\in[n-N+1,N-1]\times[n-N+1,N-1]}
+        }
+
+        \lic{(e)}{
+          for #{\HH^n(X,\ZZ)}, #{(p,q)\in[n-N,N]\times[n-N,N]}
+        }
+      }
+
+      (a) follows from the fact that #{X'} is smooth, and from the fact that the claim is true for the #{{}_WE_1} pages of the spectral sequence \ref{hodge-theory-ii-3.2.4.1}.
+      (b) and (d) follow from the inductive hypothesis: we have that #{\dim Y,\dim Y'\leqslant N-1}.
+      (c) follows from (a) and (b), and (e) follows from (c) and (d).
+      This finishes the proof.
     }
   }
 }
