@@ -2,15 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3120</fr:anchor>
+    <fr:anchor>3163</fr:anchor>
     <fr:addr type="machine">#274</fr:addr>
     <fr:route>unstable-274.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-ii-3.2.14</fr:parent>
+    <fr:parent>hodge-theory-ii-3.2.8</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>This is the particular case of (ii) of <fr:ref addr="hodge-theory-ii-3.2.13" href="hodge-theory-ii-3.2.13.xml" taxon="Corollary" number="3.2.13" /> where <fr:tex display="inline"><![CDATA[{}_FE_1^{p0}={}_FE_\infty ^{p0}]]></fr:tex>.</fr:p>
+    <fr:p>On the <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> pages, there is only the filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex> to consider (<fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />), and <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> is compatible with this filtration ((i) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />).
+      This filtration is the abutment of the spectral sequence in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> ((ii) of <fr:ref addr="hodge-theory-ii-1.4.8" href="hodge-theory-ii-1.4.8.xml" taxon="Example" number="1.4.8" />).
+      By <fr:ref addr="hodge-theory-ii-3.2.7" href="hodge-theory-ii-3.2.7.xml" taxon="Lemma" number="3.2.7" />, the arrow
+      <fr:tex display="block"><![CDATA[         d_1\colon          \operatorname {\mathbb {H}}^k(\overline {X},\operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\overline {X},\operatorname {Gr}_{n-1}^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle ))       ]]></fr:tex>
+      or
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>593</fr:anchor><fr:addr type="user">hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.2.8.1</fr:number><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      is compatible with the filtrations that are <fr:tex display="inline"><![CDATA[(k+n)]]></fr:tex>-opposite to their complex conjugate.
+      Since <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> commutes up to complex conjugation, <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> respects the bigrading (of weight <fr:tex display="inline"><![CDATA[k+n]]></fr:tex>) defined by <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex>, which proves <fr:ref addr="hodge-theory-ii-3.2.8" href="hodge-theory-ii-3.2.8.xml" taxon="Lemma" number="3.2.8" />.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -21,20 +30,28 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3121</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-3.2.14</fr:addr>
-            <fr:route>hodge-theory-ii-3.2.14.xml</fr:route>
-            <fr:taxon>Corollary</fr:taxon>
+            <fr:anchor>3164</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.2.8</fr:addr>
+            <fr:route>hodge-theory-ii-3.2.8.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>3.2.14</fr:number>
+            <fr:number>3.2.8</fr:number>
             <fr:parent>hodge-theory-ii-3.2</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> be a meromorphic differential <fr:tex display="inline"><![CDATA[p]]></fr:tex>-form on <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> that is holomorphic on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and presents at worst logarithmic poles along <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
-    Then the restriction <fr:tex display="inline"><![CDATA[\omega |X]]></fr:tex> of <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> to <fr:tex display="inline"><![CDATA[X]]></fr:tex> is closed, and if the cohomology class in <fr:tex display="inline"><![CDATA[\operatorname {H}^p(X,\mathbb {C})]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> is zero then <fr:tex display="inline"><![CDATA[\omega =0]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>The differentials <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequence <fr:tex display="inline"><![CDATA[{}_WE]]></fr:tex> are strictly compatible with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>609</fr:anchor><fr:addr type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.14</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>This is the particular case of (ii) of <fr:ref addr="hodge-theory-ii-3.2.13" href="hodge-theory-ii-3.2.13.xml" taxon="Corollary" number="3.2.13" /> where <fr:tex display="inline"><![CDATA[{}_FE_1^{p0}={}_FE_\infty ^{p0}]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>592</fr:anchor><fr:addr type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>On the <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> pages, there is only the filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex> to consider (<fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />), and <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> is compatible with this filtration ((i) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />).
+      This filtration is the abutment of the spectral sequence in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> ((ii) of <fr:ref addr="hodge-theory-ii-1.4.8" href="hodge-theory-ii-1.4.8.xml" taxon="Example" number="1.4.8" />).
+      By <fr:ref addr="hodge-theory-ii-3.2.7" href="hodge-theory-ii-3.2.7.xml" taxon="Lemma" number="3.2.7" />, the arrow
+      <fr:tex display="block"><![CDATA[         d_1\colon          \operatorname {\mathbb {H}}^k(\overline {X},\operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\overline {X},\operatorname {Gr}_{n-1}^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle ))       ]]></fr:tex>
+      or
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>593</fr:anchor><fr:addr type="user">hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.2.8.1</fr:number><fr:parent>hodge-theory-ii-3.2.8</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+      is compatible with the filtrations that are <fr:tex display="inline"><![CDATA[(k+n)]]></fr:tex>-opposite to their complex conjugate.
+      Since <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> commutes up to complex conjugation, <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> respects the bigrading (of weight <fr:tex display="inline"><![CDATA[k+n]]></fr:tex>) defined by <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex>, which proves <fr:ref addr="hodge-theory-ii-3.2.8" href="hodge-theory-ii-3.2.8.xml" taxon="Lemma" number="3.2.8" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

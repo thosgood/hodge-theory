@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3436</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-9</fr:addr>
+    <fr:route>hodge-theory-iii-9.xml</fr:route>
+    <fr:title text="Hodge Theory III › Examples and applications"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Examples and applications</fr:title>
+    <fr:authors />
+    <fr:number>9</fr:number>
+    <fr:parent>hodge-theory-iii</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:anchor>3343</fr:anchor>
+        <fr:addr type="user">hodge-theory-iii-9.1</fr:addr>
+        <fr:route>hodge-theory-iii-9.1.xml</fr:route>
+        <fr:title text="Cohomology of groups and of classifying spaces">Cohomology of groups and of classifying spaces</fr:title>
+        <fr:authors />
+        <fr:number>9.1</fr:number>
+        <fr:parent>hodge-theory-iii-9</fr:parent>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a complex connected linear algebraic group.
+  We intend to calculated the mixed Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (G)]]></fr:tex>.
+  We will start by calculating that of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\mathrm {B}_{\bullet  G})]]></fr:tex>, by reduction to the case of tori;
+  we will then calculate that of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (G)]]></fr:tex> via the Eilenberg–Moore spectral sequence <fr:ref addr="hodge-theory-iii-6.1.5" href="hodge-theory-iii-6.1.5.xml" number="6.1.5" />.
+  As a bonus, we obtain the strange Theorem [hodge-theory-iii-9.1.7 <fr:strong>(?)</fr:strong>].</fr:p>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2455</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.1.1</fr:addr>
+            <fr:route>hodge-theory-iii-9.1.1.xml</fr:route>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:authors />
+            <fr:number>9.1.1</fr:number>
+            <fr:parent>hodge-theory-iii-9.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a linear algebraic group.
+    We have that <fr:tex display="inline"><![CDATA[\operatorname {H}^{2n+1}(\mathrm {B}_{\bullet  G},\mathbb {Q})=0]]></fr:tex>, and that <fr:tex display="inline"><![CDATA[\operatorname {H}^{2n}(\mathrm {B}_{\bullet  G},\mathbb {Q})\otimes \mathbb {C}]]></fr:tex> is pure of type <fr:tex display="inline"><![CDATA[(n,n)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-0.5" href="hodge-theory-iii-0.5.xml" number="III.0.5" />)</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2159</fr:anchor><fr:addr type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-9.1.1</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[G^0]]></fr:tex> be the identity component of <fr:tex display="inline"><![CDATA[G]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[T\subset  G^0]]></fr:tex> be a maximal torus.
+      Since <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\mathrm {B}_{\bullet  G},\mathbb {Q})=\operatorname {H}^\bullet (\mathrm {B}_{\bullet  G^0},\mathbb {Q})^{G/G^0}]]></fr:tex>, we have, by the <fr:em>splitting principle</fr:em> (see <fr:ref addr="hodge-theory-iii-6.1.6" href="hodge-theory-iii-6.1.6.xml" number="6.1.6" />)
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (\mathrm {B}_{\bullet  G},\mathbb {Q})         \hookrightarrow  \operatorname {H}^\bullet (\mathrm {B}_{\bullet  T},\mathbb {Q}).       ]]></fr:tex>
+      This inclusion is a morphism of mixed Hodge structures: it suffices to consider the case of a torus, or even, by the Künneth formula, the case where <fr:tex display="inline"><![CDATA[G=\mathbb {G}_\mathrm {m}]]></fr:tex>.
+      Here are two proofs of <fr:ref addr="hodge-theory-iii-9.1.1" href="hodge-theory-iii-9.1.1.xml" taxon="Theorem" number="9.1.1" /> in this case.</fr:p>
+
+    <fr:p><fr:em>1st proof.</fr:em> —
+      The cohomology of <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex> (i.e. of the projective line minus two points) is <fr:tex display="inline"><![CDATA[\operatorname {H}^0=\operatorname {H}^1=\mathbb {Z}]]></fr:tex>.
+      The only Hodge numbers <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^1(\mathbb {G}_\mathrm {m})]]></fr:tex> that can be non-zero are <fr:tex display="inline"><![CDATA[h^{01}=h^{10}]]></fr:tex> and <fr:tex display="inline"><![CDATA[h^{11}]]></fr:tex> ((i) and (iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+      Since <fr:tex display="inline"><![CDATA[h^{01}+h^{10}+h^{11}=2h^{01}+h^{11}=1]]></fr:tex>, we have that <fr:tex display="inline"><![CDATA[h^{01}=0]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[\operatorname {H}^1(\mathbb {G}_\mathrm {m})]]></fr:tex> is pure of type <fr:tex display="inline"><![CDATA[(1,1)]]></fr:tex> (for another proof, see [hodge-theory-iii-10.3.8 <fr:strong>(?)</fr:strong>]).
+      The <fr:tex display="inline"><![CDATA[E_2^{p,q}]]></fr:tex> page of the spectral sequence <fr:ref addr="hodge-theory-iii-6.1.5" href="hodge-theory-iii-6.1.5.xml" number="6.1.5" />, which is zero for odd <fr:tex display="inline"><![CDATA[p+q]]></fr:tex>, is thus pure of type <fr:tex display="inline"><![CDATA[((p+q)/2,(p+q)/2)]]></fr:tex>.
+      Its abutment has the same homogeneity.</fr:p>
+
+    <fr:p><fr:em>2nd proof.</fr:em> —
+      We know that <fr:tex display="inline"><![CDATA[\mathbb {P}^r(\mathbb {C})]]></fr:tex>, endowed with <fr:tex display="inline"><![CDATA[\mathcal {O}(1)]]></fr:tex>, is an "approximation" of <fr:tex display="inline"><![CDATA[\mathrm {B}_{\mathbb {G}_\mathrm {m}}]]></fr:tex>: the homomorphism <fr:tex display="inline"><![CDATA[[\mathcal {O}(1)]\colon \operatorname {H}^i(\mathrm {B}_{\bullet \mathbb {G}_\mathrm {m}})\to \operatorname {H}^i(\mathbb {P}^r(\mathbb {C}))]]></fr:tex> is bijective for <fr:tex display="inline"><![CDATA[i\leqslant  2r]]></fr:tex>.
+      The cohomology group <fr:tex display="inline"><![CDATA[\operatorname {H}^{2i}(\mathbb {P}^r(\mathbb {C}))]]></fr:tex> is generated by the cohomology class of an algebraic cycle (that is, a linear subspace), and is thus of type <fr:tex display="inline"><![CDATA[(i,i)]]></fr:tex>.
+      The following proposition allows us to deduce that <fr:tex display="inline"><![CDATA[\operatorname {H}^{2i}(\mathrm {B}_{\mathbb {G}_\mathrm {m}})]]></fr:tex> is of type <fr:tex display="inline"><![CDATA[(i,i)]]></fr:tex>.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2456</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.1.2</fr:addr>
+            <fr:route>hodge-theory-iii-9.1.2.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
+            <fr:authors />
+            <fr:number>9.1.2</fr:number>
+            <fr:parent>hodge-theory-iii-9.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be an algebraic group (over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>), and <fr:tex display="inline"><![CDATA[P]]></fr:tex> a (algebraic) principal homogeneous space with group <fr:tex display="inline"><![CDATA[G]]></fr:tex> over a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    Then the morphism
+    <fr:tex display="block"><![CDATA[       [P]\colon \operatorname {H}^\bullet (\mathrm {B}_G)=\operatorname {H}^\bullet (\mathrm {B}_{\bullet  G})       \to  \operatorname {H}^\bullet (X)     ]]></fr:tex>
+    is a morphism of mixed Hodge structures.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2438</fr:anchor><fr:addr type="machine">#237</fr:addr><fr:route>unstable-237.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-9.1.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>This follows from the definition (<fr:ref addr="hodge-theory-iii-6.1.3.1" href="hodge-theory-iii-6.1.3.1.xml" taxon="Equation" number="6.1.3.1" />) of <fr:tex display="inline"><![CDATA[[P]]]></fr:tex> and from functoriality (<fr:ref addr="hodge-theory-iii-8.3.4" href="hodge-theory-iii-8.3.4.xml" taxon="Definition" number="8.3.4" />).</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2457</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.1.3</fr:addr>
+            <fr:route>hodge-theory-iii-9.1.3.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>9.1.3</fr:number>
+            <fr:parent>hodge-theory-iii-9.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The characteristic classes, in <fr:tex display="inline"><![CDATA[\operatorname {H}^{2n}(S)]]></fr:tex>, of a (algebraic) principal homogeneous space <fr:tex display="inline"><![CDATA[P]]></fr:tex> over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, with structure group a linear group <fr:tex display="inline"><![CDATA[G]]></fr:tex>, are pure of type <fr:tex display="inline"><![CDATA[(n,n)]]></fr:tex>: they come from morphisms <fr:tex display="inline"><![CDATA[\mathbb {Q}(-n)\to \operatorname {H}^{2n}(S,\mathbb {Q})]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:p>In the particular case where <fr:tex display="inline"><![CDATA[S]]></fr:tex> is smooth and quasi-projective, we know that the characteristic classes of <fr:tex display="inline"><![CDATA[P]]></fr:tex> are even algebraic, i.e. in the image of the Chow ring <fr:tex display="inline"><![CDATA[(\otimes \mathbb {Q})]]></fr:tex>.</fr:p>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2458</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.1.4</fr:addr>
+            <fr:route>hodge-theory-iii-9.1.4.xml</fr:route>
+            <fr:authors />
+            <fr:number>9.1.4</fr:number>
+            <fr:parent>hodge-theory-iii-9.1</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:anchor>3344</fr:anchor>
+        <fr:addr type="user">hodge-theory-iii-9.2</fr:addr>
+        <fr:route>hodge-theory-iii-9.2.xml</fr:route>
+        <fr:title text="Hodge theory of smooth hypersurfaces, following Griffiths">Hodge theory of smooth hypersurfaces, following Griffiths</fr:title>
+        <fr:authors />
+        <fr:number>9.2</fr:number>
+        <fr:parent>hodge-theory-iii-9</fr:parent>
+      </fr:frontmatter>
+      <fr:mainmatter />
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:anchor>3345</fr:anchor>
+        <fr:addr type="user">hodge-theory-iii-9.3</fr:addr>
+        <fr:route>hodge-theory-iii-9.3.xml</fr:route>
+        <fr:title text="Construction of complexes of first-order differential operators">Construction of complexes of first-order differential operators</fr:title>
+        <fr:authors />
+        <fr:number>9.3</fr:number>
+        <fr:parent>hodge-theory-iii-9</fr:parent>
+      </fr:frontmatter>
+      <fr:mainmatter />
+      <fr:backmatter />
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3437</fr:anchor>
+            <fr:addr type="user">index</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Deligne's &quot;Hodge Theory I, II, and III&quot;">Deligne's "Hodge Theory I, II, and III"</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p><fr:strong><fr:em>TO-DO: replace fref by ref</fr:em></fr:strong>
+  <fr:strong><fr:em>TO-DO: fix tikzcd macros (they're currently inline)</fr:em></fr:strong></fr:p>
+            <fr:p>This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
+  <fr:ul><fr:li>"Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
+      <fr:link type="external" href="https://publications.ias.edu/node/359">[PDF]</fr:link></fr:li>
+    <fr:li>"Théorie de Hodge II", <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>40</fr:strong> (1971) pp. 5–58.
+      <fr:link type="external" href="https://publications.ias.edu/node/361">[PDF]</fr:link></fr:li>
+    <fr:li>"Théorie de Hodge III", <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>44</fr:strong> (1974) pp. 5–77.
+      <fr:link type="external" href="https://publications.ias.edu/node/373">[PDF]</fr:link></fr:li></fr:ul></fr:p>
+            <fr:p>The translator (<fr:link type="external" href="https://thosgood.com">Tim Hosgood</fr:link>) takes full responsibility for any errors introduced, and claims no rights to any of the mathematical content herein.
+  You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link type="external" href="https://github.com/thosgood/hodge-theory">GitHub repository</fr:link>.
+  Corrections and comments welcome.</fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="hodge-theory-i.xml" addr="hodge-theory-i" title="Hodge Theory I"><fr:strong>Hodge Theory I</fr:strong></fr:link> ✓</fr:li>
+
+  <fr:li><fr:link type="local" href="hodge-theory-ii.xml" addr="hodge-theory-ii" title="Hodge Theory II"><fr:strong>Hodge Theory II</fr:strong></fr:link> ✓
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="hodge-theory-ii-introduction.xml" addr="hodge-theory-ii-introduction" title="Hodge Theory II › Introduction">Introduction</fr:link>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;1. &quot;">
+        <fr:link type="local" href="hodge-theory-ii-1.xml" addr="hodge-theory-ii-1" title="Hodge Theory II › Filtrations">Filtrations</fr:link>
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;1.1. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-1.1.xml" addr="hodge-theory-ii-1.1" title="Hodge Theory II › Filtrations › Filtered objects">Filtered objects</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;1.2. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-1.2.xml" addr="hodge-theory-ii-1.2" title="Hodge Theory II › Filtrations › Opposite filtrations">Opposite filtrations</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;1.3. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-1.3.xml" addr="hodge-theory-ii-1.3" title="Hodge Theory II › Filtrations › The two filtrations lemma">The two filtrations lemma</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;1.4. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-1.4.xml" addr="hodge-theory-ii-1.4" title="Hodge Theory II › Filtrations › Hypercohomology of filtered complexes">Hypercohomology of filtered complexes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li style="list-style-type: &quot;2. &quot;">
+        <fr:link type="local" href="hodge-theory-ii-2.xml" addr="hodge-theory-ii-2" title="Hodge Theory II › Hodge structures">Hodge structures</fr:link>
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;2.1. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-2.1.xml" addr="hodge-theory-ii-2.1" title="Hodge Theory II › Hodge structures › Pure structures">Pure structures</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;2.2. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-2.2.xml" addr="hodge-theory-ii-2.2" title="Hodge Theory II › Hodge structures › Hodge theory">Hodge theory</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;2.3. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-2.3.xml" addr="hodge-theory-ii-2.3" title="Hodge Theory II › Hodge structures › Mixed structures">Mixed structures</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li style="list-style-type: &quot;3. &quot;">
+        <fr:link type="local" href="hodge-theory-ii-3.xml" addr="hodge-theory-ii-3" title="Hodge Theory II › Hodge theory of non-singular algebraic varieties">Hodge theory of non-singular algebraic varieties</fr:link>
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;3.1. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-3.1.xml" addr="hodge-theory-ii-3.1" title="Hodge Theory II › Hodge theory of non-singular algebraic varieties › Logarithmic poles and residues">Logarithmic poles and residues</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;3.2. &quot;">
+            <fr:link type="local" href="hodge-theory-ii-3.2.xml" addr="hodge-theory-ii-3.2" title="Hodge Theory II › Hodge theory of non-singular algebraic varieties › Mixed Hodge theory">Mixed Hodge theory</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li style="list-style-type: &quot;4. &quot;">
+        <fr:link type="local" href="hodge-theory-ii-4.xml" addr="hodge-theory-ii-4" title="Hodge Theory II › Applications and supplements">Applications and supplements</fr:link>
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;4.1 &quot;">
+            <fr:link type="local" href="hodge-theory-ii-4.1.xml" addr="hodge-theory-ii-4.1" title="Hodge Theory II › Applications and supplements › The fixed set theorem">The fixed set theorem</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;4.2 &quot;">
+            <fr:link type="local" href="hodge-theory-ii-4.2.xml" addr="hodge-theory-ii-4.2" title="Hodge Theory II › Applications and supplements › The semi-simplicity theorem">The semi-simplicity theorem</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;4.3 &quot;">
+            <fr:link type="local" href="hodge-theory-ii-4.3.xml" addr="hodge-theory-ii-4.3" title="Hodge Theory II › Applications and supplements › Supplement to [D1968]">Supplement to [D1968]</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;4.4 &quot;">
+            <fr:link type="local" href="hodge-theory-ii-4.4.xml" addr="hodge-theory-ii-4.4" title="Hodge Theory II › Applications and supplements › Homomorphisms of abelian schemes">Homomorphisms of abelian schemes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:li>
+
+  <fr:li><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III"><fr:strong>Hodge Theory III</fr:strong></fr:link>
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="hodge-theory-iii-introduction.xml" addr="hodge-theory-iii-introduction" title="Hodge Theory III › Introduction">Introduction</fr:link> ✓
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot; &quot;">
+        <fr:link type="local" href="hodge-theory-iii-terminology-and-notation.xml" addr="hodge-theory-iii-terminology-and-notation" title="Hodge Theory III › Terminology and notation">Terminology and notation</fr:link> ✓
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;5. &quot;">
+        <fr:link type="local" href="hodge-theory-iii-5.xml" addr="hodge-theory-iii-5" title="Hodge Theory III › Cohomological descent">Cohomological descent</fr:link> ✓
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;5.1 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-5.1.xml" addr="hodge-theory-iii-5.1" title="Hodge Theory III › Cohomological descent › Simplicial topological spaces">Simplicial topological spaces</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;5.2 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-5.2.xml" addr="hodge-theory-iii-5.2" title="Hodge Theory III › Cohomological descent › Cohomology of simplicial topological spaces">Cohomology of simplicial topological spaces</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;5.3 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-5.3.xml" addr="hodge-theory-iii-5.3" title="Hodge Theory III › Cohomological descent › Cohomological descent">Cohomological descent</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;6. &quot;">
+        <fr:link type="local" href="hodge-theory-iii-6.xml" addr="hodge-theory-iii-6" title="Hodge Theory III › Examples of simplicial topological spaces">Examples of simplicial topological spaces</fr:link> ✓
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;6.1 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-6.1.xml" addr="hodge-theory-iii-6.1" title="Hodge Theory III › Examples of simplicial topological spaces › Classifying spaces">Classifying spaces</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;6.2 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-6.2.xml" addr="hodge-theory-iii-6.2" title="Hodge Theory III › Examples of simplicial topological spaces › Construction of hypercovers">Construction of hypercovers</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;6.3 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-6.3.xml" addr="hodge-theory-iii-6.3" title="Hodge Theory III › Examples of simplicial topological spaces › Relative cohomology">Relative cohomology</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;6.4 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-6.4.xml" addr="hodge-theory-iii-6.4" title="Hodge Theory III › Examples of simplicial topological spaces › Multisimplicial spaces">Multi-simplicial spaces</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;7. &quot;">
+        <fr:link type="local" href="hodge-theory-iii-7.xml" addr="hodge-theory-iii-7" title="Hodge Theory III › Supplements to §1">Supplements to §1</fr:link> ✓
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;7.1 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-7.1.xml" addr="hodge-theory-iii-7.1" title="Hodge Theory III › Supplements to §1 › Filtered derived category">Filtered derived category</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;7.2 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-7.2.xml" addr="hodge-theory-iii-7.2" title="Hodge Theory III › Supplements to §1 › Supplements to the two filtrations lemma">Supplements to the two-filtrations lemma</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;8. &quot;">
+        <fr:link type="local" href="hodge-theory-iii-8.xml" addr="hodge-theory-iii-8" title="Hodge Theory III › Hodge theory of algebraic spaces">Hodge theory of algebraic spaces</fr:link> ✓
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;8.1 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-8.1.xml" addr="hodge-theory-iii-8.1" title="Hodge Theory III › Hodge theory of algebraic spaces › Hodge complexes">Hodge complexes</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;8.2 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-8.2.xml" addr="hodge-theory-iii-8.2" title="Hodge Theory III › Hodge theory of algebraic spaces › Separated algebraic spaces">Separated algebraic spaces</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;8.3 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-8.3.xml" addr="hodge-theory-iii-8.3" title="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes">Hodge theory of simplicial schemes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;9. &quot;">
+        <fr:link type="local" href="hodge-theory-iii-9.xml" addr="hodge-theory-iii-9" title="Hodge Theory III › Examples and applications">Examples and applications</fr:link>
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;9.1 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-9.1.xml" addr="hodge-theory-iii-9.1" title="Hodge Theory III › Examples and applications › Cohomology of groups and of classifying spaces">Cohomology of groups and of classifying spaces</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;9.2 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-9.2.xml" addr="hodge-theory-iii-9.2" title="Hodge Theory III › Examples and applications › Hodge theory of smooth hypersurfaces, following Griffiths">Hodge theory of smooth hypersurfaces, following Griffiths</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;9.3 &quot;">
+            <fr:link type="local" href="hodge-theory-iii-9.3.xml" addr="hodge-theory-iii-9.3" title="Hodge Theory III › Examples and applications › Construction of complexes of first-order differential operators">Construction of complexes of first-order differential operators</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;10. &quot;">
+        <fr:link type="external" href="hodge-theory-iii-10">Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:link>
+        
+ <html:ol>
+          
+ <html:li style="list-style-type: &quot;10.1 &quot;">
+            <fr:link type="external" href="hodge-theory-iii-10.1">1-motives</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;10.2 &quot;">
+            <fr:link type="external" href="hodge-theory-iii-10.2">1-motives and bi-extensions</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;10.3 &quot;">
+            <fr:link type="external" href="hodge-theory-iii-10.3">Algebraic interpretation of the mixed <fr:tex display="inline"><![CDATA[\operatorname {H}^1]]></fr:tex>: the case of curves</fr:link>
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;10.4 &quot;">
+            <fr:link type="external" href="hodge-theory-iii-10.4">Translation of a theorem of Picard</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:li>
+
+  <fr:li><fr:link type="local" href="hodge-theory-bibliography.xml" addr="hodge-theory-bibliography" title="Complete list of references"><fr:strong>Bibliography</fr:strong></fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

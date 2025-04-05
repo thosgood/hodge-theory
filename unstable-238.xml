@@ -2,15 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3050</fr:anchor>
+    <fr:anchor>3093</fr:anchor>
     <fr:addr type="machine">#238</fr:addr>
     <fr:route>unstable-238.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-iii-8.2.2</fr:parent>
+    <fr:parent>hodge-theory-iii-8.3.2</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+    <fr:p>The proof, which is a more complicated analogue of <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" />, is left to the reader.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -21,21 +21,62 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3051</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-8.2.2</fr:addr>
-            <fr:route>hodge-theory-iii-8.2.2.xml</fr:route>
+            <fr:anchor>3094</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.3.2</fr:addr>
+            <fr:route>hodge-theory-iii-8.3.2.xml</fr:route>
             <fr:taxon>Proposition</fr:taxon>
             <fr:authors />
-            <fr:number>8.2.2</fr:number>
-            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+            <fr:number>8.3.2</fr:number>
+            <fr:parent>hodge-theory-iii-8.3</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>With the above notation, the mixed Hodge structure <fr:tex display="inline"><![CDATA[\operatorname {\mathscr {H}}(\alpha )]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X)]]></fr:tex> is independent of the choice of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>.
-    We call it the <fr:em>mixed Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Z})]]></fr:tex></fr:em>.
-    For every morphism <fr:tex display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> of schemes, <fr:tex display="inline"><![CDATA[f^*\colon \operatorname {H}^\bullet (X_2)\to \operatorname {H}^\bullet (X_1)]]></fr:tex> is a morphism of mixed Hodge structures.</fr:p>
+          <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      For every separated simplicial scheme <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex>, there exists a diagram of the form <fr:ref addr="hodge-theory-iii-8.3.1.1" href="hodge-theory-iii-8.3.1.1.xml" taxon="Equation" number="8.3.1.1" /> that satisfies (a) and (b), and such that <fr:tex display="inline"><![CDATA[\overline {Z}_\bullet ]]></fr:tex> is smooth and proper, and <fr:tex display="inline"><![CDATA[Z_\bullet ]]></fr:tex> is the complement of a normal crossing divisor.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      Let <fr:tex display="inline"><![CDATA[F\colon  {X_\bullet }_1\to {X_\bullet }_2]]></fr:tex> be a morphism of separated simplicial schemes.
+      Let <fr:tex display="inline"><![CDATA[({X_\bullet }_i,{Z_\bullet }_i,{\overline {Z}_\bullet }_i)_{i=1,2}]]></fr:tex> be diagrams of the form <fr:ref addr="hodge-theory-iii-8.3.1.1" href="hodge-theory-iii-8.3.1.1.xml" taxon="Equation" number="8.3.1.1" /> that satisfy (a) and (b).
+      Then there exists <fr:tex display="inline"><![CDATA[({X_\bullet }_1,Z_\bullet ,\overline {Z}_\bullet )]]></fr:tex> as in (i), and a commutative diagram
+
+      
+  <fr:embedded-tex hash="2b420f7e5ffa8e6152a386f2b77a3007"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        Z_\bullet 
+          \ar [r,hook]
+          \ar [d]
+          \ar [drr]
+        & \overline {Z}_\bullet 
+          \ar [d]
+          \ar [drr]
+      \\{Z_\bullet }_1
+          \ar [r,hook,swap,"j_1"]
+          \ar [d,swap,"p_1"]
+        & {\overline {Z}_\bullet }_1
+        & {Z_\bullet }_2
+          \ar [r,hook,swap,"j_2"]
+          \ar [d,swap,"p_2"]
+        & {\overline {Z}_\bullet }_2
+      \\{X_\bullet }_1
+          \ar [rr,"f"]
+        && {X_\bullet }_2
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+    </html:li>
+
+  </html:ol>
+
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1659</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2528</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof, which is a more complicated analogue of <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" />, is left to the reader.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
