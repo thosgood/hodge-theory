@@ -2,15 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3099</fr:anchor>
+    <fr:anchor>3149</fr:anchor>
     <fr:addr type="machine">#241</fr:addr>
     <fr:route>unstable-241.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-iii-8.2.2</fr:parent>
+    <fr:parent>hodge-theory-iii-9.1.8</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+    <fr:p>It suffices to prove that, for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>, the Künneth components
+      <fr:tex display="block"><![CDATA[         \begin {gathered}           \operatorname {H}^n(\overline {X},\mathbb {Q})           \to  \operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^{n-i}(X,\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})         \\(\text {resp.}\quad            \operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^{n-i}(X,\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})           \to  \operatorname {H}^{n-i}(\widetilde {X},\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})           )         \end {gathered}       ]]></fr:tex>
+      are zero.
+      In case (i) (resp. case (ii)), we have (<fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />)
+      <fr:tex display="block"><![CDATA[         \begin {gathered}           W_n\operatorname {H}^n(\overline {X},\mathbb {Q})           = \operatorname {H}^n(\overline {X},\mathbb {Q})         \\(\text {resp.}\quad            W_n\operatorname {H}^n(X,\mathbb {Q})           = \operatorname {H}^n(X,\mathbb {Q})           )         \end {gathered}       ]]></fr:tex>
+      and so, by <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" /> and <fr:ref addr="hodge-theory-iii-9.1.6" href="hodge-theory-iii-9.1.6.xml" taxon="Corollary" number="9.1.6" />,
+      <fr:tex display="block"><![CDATA[         \begin {gathered}           W_n(\operatorname {H}^{n-i}(X,\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q}))           = 0         \\(\text {resp.}\quad            W_n(\operatorname {H}^{n-i}(\widetilde {X},\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q}))           = 0           )         \end {gathered}       ]]></fr:tex>
+      whence the claim.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -21,21 +28,83 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3100</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-8.2.2</fr:addr>
-            <fr:route>hodge-theory-iii-8.2.2.xml</fr:route>
-            <fr:taxon>Proposition</fr:taxon>
+            <fr:anchor>3150</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.1.8</fr:addr>
+            <fr:route>hodge-theory-iii-9.1.8.xml</fr:route>
+            <fr:taxon>Variant</fr:taxon>
             <fr:authors />
-            <fr:number>8.2.2</fr:number>
-            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+            <fr:number>9.1.8</fr:number>
+            <fr:parent>hodge-theory-iii-9.1</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>With the above notation, the mixed Hodge structure <fr:tex display="inline"><![CDATA[\operatorname {\mathscr {H}}(\alpha )]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X)]]></fr:tex> is independent of the choice of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>.
-    We call it the <fr:em>mixed Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Z})]]></fr:tex></fr:em>.
-    For every morphism <fr:tex display="inline"><![CDATA[f\colon  X_1\to  X_2]]></fr:tex> of schemes, <fr:tex display="inline"><![CDATA[f^*\colon \operatorname {H}^\bullet (X_2)\to \operatorname {H}^\bullet (X_1)]]></fr:tex> is a morphism of mixed Hodge structures.</fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a separated algebraic space on which a connected linear group <fr:tex display="inline"><![CDATA[G]]></fr:tex> acts.
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(i) &quot;">
+        If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is smooth, and <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is a compactification of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then the diagram
+
+        
+  <fr:embedded-tex hash="cbb8e39fbe050afbbc1633301e42bcc6"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          \operatorname {H}^\bullet (\overline {X},\mathbb {Q})
+            \ar [r]
+            \ar [d]
+          & \operatorname {H}^\bullet (X,\mathbb {Q})
+            \ar [r,"\rho ^*"]
+          & \operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^\bullet (G,\mathbb {Q})
+        \\\operatorname {H}^\bullet (X,\mathbb {Q})
+            \ar [rr,equals]
+          && \operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^0(G,\mathbb {Q})
+            \ar [u,hook]
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+        
+        commutes.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+        If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper, and <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is a resolution of singularities of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then the diagram
+
+        
+  <fr:embedded-tex hash="8e58da131ffb05638a979e4e0e7e37b7"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          \operatorname {H}^\bullet (X,\mathbb {Q})
+            \ar [r,"\rho ^*"]
+            \ar [d]
+          & \operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^\bullet (G,\mathbb {Q})
+            \ar [r]
+          & \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})\otimes \operatorname {H}^\bullet (G,\mathbb {Q})
+        \\\operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})
+            \ar [rr,equals]
+          && \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})\otimes \operatorname {H}^0(G,\mathbb {Q})
+            \ar [u,hook]
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+        
+        commutes.
+      </html:li>
+
+    </html:ol></fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1662</fr:anchor><fr:addr type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2476</fr:anchor><fr:addr type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-9.1.8</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>It suffices to prove that, for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>, the Künneth components
+      <fr:tex display="block"><![CDATA[         \begin {gathered}           \operatorname {H}^n(\overline {X},\mathbb {Q})           \to  \operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^{n-i}(X,\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})         \\(\text {resp.}\quad            \operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^{n-i}(X,\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})           \to  \operatorname {H}^{n-i}(\widetilde {X},\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})           )         \end {gathered}       ]]></fr:tex>
+      are zero.
+      In case (i) (resp. case (ii)), we have (<fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />)
+      <fr:tex display="block"><![CDATA[         \begin {gathered}           W_n\operatorname {H}^n(\overline {X},\mathbb {Q})           = \operatorname {H}^n(\overline {X},\mathbb {Q})         \\(\text {resp.}\quad            W_n\operatorname {H}^n(X,\mathbb {Q})           = \operatorname {H}^n(X,\mathbb {Q})           )         \end {gathered}       ]]></fr:tex>
+      and so, by <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" /> and <fr:ref addr="hodge-theory-iii-9.1.6" href="hodge-theory-iii-9.1.6.xml" taxon="Corollary" number="9.1.6" />,
+      <fr:tex display="block"><![CDATA[         \begin {gathered}           W_n(\operatorname {H}^{n-i}(X,\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q}))           = 0         \\(\text {resp.}\quad            W_n(\operatorname {H}^{n-i}(\widetilde {X},\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q}))           = 0           )         \end {gathered}       ]]></fr:tex>
+      whence the claim.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

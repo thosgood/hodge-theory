@@ -2,35 +2,88 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3105</fr:anchor>
+    <fr:anchor>3155</fr:anchor>
     <fr:addr type="machine">#244</fr:addr>
     <fr:route>unstable-244.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-iii-8.2.6</fr:parent>
+    <fr:parent>hodge-theory-iii-8.3.10</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>The proof is parallel to that of <fr:ref addr="hodge-theory-ii-3.2.18" href="hodge-theory-ii-3.2.18.xml" taxon="Corollary" number="3.2.18" />.
-      It suffices to prove, for any <fr:tex display="inline"><![CDATA[i]]></fr:tex> and any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, that <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W(f^*)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W((jf)^*)]]></fr:tex> have the same image in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+    <fr:p>The proof proceeds by induction on <fr:tex display="inline"><![CDATA[N=\dim (X)]]></fr:tex>.
+      We can assume <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be reduced.
+      Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> be a smooth dense Zariski open of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[Y=X\setminus  U]]></fr:tex>.
+      By the resolution of singularities, there exists a proper birational morphism <fr:tex display="inline"><![CDATA[p\colon  X'\to  X]]></fr:tex>, with smooth source <fr:tex display="inline"><![CDATA[X']]></fr:tex>, that induces an isomorphism from <fr:tex display="inline"><![CDATA[p^{-1}(U)]]></fr:tex> to <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[Y'=p^{-1}(Y)]]></fr:tex>.
+      Consider, for <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>, the diagram of mixed Hodge structures
+      
+  <fr:embedded-tex hash="c3bde919adfd21ec38c8f00590754dd1"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        & \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})
+          \ar [d,swap,"p^*"]
+          \ar [r]
+        & \operatorname {H}^n(X,\mathbb {Z})
+          \ar [d]
+          \ar [r]
+        & \operatorname {H}^n(Y,\mathbb {Z})
+          \ar [d]
+      \\\operatorname {H}^{n-1}(Y',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(X',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(Y',\mathbb {Z})
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
+      Let <fr:tex display="inline"><![CDATA[\Phi ]]></fr:tex> be the family of supports of <fr:tex display="inline"><![CDATA[U]]></fr:tex> consisting of those <fr:tex display="inline"><![CDATA[A\subset  U]]></fr:tex> such that, in <fr:tex display="inline"><![CDATA[X]]></fr:tex> (or, equivalently, in <fr:tex display="inline"><![CDATA[X']]></fr:tex>), <fr:tex display="inline"><![CDATA[\overline {A}\subset  U]]></fr:tex>.
+      We have that
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})         = \operatorname {H}_\Phi ^n(U,\mathbb {Z})         = \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})       ]]></fr:tex>
+      and so the arrow denoted <fr:tex display="inline"><![CDATA[p^*]]></fr:tex> is an isomorphism.</fr:p>
+
+    <fr:p>For <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> a non-zero Hodge number of one of the mixed Hodge structures in play, we have:
+      
       
  <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
         
  <html:li style="list-style-type: &quot;(a) &quot;">
-          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these images are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
         </html:li>
+
 
         
  <html:li style="list-style-type: &quot;(b) &quot;">
-          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these images are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^{n-1}(Y',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N-1]\times [n-N,N-1]]]></fr:tex>
         </html:li>
+
 
         
  <html:li style="list-style-type: &quot;(c) &quot;">
-          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these images are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(j^*)]]></fr:tex> is surjective (<fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" />).
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})=\operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
         </html:li>
 
-      </html:ol></fr:p>
+
+        
+ <html:li style="list-style-type: &quot;(d) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N+1,N-1]\times [n-N+1,N-1]]]></fr:tex>
+        </html:li>
+
+
+        
+ <html:li style="list-style-type: &quot;(e) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
+        </html:li>
+
+      </html:ol>
+
+
+      (a) follows from the fact that <fr:tex display="inline"><![CDATA[X']]></fr:tex> is smooth, and from the fact that the claim is true for the <fr:tex display="inline"><![CDATA[{}_WE_1]]></fr:tex> pages of the spectral sequence <fr:ref addr="hodge-theory-ii-3.2.4.1" href="hodge-theory-ii-3.2.4.1.xml" taxon="Equation" number="3.2.4.1" />.
+      (b) and (d) follow from the inductive hypothesis: we have that <fr:tex display="inline"><![CDATA[\dim  Y,\dim  Y'\leqslant  N-1]]></fr:tex>.
+      (c) follows from (a) and (b), and (e) follows from (c) and (d).
+      This finishes the proof.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -41,43 +94,92 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3106</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-8.2.6</fr:addr>
-            <fr:route>hodge-theory-iii-8.2.6.xml</fr:route>
-            <fr:taxon>Proposition</fr:taxon>
+            <fr:anchor>3156</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.3.10</fr:addr>
+            <fr:route>hodge-theory-iii-8.3.10.xml</fr:route>
+            <fr:title text="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes › Proof of (ii) of (8.2.4)"><fr:link type="local" href="hodge-theory-iii-8.3.xml" addr="hodge-theory-iii-8.3" title="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes"><fr:link type="local" href="hodge-theory-iii-8.xml" addr="hodge-theory-iii-8" title="Hodge Theory III › Hodge theory of algebraic spaces"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory of algebraic spaces</fr:link> › Hodge theory of simplicial schemes</fr:link> › Proof of (ii) of (8.2.4)</fr:title>
             <fr:authors />
-            <fr:number>8.2.6</fr:number>
-            <fr:parent>hodge-theory-iii-8.2</fr:parent>
+            <fr:number>8.3.10</fr:number>
+            <fr:parent>hodge-theory-iii-8.3</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let
-    <fr:tex display="block"><![CDATA[       Y       \xrightarrow {f} X       \overset {j}{\hookrightarrow } \overline {X}     ]]></fr:tex>
-    be morphisms of schemes.
-    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is proper and <fr:tex display="inline"><![CDATA[X]]></fr:tex> is smooth, and that <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is a smooth compactification of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
-    Then <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Q})]]></fr:tex> have the same image in <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {Q})]]></fr:tex>.</fr:p>
+          <fr:mainmatter>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1713</fr:anchor><fr:addr type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.2.6</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof is parallel to that of <fr:ref addr="hodge-theory-ii-3.2.18" href="hodge-theory-ii-3.2.18.xml" taxon="Corollary" number="3.2.18" />.
-      It suffices to prove, for any <fr:tex display="inline"><![CDATA[i]]></fr:tex> and any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, that <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W(f^*)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W((jf)^*)]]></fr:tex> have the same image in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1757</fr:anchor><fr:addr type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.3.10</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof proceeds by induction on <fr:tex display="inline"><![CDATA[N=\dim (X)]]></fr:tex>.
+      We can assume <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be reduced.
+      Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> be a smooth dense Zariski open of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[Y=X\setminus  U]]></fr:tex>.
+      By the resolution of singularities, there exists a proper birational morphism <fr:tex display="inline"><![CDATA[p\colon  X'\to  X]]></fr:tex>, with smooth source <fr:tex display="inline"><![CDATA[X']]></fr:tex>, that induces an isomorphism from <fr:tex display="inline"><![CDATA[p^{-1}(U)]]></fr:tex> to <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[Y'=p^{-1}(Y)]]></fr:tex>.
+      Consider, for <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>, the diagram of mixed Hodge structures
+      
+  <fr:embedded-tex hash="c3bde919adfd21ec38c8f00590754dd1"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        & \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})
+          \ar [d,swap,"p^*"]
+          \ar [r]
+        & \operatorname {H}^n(X,\mathbb {Z})
+          \ar [d]
+          \ar [r]
+        & \operatorname {H}^n(Y,\mathbb {Z})
+          \ar [d]
+      \\\operatorname {H}^{n-1}(Y',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(X',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(Y',\mathbb {Z})
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
+      Let <fr:tex display="inline"><![CDATA[\Phi ]]></fr:tex> be the family of supports of <fr:tex display="inline"><![CDATA[U]]></fr:tex> consisting of those <fr:tex display="inline"><![CDATA[A\subset  U]]></fr:tex> such that, in <fr:tex display="inline"><![CDATA[X]]></fr:tex> (or, equivalently, in <fr:tex display="inline"><![CDATA[X']]></fr:tex>), <fr:tex display="inline"><![CDATA[\overline {A}\subset  U]]></fr:tex>.
+      We have that
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})         = \operatorname {H}_\Phi ^n(U,\mathbb {Z})         = \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})       ]]></fr:tex>
+      and so the arrow denoted <fr:tex display="inline"><![CDATA[p^*]]></fr:tex> is an isomorphism.</fr:p>
+
+    <fr:p>For <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> a non-zero Hodge number of one of the mixed Hodge structures in play, we have:
+      
       
  <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
         
  <html:li style="list-style-type: &quot;(a) &quot;">
-          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these images are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
         </html:li>
+
 
         
  <html:li style="list-style-type: &quot;(b) &quot;">
-          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these images are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^{n-1}(Y',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N-1]\times [n-N,N-1]]]></fr:tex>
         </html:li>
+
 
         
  <html:li style="list-style-type: &quot;(c) &quot;">
-          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these images are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(j^*)]]></fr:tex> is surjective (<fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" />).
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})=\operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
         </html:li>
 
-      </html:ol></fr:p>
+
+        
+ <html:li style="list-style-type: &quot;(d) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N+1,N-1]\times [n-N+1,N-1]]]></fr:tex>
+        </html:li>
+
+
+        
+ <html:li style="list-style-type: &quot;(e) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
+        </html:li>
+
+      </html:ol>
+
+
+      (a) follows from the fact that <fr:tex display="inline"><![CDATA[X']]></fr:tex> is smooth, and from the fact that the claim is true for the <fr:tex display="inline"><![CDATA[{}_WE_1]]></fr:tex> pages of the spectral sequence <fr:ref addr="hodge-theory-ii-3.2.4.1" href="hodge-theory-ii-3.2.4.1.xml" taxon="Equation" number="3.2.4.1" />.
+      (b) and (d) follow from the inductive hypothesis: we have that <fr:tex display="inline"><![CDATA[\dim  Y,\dim  Y'\leqslant  N-1]]></fr:tex>.
+      (c) follows from (a) and (b), and (e) follows from (c) and (d).
+      This finishes the proof.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

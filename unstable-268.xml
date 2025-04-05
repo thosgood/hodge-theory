@@ -2,21 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3151</fr:anchor>
+    <fr:anchor>3201</fr:anchor>
     <fr:addr type="machine">#268</fr:addr>
     <fr:route>unstable-268.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-ii-4.2.9</fr:parent>
+    <fr:parent>hodge-theory-ii-4.2.3</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>We first prove (a).
-      By replacing <fr:tex display="inline"><![CDATA[S]]></fr:tex> by a finite étale cover, if necessary, we can reduce to the case where <fr:tex display="inline"><![CDATA[G=G^0]]></fr:tex>.
-      By (iii) of <fr:ref addr="hodge-theory-ii-4.2.5" href="hodge-theory-ii-4.2.5.xml" taxon="Proposition" number="4.2.5" />, the local system <fr:tex display="inline"><![CDATA[\mathrm {R}^nf_*\mathbb {Q}]]></fr:tex> underlies an algebraic family <fr:tex display="inline"><![CDATA[H]]></fr:tex> of Hodge structures, and so we can apply <fr:ref addr="hodge-theory-ii-4.2.8" href="hodge-theory-ii-4.2.8.xml" taxon="Corollary" number="4.2.8" /> (by (i) of <fr:ref addr="hodge-theory-ii-4.2.5" href="hodge-theory-ii-4.2.5.xml" taxon="Proposition" number="4.2.5" />).
-      The group <fr:tex display="inline"><![CDATA[G]]></fr:tex> is reductive, since it admits a faithful semi-simple representation (namely <fr:tex display="inline"><![CDATA[(\mathrm {R}^nf_*\mathbb {C})_s]]></fr:tex>).
-      If <fr:tex display="inline"><![CDATA[G]]></fr:tex> (which we assume to be connected) were not semi-simple, then it would admit a non-trivial complex representation <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> of rank <fr:tex display="inline"><![CDATA[1]]></fr:tex>;
-      since <fr:tex display="inline"><![CDATA[H_s]]></fr:tex> is faithful, <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> would then be a direct factor of <fr:tex display="inline"><![CDATA[((H+H^*)_\mathbb {C}^{\otimes  m})_s]]></fr:tex> for some <fr:tex display="inline"><![CDATA[m]]></fr:tex>.
-      But this would contradict (iii.b) of <fr:ref addr="hodge-theory-ii-4.2.8" href="hodge-theory-ii-4.2.8.xml" taxon="Corollary" number="4.2.8" />, since <fr:tex display="inline"><![CDATA[(H+H^*)^{\otimes  m}]]></fr:tex> is algebraic, and no tensor power of <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> is trivial.</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> be a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, in the category of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures.
+      We will show that <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[H]]></fr:tex> in this category.
+      We can suppose <fr:tex display="inline"><![CDATA[H]]></fr:tex> to be homogeneous.
+      If <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is a polarisation form for <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then the orthogonal of <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is indeed a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex> that is a supplement to <fr:tex display="inline"><![CDATA[H_1]]></fr:tex>.
+      This proves (i)</fr:p>
+
+    <fr:p>If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex> is of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then a polarisation of <fr:tex display="inline"><![CDATA[H]]></fr:tex> defines an isomorphism between <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[H\otimes \mathbb {Q}(n)]]></fr:tex>.
+      By <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" />, we thus have that <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
+      For arbitrary <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, if we decompose <fr:tex display="inline"><![CDATA[H]]></fr:tex> into its homogeneous components, then <fr:tex display="inline"><![CDATA[H^*=\bigoplus _n(H^n)^*]]></fr:tex>, whence again <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
+      Finally, <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[\bigotimes ^p H]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2]]></fr:tex>.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -27,42 +30,43 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3152</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-4.2.9</fr:addr>
-            <fr:route>hodge-theory-ii-4.2.9.xml</fr:route>
-            <fr:taxon>Corollary</fr:taxon>
+            <fr:anchor>3202</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.2.3</fr:addr>
+            <fr:route>hodge-theory-ii-4.2.3.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>4.2.9</fr:number>
+            <fr:number>4.2.3</fr:number>
             <fr:parent>hodge-theory-ii-4.2</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a smooth, connected, separated scheme, endowed with a base point <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>.
-    Let <fr:tex display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be a morphism of schemes such that <fr:tex display="inline"><![CDATA[\mathrm {R}^nf_*\mathbb {Q}]]></fr:tex> is a local system on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
-    Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be the Zariski closure of the image of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Aut}_\mathbb {C}((\mathrm {R}^nf_*\mathbb {C})_s)]]></fr:tex>, and <fr:tex display="inline"><![CDATA[G^0]]></fr:tex> the identity component of <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
-    Then:
+          <fr:mainmatter><fr:p>If <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> satisfies <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" /> and <fr:ref addr="hodge-theory-ii-4.2.2.2" href="hodge-theory-ii-4.2.2.2.xml" taxon="Condition" number="4.2.2.2" />, then:
 
     
  <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
- <html:li style="list-style-type: &quot;(a) &quot;">
-        If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is smooth and proper, then <fr:tex display="inline"><![CDATA[G^0]]></fr:tex> is semi-simple.
+ <html:li style="list-style-type: &quot;(i) &quot;">
+        <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a semi-simple abelian subcategory of the abelian subcategory of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
       </html:li>
 
       
- <html:li style="list-style-type: &quot;(b) &quot;">
-        In general, <fr:tex display="inline"><![CDATA[G^0]]></fr:tex> does not admit any quotient of multiplicative type (i.e. the radical of <fr:tex display="inline"><![CDATA[G^0]]></fr:tex> is unipotent).
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+        If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, then its dual <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and the <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> are also in <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>;
+        if <fr:tex display="inline"><![CDATA[H_1,H_2\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
       </html:li>
 
     </html:ol></fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1315</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.9</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We first prove (a).
-      By replacing <fr:tex display="inline"><![CDATA[S]]></fr:tex> by a finite étale cover, if necessary, we can reduce to the case where <fr:tex display="inline"><![CDATA[G=G^0]]></fr:tex>.
-      By (iii) of <fr:ref addr="hodge-theory-ii-4.2.5" href="hodge-theory-ii-4.2.5.xml" taxon="Proposition" number="4.2.5" />, the local system <fr:tex display="inline"><![CDATA[\mathrm {R}^nf_*\mathbb {Q}]]></fr:tex> underlies an algebraic family <fr:tex display="inline"><![CDATA[H]]></fr:tex> of Hodge structures, and so we can apply <fr:ref addr="hodge-theory-ii-4.2.8" href="hodge-theory-ii-4.2.8.xml" taxon="Corollary" number="4.2.8" /> (by (i) of <fr:ref addr="hodge-theory-ii-4.2.5" href="hodge-theory-ii-4.2.5.xml" taxon="Proposition" number="4.2.5" />).
-      The group <fr:tex display="inline"><![CDATA[G]]></fr:tex> is reductive, since it admits a faithful semi-simple representation (namely <fr:tex display="inline"><![CDATA[(\mathrm {R}^nf_*\mathbb {C})_s]]></fr:tex>).
-      If <fr:tex display="inline"><![CDATA[G]]></fr:tex> (which we assume to be connected) were not semi-simple, then it would admit a non-trivial complex representation <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> of rank <fr:tex display="inline"><![CDATA[1]]></fr:tex>;
-      since <fr:tex display="inline"><![CDATA[H_s]]></fr:tex> is faithful, <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> would then be a direct factor of <fr:tex display="inline"><![CDATA[((H+H^*)_\mathbb {C}^{\otimes  m})_s]]></fr:tex> for some <fr:tex display="inline"><![CDATA[m]]></fr:tex>.
-      But this would contradict (iii.b) of <fr:ref addr="hodge-theory-ii-4.2.8" href="hodge-theory-ii-4.2.8.xml" taxon="Corollary" number="4.2.8" />, since <fr:tex display="inline"><![CDATA[(H+H^*)^{\otimes  m}]]></fr:tex> is algebraic, and no tensor power of <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> is trivial.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1285</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.3</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> be a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, in the category of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures.
+      We will show that <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[H]]></fr:tex> in this category.
+      We can suppose <fr:tex display="inline"><![CDATA[H]]></fr:tex> to be homogeneous.
+      If <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is a polarisation form for <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then the orthogonal of <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is indeed a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex> that is a supplement to <fr:tex display="inline"><![CDATA[H_1]]></fr:tex>.
+      This proves (i)</fr:p>
+
+    <fr:p>If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex> is of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then a polarisation of <fr:tex display="inline"><![CDATA[H]]></fr:tex> defines an isomorphism between <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[H\otimes \mathbb {Q}(n)]]></fr:tex>.
+      By <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" />, we thus have that <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
+      For arbitrary <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, if we decompose <fr:tex display="inline"><![CDATA[H]]></fr:tex> into its homogeneous components, then <fr:tex display="inline"><![CDATA[H^*=\bigoplus _n(H^n)^*]]></fr:tex>, whence again <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
+      Finally, <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[\bigotimes ^p H]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
