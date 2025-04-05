@@ -72,12 +72,13 @@
 \def\simfrom{#{\xleftarrow{\sim}}}
 \def\To{#{\Rightarrow}}
 
-\def\NN{#{\mathbb{N}}}
-\def\ZZ{#{\mathbb{Z}}}
-\def\QQ{#{\mathbb{Q}}}
-\def\RR{#{\mathbb{R}}}
-\def\CC{#{\mathbb{C}}}
-\def\PP{#{\mathbb{P}}}
+\def\field[x]{#{\mathbb{\x}}}
+\def\NN{#{\field{N}}}
+\def\ZZ{#{\field{Z}}}
+\def\QQ{#{\field{Q}}}
+\def\RR{#{\field{R}}}
+\def\CC{#{\field{C}}}
+\def\PP{#{\field{P}}}
 \def\Id{#{\mathrm{Id}}}
 \def\MM{#{\mathbb{M}}}
 
