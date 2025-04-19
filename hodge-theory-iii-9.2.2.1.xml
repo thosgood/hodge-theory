@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3160</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-9.2.2.1</fr:addr>
+    <fr:route>hodge-theory-iii-9.2.2.1.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>9.2.2.1</fr:number>
+    <fr:parent>hodge-theory-iii-9.2.2</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[         \operatorname {Res}\colon          \operatorname {H}^{n+1}(U,\mathbb {Z})         \to  \operatorname {H}^n(Y,\mathbb {Z})(-1)       \tag{9.2.2.1}       ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3161</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.2.2</fr:addr>
+            <fr:route>hodge-theory-iii-9.2.2.xml</fr:route>
+            <fr:authors />
+            <fr:number>9.2.2</fr:number>
+            <fr:parent>hodge-theory-iii-9.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The residue operator
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>439</fr:anchor><fr:addr type="user">hodge-theory-iii-9.2.2.1</fr:addr><fr:route>hodge-theory-iii-9.2.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.2.2.1</fr:number><fr:parent>hodge-theory-iii-9.2.2</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {Res}\colon          \operatorname {H}^{n+1}(U,\mathbb {Z})         \to  \operatorname {H}^n(Y,\mathbb {Z})(-1)       \tag{9.2.2.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    is strictly compatible with the Hodge filtration.
+    The Hodge filtration of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(U,\mathbb {C})]]></fr:tex> thus determines that of <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {H}^n(Y,\mathbb {C}))\to \operatorname {H}^{n+2}(X,\mathbb {C})]]></fr:tex>.</fr:p>
+            <fr:p>Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is ample.
+    If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is pure of dimension <fr:tex display="inline"><![CDATA[N+1]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\operatorname {H}^i(X,\mathbb {Z})\xrightarrow {\sim }\operatorname {H}^i(Y,\mathbb {Z})]]></fr:tex> for <fr:tex display="inline"><![CDATA[i<N]]></fr:tex> (Lefschetz).
+    By Poincaré duality, for <fr:tex display="inline"><![CDATA[i\neq  N]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {H}^i(Y,\mathbb {C})]]></fr:tex> can thus be calculated from <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {C})]]></fr:tex>.
+    Set
+    <fr:tex display="block"><![CDATA[       \begin {aligned}         \operatorname {H}_\mathrm {ev}^N(Y,\mathbb {C})         &= \operatorname {Ker}(\operatorname {H}^N(Y,\mathbb {C})\to \operatorname {H}^{N+2}(X,\mathbb {C}))       \\&= \text {orthogonal complement of }\operatorname {H}^N(X,\mathbb {C})\hookrightarrow \operatorname {H}^N(Y,\mathbb {C})       \end {aligned}     ]]></fr:tex>
+    (the evanescent part of the cohomology).
+    We have that
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^N(Y,\mathbb {C})       = \operatorname {H}_\mathrm {ev}^N(Y,\mathbb {C})\oplus \operatorname {H}^N(X,\mathbb {C})     ]]></fr:tex>
+    and we thus obtain a lot of information about the Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {C})]]></fr:tex> when we know about that of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {C})]]></fr:tex> and the Hodge filtration of <fr:tex display="inline"><![CDATA[\operatorname {H}^{N+1}(U,\mathbb {C})]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
