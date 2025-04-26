@@ -2,88 +2,63 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3181</fr:anchor>
+    <fr:anchor>3214</fr:anchor>
     <fr:addr type="machine">#244</fr:addr>
     <fr:route>unstable-244.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-iii-8.3.10</fr:parent>
+    <fr:parent>hodge-theory-iii-8.3.9</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>The proof proceeds by induction on <fr:tex display="inline"><![CDATA[N=\dim (X)]]></fr:tex>.
-      We can assume <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be reduced.
-      Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> be a smooth dense Zariski open of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[Y=X\setminus  U]]></fr:tex>.
-      By the resolution of singularities, there exists a proper birational morphism <fr:tex display="inline"><![CDATA[p\colon  X'\to  X]]></fr:tex>, with smooth source <fr:tex display="inline"><![CDATA[X']]></fr:tex>, that induces an isomorphism from <fr:tex display="inline"><![CDATA[p^{-1}(U)]]></fr:tex> to <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
-      Let <fr:tex display="inline"><![CDATA[Y'=p^{-1}(Y)]]></fr:tex>.
-      Consider, for <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>, the diagram of mixed Hodge structures
+    <fr:p>We can reduce to the case where <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> are smooth, and where, furthermore, there exists a commutative diagram
       
-  <fr:embedded-tex hash="c3bde919adfd21ec38c8f00590754dd1"><fr:embedded-tex-preamble><![CDATA[
+  <fr:embedded-tex hash="ed3a125f0de2b505f4e82455653d0022"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
   ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        & \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})
-          \ar [d,swap,"p^*"]
-          \ar [r]
-        & \operatorname {H}^n(X,\mathbb {Z})
-          \ar [d]
-          \ar [r]
-        & \operatorname {H}^n(Y,\mathbb {Z})
-          \ar [d]
-      \\\operatorname {H}^{n-1}(Y',\mathbb {Z})
-          \ar [r]
-        & \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})
-          \ar [r]
-        & \operatorname {H}^n(X',\mathbb {Z})
-          \ar [r]
-        & \operatorname {H}^n(Y',\mathbb {Z})
+        X_\bullet  \ar [r,"u"] \ar [d,hook]
+        & Y_\bullet  \ar [d,hook]
+      \\\overline {X}_\bullet  \ar [r,swap,"\overline {u}"]
+        & \overline {Y}_\bullet 
       \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-      Let <fr:tex display="inline"><![CDATA[\Phi ]]></fr:tex> be the family of supports of <fr:tex display="inline"><![CDATA[U]]></fr:tex> consisting of those <fr:tex display="inline"><![CDATA[A\subset  U]]></fr:tex> such that, in <fr:tex display="inline"><![CDATA[X]]></fr:tex> (or, equivalently, in <fr:tex display="inline"><![CDATA[X']]></fr:tex>), <fr:tex display="inline"><![CDATA[\overline {A}\subset  U]]></fr:tex>.
-      We have that
-      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})         = \operatorname {H}_\Phi ^n(U,\mathbb {Z})         = \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})       ]]></fr:tex>
-      and so the arrow denoted <fr:tex display="inline"><![CDATA[p^*]]></fr:tex> is an isomorphism.</fr:p>
-
-    <fr:p>For <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> a non-zero Hodge number of one of the mixed Hodge structures in play, we have:
+      with <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> both smooth and proper, and <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> both complements of normal crossing divisors <fr:tex display="inline"><![CDATA[D_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[E_\bullet ]]></fr:tex> in <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> (respectively).</fr:p>
+    <fr:p>There thus exist bifiltered resolutions (graded with acyclic components) <fr:tex display="inline"><![CDATA[a\colon \Omega _{\overline {X}_\bullet }^\bullet (\log  D_\bullet )\to  K]]></fr:tex> and <fr:tex display="inline"><![CDATA[b\colon \Omega _{\overline {Y}_\bullet }^\bullet (\log  E_\bullet )\to  L]]></fr:tex> that fit into a commutative diagram of bifiltered complexes
       
+  <fr:embedded-tex hash="e87c15d75bab3c350034bc484173ba66"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        \Omega _{\overline {X}_\bullet }^\bullet (\log  D_\bullet )
+          \ar [d,swap,"a"]
+        & \Omega _{\overline {Y}_\bullet }^\bullet (\log  E_\bullet )
+          \ar [l,swap,"\overline {u}^*"]
+          \ar [d,"b"]
+      \\K
+        & L
+          \ar [l,"v"]
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      (where <fr:tex display="inline"><![CDATA[\overline {u}^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> are <fr:tex display="inline"><![CDATA[\overline {u}]]></fr:tex>-morphisms).
+      The long exact sequence in <fr:ref addr="hodge-theory-iii-8.3.9" href="hodge-theory-iii-8.3.9.xml" number="8.3.9" /> is then identified with the exact sequence given by the distinguished triangle
       
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-        
- <html:li style="list-style-type: &quot;(a) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
-        </html:li>
+  <fr:embedded-tex hash="6a166cd58a667c4dae2795f7edd0c0a6"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}[column sep=tiny]
+        & C(\Gamma  v)
+          \ar [dl]
+      \\\Gamma  L
+          \ar [rr]
+        && \Gamma  K
+          \ar [ul]
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-
-        
- <html:li style="list-style-type: &quot;(b) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^{n-1}(Y',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N-1]\times [n-N,N-1]]]></fr:tex>
-        </html:li>
-
-
-        
- <html:li style="list-style-type: &quot;(c) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})=\operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
-        </html:li>
-
-
-        
- <html:li style="list-style-type: &quot;(d) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N+1,N-1]\times [n-N+1,N-1]]]></fr:tex>
-        </html:li>
-
-
-        
- <html:li style="list-style-type: &quot;(e) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
-        </html:li>
-
-      </html:ol>
-
-
-      (a) follows from the fact that <fr:tex display="inline"><![CDATA[X']]></fr:tex> is smooth, and from the fact that the claim is true for the <fr:tex display="inline"><![CDATA[{}_WE_1]]></fr:tex> pages of the spectral sequence <fr:ref addr="hodge-theory-ii-3.2.4.1" href="hodge-theory-ii-3.2.4.1.xml" taxon="Equation" number="3.2.4.1" />.
-      (b) and (d) follow from the inductive hypothesis: we have that <fr:tex display="inline"><![CDATA[\dim  Y,\dim  Y'\leqslant  N-1]]></fr:tex>.
-      (c) follows from (a) and (b), and (e) follows from (c) and (d).
-      This finishes the proof.</fr:p>
+      The complex <fr:tex display="inline"><![CDATA[C(v)]]></fr:tex> over <fr:tex display="inline"><![CDATA[C(\overline {u})]]></fr:tex> is a bifiltered resolution of <fr:tex display="inline"><![CDATA[C(u^*\colon \Omega _{\overline {Y}_\bullet }^\bullet (\log  E_\bullet )\to \Omega _{\overline {X}_\bullet }^\bullet (\log  D_\bullet ))]]></fr:tex>.
+      From this it results that the Hodge and weight filtrations of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y_\bullet \operatorname {mod} X_\bullet ,\mathbb {C})]]></fr:tex> are induced by the filtrations of the cone <fr:tex display="inline"><![CDATA[C(\Gamma  v)]]></fr:tex>, and <fr:ref addr="hodge-theory-iii-8.3.9" href="hodge-theory-iii-8.3.9.xml" number="8.3.9" /> then follows formally.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -94,92 +69,68 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3182</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-8.3.10</fr:addr>
-            <fr:route>hodge-theory-iii-8.3.10.xml</fr:route>
-            <fr:title text="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes › Proof of (ii) of (8.2.4)"><fr:link type="local" href="hodge-theory-iii-8.3.xml" addr="hodge-theory-iii-8.3" title="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes"><fr:link type="local" href="hodge-theory-iii-8.xml" addr="hodge-theory-iii-8" title="Hodge Theory III › Hodge theory of algebraic spaces"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory of algebraic spaces</fr:link> › Hodge theory of simplicial schemes</fr:link> › Proof of (ii) of (8.2.4)</fr:title>
+            <fr:anchor>3215</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.3.9</fr:addr>
+            <fr:route>hodge-theory-iii-8.3.9.xml</fr:route>
             <fr:authors />
-            <fr:number>8.3.10</fr:number>
+            <fr:number>8.3.9</fr:number>
             <fr:parent>hodge-theory-iii-8.3</fr:parent>
           </fr:frontmatter>
-          <fr:mainmatter>
+          <fr:mainmatter><fr:p>The long exact sequence of relative cohomology
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^n(Y_\bullet ,\mathbb {Z})       \to  \operatorname {H}^n(X_\bullet ,\mathbb {Z})       \xrightarrow {j} \operatorname {H}^{n+1}(Y_\bullet \operatorname {mod} X_\bullet ,\mathbb {Z})       \to  \operatorname {H}^{n+1}(Y_\bullet ,\mathbb {Z})     ]]></fr:tex>
+    is a long exact sequence of mixed Hodge structures.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1766</fr:anchor><fr:addr type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.3.10</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof proceeds by induction on <fr:tex display="inline"><![CDATA[N=\dim (X)]]></fr:tex>.
-      We can assume <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be reduced.
-      Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> be a smooth dense Zariski open of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[Y=X\setminus  U]]></fr:tex>.
-      By the resolution of singularities, there exists a proper birational morphism <fr:tex display="inline"><![CDATA[p\colon  X'\to  X]]></fr:tex>, with smooth source <fr:tex display="inline"><![CDATA[X']]></fr:tex>, that induces an isomorphism from <fr:tex display="inline"><![CDATA[p^{-1}(U)]]></fr:tex> to <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
-      Let <fr:tex display="inline"><![CDATA[Y'=p^{-1}(Y)]]></fr:tex>.
-      Consider, for <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>, the diagram of mixed Hodge structures
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2584</fr:anchor><fr:addr type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-8.3.9</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> are smooth, and where, furthermore, there exists a commutative diagram
       
-  <fr:embedded-tex hash="c3bde919adfd21ec38c8f00590754dd1"><fr:embedded-tex-preamble><![CDATA[
+  <fr:embedded-tex hash="ed3a125f0de2b505f4e82455653d0022"><fr:embedded-tex-preamble><![CDATA[
     \usepackage {amsmath}
     \usepackage {amssymb}
     \usepackage {tikz-cd}
   ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        & \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})
-          \ar [d,swap,"p^*"]
-          \ar [r]
-        & \operatorname {H}^n(X,\mathbb {Z})
-          \ar [d]
-          \ar [r]
-        & \operatorname {H}^n(Y,\mathbb {Z})
-          \ar [d]
-      \\\operatorname {H}^{n-1}(Y',\mathbb {Z})
-          \ar [r]
-        & \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})
-          \ar [r]
-        & \operatorname {H}^n(X',\mathbb {Z})
-          \ar [r]
-        & \operatorname {H}^n(Y',\mathbb {Z})
+        X_\bullet  \ar [r,"u"] \ar [d,hook]
+        & Y_\bullet  \ar [d,hook]
+      \\\overline {X}_\bullet  \ar [r,swap,"\overline {u}"]
+        & \overline {Y}_\bullet 
       \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-      Let <fr:tex display="inline"><![CDATA[\Phi ]]></fr:tex> be the family of supports of <fr:tex display="inline"><![CDATA[U]]></fr:tex> consisting of those <fr:tex display="inline"><![CDATA[A\subset  U]]></fr:tex> such that, in <fr:tex display="inline"><![CDATA[X]]></fr:tex> (or, equivalently, in <fr:tex display="inline"><![CDATA[X']]></fr:tex>), <fr:tex display="inline"><![CDATA[\overline {A}\subset  U]]></fr:tex>.
-      We have that
-      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})         = \operatorname {H}_\Phi ^n(U,\mathbb {Z})         = \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})       ]]></fr:tex>
-      and so the arrow denoted <fr:tex display="inline"><![CDATA[p^*]]></fr:tex> is an isomorphism.</fr:p>
-
-    <fr:p>For <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> a non-zero Hodge number of one of the mixed Hodge structures in play, we have:
+      with <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> both smooth and proper, and <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> both complements of normal crossing divisors <fr:tex display="inline"><![CDATA[D_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[E_\bullet ]]></fr:tex> in <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> (respectively).</fr:p>
+    <fr:p>There thus exist bifiltered resolutions (graded with acyclic components) <fr:tex display="inline"><![CDATA[a\colon \Omega _{\overline {X}_\bullet }^\bullet (\log  D_\bullet )\to  K]]></fr:tex> and <fr:tex display="inline"><![CDATA[b\colon \Omega _{\overline {Y}_\bullet }^\bullet (\log  E_\bullet )\to  L]]></fr:tex> that fit into a commutative diagram of bifiltered complexes
       
+  <fr:embedded-tex hash="e87c15d75bab3c350034bc484173ba66"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+        \Omega _{\overline {X}_\bullet }^\bullet (\log  D_\bullet )
+          \ar [d,swap,"a"]
+        & \Omega _{\overline {Y}_\bullet }^\bullet (\log  E_\bullet )
+          \ar [l,swap,"\overline {u}^*"]
+          \ar [d,"b"]
+      \\K
+        & L
+          \ar [l,"v"]
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      (where <fr:tex display="inline"><![CDATA[\overline {u}^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> are <fr:tex display="inline"><![CDATA[\overline {u}]]></fr:tex>-morphisms).
+      The long exact sequence in <fr:ref addr="hodge-theory-iii-8.3.9" href="hodge-theory-iii-8.3.9.xml" number="8.3.9" /> is then identified with the exact sequence given by the distinguished triangle
       
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-        
- <html:li style="list-style-type: &quot;(a) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
-        </html:li>
+  <fr:embedded-tex hash="6a166cd58a667c4dae2795f7edd0c0a6"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}[column sep=tiny]
+        & C(\Gamma  v)
+          \ar [dl]
+      \\\Gamma  L
+          \ar [rr]
+        && \Gamma  K
+          \ar [ul]
+      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
 
-
-        
- <html:li style="list-style-type: &quot;(b) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^{n-1}(Y',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N-1]\times [n-N,N-1]]]></fr:tex>
-        </html:li>
-
-
-        
- <html:li style="list-style-type: &quot;(c) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})=\operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
-        </html:li>
-
-
-        
- <html:li style="list-style-type: &quot;(d) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N+1,N-1]\times [n-N+1,N-1]]]></fr:tex>
-        </html:li>
-
-
-        
- <html:li style="list-style-type: &quot;(e) &quot;">
-          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
-        </html:li>
-
-      </html:ol>
-
-
-      (a) follows from the fact that <fr:tex display="inline"><![CDATA[X']]></fr:tex> is smooth, and from the fact that the claim is true for the <fr:tex display="inline"><![CDATA[{}_WE_1]]></fr:tex> pages of the spectral sequence <fr:ref addr="hodge-theory-ii-3.2.4.1" href="hodge-theory-ii-3.2.4.1.xml" taxon="Equation" number="3.2.4.1" />.
-      (b) and (d) follow from the inductive hypothesis: we have that <fr:tex display="inline"><![CDATA[\dim  Y,\dim  Y'\leqslant  N-1]]></fr:tex>.
-      (c) follows from (a) and (b), and (e) follows from (c) and (d).
-      This finishes the proof.</fr:p>
+      The complex <fr:tex display="inline"><![CDATA[C(v)]]></fr:tex> over <fr:tex display="inline"><![CDATA[C(\overline {u})]]></fr:tex> is a bifiltered resolution of <fr:tex display="inline"><![CDATA[C(u^*\colon \Omega _{\overline {Y}_\bullet }^\bullet (\log  E_\bullet )\to \Omega _{\overline {X}_\bullet }^\bullet (\log  D_\bullet ))]]></fr:tex>.
+      From this it results that the Hodge and weight filtrations of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y_\bullet \operatorname {mod} X_\bullet ,\mathbb {C})]]></fr:tex> are induced by the filtrations of the cone <fr:tex display="inline"><![CDATA[C(\Gamma  v)]]></fr:tex>, and <fr:ref addr="hodge-theory-iii-8.3.9" href="hodge-theory-iii-8.3.9.xml" number="8.3.9" /> then follows formally.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
