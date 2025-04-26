@@ -6,3 +6,68 @@
 
 \put\transclude/numbered{false}
 
+\p{
+  This section depends only on \ref{hodge-theory-iii-5} and \ref{hodge-theory-iii-6}.
+  We will prove the following theorem.
+}
+
+\subtree[hodge-theory-iii-9.3.1]{
+  \taxon{proposition}
+  \number{9.3.1}
+
+  \p{
+    Let #{X} be a quasi-projective scheme (over #{\CC}).
+    Then there exists on #{X} a complex #{K} of sheaves that satisfies the following properties.
+
+    \olc{
+      \lic{(a)}{
+        The #{K^n} are coherent algebraic sheaves, and #{K^n=0} for #{n<0}.
+      }
+      \lic{(b)}{
+        The differentials #{\dd\colon K^n\to K^{n+1}} are algebraic differential operators of order 1.
+      }
+      \lic{(c)}{
+        The complex #{K^\an} of coherent analytic sheaves on #{X^\an} is a resolution of the constant sheaf #{\underline{\CC}}.
+        More precisely, #{\sHH^i(K)=0} for #{i>0}, and there exists
+        ##{
+          f\colon \Omega_X^\bullet
+          \to K
+        }
+        with #{f^n} linear algebraic, such that the composite map #{\underline{\CC}\to\OO_X\xrightarrow{f^0}K^0} identifies #{\underline{\CC}} with #{\sHH^0(K)}.
+      }
+      \lic{(d)}{
+        The natural map
+        ##{
+          \bHH^i(X,K)
+          \to \bHH^i(X^\an,K^\an)
+          \xleftarrow[\text{(c)}]{\sim} \bHH^i(X^\an,\CC)
+        }
+        is an isomorphism.
+      }
+    }
+  }
+}
+
+\p{
+  As a corollary, we recover a particular case of a theorem of Bloom and Herrera [[BH1969](BH1969)].
+}
+
+\subtree[hodge-theory-iii-9.3.2]{
+  \taxon{corollary}
+  \number{9.3.2}
+
+  \p{
+    The map
+    ##{
+      \HH^\bullet(X^\an,\CC)
+      \to \bHH^\bullet(X^\an,\Omega_{X^\an}^\bullet)
+    }
+    induced by #{\underline{\CC}\to\Omega_{X^\an}^\bullet} identifies #{\HH^\bullet(X^\an,\CC)} with a direct factor of #{\HH^\bullet(X^\an,\Omega_{X^\an}^\bullet)}.
+  }
+
+  \proof{
+    \p{
+      We first prove the corollary.
+    }
+  }
+}
