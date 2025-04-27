@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3205</fr:anchor>
+    <fr:anchor>3215</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-9.3.2</fr:addr>
     <fr:route>hodge-theory-iii-9.3.2.xml</fr:route>
     <fr:taxon>Corollary</fr:taxon>
@@ -57,7 +57,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3206</fr:anchor>
+            <fr:anchor>3216</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-9.3</fr:addr>
             <fr:route>hodge-theory-iii-9.3.xml</fr:route>
             <fr:title text="Hodge Theory III › Examples and applications › Construction of complexes of first-order differential operators"><fr:link type="local" href="hodge-theory-iii-9.xml" addr="hodge-theory-iii-9" title="Hodge Theory III › Examples and applications"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Examples and applications</fr:link> › Construction of complexes of first-order differential operators</fr:title>
@@ -227,10 +227,136 @@
 
       
  <html:li style="list-style-type: &quot;(c) &quot;">
-        In
+        In the diagram in (b), for <fr:tex display="inline"><![CDATA[i\in \operatorname {cosq}\operatorname {sq}_{k-1}(I_\bullet )_k]]></fr:tex>, the <fr:tex display="inline"><![CDATA[\varphi ^{-1}(j)]]></fr:tex> for <fr:tex display="inline"><![CDATA[a'_k(j)=i]]></fr:tex> form an affine open cover of
+        <fr:tex display="block"><![CDATA[           N_k\times _{(\operatorname {cosq}\operatorname {sq}_{k-1}(X_\bullet ))_k} \varphi ^{-1}(i).         ]]></fr:tex>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(d) &quot;">
+        (Follows by induction on (c)).
+        The first (and thus the second) row of the diagram in (b) defines an open cover.
+        The <fr:tex display="inline"><![CDATA[X_k\leftarrow  U_k\to  I_k]]></fr:tex> thus also form open covers.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(e) &quot;">
+        (Follows from a suitable choice of affine covers in (c)).
+        <fr:tex display="inline"><![CDATA[U_{n_i}=\varphi _n^{-1}(i)]]></fr:tex> is the complement of a subscheme <fr:tex display="inline"><![CDATA[D_{n,i}]]></fr:tex> of <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>, given by the union of a divisor and some connected components of <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>.
+        For every coherent sheaf <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex> on <fr:tex display="inline"><![CDATA[X_n]]></fr:tex> and integers <fr:tex display="inline"><![CDATA[(a_i)_{i\in  I_n}]]></fr:tex> (with <fr:tex display="inline"><![CDATA[(a_i\geqslant 0)]]></fr:tex>), we set
+        <fr:tex display="block"><![CDATA[           \mathscr {F}(\textstyle \sum _i a_i D_{n,i})           =           \begin {cases}             0             &\text {on the components of }X_n\text { contained inside some }D_{n,i}\text { with }a_i>0           \\\mathscr {F}\otimes \mathcal {O}(\sum _{a_i>0}a_i D_{n,i})             &\text { on the others}.           \end {cases}         ]]></fr:tex>
       </html:li>
 
     </html:ol></fr:p>
+                <fr:p>In the inductive construction of <fr:ref addr="hodge-theory-iii-9.3.3.1" href="hodge-theory-iii-9.3.3.1.xml" taxon="Equation" number="9.3.3.1" />, the open covers in (c) are chosen arbitrarily.
+    This allows us to suppose the following.
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(f) &quot;">
+        For any <fr:tex display="inline"><![CDATA[a_i>0]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\in  I_k]]></fr:tex>),
+        <fr:tex display="block"><![CDATA[           \mathrm {R}^\ell {\varepsilon _k}_*           \big ( \Omega _{X_k}^m(\textstyle \sum _i a_i D_{k,i}) \big )           = 0         ]]></fr:tex>
+        for <fr:tex display="inline"><![CDATA[\ell >0]]></fr:tex>.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(g) &quot;">
+        For any <fr:tex display="inline"><![CDATA[\alpha \colon \Delta _m\to \Delta _n]]></fr:tex> and <fr:tex display="inline"><![CDATA[i\in  I_n]]></fr:tex>, we have that
+        <fr:tex display="block"><![CDATA[           X_\bullet (\alpha )^{-1}(D_{m,\alpha (i)})           \subset  D_{n,i}         ]]></fr:tex>
+        (as schemes),
+      </html:li>
+
+    </html:ol></fr:p>
+                <fr:p>For each <fr:tex display="inline"><![CDATA[k]]></fr:tex>, the complex of sheaves
+    <fr:tex display="block"><![CDATA[       \mathrm {R}{\varepsilon _k}_*(\Omega _{X_k}^\bullet )     ]]></fr:tex>
+    on <fr:tex display="inline"><![CDATA[X]]></fr:tex> can be calculated in a Čech manner.
+    If, for <fr:tex display="inline"><![CDATA[P\subset  I_k]]></fr:tex>, <fr:tex display="inline"><![CDATA[j_P]]></fr:tex> is the inclusion of <fr:tex display="inline"><![CDATA[U_P=\bigcap _{i\in  P}U_{k_i}]]></fr:tex> in <fr:tex display="inline"><![CDATA[X_k]]></fr:tex>, then this is the simple complex associated to the double complex of the
+    <fr:tex display="block"><![CDATA[       \check {K}^{k,p,q}       = \sum _{\# P=p+1} {\varepsilon _k}_*\Omega _{X_k}^q\big ( (q+1)\textstyle \sum _{i\in  P} D_{k,i} \big ).     ]]></fr:tex></fr:p>
+                <fr:p>For fixed <fr:tex display="inline"><![CDATA[k]]></fr:tex> and fixed <fr:tex display="inline"><![CDATA[q]]></fr:tex>, it follows from (f) that the inclusion of <fr:tex display="inline"><![CDATA[K^{k,\bullet ,q}]]></fr:tex> into <fr:tex display="inline"><![CDATA[\check {K}^{k,\bullet ,q}]]></fr:tex> is a quasi-isomorphism.
+    For fixed <fr:tex display="inline"><![CDATA[k]]></fr:tex>, the inclusion of <fr:tex display="inline"><![CDATA[K^{k,\bullet ,\bullet }]]></fr:tex> into <fr:tex display="inline"><![CDATA[\check {K}^{k,\bullet ,\bullet }]]></fr:tex> is also a quasi-isomorphism.
+    Finally, for varying <fr:tex display="inline"><![CDATA[k]]></fr:tex>, the <fr:tex display="inline"><![CDATA[K^{k,\bullet ,\bullet }]]></fr:tex> form, by (g), a simplicial double complex.
+    The associated simple complex <fr:tex display="inline"><![CDATA[K]]></fr:tex> agrees with <fr:tex display="inline"><![CDATA[\mathrm {R}{\varepsilon _\bullet }_*\Omega _{X_\bullet }^\bullet ]]></fr:tex> in the derived category.</fr:p>
+                <fr:p>We now prove that <fr:tex display="inline"><![CDATA[K]]></fr:tex> satisfies <fr:ref addr="hodge-theory-iii-9.3.1" href="hodge-theory-iii-9.3.1.xml" taxon="Proposition" number="9.3.1" />.
+    Properties (a) and (b) of <fr:tex display="inline"><![CDATA[K]]></fr:tex> are clear;
+    we define <fr:tex display="inline"><![CDATA[f\colon \Omega _X^\bullet \to  K]]></fr:tex> by the evident maps from the <fr:tex display="inline"><![CDATA[\Omega _X^q]]></fr:tex> to the <fr:tex display="inline"><![CDATA[K^{0,0,q}]]></fr:tex>.</fr:p>
+                <fr:p>In the analytic category, the complex <fr:tex display="inline"><![CDATA[K^\mathrm {an}]]></fr:tex> of coherent analytic sheaves is given by the same formulas as for <fr:tex display="inline"><![CDATA[K]]></fr:tex>.
+    We have a commutative diagram
+    
+  <fr:embedded-tex hash="1189806c15b416a48e7463c90ca847b2"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+      \operatorname {\mathbb {H}}^i(X,K)
+        \ar [r,"\sim "]
+        \ar [d]
+      & \operatorname {\mathbb {H}}^i(X_\bullet ,\Omega _{X_\bullet }^\bullet )
+        \ar [d,"(1)"]
+    \\\operatorname {\mathbb {H}}^i(X^\mathrm {an},K^\mathrm {an})
+        \ar [r,"\sim "]
+      & \operatorname {\mathbb {H}}^i(X_\bullet ^\mathrm {an},\Omega _{X_\bullet ^\mathrm {an}}^\bullet )
+    \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+    and <fr:tex display="inline"><![CDATA[(1)]]></fr:tex> is an abutment of a morphism of spectral sequences
+    
+  <fr:embedded-tex hash="6d1099f309729bccbcd029374d506978"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+      \operatorname {\mathbb {H}}^a(X_b,\Omega _{X_\bullet }^\bullet )
+        \ar [r,Rightarrow]
+        \ar [d]
+      & \operatorname {\mathbb {H}}^{a+b}(X_\bullet ,\Omega _{X_\bullet }^\bullet )
+        \ar [d]
+    \\\operatorname {\mathbb {H}}^a(X_b^\mathrm {an},\Omega _{X_\bullet ^\mathrm {an}}^\bullet )
+        \ar [r,Rightarrow]
+      & \operatorname {\mathbb {H}}^{a+b}(X_\bullet ^\mathrm {an},\Omega _{X_\bullet ^\mathrm {an}}^\bullet ).
+    \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+    This morphism is an isomorphism by [<fr:link type="local" href="G1966.xml" addr="G1966" title="Un théorème sur les homomorphismes de schémas abéliens">G1966</fr:link>], whence (d).</fr:p>
+                <fr:p>To prove (c), we consider the commutative diagram
+    
+  <fr:embedded-tex hash="643b4f00aef45121d647e70164adda49"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+      \underline {\mathbb {C}}
+        \ar [rr,"\sim "]
+        \ar [rr,swap,"(1)"]
+        \ar [d]
+      && \mathrm {R}{\varepsilon _\bullet }_*\underline {\mathbb {C}}
+        \ar [d,"\sim "]
+        \ar [d,swap,"(2)"]
+    \\{\Omega _{X_\bullet }^\bullet }^\mathrm {an}
+        \ar [r,swap,"f"]
+      & K^\mathrm {an}
+        \ar [r,"\sim "]
+      & {\mathrm {R}{\varepsilon _\bullet }_*\Omega _{X_\bullet }^\bullet }^\mathrm {an}
+    \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex></fr:p>
+                <fr:p>The fact that <fr:tex display="inline"><![CDATA[(1)]]></fr:tex> is a quasi-isomorphism follows from <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />.
+    The fact that <fr:tex display="inline"><![CDATA[(2)]]></fr:tex> is a quasi-isomorphism follows from the Poincaré lemma on the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>.
+    Claim (c) thus follows.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>373</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-9.3.4</fr:addr>
+                <fr:route>hodge-theory-iii-9.3.4.xml</fr:route>
+                <fr:authors />
+                <fr:number>9.3.4</fr:number>
+                <fr:parent>hodge-theory-iii-9.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The same construction gives resolutions that satisfy (a) and (b) for sheaves <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex> on <fr:tex display="inline"><![CDATA[X^\mathrm {an}]]></fr:tex> other than the constant sheaf <fr:tex display="inline"><![CDATA[\underline {\mathbb {C}}]]></fr:tex> (we can probably take <fr:tex display="inline"><![CDATA[\mathscr {F}]]></fr:tex> to be any "algebraically constructible" sheaf).
+    Unfortunately, I can not prove that the resolutions thus obtained are essentially unique (in a suitable derived category).
+    In the absence of such uniqueness, <fr:ref addr="hodge-theory-iii-9.3.1" href="hodge-theory-iii-9.3.1.xml" taxon="Proposition" number="9.3.1" /> is not of great interest.</fr:p>
               </fr:mainmatter>
               <fr:backmatter />
             </fr:tree>
@@ -248,7 +374,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3207</fr:anchor>
+            <fr:anchor>3217</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-9.3.2</fr:addr>
             <fr:route>hodge-theory-iii-9.3.2.xml</fr:route>
             <fr:taxon>Corollary</fr:taxon>
@@ -307,7 +433,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3208</fr:anchor>
+            <fr:anchor>3218</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-5.3.5</fr:addr>
             <fr:route>hodge-theory-iii-5.3.5.xml</fr:route>
             <fr:authors />
@@ -343,7 +469,7 @@
         For <fr:tex display="inline"><![CDATA[k\geqslant  n\geqslant -1]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet ]]></fr:tex> be the evident map.
         We say that <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em><fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
 
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2180</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2187</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
         (for <fr:tex display="inline"><![CDATA[-1\leqslant  n\leqslant  k-1]]></fr:tex>) are of universal cohomological descent.
         If <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is such a hypercover, then the simplicial space <fr:tex display="inline"><![CDATA[\operatorname {cosq}(X_\bullet )]]></fr:tex> augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of cohomological descent.
@@ -365,7 +491,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3209</fr:anchor>
+            <fr:anchor>3219</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-9.3.2</fr:addr>
             <fr:route>hodge-theory-iii-9.3.2.xml</fr:route>
             <fr:taxon>Corollary</fr:taxon>
@@ -415,7 +541,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3210</fr:anchor>
+            <fr:anchor>3220</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-9.3.2.1</fr:addr>
             <fr:route>hodge-theory-iii-9.3.2.1.xml</fr:route>
             <fr:taxon>Equation</fr:taxon>
