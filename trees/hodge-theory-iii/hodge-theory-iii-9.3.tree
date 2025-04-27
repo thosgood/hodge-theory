@@ -52,6 +52,11 @@
   As a corollary, we recover a particular case of a theorem of Bloom and Herrera [[BH1969](BH1969)].
 }
 
+\p{
+  We will first prove the corollary.
+  The proposition \ref{hodge-theory-iii-9.3.1} will be obtained by redoing the proof at the level of complexes.
+}
+
 \subtree[hodge-theory-iii-9.3.2]{
   \taxon{corollary}
   \number{9.3.2}
@@ -66,8 +71,99 @@
   }
 
   \proof{
+
     \p{
-      We first prove the corollary.
+      Let #{\varepsilon\colon X_\bullet\to X} be an augmented simplicial scheme over #{X}.
+      Suppose that #{\varepsilon} is a proper hypercover, and that the #{X_n} are smooth.
+      We have the commutative diagram
+
+      \subtree[hodge-theory-iii-9.3.2.1]{
+        \taxon{equation}
+        \number{9.3.2.1}
+        \tikzcd{
+          \HH^\bullet(X^\an,\CC)
+            \ar[r,"\sim"]
+            \ar[r,swap,"(1)"]
+            \ar[d]
+          & \HH^\bullet(X_\bullet^\an,\CC)
+            \ar[d,"\sim"]
+            \ar[d,swap,"(2)"]
+        \\\bHH^\bullet(X^\an,\Omega_X^\bullet)
+            \ar[r]
+          & \bHH^\bullet(X_\bullet^\an,\Omega_{X_\bullet}^\bullet)
+          & (9.3.2.1)
+        }
+      }
+
+      \oldpage{51}
+      The arrow #{(1)} is bijective by (II) and (IV) of \ref{hodge-theory-iii-5.3.5}.
+      The arrow #{(2)} is bijective since #{\Omega_{X_\bullet}^\bullet} is a resolution of #{\underline{\CC}} (the Poincaré lemma on the #{X_n}).
+      The diagram \ref{hodge-theory-iii-9.3.2.1} gives a retract, compatible with the cup product, of #{\bHH^\bullet(X^\an,\Omega_X^\bullet)} onto #{\HH^\bullet(X^\an,\CC)}, and this proves \ref{hodge-theory-iii-9.3.2}.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-9.3.3]{
+  \number{9.3.3}
+
+  \p{
+    The complex #{K} that we wish to construct is, in the derived category, exactly #{\simp\Rd{\varepsilon_\bullet}_*\Omega_{X_\bullet}^\bullet}.
+    We will only deal with the case where the augmented simplicial space #{X_\bullet} is #{s}-split, defined as in \ref{hodge-theory-iii-6.2.5} by proper and surjective maps, with smooth quasi-projective sources
+    ##{
+      f'_k\colon
+      N_k
+      \to (\cosq\sq_{k-1}(X_\bullet))_k
+    }
+    for #{k\geqslant0}.
+  }
+
+  \p{
+    We will construct a "compatible system" of affine open covers of the #{X_n}.
+    It will be relevant, for this construction, to consider an open cover of a space #{Y} as a diagram
+    ##{
+      Y \xleftarrow{u} U \xrightarrow{\varphi} I
+    }
+    where #{I} is discrete, #{u} is surjective, and #{u_i\colon U_i\coloneqq\varphi^{-1}(i)\hookrightarrow Y} is an open embedding.
+    Proceeding as in \ref{hodge-theory-iii-6.2.5}, we construct a diagram
+
+    \subtree[hodge-theory-iii-9.3.3.1]{
+      \taxon{equation}
+      \number{9.3.3.1}
+      ##{
+        X_\bullet \xleftarrow{u} U_\bullet \xrightarrow{\varphi} I_\bullet
+      \startverb\tag{9.3.3.1}\stopverb
+      }
+    }
+
+    of the following type.
+
+    \olc{
+      \lic{(a)}{
+        #{I_\bullet} is a discrete simplicial set. The #{I_n} are finite.
+      }
+
+      \lic{(b)}{
+        For all #{k\geqslant 0}, \ref{hodge-theory-iii-9.3.3.1} induces a diagram
+        \tikzcd{
+          (\cosq\sq_{k-1}(X_\bullet))_k
+          & (\cosq\sq_{k-1}(U_\bullet))_k
+            \ar[l]
+            \ar[r,"\varphi"]
+          & (\cosq\sq_{k-1}(I_\bullet))_k
+        \\N_k
+            \ar[u,"f'_k"]
+          & N_k(U_\bullet)
+            \ar[u]
+            \ar[l]
+            \ar[r,swap,"\varphi"]
+          & N_k(I_\bullet)
+            \ar[u,swap,"a'_k"]
+        }
+      }
+
+      \lic{(c)}{
+        In
+      }
     }
   }
 }
