@@ -162,8 +162,148 @@
       }
 
       \lic{(c)}{
-        In
+        In the diagram in (b), for #{i\in\cosq\sq_{k-1}(I_\bullet)_k}, the #{\varphi^{-1}(j)} for #{a'_k(j)=i} form an affine open cover of
+        ##{
+          N_k\times_{(\cosq\sq_{k-1}(X_\bullet))_k} \varphi^{-1}(i).
+        }
+      }
+
+      \lic{(d)}{
+        (Follows by induction on (c)).
+        The first (and thus the second) row of the diagram in (b) defines an open cover.
+        The #{X_k\from U_k\to I_k} thus also form open covers.
+      }
+
+      \lic{(e)}{
+        (Follows from a suitable choice of affine covers in (c)).
+        #{U_{n_i}=\varphi_n^{-1}(i)} is the complement of a subscheme #{D_{n,i}} of #{X_n}, given by the union of a divisor and some connected components of #{X_n}.
+        For every coherent sheaf #{\sh{F}} on #{X_n} and integers #{(a_i)_{i\in I_n}} (with #{(a_i\geqslant0)}), we set
+        ##{
+          \sh{F}(\textstyle\sum_i a_i D_{n,i})
+          =
+          \begin{cases}
+            0
+            &\text{on the components of }X_n\text{ contained inside some }D_{n,i}\text{ with }a_i>0
+          \\\sh{F}\otimes\OO(\sum_{a_i>0}a_i D_{n,i})
+            &\text{ on the others}.
+          \end{cases}
+        }
       }
     }
+  }
+
+  \p{
+    \oldpage{52}
+    In the inductive construction of \ref{hodge-theory-iii-9.3.3.1}, the open covers in (c) are chosen arbitrarily.
+    This allows us to suppose the following.
+
+    \olc{
+      \lic{(f)}{
+        For any #{a_i>0} (for #{i\in I_k}),
+        ##{
+          \Rd^\ell{\varepsilon_k}_*
+          \big( \Omega_{X_k}^m(\textstyle\sum_i a_i D_{k,i}) \big)
+          = 0
+        }
+        for #{\ell>0}.
+      }
+
+      \lic{(g)}{
+        For any #{\alpha\colon\Delta_m\to\Delta_n} and #{i\in I_n}, we have that
+        ##{
+          X_\bullet(\alpha)^{-1}(D_{m,\alpha(i)})
+          \subset D_{n,i}
+        }
+        (as schemes),
+      }
+    }
+  }
+
+  \p{
+    For each #{k}, the complex of sheaves
+    ##{
+      \Rd{\varepsilon_k}_*(\Omega_{X_k}^\bullet)
+    }
+    on #{X} can be calculated in a Čech manner.
+    If, for #{P\subset I_k}, #{j_P} is the inclusion of #{U_P=\bigcap_{i\in P}U_{k_i}} in #{X_k}, then this is the simple complex associated to the double complex of the
+    ##{
+      \check{K}^{k,p,q}
+      = \sum_{\# P=p+1} {\varepsilon_k}_*\Omega_{X_k}^q\big( (q+1)\textstyle\sum_{i\in P} D_{k,i} \big).
+    }
+  }
+
+  \p{
+    For fixed #{k} and fixed #{q}, it follows from (f) that the inclusion of #{K^{k,\bullet,q}} into #{\check{K}^{k,\bullet,q}} is a quasi-isomorphism.
+    For fixed #{k}, the inclusion of #{K^{k,\bullet,\bullet}} into #{\check{K}^{k,\bullet,\bullet}} is also a quasi-isomorphism.
+    Finally, for varying #{k}, the #{K^{k,\bullet,\bullet}} form, by (g), a simplicial double complex.
+    The associated simple complex #{K} agrees with #{\Rd{\varepsilon_\bullet}_*\Omega_{X_\bullet}^\bullet} in the derived category.
+  }
+
+  \p{
+    We now prove that #{K} satisfies \ref{hodge-theory-iii-9.3.1}.
+    Properties (a) and (b) of #{K} are clear;
+    we define #{f\colon\Omega_X^\bullet\to K} by the evident maps from the #{\Omega_X^q} to the #{K^{0,0,q}}.
+  }
+
+  \p{
+    In the analytic category, the complex #{K^\an} of coherent analytic sheaves is given by the same formulas as for #{K}.
+    We have a commutative diagram
+    \tikzcd{
+      \bHH^i(X,K)
+        \ar[r,"\sim"]
+        \ar[d]
+      & \bHH^i(X_\bullet,\Omega_{X_\bullet}^\bullet)
+        \ar[d,"(1)"]
+    \\\bHH^i(X^\an,K^\an)
+        \ar[r,"\sim"]
+      & \bHH^i(X_\bullet^\an,\Omega_{X_\bullet^\an}^\bullet)
+    }
+    and #{(1)} is an abutment of a morphism of spectral sequences
+    \tikzcd{
+      \bHH^a(X_b,\Omega_{X_\bullet}^\bullet)
+        \ar[r,Rightarrow]
+        \ar[d]
+      & \bHH^{a+b}(X_\bullet,\Omega_{X_\bullet}^\bullet)
+        \ar[d]
+    \\\bHH^a(X_b^\an,\Omega_{X_\bullet^\an}^\bullet)
+        \ar[r,Rightarrow]
+      & \bHH^{a+b}(X_\bullet^\an,\Omega_{X_\bullet^\an}^\bullet).
+    }
+    This morphism is an isomorphism by [[G1966](G1966)], whence (d).
+  }
+
+  \p{
+    \oldpage{53}
+    To prove (c), we consider the commutative diagram
+    \tikzcd{
+      \underline{\CC}
+        \ar[rr,"\sim"]
+        \ar[rr,swap,"(1)"]
+        \ar[d]
+      && \Rd{\varepsilon_\bullet}_*\underline{\CC}
+        \ar[d,"\sim"]
+        \ar[d,swap,"(2)"]
+    \\{\Omega_{X_\bullet}^\bullet}^\an
+        \ar[r,swap,"f"]
+      & K^\an
+        \ar[r,"\sim"]
+      & {\Rd{\varepsilon_\bullet}_*\Omega_{X_\bullet}^\bullet}^\an
+    }
+  }
+
+  \p{
+    The fact that #{(1)} is a quasi-isomorphism follows from \ref{hodge-theory-iii-5.3.5}.
+    The fact that #{(2)} is a quasi-isomorphism follows from the Poincaré lemma on the #{X_n}.
+    Claim (c) thus follows.
+  }
+}
+
+\subtree[hodge-theory-iii-9.3.4]{
+  \number{9.3.4}
+
+  \p{
+    The same construction gives resolutions that satisfy (a) and (b) for sheaves #{\sh{F}} on #{X^\an} other than the constant sheaf #{\underline{\CC}} (we can probably take #{\sh{F}} to be any "algebraically constructible" sheaf).
+    Unfortunately, I can not prove that the resolutions thus obtained are essentially unique (in a suitable derived category).
+    In the absence of such uniqueness, \ref{hodge-theory-iii-9.3.1} is not of great interest.
   }
 }
