@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>3218</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-9.3.3.1</fr:addr>
+    <fr:route>hodge-theory-iii-9.3.3.1.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>9.3.3.1</fr:number>
+    <fr:parent>hodge-theory-iii-9.3.3</fr:parent>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[         X_\bullet  \xleftarrow {u} U_\bullet  \xrightarrow {\varphi } I_\bullet        \tag{9.3.3.1}       ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3219</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.3.3</fr:addr>
+            <fr:route>hodge-theory-iii-9.3.3.xml</fr:route>
+            <fr:authors />
+            <fr:number>9.3.3</fr:number>
+            <fr:parent>hodge-theory-iii-9.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The complex <fr:tex display="inline"><![CDATA[K]]></fr:tex> that we wish to construct is, in the derived category, exactly <fr:tex display="inline"><![CDATA[\mathrm {s}\mathrm {R}{\varepsilon _\bullet }_*\Omega _{X_\bullet }^\bullet ]]></fr:tex>.
+    We will only deal with the case where the augmented simplicial space <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split, defined as in <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" /> by proper and surjective maps, with smooth quasi-projective sources
+    <fr:tex display="block"><![CDATA[       f'_k\colon        N_k       \to  (\operatorname {cosq}\operatorname {sq}_{k-1}(X_\bullet ))_k     ]]></fr:tex>
+    for <fr:tex display="inline"><![CDATA[k\geqslant 0]]></fr:tex>.</fr:p>
+            <fr:p>We will construct a "compatible system" of affine open covers of the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>.
+    It will be relevant, for this construction, to consider an open cover of a space <fr:tex display="inline"><![CDATA[Y]]></fr:tex> as a diagram
+    <fr:tex display="block"><![CDATA[       Y \xleftarrow {u} U \xrightarrow {\varphi } I     ]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is discrete, <fr:tex display="inline"><![CDATA[u]]></fr:tex> is surjective, and <fr:tex display="inline"><![CDATA[u_i\colon  U_i\coloneqq \varphi ^{-1}(i)\hookrightarrow  Y]]></fr:tex> is an open embedding.
+    Proceeding as in <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" />, we construct a diagram
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:addr type="user">hodge-theory-iii-9.3.3.1</fr:addr><fr:route>hodge-theory-iii-9.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.3.3.1</fr:number><fr:parent>hodge-theory-iii-9.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         X_\bullet  \xleftarrow {u} U_\bullet  \xrightarrow {\varphi } I_\bullet        \tag{9.3.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    of the following type.
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        <fr:tex display="inline"><![CDATA[I_\bullet ]]></fr:tex> is a discrete simplicial set. The <fr:tex display="inline"><![CDATA[I_n]]></fr:tex> are finite.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        For all <fr:tex display="inline"><![CDATA[k\geqslant  0]]></fr:tex>, <fr:ref addr="hodge-theory-iii-9.3.3.1" href="hodge-theory-iii-9.3.3.1.xml" taxon="Equation" number="9.3.3.1" /> induces a diagram
+        
+  <fr:embedded-tex hash="7c4572f230d503ea3fce049ea6041ef6"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          (\operatorname {cosq}\operatorname {sq}_{k-1}(X_\bullet ))_k
+          & (\operatorname {cosq}\operatorname {sq}_{k-1}(U_\bullet ))_k
+            \ar [l]
+            \ar [r,"\varphi "]
+          & (\operatorname {cosq}\operatorname {sq}_{k-1}(I_\bullet ))_k
+        \\N_k
+            \ar [u,"f'_k"]
+          & N_k(U_\bullet )
+            \ar [u]
+            \ar [l]
+            \ar [r,swap,"\varphi "]
+          & N_k(I_\bullet )
+            \ar [u,swap,"a'_k"]
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        In
+      </html:li>
+
+    </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3220</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.3.3</fr:addr>
+            <fr:route>hodge-theory-iii-9.3.3.xml</fr:route>
+            <fr:authors />
+            <fr:number>9.3.3</fr:number>
+            <fr:parent>hodge-theory-iii-9.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The complex <fr:tex display="inline"><![CDATA[K]]></fr:tex> that we wish to construct is, in the derived category, exactly <fr:tex display="inline"><![CDATA[\mathrm {s}\mathrm {R}{\varepsilon _\bullet }_*\Omega _{X_\bullet }^\bullet ]]></fr:tex>.
+    We will only deal with the case where the augmented simplicial space <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split, defined as in <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" /> by proper and surjective maps, with smooth quasi-projective sources
+    <fr:tex display="block"><![CDATA[       f'_k\colon        N_k       \to  (\operatorname {cosq}\operatorname {sq}_{k-1}(X_\bullet ))_k     ]]></fr:tex>
+    for <fr:tex display="inline"><![CDATA[k\geqslant 0]]></fr:tex>.</fr:p>
+            <fr:p>We will construct a "compatible system" of affine open covers of the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>.
+    It will be relevant, for this construction, to consider an open cover of a space <fr:tex display="inline"><![CDATA[Y]]></fr:tex> as a diagram
+    <fr:tex display="block"><![CDATA[       Y \xleftarrow {u} U \xrightarrow {\varphi } I     ]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is discrete, <fr:tex display="inline"><![CDATA[u]]></fr:tex> is surjective, and <fr:tex display="inline"><![CDATA[u_i\colon  U_i\coloneqq \varphi ^{-1}(i)\hookrightarrow  Y]]></fr:tex> is an open embedding.
+    Proceeding as in <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" />, we construct a diagram
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:addr type="user">hodge-theory-iii-9.3.3.1</fr:addr><fr:route>hodge-theory-iii-9.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.3.3.1</fr:number><fr:parent>hodge-theory-iii-9.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         X_\bullet  \xleftarrow {u} U_\bullet  \xrightarrow {\varphi } I_\bullet        \tag{9.3.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    of the following type.
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        <fr:tex display="inline"><![CDATA[I_\bullet ]]></fr:tex> is a discrete simplicial set. The <fr:tex display="inline"><![CDATA[I_n]]></fr:tex> are finite.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        For all <fr:tex display="inline"><![CDATA[k\geqslant  0]]></fr:tex>, <fr:ref addr="hodge-theory-iii-9.3.3.1" href="hodge-theory-iii-9.3.3.1.xml" taxon="Equation" number="9.3.3.1" /> induces a diagram
+        
+  <fr:embedded-tex hash="7c4572f230d503ea3fce049ea6041ef6"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          (\operatorname {cosq}\operatorname {sq}_{k-1}(X_\bullet ))_k
+          & (\operatorname {cosq}\operatorname {sq}_{k-1}(U_\bullet ))_k
+            \ar [l]
+            \ar [r,"\varphi "]
+          & (\operatorname {cosq}\operatorname {sq}_{k-1}(I_\bullet ))_k
+        \\N_k
+            \ar [u,"f'_k"]
+          & N_k(U_\bullet )
+            \ar [u]
+            \ar [l]
+            \ar [r,swap,"\varphi "]
+          & N_k(I_\bullet )
+            \ar [u,swap,"a'_k"]
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        In
+      </html:li>
+
+    </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

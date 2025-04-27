@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3195</fr:anchor>
+    <fr:anchor>3205</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-9.3.2</fr:addr>
     <fr:route>hodge-theory-iii-9.3.2.xml</fr:route>
     <fr:taxon>Corollary</fr:taxon>
@@ -16,7 +16,35 @@
   
     
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:addr type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-9.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We first prove the corollary.</fr:p>
+
+    <fr:p>Let <fr:tex display="inline"><![CDATA[\varepsilon \colon  X_\bullet \to  X]]></fr:tex> be an augmented simplicial scheme over <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+      Suppose that <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex> is a proper hypercover, and that the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex> are smooth.
+      We have the commutative diagram
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>361</fr:anchor><fr:addr type="user">hodge-theory-iii-9.3.2.1</fr:addr><fr:route>hodge-theory-iii-9.3.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.3.2.1</fr:number><fr:parent>hodge-theory-iii-9.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:embedded-tex hash="a587f52fa7f96353f8302b04f3cdb398"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          \operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})
+            \ar [r,"\sim "]
+            \ar [r,swap,"(1)"]
+            \ar [d]
+          & \operatorname {H}^\bullet (X_\bullet ^\mathrm {an},\mathbb {C})
+            \ar [d,"\sim "]
+            \ar [d,swap,"(2)"]
+        \\\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )
+            \ar [r]
+          & \operatorname {\mathbb {H}}^\bullet (X_\bullet ^\mathrm {an},\Omega _{X_\bullet }^\bullet )
+          & (9.3.2.1)
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+
+      
+      The arrow <fr:tex display="inline"><![CDATA[(1)]]></fr:tex> is bijective by (II) and (IV) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />.
+      The arrow <fr:tex display="inline"><![CDATA[(2)]]></fr:tex> is bijective since <fr:tex display="inline"><![CDATA[\Omega _{X_\bullet }^\bullet ]]></fr:tex> is a resolution of <fr:tex display="inline"><![CDATA[\underline {\mathbb {C}}]]></fr:tex> (the Poincaré lemma on the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>).
+      The diagram <fr:ref addr="hodge-theory-iii-9.3.2.1" href="hodge-theory-iii-9.3.2.1.xml" taxon="Equation" number="9.3.2.1" /> gives a retract, compatible with the cup product, of <fr:tex display="inline"><![CDATA[\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )]]></fr:tex> onto <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})]]></fr:tex>, and this proves <fr:ref addr="hodge-theory-iii-9.3.2" href="hodge-theory-iii-9.3.2.xml" taxon="Corollary" number="9.3.2" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
@@ -29,7 +57,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3196</fr:anchor>
+            <fr:anchor>3206</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-9.3</fr:addr>
             <fr:route>hodge-theory-iii-9.3.xml</fr:route>
             <fr:title text="Hodge Theory III › Examples and applications › Construction of complexes of first-order differential operators"><fr:link type="local" href="hodge-theory-iii-9.xml" addr="hodge-theory-iii-9" title="Hodge Theory III › Examples and applications"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Examples and applications</fr:link> › Construction of complexes of first-order differential operators</fr:title>
@@ -86,6 +114,8 @@
               <fr:backmatter />
             </fr:tree>
             <fr:p>As a corollary, we recover a particular case of a theorem of Bloom and Herrera [<fr:link type="local" href="BH1969.xml" addr="BH1969" title="De Rham cohomology of an analytic space">BH1969</fr:link>].</fr:p>
+            <fr:p>We will first prove the corollary.
+  The proposition <fr:ref addr="hodge-theory-iii-9.3.1" href="hodge-theory-iii-9.3.1.xml" taxon="Proposition" number="9.3.1" /> will be obtained by redoing the proof at the level of complexes.</fr:p>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
                 <fr:anchor>359</fr:anchor>
@@ -102,13 +132,316 @@
   
     
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:addr type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-9.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>We first prove the corollary.</fr:p>
+
+    <fr:p>Let <fr:tex display="inline"><![CDATA[\varepsilon \colon  X_\bullet \to  X]]></fr:tex> be an augmented simplicial scheme over <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+      Suppose that <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex> is a proper hypercover, and that the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex> are smooth.
+      We have the commutative diagram
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>361</fr:anchor><fr:addr type="user">hodge-theory-iii-9.3.2.1</fr:addr><fr:route>hodge-theory-iii-9.3.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.3.2.1</fr:number><fr:parent>hodge-theory-iii-9.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:embedded-tex hash="a587f52fa7f96353f8302b04f3cdb398"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          \operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})
+            \ar [r,"\sim "]
+            \ar [r,swap,"(1)"]
+            \ar [d]
+          & \operatorname {H}^\bullet (X_\bullet ^\mathrm {an},\mathbb {C})
+            \ar [d,"\sim "]
+            \ar [d,swap,"(2)"]
+        \\\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )
+            \ar [r]
+          & \operatorname {\mathbb {H}}^\bullet (X_\bullet ^\mathrm {an},\Omega _{X_\bullet }^\bullet )
+          & (9.3.2.1)
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+
+      
+      The arrow <fr:tex display="inline"><![CDATA[(1)]]></fr:tex> is bijective by (II) and (IV) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />.
+      The arrow <fr:tex display="inline"><![CDATA[(2)]]></fr:tex> is bijective since <fr:tex display="inline"><![CDATA[\Omega _{X_\bullet }^\bullet ]]></fr:tex> is a resolution of <fr:tex display="inline"><![CDATA[\underline {\mathbb {C}}]]></fr:tex> (the Poincaré lemma on the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>).
+      The diagram <fr:ref addr="hodge-theory-iii-9.3.2.1" href="hodge-theory-iii-9.3.2.1.xml" taxon="Equation" number="9.3.2.1" /> gives a retract, compatible with the cup product, of <fr:tex display="inline"><![CDATA[\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )]]></fr:tex> onto <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})]]></fr:tex>, and this proves <fr:ref addr="hodge-theory-iii-9.3.2" href="hodge-theory-iii-9.3.2.xml" taxon="Corollary" number="9.3.2" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
               <fr:backmatter />
             </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>362</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-9.3.3</fr:addr>
+                <fr:route>hodge-theory-iii-9.3.3.xml</fr:route>
+                <fr:authors />
+                <fr:number>9.3.3</fr:number>
+                <fr:parent>hodge-theory-iii-9.3</fr:parent>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The complex <fr:tex display="inline"><![CDATA[K]]></fr:tex> that we wish to construct is, in the derived category, exactly <fr:tex display="inline"><![CDATA[\mathrm {s}\mathrm {R}{\varepsilon _\bullet }_*\Omega _{X_\bullet }^\bullet ]]></fr:tex>.
+    We will only deal with the case where the augmented simplicial space <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is <fr:tex display="inline"><![CDATA[s]]></fr:tex>-split, defined as in <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" /> by proper and surjective maps, with smooth quasi-projective sources
+    <fr:tex display="block"><![CDATA[       f'_k\colon        N_k       \to  (\operatorname {cosq}\operatorname {sq}_{k-1}(X_\bullet ))_k     ]]></fr:tex>
+    for <fr:tex display="inline"><![CDATA[k\geqslant 0]]></fr:tex>.</fr:p>
+                <fr:p>We will construct a "compatible system" of affine open covers of the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>.
+    It will be relevant, for this construction, to consider an open cover of a space <fr:tex display="inline"><![CDATA[Y]]></fr:tex> as a diagram
+    <fr:tex display="block"><![CDATA[       Y \xleftarrow {u} U \xrightarrow {\varphi } I     ]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is discrete, <fr:tex display="inline"><![CDATA[u]]></fr:tex> is surjective, and <fr:tex display="inline"><![CDATA[u_i\colon  U_i\coloneqq \varphi ^{-1}(i)\hookrightarrow  Y]]></fr:tex> is an open embedding.
+    Proceeding as in <fr:ref addr="hodge-theory-iii-6.2.5" href="hodge-theory-iii-6.2.5.xml" number="6.2.5" />, we construct a diagram
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:addr type="user">hodge-theory-iii-9.3.3.1</fr:addr><fr:route>hodge-theory-iii-9.3.3.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.3.3.1</fr:number><fr:parent>hodge-theory-iii-9.3.3</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         X_\bullet  \xleftarrow {u} U_\bullet  \xrightarrow {\varphi } I_\bullet        \tag{9.3.3.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    of the following type.
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        <fr:tex display="inline"><![CDATA[I_\bullet ]]></fr:tex> is a discrete simplicial set. The <fr:tex display="inline"><![CDATA[I_n]]></fr:tex> are finite.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        For all <fr:tex display="inline"><![CDATA[k\geqslant  0]]></fr:tex>, <fr:ref addr="hodge-theory-iii-9.3.3.1" href="hodge-theory-iii-9.3.3.1.xml" taxon="Equation" number="9.3.3.1" /> induces a diagram
+        
+  <fr:embedded-tex hash="7c4572f230d503ea3fce049ea6041ef6"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          (\operatorname {cosq}\operatorname {sq}_{k-1}(X_\bullet ))_k
+          & (\operatorname {cosq}\operatorname {sq}_{k-1}(U_\bullet ))_k
+            \ar [l]
+            \ar [r,"\varphi "]
+          & (\operatorname {cosq}\operatorname {sq}_{k-1}(I_\bullet ))_k
+        \\N_k
+            \ar [u,"f'_k"]
+          & N_k(U_\bullet )
+            \ar [u]
+            \ar [l]
+            \ar [r,swap,"\varphi "]
+          & N_k(I_\bullet )
+            \ar [u,swap,"a'_k"]
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        In
+      </html:li>
+
+    </html:ol></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
           </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3207</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.3.2</fr:addr>
+            <fr:route>hodge-theory-iii-9.3.2.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>9.3.2</fr:number>
+            <fr:parent>hodge-theory-iii-9.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The map
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})       \to  \operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _{X^\mathrm {an}}^\bullet )     ]]></fr:tex>
+    induced by <fr:tex display="inline"><![CDATA[\underline {\mathbb {C}}\to \Omega _{X^\mathrm {an}}^\bullet ]]></fr:tex> identifies <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})]]></fr:tex> with a direct factor of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X^\mathrm {an},\Omega _{X^\mathrm {an}}^\bullet )]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:addr type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-9.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+
+    <fr:p>Let <fr:tex display="inline"><![CDATA[\varepsilon \colon  X_\bullet \to  X]]></fr:tex> be an augmented simplicial scheme over <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+      Suppose that <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex> is a proper hypercover, and that the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex> are smooth.
+      We have the commutative diagram
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>361</fr:anchor><fr:addr type="user">hodge-theory-iii-9.3.2.1</fr:addr><fr:route>hodge-theory-iii-9.3.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.3.2.1</fr:number><fr:parent>hodge-theory-iii-9.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:embedded-tex hash="a587f52fa7f96353f8302b04f3cdb398"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          \operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})
+            \ar [r,"\sim "]
+            \ar [r,swap,"(1)"]
+            \ar [d]
+          & \operatorname {H}^\bullet (X_\bullet ^\mathrm {an},\mathbb {C})
+            \ar [d,"\sim "]
+            \ar [d,swap,"(2)"]
+        \\\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )
+            \ar [r]
+          & \operatorname {\mathbb {H}}^\bullet (X_\bullet ^\mathrm {an},\Omega _{X_\bullet }^\bullet )
+          & (9.3.2.1)
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+
+      
+      The arrow <fr:tex display="inline"><![CDATA[(1)]]></fr:tex> is bijective by (II) and (IV) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />.
+      The arrow <fr:tex display="inline"><![CDATA[(2)]]></fr:tex> is bijective since <fr:tex display="inline"><![CDATA[\Omega _{X_\bullet }^\bullet ]]></fr:tex> is a resolution of <fr:tex display="inline"><![CDATA[\underline {\mathbb {C}}]]></fr:tex> (the Poincaré lemma on the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>).
+      The diagram <fr:ref addr="hodge-theory-iii-9.3.2.1" href="hodge-theory-iii-9.3.2.1.xml" taxon="Equation" number="9.3.2.1" /> gives a retract, compatible with the cup product, of <fr:tex display="inline"><![CDATA[\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )]]></fr:tex> onto <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})]]></fr:tex>, and this proves <fr:ref addr="hodge-theory-iii-9.3.2" href="hodge-theory-iii-9.3.2.xml" taxon="Corollary" number="9.3.2" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3208</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.3.5</fr:addr>
+            <fr:route>hodge-theory-iii-5.3.5.xml</fr:route>
+            <fr:authors />
+            <fr:number>5.3.5</fr:number>
+            <fr:parent>hodge-theory-iii-5.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The fundamental results, proven in [<fr:link type="local" href="SD.xml" addr="SD" title="Techniques de descente cohomologique">SD</fr:link>], are the following.
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(I) &quot;">
+        The continuous maps of universal cohomological descent form a Grothendieck topology on the category of topological spaces, which we call the <fr:em>universal cohomological descent topology</fr:em>.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(II) &quot;">
+        A proper (<fr:ref addr="hodge-theory-iii-0.1" href="hodge-theory-iii-0.1.xml" number="III.0.1" />) surjective map is of universal cohomological descent.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(III) &quot;">
+        A map <fr:tex display="inline"><![CDATA[a\colon  X\to  S]]></fr:tex> that admits sections locally on <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of universal cohomological descent.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(IV) &quot;">
+        Let <fr:tex display="inline"><![CDATA[a\colon  X_\bullet \to  S]]></fr:tex> be a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated augmented simplicial space (with <fr:tex display="inline"><![CDATA[-1\leqslant  k\leqslant \infty ]]></fr:tex>).
+        For <fr:tex display="inline"><![CDATA[k\geqslant  n\geqslant -1]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\varphi _n\colon \operatorname {cosq} X_\bullet \to \operatorname {cosq}\operatorname {sq}_n X_\bullet ]]></fr:tex> be the evident map.
+        We say that <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is a <fr:em><fr:tex display="inline"><![CDATA[k]]></fr:tex>-truncated hypercover of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, for the universal cohomological descent topology</fr:em>, if the maps
+
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2180</fr:anchor><fr:addr type="user">hodge-theory-iii-5.3.5.1</fr:addr><fr:route>hodge-theory-iii-5.3.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.3.5.1</fr:number><fr:parent>hodge-theory-iii-5.3.5</fr:parent></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\varphi _n)_{n+1}             \colon  X_{n+1}             \to  (\operatorname {cosq}\operatorname {sq}_n X_\bullet )_{n+1}           \tag{5.3.5.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+        (for <fr:tex display="inline"><![CDATA[-1\leqslant  n\leqslant  k-1]]></fr:tex>) are of universal cohomological descent.
+        If <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is such a hypercover, then the simplicial space <fr:tex display="inline"><![CDATA[\operatorname {cosq}(X_\bullet )]]></fr:tex> augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex> is of cohomological descent.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(V) &quot;">
+        Let <fr:tex display="inline"><![CDATA[a]]></fr:tex> be a morphism of simplicial topological spaces augmented over <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+        <fr:tex display="block"><![CDATA[           \begin {CD}             X_\bullet  @>a>> Y_\bullet            \\@VxVV @VVyV           \\S @= S           \end {CD}         ]]></fr:tex>
+        We say that <fr:tex display="inline"><![CDATA[a]]></fr:tex> is a <fr:em>hypercover</fr:em> for the universal cohomological descent topology if the evident maps <fr:tex display="inline"><![CDATA[X_n\to (\operatorname {cosq}_{n-1}^{Y_\bullet }\operatorname {sq}_{n-1}X_\bullet )_n]]></fr:tex> are of universal cohomological descent.
+        If <fr:tex display="inline"><![CDATA[a]]></fr:tex> is such a hypercover then, for every <fr:tex display="inline"><![CDATA[K\in \operatorname {Ob}\mathrm {D}^+(S)]]></fr:tex>,
+        <fr:tex display="block"><![CDATA[           a^*\colon            \mathrm {R} y_*y^*K           \xrightarrow {\sim } \mathrm {R} x_*x^*K.         ]]></fr:tex>
+      </html:li>
+
+    </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3209</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.3.2</fr:addr>
+            <fr:route>hodge-theory-iii-9.3.2.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
+            <fr:authors />
+            <fr:number>9.3.2</fr:number>
+            <fr:parent>hodge-theory-iii-9.3</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The map
+    <fr:tex display="block"><![CDATA[       \operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})       \to  \operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _{X^\mathrm {an}}^\bullet )     ]]></fr:tex>
+    induced by <fr:tex display="inline"><![CDATA[\underline {\mathbb {C}}\to \Omega _{X^\mathrm {an}}^\bullet ]]></fr:tex> identifies <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})]]></fr:tex> with a direct factor of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X^\mathrm {an},\Omega _{X^\mathrm {an}}^\bullet )]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:addr type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-iii-9.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+
+    <fr:p>Let <fr:tex display="inline"><![CDATA[\varepsilon \colon  X_\bullet \to  X]]></fr:tex> be an augmented simplicial scheme over <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+      Suppose that <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex> is a proper hypercover, and that the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex> are smooth.
+      We have the commutative diagram
+
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>361</fr:anchor><fr:addr type="user">hodge-theory-iii-9.3.2.1</fr:addr><fr:route>hodge-theory-iii-9.3.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.3.2.1</fr:number><fr:parent>hodge-theory-iii-9.3.2</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:embedded-tex hash="a587f52fa7f96353f8302b04f3cdb398"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          \operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})
+            \ar [r,"\sim "]
+            \ar [r,swap,"(1)"]
+            \ar [d]
+          & \operatorname {H}^\bullet (X_\bullet ^\mathrm {an},\mathbb {C})
+            \ar [d,"\sim "]
+            \ar [d,swap,"(2)"]
+        \\\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )
+            \ar [r]
+          & \operatorname {\mathbb {H}}^\bullet (X_\bullet ^\mathrm {an},\Omega _{X_\bullet }^\bullet )
+          & (9.3.2.1)
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+
+      
+      The arrow <fr:tex display="inline"><![CDATA[(1)]]></fr:tex> is bijective by (II) and (IV) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />.
+      The arrow <fr:tex display="inline"><![CDATA[(2)]]></fr:tex> is bijective since <fr:tex display="inline"><![CDATA[\Omega _{X_\bullet }^\bullet ]]></fr:tex> is a resolution of <fr:tex display="inline"><![CDATA[\underline {\mathbb {C}}]]></fr:tex> (the Poincaré lemma on the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>).
+      The diagram <fr:ref addr="hodge-theory-iii-9.3.2.1" href="hodge-theory-iii-9.3.2.1.xml" taxon="Equation" number="9.3.2.1" /> gives a retract, compatible with the cup product, of <fr:tex display="inline"><![CDATA[\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )]]></fr:tex> onto <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})]]></fr:tex>, and this proves <fr:ref addr="hodge-theory-iii-9.3.2" href="hodge-theory-iii-9.3.2.xml" taxon="Corollary" number="9.3.2" />.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3210</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.3.2.1</fr:addr>
+            <fr:route>hodge-theory-iii-9.3.2.1.xml</fr:route>
+            <fr:taxon>Equation</fr:taxon>
+            <fr:authors />
+            <fr:number>9.3.2.1</fr:number>
+            <fr:parent>hodge-theory-iii-9.3.2</fr:parent>
+          </fr:frontmatter>
+          <fr:mainmatter>
+  <fr:embedded-tex hash="a587f52fa7f96353f8302b04f3cdb398"><fr:embedded-tex-preamble><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
+          \operatorname {H}^\bullet (X^\mathrm {an},\mathbb {C})
+            \ar [r,"\sim "]
+            \ar [r,swap,"(1)"]
+            \ar [d]
+          & \operatorname {H}^\bullet (X_\bullet ^\mathrm {an},\mathbb {C})
+            \ar [d,"\sim "]
+            \ar [d,swap,"(2)"]
+        \\\operatorname {\mathbb {H}}^\bullet (X^\mathrm {an},\Omega _X^\bullet )
+            \ar [r]
+          & \operatorname {\mathbb {H}}^\bullet (X_\bullet ^\mathrm {an},\Omega _{X_\bullet }^\bullet )
+          & (9.3.2.1)
+        \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
