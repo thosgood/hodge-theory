@@ -37,7 +37,7 @@ jobs:
           tlmgr path add
 
       - name: Install Forester
-        run: opam install forester
+        run: opam install forester.4.3.1
 
       - name: Update environment
         run: eval $(opam env)
