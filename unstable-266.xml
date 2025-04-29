@@ -2,24 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3313</fr:anchor>
+    <fr:anchor>3244</fr:anchor>
     <fr:addr type="machine">#266</fr:addr>
     <fr:route>unstable-266.xml</fr:route>
-    <fr:taxon>Proof</fr:taxon>
+    <fr:title text="[Hodge-theory-iii-5.2.1] › Geometric realisation"><fr:link type="local" href="hodge-theory-iii-5.2.1.xml" addr="hodge-theory-iii-5.2.1">Untitled</fr:link> › Geometric realisation</fr:title>
     <fr:authors />
-    <fr:parent>hodge-theory-ii-4.4.16</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[n]]></fr:tex> be an integer.
-      Replacing <fr:tex display="inline"><![CDATA[S]]></fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>, if necessary, we can assume that the local system <fr:tex display="inline"><![CDATA[{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)]]></fr:tex> is trivial on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
-      Replacing <fr:tex display="inline"><![CDATA[X]]></fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is polarised in the principal series.
-      Suppose that <fr:tex display="inline"><![CDATA[n\geqslant  3]]></fr:tex>.</fr:p>
-
-    <fr:p>The abelian scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> then defines a dominant morphism <fr:tex display="inline"><![CDATA[x]]></fr:tex> from the <fr:tex display="inline"><![CDATA[S]]></fr:tex> to the scheme of "Jacobi" modules <fr:tex display="inline"><![CDATA[M_n]]></fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex display="inline"><![CDATA[{}_nX]]></fr:tex> and <fr:tex display="inline"><![CDATA[(\mathbb {Z}{/}n)^{2g}]]></fr:tex>;
-      furthermore, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an inverse image under <fr:tex display="inline"><![CDATA[x]]></fr:tex> of the universal abelian scheme on <fr:tex display="inline"><![CDATA[M_n]]></fr:tex>.
-      
-      We know that <fr:tex display="inline"><![CDATA[\pi _1(M_n,x(s))]]></fr:tex> is sent isomorphically to the subgroup of <fr:tex display="inline"><![CDATA[\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))]]></fr:tex> given by the kernel of the reduction <fr:tex display="inline"><![CDATA[\operatorname {mod}{n}]]></fr:tex> map.
-      It thus remains to show that:</fr:p>
+    <fr:p>For an integer <fr:tex display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
+      We identify <fr:tex display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
+      Every function <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
+      Let
+      <fr:tex display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
+      Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
+      <fr:tex display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
+      The <fr:em>geometric realisation</fr:em> of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
+      <fr:tex display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -30,31 +29,44 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3314</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-4.4.16</fr:addr>
-            <fr:route>hodge-theory-ii-4.4.16.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
+            <fr:anchor>3245</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-5.2.1</fr:addr>
+            <fr:route>hodge-theory-iii-5.2.1.xml</fr:route>
             <fr:authors />
-            <fr:number>4.4.16</fr:number>
-            <fr:parent>hodge-theory-ii-4.4</fr:parent>
+            <fr:number>5.2.1</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>If <fr:tex display="inline"><![CDATA[X]]></fr:tex> satisfies <fr:ref addr="hodge-theory-ii-4.4.14.1" href="hodge-theory-ii-4.4.14.1.xml" taxon="Hypothesis" number="4.4.14.1" />, then the image of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in the group of symplectic automorphisms of <fr:tex display="inline"><![CDATA[\operatorname {H}^1(X_s,\mathbb {Z})]]></fr:tex> is of finite index.</fr:p>
-  
-    
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1962</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.16</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[n]]></fr:tex> be an integer.
-      Replacing <fr:tex display="inline"><![CDATA[S]]></fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>, if necessary, we can assume that the local system <fr:tex display="inline"><![CDATA[{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)]]></fr:tex> is trivial on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
-      Replacing <fr:tex display="inline"><![CDATA[X]]></fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is polarised in the principal series.
-      Suppose that <fr:tex display="inline"><![CDATA[n\geqslant  3]]></fr:tex>.</fr:p>
+          <fr:mainmatter>
+            <fr:p>To each simplicial topological space <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is associated a usual topological space <fr:tex display="inline"><![CDATA[|X_\bullet |]]></fr:tex>, called its geometric realisation (see below).
+    In the particular case where the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex> are discrete, we recover the usual notion of geometric realisation of a simplicial set.</fr:p>
+            <fr:p>In [<fr:link type="local" href="S1968.xml" addr="S1968" title="Classifying spaces and spectral sequences">S1968</fr:link>], G. Segal defined the cohomology of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> with values in an abelian group <fr:tex display="inline"><![CDATA[A]]></fr:tex> as <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (|X_\bullet |,A)]]></fr:tex>.
+    Under suitable hypotheses, the filtration of <fr:tex display="inline"><![CDATA[|X_\bullet |]]></fr:tex> by successive skeletons gives a spectral sequence
 
-    <fr:p>The abelian scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> then defines a dominant morphism <fr:tex display="inline"><![CDATA[x]]></fr:tex> from the <fr:tex display="inline"><![CDATA[S]]></fr:tex> to the scheme of "Jacobi" modules <fr:tex display="inline"><![CDATA[M_n]]></fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex display="inline"><![CDATA[{}_nX]]></fr:tex> and <fr:tex display="inline"><![CDATA[(\mathbb {Z}{/}n)^{2g}]]></fr:tex>;
-      furthermore, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an inverse image under <fr:tex display="inline"><![CDATA[x]]></fr:tex> of the universal abelian scheme on <fr:tex display="inline"><![CDATA[M_n]]></fr:tex>.
-      
-      We know that <fr:tex display="inline"><![CDATA[\pi _1(M_n,x(s))]]></fr:tex> is sent isomorphically to the subgroup of <fr:tex display="inline"><![CDATA[\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))]]></fr:tex> given by the kernel of the reduction <fr:tex display="inline"><![CDATA[\operatorname {mod}{n}]]></fr:tex> map.
-      It thus remains to show that:</fr:p>
-  </fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>431</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.1.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.1.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,A)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,A).       \tag{5.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+            <fr:p>One of the interests in using this definition is that it also applies, for example, to the definition of the groups <fr:tex display="inline"><![CDATA[K(X_\bullet )]]></fr:tex>.
+    We will adopt another definition, which is better adapted to sheaf-theoretic techniques.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>432</fr:anchor>
+                <fr:addr type="machine">#266</fr:addr>
+                <fr:route>unstable-266.xml</fr:route>
+                <fr:title text="Geometric realisation">Geometric realisation</fr:title>
+                <fr:authors />
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>For an integer <fr:tex display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
+      We identify <fr:tex display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
+      Every function <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
+      Let
+      <fr:tex display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
+      Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
+      <fr:tex display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
+      The <fr:em>geometric realisation</fr:em> of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
+      <fr:tex display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>

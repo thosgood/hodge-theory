@@ -2,37 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3315</fr:anchor>
+    <fr:anchor>2945</fr:anchor>
     <fr:addr type="machine">#267</fr:addr>
     <fr:route>unstable-267.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-ii-4.4.17</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
-      There exists a dense Zariski open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
-
-    <fr:p>We lose no generality by assuming that <fr:tex display="inline"><![CDATA[s\in  T]]></fr:tex>.
-      In the diagram
-      
-  <fr:embedded-tex hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        \pi _1(T,s)
-          \ar [r]
-          \ar [d,swap,"a"]
-        & \pi _1(S,s)
-          \ar [d,"c"]
-      \\\pi _1(U,p(s))
-        \ar [r,swap,"b"]
-        & \pi _1(M,p(s))
-      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-
-      the image of the arrow <fr:tex display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
-      The image of the arrow <fr:tex display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
+    <fr:p>The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
+      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[X_2]]></fr:tex> over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the <fr:tex display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[\underline {\operatorname {Hom}}_S(X_1,X_2)]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, and thus has the same algebraic and holomorphic sections.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -43,42 +21,34 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3316</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-4.4.17</fr:addr>
-            <fr:route>hodge-theory-ii-4.4.17.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
+            <fr:anchor>2946</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.4.3</fr:addr>
+            <fr:route>hodge-theory-ii-4.4.3.xml</fr:route>
+            <fr:taxon>Reminder</fr:taxon>
             <fr:authors />
-            <fr:number>4.4.17</fr:number>
-            <fr:parent>hodge-theory-ii-4.4</fr:parent>
+            <fr:number>4.4.3</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[p\colon  S\to  M]]></fr:tex> be a dominant morphism of smooth connected schemes.
-    The subgroup <fr:tex display="inline"><![CDATA[p(\pi _1(S,s))]]></fr:tex> of <fr:tex display="inline"><![CDATA[\pi _1(M,p(s))]]></fr:tex> is then of finite index.</fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a smooth scheme of finite type over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
+    The construction of <fr:ref addr="hodge-theory-ii-4.4.2" href="hodge-theory-ii-4.4.2.xml" number="4.4.2" /> establishes an equivalence of categories between
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        the category of abelian schemes over <fr:tex display="inline"><![CDATA[S]]></fr:tex>; and
+      </html:li>
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        the category of polarisable continuous families of Hodge structures <fr:tex display="inline"><![CDATA[H]]></fr:tex> of type <fr:tex display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex> on <fr:tex display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex display="inline"><![CDATA[H_\mathbb {Z}]]></fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1964</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.4.17</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[t]]></fr:tex> be a closed point of the generic fibre of <fr:tex display="inline"><![CDATA[p]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[T']]></fr:tex> be its closure in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
-      There exists a dense Zariski open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex display="inline"><![CDATA[T=p^{-1}(U)\cap  T']]></fr:tex> is an étale covering of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
-
-    <fr:p>We lose no generality by assuming that <fr:tex display="inline"><![CDATA[s\in  T]]></fr:tex>.
-      In the diagram
-      
-  <fr:embedded-tex hash="41d7cc0caa328a65942710d85f8bc792"><fr:embedded-tex-preamble><![CDATA[
-    \usepackage {amsmath}
-    \usepackage {amssymb}
-    \usepackage {tikz-cd}
-  ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[\begin {tikzcd}
-        \pi _1(T,s)
-          \ar [r]
-          \ar [d,swap,"a"]
-        & \pi _1(S,s)
-          \ar [d,"c"]
-      \\\pi _1(U,p(s))
-        \ar [r,swap,"b"]
-        & \pi _1(M,p(s))
-      \end {tikzcd}]]></fr:embedded-tex-body></fr:embedded-tex>
-
-      the image of the arrow <fr:tex display="inline"><![CDATA[a]]></fr:tex> is of finite index, since <fr:tex display="inline"><![CDATA[T]]></fr:tex> is a finite étale covering, and the arrow <fr:tex display="inline"><![CDATA[b]]></fr:tex> is surjective, since <fr:tex display="inline"><![CDATA[M\setminus  U]]></fr:tex> is of real codimension <fr:tex display="inline"><![CDATA[\geqslant 2]]></fr:tex>.
-      The image of the arrow <fr:tex display="inline"><![CDATA[c]]></fr:tex> is thus of finite index.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1643</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
+      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[X_2]]></fr:tex> over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the <fr:tex display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[\underline {\operatorname {Hom}}_S(X_1,X_2)]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, and thus has the same algebraic and holomorphic sections.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

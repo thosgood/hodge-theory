@@ -2,24 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3319</fr:anchor>
+    <fr:anchor>2949</fr:anchor>
     <fr:addr type="machine">#269</fr:addr>
     <fr:route>unstable-269.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-ii-4.2.3</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> be a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, in the category of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures.
-      We will show that <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[H]]></fr:tex> in this category.
-      We can suppose <fr:tex display="inline"><![CDATA[H]]></fr:tex> to be homogeneous.
-      If <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is a polarisation form for <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then the orthogonal of <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is indeed a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex> that is a supplement to <fr:tex display="inline"><![CDATA[H_1]]></fr:tex>.
-      This proves (i)</fr:p>
+    <fr:p>We can reduce to the case where <fr:tex display="inline"><![CDATA[S]]></fr:tex> is non-empty and connected, with generic point <fr:tex display="inline"><![CDATA[\eta ]]></fr:tex>, and where <fr:tex display="inline"><![CDATA[X_\eta ]]></fr:tex> is a simple abelian variety over <fr:tex display="inline"><![CDATA[k(\eta )]]></fr:tex>.
+      If (i) or (ii) is satisfied, then <fr:tex display="inline"><![CDATA[D=\operatorname {End}(X_\eta )\otimes \mathbb {Q}]]></fr:tex> is a field, and, for <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>, <fr:tex display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is an irreducible representation of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>.</fr:p>
 
-    <fr:p>If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex> is of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then a polarisation of <fr:tex display="inline"><![CDATA[H]]></fr:tex> defines an isomorphism between <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[H\otimes \mathbb {Q}(n)]]></fr:tex>.
-      By <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" />, we thus have that <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      For arbitrary <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, if we decompose <fr:tex display="inline"><![CDATA[H]]></fr:tex> into its homogeneous components, then <fr:tex display="inline"><![CDATA[H^*=\bigoplus _n(H^n)^*]]></fr:tex>, whence again <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      Finally, <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[\bigotimes ^p H]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2]]></fr:tex>.</fr:p>
+    <fr:p>To prove that (ii) <fr:tex display="inline"><![CDATA[\implies ]]></fr:tex> (i), we can suppose <fr:tex display="inline"><![CDATA[Y_\eta ]]></fr:tex> to be simple, and <fr:tex display="inline"><![CDATA[(\mathrm {R}_1g_*\mathbb {Q})_s]]></fr:tex> to be isotypic of type <fr:tex display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex>.
+      We then have an isomorphism of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures (with <fr:tex display="inline"><![CDATA[D]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>)
+      <fr:tex display="block"><![CDATA[         \mathrm {R}_1g_*\mathbb {Q}         \approx  \mathrm {R}_1f_*\mathbb {Q}\otimes _D\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q}).       ]]></fr:tex></fr:p>
+
+    <fr:p>We have that <fr:tex display="inline"><![CDATA[D\otimes \mathbb {C}\simeq \mathbb {M}_n(Z\otimes \mathbb {C})]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[e\in  D\otimes \mathbb {C}]]></fr:tex> is sent by such an isomorphism to the idempotent <fr:tex display="inline"><![CDATA[e_{11}]]></fr:tex>, then we again have an isomorphism of bigraded vector spaces
+      <fr:tex display="block"><![CDATA[         (\mathrm {R}_1g_*\mathbb {C})_s         \approx  (\mathrm {R}_1f_*\mathbb {C})_s\otimes _{Z\otimes \mathbb {C}}e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C})).       ]]></fr:tex></fr:p>
+
+    <fr:p>If condition (ii) is satisfied, and if <fr:tex display="inline"><![CDATA[e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C}))]]></fr:tex> is not of pure degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(\mathrm {R}_1g_*\mathbb {C})_s]]></fr:tex> cannot be of pure degree <fr:tex display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>, which is a contradiction.
+      We thus deduce that <fr:tex display="inline"><![CDATA[\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})]]></fr:tex> is of pure degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>, and (i) then follows by <fr:ref addr="hodge-theory-ii-4.4.3" href="hodge-theory-ii-4.4.3.xml" taxon="Reminder" number="4.4.3" /> and <fr:ref addr="hodge-theory-ii-2.1.11.1" href="hodge-theory-ii-2.1.11.1.xml" taxon="Remark" number="2.1.11.1" />.</fr:p>
+
+    <fr:p>Let <fr:tex display="inline"><![CDATA[Z]]></fr:tex> be a completely imaginary quadratic extension of a completely real number field <fr:tex display="inline"><![CDATA[Z^0]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[Z\otimes \mathbb {R}\approx \mathbb {C}\oplus \ldots \oplus \mathbb {C}]]></fr:tex>, then we define an action by homotheties of <fr:tex display="inline"><![CDATA[S]]></fr:tex> on <fr:tex display="inline"><![CDATA[Z\otimes \mathbb {R}]]></fr:tex> by sending <fr:tex display="inline"><![CDATA[s\in  S(\mathbb {R})\simeq \mathbb {C}^*]]></fr:tex> to <fr:tex display="inline"><![CDATA[(s^2\cdot  N(s)^{-1},1,\ldots ,1)]]></fr:tex>.
+      The pair consisting of <fr:tex display="inline"><![CDATA[Z]]></fr:tex> and this action of <fr:tex display="inline"><![CDATA[S]]></fr:tex> on <fr:tex display="inline"><![CDATA[Z\otimes \mathbb {R}]]></fr:tex> is a polarisable Hodge structure <fr:tex display="inline"><![CDATA[Z_\rho ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(-1,1)+(0,0)+(1,-1)]]></fr:tex> that depends on <fr:tex display="inline"><![CDATA[Z]]></fr:tex> and the chose place <fr:tex display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex>.</fr:p>
+
+    <fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be an abelian scheme over <fr:tex display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex display="inline"><![CDATA[X_\eta ]]></fr:tex> is simple.
+      If the centre <fr:tex display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {End}(\mathrm {R}_1f_*\mathbb {Q})]]></fr:tex> is not completely real, then it is a completely imaginary quadratic extension of a completely real number field.
+      If the second hypothesis of (ii) is not satisfied, then the direct factor <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho ]]></fr:tex> of the continuous family of polarisable Hodge structures <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _\mathbb {Q} Z_\rho ]]></fr:tex> is of pure degree <fr:tex display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>.</fr:p>
+
+    <fr:p>By <fr:ref addr="hodge-theory-ii-4.4.3" href="hodge-theory-ii-4.4.3.xml" taxon="Reminder" number="4.4.3" />, the choice of an integer lattice in <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho ]]></fr:tex> defines an abelian scheme <fr:tex display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q})]]></fr:tex> is not of pure degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>, which contradicts (i).</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -30,43 +42,56 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3320</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-4.2.3</fr:addr>
-            <fr:route>hodge-theory-ii-4.2.3.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
+            <fr:anchor>2950</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.4.12</fr:addr>
+            <fr:route>hodge-theory-ii-4.4.12.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
             <fr:authors />
-            <fr:number>4.2.3</fr:number>
-            <fr:parent>hodge-theory-ii-4.2</fr:parent>
+            <fr:number>4.4.12</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>If <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> satisfies <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" /> and <fr:ref addr="hodge-theory-ii-4.2.2.2" href="hodge-theory-ii-4.2.2.2.xml" taxon="Condition" number="4.2.2.2" />, then:
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be an abelian scheme over a smooth scheme <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+    Then the following conditions are equivalent:
 
     
  <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
       
  <html:li style="list-style-type: &quot;(i) &quot;">
-        <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a semi-simple abelian subcategory of the abelian subcategory of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+        For every abelian scheme <fr:tex display="inline"><![CDATA[Y\to  S]]></fr:tex>, we have
+        <fr:tex display="block"><![CDATA[           \operatorname {Hom}_S(X,Y)           \xrightarrow {\sim } \operatorname {Hom}_S(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z}).         ]]></fr:tex>
       </html:li>
 
       
  <html:li style="list-style-type: &quot;(ii) &quot;">
-        If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, then its dual <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and the <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> are also in <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>;
-        if <fr:tex display="inline"><![CDATA[H_1,H_2\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
+        Condition (i) is satisfied for <fr:tex display="inline"><![CDATA[X=Y]]></fr:tex>, and the centre <fr:tex display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {End}_S(X)\otimes \mathbb {Q}]]></fr:tex> does not admit any complex place <fr:tex display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex> such that the direct factor <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _{Z,\rho }\mathbb {C}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {C}]]></fr:tex> is of pure Hodge degree <fr:tex display="inline"><![CDATA[(-1,0)]]></fr:tex>.
       </html:li>
 
     </html:ol></fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1324</fr:anchor><fr:addr type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-4.2.3</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> be a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, in the category of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures.
-      We will show that <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[H]]></fr:tex> in this category.
-      We can suppose <fr:tex display="inline"><![CDATA[H]]></fr:tex> to be homogeneous.
-      If <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is a polarisation form for <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then the orthogonal of <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is indeed a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex> that is a supplement to <fr:tex display="inline"><![CDATA[H_1]]></fr:tex>.
-      This proves (i)</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1113</fr:anchor><fr:addr type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can reduce to the case where <fr:tex display="inline"><![CDATA[S]]></fr:tex> is non-empty and connected, with generic point <fr:tex display="inline"><![CDATA[\eta ]]></fr:tex>, and where <fr:tex display="inline"><![CDATA[X_\eta ]]></fr:tex> is a simple abelian variety over <fr:tex display="inline"><![CDATA[k(\eta )]]></fr:tex>.
+      If (i) or (ii) is satisfied, then <fr:tex display="inline"><![CDATA[D=\operatorname {End}(X_\eta )\otimes \mathbb {Q}]]></fr:tex> is a field, and, for <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>, <fr:tex display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex> is an irreducible representation of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>.</fr:p>
 
-    <fr:p>If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex> is of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then a polarisation of <fr:tex display="inline"><![CDATA[H]]></fr:tex> defines an isomorphism between <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[H\otimes \mathbb {Q}(n)]]></fr:tex>.
-      By <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" />, we thus have that <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      For arbitrary <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, if we decompose <fr:tex display="inline"><![CDATA[H]]></fr:tex> into its homogeneous components, then <fr:tex display="inline"><![CDATA[H^*=\bigoplus _n(H^n)^*]]></fr:tex>, whence again <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      Finally, <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[\bigotimes ^p H]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2]]></fr:tex>.</fr:p>
+    <fr:p>To prove that (ii) <fr:tex display="inline"><![CDATA[\implies ]]></fr:tex> (i), we can suppose <fr:tex display="inline"><![CDATA[Y_\eta ]]></fr:tex> to be simple, and <fr:tex display="inline"><![CDATA[(\mathrm {R}_1g_*\mathbb {Q})_s]]></fr:tex> to be isotypic of type <fr:tex display="inline"><![CDATA[(\mathrm {R}_1f_*\mathbb {Q})_s]]></fr:tex>.
+      We then have an isomorphism of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures (with <fr:tex display="inline"><![CDATA[D]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>)
+      <fr:tex display="block"><![CDATA[         \mathrm {R}_1g_*\mathbb {Q}         \approx  \mathrm {R}_1f_*\mathbb {Q}\otimes _D\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q}).       ]]></fr:tex></fr:p>
+
+    <fr:p>We have that <fr:tex display="inline"><![CDATA[D\otimes \mathbb {C}\simeq \mathbb {M}_n(Z\otimes \mathbb {C})]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[e\in  D\otimes \mathbb {C}]]></fr:tex> is sent by such an isomorphism to the idempotent <fr:tex display="inline"><![CDATA[e_{11}]]></fr:tex>, then we again have an isomorphism of bigraded vector spaces
+      <fr:tex display="block"><![CDATA[         (\mathrm {R}_1g_*\mathbb {C})_s         \approx  (\mathrm {R}_1f_*\mathbb {C})_s\otimes _{Z\otimes \mathbb {C}}e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C})).       ]]></fr:tex></fr:p>
+
+    <fr:p>If condition (ii) is satisfied, and if <fr:tex display="inline"><![CDATA[e(\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {C},\mathrm {R}_1g_*\mathbb {C}))]]></fr:tex> is not of pure degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(\mathrm {R}_1g_*\mathbb {C})_s]]></fr:tex> cannot be of pure degree <fr:tex display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>, which is a contradiction.
+      We thus deduce that <fr:tex display="inline"><![CDATA[\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Z},\mathrm {R}_1g_*\mathbb {Z})]]></fr:tex> is of pure degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>, and (i) then follows by <fr:ref addr="hodge-theory-ii-4.4.3" href="hodge-theory-ii-4.4.3.xml" taxon="Reminder" number="4.4.3" /> and <fr:ref addr="hodge-theory-ii-2.1.11.1" href="hodge-theory-ii-2.1.11.1.xml" taxon="Remark" number="2.1.11.1" />.</fr:p>
+
+    <fr:p>Let <fr:tex display="inline"><![CDATA[Z]]></fr:tex> be a completely imaginary quadratic extension of a completely real number field <fr:tex display="inline"><![CDATA[Z^0]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[Z\otimes \mathbb {R}\approx \mathbb {C}\oplus \ldots \oplus \mathbb {C}]]></fr:tex>, then we define an action by homotheties of <fr:tex display="inline"><![CDATA[S]]></fr:tex> on <fr:tex display="inline"><![CDATA[Z\otimes \mathbb {R}]]></fr:tex> by sending <fr:tex display="inline"><![CDATA[s\in  S(\mathbb {R})\simeq \mathbb {C}^*]]></fr:tex> to <fr:tex display="inline"><![CDATA[(s^2\cdot  N(s)^{-1},1,\ldots ,1)]]></fr:tex>.
+      The pair consisting of <fr:tex display="inline"><![CDATA[Z]]></fr:tex> and this action of <fr:tex display="inline"><![CDATA[S]]></fr:tex> on <fr:tex display="inline"><![CDATA[Z\otimes \mathbb {R}]]></fr:tex> is a polarisable Hodge structure <fr:tex display="inline"><![CDATA[Z_\rho ]]></fr:tex> of degree <fr:tex display="inline"><![CDATA[(-1,1)+(0,0)+(1,-1)]]></fr:tex> that depends on <fr:tex display="inline"><![CDATA[Z]]></fr:tex> and the chose place <fr:tex display="inline"><![CDATA[\rho \colon  Z\to \mathbb {C}]]></fr:tex>.</fr:p>
+
+    <fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be an abelian scheme over <fr:tex display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex display="inline"><![CDATA[X_\eta ]]></fr:tex> is simple.
+      If the centre <fr:tex display="inline"><![CDATA[Z]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {End}(\mathrm {R}_1f_*\mathbb {Q})]]></fr:tex> is not completely real, then it is a completely imaginary quadratic extension of a completely real number field.
+      If the second hypothesis of (ii) is not satisfied, then the direct factor <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho ]]></fr:tex> of the continuous family of polarisable Hodge structures <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _\mathbb {Q} Z_\rho ]]></fr:tex> is of pure degree <fr:tex display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex>.</fr:p>
+
+    <fr:p>By <fr:ref addr="hodge-theory-ii-4.4.3" href="hodge-theory-ii-4.4.3.xml" taxon="Reminder" number="4.4.3" />, the choice of an integer lattice in <fr:tex display="inline"><![CDATA[\mathrm {R}_1f_*\mathbb {Q}\otimes _Z Z_\rho ]]></fr:tex> defines an abelian scheme <fr:tex display="inline"><![CDATA[g\colon  Y\to  S]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Hom}(\mathrm {R}_1f_*\mathbb {Q},\mathrm {R}_1g_*\mathbb {Q})]]></fr:tex> is not of pure degree <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex>, which contradicts (i).</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

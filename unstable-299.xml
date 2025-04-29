@@ -2,25 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3379</fr:anchor>
+    <fr:anchor>3009</fr:anchor>
     <fr:addr type="machine">#299</fr:addr>
     <fr:route>unstable-299.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
-    <fr:parent>hodge-theory-ii-1.2.9</fr:parent>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>To prove surjectivity, we write
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           ((B+B')\cap (C+C'))+D           &= (((B+B')\cap (C+C'))+B')+C'         \\&= ((B+B')\cap (C+C'+B'))+C'         \\&= (B+B'+C')\cap (C+C'+B')         \\&= (B+D)\cap (C+D).         \end {aligned}       ]]></fr:tex></fr:p>
-
-    <fr:p>To prove injectivity, we write
-      <fr:tex display="block"><![CDATA[         (B+B')\cap (C+C')\cap  D         = ((B+B')\cap  D)\cap ((C+C')\cap  D).       ]]></fr:tex>
-      Since <fr:tex display="inline"><![CDATA[B'\subset  D]]></fr:tex>, we have
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           (B+B')\cap  D           &= (B\cap  D)+B'         \\&= B'         \end {aligned}       ]]></fr:tex>
-      and similarly
-      <fr:tex display="block"><![CDATA[         (C+C')\cap  D         = C'       ]]></fr:tex>
-      and
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           (B+B')\cap (C+C')\cap  D           &= B'\cap  C'         \\&= E.         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:p>Claim (i) is evident, (ii) is its dual, and (iii) follows by induction.
+      The first claim of (iv) is easy to verify, and the second is its dual.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -31,33 +21,46 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3380</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-1.2.9</fr:addr>
-            <fr:route>hodge-theory-ii-1.2.9.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
+            <fr:anchor>3010</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.3.13</fr:addr>
+            <fr:route>hodge-theory-ii-1.3.13.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
             <fr:authors />
-            <fr:number>1.2.9</fr:number>
-            <fr:parent>hodge-theory-ii-1.2</fr:parent>
+            <fr:number>1.3.13</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[B]]></fr:tex>, <fr:tex display="inline"><![CDATA[C]]></fr:tex>, <fr:tex display="inline"><![CDATA[B']]></fr:tex>, <fr:tex display="inline"><![CDATA[C']]></fr:tex>, <fr:tex display="inline"><![CDATA[D]]></fr:tex>, and <fr:tex display="inline"><![CDATA[E]]></fr:tex> be sub-objects of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
-    Suppose that
-    <fr:tex display="block"><![CDATA[       \begin {gathered}         B'+C' = D         \qquad  B'\cap  C' = E       \\B\cap  D \subset  B'         \qquad  C\cap  D \subset  C'.       \end {gathered}     ]]></fr:tex>
-    Then
-    <fr:tex display="block"><![CDATA[       ((B+B')\cap (C+C'))/E       \xrightarrow {\sim } ((B+D)\cap (C+D))/D.     ]]></fr:tex></fr:p>
+          <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      For the first direct filtration, the morphisms <fr:tex display="inline"><![CDATA[d_r]]></fr:tex> are compatible with the filtrations.
+      If <fr:tex display="inline"><![CDATA[E_{r+1}^{pq}]]></fr:tex> is considered as a quotient of a sub-object of <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex>, then the first direct filtration on <fr:tex display="inline"><![CDATA[E_{r+1}^{pq}]]></fr:tex> is finer than the filtration <fr:tex display="inline"><![CDATA[F']]></fr:tex> induced by the first direct filtration on <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex>Y we have <fr:tex display="inline"><![CDATA[F_d(E_{r+1}^{pq})\subset  F'(E_{r+1}^{pq})]]></fr:tex>.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      Dually, the morphisms <fr:tex display="inline"><![CDATA[d_r]]></fr:tex> are compatible with the second direct filtration, and the second direct filtration on <fr:tex display="inline"><![CDATA[E_{r+1}^{pq}]]></fr:tex> is less fine than the filtration induced by that of <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex>.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(iii) &quot;">
+      <fr:tex display="inline"><![CDATA[F_d(E_r^{pq})\subset  F_r(E_r^{pq})\subset  F_{d^*}(E_r^{pq})]]></fr:tex>.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(iv) &quot;">
+      On <fr:tex display="inline"><![CDATA[E_\infty ^{pq}]]></fr:tex>, the filtration induced by the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (K)]]></fr:tex> <fr:ref addr="hodge-theory-ii-1.3.12" href="hodge-theory-ii-1.3.12.xml" number="1.3.12" /> is finer than the first direct filtration and less fine than the second.
+    </html:li>
+
+  </html:ol>
+
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>820</fr:anchor><fr:addr type="machine">#299</fr:addr><fr:route>unstable-299.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /><fr:parent>hodge-theory-ii-1.2.9</fr:parent></fr:frontmatter><fr:mainmatter>
-    <fr:p>To prove surjectivity, we write
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           ((B+B')\cap (C+C'))+D           &= (((B+B')\cap (C+C'))+B')+C'         \\&= ((B+B')\cap (C+C'+B'))+C'         \\&= (B+B'+C')\cap (C+C'+B')         \\&= (B+D)\cap (C+D).         \end {aligned}       ]]></fr:tex></fr:p>
-
-    <fr:p>To prove injectivity, we write
-      <fr:tex display="block"><![CDATA[         (B+B')\cap (C+C')\cap  D         = ((B+B')\cap  D)\cap ((C+C')\cap  D).       ]]></fr:tex>
-      Since <fr:tex display="inline"><![CDATA[B'\subset  D]]></fr:tex>, we have
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           (B+B')\cap  D           &= (B\cap  D)+B'         \\&= B'         \end {aligned}       ]]></fr:tex>
-      and similarly
-      <fr:tex display="block"><![CDATA[         (C+C')\cap  D         = C'       ]]></fr:tex>
-      and
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           (B+B')\cap (C+C')\cap  D           &= B'\cap  C'         \\&= E.         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>867</fr:anchor><fr:addr type="machine">#299</fr:addr><fr:route>unstable-299.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>Claim (i) is evident, (ii) is its dual, and (iii) follows by induction.
+      The first claim of (iv) is easy to verify, and the second is its dual.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
