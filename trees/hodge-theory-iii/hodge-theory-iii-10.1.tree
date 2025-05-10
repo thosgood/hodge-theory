@@ -125,7 +125,7 @@
   \subtree[hodge-theory-iii-10.1.3.2]{
     \taxon{lemma}
     \number{10.1.3.2}
-  
+
     \p{
       The triple #{T(M)=(T_\ZZ(M),W,F)} is a torsion-free mixed Hodge structure of type #{\{(0,0),(0,-1),(-1,0),(-1,-1)\}}, and #{\Gr_{-1}^W(T(M))} is polarisable.
     }
@@ -261,7 +261,7 @@
   \subtree[hodge-theory-iii-10.1.3.3]{
     \taxon{lemma}
     \number{10.1.3.3}
-  
+
     \p{
       The functor #{E\mapsto E^\an} is an equivalence from the category of algebraic group extensions of #{A} by #{T} to the category of analytic group extensions of #{A} by #{T}.
     }
@@ -324,6 +324,241 @@
   \number{10.1.4}
 
   \p{
-    Let
+    Let #{H} be a torsion-free mixed Hodge structure of type
+    ##{
+      \big\{(0,0),(0,-1),(-1,0),(-1,-1)\big\}.
+    }
+    The filtration #{W} of #{H_\ZZ} thus defines a filtration on #{H} by mixed Hodge substructures.
+    At the same time, if #{M=(X,A,T,G,u)} is a 1-motive, then we denote by #{W} the following increasing filtration on #{M}:
+    ##{
+      \begin{cases}
+        W_i(M) = 0
+        & \text{for }i< -2;
+      \\W_i(M) = M
+        & \text{for }i\geqslant0;
+      \\W_{-1}(M) = G
+        \quad\text{i.e. } = (\{0\},A,T,G,0);
+      \\W_{-2}(M) = T
+        \quad\text{i.e. } = (\{0\},0,T,T,0).
+      \end{cases}
+    }
+    In an evident way, the successive #{\Gr_i^W(M)} for #{i=0,-1,-2} are #{X}, #{A}, and #{T} (respectively).
+  }
+}
+
+\subtree[hodge-theory-iii-10.1.5]{
+  \number{10.1.5}
+
+  \p{
+    The construction in \ref{hodge-theory-iii-10.1.3} that associates to a 1-motive #{M} over #{\CC} the object #{T_\ZZ(M)} is transcendental.
+    We will show that
+    ##{
+      \widehat{T}(M)
+      = T_\ZZ(M)\otimes\widehat{\ZZ}
+      = \prod_\ell T_\ZZ(M)\otimes\ZZ_\ell
+    }
+    can be defined in a purely algebraic way.
+  }
+
+  \p{
+    Let #{M} be a 1-motive over an algebraically closed field #{k} of characteristic #{0}.
+    We identify #{M} with a complex #{[X\xrightarrow{u}G]} (concentrated in degrees #{0} and #{1}).
+    For every integer #{n>0}, consider the complex #{[\ZZ\xrightarrow{\cdot n}\ZZ]} (concentrated in degrees #{-1} and #{0}), and let #{T_{\ZZ{/}n\ZZ}(M)} be the #{\HH^0} of the complex #{[X\xrightarrow{u}G]\otimes[\ZZ\xrightarrow{\cdot n}\ZZ]}, i.e.
+    \oldpage{57}
+    \tikzcd{
+      X
+        \ar[r,"u"]
+    & G
+    \\X
+        \ar[u,"n"]
+        \ar[r,swap,"u"]
+    & G
+        \ar[u,swap,"-n"]
+    }
+    We have that
+    ##{
+      T_{\ZZ{/}n\ZZ}(M)
+      = \big\{ (x,g) \mid u(x)=ng \big\} / \big\{ (nx,u(x)) \mid x\in X \big\}.
+    }
+    In the derived category, we have that
+    ##{
+      T_{\ZZ{/}n\ZZ}(M)
+      = \HH^0(M\Lotimes\ZZ{/}n\ZZ).
+    }
+    For #{n=md}, we define transition morphisms
+    ##{
+      \begin{aligned}
+        \varphi_{m,n}\colon T_{\ZZ{/}n\ZZ}(M)
+        &\to T_{\ZZ{/}m\ZZ}(M)
+      \\(x,g)
+        &\mapsto (x,dg).
+      \end{aligned}
+    }
+    We set
+    ##{
+      \widehat{T}(M)
+      = \varprojlim T_{\ZZ{/}n\ZZ}(M).
+    }
+    The filtration #{W} of #{M} induces a filtration #{W} of the #{T_{\ZZ{/}n\ZZ}(M)} and of #{\widehat{T}(M)}.
+    We have that
+    ##{
+      \begin{aligned}
+        \Gr_0^W(\widehat{T}(M))
+        &= X\otimes\widehat{\ZZ}
+      \\\Gr_{-1}^W(\widehat{T}(M))
+        &= \varprojlim A_n
+        = \widehat{T}(A)
+      \\\Gr_{-2}^W(\widehat{T}(M))
+        &= \varprojlim T_n
+        = Y\otimes\widehat{\ZZ}(1),
+      \end{aligned}
+    }
+    where #{Y} is the dual of the character group of #{T=W_{-2}(M)}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.1.6]{
+  \taxon{construction}
+  \number{10.1.6}
+
+  \p{
+    Let #{M=[X\xrightarrow{u}G]} be a 1-motive on #{\CC}.
+    We have that
+
+    \subtree[hodge-theory-iii-10.1.6.1]{
+      \taxon{equation}
+      \number{10.1.6.1}
+      ##{
+        \widehat{T}(M)
+        \simeq T_\ZZ(M)\otimes\widehat{\ZZ}.
+      \startverb\tag{10.1.6.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    The natural morphism #{[T_\ZZ(M)\to\Lie(G)]\to[X\to G]} is a quasi-isomorphism.
+    The quasi-isomorphisms
+    \todo{diagram!}
+    ##{
+      \left[
+        \,\,
+        \begin{CD}
+          X @>{u}>> G
+        \\@A{n}AA @AA{-n}A
+        \\X @>>{u}> G
+        \end{CD}
+        \,\,\,\,\,\,
+      \right]
+      \longleftarrow
+      \left[
+        \begin{CD}
+          T_\ZZ @>{u}>> \Lie(G)
+        \\@A{n}AA @A{\sim}A{-n}A
+        \\T_\ZZ @>>{u}> \Lie(G)
+        \end{CD}
+      \right]
+      \longrightarrow
+      \left[
+        \begin{CD}
+          T_\ZZ @>>> 0
+        \\@A{n}AA @AAA
+        \\T_\ZZ @>>{c}> 0
+        \end{CD}
+      \right]
+    }
+    give isomorphisms
+
+    \subtree[hodge-theory-iii-10.1.6.2]{
+      \taxon{equation}
+      \number{10.1.6.2}
+      ##{
+        T_{\ZZ{/}n\ZZ}(M)
+        \simeq T_\ZZ{/}nT_\ZZ.
+      \startverb\tag{10.1.6.2}\stopverb
+      }
+    }
+  }
+
+  \p{
+    Under this isomorphism, to #{t\in W_{-1}(T_\ZZ)} we associate #{\exp(t/n)\in G_n}.
+    By passing to the limit, we deduce \ref{hodge-theory-iii-10.1.6.1} from \ref{hodge-theory-iii-10.1.6.2}.
+  }
+}
+
+\p{
+  Techniques of Grothendieck allow us to transpose to de Rham cohomology what we have just done in #{\ell}-adic cohomology.
+  Let #{M} be a 1-motive over an algebraically closed field #{k}.
+}
+
+\subtree[hodge-theory-iii-10.1.7]{
+  \taxon{construction}
+  \number{10.1.7}
+
+  \p{
+    \oldpage{58}
+    We will construct a vector space #{T_\DR(M)} over #{k}, endowed with filtrations #{W} and #{F}.
+  }
+
+  \p{
+    Let #{M=(X,A,T,G,u)}, and consider #{M} as a complex concentrated in degrees #{-1} and #{0}.
+    An \em{extension} of #{M} by #{\Ga} is an extension of #{M} by the complex consisting of #{\Ga} concentrated in degree #{0}.
+    We have that #{\Hom(G,\Ga)=\Ext^1(X,\Ga)=0}.
+    Thus:
+
+    \olc{
+      \lic{(a)}{
+        extensions of #{M} by #{\Ga} have no automorphisms;
+      }
+      \lic{(b)}{
+        the sequence
+        ##{
+          0
+          \to \Hom(X,\Ga)
+          \to \Ext^1(M,\Ga)
+          \to \Ext^1(G,\Ga)
+          \to 0
+        }
+        is exact.
+      }
+    }
+
+    We have that #{\Hom(T,\Ga)=\Ext^1(T,\Ga)=0}, and so
+
+    \olc{
+      \lic{(c)}{
+        #{\Ext^1(A,\Ga)\simto\Ext^1(G,\Ga)}.
+      }
+    }
+  }
+
+  \p{
+    The vector space #{\Ext^1(M,\Ga)} is thus of finite dimension, and, by (a), there thus exists a universal extension of #{M} by a vector group;
+    we denote it by #{M^\natural\colon X\to G^\natural}.
+
+    \tikzcd{
+    & 0
+        \ar[r]
+        \ar[d]
+    & X
+        \ar[r,equals]
+        \ar[d]
+    & X
+        \ar[d]
+    \\0
+        \ar[r]
+    & \Ext^1(M,\Ga)^*
+        \ar[r]
+    & G^\natural
+        \ar[r]
+    & G
+        \ar[r]
+    & 0
+    }
+  }
+
+  \p{
+    We set
+    \todo{carry on from here}
   }
 }

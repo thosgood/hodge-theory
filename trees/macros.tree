@@ -28,6 +28,7 @@
     \usepackage{amsmath}
     \usepackage{amssymb}
     \usepackage{tikz}
+    \usepackage{tikz-cd}
   }{\begin{tikzpicture}[point/.style={circle, fill=black, inner sep=0pt, minimum size=2.5pt}]\body\end{tikzpicture}}
 }
 
@@ -133,6 +134,9 @@
 \def\Lboxtimes{#{\overset{\Ld}{\boxtimes}}}
 
 \def\ev{#{\mathrm{ev}}}
+\def\DR{#{\mathrm{DR}}}
+\def\Ext{#{\operatorname{Ext}}}
+\def\Ga{#{\mathbb{G}_\mathrm{a}}}
 
 \def\sh[x]{#{\mathscr{\x}}}
 \def\cat[x]{#{\mathscr{\x}}}
