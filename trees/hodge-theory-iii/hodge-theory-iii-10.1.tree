@@ -61,7 +61,269 @@
     ##{
       \big\{ (0,0), (0,-1), (-1,0), (-1,-1) \big\}
     }
+    \oldpage{54}
     such that #{\Gr_{-1}^W(H)} is polarisable.
-    Furthermore,
+    Furthermore, we will construct isomorphisms
+    ##{
+      \begin{aligned}
+        \HH_1(T,\ZZ)
+        &\simeq \Gr_{-2}^WT(M)_\ZZ
+      \\\HH_1(A,\ZZ)
+        &\simeq \Gr_{-1}^WT(M)
+        \qquad\text{(isomorphism of Hodge structures)}
+      \\X
+        &\simeq \Gr_0^WT(M)_\ZZ
+      \end{aligned}
+    }
+    that are natural in #{M=(X,A,T,G,u)}.
+  }
+
+  \p{
+    Let #{M} be a 1-motive.
+    The exponential map #{\exp\colon\Lie(G)\to G} has #{\HH_1(G)} as its kernel.
+    We define #{T_\ZZ(M)} as the fibre product of #{\Lie(G)} and #{X} over #{G}, whence
+
+    \subtree[hodge-theory-iii-10.1.3.1]{
+      \taxon{equation}
+      \number{10.1.3.1}
+      ##{
+        \begin{CD}
+          0 @>>> \HH_1(G) @>>> \Lie(G) @>{\exp}>> G @>>> 0
+        \\@. @| @A{\alpha}AA @AA{u}A @.
+        \\0 @>>> \HH_1(G) @>>> T_\ZZ(M) @>>{\beta}> X @>>> 0
+        \end{CD}
+      \startverb\tag{10.1.3.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    We set
+    ##{
+      \begin{aligned}
+        W_{-1}(T_\ZZ(M))
+        &= \Ker(\beta)
+        = \HH_1(G)
+      \\W_{-2}(T_\ZZ(M))
+        &= \HH_1(T)
+        = \Ker\big(\HH_1(G)\to\HH_1(A)\big).
+      \end{aligned}
+    }
+    This defines the \em{weight filtration}.
+    The morphism #{\alpha} extends to
+    ##{
+      \alpha_\CC\colon T_\ZZ(M)\otimes\CC
+      \to \Lie(G).
+    }
+    We set #{F^0(T_\ZZ(M)\otimes\CC)=\Ker(\alpha_\CC)}, and this defines the \em{Hodge filtration} on
+    ##{
+      T_\CC(M)
+      = T_\ZZ(M)\otimes\CC.
+    }
+  }
+
+  \subtree[hodge-theory-iii-10.1.3.2]{
+    \taxon{lemma}
+    \number{10.1.3.2}
+  
+    \p{
+      The triple #{T(M)=(T_\ZZ(M),W,F)} is a torsion-free mixed Hodge structure of type #{\{(0,0),(0,-1),(-1,0),(-1,-1)\}}, and #{\Gr_{-1}^W(T(M))} is polarisable.
+    }
+
+    \talltikzcd{
+      &
+      &0
+        \ar[d]
+      &0
+        \ar[d]
+    \\&
+      & W_{-1}(T_\CC(M))\cap F^0
+        \ar[r,"\sim"]
+        \ar[r,swap,"(2)"]
+        \ar[d]
+      & \Ker(\alpha_{A,\CC})
+        \ar[d]
+    \\0
+        \ar[r]
+      & \HH_1(T,\ZZ)\otimes\CC
+        \ar[r]
+        \ar[d,"\sim"]
+        \ar[d,swap,"(1)"]
+      & \HH_1(G,\ZZ)\otimes\CC
+        \ar[r]
+        \ar[d,"\alpha_{G,\CC}"]
+      & \HH_1(A,\ZZ)\otimes\CC
+        \ar[r]
+        \ar[d,"\alpha_{A,\CC}"]
+      & 0
+    \\0
+        \ar[r]
+      & \Lie(T)
+        \ar[r]
+      & \Lie(G)
+        \ar[r]
+        \ar[d]
+      & \Lie(A)
+        \ar[r]
+        \ar[d]
+      & 0
+    \\&
+      & 0
+      & 0
+    }
+
+    \proof{
+      \p{
+        \oldpage{55}
+        \olc{
+          \lic{(a)}{
+            We have that #{W_{-2}(T_\CC(M))\cap F^0=0}, since #{(1)} is injective;
+            thus #{(W_{-2}(T_\CC(M)),F)} is a Hodge structure of type #{(-1,-1)}.
+          }
+
+          \lic{(b)}{
+            Since #{(2)} is surjective, #{F} induces on #{\Gr_{-1}^W(T_\ZZ(M))\otimes\CC\simeq\HH_1(A,\ZZ)\otimes\CC} the Hodge filtration of #{\HH_1(A,\ZZ)\otimes\CC};
+            this is a polarisable Hodge structure of type #{(-1,0)+(0,1)} (cf. \ref{hodge-theory-ii-4.4.3}).
+          }
+
+          \lic{(c)}{
+            Consider the diagram
+            \talltikzcd{
+              & 0
+                \ar[d]
+              & 0
+                \ar[d]
+            \\0
+                \ar[r]
+            & W_{-1}(T_\CC(M))\cap F^0
+                \ar[r]
+                \ar[d]
+            & F^0
+                \ar[r]
+                \ar[d]
+            & V
+                \ar[r]
+                \ar[d,"\sim"]
+            & 0
+            \\0
+                \ar[r]
+            & \HH_1(G,\ZZ)\otimes\CC
+                \ar[r]
+                \ar[d]
+            & T_\ZZ(M)\otimes\CC
+                \ar[r]
+                \ar[d]
+            & X\otimes\CC
+            & 0
+            \\
+            & \Lie(G)
+                \ar[r,equals]
+                \ar[d]
+            & \Lie(G)
+                \ar[d]
+            \\
+            & 0
+            & 0
+            }
+            Since #{F^0} is sent to #{\Gr_0^W(T_\CC(M))}, it is thus of type #{(0,0)}.
+          }
+        }
+      }
+
+      \p{
+        This finishes the construction of #{T(M)}.
+        It is clear that #{T(M)} is functorial in #{M}.
+      }
+    }
+  }
+
+  \p{
+    Suppose that #{\Gr_{-1}^W(H)} is polarisable;
+    the complex torus
+    ##{
+      A
+      = H_\ZZ \backslash \Gr_{-1}^W(H_\CC) / F^0\Gr_{-1}^W(H_\CC)
+    }
+    is then an abelian variety (cf. \ref{hodge-theory-ii-4.4.3}).
+    Let #{T} be the torus with character group the dual of #{\Gr_{-2}^W(H_\ZZ)}, i.e.
+    ##{
+      \HH_1(T)
+      = \Gr_{-2}^W(H_\ZZ).
+    }
+    The complex analytic group
+    ##{
+      G
+      = W_{-1}(H_\ZZ) \backslash W_{-1}(H_\CC) / F^0\cap W_{-1}(H_\CC)
+    }
+    is an extension of #{A} by #{T}.
+  }
+
+  \subtree[hodge-theory-iii-10.1.3.3]{
+    \taxon{lemma}
+    \number{10.1.3.3}
+  
+    \p{
+      The functor #{E\mapsto E^\an} is an equivalence from the category of algebraic group extensions of #{A} by #{T} to the category of analytic group extensions of #{A} by #{T}.
+    }
+
+    \proof{
+      \oldpage{56}
+      \p{
+        We reduce to the case where #{T=\Gm}.
+        By GAGA, #{E\mapsto E^\an} is more general an equivalence from the category of #{\Gm}-torsors over #{A} to the category of #{\Gm}-torsors over #{A^\an}.
+      }
+
+      \p{
+        We thus have #{G}, an extension of #{A} by #{T}.
+        Let #{X=\Gr_0^W(H_\ZZ)}.
+        We similarly define #{u\colon X\to G} (cf. \ref{hodge-theory-ii-2.2.1}):
+        \tikzcd{
+          0
+            \ar[r]
+        & W_{-1}(H_\ZZ)
+            \ar[r]
+            \ar[dd,equals]
+        & W_{-1}(H_\CC)/(W_{-1}(H_\CC)\cap F^0)
+            \ar[r]
+            \ar[d,"\sim"]
+        & G
+            \ar[r]
+        & 0
+        \\
+        &
+        & H_\CC{/}F^0
+        &
+        &
+        \\0
+            \ar[r]
+        & W_{-1}(H_\ZZ)
+            \ar[r]
+        & H_\ZZ
+            \ar[r]
+            \ar[u]
+        & X
+            \ar[r]
+            \ar[uu]
+        & 0
+        }
+      }
+
+      \p{
+        It is clear that the above construction, which associates to #{H} a torsion-free 1-motive, is the inverse of #{T}, and that it is functorial.
+      }
+    }
+  }
+
+  \p{
+    If #{G_i} (for #{i=1,2}) is an extension of an abelian variety #{A_i} by a torus #{A_i}, then, for every morphism #{u\colon G_1\to G_2}, we have that #{u(T_1)\subset T_2} and #{\Ker(u\colon A_1\to A_2)^0=\Im(\Ker(u\colon G_1\to G_2)\to A_1)^0}.
+    This corresponds to the fact that a morphism of mixed Hodge #{\QQ}-structures is strictly compatible with the weight filtration.
+  }
+}
+
+\subtree[hodge-theory-iii-10.1.4]{
+  \number{10.1.4}
+
+  \p{
+    Let
   }
 }
