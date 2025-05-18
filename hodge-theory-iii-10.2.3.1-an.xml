@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2017</fr:anchor>
+    <fr:anchor>2019</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-10.2.3.1-an</fr:addr>
     <fr:route>hodge-theory-iii-10.2.3.1-an.xml</fr:route>
     <fr:taxon>Equation</fr:taxon>
@@ -21,7 +21,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2018</fr:anchor>
+            <fr:anchor>2020</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10.2.3</fr:addr>
             <fr:route>hodge-theory-iii-10.2.3.xml</fr:route>
             <fr:taxon>Construction</fr:taxon>
@@ -74,7 +74,40 @@
   
 </fr:mainmatter><fr:backmatter /></fr:tree>
 
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2010</fr:anchor><fr:addr type="user">hodge-theory-iii-10.2.3.5</fr:addr><fr:route>hodge-theory-iii-10.2.3.5.xml</fr:route><fr:authors /><fr:number>10.2.3.5</fr:number></fr:frontmatter><fr:mainmatter><fr:p>Under</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2010</fr:anchor><fr:addr type="user">hodge-theory-iii-10.2.3.5</fr:addr><fr:route>hodge-theory-iii-10.2.3.5.xml</fr:route><fr:authors /><fr:number>10.2.3.5</fr:number></fr:frontmatter><fr:mainmatter><fr:p>Under the general hypotheses of <fr:ref addr="hodge-theory-iii-10.2.1" href="hodge-theory-iii-10.2.1.xml" number="10.2.1" />, let <fr:tex display="inline"><![CDATA[K_i=[A_i+F_i\to  B_i]]]></fr:tex> be complexes (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>).
+        Let <fr:tex display="inline"><![CDATA[K'_i]]></fr:tex> be the subcomplex <fr:tex display="inline"><![CDATA[[A_i\to  B_i]]]></fr:tex>.
+        We can show that giving a biextension of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex> is equivalent to giving (both of) the following:
+
+        
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+          
+ <html:li style="list-style-type: &quot;(a) &quot;">
+            a biextension <fr:tex display="inline"><![CDATA[P]]></fr:tex> of <fr:tex display="inline"><![CDATA[K'_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K'_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>; and
+          </html:li>
+
+          
+ <html:li style="list-style-type: &quot;(b) &quot;">
+            trivialisations of the biextensions of <fr:tex display="inline"><![CDATA[[0\to  F_1]]]></fr:tex> and <fr:tex display="inline"><![CDATA[K'_2]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[K'_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[[0\to  F_2]]]></fr:tex>) by <fr:tex display="inline"><![CDATA[H]]></fr:tex>, given by the inverse images of <fr:tex display="inline"><![CDATA[P]]></fr:tex>, that agree on <fr:tex display="inline"><![CDATA[F_1\times  F_2]]></fr:tex>.
+          </html:li>
+
+        </html:ol></fr:p><fr:p>In the particular case where
+        <fr:tex display="block"><![CDATA[           \begin {aligned}             \operatorname {Biext}^i(F_1,K'_2;H)             &= 0           \\\operatorname {Biext}^i(K'_1,F_2;H)             &= 0           \end {aligned}         ]]></fr:tex>
+        
+        for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>, there exists exactly one trivialisation <fr:tex display="inline"><![CDATA[\varphi _1]]></fr:tex>, a section of <fr:tex display="inline"><![CDATA[P]]></fr:tex> over <fr:tex display="inline"><![CDATA[F_1\times  B_2]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[\varphi _2]]></fr:tex>, a section of <fr:tex display="inline"><![CDATA[P]]></fr:tex> over <fr:tex display="inline"><![CDATA[B_1\times  F_2]]></fr:tex>) as in (b).
+        The category <fr:tex display="inline"><![CDATA[\operatorname {\textbf {Biext}}(K_1,K_2;H)]]></fr:tex> can then be identified with the subcategory of <fr:tex display="inline"><![CDATA[\operatorname {\textbf {Biext}}(K'_1,K'_2;H)]]></fr:tex> consisting of the <fr:tex display="inline"><![CDATA[P]]></fr:tex> for which <fr:tex display="inline"><![CDATA[\varphi _1=\varphi _2]]></fr:tex> on <fr:tex display="inline"><![CDATA[F_1\times  F_2]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2011</fr:anchor><fr:addr type="user">hodge-theory-iii-10.2.3.6</fr:addr><fr:route>hodge-theory-iii-10.2.3.6.xml</fr:route><fr:authors /><fr:number>10.2.3.6</fr:number></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[V_\mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {Z}]]></fr:tex> be free <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-modules of finite type, and <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[G]]></fr:tex> vector subspaces of <fr:tex display="inline"><![CDATA[V_\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {C}]]></fr:tex> (respectively).
+        We have that
+        <fr:tex display="block"><![CDATA[           \operatorname {Biext}^i(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})           = 0.         ]]></fr:tex>
+        For <fr:tex display="inline"><![CDATA[i=0]]></fr:tex>, this follows from <fr:ref addr="hodge-theory-iii-10.2.3.1-an" href="hodge-theory-iii-10.2.3.1-an.xml" taxon="Equation" number="10.2.3.1(an)" /> and from the fact that a bilinear map
+        <fr:tex display="block"><![CDATA[           B\colon  F\times  W_\mathbb {C}\to \mathbb {C}           \quad \text {such that}\quad            B(F,W_\mathbb {Z})\subset \mathbb {Z}(1)         ]]></fr:tex>
+        is zero.
+        For <fr:tex display="inline"><![CDATA[i=1]]></fr:tex>,
+
+
+
+
+        <fr:strong><fr:em>TO-DO: CARRY ON HERE</fr:em></fr:strong></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
@@ -91,7 +124,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2019</fr:anchor>
+            <fr:anchor>2021</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10.2.3.4</fr:addr>
             <fr:route>hodge-theory-iii-10.2.3.4.xml</fr:route>
             <fr:taxon>Lemma</fr:taxon>
@@ -117,6 +150,30 @@
       </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2022</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.2.3.6</fr:addr>
+            <fr:route>hodge-theory-iii-10.2.3.6.xml</fr:route>
+            <fr:authors />
+            <fr:number>10.2.3.6</fr:number>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[V_\mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {Z}]]></fr:tex> be free <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-modules of finite type, and <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[G]]></fr:tex> vector subspaces of <fr:tex display="inline"><![CDATA[V_\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {C}]]></fr:tex> (respectively).
+        We have that
+        <fr:tex display="block"><![CDATA[           \operatorname {Biext}^i(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})           = 0.         ]]></fr:tex>
+        For <fr:tex display="inline"><![CDATA[i=0]]></fr:tex>, this follows from <fr:ref addr="hodge-theory-iii-10.2.3.1-an" href="hodge-theory-iii-10.2.3.1-an.xml" taxon="Equation" number="10.2.3.1(an)" /> and from the fact that a bilinear map
+        <fr:tex display="block"><![CDATA[           B\colon  F\times  W_\mathbb {C}\to \mathbb {C}           \quad \text {such that}\quad            B(F,W_\mathbb {Z})\subset \mathbb {Z}(1)         ]]></fr:tex>
+        is zero.
+        For <fr:tex display="inline"><![CDATA[i=1]]></fr:tex>,
+
+
+
+
+        <fr:strong><fr:em>TO-DO: CARRY ON HERE</fr:em></fr:strong></fr:p>
+          </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
