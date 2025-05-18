@@ -8,5 +8,61 @@
 
 \p{
   \oldpage{60}
-  The
+  The results of this section will not be used elsewhere.
+  We will make use of the notion of biextensions [SGA 7, VII, (2.1)] and of the following generalisation.
+}
+
+\subtree[hodge-theory-iii-10.2.1]{
+  \number{10.2.1}
+
+  \p{
+    Let #{K_i\colon[A_i\to B_i]} (for #{i=1,2}) be complexes of sheaves, concentrated in degrees {0} and #{-1} (in an arbitrary topos).
+    A \em{biextension} of #{K_1} and #{K_2} by an abelian sheaf #{H} consists of the following:
+
+    \olc{
+      \lic{(a)}{
+        a biextension #{P} of #{B_1} and {B_2} by #{H}, i.e. an #{H}-torsor #{P} over #{B_1\times B_2}, with #{P_{b_1b_2}} depending biadditively on #{b_1} and #{b_2};
+      }
+
+      \lic{(b)}{
+        a trivialisation (i.e. a biadditive section) of the biextension of #{B_1} and #{A_2} by #{H}, given by the inverse image of #{P};
+      }
+
+      \lic{(c)}{
+        a trivialisation of the biextension of #{A_1} and #{B_2} by #{H}, given by the inverse image of #{P};
+      }
+    }
+
+    where we demand that the trivialisations in (b) and (c) agree on #{A_1\times A_2}.
+  }
+
+  \p{
+    We denote by #{\bBiext(K_1,K_2;H)} the category of biextensions of #{K_1} and #{K_2} by #{H}.
+    This is a Picard category (the objects add).
+    The group #{\Biext^0(K_1,K_2;H)} of automorphisms of an arbitrary biextension of #{K_1} and #{K_2} by #{H} is
+    ##{
+      \Biext^0(K_1,K_2;H)
+      = \Hom(\HH^0(K_1)\otimes\HH^0(K_2),H).
+    }
+    We denote by #{\Biext^1(K_1,K_2;H)} the group of isomorphism classes of biextensions.
+    We can show, as in [SGA 7, VII, (3.6.5)], that
+    ##{
+      \Biext^i(K_1,K_2;H)
+      = \Ext^i(K_1\Lotimes K_2;H)
+      \qquad\text{for }i=0,1.
+    }
+    From this formula, or by elementary means, we can show that, if #{K'_i\to K_i} is a quasi-isomorphism (for #{i=1,2}), then giving a biextension of #{K_1} and #{K_2} by #{H} is equivalent to giving a biextension of #{K'_1} and #{K'_2} by #{H}.
+  }
+
+  \p{
+    This also applies to replacing "sheaves" by "algebraic groups" (resp. by "complex analytic groups"): we can interpret these as sheaves on a suitable site.
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.2]{
+  \number{10.2.2}
+
+  \p{
+    to-do
+  }
 }
