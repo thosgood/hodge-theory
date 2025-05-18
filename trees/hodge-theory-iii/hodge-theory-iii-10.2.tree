@@ -194,7 +194,59 @@
       \number{10.2.3.5}
     
       \p{
-        Under
+        Under the general hypotheses of \ref{hodge-theory-iii-10.2.1}, let #{K_i=[A_i+F_i\to B_i]} be complexes (for #{i=1,2}).
+        Let #{K'_i} be the subcomplex #{[A_i\to B_i]}.
+        We can show that giving a biextension of #{K_1} and #{K_2} by #{H} is equivalent to giving (both of) the following:
+
+        \olc{
+          \lic{(a)}{
+            a biextension #{P} of #{K'_1} and #{K'_2} by #{H}; and
+          }
+          \lic{(b)}{
+            trivialisations of the biextensions of #{[0\to F_1]} and #{K'_2} (resp. #{K'_1} and #{[0\to F_2]}) by #{H}, given by the inverse images of #{P}, that agree on #{F_1\times F_2}.
+          }
+        }
+      }
+
+      \p{
+        In the particular case where
+        ##{
+          \begin{aligned}
+            \Biext^i(F_1,K'_2;H)
+            &= 0
+          \\\Biext^i(K'_1,F_2;H)
+            &= 0
+          \end{aligned}
+        }
+        \oldpage{62}
+        for #{i=1,2}, there exists exactly one trivialisation #{\varphi_1}, a section of #{P} over #{F_1\times B_2} (resp. #{\varphi_2}, a section of #{P} over #{B_1\times F_2}) as in (b).
+        The category #{\bBiext(K_1,K_2;H)} can then be identified with the subcategory of #{\bBiext(K'_1,K'_2;H)} consisting of the #{P} for which #{\varphi_1=\varphi_2} on #{F_1\times F_2}.
+      }
+    }
+
+    \subtree[hodge-theory-iii-10.2.3.6]{
+      \number{10.2.3.6}
+    
+      \p{
+        Let #{V_\ZZ} and #{W_\ZZ} be free #{\ZZ}-modules of finite type, and #{F} and #{G} vector subspaces of #{V_\CC} and #{W_\CC} (respectively).
+        We have that
+        ##{
+          \Biext^i(F,[W_\ZZ\to W_\CC];\Gm)
+          = 0.
+        }
+        For #{i=0}, this follows from \ref{hodge-theory-iii-10.2.3.1-an} and from the fact that a bilinear map
+        ##{
+          B\colon F\times W_\CC\to\CC
+          \quad\text{such that}\quad
+          B(F,W_\ZZ)\subset\ZZ(1)
+        }
+        is zero.
+        For #{i=1},
+
+
+
+
+        \todo{CARRY ON HERE}
       }
     }
   }
