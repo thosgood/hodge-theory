@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3111</fr:anchor>
+    <fr:anchor>3117</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-10.3</fr:addr>
     <fr:route>hodge-theory-iii-10.3.xml</fr:route>
     <fr:title text="Hodge Theory III › Hodge theory in level  1 › Algebraic interpretation of the mixed {H}^1: the case of curves"><fr:link type="local" href="hodge-theory-iii-10.xml" addr="hodge-theory-iii-10" title="Hodge Theory III › Hodge theory in level  1"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:link> › Algebraic interpretation of the mixed <fr:tex display="inline"><![CDATA[\operatorname {H}^1]]></fr:tex>: the case of curves</fr:title>
@@ -19,7 +19,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3112</fr:anchor>
+            <fr:anchor>3118</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10</fr:addr>
             <fr:route>hodge-theory-iii-10.xml</fr:route>
             <fr:title text="Hodge Theory III › Hodge theory in level  1"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:title>
@@ -29,7 +29,7 @@
           <fr:mainmatter>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3103</fr:anchor>
+                <fr:anchor>3109</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.1</fr:addr>
                 <fr:route>hodge-theory-iii-10.1.xml</fr:route>
                 <fr:title text="1-Motives">1-Motives</fr:title>
@@ -618,7 +618,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3104</fr:anchor>
+                <fr:anchor>3110</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.2</fr:addr>
                 <fr:route>hodge-theory-iii-10.2.xml</fr:route>
                 <fr:title text="1-Motives and bi-extensions">1-Motives and bi-extensions</fr:title>
@@ -626,13 +626,74 @@
                 <fr:number>10.2</fr:number>
               </fr:frontmatter>
               <fr:mainmatter>
-                <fr:p>The</fr:p>
+                <fr:p>The results of this section will not be used elsewhere.
+  We will make use of the notion of biextensions [SGA 7, VII, (2.1)] and of the following generalisation.</fr:p>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>1996</fr:anchor>
+                    <fr:addr type="user">hodge-theory-iii-10.2.1</fr:addr>
+                    <fr:route>hodge-theory-iii-10.2.1.xml</fr:route>
+                    <fr:authors />
+                    <fr:number>10.2.1</fr:number>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:p>Let <fr:tex display="inline"><![CDATA[K_i\colon [A_i\to  B_i]]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be complexes of sheaves, concentrated in degrees {0} and <fr:tex display="inline"><![CDATA[-1]]></fr:tex> (in an arbitrary topos).
+    A <fr:em>biextension</fr:em> of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by an abelian sheaf <fr:tex display="inline"><![CDATA[H]]></fr:tex> consists of the following:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        a biextension <fr:tex display="inline"><![CDATA[P]]></fr:tex> of <fr:tex display="inline"><![CDATA[B_1]]></fr:tex> and {B_2} by <fr:tex display="inline"><![CDATA[H]]></fr:tex>, i.e. an <fr:tex display="inline"><![CDATA[H]]></fr:tex>-torsor <fr:tex display="inline"><![CDATA[P]]></fr:tex> over <fr:tex display="inline"><![CDATA[B_1\times  B_2]]></fr:tex>, with <fr:tex display="inline"><![CDATA[P_{b_1b_2}]]></fr:tex> depending biadditively on <fr:tex display="inline"><![CDATA[b_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[b_2]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        a trivialisation (i.e. a biadditive section) of the biextension of <fr:tex display="inline"><![CDATA[B_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[A_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>, given by the inverse image of <fr:tex display="inline"><![CDATA[P]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        a trivialisation of the biextension of <fr:tex display="inline"><![CDATA[A_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[B_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>, given by the inverse image of <fr:tex display="inline"><![CDATA[P]]></fr:tex>;
+      </html:li>
+
+    </html:ol>
+
+
+    where we demand that the trivialisations in (b) and (c) agree on <fr:tex display="inline"><![CDATA[A_1\times  A_2]]></fr:tex>.</fr:p>
+                    <fr:p>We denote by <fr:tex display="inline"><![CDATA[\operatorname {\textbf {Biext}}(K_1,K_2;H)]]></fr:tex> the category of biextensions of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>.
+    This is a Picard category (the objects add).
+    The group <fr:tex display="inline"><![CDATA[\operatorname {Biext}^0(K_1,K_2;H)]]></fr:tex> of automorphisms of an arbitrary biextension of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex> is
+    <fr:tex display="block"><![CDATA[       \operatorname {Biext}^0(K_1,K_2;H)       = \operatorname {Hom}(\operatorname {H}^0(K_1)\otimes \operatorname {H}^0(K_2),H).     ]]></fr:tex>
+    We denote by <fr:tex display="inline"><![CDATA[\operatorname {Biext}^1(K_1,K_2;H)]]></fr:tex> the group of isomorphism classes of biextensions.
+    We can show, as in [SGA 7, VII, (3.6.5)], that
+    <fr:tex display="block"><![CDATA[       \operatorname {Biext}^i(K_1,K_2;H)       = \operatorname {Ext}^i(K_1\overset {\mathrm {L}}{\otimes } K_2;H)       \qquad \text {for }i=0,1.     ]]></fr:tex>
+    From this formula, or by elementary means, we can show that, if <fr:tex display="inline"><![CDATA[K'_i\to  K_i]]></fr:tex> is a quasi-isomorphism (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>), then giving a biextension of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex> is equivalent to giving a biextension of <fr:tex display="inline"><![CDATA[K'_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K'_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>.</fr:p>
+                    <fr:p>This also applies to replacing "sheaves" by "algebraic groups" (resp. by "complex analytic groups"): we can interpret these as sheaves on a suitable site.</fr:p>
+                  </fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>1997</fr:anchor>
+                    <fr:addr type="user">hodge-theory-iii-10.2.2</fr:addr>
+                    <fr:route>hodge-theory-iii-10.2.2.xml</fr:route>
+                    <fr:authors />
+                    <fr:number>10.2.2</fr:number>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:p>to-do</fr:p>
+                  </fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
               </fr:mainmatter>
               <fr:backmatter />
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3105</fr:anchor>
+                <fr:anchor>3111</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.3</fr:addr>
                 <fr:route>hodge-theory-iii-10.3.xml</fr:route>
                 <fr:title text="Algebraic interpretation of the mixed {H}^1: the case of curves">Algebraic interpretation of the mixed <fr:tex display="inline"><![CDATA[\operatorname {H}^1]]></fr:tex>: the case of curves</fr:title>
@@ -644,7 +705,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3106</fr:anchor>
+                <fr:anchor>3112</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.4</fr:addr>
                 <fr:route>hodge-theory-iii-10.4.xml</fr:route>
                 <fr:title text="Translation of a theorem of Picard">Translation of a theorem of Picard</fr:title>
@@ -668,7 +729,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3113</fr:anchor>
+            <fr:anchor>3119</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Deligne's &quot;Hodge Theory I, II, and III&quot;">Deligne's "Hodge Theory I, II, and III"</fr:title>
