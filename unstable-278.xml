@@ -2,23 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3043</fr:anchor>
+    <fr:anchor>3074</fr:anchor>
     <fr:addr type="machine">#278</fr:addr>
     <fr:route>unstable-278.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> be a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, in the category of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures.
-      We will show that <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[H]]></fr:tex> in this category.
-      We can suppose <fr:tex display="inline"><![CDATA[H]]></fr:tex> to be homogeneous.
-      If <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is a polarisation form for <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then the orthogonal of <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is indeed a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex> that is a supplement to <fr:tex display="inline"><![CDATA[H_1]]></fr:tex>.
-      This proves (i)</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[n]]></fr:tex> be an integer.
+      Replacing <fr:tex display="inline"><![CDATA[S]]></fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>, if necessary, we can assume that the local system <fr:tex display="inline"><![CDATA[{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)]]></fr:tex> is trivial on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+      Replacing <fr:tex display="inline"><![CDATA[X]]></fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is polarised in the principal series.
+      Suppose that <fr:tex display="inline"><![CDATA[n\geqslant  3]]></fr:tex>.</fr:p>
 
-    <fr:p>If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex> is of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then a polarisation of <fr:tex display="inline"><![CDATA[H]]></fr:tex> defines an isomorphism between <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[H\otimes \mathbb {Q}(n)]]></fr:tex>.
-      By <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" />, we thus have that <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      For arbitrary <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, if we decompose <fr:tex display="inline"><![CDATA[H]]></fr:tex> into its homogeneous components, then <fr:tex display="inline"><![CDATA[H^*=\bigoplus _n(H^n)^*]]></fr:tex>, whence again <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      Finally, <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[\bigotimes ^p H]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2]]></fr:tex>.</fr:p>
+    <fr:p>The abelian scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> then defines a dominant morphism <fr:tex display="inline"><![CDATA[x]]></fr:tex> from the <fr:tex display="inline"><![CDATA[S]]></fr:tex> to the scheme of "Jacobi" modules <fr:tex display="inline"><![CDATA[M_n]]></fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex display="inline"><![CDATA[{}_nX]]></fr:tex> and <fr:tex display="inline"><![CDATA[(\mathbb {Z}{/}n)^{2g}]]></fr:tex>;
+      furthermore, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an inverse image under <fr:tex display="inline"><![CDATA[x]]></fr:tex> of the universal abelian scheme on <fr:tex display="inline"><![CDATA[M_n]]></fr:tex>.
+      
+      We know that <fr:tex display="inline"><![CDATA[\pi _1(M_n,x(s))]]></fr:tex> is sent isomorphically to the subgroup of <fr:tex display="inline"><![CDATA[\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))]]></fr:tex> given by the kernel of the reduction <fr:tex display="inline"><![CDATA[\operatorname {mod}{n}]]></fr:tex> map.
+      It thus remains to show that:</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -29,42 +29,27 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3044</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-4.2.3</fr:addr>
-            <fr:route>hodge-theory-ii-4.2.3.xml</fr:route>
+            <fr:anchor>3075</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.4.16</fr:addr>
+            <fr:route>hodge-theory-ii-4.4.16.xml</fr:route>
             <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>4.2.3</fr:number>
+            <fr:number>4.4.16</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>If <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> satisfies <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" /> and <fr:ref addr="hodge-theory-ii-4.2.2.2" href="hodge-theory-ii-4.2.2.2.xml" taxon="Condition" number="4.2.2.2" />, then:
-
-    
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li style="list-style-type: &quot;(i) &quot;">
-        <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a semi-simple abelian subcategory of the abelian subcategory of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
-      </html:li>
-
-      
- <html:li style="list-style-type: &quot;(ii) &quot;">
-        If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, then its dual <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and the <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> are also in <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>;
-        if <fr:tex display="inline"><![CDATA[H_1,H_2\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      </html:li>
-
-    </html:ol></fr:p>
+          <fr:mainmatter><fr:p>If <fr:tex display="inline"><![CDATA[X]]></fr:tex> satisfies <fr:ref addr="hodge-theory-ii-4.4.14.1" href="hodge-theory-ii-4.4.14.1.xml" taxon="Hypothesis" number="4.4.14.1" />, then the image of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex> in the group of symplectic automorphisms of <fr:tex display="inline"><![CDATA[\operatorname {H}^1(X_s,\mathbb {Z})]]></fr:tex> is of finite index.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1149</fr:anchor><fr:addr type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> be a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, in the category of continuous families of Hodge <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-structures.
-      We will show that <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[H]]></fr:tex> in this category.
-      We can suppose <fr:tex display="inline"><![CDATA[H]]></fr:tex> to be homogeneous.
-      If <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is a polarisation form for <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then the orthogonal of <fr:tex display="inline"><![CDATA[H_1]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is indeed a sub-object of <fr:tex display="inline"><![CDATA[H]]></fr:tex> that is a supplement to <fr:tex display="inline"><![CDATA[H_1]]></fr:tex>.
-      This proves (i)</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1685</fr:anchor><fr:addr type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[n]]></fr:tex> be an integer.
+      Replacing <fr:tex display="inline"><![CDATA[S]]></fr:tex> by a surjective étale covering, defined by a finite-index subgroup of <fr:tex display="inline"><![CDATA[\pi _1(S,s)]]></fr:tex>, if necessary, we can assume that the local system <fr:tex display="inline"><![CDATA[{}_nX=\operatorname {Ker}(n\cdot \mathrm {Id}\colon  X\to  X)]]></fr:tex> is trivial on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+      Replacing <fr:tex display="inline"><![CDATA[X]]></fr:tex> by an isogenous abelian scheme, we can then assume that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is polarised in the principal series.
+      Suppose that <fr:tex display="inline"><![CDATA[n\geqslant  3]]></fr:tex>.</fr:p>
 
-    <fr:p>If <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex> is of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then a polarisation of <fr:tex display="inline"><![CDATA[H]]></fr:tex> defines an isomorphism between <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[H\otimes \mathbb {Q}(n)]]></fr:tex>.
-      By <fr:ref addr="hodge-theory-ii-4.2.2.1" href="hodge-theory-ii-4.2.2.1.xml" taxon="Condition" number="4.2.2.1" />, we thus have that <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      For arbitrary <fr:tex display="inline"><![CDATA[H\in \operatorname {Ob}\mathcal {C}]]></fr:tex>, if we decompose <fr:tex display="inline"><![CDATA[H]]></fr:tex> into its homogeneous components, then <fr:tex display="inline"><![CDATA[H^*=\bigoplus _n(H^n)^*]]></fr:tex>, whence again <fr:tex display="inline"><![CDATA[H^*\in \operatorname {Ob}\mathcal {C}]]></fr:tex>.
-      Finally, <fr:tex display="inline"><![CDATA[\wedge ^p H]]></fr:tex> is a direct factor of <fr:tex display="inline"><![CDATA[\bigotimes ^p H]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Hom}(H_1,H_2)\simeq  H_1^*\otimes  H_2]]></fr:tex>.</fr:p>
+    <fr:p>The abelian scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> then defines a dominant morphism <fr:tex display="inline"><![CDATA[x]]></fr:tex> from the <fr:tex display="inline"><![CDATA[S]]></fr:tex> to the scheme of "Jacobi" modules <fr:tex display="inline"><![CDATA[M_n]]></fr:tex> of polarised abelian schemes in the principal series endowed with a symplectic isomorphism between <fr:tex display="inline"><![CDATA[{}_nX]]></fr:tex> and <fr:tex display="inline"><![CDATA[(\mathbb {Z}{/}n)^{2g}]]></fr:tex>;
+      furthermore, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an inverse image under <fr:tex display="inline"><![CDATA[x]]></fr:tex> of the universal abelian scheme on <fr:tex display="inline"><![CDATA[M_n]]></fr:tex>.
+      
+      We know that <fr:tex display="inline"><![CDATA[\pi _1(M_n,x(s))]]></fr:tex> is sent isomorphically to the subgroup of <fr:tex display="inline"><![CDATA[\operatorname {Sp}(\operatorname {H}^1(X_s,\mathbb {Z}))]]></fr:tex> given by the kernel of the reduction <fr:tex display="inline"><![CDATA[\operatorname {mod}{n}]]></fr:tex> map.
+      It thus remains to show that:</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
