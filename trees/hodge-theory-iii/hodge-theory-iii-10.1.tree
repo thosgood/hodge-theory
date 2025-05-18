@@ -559,6 +559,140 @@
 
   \p{
     We set
-    \todo{carry on from here}
+    ##{
+      \begin{aligned}
+        T_\DR(M)
+        &= \Lie(G^\natural)
+      \\F^0T_\DR(M)
+        &= \Ker(\Lie G^\natural\to\Lie G)
+        \simeq (\Ext^1(M,\Ga))^*.
+      \end{aligned}
+    }
+    Then #{T_\DR} is functorial in #{M} (and thus also in #{M^\natural}), and we define the filtration #{W} of #{T_\DR(M)} as coming from the filtration #{W} of #{M}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.1.8]{
+  \taxon{construction}
+  \number{10.1.8}
+
+  \p{
+    Let #{M} be a 1-motive over #{\CC}.
+    We have that
+    ##{
+      (T_\DR(M),F,W)
+      \simeq (T_\CC(M),F,W).
+    }
+  }
+
+  \proof{
+    \p{
+      The #{\Ext^i(X,\Ga)}, #{\Ext^i(A,\Ga)}, and #{\Ext^i(T,\Ga)} (for #{i=0,1}) are the same in the algebraic and analytic categories.
+      Consider the map
+      ##{
+        T_\CC(M)
+        = T_\ZZ(M)\otimes\CC
+        \to \Lie(G)
+        \to G.
+      }
+      The diagram
+      ##{
+        \begin{CD}
+          X @>>> T_\CC(M)/\HH_1(G)
+        \\@| @VVV
+        \\X @>>> G
+        \end{CD}
+      }
+      \oldpage{59}
+      defines an extension of #{M^\an} by the vector group #{F^0T_\CCM}, and thus an extension of #{M} by this group.
+      We have to prove that this is the universal extension.
+      For this, it suffices to verify that the category of extensions of #{[X\to T_\CC(M)/\HH_1(G)]} by #{\Ga} is trivial (i.e. that it has a single object, and no automorphisms).
+      This is also the category of extensions of #{T_\CC(M)/T_\ZZ(M)} by #{\Ga}, and, indeed,
+      ##{
+        \Ext^i(T_\CC(M)/T_\ZZ(M),\Ga)
+        = 0
+        \qquad\text{for }i=0,1.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.1.9]{
+  \taxon{remark}
+  \number{10.1.9}
+
+  \p{
+    The universal extension #{M^\natural} is characterised by the commutative diagram
+    ##{
+      \begin{CD}
+        X @>>> G^\natural @>>> G
+      \\@AAA @AAA @AAA
+      \\T_\ZZ(M) @>>> \Lie(G^\natural) @>>> \Lie(G)
+      \end{CD}
+    }
+    whose exterior square is \ref{hodge-theory-iii-10.1.3.1}, and that induces an isomorphism #{T_\CC(M)\simto\Lie(G^\natural)}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.1.10]{
+  \taxon{variant}
+  \number{10.1.10}
+
+  \p{
+    A \em{smooth 1-motive} #{M} over a scheme #{S} consists of the following:
+
+    \olc{
+      \lic{(a)}{
+        a group scheme #{X} over #{S} that is locally (for the étale topology) a constant group scheme defined by a free #{\ZZ}-module of finite type;
+        an abelian scheme #{A} over #{S}, and a torus #{T} over #{S};
+      }
+      \lic{(b)}{
+        an extension #{G} of #{A} by #{T};
+      }
+      \lic{(c)}{
+        a morphism #{u\colon X\to G}.
+      }
+    }
+  }
+
+  \p{
+    For every integer #{n}, a construction analogous to \ref{hodge-theory-iii-10.1.5} associates to a smooth 1-motive #{M} over #{S} a group scheme #{T_{\ZZ{/}n\ZZ}(M)} that is finite and flat over #{S}.
+    For #{\ell} invertible over #{S}, the projective system
+    ##{
+      T_\ell(M)
+      = \varprojlim T_{\ZZ{/}\ell^n\ZZ}(M)
+    }
+    is a #{\ZZ_\ell}-sheaf on #{S}.
+    In general, #{T_\ell(M)} corresponds to an #{\ell}-divisible group (i.e. a Barsotti–Tate group) over #{S}.
+  }
+
+  \p{
+    The filtration #{W} of #{M}, defined as in \ref{hodge-theory-iii-10.1.4}, defines a filtration #{W} on #{T_\ell(M)}.
+    We again have that
+    ##{
+      \begin{aligned}
+        \Gr_0^W(T_\ell(M))
+        &= X\otimes\widehat{\ZZ}
+      \\\Gr_{-1}^W(T_\ell(M))
+        &= T_\ell(A)
+      \\\Gr_{-2}^W(T_\ell(M))
+        &= Y\otimes\widehat{\ZZ}_\ell(1),
+      \end{aligned}
+    }
+    where #{Y=\underline{\Hom}(T,\Gm)^\vee}.
+  }
+
+  \p{
+    Similarly, a construction analogous to that of \ref{hodge-theory-iii-10.1.7} associates to #{M} a vector bundle #{T_\DR(M)}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.1.11]{
+  \taxon{terminology}
+  \number{10.1.11}
+
+  \p{
+    Let #{M} be a 1-motive.
+    We call #{T(M)}, #{T_\ell(M)}, and #{T_\DR(M)} the \em{Hodge}, \em{#{\ell}-adic}, and \em{de Rham} \em{realisations} of #{M} (respectively).
   }
 }
