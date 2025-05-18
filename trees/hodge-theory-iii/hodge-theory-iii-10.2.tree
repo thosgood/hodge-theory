@@ -63,6 +63,139 @@
   \number{10.2.2}
 
   \p{
-    to-do
+    In this section, we identity a 1-motive #{M=(X,T,A,G,u)} with a complex concentrated in \em{degrees #{0} and #{-1}}
+    ##{
+      M\colon [X\to G].
+    }
+    Over #{\CC}, we denote by #{M^\an} the complex of complex analytic groups #{[X\to G^\an]}.
+    We have the following rigidity result:
+  }
+
+  \subtree[hodge-theory-iii-10.2.2.1]{
+    \taxon{lemma}
+    \number{10.2.2.1}
+  
+    \p{
+      Let #{M_i=(X_i,A_i,T_i,G_i,u_i)} (for #{i=1,2}) be 1-motives.
+      Then
+      ##{
+        \Biext^0(M_1,M_2;\Gm)
+        = 0.
+      }
+      Over #{\CC}, we similarly have that #{\Biext^0(M_1^\an,M_2^\an;\Gm)=0}.
+    }
+
+    \proof{
+      \p{
+        Every biadditive morphism #{G_1\times G_2\to\Gm} is trivial.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.3]{
+  \taxon{construction}
+  \number{10.2.3}
+
+  \p{
+    \oldpage{61}
+    Let #{M_i=(X_i,A_i,T_i,G_i,u_i)} (for #{i=1,2}) be 1-motives over #{\CC}.
+    We have that
+    ##{
+      \Biext^1(M_1,M_2;\Gm)
+      = \Hom(T(M_1)\otimes T(M_2),\ZZ(1)).
+    }
+  }
+
+  \proof{
+    \p{
+      We will first calculate #{\Biext^1(M_1^\an,M_2^\an;\Gm)}.
+    }
+
+    \p{
+      If #{V} and #{W} are vector spaces, then, \em{in the analytic category},
+
+      \subtree[hodge-theory-iii-10.2.3.1-an]{
+        \taxon{equation}
+        \number{10.2.3.1(an)}
+        ##{
+          \Biext^0(V,W;\Gm)
+          \underset{\exp}{\simfrom} \Hom(V\otimes W,\CC)
+        \startverb\tag{10.2.3.1(\text{an})}\stopverb
+        }
+      }
+
+      \subtree[hodge-theory-iii-10.2.3.2-an]{
+        \taxon{equation}
+        \number{10.2.3.2(an)}
+        ##{
+          \Biext^1(V,W;\Gm)
+          = 0.
+        \startverb\tag{10.2.3.2(\text{an})}\stopverb
+        }
+      }
+
+      From the fact that an extension of #{W} by #{\Gm}, over an arbitrary base, is always locally trivial, it follows, essentially formally, that
+      ##{
+        \begin{aligned}
+          \Biext^i(V,W;\Gm)
+          &= \Ext^i(V,\underline{\Hom}(W,\Gm))
+        \\&= \Ext^i(V,W^*)
+          \qquad\text{for }i=1,2.
+        \end{aligned}
+      }
+    }
+
+    \p{
+      Let #{V_\ZZ} and #{W_\ZZ} be free #{\ZZ}-modules of finite rank.
+      Since
+      ##{
+        [V_\ZZ\to V_\CC]
+        \to [0\to V_\CC{/}V_\ZZ]
+      }
+      is a quasi-isomorphism, the "inverse image" functor is an equivalence.
+
+      \subtree[hodge-theory-iii-10.2.3.3-an]{
+        \taxon{equation}
+        \number{10.2.3.3(an)}
+        ##{
+          \bBiext(V_\CC{/}V_\ZZ,W_\CC{/}W_\ZZ;\Gm)
+          \simeq \bBiext([V_\ZZ\to V_\CC],[W_\ZZ\to W_\CC];\Gm).
+        \startverb\tag{10.2.3.3(\text{an})}\stopverb
+        }
+      }
+
+      Every biadditive morphism from #{V_\CC{/}V_\ZZ\times W_\CC{/}W_\ZZ} to #{\Gm} is trivial, whence (a) in the following:
+    }
+
+    \subtree[hodge-theory-iii-10.2.3.4]{
+      \taxon{lemma}
+      \number{10.2.3.4}
+    
+      \p{
+        \olc{
+          \lic{(a)}{#{\Biext^0(V_\CC{/}V_\ZZ,W_\CC{/}W_\ZZ;\Gm)=0}}
+          \lic{(b)}{#{\Biext^1(V_\CC{/}V_\ZZ,W_\CC{/}W_\ZZ;\Gm)=\Hom(V_\ZZ\otimes W_\ZZ,\ZZ(1))}.}
+        }
+      }
+
+      \proof{
+        \p{
+          Let #{\psi_i\colon V_\CC\otimes W_\CC\to\CC} be bilinear maps, with #{\psi=\psi_1-\psi_2} taking values in #{\ZZ(1)=2\pi i\ZZ} on #{V_\ZZ\otimes W_\ZZ}.
+          Let #{P(\psi_1,\psi_2)} be the following biextension of #{[V_\ZZ\to V_\CC]} and #{[W_\ZZ\to W_\CC]} by #{\Gm}: the trivial biextension of #{V_\CC} and #{W_\CC} by {\Gm}, endowed with the trivialisations #{\varphi_i=\exp\psi_i\colon V_\ZZ\otimes W_\CC\to\Gm} for #{i=1,2}.
+          By \ref{hodge-theory-iii-10.2.3.2-an}, every biextension is of this form;
+          by \ref{hodge-theory-iii-10.2.3.1-an}, #{P(\psi_1,\psi_2)\simeq P(\psi'_1,\psi'_2)} if and only if #{\psi'_1-\psi'_2=\psi_1-\psi_2}.
+          The #{P(\psi,0)} thus represent each biextension exactly once.
+        }
+      }
+    }
+
+    \subtree[hodge-theory-iii-10.2.3.5]{
+      \number{10.2.3.5}
+    
+      \p{
+        Under
+      }
+    }
   }
 }
