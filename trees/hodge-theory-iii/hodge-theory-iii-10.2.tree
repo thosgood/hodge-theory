@@ -241,12 +241,33 @@
           B(F,W_\ZZ)\subset\ZZ(1)
         }
         is zero.
-        For #{i=1},
+        For #{i=1}, this implies that every biadditive morphism #{F\times W_\ZZ\to\Gm} comes from a biadditive morphism #{F\times W_\CC\to\Gm}.
+        In other words, we use the long exact sequence
+        ##{
+          \begin{aligned}
+            0
+            &\to \Biext^0(F,[W_\ZZ\to W_\CC];\Gm)
+            \to \Biext^0(F,W_\CC;\Gm)
+            \simto \Biext^0(F,W_\ZZ;\Gm)
+          \\&\to \Biext^1(F,[W_\ZZ\to W_\CC];\Gm)
+            \to \Biext^1(F,W_\CC;\Gm).
+          \end{aligned}
+        }
+      }
 
+      \p{
+        We can thus apply \ref{hodge-theory-iii-10.2.3.5} to the complexes #{K_1=[V_\ZZ\oplus F\to V_\CC]} and #{K_2=[W_2\oplus G\to W_\CC]}.
+        We find that the biextensions of #{K_1} and #{K_2} by #{\Gm} can be identified with certain biextensions of #{V_\CC{/}V_\ZZ} and #{W_\CC{/}W_\ZZ} (respectively) by #{\Gm}, i.e. with certain forms #{\psi\colon V_\ZZ\otimes W_\ZZ\to \ZZ(1)} (\ref{hodge-theory-iii-10.2.3.4}).
+        For #{P(\psi_1,\psi_2)} (\ref{hodge-theory-iii-10.2.3.4}) to come from a biextension of #{K_1} and #{K_2} by #{\Gm}, it is necessary and sufficient that #{\exp\psi_2\colon F\times W_\CC\to\Gm} and #{\exp\psi_1\colon V_\CC\times G\to\Gm} agree on #{F\times G}, i.e. that #{\psi(F,G)=0}.
+      }
+    }
 
-
-
-        \todo{CARRY ON HERE}
+    \subtree[hodge-theory-iii-10.2.3.7]{
+      \taxon{lemma}
+      \number{10.2.3.7}
+    
+      \p{
+        With
       }
     }
   }
