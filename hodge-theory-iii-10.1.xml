@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3151</fr:anchor>
+    <fr:anchor>3158</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-10.1</fr:addr>
     <fr:route>hodge-theory-iii-10.1.xml</fr:route>
     <fr:title text="Hodge Theory III › Hodge theory in level  1 › 1-motives"><fr:link type="local" href="hodge-theory-iii-10.xml" addr="hodge-theory-iii-10" title="Hodge Theory III › Hodge theory in level  1"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:link> › 1-motives</fr:title>
@@ -596,7 +596,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3152</fr:anchor>
+            <fr:anchor>3159</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10</fr:addr>
             <fr:route>hodge-theory-iii-10.xml</fr:route>
             <fr:title text="Hodge Theory III › Hodge theory in level  1"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:title>
@@ -606,7 +606,7 @@
           <fr:mainmatter>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3153</fr:anchor>
+                <fr:anchor>3160</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.1</fr:addr>
                 <fr:route>hodge-theory-iii-10.1.xml</fr:route>
                 <fr:title text="1-Motives">1-Motives</fr:title>
@@ -1195,7 +1195,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3154</fr:anchor>
+                <fr:anchor>3161</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.2</fr:addr>
                 <fr:route>hodge-theory-iii-10.2.xml</fr:route>
                 <fr:title text="1-Motives and bi-extensions">1-Motives and bi-extensions</fr:title>
@@ -1373,12 +1373,13 @@
         For <fr:tex display="inline"><![CDATA[i=0]]></fr:tex>, this follows from <fr:ref addr="hodge-theory-iii-10.2.3.1-an" href="hodge-theory-iii-10.2.3.1-an.xml" taxon="Equation" number="10.2.3.1(an)" /> and from the fact that a bilinear map
         <fr:tex display="block"><![CDATA[           B\colon  F\times  W_\mathbb {C}\to \mathbb {C}           \quad \text {such that}\quad            B(F,W_\mathbb {Z})\subset \mathbb {Z}(1)         ]]></fr:tex>
         is zero.
-        For <fr:tex display="inline"><![CDATA[i=1]]></fr:tex>,
+        For <fr:tex display="inline"><![CDATA[i=1]]></fr:tex>, this implies that every biadditive morphism <fr:tex display="inline"><![CDATA[F\times  W_\mathbb {Z}\to \mathbb {G}_\mathrm {m}]]></fr:tex> comes from a biadditive morphism <fr:tex display="inline"><![CDATA[F\times  W_\mathbb {C}\to \mathbb {G}_\mathrm {m}]]></fr:tex>.
+        In other words, we use the long exact sequence
+        <fr:tex display="block"><![CDATA[           \begin {aligned}             0             &\to  \operatorname {Biext}^0(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})             \to  \operatorname {Biext}^0(F,W_\mathbb {C};\mathbb {G}_\mathrm {m})             \xrightarrow {\sim } \operatorname {Biext}^0(F,W_\mathbb {Z};\mathbb {G}_\mathrm {m})           \\&\to  \operatorname {Biext}^1(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})             \to  \operatorname {Biext}^1(F,W_\mathbb {C};\mathbb {G}_\mathrm {m}).           \end {aligned}         ]]></fr:tex></fr:p><fr:p>We can thus apply <fr:ref addr="hodge-theory-iii-10.2.3.5" href="hodge-theory-iii-10.2.3.5.xml" number="10.2.3.5" /> to the complexes <fr:tex display="inline"><![CDATA[K_1=[V_\mathbb {Z}\oplus  F\to  V_\mathbb {C}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2=[W_2\oplus  G\to  W_\mathbb {C}]]]></fr:tex>.
+        We find that the biextensions of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex> can be identified with certain biextensions of <fr:tex display="inline"><![CDATA[V_\mathbb {C}{/}V_\mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {C}{/}W_\mathbb {Z}]]></fr:tex> (respectively) by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>, i.e. with certain forms <fr:tex display="inline"><![CDATA[\psi \colon  V_\mathbb {Z}\otimes  W_\mathbb {Z}\to  \mathbb {Z}(1)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />).
+        For <fr:tex display="inline"><![CDATA[P(\psi _1,\psi _2)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />) to come from a biextension of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>, it is necessary and sufficient that <fr:tex display="inline"><![CDATA[\exp \psi _2\colon  F\times  W_\mathbb {C}\to \mathbb {G}_\mathrm {m}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\exp \psi _1\colon  V_\mathbb {C}\times  G\to \mathbb {G}_\mathrm {m}]]></fr:tex> agree on <fr:tex display="inline"><![CDATA[F\times  G]]></fr:tex>, i.e. that <fr:tex display="inline"><![CDATA[\psi (F,G)=0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
 
-
-
-
-        <fr:strong><fr:em>TO-DO: CARRY ON HERE</fr:em></fr:strong></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2012</fr:anchor><fr:addr type="user">hodge-theory-iii-10.2.3.7</fr:addr><fr:route>hodge-theory-iii-10.2.3.7.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>10.2.3.7</fr:number></fr:frontmatter><fr:mainmatter><fr:p>With</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
@@ -1389,7 +1390,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3155</fr:anchor>
+                <fr:anchor>3162</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.3</fr:addr>
                 <fr:route>hodge-theory-iii-10.3.xml</fr:route>
                 <fr:title text="Algebraic interpretation of the mixed {H}^1: the case of curves">Algebraic interpretation of the mixed <fr:tex display="inline"><![CDATA[\operatorname {H}^1]]></fr:tex>: the case of curves</fr:title>
@@ -1401,7 +1402,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3156</fr:anchor>
+                <fr:anchor>3163</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.4</fr:addr>
                 <fr:route>hodge-theory-iii-10.4.xml</fr:route>
                 <fr:title text="Translation of a theorem of Picard">Translation of a theorem of Picard</fr:title>
@@ -1425,7 +1426,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3157</fr:anchor>
+            <fr:anchor>3164</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Deligne's &quot;Hodge Theory I, II, and III&quot;">Deligne's "Hodge Theory I, II, and III"</fr:title>

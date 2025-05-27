@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2032</fr:anchor>
+    <fr:anchor>2034</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-10.2.3.5</fr:addr>
     <fr:route>hodge-theory-iii-10.2.3.5.xml</fr:route>
     <fr:authors />
@@ -41,7 +41,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2033</fr:anchor>
+            <fr:anchor>2035</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10.2.3</fr:addr>
             <fr:route>hodge-theory-iii-10.2.3.xml</fr:route>
             <fr:taxon>Construction</fr:taxon>
@@ -122,15 +122,49 @@
         For <fr:tex display="inline"><![CDATA[i=0]]></fr:tex>, this follows from <fr:ref addr="hodge-theory-iii-10.2.3.1-an" href="hodge-theory-iii-10.2.3.1-an.xml" taxon="Equation" number="10.2.3.1(an)" /> and from the fact that a bilinear map
         <fr:tex display="block"><![CDATA[           B\colon  F\times  W_\mathbb {C}\to \mathbb {C}           \quad \text {such that}\quad            B(F,W_\mathbb {Z})\subset \mathbb {Z}(1)         ]]></fr:tex>
         is zero.
-        For <fr:tex display="inline"><![CDATA[i=1]]></fr:tex>,
+        For <fr:tex display="inline"><![CDATA[i=1]]></fr:tex>, this implies that every biadditive morphism <fr:tex display="inline"><![CDATA[F\times  W_\mathbb {Z}\to \mathbb {G}_\mathrm {m}]]></fr:tex> comes from a biadditive morphism <fr:tex display="inline"><![CDATA[F\times  W_\mathbb {C}\to \mathbb {G}_\mathrm {m}]]></fr:tex>.
+        In other words, we use the long exact sequence
+        <fr:tex display="block"><![CDATA[           \begin {aligned}             0             &\to  \operatorname {Biext}^0(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})             \to  \operatorname {Biext}^0(F,W_\mathbb {C};\mathbb {G}_\mathrm {m})             \xrightarrow {\sim } \operatorname {Biext}^0(F,W_\mathbb {Z};\mathbb {G}_\mathrm {m})           \\&\to  \operatorname {Biext}^1(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})             \to  \operatorname {Biext}^1(F,W_\mathbb {C};\mathbb {G}_\mathrm {m}).           \end {aligned}         ]]></fr:tex></fr:p><fr:p>We can thus apply <fr:ref addr="hodge-theory-iii-10.2.3.5" href="hodge-theory-iii-10.2.3.5.xml" number="10.2.3.5" /> to the complexes <fr:tex display="inline"><![CDATA[K_1=[V_\mathbb {Z}\oplus  F\to  V_\mathbb {C}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2=[W_2\oplus  G\to  W_\mathbb {C}]]]></fr:tex>.
+        We find that the biextensions of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex> can be identified with certain biextensions of <fr:tex display="inline"><![CDATA[V_\mathbb {C}{/}V_\mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {C}{/}W_\mathbb {Z}]]></fr:tex> (respectively) by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>, i.e. with certain forms <fr:tex display="inline"><![CDATA[\psi \colon  V_\mathbb {Z}\otimes  W_\mathbb {Z}\to  \mathbb {Z}(1)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />).
+        For <fr:tex display="inline"><![CDATA[P(\psi _1,\psi _2)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />) to come from a biextension of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>, it is necessary and sufficient that <fr:tex display="inline"><![CDATA[\exp \psi _2\colon  F\times  W_\mathbb {C}\to \mathbb {G}_\mathrm {m}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\exp \psi _1\colon  V_\mathbb {C}\times  G\to \mathbb {G}_\mathrm {m}]]></fr:tex> agree on <fr:tex display="inline"><![CDATA[F\times  G]]></fr:tex>, i.e. that <fr:tex display="inline"><![CDATA[\psi (F,G)=0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
 
-
-
-
-        <fr:strong><fr:em>TO-DO: CARRY ON HERE</fr:em></fr:strong></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2012</fr:anchor><fr:addr type="user">hodge-theory-iii-10.2.3.7</fr:addr><fr:route>hodge-theory-iii-10.2.3.7.xml</fr:route><fr:taxon>Lemma</fr:taxon><fr:authors /><fr:number>10.2.3.7</fr:number></fr:frontmatter><fr:mainmatter><fr:p>With</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2036</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.2.3.6</fr:addr>
+            <fr:route>hodge-theory-iii-10.2.3.6.xml</fr:route>
+            <fr:authors />
+            <fr:number>10.2.3.6</fr:number>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[V_\mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {Z}]]></fr:tex> be free <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-modules of finite type, and <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[G]]></fr:tex> vector subspaces of <fr:tex display="inline"><![CDATA[V_\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {C}]]></fr:tex> (respectively).
+        We have that
+        <fr:tex display="block"><![CDATA[           \operatorname {Biext}^i(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})           = 0.         ]]></fr:tex>
+        For <fr:tex display="inline"><![CDATA[i=0]]></fr:tex>, this follows from <fr:ref addr="hodge-theory-iii-10.2.3.1-an" href="hodge-theory-iii-10.2.3.1-an.xml" taxon="Equation" number="10.2.3.1(an)" /> and from the fact that a bilinear map
+        <fr:tex display="block"><![CDATA[           B\colon  F\times  W_\mathbb {C}\to \mathbb {C}           \quad \text {such that}\quad            B(F,W_\mathbb {Z})\subset \mathbb {Z}(1)         ]]></fr:tex>
+        is zero.
+        For <fr:tex display="inline"><![CDATA[i=1]]></fr:tex>, this implies that every biadditive morphism <fr:tex display="inline"><![CDATA[F\times  W_\mathbb {Z}\to \mathbb {G}_\mathrm {m}]]></fr:tex> comes from a biadditive morphism <fr:tex display="inline"><![CDATA[F\times  W_\mathbb {C}\to \mathbb {G}_\mathrm {m}]]></fr:tex>.
+        In other words, we use the long exact sequence
+        <fr:tex display="block"><![CDATA[           \begin {aligned}             0             &\to  \operatorname {Biext}^0(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})             \to  \operatorname {Biext}^0(F,W_\mathbb {C};\mathbb {G}_\mathrm {m})             \xrightarrow {\sim } \operatorname {Biext}^0(F,W_\mathbb {Z};\mathbb {G}_\mathrm {m})           \\&\to  \operatorname {Biext}^1(F,[W_\mathbb {Z}\to  W_\mathbb {C}];\mathbb {G}_\mathrm {m})             \to  \operatorname {Biext}^1(F,W_\mathbb {C};\mathbb {G}_\mathrm {m}).           \end {aligned}         ]]></fr:tex></fr:p>
+            <fr:p>We can thus apply <fr:ref addr="hodge-theory-iii-10.2.3.5" href="hodge-theory-iii-10.2.3.5.xml" number="10.2.3.5" /> to the complexes <fr:tex display="inline"><![CDATA[K_1=[V_\mathbb {Z}\oplus  F\to  V_\mathbb {C}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2=[W_2\oplus  G\to  W_\mathbb {C}]]]></fr:tex>.
+        We find that the biextensions of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex> can be identified with certain biextensions of <fr:tex display="inline"><![CDATA[V_\mathbb {C}{/}V_\mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {C}{/}W_\mathbb {Z}]]></fr:tex> (respectively) by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>, i.e. with certain forms <fr:tex display="inline"><![CDATA[\psi \colon  V_\mathbb {Z}\otimes  W_\mathbb {Z}\to  \mathbb {Z}(1)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />).
+        For <fr:tex display="inline"><![CDATA[P(\psi _1,\psi _2)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />) to come from a biextension of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>, it is necessary and sufficient that <fr:tex display="inline"><![CDATA[\exp \psi _2\colon  F\times  W_\mathbb {C}\to \mathbb {G}_\mathrm {m}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\exp \psi _1\colon  V_\mathbb {C}\times  G\to \mathbb {G}_\mathrm {m}]]></fr:tex> agree on <fr:tex display="inline"><![CDATA[F\times  G]]></fr:tex>, i.e. that <fr:tex display="inline"><![CDATA[\psi (F,G)=0]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
@@ -144,7 +178,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2034</fr:anchor>
+            <fr:anchor>2037</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10.2.1</fr:addr>
             <fr:route>hodge-theory-iii-10.2.1.xml</fr:route>
             <fr:authors />
