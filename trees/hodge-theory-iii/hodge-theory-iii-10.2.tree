@@ -74,7 +74,7 @@
   \subtree[hodge-theory-iii-10.2.2.1]{
     \taxon{lemma}
     \number{10.2.2.1}
-  
+
     \p{
       Let #{M_i=(X_i,A_i,T_i,G_i,u_i)} (for #{i=1,2}) be 1-motives.
       Then
@@ -171,7 +171,7 @@
     \subtree[hodge-theory-iii-10.2.3.4]{
       \taxon{lemma}
       \number{10.2.3.4}
-    
+
       \p{
         \olc{
           \lic{(a)}{#{\Biext^0(V_\CC{/}V_\ZZ,W_\CC{/}W_\ZZ;\Gm)=0}}
@@ -192,7 +192,7 @@
 
     \subtree[hodge-theory-iii-10.2.3.5]{
       \number{10.2.3.5}
-    
+
       \p{
         Under the general hypotheses of \ref{hodge-theory-iii-10.2.1}, let #{K_i=[A_i+F_i\to B_i]} be complexes (for #{i=1,2}).
         Let #{K'_i} be the subcomplex #{[A_i\to B_i]}.
@@ -226,7 +226,7 @@
 
     \subtree[hodge-theory-iii-10.2.3.6]{
       \number{10.2.3.6}
-    
+
       \p{
         Let #{V_\ZZ} and #{W_\ZZ} be free #{\ZZ}-modules of finite type, and #{F} and #{G} vector subspaces of #{V_\CC} and #{W_\CC} (respectively).
         We have that
@@ -265,9 +265,54 @@
     \subtree[hodge-theory-iii-10.2.3.7]{
       \taxon{lemma}
       \number{10.2.3.7}
+
+      \p{
+        With the above notation, we have that #{\Biext^0(K_1,K_2;\Gm)=0}, and #{\Biext^1(K_1,K_2;\Gm)} can be identified with the set of forms #{\psi\colon V_\ZZ\otimes W_\ZZ\to\ZZ(1)} with complexifications satisfying #{\Psi(F,G)=0}.
+      }
+
+      \proof{
+        \p{
+          For #{\psi} as in \ref{hodge-theory-iii-10.2.3.7}, with #{\psi=\psi_1-\psi_2}, the biextension corresponding to #{\psi} is given by the following trivialisations of the trivial biextension of #{V_\CC} and #{W_\CC} by #{\Gm}:
+          \ul{
+            \li{
+              on #{(V_\ZZ\oplus F)\times W_\CC} : #{\exp\psi_1(v_\ZZ,w_\CC)\cdot\exp\psi_2(f,w_\CC)}
+            }
+            \li{
+              on #{V_\CC\times(W_\CC\oplus G)} : #{\exp\psi_2(v_\CC,w_\ZZ)\cdot\exp\psi_2(v_\CC,g)}.
+            }
+          }
+        }
+      }
+    }
+
+    \subtree[hodge-theory-iii-10.2.3.8]{
+      \number{10.2.3.8}
+
+      \p{
+        For the 1-motives #{M_i}, we have quasi-isomorphisms
+        ##{
+          \begin{CD}
+            T_\ZZ(M_i)\oplus F^0T_\CC(M_i) @>>> T_\ZZ(M_i) @>>> X_i
+          \\@VVV @VVV @VVV
+          \\T_\CC(M_i) @>>> \Lie(G_i) @>>> G_i
+          \end{CD}
+        }
+        \oldpage{63}
+        The group #{\Biext^1(M_1^\an,M_2^\an;\Gm)} can thus be identified with the group of maps
+        ##{
+          \psi\colon T_\ZZ(M_1)\otimes T_\ZZ(M_2)
+          \to \ZZ(1)
+        }
+        whose complexification is compatible with the Hodge filtration.
+      }
+    }
+
+    \subtree[hodge-theory-iii-10.2.3.9]{
+      \taxon{lemma}
+      \number{10.2.3.9}
     
       \p{
-        With
+        The
       }
     }
   }
