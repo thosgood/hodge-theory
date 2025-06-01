@@ -2,23 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3114</fr:anchor>
+    <fr:anchor>3124</fr:anchor>
     <fr:addr type="machine">#291</fr:addr>
     <fr:route>unstable-291.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>On the <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> pages, there is only the filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex> to consider (<fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />), and <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> is compatible with this filtration ((i) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />).
-      This filtration is the abutment of the spectral sequence in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> ((ii) of <fr:ref addr="hodge-theory-ii-1.4.8" href="hodge-theory-ii-1.4.8.xml" taxon="Example" number="1.4.8" />).
-      By <fr:ref addr="hodge-theory-ii-3.2.7" href="hodge-theory-ii-3.2.7.xml" taxon="Lemma" number="3.2.7" />, the arrow
-      <fr:tex display="block"><![CDATA[         d_1\colon          \operatorname {\mathbb {H}}^k(\overline {X},\operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\overline {X},\operatorname {Gr}_{n-1}^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle ))       ]]></fr:tex>
-      or
+    <fr:p>Define the <fr:tex display="inline"><![CDATA[Y^n]]></fr:tex> and the <fr:tex display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> as in <fr:ref addr="hodge-theory-ii-3.1.4" href="hodge-theory-ii-3.1.4.xml" number="3.1.4" />, and let <fr:tex display="inline"><![CDATA[i_n\colon \widetilde {Y}^n\to  X]]></fr:tex>.
+      By <fr:ref addr="hodge-theory-ii-3.1.5.2" href="hodge-theory-ii-3.1.5.2.xml" taxon="Equation" number="3.1.5.2" />, we have
+      <fr:tex display="block"><![CDATA[         \operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       ]]></fr:tex>
+      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref addr="hodge-theory-ii-1.4.5" href="hodge-theory-ii-1.4.5.xml" number="1.4.5" />), and so the spectral sequence in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> is given by translations of the degrees of the classical spectral sequence
+      <fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       ]]></fr:tex></fr:p>
 
-      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>586</fr:anchor><fr:addr type="user">hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.2.8.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-      is compatible with the filtrations that are <fr:tex display="inline"><![CDATA[(k+n)]]></fr:tex>-opposite to their complex conjugate.
-      Since <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> commutes up to complex conjugation, <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> respects the bigrading (of weight <fr:tex display="inline"><![CDATA[k+n]]></fr:tex>) defined by <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex>, which proves <fr:ref addr="hodge-theory-ii-3.2.8" href="hodge-theory-ii-3.2.8.xml" taxon="Lemma" number="3.2.8" />.</fr:p>
+    <fr:p>If <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is projective and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> the union of smooth divisors, then <fr:tex display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> is projective, <fr:tex display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref addr="hodge-theory-ii-2.2.1" href="hodge-theory-ii-2.2.1.xml" number="2.2.1" />) gives the degeneration claimed in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" />.
+      For the general case, refer to [<fr:link type="local" href="D1968.xml" addr="D1968" title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>] (see also <fr:ref addr="hodge-theory-ii-2.2.2" href="hodge-theory-ii-2.2.2.xml" number="2.2.2" /> and <fr:ref addr="hodge-theory-ii-2.2.3" href="hodge-theory-ii-2.2.3.xml" number="2.2.3" />).</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -29,27 +27,25 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3115</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-3.2.8</fr:addr>
-            <fr:route>hodge-theory-ii-3.2.8.xml</fr:route>
+            <fr:anchor>3125</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.2.6</fr:addr>
+            <fr:route>hodge-theory-ii-3.2.6.xml</fr:route>
             <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>3.2.8</fr:number>
+            <fr:number>3.2.6</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>The differentials <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of the spectral sequence <fr:tex display="inline"><![CDATA[{}_WE]]></fr:tex> are strictly compatible with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>The hypercohomology spectral sequences of the filtered complexes <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle )]]></fr:tex>, endowed with the filtration induced by the Hodge filtration, degenerate at the <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> page.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>585</fr:anchor><fr:addr type="machine">#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>On the <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> pages, there is only the filtration induced by <fr:tex display="inline"><![CDATA[F]]></fr:tex> to consider (<fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />), and <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> is compatible with this filtration ((i) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />).
-      This filtration is the abutment of the spectral sequence in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> ((ii) of <fr:ref addr="hodge-theory-ii-1.4.8" href="hodge-theory-ii-1.4.8.xml" taxon="Example" number="1.4.8" />).
-      By <fr:ref addr="hodge-theory-ii-3.2.7" href="hodge-theory-ii-3.2.7.xml" taxon="Lemma" number="3.2.7" />, the arrow
-      <fr:tex display="block"><![CDATA[         d_1\colon          \operatorname {\mathbb {H}}^k(\overline {X},\operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle ))         \to  \operatorname {\mathbb {H}}^{k+1}(\overline {X},\operatorname {Gr}_{n-1}^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle ))       ]]></fr:tex>
-      or
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>460</fr:anchor><fr:addr type="machine">#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>Define the <fr:tex display="inline"><![CDATA[Y^n]]></fr:tex> and the <fr:tex display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> as in <fr:ref addr="hodge-theory-ii-3.1.4" href="hodge-theory-ii-3.1.4.xml" number="3.1.4" />, and let <fr:tex display="inline"><![CDATA[i_n\colon \widetilde {Y}^n\to  X]]></fr:tex>.
+      By <fr:ref addr="hodge-theory-ii-3.1.5.2" href="hodge-theory-ii-3.1.5.2.xml" taxon="Equation" number="3.1.5.2" />, we have
+      <fr:tex display="block"><![CDATA[         \operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       ]]></fr:tex>
+      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref addr="hodge-theory-ii-1.4.5" href="hodge-theory-ii-1.4.5.xml" number="1.4.5" />), and so the spectral sequence in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> is given by translations of the degrees of the classical spectral sequence
+      <fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       ]]></fr:tex></fr:p>
 
-      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>586</fr:anchor><fr:addr type="user">hodge-theory-ii-3.2.8.1</fr:addr><fr:route>hodge-theory-ii-3.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>3.2.8.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           d_1\colon            \operatorname {H}^{k-n}(\widetilde {Y}^n,\varepsilon ^n)           \to  \operatorname {H}^{k-n+1}(\widetilde {Y}^{n-1},\varepsilon ^{n-1})         \tag{3.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-      is compatible with the filtrations that are <fr:tex display="inline"><![CDATA[(k+n)]]></fr:tex>-opposite to their complex conjugate.
-      Since <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> commutes up to complex conjugation, <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> respects the bigrading (of weight <fr:tex display="inline"><![CDATA[k+n]]></fr:tex>) defined by <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex>, which proves <fr:ref addr="hodge-theory-ii-3.2.8" href="hodge-theory-ii-3.2.8.xml" taxon="Lemma" number="3.2.8" />.</fr:p>
+    <fr:p>If <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is projective and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> the union of smooth divisors, then <fr:tex display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> is projective, <fr:tex display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref addr="hodge-theory-ii-2.2.1" href="hodge-theory-ii-2.2.1.xml" number="2.2.1" />) gives the degeneration claimed in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" />.
+      For the general case, refer to [<fr:link type="local" href="D1968.xml" addr="D1968" title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>] (see also <fr:ref addr="hodge-theory-ii-2.2.2" href="hodge-theory-ii-2.2.2.xml" number="2.2.2" /> and <fr:ref addr="hodge-theory-ii-2.2.3" href="hodge-theory-ii-2.2.3.xml" number="2.2.3" />).</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

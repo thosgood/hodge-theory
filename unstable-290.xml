@@ -2,21 +2,18 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3112</fr:anchor>
+    <fr:anchor>3122</fr:anchor>
     <fr:addr type="machine">#290</fr:addr>
     <fr:route>unstable-290.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Define the <fr:tex display="inline"><![CDATA[Y^n]]></fr:tex> and the <fr:tex display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> as in <fr:ref addr="hodge-theory-ii-3.1.4" href="hodge-theory-ii-3.1.4.xml" number="3.1.4" />, and let <fr:tex display="inline"><![CDATA[i_n\colon \widetilde {Y}^n\to  X]]></fr:tex>.
-      By <fr:ref addr="hodge-theory-ii-3.1.5.2" href="hodge-theory-ii-3.1.5.2.xml" taxon="Equation" number="3.1.5.2" />, we have
-      <fr:tex display="block"><![CDATA[         \operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       ]]></fr:tex>
-      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref addr="hodge-theory-ii-1.4.5" href="hodge-theory-ii-1.4.5.xml" number="1.4.5" />), and so the spectral sequence in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> is given by translations of the degrees of the classical spectral sequence
-      <fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       ]]></fr:tex></fr:p>
-
-    <fr:p>If <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is projective and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> the union of smooth divisors, then <fr:tex display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> is projective, <fr:tex display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref addr="hodge-theory-ii-2.2.1" href="hodge-theory-ii-2.2.1.xml" number="2.2.1" />) gives the degeneration claimed in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" />.
-      For the general case, refer to [<fr:link type="local" href="D1968.xml" addr="D1968" title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>] (see also <fr:ref addr="hodge-theory-ii-2.2.2" href="hodge-theory-ii-2.2.2.xml" number="2.2.2" /> and <fr:ref addr="hodge-theory-ii-2.2.3" href="hodge-theory-ii-2.2.3.xml" number="2.2.3" />).</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[X_s=f^{-1}(s)]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[S]]></fr:tex> is smooth, and if <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is a smooth compactification of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then, by <fr:ref addr="hodge-theory-ii-4.1.1" href="hodge-theory-ii-4.1.1.xml" taxon="Theorem" number="4.1.1" />, the subspace <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> of <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex>.
+      Since the restriction map
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(\overline {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       ]]></fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>, given by the quotient of that on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex>, is independent of <fr:tex display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -27,25 +24,24 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3113</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-3.2.6</fr:addr>
-            <fr:route>hodge-theory-ii-3.2.6.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
+            <fr:anchor>3123</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.1.2</fr:addr>
+            <fr:route>hodge-theory-ii-4.1.2.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
             <fr:authors />
-            <fr:number>3.2.6</fr:number>
+            <fr:number>4.1.2</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>The hypercohomology spectral sequences of the filtered complexes <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle )]]></fr:tex>, endowed with the filtration induced by the Hodge filtration, degenerate at the <fr:tex display="inline"><![CDATA[E_1]]></fr:tex> page.</fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be a proper smooth morphism, with <fr:tex display="inline"><![CDATA[S]]></fr:tex> reduced, connected, and separated.
+    Let <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})^0]]></fr:tex> be the largest constant local system on <fr:tex display="inline"><![CDATA[\mathrm {R}^n f_*\mathbb {Q}]]></fr:tex>, with fibre <fr:tex display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>.
+    Then, for each <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>, <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> is a Hodge sub-structure of <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})\simeq \operatorname {H}^n(X_s,\mathbb {Q})]]></fr:tex>, and the induced Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex> is independent of <fr:tex display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>459</fr:anchor><fr:addr type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>Define the <fr:tex display="inline"><![CDATA[Y^n]]></fr:tex> and the <fr:tex display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> as in <fr:ref addr="hodge-theory-ii-3.1.4" href="hodge-theory-ii-3.1.4.xml" number="3.1.4" />, and let <fr:tex display="inline"><![CDATA[i_n\colon \widetilde {Y}^n\to  X]]></fr:tex>.
-      By <fr:ref addr="hodge-theory-ii-3.1.5.2" href="hodge-theory-ii-3.1.5.2.xml" taxon="Equation" number="3.1.5.2" />, we have
-      <fr:tex display="block"><![CDATA[         \operatorname {Gr}_n^W(\Omega _{\overline {X}}^\bullet \langle  Y\rangle )         \sim  (i_n)_*\Omega _{\widetilde {Y}^n}^\bullet (\varepsilon ^n)[-n].       ]]></fr:tex>
-      Furthermore, the Hodge filtration induces the stupid filtration (<fr:ref addr="hodge-theory-ii-1.4.5" href="hodge-theory-ii-1.4.5.xml" number="1.4.5" />), and so the spectral sequence in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" /> is given by translations of the degrees of the classical spectral sequence
-      <fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(\widetilde {Y}^n,\Omega _{\widetilde {Y}^n}^p(\varepsilon ^n))         \Rightarrow  \operatorname {H}^{p+q}(\widetilde {Y}^n,\varepsilon ^n).       ]]></fr:tex></fr:p>
-
-    <fr:p>If <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is projective and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> the union of smooth divisors, then <fr:tex display="inline"><![CDATA[\widetilde {Y}^n]]></fr:tex> is projective, <fr:tex display="inline"><![CDATA[\varepsilon ^n]]></fr:tex> is a trivial local system, and classical Hodge theory (<fr:ref addr="hodge-theory-ii-2.2.1" href="hodge-theory-ii-2.2.1.xml" number="2.2.1" />) gives the degeneration claimed in <fr:ref addr="hodge-theory-ii-3.2.6" href="hodge-theory-ii-3.2.6.xml" taxon="Lemma" number="3.2.6" />.
-      For the general case, refer to [<fr:link type="local" href="D1968.xml" addr="D1968" title="Théorème de Lefschetz et critères de dégénérescence de suites spectrales">D1968</fr:link>] (see also <fr:ref addr="hodge-theory-ii-2.2.2" href="hodge-theory-ii-2.2.2.xml" number="2.2.2" /> and <fr:ref addr="hodge-theory-ii-2.2.3" href="hodge-theory-ii-2.2.3.xml" number="2.2.3" />).</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1619</fr:anchor><fr:addr type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[X_s=f^{-1}(s)]]></fr:tex>.
+      If <fr:tex display="inline"><![CDATA[S]]></fr:tex> is smooth, and if <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is a smooth compactification of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then, by <fr:ref addr="hodge-theory-ii-4.1.1" href="hodge-theory-ii-4.1.1.xml" taxon="Theorem" number="4.1.1" />, the subspace <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> of <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex>.
+      Since the restriction map
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(\overline {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       ]]></fr:tex>
+      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>, given by the quotient of that on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex>, is independent of <fr:tex display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
