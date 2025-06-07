@@ -312,8 +312,91 @@
       \number{10.2.3.9}
     
       \p{
-        The
+        The map #{\Biext^1(M_1,M_2;\Gm)\to\Biext^1(M_1^\an,M_2^\an;\Gm)} is injective.
+        Its image consists of those biextensions #{P} whose restriction to #{G_1\times G_2} is the inverse image of a biextension of #{A_1} and #{A_2} by #{\Gm}.
+      }
+
+      \proof{
+        \p{
+          We have that
+          ##{
+            \begin{aligned}
+              \Biext^1(A_1,A_2;\Gm)
+              &\simto \Biext^1(G_1,G_2;\Gm)
+            \\\Biext^1(A_1,A_2;\Gm)
+              &\simto \Biext^1(A_1^\an,A_2^\an;\Gm)
+            \end{aligned}
+          }
+          where the former follows from [SGA 7, VIII, (3.5)] and the latter from GAGA.
+        }
+
+        \p{
+          Let #{P} be a biextension of #{M_1} and #{M_2} by #{\Gm}.
+          If #{P^\an} is trivial, then:
+
+          \olc{
+            \lic{(a)}{
+              The restriction of #{P} to #{G_1\times G_2} is the image of a biextension #{P_0} of #{A_1} and #{A_2} by #{\Gm};
+              the latter is trivial.
+              If this were not the case, then it would be analytically non-trivial, and would thus give rise to a non-zero bilinear form #{\psi_0}, and the form #{\psi} corresponding to #{P} would be \em{a fortiori} non-zero.
+              The restriction of #{P} to #{G_1\times G_2} is thus trivial (and uniquely trivialisable, even analytically).
+            }
+
+            \lic{(b)}{
+              #{P} is thus defined by biadditive maps #{X_1\times G_2\to\Gm} and #{G_1\times X_2\to\Gm}.
+              These are zero in the analytic category, and thus thus zero, and so #{P} is trivial.
+            }
+          }
+        }
+
+        \p{
+          Let #{P} be a biextension of #{M_1^\an} and #{M_2^\an} by #{\Gm} that satisfies the condition \ref{hodge-theory-iii-10.2.3.9}.
+          It remains to prove that #{P} is algebrisable.
+          By hypothesis, and GAGA, its restriction #{P_1} to #{G_1\times G_2} is algebrisable.
+          We can conclude by showing that a trivialisation of #{P_1} on #{X_1\times G_2} (resp. #{G_1\times X_2}) is automatically algebraic: #{P_1} can be thought of as an extension of #{X_1\otimes G_2} by #{\Gm}, which allows us to reduce to showing that
+          ##{
+            \Ext^i(G_1,\Gm)
+            \simto \Ext^i(G_1^\an,\Gm)
+            \qquad\text{for }i=1,2.
+          }
+          This follows from the same claim for an abelian variety (GAGA) and for #{\Gm}.
+        }
+
+        \p{
+          By \ref{hodge-theory-iii-10.2.3.9}, #{\Biext^1(M_1,M_2;\Gm)} can be identified with the set of
+          ##{
+            \psi\colon
+            T_\ZZ(M_1)\otimes T_\ZZ(M_2)
+            \to \ZZ(1)
+          }
+          such that
+
+          \olc{
+            \lic{(a)}{
+              #{\psi} is compatible with the Hodge filtration (\ref{hodge-theory-iii-10.2.3.8}); and
+            }
+            \lic{(b)}{
+              the restriction of #{\psi} to #{W_{-1}T_\ZZ(M_1)\otimes W_{-1}T_\ZZ(M_2)} comes from a form on
+              ##{
+                \Gr_{-1}^WT_\ZZ(M_1)\otimes\Gr_{-1}^WT_\ZZ(M_2).
+              }
+            }
+          }
+        }
+
+        \p{
+          Condition (b) implies that #{\psi} is compatible with #{W}, and this concludes \ref{hodge-theory-iii-10.2.3}.
+        }
       }
     }
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.4]{
+  \taxon{remark}
+  \number{10.2.4}
+
+  \p{
+    A
   }
 }
