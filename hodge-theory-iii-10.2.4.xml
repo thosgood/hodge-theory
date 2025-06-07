@@ -2,19 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2054</fr:anchor>
-    <fr:addr type="user">hodge-theory-iii-10.2.3.8</fr:addr>
-    <fr:route>hodge-theory-iii-10.2.3.8.xml</fr:route>
+    <fr:anchor>2063</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-10.2.4</fr:addr>
+    <fr:route>hodge-theory-iii-10.2.4.xml</fr:route>
+    <fr:taxon>Remark</fr:taxon>
     <fr:authors />
-    <fr:number>10.2.3.8</fr:number>
+    <fr:number>10.2.4</fr:number>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>For the 1-motives <fr:tex display="inline"><![CDATA[M_i]]></fr:tex>, we have quasi-isomorphisms
-        <fr:tex display="block"><![CDATA[           \begin {CD}             T_\mathbb {Z}(M_i)\oplus  F^0T_\mathbb {C}(M_i) @>>> T_\mathbb {Z}(M_i) @>>> X_i           \\@VVV @VVV @VVV           \\T_\mathbb {C}(M_i) @>>> \operatorname {Lie}(G_i) @>>> G_i           \end {CD}         ]]></fr:tex>
-        
-        The group <fr:tex display="inline"><![CDATA[\operatorname {Biext}^1(M_1^\mathrm {an},M_2^\mathrm {an};\mathbb {G}_\mathrm {m})]]></fr:tex> can thus be identified with the group of maps
-        <fr:tex display="block"><![CDATA[           \psi \colon  T_\mathbb {Z}(M_1)\otimes  T_\mathbb {Z}(M_2)           \to  \mathbb {Z}(1)         ]]></fr:tex>
-        whose complexification is compatible with the Hodge filtration.</fr:p>
+    <fr:p>A</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -25,14 +21,111 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2055</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-10.2.3</fr:addr>
-            <fr:route>hodge-theory-iii-10.2.3.xml</fr:route>
-            <fr:taxon>Construction</fr:taxon>
+            <fr:anchor>2064</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.2</fr:addr>
+            <fr:route>hodge-theory-iii-10.2.xml</fr:route>
+            <fr:title text="Hodge Theory III › Hodge theory in level  1 › 1-motives and bi-extensions"><fr:link type="local" href="hodge-theory-iii-10.xml" addr="hodge-theory-iii-10" title="Hodge Theory III › Hodge theory in level  1"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:link> › 1-motives and bi-extensions</fr:title>
             <fr:authors />
-            <fr:number>10.2.3</fr:number>
+            <fr:number>10.2</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[M_i=(X_i,A_i,T_i,G_i,u_i)]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be 1-motives over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
+          <fr:mainmatter>
+            <fr:p>The results of this section will not be used elsewhere.
+  We will make use of the notion of biextensions [SGA 7, VII, (2.1)] and of the following generalisation.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2000</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-10.2.1</fr:addr>
+                <fr:route>hodge-theory-iii-10.2.1.xml</fr:route>
+                <fr:authors />
+                <fr:number>10.2.1</fr:number>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[K_i\colon [A_i\to  B_i]]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be complexes of sheaves, concentrated in degrees {0} and <fr:tex display="inline"><![CDATA[-1]]></fr:tex> (in an arbitrary topos).
+    A <fr:em>biextension</fr:em> of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by an abelian sheaf <fr:tex display="inline"><![CDATA[H]]></fr:tex> consists of the following:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        a biextension <fr:tex display="inline"><![CDATA[P]]></fr:tex> of <fr:tex display="inline"><![CDATA[B_1]]></fr:tex> and {B_2} by <fr:tex display="inline"><![CDATA[H]]></fr:tex>, i.e. an <fr:tex display="inline"><![CDATA[H]]></fr:tex>-torsor <fr:tex display="inline"><![CDATA[P]]></fr:tex> over <fr:tex display="inline"><![CDATA[B_1\times  B_2]]></fr:tex>, with <fr:tex display="inline"><![CDATA[P_{b_1b_2}]]></fr:tex> depending biadditively on <fr:tex display="inline"><![CDATA[b_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[b_2]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        a trivialisation (i.e. a biadditive section) of the biextension of <fr:tex display="inline"><![CDATA[B_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[A_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>, given by the inverse image of <fr:tex display="inline"><![CDATA[P]]></fr:tex>;
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        a trivialisation of the biextension of <fr:tex display="inline"><![CDATA[A_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[B_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>, given by the inverse image of <fr:tex display="inline"><![CDATA[P]]></fr:tex>;
+      </html:li>
+
+    </html:ol>
+
+
+    where we demand that the trivialisations in (b) and (c) agree on <fr:tex display="inline"><![CDATA[A_1\times  A_2]]></fr:tex>.</fr:p>
+                <fr:p>We denote by <fr:tex display="inline"><![CDATA[\operatorname {\textbf {Biext}}(K_1,K_2;H)]]></fr:tex> the category of biextensions of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>.
+    This is a Picard category (the objects add).
+    The group <fr:tex display="inline"><![CDATA[\operatorname {Biext}^0(K_1,K_2;H)]]></fr:tex> of automorphisms of an arbitrary biextension of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex> is
+    <fr:tex display="block"><![CDATA[       \operatorname {Biext}^0(K_1,K_2;H)       = \operatorname {Hom}(\operatorname {H}^0(K_1)\otimes \operatorname {H}^0(K_2),H).     ]]></fr:tex>
+    We denote by <fr:tex display="inline"><![CDATA[\operatorname {Biext}^1(K_1,K_2;H)]]></fr:tex> the group of isomorphism classes of biextensions.
+    We can show, as in [SGA 7, VII, (3.6.5)], that
+    <fr:tex display="block"><![CDATA[       \operatorname {Biext}^i(K_1,K_2;H)       = \operatorname {Ext}^i(K_1\overset {\mathrm {L}}{\otimes } K_2;H)       \qquad \text {for }i=0,1.     ]]></fr:tex>
+    From this formula, or by elementary means, we can show that, if <fr:tex display="inline"><![CDATA[K'_i\to  K_i]]></fr:tex> is a quasi-isomorphism (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>), then giving a biextension of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex> is equivalent to giving a biextension of <fr:tex display="inline"><![CDATA[K'_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K'_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>.</fr:p>
+                <fr:p>This also applies to replacing "sheaves" by "algebraic groups" (resp. by "complex analytic groups"): we can interpret these as sheaves on a suitable site.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2001</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-10.2.2</fr:addr>
+                <fr:route>hodge-theory-iii-10.2.2.xml</fr:route>
+                <fr:authors />
+                <fr:number>10.2.2</fr:number>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>In this section, we identity a 1-motive <fr:tex display="inline"><![CDATA[M=(X,T,A,G,u)]]></fr:tex> with a complex concentrated in <fr:em>degrees <fr:tex display="inline"><![CDATA[0]]></fr:tex> and <fr:tex display="inline"><![CDATA[-1]]></fr:tex></fr:em>
+    <fr:tex display="block"><![CDATA[       M\colon  [X\to  G].     ]]></fr:tex>
+    Over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we denote by <fr:tex display="inline"><![CDATA[M^\mathrm {an}]]></fr:tex> the complex of complex analytic groups <fr:tex display="inline"><![CDATA[[X\to  G^\mathrm {an}]]]></fr:tex>.
+    We have the following rigidity result:</fr:p>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>2002</fr:anchor>
+                    <fr:addr type="user">hodge-theory-iii-10.2.2.1</fr:addr>
+                    <fr:route>hodge-theory-iii-10.2.2.1.xml</fr:route>
+                    <fr:taxon>Lemma</fr:taxon>
+                    <fr:authors />
+                    <fr:number>10.2.2.1</fr:number>
+                  </fr:frontmatter>
+                  <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[M_i=(X_i,A_i,T_i,G_i,u_i)]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be 1-motives.
+      Then
+      <fr:tex display="block"><![CDATA[         \operatorname {Biext}^0(M_1,M_2;\mathbb {G}_\mathrm {m})         = 0.       ]]></fr:tex>
+      Over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we similarly have that <fr:tex display="inline"><![CDATA[\operatorname {Biext}^0(M_1^\mathrm {an},M_2^\mathrm {an};\mathbb {G}_\mathrm {m})=0]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2003</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+      <fr:p>Every biadditive morphism <fr:tex display="inline"><![CDATA[G_1\times  G_2\to \mathbb {G}_\mathrm {m}]]></fr:tex> is trivial.</fr:p>
+    </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2004</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-10.2.3</fr:addr>
+                <fr:route>hodge-theory-iii-10.2.3.xml</fr:route>
+                <fr:taxon>Construction</fr:taxon>
+                <fr:authors />
+                <fr:number>10.2.3</fr:number>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[M_i=(X_i,A_i,T_i,G_i,u_i)]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be 1-motives over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
     We have that
     <fr:tex display="block"><![CDATA[       \operatorname {Biext}^1(M_1,M_2;\mathbb {G}_\mathrm {m})       = \operatorname {Hom}(T(M_1)\otimes  T(M_2),\mathbb {Z}(1)).     ]]></fr:tex></fr:p>
   
@@ -194,87 +287,23 @@
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
-          <fr:backmatter />
-        </fr:tree>
-      </fr:mainmatter>
-      <fr:backmatter />
-    </fr:tree>
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-      <fr:frontmatter>
-        <fr:title text="Backlinks">Backlinks</fr:title>
-        <fr:authors />
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-          <fr:frontmatter>
-            <fr:anchor>2056</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-10.2.3.9</fr:addr>
-            <fr:route>hodge-theory-iii-10.2.3.9.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
-            <fr:authors />
-            <fr:number>10.2.3.9</fr:number>
-          </fr:frontmatter>
-          <fr:mainmatter><fr:p>The map <fr:tex display="inline"><![CDATA[\operatorname {Biext}^1(M_1,M_2;\mathbb {G}_\mathrm {m})\to \operatorname {Biext}^1(M_1^\mathrm {an},M_2^\mathrm {an};\mathbb {G}_\mathrm {m})]]></fr:tex> is injective.
-        Its image consists of those biextensions <fr:tex display="inline"><![CDATA[P]]></fr:tex> whose restriction to <fr:tex display="inline"><![CDATA[G_1\times  G_2]]></fr:tex> is the inverse image of a biextension of <fr:tex display="inline"><![CDATA[A_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[A_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>.</fr:p>
-  
-    
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2017</fr:anchor><fr:addr type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-        <fr:p>We have that
-          <fr:tex display="block"><![CDATA[             \begin {aligned}               \operatorname {Biext}^1(A_1,A_2;\mathbb {G}_\mathrm {m})               &\xrightarrow {\sim } \operatorname {Biext}^1(G_1,G_2;\mathbb {G}_\mathrm {m})             \\\operatorname {Biext}^1(A_1,A_2;\mathbb {G}_\mathrm {m})               &\xrightarrow {\sim } \operatorname {Biext}^1(A_1^\mathrm {an},A_2^\mathrm {an};\mathbb {G}_\mathrm {m})             \end {aligned}           ]]></fr:tex>
-          where the former follows from [SGA 7, VIII, (3.5)] and the latter from GAGA.</fr:p>
-
-        <fr:p>Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a biextension of <fr:tex display="inline"><![CDATA[M_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[M_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>.
-          If <fr:tex display="inline"><![CDATA[P^\mathrm {an}]]></fr:tex> is trivial, then:
-
-          
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-            
- <html:li style="list-style-type: &quot;(a) &quot;">
-              The restriction of <fr:tex display="inline"><![CDATA[P]]></fr:tex> to <fr:tex display="inline"><![CDATA[G_1\times  G_2]]></fr:tex> is the image of a biextension <fr:tex display="inline"><![CDATA[P_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[A_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[A_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>;
-              the latter is trivial.
-              If this were not the case, then it would be analytically non-trivial, and would thus give rise to a non-zero bilinear form <fr:tex display="inline"><![CDATA[\psi _0]]></fr:tex>, and the form <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> corresponding to <fr:tex display="inline"><![CDATA[P]]></fr:tex> would be <fr:em>a fortiori</fr:em> non-zero.
-              The restriction of <fr:tex display="inline"><![CDATA[P]]></fr:tex> to <fr:tex display="inline"><![CDATA[G_1\times  G_2]]></fr:tex> is thus trivial (and uniquely trivialisable, even analytically).
-            </html:li>
-
-
-            
- <html:li style="list-style-type: &quot;(b) &quot;">
-              <fr:tex display="inline"><![CDATA[P]]></fr:tex> is thus defined by biadditive maps <fr:tex display="inline"><![CDATA[X_1\times  G_2\to \mathbb {G}_\mathrm {m}]]></fr:tex> and <fr:tex display="inline"><![CDATA[G_1\times  X_2\to \mathbb {G}_\mathrm {m}]]></fr:tex>.
-              These are zero in the analytic category, and thus thus zero, and so <fr:tex display="inline"><![CDATA[P]]></fr:tex> is trivial.
-            </html:li>
-
-          </html:ol></fr:p>
-
-        <fr:p>Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a biextension of <fr:tex display="inline"><![CDATA[M_1^\mathrm {an}]]></fr:tex> and <fr:tex display="inline"><![CDATA[M_2^\mathrm {an}]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex> that satisfies the condition <fr:ref addr="hodge-theory-iii-10.2.3.9" href="hodge-theory-iii-10.2.3.9.xml" taxon="Lemma" number="10.2.3.9" />.
-          It remains to prove that <fr:tex display="inline"><![CDATA[P]]></fr:tex> is algebrisable.
-          By hypothesis, and GAGA, its restriction <fr:tex display="inline"><![CDATA[P_1]]></fr:tex> to <fr:tex display="inline"><![CDATA[G_1\times  G_2]]></fr:tex> is algebrisable.
-          We can conclude by showing that a trivialisation of <fr:tex display="inline"><![CDATA[P_1]]></fr:tex> on <fr:tex display="inline"><![CDATA[X_1\times  G_2]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[G_1\times  X_2]]></fr:tex>) is automatically algebraic: <fr:tex display="inline"><![CDATA[P_1]]></fr:tex> can be thought of as an extension of <fr:tex display="inline"><![CDATA[X_1\otimes  G_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>, which allows us to reduce to showing that
-          <fr:tex display="block"><![CDATA[             \operatorname {Ext}^i(G_1,\mathbb {G}_\mathrm {m})             \xrightarrow {\sim } \operatorname {Ext}^i(G_1^\mathrm {an},\mathbb {G}_\mathrm {m})             \qquad \text {for }i=1,2.           ]]></fr:tex>
-          This follows from the same claim for an abelian variety (GAGA) and for <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>.</fr:p>
-
-        <fr:p>By <fr:ref addr="hodge-theory-iii-10.2.3.9" href="hodge-theory-iii-10.2.3.9.xml" taxon="Lemma" number="10.2.3.9" />, <fr:tex display="inline"><![CDATA[\operatorname {Biext}^1(M_1,M_2;\mathbb {G}_\mathrm {m})]]></fr:tex> can be identified with the set of
-          <fr:tex display="block"><![CDATA[             \psi \colon              T_\mathbb {Z}(M_1)\otimes  T_\mathbb {Z}(M_2)             \to  \mathbb {Z}(1)           ]]></fr:tex>
-          such that
-
-          
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-            
- <html:li style="list-style-type: &quot;(a) &quot;">
-              <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is compatible with the Hodge filtration (<fr:ref addr="hodge-theory-iii-10.2.3.8" href="hodge-theory-iii-10.2.3.8.xml" number="10.2.3.8" />); and
-            </html:li>
-
-            
- <html:li style="list-style-type: &quot;(b) &quot;">
-              the restriction of <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> to <fr:tex display="inline"><![CDATA[W_{-1}T_\mathbb {Z}(M_1)\otimes  W_{-1}T_\mathbb {Z}(M_2)]]></fr:tex> comes from a form on
-              <fr:tex display="block"><![CDATA[                 \operatorname {Gr}_{-1}^WT_\mathbb {Z}(M_1)\otimes \operatorname {Gr}_{-1}^WT_\mathbb {Z}(M_2).               ]]></fr:tex>
-            </html:li>
-
-          </html:ol></fr:p>
-
-        <fr:p>Condition (b) implies that <fr:tex display="inline"><![CDATA[\psi ]]></fr:tex> is compatible with <fr:tex display="inline"><![CDATA[W]]></fr:tex>, and this concludes <fr:ref addr="hodge-theory-iii-10.2.3" href="hodge-theory-iii-10.2.3.xml" taxon="Construction" number="10.2.3" />.</fr:p>
-      </fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2018</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-10.2.4</fr:addr>
+                <fr:route>hodge-theory-iii-10.2.4.xml</fr:route>
+                <fr:taxon>Remark</fr:taxon>
+                <fr:authors />
+                <fr:number>10.2.4</fr:number>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>A</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+          </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>

@@ -2,33 +2,20 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3056</fr:anchor>
+    <fr:anchor>3068</fr:anchor>
     <fr:addr type="machine">#256</fr:addr>
     <fr:route>unstable-256.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>We will prove that <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {Gr}_i^W(f^*))=\operatorname {Ker}(\operatorname {Gr}_i^W((f\pi )^*))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+    <fr:p>By <fr:ref addr="hodge-theory-iii-8.2.7" href="hodge-theory-iii-8.2.7.xml" taxon="Proposition" number="8.2.7" />, we have that
+      <fr:tex display="block"><![CDATA[         \operatorname {Ker}(f^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (X,\mathbb {Q}))         = \operatorname {Ker}(q^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})).       ]]></fr:tex>
+      The long exact sequence in cohomology of the pair <fr:tex display="inline"><![CDATA[Y,X]]></fr:tex> thus gives an exact sequence
 
-      
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-        
- <html:li style="list-style-type: &quot;(a) &quot;">
-          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these kernels are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
-        </html:li>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2762</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.2</fr:addr><fr:route>hodge-theory-iii-8.2.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}_c^\bullet (U,\mathbb {Q})           \to  \operatorname {H}^\bullet (Y,\mathbb {Q})           \to  \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \tag{8.2.8.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-        
- <html:li style="list-style-type: &quot;(b) &quot;">
-          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these kernels are both all of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
-        </html:li>
-
-        
- <html:li style="list-style-type: &quot;(a) &quot;">
-          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these kernels are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(\pi ^*)]]></fr:tex> is injective (<fr:ref addr="hodge-theory-iii-8.2.5.2" href="hodge-theory-iii-8.2.5.2.xml" taxon="Equation" number="8.2.5.2" />).
-        </html:li>
-
-      </html:ol></fr:p>
+      and <fr:ref addr="hodge-theory-iii-8.2.8.1" href="hodge-theory-iii-8.2.8.1.xml" taxon="Equation" number="8.2.8.1" /> is the transpose sequence of <fr:ref addr="hodge-theory-iii-8.2.8.2" href="hodge-theory-iii-8.2.8.2.xml" taxon="Equation" number="8.2.8.2" /> under Poincaré duality.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -39,41 +26,33 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3057</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-8.2.7</fr:addr>
-            <fr:route>hodge-theory-iii-8.2.7.xml</fr:route>
-            <fr:taxon>Proposition</fr:taxon>
+            <fr:anchor>3069</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.2.8</fr:addr>
+            <fr:route>hodge-theory-iii-8.2.8.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
             <fr:authors />
-            <fr:number>8.2.7</fr:number>
+            <fr:number>8.2.8</fr:number>
           </fr:frontmatter>
           <fr:mainmatter><fr:p>Let
-    <fr:tex display="block"><![CDATA[       \widetilde {X}       \xrightarrow {\pi } X       \xrightarrow {f} Y     ]]></fr:tex>
+    <fr:tex display="block"><![CDATA[       \widetilde {X}       \xrightarrow {\pi } X       \overset {f}{\hookrightarrow } Y     ]]></fr:tex>
     be morphisms of schemes.
-    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is smooth, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is proper, <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is smooth and proper, and that <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex> is surjective.
-    Then the kernels of <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[(f\pi )^*]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {Q})]]></fr:tex> are equal.</fr:p>
+    Suppose that <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is smooth and proper, that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a closed subscheme of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and that <fr:tex display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is a resolution of singularities of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+    Let <fr:tex display="inline"><![CDATA[q=f\pi ]]></fr:tex> and <fr:tex display="inline"><![CDATA[U=Y\setminus  X]]></fr:tex>.
+    Then the sequence
+
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2760</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.1</fr:addr><fr:route>hodge-theory-iii-8.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \xrightarrow {q_!} \operatorname {H}^\bullet (Y,\mathbb {Q})         \to  \operatorname {H}^\bullet (U,\mathbb {Q})       \tag{8.2.8.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    is exact.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2748</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>We will prove that <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {Gr}_i^W(f^*))=\operatorname {Ker}(\operatorname {Gr}_i^W((f\pi )^*))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2761</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>By <fr:ref addr="hodge-theory-iii-8.2.7" href="hodge-theory-iii-8.2.7.xml" taxon="Proposition" number="8.2.7" />, we have that
+      <fr:tex display="block"><![CDATA[         \operatorname {Ker}(f^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (X,\mathbb {Q}))         = \operatorname {Ker}(q^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})).       ]]></fr:tex>
+      The long exact sequence in cohomology of the pair <fr:tex display="inline"><![CDATA[Y,X]]></fr:tex> thus gives an exact sequence
 
-      
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-        
- <html:li style="list-style-type: &quot;(a) &quot;">
-          For <fr:tex display="inline"><![CDATA[i<n]]></fr:tex>, these kernels are both zero since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})=0]]></fr:tex> ((iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
-        </html:li>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2762</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.2</fr:addr><fr:route>hodge-theory-iii-8.2.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}_c^\bullet (U,\mathbb {Q})           \to  \operatorname {H}^\bullet (Y,\mathbb {Q})           \to  \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \tag{8.2.8.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
-        
- <html:li style="list-style-type: &quot;(b) &quot;">
-          For <fr:tex display="inline"><![CDATA[i>n]]></fr:tex>, these kernels are both all of <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(X,\mathbb {Q})=0]]></fr:tex> ((iii) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
-        </html:li>
-
-        
- <html:li style="list-style-type: &quot;(a) &quot;">
-          For <fr:tex display="inline"><![CDATA[i=n]]></fr:tex>, these kernels are equal since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(\pi ^*)]]></fr:tex> is injective (<fr:ref addr="hodge-theory-iii-8.2.5.2" href="hodge-theory-iii-8.2.5.2.xml" taxon="Equation" number="8.2.5.2" />).
-        </html:li>
-
-      </html:ol></fr:p>
+      and <fr:ref addr="hodge-theory-iii-8.2.8.1" href="hodge-theory-iii-8.2.8.1.xml" taxon="Equation" number="8.2.8.1" /> is the transpose sequence of <fr:ref addr="hodge-theory-iii-8.2.8.2" href="hodge-theory-iii-8.2.8.2.xml" taxon="Equation" number="8.2.8.2" /> under Poincaré duality.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

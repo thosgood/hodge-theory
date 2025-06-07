@@ -2,14 +2,19 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3032</fr:anchor>
+    <fr:anchor>3044</fr:anchor>
     <fr:addr type="machine">#244</fr:addr>
     <fr:route>unstable-244.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>This follows from the definition (<fr:ref addr="hodge-theory-iii-6.1.3.1" href="hodge-theory-iii-6.1.3.1.xml" taxon="Equation" number="6.1.3.1" />) of <fr:tex display="inline"><![CDATA[[P]]]></fr:tex> and from functoriality (<fr:ref addr="hodge-theory-iii-8.3.4" href="hodge-theory-iii-8.3.4.xml" taxon="Definition" number="8.3.4" />).</fr:p>
+    <fr:p>In the spectral sequence <fr:ref addr="hodge-theory-iii-6.1.5" href="hodge-theory-iii-6.1.5.xml" number="6.1.5" />, <fr:tex display="inline"><![CDATA[E^{0,q}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[q>0]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[n>0]]></fr:tex>, the <fr:em>edge homomorphism</fr:em>
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^{2n}(\mathrm {B}_G,\mathbb {Q})         \to  E_1^{1,2n}         = \operatorname {H}^{2n-1}(G,\mathbb {Q})       ]]></fr:tex>
+      is a morphism of mixed Hodge structures (<fr:ref addr="hodge-theory-iii-8.3.5" href="hodge-theory-iii-8.3.5.xml" taxon="Proposition" number="8.3.5" />);
+      its image <fr:tex display="inline"><![CDATA[P^{2n-1}(G)]]></fr:tex> is thus a mixed Hodge substructure, and is pure of type <fr:tex display="inline"><![CDATA[(n,n)]]></fr:tex> by <fr:ref addr="hodge-theory-iii-9.1.1" href="hodge-theory-iii-9.1.1.xml" taxon="Theorem" number="9.1.1" />.
+      The isomorphism <fr:ref addr="hodge-theory-iii-9.1.5.1" href="hodge-theory-iii-9.1.5.1.xml" taxon="Equation" number="9.1.5.1" /> is given by the cup product, and we conclude by <fr:ref addr="hodge-theory-iii-8.2.11" href="hodge-theory-iii-8.2.11.xml" taxon="Corollary" number="8.2.11" />.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -20,21 +25,31 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3033</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-9.1.2</fr:addr>
-            <fr:route>hodge-theory-iii-9.1.2.xml</fr:route>
-            <fr:taxon>Proposition</fr:taxon>
+            <fr:anchor>3045</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-9.1.5</fr:addr>
+            <fr:route>hodge-theory-iii-9.1.5.xml</fr:route>
+            <fr:taxon>Theorem</fr:taxon>
             <fr:authors />
-            <fr:number>9.1.2</fr:number>
+            <fr:number>9.1.5</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be an algebraic group (over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>), and <fr:tex display="inline"><![CDATA[P]]></fr:tex> a (algebraic) principal homogeneous space of group <fr:tex display="inline"><![CDATA[G]]></fr:tex> over a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
-    Then the morphism
-    <fr:tex display="block"><![CDATA[       [P]\colon \operatorname {H}^\bullet (\mathrm {B}_G)=\operatorname {H}^\bullet (\mathrm {B}_{\bullet  G})       \to  \operatorname {H}^\bullet (X)     ]]></fr:tex>
-    is a morphism of mixed Hodge structures.</fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a connected linear algebraic group.
+    Let <fr:tex display="inline"><![CDATA[P^\bullet \subset \operatorname {H}^\bullet (G,\mathbb {Q})]]></fr:tex> be the primitive part of the Hopf algebra <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (G,\mathbb {Q})]]></fr:tex>.
+    It is a mixed Hodge substructure.
+    We have that <fr:tex display="inline"><![CDATA[P^{2i}(G)=0]]></fr:tex>, and <fr:tex display="inline"><![CDATA[P^{2i-1}(G)]]></fr:tex> is pure of type <fr:tex display="inline"><![CDATA[(i,i)]]></fr:tex>.
+    Finally, the isomorphism
+    
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2331</fr:anchor><fr:addr type="user">hodge-theory-iii-9.1.5.1</fr:addr><fr:route>hodge-theory-iii-9.1.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>9.1.5.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \bigwedge  P^\bullet (G)         \to  \operatorname {H}^\bullet (G,\mathbb {Q})       \tag{9.1.5.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    is an isomorphism of mixed Hodge structures.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2304</fr:anchor><fr:addr type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>This follows from the definition (<fr:ref addr="hodge-theory-iii-6.1.3.1" href="hodge-theory-iii-6.1.3.1.xml" taxon="Equation" number="6.1.3.1" />) of <fr:tex display="inline"><![CDATA[[P]]]></fr:tex> and from functoriality (<fr:ref addr="hodge-theory-iii-8.3.4" href="hodge-theory-iii-8.3.4.xml" taxon="Definition" number="8.3.4" />).</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2332</fr:anchor><fr:addr type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>In the spectral sequence <fr:ref addr="hodge-theory-iii-6.1.5" href="hodge-theory-iii-6.1.5.xml" number="6.1.5" />, <fr:tex display="inline"><![CDATA[E^{0,q}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[q>0]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[n>0]]></fr:tex>, the <fr:em>edge homomorphism</fr:em>
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^{2n}(\mathrm {B}_G,\mathbb {Q})         \to  E_1^{1,2n}         = \operatorname {H}^{2n-1}(G,\mathbb {Q})       ]]></fr:tex>
+      is a morphism of mixed Hodge structures (<fr:ref addr="hodge-theory-iii-8.3.5" href="hodge-theory-iii-8.3.5.xml" taxon="Proposition" number="8.3.5" />);
+      its image <fr:tex display="inline"><![CDATA[P^{2n-1}(G)]]></fr:tex> is thus a mixed Hodge substructure, and is pure of type <fr:tex display="inline"><![CDATA[(n,n)]]></fr:tex> by <fr:ref addr="hodge-theory-iii-9.1.1" href="hodge-theory-iii-9.1.1.xml" taxon="Theorem" number="9.1.1" />.
+      The isomorphism <fr:ref addr="hodge-theory-iii-9.1.5.1" href="hodge-theory-iii-9.1.5.1.xml" taxon="Equation" number="9.1.5.1" /> is given by the cup product, and we conclude by <fr:ref addr="hodge-theory-iii-8.2.11" href="hodge-theory-iii-8.2.11.xml" taxon="Corollary" number="8.2.11" />.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

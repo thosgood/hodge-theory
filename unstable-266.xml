@@ -2,24 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3392</fr:anchor>
+    <fr:anchor>3086</fr:anchor>
     <fr:addr type="machine">#266</fr:addr>
     <fr:route>unstable-266.xml</fr:route>
-    <fr:title text="[Hodge-theory-iii-5.2.1] › Geometric realisation"><fr:link type="local" href="hodge-theory-iii-5.2.1.xml" addr="hodge-theory-iii-5.2.1">Untitled</fr:link> › Geometric realisation</fr:title>
+    <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>For an integer <fr:tex display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
-      We identify <fr:tex display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
-      Every function <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
-      Let
-      <fr:tex display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
-      Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
-      <fr:tex display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
-      The <fr:em>geometric realisation</fr:em> of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
-      <fr:tex display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p>
-  </fr:mainmatter>
+      <fr:p>Every biadditive morphism <fr:tex display="inline"><![CDATA[G_1\times  G_2\to \mathbb {G}_\mathrm {m}]]></fr:tex> is trivial.</fr:p>
+    </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -29,44 +20,24 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3393</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-5.2.1</fr:addr>
-            <fr:route>hodge-theory-iii-5.2.1.xml</fr:route>
+            <fr:anchor>3087</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.2.2.1</fr:addr>
+            <fr:route>hodge-theory-iii-10.2.2.1.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>5.2.1</fr:number>
+            <fr:number>10.2.2.1</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>To each simplicial topological space <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is associated a usual topological space <fr:tex display="inline"><![CDATA[|X_\bullet |]]></fr:tex>, called its geometric realisation (see below).
-    In the particular case where the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex> are discrete, we recover the usual notion of geometric realisation of a simplicial set.</fr:p>
-            <fr:p>In [<fr:link type="local" href="S1968.xml" addr="S1968" title="Classifying spaces and spectral sequences">S1968</fr:link>], G. Segal defined the cohomology of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> with values in an abelian group <fr:tex display="inline"><![CDATA[A]]></fr:tex> as <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (|X_\bullet |,A)]]></fr:tex>.
-    Under suitable hypotheses, the filtration of <fr:tex display="inline"><![CDATA[|X_\bullet |]]></fr:tex> by successive skeletons gives a spectral sequence
-
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>443</fr:anchor><fr:addr type="user">hodge-theory-iii-5.2.1.1</fr:addr><fr:route>hodge-theory-iii-5.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>5.2.1.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         E_1^{pq}         = \operatorname {H}^q(X_p,A)         \Rightarrow  \operatorname {H}^{p+q}(X_\bullet ,A).       \tag{5.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
-            <fr:p>One of the interests in using this definition is that it also applies, for example, to the definition of the groups <fr:tex display="inline"><![CDATA[K(X_\bullet )]]></fr:tex>.
-    We will adopt another definition, which is better adapted to sheaf-theoretic techniques.</fr:p>
-            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-              <fr:frontmatter>
-                <fr:anchor>444</fr:anchor>
-                <fr:addr type="machine">#266</fr:addr>
-                <fr:route>unstable-266.xml</fr:route>
-                <fr:title text="Geometric realisation">Geometric realisation</fr:title>
-                <fr:authors />
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>For an integer <fr:tex display="inline"><![CDATA[n\geqslant 0]]></fr:tex>, we denote by <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex> the simple in <fr:tex display="inline"><![CDATA[\mathbb {R}^{\Delta _n}]]></fr:tex> whose vertices are the set of basis vectors.
-      We identify <fr:tex display="inline"><![CDATA[\Delta _n]]></fr:tex> with the set of vertices of <fr:tex display="inline"><![CDATA[|\Delta _n|]]></fr:tex>.
-      Every function <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> extends by linearity to <fr:tex display="inline"><![CDATA[|f|\colon |\Delta _n|\to |\Delta _m|]]></fr:tex>.</fr:p>
-                <fr:p>Let <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> be a simplicial topological space.
-      Let
-      <fr:tex display="block"><![CDATA[         Y=\coprod _{n\geqslant 0}(X_n\times |\Delta _n|).       ]]></fr:tex>
-      Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be the finest equivalence relation on <fr:tex display="inline"><![CDATA[Y]]></fr:tex> for which, for any <fr:tex display="inline"><![CDATA[f\colon \Delta _n\to \Delta _m]]></fr:tex> in <fr:tex display="inline"><![CDATA[(\Delta )]]></fr:tex>, any <fr:tex display="inline"><![CDATA[x_m\in  X_m]]></fr:tex>, and any <fr:tex display="inline"><![CDATA[a\in |\Delta _n|]]></fr:tex>, we have
-      <fr:tex display="block"><![CDATA[         (x_m,|f|(a))         \equiv  (f(x_m),a)         \operatorname {mod} R.       ]]></fr:tex>
-      The <fr:em>geometric realisation</fr:em> of <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> is by definition
-      <fr:tex display="block"><![CDATA[         |X_\bullet |         = Y/R.       ]]></fr:tex></fr:p>
-              </fr:mainmatter>
-              <fr:backmatter />
-            </fr:tree>
-          </fr:mainmatter>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[M_i=(X_i,A_i,T_i,G_i,u_i)]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be 1-motives.
+      Then
+      <fr:tex display="block"><![CDATA[         \operatorname {Biext}^0(M_1,M_2;\mathbb {G}_\mathrm {m})         = 0.       ]]></fr:tex>
+      Over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we similarly have that <fr:tex display="inline"><![CDATA[\operatorname {Biext}^0(M_1^\mathrm {an},M_2^\mathrm {an};\mathbb {G}_\mathrm {m})=0]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2003</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+      <fr:p>Every biadditive morphism <fr:tex display="inline"><![CDATA[G_1\times  G_2\to \mathbb {G}_\mathrm {m}]]></fr:tex> is trivial.</fr:p>
+    </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
