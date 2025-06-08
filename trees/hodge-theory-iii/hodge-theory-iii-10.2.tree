@@ -397,6 +397,98 @@
   \number{10.2.4}
 
   \p{
-    A
+    A biextension #{P} of #{M_1} and #{M_2} by #{\Gm} defines, in an evident way, a biextension #{P^0} of #{M_2} and #{M_1} by #{\Gm}.
+    \oldpage{64}
+    If #{\psi} (resp. #{\psi^0}) is the bilinear form defined by #{P} (resp. by #{P^0}), then #{\psi(x,y)=-\psi^0(y,x)}.
+    This is clear from the equations in \ref{hodge-theory-iii-10.2.3.7}.
+  }
+
+  \p{
+    \ref{hodge-theory-iii-10.2.3} has purely algebraic analogues in #{\ell}-adic or de Rham cohomology.
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.5]{
+  \taxon{construction}
+  \number{10.2.5}
+
+  \p{
+    Let #{M_i=(X_i,A_i,T_i,G_i,u_i)} (for #{i=1,2}) be 1-motives over an algebraically closed field #{k} of characteristic 0.
+    Let #{P} be a biextension of #{M_1} and #{M_2} by #{\Gm}.
+    We associate to #{P} a morphism
+    ##{
+      T_{\ZZ{/}n\ZZ}(M_1)\otimes T_{\ZZ{/}n\ZZ}(M_2)
+      \to \ZZ{/}n\ZZ(1).
+    }
+  }
+
+  \proof{
+    \p{
+      Let #{m_i\in T_{\ZZ{/}n\ZZ}(M_1)} be represented by #{(x_i,g_i)}, with #{u_i(x_i)=ng_i}.
+      We will construct isomorphisms #{a_1} and #{a_2} from #{P_{g_1,g_2}^{\otimes n}} to the trivial torsor #{\Gm}:
+      ##{
+        \begin{aligned}
+          a_1\colon P_{g_1,g_2}^{\otimes n}
+          \simto P_{ng_1,g_2}
+          &= P_{u(x_1),g_2}
+          \simto \Gm
+        \\a_2\colon P_{g_1,g_2}^{\otimes n}
+          \simto P_{g_1,ng_2}
+          &= P_{g_1,u(x_2)}
+          \simto \Gm.
+        \end{aligned}
+      }
+      We set #{a_2=\Phi(m_1,m_2)a_1}.
+      We can verify that #{\Phi(m_1,m_2)} does not depend on the choice of the #{(x_i,g_i)}, and is an #{n}-th root of unity.
+      This is the desired form.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.6]{
+  \taxon{proposition}
+  \number{10.2.6}
+
+  \p{
+    On #{\CC}, the form in \ref{hodge-theory-iii-10.2.5} is induced by the form in \ref{hodge-theory-iii-10.2.3} by reduction modulo #{n}.
+  }
+
+  \proof{
+    \p{
+      This can be proven by using the formulas given in \ref{hodge-theory-iii-10.2.3.7}.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.7]{
+  \taxon{construction}
+  \number{10.2.7}
+
+  \p{
+    Let #{M_i=(X_i,A_i,T_i,G_i,u_i)} (for #{i=1,2}) be 1-motives over an algebraically closed field #{k}.
+    Let #{P} be a biextension of #{M_1} and #{M_2} by #{\Gm}.
+    We associate to #{P} a morphism
+    ##{
+      T_\DR(M_1)\otimes_k T_\DR(M_2)
+      \to k.
+    }
+  }
+
+  \proof{
+    We first recall the definitions (due to Grothendieck) of #{\natural}-extensions and biextensions.
+
+    \subtree[hodge-theory-iii-10.2.7.1]{
+      \number{10.2.7.1}
+    
+      \p{
+        A #{\natural}-extension of a smooth commutative group #{G} by a smooth commutative group #{H} consists of the following:
+
+        \olc{
+          \lic{(a)}{
+            an extension
+          }
+        }
+      }
+    }
   }
 }
