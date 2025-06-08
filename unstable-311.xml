@@ -2,35 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3176</fr:anchor>
+    <fr:anchor>3204</fr:anchor>
     <fr:addr type="machine">#311</fr:addr>
     <fr:route>unstable-311.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>We will prove by induction on <fr:tex display="inline"><![CDATA[k]]></fr:tex> the following claim:</fr:p>
+    <fr:p>We will prove the theorem by induction on <fr:tex display="inline"><![CDATA[r_0]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[r_0=0]]></fr:tex>, the hypothesis is empty, and we apply <fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />.
+      For <fr:tex display="inline"><![CDATA[r_0\geqslant 1]]></fr:tex>, by the inductive hypothesis, we have <fr:tex display="inline"><![CDATA[F_d=F_r=F_{d^*}]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex> for <fr:tex display="inline"><![CDATA[r\leqslant  r_0]]></fr:tex>.</fr:p>
 
-    <fr:p><fr:em>The projection from <fr:tex display="inline"><![CDATA[W^n(A)/W^{n+k}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism from
-        <fr:tex display="block"><![CDATA[           \begin {aligned}             \Bigg [             &\left ( \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A)) + W^{n+k}(A) \right )           \\\cap              &\left ( \sum _{i<k} (W^{n+i}(A)\cap \overline {F}^{q_i}(A)) + W^{n+k}(A) \right )             \Bigg ] / W^{n+k}(A)           \end {aligned}           \tag{$*_k$}         ]]></fr:tex>
-        to <fr:tex display="inline"><![CDATA[A^{p,q}\subset \operatorname {Gr}_W^n(A)]]></fr:tex>.</fr:em></fr:p>
+    <fr:p>By <fr:ref addr="hodge-theory-ii-1.3.15" href="hodge-theory-ii-1.3.15.xml" taxon="Lemma" number="1.3.15" />, the morphism <fr:tex display="inline"><![CDATA[u\colon  E_0(\operatorname {Dec}(K))\to  E_1(K)]]></fr:tex> is a filtered quasi-isomorphism.
+      It thus induces a filtered isomorphism from <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\operatorname {Dec}(K))]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (E_1(K))]]></fr:tex>:
+      <fr:tex display="block"><![CDATA[         u\colon  (E_1(\operatorname {Dec}(K)),F_r)         \xrightarrow {\sim } (E_2(K),F_r).       ]]></fr:tex>
+      Step-by-step, we thus deduce that the canonical isomorphism from <fr:tex display="inline"><![CDATA[E_s(\operatorname {Dec}(K))]]></fr:tex> to <fr:tex display="inline"><![CDATA[E_{s+1}]]></fr:tex> (for <fr:tex display="inline"><![CDATA[s\geqslant 1]]></fr:tex>) is a filtered isomorphism for the recurrent filtration.</fr:p>
 
-    <fr:p>For <fr:tex display="inline"><![CDATA[k=1]]></fr:tex>, this is exactly the definition of <fr:tex display="inline"><![CDATA[A^{p,q}]]></fr:tex>.</fr:p>
+    <fr:p>On <fr:tex display="inline"><![CDATA[E_1(\operatorname {Dec}(K))]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_r=F_d]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" />), and we already know (<fr:ref addr="hodge-theory-ii-1.3.14" href="hodge-theory-ii-1.3.14.xml" number="1.3.14" />) that <fr:tex display="inline"><![CDATA[u']]></fr:tex> is a filtered isomorphism
+      <fr:tex display="block"><![CDATA[         u'\colon  (E_1(\operatorname {Dec}(K)),F_d)         \xrightarrow {\sim } (E_2(K),F_d).       ]]></fr:tex></fr:p>
 
-    <fr:p>By (i) of <fr:ref addr="hodge-theory-ii-1.2.5" href="hodge-theory-ii-1.2.5.xml" taxon="Proposition" number="1.2.5" /> we have
+    <fr:p>On <fr:tex display="inline"><![CDATA[E_2(K)]]></fr:tex>, we thus have <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex>.
+      This, combined with the dual result, proves the theorem for <fr:tex display="inline"><![CDATA[r_0=1]]></fr:tex>.</fr:p>
 
-      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>729</fr:anchor><fr:addr type="user">hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.8.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \overline {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-      Set
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           B &= \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A))         \\C &= \sum _{i<k} (W^{n+i}(A)\cap \overline {F}^{q_i}(A))         \\B' &= (W^{n+k}(A)\cap  F^{p_k}(A)) + W^{n+k+1}(A)         \\C' &= (W^{n+k}(A)\cap \overline {F}^{q_k}(A)) + W^{n+k+1}(A)         \\D &= W^{n+k}(A)         \\E &= W^{n+k+1}(A).         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:p>Suppose that <fr:tex display="inline"><![CDATA[r_0\geqslant 2]]></fr:tex>.
+      Then the arrows <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of <fr:tex display="inline"><![CDATA[E_1(K)]]></fr:tex> are strictly compatible with the filtrations, and thus so too are the arrows <fr:tex display="inline"><![CDATA[d_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[E_0(\operatorname {Dec}(K))]]></fr:tex> (indeed, <fr:tex display="inline"><![CDATA[u]]></fr:tex> induces an isomorphism of spectral sequences, and we apply the criterion from <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).</fr:p>
 
-    <fr:p><fr:ref addr="hodge-theory-ii-1.2.8.1" href="hodge-theory-ii-1.2.8.1.xml" taxon="Equation" number="1.2.8.1" /> can then be written as
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           B'+C' &= D         \\B'\cap  C' &= E.         \end {aligned}       ]]></fr:tex>
-      We also have, since <fr:tex display="inline"><![CDATA[p_k\leqslant  p_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
-      <fr:tex display="block"><![CDATA[         B\cap  D         \subset  F^{p_k}(A) \cap  W^{n+k}(A)         \subset  B'       ]]></fr:tex>
-      and, since <fr:tex display="inline"><![CDATA[q_k\leqslant  q_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
-      <fr:tex display="block"><![CDATA[         C\cap  D         \subset  \overline {F}^{q_k}(A)\cap  W^{n+k}(A)         \subset  C'.       ]]></fr:tex></fr:p>
+    <fr:p>For <fr:tex display="inline"><![CDATA[0<s<r_0-1]]></fr:tex>, the isomorphism <fr:tex display="inline"><![CDATA[(E_s(\operatorname {Dec}(K)),F_r)\cong (E_{s+1}(K),F_r)]]></fr:tex> shows that the <fr:tex display="inline"><![CDATA[d_s]]></fr:tex> are strictly compatible with the recurrent filtrations.</fr:p>
 
-    <fr:p>The claim (<fr:tex display="inline"><![CDATA[*_{k+1}]]></fr:tex>) and then follows from (<fr:tex display="inline"><![CDATA[*_k]]></fr:tex>) and the following lemma.</fr:p>
+    <fr:p>By the induction hypothesis, we thus have <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_s(\operatorname {Dec}(K))]]></fr:tex> for <fr:tex display="inline"><![CDATA[s\leqslant  s_0]]></fr:tex>.
+      The isomorphism <fr:tex display="inline"><![CDATA[(E_s(\operatorname {Dec}(K)),F_d)\cong (E_{s+1}(K),F_d)]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />) then shows that <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r(K)]]></fr:tex> for <fr:tex display="inline"><![CDATA[r\leqslant  r_0+1]]></fr:tex>.
+      This, combined with the dual result, proves the theorem.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -41,59 +42,42 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3177</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-1.2.8</fr:addr>
-            <fr:route>hodge-theory-ii-1.2.8.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
+            <fr:anchor>3205</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.3.16</fr:addr>
+            <fr:route>hodge-theory-ii-1.3.16.xml</fr:route>
+            <fr:taxon>Theorem</fr:taxon>
             <fr:authors />
-            <fr:number>1.2.8</fr:number>
+            <fr:number>1.3.16</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[W]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> be three finite opposite filtrations, and <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex> a sequence <fr:tex display="inline"><![CDATA[(p_i,q_i)_{i\geqslant 0}]]></fr:tex> pairs of integers satisfying
-
-    
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li style="list-style-type: &quot;(a) &quot;">
-        <fr:tex display="inline"><![CDATA[p_i\leqslant  p_j]]></fr:tex> and <fr:tex display="inline"><![CDATA[q_i\leqslant  q_j]]></fr:tex> for <fr:tex display="inline"><![CDATA[i\geqslant  j]]></fr:tex>, and
-      </html:li>
-
-      
- <html:li style="list-style-type: &quot;(b) &quot;">
-        <fr:tex display="inline"><![CDATA[p_i+q_i=p_0+q_0-i+1]]></fr:tex> for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>.
-      </html:li>
-
-    </html:ol>
-
-
-    Set <fr:tex display="inline"><![CDATA[p=p_0]]></fr:tex>, <fr:tex display="inline"><![CDATA[q=q_0]]></fr:tex>, <fr:tex display="inline"><![CDATA[n=-p-q]]></fr:tex>, and
-    <fr:tex display="block"><![CDATA[       A_\sigma        = \left ( \sum _{0\leqslant  i}(W^{n+i}(A)\cap  F^{p_i}(A)) \right )       \cap  \left ( \sum _{0\leqslant  i}(W^{n+i}(A)\cap \overline {F}^{q_i}(A)) \right ).     ]]></fr:tex>
-    Then the projection from <fr:tex display="inline"><![CDATA[W^n(A)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism
-    <fr:tex display="block"><![CDATA[       A_\sigma        \xrightarrow {\sim } A^{p,q} \subset  \operatorname {Gr}_W^n(A).     ]]></fr:tex></fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be a complex endowed with two filtrations, <fr:tex display="inline"><![CDATA[W]]></fr:tex> and <fr:tex display="inline"><![CDATA[F]]></fr:tex>, with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> biregular.
+    Let <fr:tex display="inline"><![CDATA[r_0\geqslant 0]]></fr:tex> be an integer, and suppose that, for <fr:tex display="inline"><![CDATA[0\leqslant  r<r_0]]></fr:tex>, the differentials of the graded complex <fr:tex display="inline"><![CDATA[E_r(K,W)]]></fr:tex> are strictly compatible with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+    Then, for <fr:tex display="inline"><![CDATA[r\leqslant  r_0+1]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_d=F_r=F_{d^*}]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>728</fr:anchor><fr:addr type="machine">#311</fr:addr><fr:route>unstable-311.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>We will prove by induction on <fr:tex display="inline"><![CDATA[k]]></fr:tex> the following claim:</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>887</fr:anchor><fr:addr type="machine">#311</fr:addr><fr:route>unstable-311.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>We will prove the theorem by induction on <fr:tex display="inline"><![CDATA[r_0]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[r_0=0]]></fr:tex>, the hypothesis is empty, and we apply <fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />.
+      For <fr:tex display="inline"><![CDATA[r_0\geqslant 1]]></fr:tex>, by the inductive hypothesis, we have <fr:tex display="inline"><![CDATA[F_d=F_r=F_{d^*}]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex> for <fr:tex display="inline"><![CDATA[r\leqslant  r_0]]></fr:tex>.</fr:p>
 
-    <fr:p><fr:em>The projection from <fr:tex display="inline"><![CDATA[W^n(A)/W^{n+k}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {Gr}_W^n(A)]]></fr:tex> induces an isomorphism from
-        <fr:tex display="block"><![CDATA[           \begin {aligned}             \Bigg [             &\left ( \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A)) + W^{n+k}(A) \right )           \\\cap              &\left ( \sum _{i<k} (W^{n+i}(A)\cap \overline {F}^{q_i}(A)) + W^{n+k}(A) \right )             \Bigg ] / W^{n+k}(A)           \end {aligned}           \tag{$*_k$}         ]]></fr:tex>
-        to <fr:tex display="inline"><![CDATA[A^{p,q}\subset \operatorname {Gr}_W^n(A)]]></fr:tex>.</fr:em></fr:p>
+    <fr:p>By <fr:ref addr="hodge-theory-ii-1.3.15" href="hodge-theory-ii-1.3.15.xml" taxon="Lemma" number="1.3.15" />, the morphism <fr:tex display="inline"><![CDATA[u\colon  E_0(\operatorname {Dec}(K))\to  E_1(K)]]></fr:tex> is a filtered quasi-isomorphism.
+      It thus induces a filtered isomorphism from <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\operatorname {Dec}(K))]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (E_1(K))]]></fr:tex>:
+      <fr:tex display="block"><![CDATA[         u\colon  (E_1(\operatorname {Dec}(K)),F_r)         \xrightarrow {\sim } (E_2(K),F_r).       ]]></fr:tex>
+      Step-by-step, we thus deduce that the canonical isomorphism from <fr:tex display="inline"><![CDATA[E_s(\operatorname {Dec}(K))]]></fr:tex> to <fr:tex display="inline"><![CDATA[E_{s+1}]]></fr:tex> (for <fr:tex display="inline"><![CDATA[s\geqslant 1]]></fr:tex>) is a filtered isomorphism for the recurrent filtration.</fr:p>
 
-    <fr:p>For <fr:tex display="inline"><![CDATA[k=1]]></fr:tex>, this is exactly the definition of <fr:tex display="inline"><![CDATA[A^{p,q}]]></fr:tex>.</fr:p>
+    <fr:p>On <fr:tex display="inline"><![CDATA[E_1(\operatorname {Dec}(K))]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_r=F_d]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" />), and we already know (<fr:ref addr="hodge-theory-ii-1.3.14" href="hodge-theory-ii-1.3.14.xml" number="1.3.14" />) that <fr:tex display="inline"><![CDATA[u']]></fr:tex> is a filtered isomorphism
+      <fr:tex display="block"><![CDATA[         u'\colon  (E_1(\operatorname {Dec}(K)),F_d)         \xrightarrow {\sim } (E_2(K),F_d).       ]]></fr:tex></fr:p>
 
-    <fr:p>By (i) of <fr:ref addr="hodge-theory-ii-1.2.5" href="hodge-theory-ii-1.2.5.xml" taxon="Proposition" number="1.2.5" /> we have
+    <fr:p>On <fr:tex display="inline"><![CDATA[E_2(K)]]></fr:tex>, we thus have <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex>.
+      This, combined with the dual result, proves the theorem for <fr:tex display="inline"><![CDATA[r_0=1]]></fr:tex>.</fr:p>
 
-      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>729</fr:anchor><fr:addr type="user">hodge-theory-ii-1.2.8.1</fr:addr><fr:route>hodge-theory-ii-1.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2.8.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           F^{p_k}(\operatorname {Gr}_W^{n+k}(A)) \oplus  \overline {F}^{q_k}(\operatorname {Gr}_W^{n+k}(A))           \xrightarrow {\sim } \operatorname {Gr}_W^{n+k}(A).         \tag{1.2.8.1}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-      Set
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           B &= \sum _{i<k} (W^{n+i}(A)\cap  F^{p_i}(A))         \\C &= \sum _{i<k} (W^{n+i}(A)\cap \overline {F}^{q_i}(A))         \\B' &= (W^{n+k}(A)\cap  F^{p_k}(A)) + W^{n+k+1}(A)         \\C' &= (W^{n+k}(A)\cap \overline {F}^{q_k}(A)) + W^{n+k+1}(A)         \\D &= W^{n+k}(A)         \\E &= W^{n+k+1}(A).         \end {aligned}       ]]></fr:tex></fr:p>
+    <fr:p>Suppose that <fr:tex display="inline"><![CDATA[r_0\geqslant 2]]></fr:tex>.
+      Then the arrows <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of <fr:tex display="inline"><![CDATA[E_1(K)]]></fr:tex> are strictly compatible with the filtrations, and thus so too are the arrows <fr:tex display="inline"><![CDATA[d_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[E_0(\operatorname {Dec}(K))]]></fr:tex> (indeed, <fr:tex display="inline"><![CDATA[u]]></fr:tex> induces an isomorphism of spectral sequences, and we apply the criterion from <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).</fr:p>
 
-    <fr:p><fr:ref addr="hodge-theory-ii-1.2.8.1" href="hodge-theory-ii-1.2.8.1.xml" taxon="Equation" number="1.2.8.1" /> can then be written as
-      <fr:tex display="block"><![CDATA[         \begin {aligned}           B'+C' &= D         \\B'\cap  C' &= E.         \end {aligned}       ]]></fr:tex>
-      We also have, since <fr:tex display="inline"><![CDATA[p_k\leqslant  p_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
-      <fr:tex display="block"><![CDATA[         B\cap  D         \subset  F^{p_k}(A) \cap  W^{n+k}(A)         \subset  B'       ]]></fr:tex>
-      and, since <fr:tex display="inline"><![CDATA[q_k\leqslant  q_i]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i\leqslant  k]]></fr:tex>),
-      <fr:tex display="block"><![CDATA[         C\cap  D         \subset  \overline {F}^{q_k}(A)\cap  W^{n+k}(A)         \subset  C'.       ]]></fr:tex></fr:p>
+    <fr:p>For <fr:tex display="inline"><![CDATA[0<s<r_0-1]]></fr:tex>, the isomorphism <fr:tex display="inline"><![CDATA[(E_s(\operatorname {Dec}(K)),F_r)\cong (E_{s+1}(K),F_r)]]></fr:tex> shows that the <fr:tex display="inline"><![CDATA[d_s]]></fr:tex> are strictly compatible with the recurrent filtrations.</fr:p>
 
-    <fr:p>The claim (<fr:tex display="inline"><![CDATA[*_{k+1}]]></fr:tex>) and then follows from (<fr:tex display="inline"><![CDATA[*_k]]></fr:tex>) and the following lemma.</fr:p>
+    <fr:p>By the induction hypothesis, we thus have <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_s(\operatorname {Dec}(K))]]></fr:tex> for <fr:tex display="inline"><![CDATA[s\leqslant  s_0]]></fr:tex>.
+      The isomorphism <fr:tex display="inline"><![CDATA[(E_s(\operatorname {Dec}(K)),F_d)\cong (E_{s+1}(K),F_d)]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />) then shows that <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r(K)]]></fr:tex> for <fr:tex display="inline"><![CDATA[r\leqslant  r_0+1]]></fr:tex>.
+      This, combined with the dual result, proves the theorem.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

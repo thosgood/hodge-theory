@@ -2,18 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3134</fr:anchor>
+    <fr:anchor>3162</fr:anchor>
     <fr:addr type="machine">#290</fr:addr>
     <fr:route>unstable-290.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[X_s=f^{-1}(s)]]></fr:tex>.
-      If <fr:tex display="inline"><![CDATA[S]]></fr:tex> is smooth, and if <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is a smooth compactification of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then, by <fr:ref addr="hodge-theory-ii-4.1.1" href="hodge-theory-ii-4.1.1.xml" taxon="Theorem" number="4.1.1" />, the subspace <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> of <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex>.
-      Since the restriction map
-      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(\overline {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       ]]></fr:tex>
-      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>, given by the quotient of that on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex>, is independent of <fr:tex display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex>, <fr:tex display="inline"><![CDATA[G']]></fr:tex>, and <fr:tex display="inline"><![CDATA[G'']]></fr:tex> be the groups defined by <fr:tex display="inline"><![CDATA[V]]></fr:tex>, <fr:tex display="inline"><![CDATA[V']]></fr:tex>, and <fr:tex display="inline"><![CDATA[V'']]></fr:tex>, respectively.
+      Then <fr:tex display="inline"><![CDATA[V']]></fr:tex> is stable under <fr:tex display="inline"><![CDATA[G]]></fr:tex>, just as it is under <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex>, whence a morphism
+      <fr:tex display="block"><![CDATA[         u         = (u',u'')\colon  G\to  G'\times  G''       ]]></fr:tex>
+      with unipotent kernel, and such that <fr:tex display="inline"><![CDATA[u']]></fr:tex> and <fr:tex display="inline"><![CDATA[u'']]></fr:tex> are surjective.
+      Let <fr:tex display="inline"><![CDATA[N]]></fr:tex> be the identity component of the kernel of <fr:tex display="inline"><![CDATA[u'']]></fr:tex>.
+      Since <fr:tex display="inline"><![CDATA[u']]></fr:tex> is surjective, <fr:tex display="inline"><![CDATA[u'(N)]]></fr:tex> is distinguished in <fr:tex display="inline"><![CDATA[G']]></fr:tex>, and thus does not admit any quotient of multiplicative type.
+      
+      If <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is a character of <fr:tex display="inline"><![CDATA[G^0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> factors through <fr:tex display="inline"><![CDATA[u(G^0)]]></fr:tex> and vanishes on <fr:tex display="inline"><![CDATA[N]]></fr:tex>;
+      then a power of <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> factors through <fr:tex display="inline"><![CDATA[{G''}^0]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is trivial.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -24,24 +28,27 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3135</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-4.1.2</fr:addr>
-            <fr:route>hodge-theory-ii-4.1.2.xml</fr:route>
-            <fr:taxon>Corollary</fr:taxon>
+            <fr:anchor>3163</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-4.2.10</fr:addr>
+            <fr:route>hodge-theory-ii-4.2.10.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>4.1.2</fr:number>
+            <fr:number>4.2.10</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  S]]></fr:tex> be a proper smooth morphism, with <fr:tex display="inline"><![CDATA[S]]></fr:tex> reduced, connected, and separated.
-    Let <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})^0]]></fr:tex> be the largest constant local system on <fr:tex display="inline"><![CDATA[\mathrm {R}^n f_*\mathbb {Q}]]></fr:tex>, with fibre <fr:tex display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>.
-    Then, for each <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>, <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> is a Hodge sub-structure of <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})\simeq \operatorname {H}^n(X_s,\mathbb {Q})]]></fr:tex>, and the induced Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex> is independent of <fr:tex display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[0\to  V'\to  V\to  V''\to 0]]></fr:tex> be an exact sequence of representations of the above type.
+    Then <fr:tex display="inline"><![CDATA[V]]></fr:tex> satisfies <fr:ref addr="hodge-theory-ii-4.2.star" href="hodge-theory-ii-4.2.star.xml" taxon="Property" number="*" /> if (and only if) <fr:tex display="inline"><![CDATA[V']]></fr:tex> and <fr:tex display="inline"><![CDATA[V'']]></fr:tex> satisfy <fr:ref addr="hodge-theory-ii-4.2.star" href="hodge-theory-ii-4.2.star.xml" taxon="Property" number="*" />.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1619</fr:anchor><fr:addr type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>Let <fr:tex display="inline"><![CDATA[s\in  S]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[X_s=f^{-1}(s)]]></fr:tex>.
-      If <fr:tex display="inline"><![CDATA[S]]></fr:tex> is smooth, and if <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> is a smooth compactification of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then, by <fr:ref addr="hodge-theory-ii-4.1.1" href="hodge-theory-ii-4.1.1.xml" taxon="Theorem" number="4.1.1" />, the subspace <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s^0]]></fr:tex> of <fr:tex display="inline"><![CDATA[(\mathrm {R}^n f_*\mathbb {Q})_s]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex>.
-      Since the restriction map
-      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(\overline {X},\mathbb {Q}) \to  \operatorname {H}^n(X_s,\mathbb {Q})       ]]></fr:tex>
-      is a morphism of Hodge structures, its image is a Hodge sub-structure, and the induced Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^0(S,\mathrm {R}^n f_*\mathbb {Q})]]></fr:tex>, given by the quotient of that on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex>, is independent of <fr:tex display="inline"><![CDATA[s]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1171</fr:anchor><fr:addr type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex>, <fr:tex display="inline"><![CDATA[G']]></fr:tex>, and <fr:tex display="inline"><![CDATA[G'']]></fr:tex> be the groups defined by <fr:tex display="inline"><![CDATA[V]]></fr:tex>, <fr:tex display="inline"><![CDATA[V']]></fr:tex>, and <fr:tex display="inline"><![CDATA[V'']]></fr:tex>, respectively.
+      Then <fr:tex display="inline"><![CDATA[V']]></fr:tex> is stable under <fr:tex display="inline"><![CDATA[G]]></fr:tex>, just as it is under <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex>, whence a morphism
+      <fr:tex display="block"><![CDATA[         u         = (u',u'')\colon  G\to  G'\times  G''       ]]></fr:tex>
+      with unipotent kernel, and such that <fr:tex display="inline"><![CDATA[u']]></fr:tex> and <fr:tex display="inline"><![CDATA[u'']]></fr:tex> are surjective.
+      Let <fr:tex display="inline"><![CDATA[N]]></fr:tex> be the identity component of the kernel of <fr:tex display="inline"><![CDATA[u'']]></fr:tex>.
+      Since <fr:tex display="inline"><![CDATA[u']]></fr:tex> is surjective, <fr:tex display="inline"><![CDATA[u'(N)]]></fr:tex> is distinguished in <fr:tex display="inline"><![CDATA[G']]></fr:tex>, and thus does not admit any quotient of multiplicative type.
+      
+      If <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is a character of <fr:tex display="inline"><![CDATA[G^0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> factors through <fr:tex display="inline"><![CDATA[u(G^0)]]></fr:tex> and vanishes on <fr:tex display="inline"><![CDATA[N]]></fr:tex>;
+      then a power of <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> factors through <fr:tex display="inline"><![CDATA[{G''}^0]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[\chi ]]></fr:tex> is trivial.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
