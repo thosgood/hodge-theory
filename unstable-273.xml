@@ -2,26 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3128</fr:anchor>
+    <fr:anchor>3141</fr:anchor>
     <fr:addr type="machine">#273</fr:addr>
     <fr:route>unstable-273.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    We first recall the definitions (due to Grothendieck) of <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-extensions and biextensions.
-
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2028</fr:anchor><fr:addr type="user">hodge-theory-iii-10.2.7.1</fr:addr><fr:route>hodge-theory-iii-10.2.7.1.xml</fr:route><fr:authors /><fr:number>10.2.7.1</fr:number></fr:frontmatter><fr:mainmatter><fr:p>A <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-extension of a smooth commutative group <fr:tex display="inline"><![CDATA[G]]></fr:tex> by a smooth commutative group <fr:tex display="inline"><![CDATA[H]]></fr:tex> consists of the following:
-
-        
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-          
- <html:li style="list-style-type: &quot;(a) &quot;">
-            an extension
-          </html:li>
-
-        </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-  </fr:mainmatter>
+        <fr:p>We first prove uniqueness:</fr:p>
+      </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -31,33 +20,20 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3129</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-10.2.7</fr:addr>
-            <fr:route>hodge-theory-iii-10.2.7.xml</fr:route>
-            <fr:taxon>Construction</fr:taxon>
+            <fr:anchor>3142</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.2.7.4</fr:addr>
+            <fr:route>hodge-theory-iii-10.2.7.4.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
             <fr:authors />
-            <fr:number>10.2.7</fr:number>
+            <fr:number>10.2.7.4</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[M_i=(X_i,A_i,T_i,G_i,u_i)]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be 1-motives over an algebraically closed field <fr:tex display="inline"><![CDATA[k]]></fr:tex>.
-    Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a biextension of <fr:tex display="inline"><![CDATA[M_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[M_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>.
-    We associate to <fr:tex display="inline"><![CDATA[P]]></fr:tex> a morphism
-    <fr:tex display="block"><![CDATA[       T_\mathrm {DR}(M_1)\otimes _k T_\mathrm {DR}(M_2)       \to  k.     ]]></fr:tex></fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[P^\natural ]]></fr:tex> be the biextension of <fr:tex display="inline"><![CDATA[M_1^\natural ]]></fr:tex> and <fr:tex display="inline"><![CDATA[M_2^\natural ]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex> given by the inverse image of <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+        Then there exists exactly one <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-structure on <fr:tex display="inline"><![CDATA[P^\natural ]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2027</fr:anchor><fr:addr type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    We first recall the definitions (due to Grothendieck) of <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-extensions and biextensions.
-
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2028</fr:anchor><fr:addr type="user">hodge-theory-iii-10.2.7.1</fr:addr><fr:route>hodge-theory-iii-10.2.7.1.xml</fr:route><fr:authors /><fr:number>10.2.7.1</fr:number></fr:frontmatter><fr:mainmatter><fr:p>A <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-extension of a smooth commutative group <fr:tex display="inline"><![CDATA[G]]></fr:tex> by a smooth commutative group <fr:tex display="inline"><![CDATA[H]]></fr:tex> consists of the following:
-
-        
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-          
- <html:li style="list-style-type: &quot;(a) &quot;">
-            an extension
-          </html:li>
-
-        </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-  </fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2033</fr:anchor><fr:addr type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+        <fr:p>We first prove uniqueness:</fr:p>
+      </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
           <fr:backmatter />

@@ -2,15 +2,16 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3182</fr:anchor>
+    <fr:anchor>3195</fr:anchor>
     <fr:addr type="machine">#300</fr:addr>
     <fr:route>unstable-300.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>We can suppose that <fr:tex display="inline"><![CDATA[\overline {X}\setminus  X]]></fr:tex> is a normal crossing divisor.
-      The claim then follows from the fact that <fr:tex display="inline"><![CDATA[W[-n]]]></fr:tex> is the abutment of the Leray spectral sequence for the inclusion <fr:tex display="inline"><![CDATA[j\colon  X\hookrightarrow \overline {X}]]></fr:tex>.</fr:p>
+    <fr:p>Claim (i) is clear;
+      to prove (ii), note that, if <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is the union of smooth divisors, then the rational Hodge structure <fr:tex display="inline"><![CDATA[\operatorname {Gr}_k^W(\operatorname {H}^n(X,\mathbb {Q}))]]></fr:tex> is the quotient of a sub-object of a Hodge structure of weight <fr:tex display="inline"><![CDATA[n+k]]></fr:tex>, namely
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^{n-k}(\widetilde {Y}^n,\mathbb {Q})\otimes \mathbb {Q}(-k).       ]]></fr:tex></fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -21,19 +22,34 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3183</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-3.2.17</fr:addr>
-            <fr:route>hodge-theory-ii-3.2.17.xml</fr:route>
+            <fr:anchor>3196</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.2.15</fr:addr>
+            <fr:route>hodge-theory-ii-3.2.15.xml</fr:route>
             <fr:taxon>Corollary</fr:taxon>
             <fr:authors />
-            <fr:number>3.2.17</fr:number>
+            <fr:number>3.2.15</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Under the hypotheses of <fr:ref addr="hodge-theory-ii-3.2.16" href="hodge-theory-ii-3.2.16.xml" number="3.2.16" />, the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> is <fr:tex display="inline"><![CDATA[W_n(\operatorname {H}^n(X,\mathbb {Q}))]]></fr:tex> (where <fr:tex display="inline"><![CDATA[W]]></fr:tex> denotes the weight filtration (<fr:ref addr="hodge-theory-ii-3.2.12" href="hodge-theory-ii-3.2.12.xml" taxon="Definition" number="3.2.12" />)).</fr:p>
+          <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a smooth complete algebraic variety, then the mixed Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> is the classical Hodge structure of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>.
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      The Hodge numbers <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> of the mixed Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> (with <fr:tex display="inline"><![CDATA[X]]></fr:tex> algebraic and smooth) can only be zero for <fr:tex display="inline"><![CDATA[p\leqslant  n]]></fr:tex>, <fr:tex display="inline"><![CDATA[q\leqslant  n]]></fr:tex>, and <fr:tex display="inline"><![CDATA[p+q\geqslant  n]]></fr:tex>
+    </html:li>
+
+  </html:ol>
+
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>606</fr:anchor><fr:addr type="machine">#300</fr:addr><fr:route>unstable-300.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>We can suppose that <fr:tex display="inline"><![CDATA[\overline {X}\setminus  X]]></fr:tex> is a normal crossing divisor.
-      The claim then follows from the fact that <fr:tex display="inline"><![CDATA[W[-n]]]></fr:tex> is the abutment of the Leray spectral sequence for the inclusion <fr:tex display="inline"><![CDATA[j\colon  X\hookrightarrow \overline {X}]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>604</fr:anchor><fr:addr type="machine">#300</fr:addr><fr:route>unstable-300.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>Claim (i) is clear;
+      to prove (ii), note that, if <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is the union of smooth divisors, then the rational Hodge structure <fr:tex display="inline"><![CDATA[\operatorname {Gr}_k^W(\operatorname {H}^n(X,\mathbb {Q}))]]></fr:tex> is the quotient of a sub-object of a Hodge structure of weight <fr:tex display="inline"><![CDATA[n+k]]></fr:tex>, namely
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^{n-k}(\widetilde {Y}^n,\mathbb {Q})\otimes \mathbb {Q}(-k).       ]]></fr:tex></fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

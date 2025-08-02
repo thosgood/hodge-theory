@@ -2,14 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3206</fr:anchor>
+    <fr:anchor>3219</fr:anchor>
     <fr:addr type="machine">#312</fr:addr>
     <fr:route>unstable-312.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>This follows immediately from <fr:ref addr="hodge-theory-ii-1.3.16" href="hodge-theory-ii-1.3.16.xml" taxon="Theorem" number="1.3.16" /> and (iv) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />.</fr:p>
+    <fr:p>We will prove the theorem by induction on <fr:tex display="inline"><![CDATA[r_0]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[r_0=0]]></fr:tex>, the hypothesis is empty, and we apply <fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />.
+      For <fr:tex display="inline"><![CDATA[r_0\geqslant 1]]></fr:tex>, by the inductive hypothesis, we have <fr:tex display="inline"><![CDATA[F_d=F_r=F_{d^*}]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex> for <fr:tex display="inline"><![CDATA[r\leqslant  r_0]]></fr:tex>.</fr:p>
+
+    <fr:p>By <fr:ref addr="hodge-theory-ii-1.3.15" href="hodge-theory-ii-1.3.15.xml" taxon="Lemma" number="1.3.15" />, the morphism <fr:tex display="inline"><![CDATA[u\colon  E_0(\operatorname {Dec}(K))\to  E_1(K)]]></fr:tex> is a filtered quasi-isomorphism.
+      It thus induces a filtered isomorphism from <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\operatorname {Dec}(K))]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (E_1(K))]]></fr:tex>:
+      <fr:tex display="block"><![CDATA[         u\colon  (E_1(\operatorname {Dec}(K)),F_r)         \xrightarrow {\sim } (E_2(K),F_r).       ]]></fr:tex>
+      Step-by-step, we thus deduce that the canonical isomorphism from <fr:tex display="inline"><![CDATA[E_s(\operatorname {Dec}(K))]]></fr:tex> to <fr:tex display="inline"><![CDATA[E_{s+1}]]></fr:tex> (for <fr:tex display="inline"><![CDATA[s\geqslant 1]]></fr:tex>) is a filtered isomorphism for the recurrent filtration.</fr:p>
+
+    <fr:p>On <fr:tex display="inline"><![CDATA[E_1(\operatorname {Dec}(K))]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_r=F_d]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" />), and we already know (<fr:ref addr="hodge-theory-ii-1.3.14" href="hodge-theory-ii-1.3.14.xml" number="1.3.14" />) that <fr:tex display="inline"><![CDATA[u']]></fr:tex> is a filtered isomorphism
+      <fr:tex display="block"><![CDATA[         u'\colon  (E_1(\operatorname {Dec}(K)),F_d)         \xrightarrow {\sim } (E_2(K),F_d).       ]]></fr:tex></fr:p>
+
+    <fr:p>On <fr:tex display="inline"><![CDATA[E_2(K)]]></fr:tex>, we thus have <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex>.
+      This, combined with the dual result, proves the theorem for <fr:tex display="inline"><![CDATA[r_0=1]]></fr:tex>.</fr:p>
+
+    <fr:p>Suppose that <fr:tex display="inline"><![CDATA[r_0\geqslant 2]]></fr:tex>.
+      Then the arrows <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of <fr:tex display="inline"><![CDATA[E_1(K)]]></fr:tex> are strictly compatible with the filtrations, and thus so too are the arrows <fr:tex display="inline"><![CDATA[d_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[E_0(\operatorname {Dec}(K))]]></fr:tex> (indeed, <fr:tex display="inline"><![CDATA[u]]></fr:tex> induces an isomorphism of spectral sequences, and we apply the criterion from <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).</fr:p>
+
+    <fr:p>For <fr:tex display="inline"><![CDATA[0<s<r_0-1]]></fr:tex>, the isomorphism <fr:tex display="inline"><![CDATA[(E_s(\operatorname {Dec}(K)),F_r)\cong (E_{s+1}(K),F_r)]]></fr:tex> shows that the <fr:tex display="inline"><![CDATA[d_s]]></fr:tex> are strictly compatible with the recurrent filtrations.</fr:p>
+
+    <fr:p>By the induction hypothesis, we thus have <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_s(\operatorname {Dec}(K))]]></fr:tex> for <fr:tex display="inline"><![CDATA[s\leqslant  s_0]]></fr:tex>.
+      The isomorphism <fr:tex display="inline"><![CDATA[(E_s(\operatorname {Dec}(K)),F_d)\cong (E_{s+1}(K),F_d)]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />) then shows that <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r(K)]]></fr:tex> for <fr:tex display="inline"><![CDATA[r\leqslant  r_0+1]]></fr:tex>.
+      This, combined with the dual result, proves the theorem.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -20,19 +42,42 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3207</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-1.3.17</fr:addr>
-            <fr:route>hodge-theory-ii-1.3.17.xml</fr:route>
-            <fr:taxon>Corollary</fr:taxon>
+            <fr:anchor>3220</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-1.3.16</fr:addr>
+            <fr:route>hodge-theory-ii-1.3.16.xml</fr:route>
+            <fr:taxon>Theorem</fr:taxon>
             <fr:authors />
-            <fr:number>1.3.17</fr:number>
+            <fr:number>1.3.16</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Under the general hypotheses of <fr:ref addr="hodge-theory-ii-1.3.16" href="hodge-theory-ii-1.3.16.xml" taxon="Theorem" number="1.3.16" />, suppose that, for all <fr:tex display="inline"><![CDATA[r]]></fr:tex>, the differentials <fr:tex display="inline"><![CDATA[d_r]]></fr:tex> are strictly compatible with the recurrent filtrations on the <fr:tex display="inline"><![CDATA[E_r]]></fr:tex>.
-    Then, on <fr:tex display="inline"><![CDATA[E_\infty ]]></fr:tex>, the filtrations <fr:tex display="inline"><![CDATA[F_d]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_r]]></fr:tex>, and <fr:tex display="inline"><![CDATA[F_{d^*}]]></fr:tex> agree, and coincide with the filtration induced by the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (K)]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be a complex endowed with two filtrations, <fr:tex display="inline"><![CDATA[W]]></fr:tex> and <fr:tex display="inline"><![CDATA[F]]></fr:tex>, with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex> biregular.
+    Let <fr:tex display="inline"><![CDATA[r_0\geqslant 0]]></fr:tex> be an integer, and suppose that, for <fr:tex display="inline"><![CDATA[0\leqslant  r<r_0]]></fr:tex>, the differentials of the graded complex <fr:tex display="inline"><![CDATA[E_r(K,W)]]></fr:tex> are strictly compatible with the filtration <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+    Then, for <fr:tex display="inline"><![CDATA[r\leqslant  r_0+1]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_d=F_r=F_{d^*}]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>889</fr:anchor><fr:addr type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>This follows immediately from <fr:ref addr="hodge-theory-ii-1.3.16" href="hodge-theory-ii-1.3.16.xml" taxon="Theorem" number="1.3.16" /> and (iv) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>888</fr:anchor><fr:addr type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>We will prove the theorem by induction on <fr:tex display="inline"><![CDATA[r_0]]></fr:tex>.
+      For <fr:tex display="inline"><![CDATA[r_0=0]]></fr:tex>, the hypothesis is empty, and we apply <fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" /> and (iii) of <fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />.
+      For <fr:tex display="inline"><![CDATA[r_0\geqslant 1]]></fr:tex>, by the inductive hypothesis, we have <fr:tex display="inline"><![CDATA[F_d=F_r=F_{d^*}]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r^{pq}]]></fr:tex> for <fr:tex display="inline"><![CDATA[r\leqslant  r_0]]></fr:tex>.</fr:p>
+
+    <fr:p>By <fr:ref addr="hodge-theory-ii-1.3.15" href="hodge-theory-ii-1.3.15.xml" taxon="Lemma" number="1.3.15" />, the morphism <fr:tex display="inline"><![CDATA[u\colon  E_0(\operatorname {Dec}(K))\to  E_1(K)]]></fr:tex> is a filtered quasi-isomorphism.
+      It thus induces a filtered isomorphism from <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (\operatorname {Dec}(K))]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (E_1(K))]]></fr:tex>:
+      <fr:tex display="block"><![CDATA[         u\colon  (E_1(\operatorname {Dec}(K)),F_r)         \xrightarrow {\sim } (E_2(K),F_r).       ]]></fr:tex>
+      Step-by-step, we thus deduce that the canonical isomorphism from <fr:tex display="inline"><![CDATA[E_s(\operatorname {Dec}(K))]]></fr:tex> to <fr:tex display="inline"><![CDATA[E_{s+1}]]></fr:tex> (for <fr:tex display="inline"><![CDATA[s\geqslant 1]]></fr:tex>) is a filtered isomorphism for the recurrent filtration.</fr:p>
+
+    <fr:p>On <fr:tex display="inline"><![CDATA[E_1(\operatorname {Dec}(K))]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_r=F_d]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.10" href="hodge-theory-ii-1.3.10.xml" taxon="Lemma" number="1.3.10" />), and we already know (<fr:ref addr="hodge-theory-ii-1.3.14" href="hodge-theory-ii-1.3.14.xml" number="1.3.14" />) that <fr:tex display="inline"><![CDATA[u']]></fr:tex> is a filtered isomorphism
+      <fr:tex display="block"><![CDATA[         u'\colon  (E_1(\operatorname {Dec}(K)),F_d)         \xrightarrow {\sim } (E_2(K),F_d).       ]]></fr:tex></fr:p>
+
+    <fr:p>On <fr:tex display="inline"><![CDATA[E_2(K)]]></fr:tex>, we thus have <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex>.
+      This, combined with the dual result, proves the theorem for <fr:tex display="inline"><![CDATA[r_0=1]]></fr:tex>.</fr:p>
+
+    <fr:p>Suppose that <fr:tex display="inline"><![CDATA[r_0\geqslant 2]]></fr:tex>.
+      Then the arrows <fr:tex display="inline"><![CDATA[d_1]]></fr:tex> of <fr:tex display="inline"><![CDATA[E_1(K)]]></fr:tex> are strictly compatible with the filtrations, and thus so too are the arrows <fr:tex display="inline"><![CDATA[d_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[E_0(\operatorname {Dec}(K))]]></fr:tex> (indeed, <fr:tex display="inline"><![CDATA[u]]></fr:tex> induces an isomorphism of spectral sequences, and we apply the criterion from <fr:ref addr="hodge-theory-ii-1.3.2" href="hodge-theory-ii-1.3.2.xml" taxon="Proposition" number="1.3.2" />).</fr:p>
+
+    <fr:p>For <fr:tex display="inline"><![CDATA[0<s<r_0-1]]></fr:tex>, the isomorphism <fr:tex display="inline"><![CDATA[(E_s(\operatorname {Dec}(K)),F_r)\cong (E_{s+1}(K),F_r)]]></fr:tex> shows that the <fr:tex display="inline"><![CDATA[d_s]]></fr:tex> are strictly compatible with the recurrent filtrations.</fr:p>
+
+    <fr:p>By the induction hypothesis, we thus have <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_s(\operatorname {Dec}(K))]]></fr:tex> for <fr:tex display="inline"><![CDATA[s\leqslant  s_0]]></fr:tex>.
+      The isomorphism <fr:tex display="inline"><![CDATA[(E_s(\operatorname {Dec}(K)),F_d)\cong (E_{s+1}(K),F_d)]]></fr:tex> (<fr:ref addr="hodge-theory-ii-1.3.13" href="hodge-theory-ii-1.3.13.xml" taxon="Proposition" number="1.3.13" />) then shows that <fr:tex display="inline"><![CDATA[F_d=F_r]]></fr:tex> on <fr:tex display="inline"><![CDATA[E_r(K)]]></fr:tex> for <fr:tex display="inline"><![CDATA[r\leqslant  r_0+1]]></fr:tex>.
+      This, combined with the dual result, proves the theorem.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

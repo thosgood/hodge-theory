@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2102</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-10.2.7.3</fr:addr>
+    <fr:route>hodge-theory-iii-10.2.7.3.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>10.2.7.3</fr:number>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[             \Phi \colon  \operatorname {Lie}(G_1)\otimes \operatorname {Lie}(G_2)             \to  \operatorname {Lie}(H)           \tag{10.2.7.3}           ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2103</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.2.7.2</fr:addr>
+            <fr:route>hodge-theory-iii-10.2.7.2.xml</fr:route>
+            <fr:authors />
+            <fr:number>10.2.7.2</fr:number>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a biextension of <fr:tex display="inline"><![CDATA[G_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[G_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>.
+        Consider <fr:tex display="inline"><![CDATA[P]]></fr:tex> as an <fr:tex display="inline"><![CDATA[H]]></fr:tex>-torsor <fr:tex display="inline"><![CDATA[P]]></fr:tex> over <fr:tex display="inline"><![CDATA[G_1\times  G_2]]></fr:tex>, endowed with morphisms
+        <fr:tex display="block"><![CDATA[           \begin {aligned}             \nu _1\colon              \operatorname {pr}_{13}^*P + \operatorname {pr}_{23}^*P             &\to  (\mu _1\times \mathrm {Id})^*P             \quad \text {on}             \quad  G_1\times  G_1\times  G_2           \\\nu _2\colon              \operatorname {pr}_{12}^*P + \operatorname {pr}_{13}^*P             &\to  (\mathrm {Id}\times \mu _2)^*P             \quad \text {on}             \quad  G_1\times  G_2\times  G_2.           \end {aligned}         ]]></fr:tex>
+        A <fr:em><fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-1-structure</fr:em> on <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a connection on the <fr:tex display="inline"><![CDATA[H]]></fr:tex>-torsor <fr:tex display="inline"><![CDATA[P]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[G_1\times  G_2\to  G_2]]></fr:tex> (the covariant derivative is defined only for vector fields that are parallel to <fr:tex display="inline"><![CDATA[G_1]]></fr:tex>) such that <fr:tex display="inline"><![CDATA[\nu _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\nu _2]]></fr:tex> are horizontal.
+        We similarly define <fr:em><fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-2-structures</fr:em>.
+        A <fr:em><fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-structure</fr:em> is the data of a <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-1-structure and of a <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-2-structure.
+        This is also a connection on the <fr:tex display="inline"><![CDATA[H]]></fr:tex> torsor <fr:tex display="inline"><![CDATA[P]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\nu _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\nu _2]]></fr:tex> are horizontal.</fr:p>
+            <fr:p>The <fr:em>curvature</fr:em> <fr:tex display="inline"><![CDATA[R]]></fr:tex> of a <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-biextension <fr:tex display="inline"><![CDATA[P]]></fr:tex> is the curvature of the connection of <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+        This is a 2-form on <fr:tex display="inline"><![CDATA[G_1\times  G_2]]></fr:tex> that is invariant under translation, with values in <fr:tex display="inline"><![CDATA[\operatorname {Lie}(H)]]></fr:tex>, i.e. it is an alternating form on <fr:tex display="inline"><![CDATA[\operatorname {Lie}(G_1)\times \operatorname {Lie}(G_2)]]></fr:tex>, with values in <fr:tex display="inline"><![CDATA[\operatorname {Lie}(H)]]></fr:tex>.
+        Its restriction to <fr:tex display="inline"><![CDATA[\operatorname {Lie}(G_1)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Lie}(G_2)]]></fr:tex> is zero, and so <fr:tex display="inline"><![CDATA[R]]></fr:tex> defines a pairing
+
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2031</fr:anchor><fr:addr type="user">hodge-theory-iii-10.2.7.3</fr:addr><fr:route>hodge-theory-iii-10.2.7.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.2.7.3</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             \Phi \colon  \operatorname {Lie}(G_1)\otimes \operatorname {Lie}(G_2)             \to  \operatorname {Lie}(H)           \tag{10.2.7.3}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+        (also called the <fr:em>curvature</fr:em> of <fr:tex display="inline"><![CDATA[P]]></fr:tex>), with
+        <fr:tex display="block"><![CDATA[           R(g_1+g_2, g'_1+g'_2)           = \Phi (g_1,g'_2) - \Phi (g'_1,g_2).         ]]></fr:tex></fr:p>
+            <fr:p>For complexes of smooth groups <fr:tex display="inline"><![CDATA[K_i\colon [A_i\to  B_i]]]></fr:tex>, a <fr:em><fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-biextension</fr:em> (resp. a <fr:em><fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-<fr:tex display="inline"><![CDATA[i]]></fr:tex>-extension</fr:em>) of <fr:tex display="inline"><![CDATA[K_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[K_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-biextension (resp. <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-<fr:tex display="inline"><![CDATA[i]]></fr:tex>-biextension) of <fr:tex display="inline"><![CDATA[B_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[B_2]]></fr:tex> by <fr:tex display="inline"><![CDATA[H]]></fr:tex>, endowed with trivialisations (as <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-biextensions, resp. <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-<fr:tex display="inline"><![CDATA[i]]></fr:tex>-biextensions) as in <fr:ref addr="hodge-theory-iii-10.2.1" href="hodge-theory-iii-10.2.1.xml" number="10.2.1" />.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
