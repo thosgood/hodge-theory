@@ -475,7 +475,7 @@
   }
 
   \proof{
-    We first recall the definitions (due to Grothendieck) of #{\natural}-extensions and biextensions.
+    We first recall the definitions (due to Grothendieck) of #{\natural}-extensions and #{\natural}-biextensions.
 
     \subtree[hodge-theory-iii-10.2.7.1]{
       \number{10.2.7.1}
@@ -485,8 +485,94 @@
 
         \olc{
           \lic{(a)}{
-            an extension
+            an extension #{E} of #{G} by #{H};
+            if #{\mu\colon G\times G\to G} is the addition, then we consider #{E} as an #{H}-torsor over #{G} endowed with a morphism
+            ##{
+              \nu\colon \pr_1^*E + \pr_2^*E
+              \to \mu^*E
+            }
+            of #{H}-torsors over #{G\times G} (addition);
           }
+          \lic{(b)}{
+            a connection on the #{H}-torsor #{E}, such that the map #{\nu} is horizontal.
+            This connection is automatically flat.
+          }
+        }
+      }
+
+      \p{
+        If #{G} is the extension of an abelian variety by a torus, then every extension of #{G} by #{\Gm} admits a #{\natural}-structure;
+        two #{\natural}-structures differ by an invariant form on #{G} (with values in the Lie algebra of #{\Gm}).
+        We define, in an evident way, the Baer sum of two #{\natural}-extensions.
+      }
+    }
+
+    \subtree[hodge-theory-iii-10.2.7.2]{
+      \number{10.2.7.2}
+
+      \p{
+        \oldpage{65}
+        Let #{P} be a biextension of #{G_1} and #{G_2} by #{H}.
+        Consider #{P} as an #{H}-torsor #{P} over #{G_1\times G_2}, endowed with morphisms
+        ##{
+          \begin{aligned}
+            \nu_1\colon
+            \pr_{13}^*P + \pr_{23}^*P
+            &\to (\mu_1\times\Id)^*P
+            \quad\text{on}
+            \quad G_1\times G_1\times G_2
+          \\\nu_2\colon
+            \pr_{12}^*P + \pr_{13}^*P
+            &\to (\Id\times\mu_2)^*P
+            \quad\text{on}
+            \quad G_1\times G_2\times G_2.
+          \end{aligned}
+        }
+        A \em{#{\natural}-1-structure} on #{P} is a connection on the #{H}-torsor #{P} with respect to #{G_1\times G_2\to G_2} (the covariant derivative is defined only for vector fields that are parallel to #{G_1}) such that #{\nu_1} and #{\nu_2} are horizontal.
+        We similarly define \em{#{\natural}-2-structures}.
+        A \em{#{\natural}-structure} is the data of a #{\natural}-1-structure and of a #{\natural}-2-structure.
+        This is also a connection on the #{H} torsor #{P} such that #{\nu_1} and #{\nu_2} are horizontal.
+      }
+
+      \p{
+        The \em{curvature} #{R} of a #{\natural}-biextension #{P} is the curvature of the connection of #{P}.
+        This is a 2-form on #{G_1\times G_2} that is invariant under translation, with values in #{\Lie(H)}, i.e. it is an alternating form on #{\Lie(G_1)\times\Lie(G_2)}, with values in #{\Lie(H)}.
+        Its restriction to #{\Lie(G_1)} and #{\Lie(G_2)} is zero, and so #{R} defines a pairing
+
+        \subtree[hodge-theory-iii-10.2.7.3]{
+          \taxon{equation}
+          \number{10.2.7.3}
+          ##{
+            \Phi\colon \Lie(G_1)\otimes\Lie(G_2)
+            \to \Lie(H)
+          \startverb\tag{10.2.7.3}\stopverb
+          }
+        }
+
+        (also called the \em{curvature} of #{P}), with
+        ##{
+          R(g_1+g_2, g'_1+g'_2)
+          = \Phi(g_1,g'_2) - \Phi(g'_1,g_2).
+        }
+      }
+
+      \p{
+        For complexes of smooth groups #{K_i\colon[A_i\to B_i]}, a \em{#{\natural}-biextension} (resp. a \em{#{\natural}-#{i}-extension}) of #{K_1} and #{K_2} by #{H} is a #{\natural}-biextension (resp. #{\natural}-#{i}-biextension) of #{B_1} and #{B_2} by #{H}, endowed with trivialisations (as #{\natural}-biextensions, resp. #{\natural}-#{i}-biextensions) as in \ref{hodge-theory-iii-10.2.1}.
+      }
+    }
+
+    \subtree[hodge-theory-iii-10.2.7.4]{
+      \number{10.2.7.4}
+      \taxon{proposition}
+    
+      \p{
+        Let #{P^\natural} be the biextension of #{M_1^\natural} and #{M_2^\natural} by #{\Gm} given by the inverse image of #{P}.
+        Then there exists exactly one #{\natural}-structure on #{P^\natural}.
+      }
+
+      \proof{
+        \p{
+          We first prove uniqueness:
         }
       }
     }
