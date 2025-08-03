@@ -572,8 +572,135 @@
 
       \proof{
         \p{
-          We first prove uniqueness:
+          We first prove uniqueness: we have to show that, on the trivial biextension of #{M_1^\natural} and #{M_2^\natural} by #{\Gm}, every #{\natural}-structure is trivial.
+          A #{\natural}-structure is, first of all, a connection on the trivial #{\Gm}-torsor over #{G_1^\natural\times G_2^\natural}, i.e. a field of forms on #{G_1^\natural\times G_2^\natural}, say #{\Gamma_{g_1,g_2}(t_1+t_2)}.
+          The axiom of #{\natural}-structures implies that
+          ##{
+            \Gamma_{g_1,g_2}(t_1+t_2)
+            = \Phi_1(g_1,t_2) + \Phi_2(t_1,g_2)
+          }
+          where #{\Phi_1} and #{\Phi_2} are biadditive.
+          Now, #{G_i^\natural} is an extension of #{X_i\otimes k} by the universal extension #{G'_i} of #{G_i} by an additive group.
+          Every morphism #{G'_i\to\Ga} is trivial.
+          Furthermore, #{\Phi_1} factors through #{(X_1\otimes k)\otimes\Lie(G_2^\natural)}.
+          Finally, the restriction of #{\Gamma} to #{X_1\times G_2^\natural} must be trivial, and thus so too must be the restriction of #{\Phi_1} to #{X_1\times\Lie(G_2^\natural)}.
+          We thus have that #{\Phi_1=0}.
+          Similarly, #{\Phi_2=0}, and so #{\Gamma=0}.
         }
+
+        \p{
+          To prove existence, it suffices to construct a #{\natural}-2-structure on the biextension of #{M_1^\natural} and #{M_2} by #{\Gm} given by the inverse image of #{P}: by the inverse image, we will obtain a #{\natural}-2-structure on #{P^\natural} and, symmetrically, a #{\natural}-1-structure.
+        }
+
+        \p{
+          For #{g\in G_1}, #{P_g} is an extension of #{G_2} by #{\Gm}.
+          Let #{C_g} be the set of #{\natural}-structures on #{P_g}.
+          This is a torsor under #{\Lie(G_2)^*}.
+          For #{g\in G_1}, the #{C_g} are the fibres of a torsor #{C} over #{G_1};
+          the Baer sum of #{\natural}-extensions further makes #{C} an extension of #{G_1} by #{\Lie(G_2)^*}
+          \oldpage{66}
+          We lift #{u_1\colon X\to G_1} to #{u'_1\colon X\to C} by sending #{x\in X} to the trivial connection on the trivial extension #{P_{u_1(x)}}.
+          We thus obtain a #{\natural}-2-structure on the biextension of #{[X\to C]} and #{M_2} by #{\Gm} given by the inverse image of #{P}.
+        }
+
+        \p{
+          By the universal property of #{M_1^\natural}, there exists a unique commutative diagram
+
+          \tikzcd{
+          & {[X}
+            \ar[r]
+          & {G]}
+          \\M_1^\natural
+            \ar[ur]
+            \ar[rrr,swap,"v"]
+          &&&{[X}
+            \ar[ul]
+            \ar[r]
+          & {C]}
+          }
+
+          by taking an inverse image under #{v}, we find the desired #{\natural}-2-structure.
+        }
+
+        \p{
+          By definition, the pairing in \ref{hodge-theory-iii-10.2.7} is the negative of the curvature of the #{\natural}-biextension \ref{hodge-theory-iii-10.2.7.4}.
+        }
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.8]{
+  \taxon{proposition}
+  \number{10.2.8}
+
+  \p{
+    Over #{\CC}, the pairing in \ref{hodge-theory-iii-10.2.7} is the complexification of the pairing in \ref{hodge-theory-iii-10.2.3}.
+  }
+
+  \proof{
+    The #{\natural}-biextension #{P^\natural} defines, in the analytic category, a #{\natural}-biextension of #{[T_\ZZ(M_1)\to T_\CC(M_1)]} and #{[T_\ZZ(M_2)\to T_\CC(M_2)]} by #{\Gm}.
+    The proposition then follows from the following lemma (\ref{hodge-theory-iii-10.2.9}).
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.9]{
+  \taxon{lemma}
+  \number{10.2.9}
+
+  \p{
+    Let #{V_\ZZ} and #{W_\ZZ} be two free #{\ZZ}-modules of finite rank, and #{P} a biextension of #{[V_\ZZ\to V_\CC]} and #{[W_\ZZ\to W_\CC]} by #{\Gm} with underlying biextension #{P}.
+    Then the curvature #{\psi\colon V_\cc\otimes W_\CC\to\CC} of #{P^\natural} agrees with the negative of the complexification of the form corresponding to #{P} under \ref{hodge-theory-iii-10.2.3.4}.
+  }
+
+  \proof{
+    Let #{P=P(\psi_1,\psi_2)} (\ref{hodge-theory-iii-10.2.3.4}).
+    A #{\natural}-structure on #{P} is, first of all, a connection on the trivial #{\Gm}-torsor over #{V_\CC\times W_\CC}, i.e. a field of forms #{\Gamma_{v,w}(v'+w')} on #{V_\CC\times W_\CC}.
+    This connection defines a #{\natural}-structure on this torsor if and only if
+    ##{
+      \Gamma_{v,w}(v'+w')
+      = \Phi_1(v,w') + \Phi_2(v',w)
+    }
+    with #{\Phi_1} and #{\Phi_2} bilinear.
+    The trivialisations #{\exp\psi_1(v_\ZZ,w_\CC)} and #{\exp\psi_2(v_\CC,w_\ZZ)} are horizontal if and only if #{\Phi_i=-\psi_i}.
+    The curvature of the connection is the field of 2-forms #{\dd\Gamma} :
+    ##{
+      R_{v,w}(v'+w',v''+w'')
+      = \Phi_1(v',w'') + \Phi_2(v'',w') - \Phi_1(v'',w') - \Phi_2(v',w'').
+    }
+    The curvature of #{P} is thus of the form
+    ##{
+      \Phi_1(v',w'') - \Phi_2(v',w'')
+      = -(\psi_1(v',w'') - \psi_2(v',w''))
+      = -\psi(v',w'').
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.10]{
+  \number{10.2.10}
+
+  \p{
+    Let #{M} be a 1-motive over #{\CC}.
+    Then #{M} has a corresponding mixed Hodge structure #{T(M)} of type #{\{(0,0),(0,-1),(-1,0),(-1,-1)\}}.
+    The mixed Hodge structure #{\Hom(T(M),\ZZ(1))} is again of this type, and thus defines a 1-motive #{M^*}.
+    The evident map #{T(M)\otimes T(M^*)\to\ZZ(1)} defines a biextension #{P} of #{M} and #{M^*} by #{\Gm}.
+    The 1-motive #{M^*}, endowed with the biextension #{P}, is the \em{Cartier dual} of #{M}.
+    We call #{P} the \em{Poincaré biextension}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.11]{
+  \number{10.2.11}
+
+  \p{
+    \oldpage{67}
+    The construction in \ref{hodge-theory-iii-10.2.10} can be made purely algebraic.
+    To a 1-motive #{M=(X,A,T,G,u)} over an algebraically closed field #{k}, we will associated a \em{Cartier dual} #{M^*=(X',A',T',G',u')}:
+
+    \olc{
+      \lic{(a)}{
+        #{X'} is
       }
     }
   }
