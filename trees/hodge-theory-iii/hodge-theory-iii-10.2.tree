@@ -607,16 +607,16 @@
           By the universal property of #{M_1^\natural}, there exists a unique commutative diagram
 
           \tikzcd{
-          & {[X}
+          & {\startverb[\stopverb X}
             \ar[r]
-          & {G]}
+          & {G\startverb]\stopverb}
           \\M_1^\natural
             \ar[ur]
             \ar[rrr,swap,"v"]
-          &&&{[X}
+          &&&{\startverb[\stopverb X}
             \ar[ul]
             \ar[r]
-          & {C]}
+          & {C\startverb]\stopverb}
           }
 
           by taking an inverse image under #{v}, we find the desired #{\natural}-2-structure.
