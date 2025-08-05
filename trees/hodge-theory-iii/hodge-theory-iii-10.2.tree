@@ -799,6 +799,40 @@
 
   \p{
     \oldpage{68}
-    This construction
+    This construction allows us to give a more symmetric definition of 1-motives.
+  }
+
+  \p{
+    Let #{M=(X,A,T,G,u)} be a 1-motive, with Cartier dual #{M^*=(X',A',T',G',u')}, and let #{P_0} be the Poincaré biextension.
+    By passing to the quotient, the morphisms #{u} and #{u'} define morphisms
+
+    \subtree[hodge-theory-iii-10.2.12.1]{
+      \taxon{equation}
+      \number{10.2.12.1}
+      ##{
+        \overline{u}\colon X\to A
+        \quad\text{and}\quad
+        \overline{u}'\colon X'\to A'.
+      \startverb\tag{10.2.12.1}\stopverb
+      }
+    }
+  }
+
+  \p{
+    The biextension of #{G} and #{G'} by #{\Gm} induced by #{P_0} is the inverse image of the Poincaré biextension #{P} of #{A} and #{A'} by #{\Gm}.
+    By hypothesis, the trivialisations (of the inverse images) of #{P} on #{X\times G'} and #{G\times X'} agree on #{X\times X'}, whence
+
+    \subtree[hodge-theory-iii-10.2.12.2]{
+      \taxon{equation}
+      \number{10.2.12.2}
+      ##{
+        \text{a trivialisation }\psi\text{ of }(\overline{u}\times\overline{u}')^*P.
+      \startverb\tag{10.2.12.2}\stopverb
+      }
+    }
+  }
+
+  \p{
+    A morphism
   }
 }
