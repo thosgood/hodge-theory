@@ -2,16 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3242</fr:anchor>
+    <fr:anchor>3263</fr:anchor>
     <fr:addr type="machine">#302</fr:addr>
     <fr:route>unstable-302.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Claim (i) is clear;
-      to prove (ii), note that, if <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is the union of smooth divisors, then the rational Hodge structure <fr:tex display="inline"><![CDATA[\operatorname {Gr}_k^W(\operatorname {H}^n(X,\mathbb {Q}))]]></fr:tex> is the quotient of a sub-object of a Hodge structure of weight <fr:tex display="inline"><![CDATA[n+k]]></fr:tex>, namely
-      <fr:tex display="block"><![CDATA[         \operatorname {H}^{n-k}(\widetilde {Y}^n,\mathbb {Q})\otimes \mathbb {Q}(-k).       ]]></fr:tex></fr:p>
+    <fr:p>This is the particular case of (ii) of <fr:ref addr="hodge-theory-ii-3.2.13" href="hodge-theory-ii-3.2.13.xml" taxon="Corollary" number="3.2.13" /> where <fr:tex display="inline"><![CDATA[{}_FE_1^{p0}={}_FE_\infty ^{p0}]]></fr:tex>.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -22,34 +20,19 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3243</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-3.2.15</fr:addr>
-            <fr:route>hodge-theory-ii-3.2.15.xml</fr:route>
+            <fr:anchor>3264</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.2.14</fr:addr>
+            <fr:route>hodge-theory-ii-3.2.14.xml</fr:route>
             <fr:taxon>Corollary</fr:taxon>
             <fr:authors />
-            <fr:number>3.2.15</fr:number>
+            <fr:number>3.2.14</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter>
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-    
- <html:li style="list-style-type: &quot;(i) &quot;">
-      If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a smooth complete algebraic variety, then the mixed Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> is the classical Hodge structure of weight <fr:tex display="inline"><![CDATA[n]]></fr:tex>.
-    </html:li>
-
-
-    
- <html:li style="list-style-type: &quot;(ii) &quot;">
-      The Hodge numbers <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> of the mixed Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> (with <fr:tex display="inline"><![CDATA[X]]></fr:tex> algebraic and smooth) can only be zero for <fr:tex display="inline"><![CDATA[p\leqslant  n]]></fr:tex>, <fr:tex display="inline"><![CDATA[q\leqslant  n]]></fr:tex>, and <fr:tex display="inline"><![CDATA[p+q\geqslant  n]]></fr:tex>
-    </html:li>
-
-  </html:ol>
-
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> be a meromorphic differential <fr:tex display="inline"><![CDATA[p]]></fr:tex>-form on <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> that is holomorphic on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and presents at worst logarithmic poles along <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+    Then the restriction <fr:tex display="inline"><![CDATA[\omega |X]]></fr:tex> of <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> to <fr:tex display="inline"><![CDATA[X]]></fr:tex> is closed, and if the cohomology class in <fr:tex display="inline"><![CDATA[\operatorname {H}^p(X,\mathbb {C})]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> is zero then <fr:tex display="inline"><![CDATA[\omega =0]]></fr:tex>.</fr:p>
   
     
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>610</fr:anchor><fr:addr type="machine">#302</fr:addr><fr:route>unstable-302.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>Claim (i) is clear;
-      to prove (ii), note that, if <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is the union of smooth divisors, then the rational Hodge structure <fr:tex display="inline"><![CDATA[\operatorname {Gr}_k^W(\operatorname {H}^n(X,\mathbb {Q}))]]></fr:tex> is the quotient of a sub-object of a Hodge structure of weight <fr:tex display="inline"><![CDATA[n+k]]></fr:tex>, namely
-      <fr:tex display="block"><![CDATA[         \operatorname {H}^{n-k}(\widetilde {Y}^n,\mathbb {Q})\otimes \mathbb {Q}(-k).       ]]></fr:tex></fr:p>
+    <fr:p>This is the particular case of (ii) of <fr:ref addr="hodge-theory-ii-3.2.13" href="hodge-theory-ii-3.2.13.xml" taxon="Corollary" number="3.2.13" /> where <fr:tex display="inline"><![CDATA[{}_FE_1^{p0}={}_FE_\infty ^{p0}]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
