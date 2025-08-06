@@ -6,3 +6,87 @@
 
 \put\transclude/numbered{false}
 
+\subtree[hodge-theory-iii-10.3.1]{
+  \number{10.3.1}
+
+  \p{
+    Let #{X_0} be an algebraic curve over an algebraically closed field #{k}.
+    Let #{p\colon X'\to X_0} be the normalisation of #{X_0}, and let #{\overline{X}'} be the non-singular projective curve in which #{X'} is a dense open.
+    We denote by #{X} (resp. by #{\overline{X}}) the curve induced from #{X'} (resp. from #{\overline{X}'}) by contracting each of the finite sets #{p^{-1}(s)} (for #{s\in X_0}) to a point.
+
+    \tikzcd{
+      X'
+        \ar[r,hook,"j'"]
+        \ar[d,swap,"r"]
+    & \overline{X'}
+        \ar[d,"\overline{r}"]
+    \\X
+        \ar[r,hook,swap,"j"]
+        \ar[d,swap,"p_0"]
+    & \overline{X}
+    \\X_0
+    }
+  }
+
+  \p{
+    We can characterise #{X} and #{\overline{X}} by the following properties.
+
+    \olc{
+      \lic{(a)}{
+        #{p_0} if finite and radicial, and thus induces isomorphisms
+        ##{
+          \HH^\bullet(X_0,\ZZ_\ell)
+          \to \HH^\bullet(X,\ZZ_\ell)
+        }
+        (with #{\ell} coprime to the characteristic).
+      }
+      \lic{(b)}{
+        The singularities of #{X} are analytically isomorphic to those presented by a union of coordinate axes in affine space.
+      }
+      \lic{(c)}{
+        #{\overline{X}} is projective and #{\overline{X}\setminus{X}} is a finite set of points where #{\overline{X}} is smooth.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.2]{
+  \number{10.3.2}
+
+  \p{
+    The Picard group #{\Pic(\overline{X})} \todo{unfolds?} as follows.
+
+    \olc{
+      lic{(a)}{
+        Let #{I} be the set of irreducible components of #{\overline{X}} (which is equal to the set of irreducible components of #{X_0}).
+        For each irreducible component #{Y} of #{\overline{X}}, the degree of the restriction to #{Y} of an invertible sheaf is a homomorphism
+        ##{
+          \begin{aligned}
+            \deg_Y\colon \Pic(\overline{X})
+          & \to \ZZ
+          \\\sh{L}
+          & \mapsto \deg_Y(\sh{L}).
+          \end{aligned}
+        }
+        We thus obtain
+        ##{
+          \deg\colon\Pic(\overline{X})\to\ZZ^I.
+        }
+        This homomorphism is surjective, with kernel #{\Pic^0(\overline{X})}.
+      }
+
+      \lic{(b)}{
+        The morphism from #{\Pic^0(\overline{X})} to the abelian variety #{\Pic^0(\overline{X}')} is surjective, and its kernel is a torus.
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.3]{
+  \number{10.3.3}
+
+  \p{
+    \oldpage{70}
+    Let #{S}
+  }
+}

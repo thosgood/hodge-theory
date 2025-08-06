@@ -1,5 +1,7 @@
 # Deligne's "Hodge Theory I, II, and III"
 
+You can view the generated web version of this translation at [translations.thosgood.net/hodge-theory](https://translations.thosgood.net/hodge-theory)
+
 This is an English translation of P. Deligne's three papers on Hodge theory:
 
 - "Théorie de Hodge I". _Actes du Congrès intern. math._ **1** (1970), 425–430. [publications.ias.edu/node/359](https://publications.ias.edu/node/359).
