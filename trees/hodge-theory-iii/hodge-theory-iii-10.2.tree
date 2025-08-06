@@ -833,6 +833,95 @@
   }
 
   \p{
-    A morphism
+    A morphism #{f\colon M_1\to M_2}, with transpose (in an evident sense) #{M_2^*\to M_1^*}, gives rise to commutative diagrams
+
+    \subtree[hodge-theory-iii-10.2.12.3]{
+      \taxon{equation}
+      \number{10.2.12.3}
+      ##{
+        \begin{CD}
+          X_1 @>>> A_1
+        \\@V{f_X}VV @VV{f_A}V
+        \\X_2 @>>> A_2
+        \end{CD}
+        \qquad\qquad
+        \begin{CD}
+          X'_1 @>>> A'_1
+        \\@A{f'_X}AA @AA{f'_A}A
+        \\X'_2 @>>> A'_2
+        \end{CD}
+      \startverb\tag{10.2.12.3}\stopverb
+      }
+    }
+
+    Furthermore, #{f_A} and #{f'_A} are transpose to one another, and, via the isomorphism #{(1,f'_A)^*P_1\simeq(f_A,1)^*P_2}, we have
+
+    \subtree[hodge-theory-iii-10.2.12.4]{
+      \taxon{equation}
+      \number{10.2.12.4}
+      ##{
+        \psi_1(x_1,f'_X(x'_2))
+        = \psi_2(f_X(x_1),x'_2)
+      \startverb\tag{10.2.12.4}\stopverb
+      }
+    }
+
+    \tikzcd{
+      X_1\times X'_1
+        \ar[r,"\psi_1"]
+    & (P_1\text{ on }A_1\times A'_1)
+    \\X_1\times X'_2
+        \ar[u]
+        \ar[r]
+        \ar[d]
+    & (1,f'_A)^*P_1 = (f_A,1)^*P_2\text{ on }A_1\times A'_2
+        \ar[u]
+        \ar[d]
+    \\X_2\times X'_2
+        \ar[r,swap,"\psi_2"]
+    & (P_2\text{ on }A_2\times A'_2)
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.13]{
+  \number{10.2.13}
+
+  \p{
+    We thus obtain a functor form the category of 1-motives to the following category.
+    Its objects consist of:
+
+    \olc{
+      \lic{(a)}{
+        two abelian varieties #{A} and #{A'}, dual to one another;
+      }
+      \lic{(b)}{
+        two free #{\ZZ}-modules #{X} and #{X'}, of finite rank;
+      }
+      \lic{(c)}{
+        two morphisms #{v\colon X\to A} and #{v'\colon X'\to A'};
+      }
+      \lic{(d)}{
+        a trivialisation #{\psi} of the inverse image under #{(v,v')} of the Poincaré biextension of #{A} and #{A'} by #{\Gm}.
+      }
+    }
+  }
+
+  \p{
+    \oldpage{69}
+    Its arrows consist of diagrams of the form \ref{hodge-theory-iii-10.2.12.3} that satisfy the conditions of \ref{hodge-theory-iii-10.2.12}
+  }
+}
+
+\subtree[hodge-theory-iii-10.2.14]{
+  \taxon{proposition}
+  \number{10.2.14}
+
+  \p{
+    The functor in \ref{hodge-theory-iii-10.2.13} is an equivalence of categories.
+  }
+
+  \proof{
+    The proof is left as an exercise to the reader.
   }
 }
