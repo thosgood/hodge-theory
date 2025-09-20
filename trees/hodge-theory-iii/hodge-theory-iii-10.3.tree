@@ -87,6 +87,88 @@
 
   \p{
     \oldpage{70}
-    Let #{S}
+    Let #{S} be the finite set #{\overline{X}\setminus X}, and #{\alpha_0\colon S\to I} be the map that sends #{s\in S} to the unique irreducible component of #{\overline{X}} such that #{s\in\alpha(s)}; let #{\alpha\colon\ZZ^S\to\ZZ^I} be induced by #{\alpha_0}.
+  }
+
+  \p{
+    Each #{s\in S} defines an invertible sheaf #{\OO(s)}, which defines #{u_0\colon\ZZ^S\to\Pic(\overline{X})}.
+    We have that #{\deg u_0=\alpha}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.4]{
+  \taxon{definition}
+  \number{10.3.4}
+
+  \p{
+    The \em{motivic #{\HH^1} of #{X_0}}, denoted #{\HH_\mm^1(X_0)(1)}, is the 1-motive
+    ##{
+      \Ker(\alpha)
+      \to \Pic^0(\overline{X}).
+    }
+  }
+
+  \p{
+    By definition, we thus have that #{\HH_\mm^1(X_0)(1)=\HH_\mm^1(X)(1)}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.5]{
+  \taxon{remarks}
+  \number{10.3.5}
+
+  \olc{
+    \lic{(i)}{
+      We have that
+      ##{
+        \begin{aligned}
+          \Gr_0^W(\HH_\mm^1(X)(1))
+          &= \Ker(\alpha\colon\ZZ^S\to\ZZ^I)
+        \\\Gr_{-1}^W(\HH_\mm^1(X)(1))
+          &= \Pic^0(\overline{X}').
+        \end{aligned}
+      }
+    }
+
+    \lic{(ii)}{
+      The cokernel of #{\alpha} is torsion free: it can be identified with the free #{\ZZ}-module with basis #{I\setminus\alpha_0(S)}.
+      We thus have a short exact sequence of complexes and a quasi-isomorphism
+      \tikzcd{
+        0
+          \ar[r]
+      & {[\Ker(\alpha)\to\Pic^0(\overline{X}_0)]}
+          \ar[r]
+      & {[\ZZ^S\to\Pic(\overline{X}_0)]}
+          \ar[r]
+      & {[\Im(\alpha)\to\ZZ^I]}
+          \ar[r]
+          \ar[d,"\simeq"]
+      & 0
+      \\&&&{[0\to\Coker(\alpha)]}
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.6]{
+  \taxon{construction}
+  \number{10.3.6}
+
+  \p{
+    For #{n>0} integer and coprime to the characteristic of #{k}, we will construct an isomorphism
+    ##{
+      \HH^1(X,\ZZ{/}n\ZZ)(1)
+      = \HH^1(X,\mu_n)
+      \cong T_{\ZZ{/}n\ZZ}(\HH_\mm^1(X)(1)).
+    }
+  }
+
+  \p{
+    We know that #{\HH^1(X,\mu_n)} can be identified with the isomorphism classes of invertible sheaves #{\sh{L}} on #{X}, endowed with an isomorphism #{\sh{L}^{\otimes n}\cong\OO}.
+    Since #{p_0\colon X_0\to X} is finite and radicial, we have that #{\HH^1(X,\ZZ{/}n\ZZ)\simto\HH^1(X_0,\ZZ{/}n\ZZ)}, and #{\HH^1(X,\mu_n)} is again the set of isomorphism classes of pairs #{(\sh{L},\alpha)} with #{\sh{L}} an invertible sheaf on #{X_0} and #{\alpha} an isomorphism #{\alpha\colon\sh{L}^{\otimes{n}}\xrightarrow{\cong}\OO}.
+  }
+
+  \p{
+    Now consider such a pair #{(\sh{L},\alpha)}.
   }
 }
