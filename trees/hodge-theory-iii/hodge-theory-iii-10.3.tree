@@ -165,10 +165,54 @@
 
   \p{
     We know that #{\HH^1(X,\mu_n)} can be identified with the isomorphism classes of invertible sheaves #{\sh{L}} on #{X}, endowed with an isomorphism #{\sh{L}^{\otimes n}\cong\OO}.
-    Since #{p_0\colon X_0\to X} is finite and radicial, we have that #{\HH^1(X,\ZZ{/}n\ZZ)\simto\HH^1(X_0,\ZZ{/}n\ZZ)}, and #{\HH^1(X,\mu_n)} is again the set of isomorphism classes of pairs #{(\sh{L},\alpha)} with #{\sh{L}} an invertible sheaf on #{X_0} and #{\alpha} an isomorphism #{\alpha\colon\sh{L}^{\otimes{n}}\xrightarrow{\cong}\OO}.
+    Since #{p_0\colon X_0\to X} is finite and radicial, we have that #{\HH^1(X,\ZZ{/}n\ZZ)\simto\HH^1(X_0,\ZZ{/}n\ZZ)}, and #{\HH^1(X,\mu_n)} is again the set of isomorphism classes of pairs #{(\sh{L},\alpha)} with #{\sh{L}} an invertible sheaf on #{X_0} and #{\alpha} an isomorphism #{\alpha\colon\sh{L}^{\otimes{n}}\simto\OO}.
   }
 
   \p{
     Now consider such a pair #{(\sh{L},\alpha)}.
+    The invertible sheaf #{\sh{L}} extends to #{\overline{\sh{L}}} on #{\overline{X}}, and there exists a divisor #{D} of support #{S} such that #{\alpha} extends to #{\overline{\alpha}\colon\overline{\sh{L}}^{\otimes n}\simto\OO(D)}.
+    If there exists an isomorphism #{\beta} from #{\overline{\sh{L}}^{\otimes n}} to #{\OO(E)}, then it is uniquely determined up to multiplication by an element of the divisible group #{\HH^0(\overline{X},\OO^*)}.
+    We thus deduce that #{(\overline{\sh{L}},D)} determines #{(\sh{L},\alpha)} up to isomorphism.
+    For a pair #{(\overline{\sh{L}},D)} to come from a suitable pair #{(\sh{L},\alpha)}, it is necessary and sufficient that #{n[\sh{L}]=[\OO(D)]} in #{\Pic(\overline{X})}; it comes from #{(\OO_{X_0},0)} if and only if it is of the form #{(\OO_{X_0}(D),nD)}.
+  }
+
+  \p{
+    \oldpage{71}
+    This identifies #{\HH^1(X,\mu_n)} with the #{\HH^0} of the tensor product of #{[\ZZ^S\to\Pic(\overline{X})]} (concentrated in degrees #{0} and #{1}) with #{[\ZZ\xrightarrow{n}\ZZ]} (concentrated in degrees #{-1} and #{0}):
+    ##{
+      \begin{CD}
+        \ZZ^S @>{u_0}>> \Pic(\overline{X})
+      \\@A{n}AA @AA{-n}A
+      \\\ZZ^S @>>{u_0}> \Pic(\overline{X})
+      \end{CD}
+    }
+    ##{
+      \HH^1(X,\mu_n)
+      \cong \HH^0\big(
+        [\ZZ^S\to\Pic(\overline{X})] \Lotimes \ZZ{/}n\ZZ.
+      \big)
+    }
+    Since #{\Coker(\alpha)} is torsion free, we read from (ii) of \ref{hodge-theory-iii-10.3.5} that
+    ##{
+      \begin{aligned}
+        \HH^1(X,\mu_n)
+        &\cong \HH^0\big(
+          [\ZZ^S\to\Pic(\overline{X})] \Lotimes \ZZ{/}n\ZZ.
+        \big)
+      \\&\simfrom \HH^0\big(
+          \HH_\mm^1(X) \Lotimes \ZZ{/}n\ZZ
+        \big)
+      \\&\cong T_{\ZZ{/}n\ZZ}(\HH_\mm^1(X)(1)).
+      \end{aligned}
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.7]{
+  \taxon{variant}
+  \number{10.3.7}
+
+  \p{
+    For
   }
 }
