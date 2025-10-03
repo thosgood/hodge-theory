@@ -322,6 +322,42 @@
   \number{10.3.10}
 
   \p{
-    Recall that
+    Recall that if #{d\colon F\to G} is a morphism of abelian sheaves on a space #{Z}, then #{\bHH^1(Z,[F\to G])} can be identified with the set of isomorphism classes of pairs #{(P,\alpha)}, where #{P} is an #{F}-torsor (i.e. a principal homogeneous space under #{F}) and #{\alpha} is a trivialisation of the #{G}-torsor #{dP}.
+  }
+
+  \p{
+    In particular:
+
+    \olc{
+      \lic{(a)}{
+        \p{
+          #{\bHH^1(\overline{X}, [\OO_{\overline{X}}^*\to r_*\Omega_{\overline{X}'}^1(\log S)])} can be identified with the set of isomorphism classes of pairs #{(\sh{L},\alpha)}, where #{\sh{L}} is an invertible sheaf on #{\overline{X}} and #{\alpha} is a connection on #{\overline{r}^*\sh{L}} that is holomorphic on #{X'} and can present a simple pole at the points of #{S}.
+          Let #{a} be the projection from #{\overline{X}} to #{\Spec(\CC)} (i.e. a point).
+          In the fppf topology, the sheaf #{\Rd^1a_*([\sh{O}_{\overline{X}}^*\to r_*\Omega_{\overline{X}'}^1(\log S)])} is representable by a group scheme #{\Pic^\natural(X)}, of which #{\bHH^1(\overline{X},[\sh{O}_{\overline{X}}^*\to r_*\Omega_{\overline{X}'}^1(\log S)])} is the set of points.
+          #{\Pic^\natural(X)} is an extension of a subgroup of #{\Pic(\overline{X})}, containing #{\Pic^0(\overline{X})}, by #{\HH^0(\overline{X}',\Omega_{\overline{X}'}^1(\log S))}.
+        }
+
+        \p{
+          We define a map
+
+          \subtree[hodge-theory-iii-10.3.10.1]{
+            \taxon{equation}
+            \number{10.3.10.1}
+            ##{
+              \ZZ^S
+              \to \Pic^\natural(X)
+            \startverb\tag{10.3.10.1}\stopverb
+            }
+          }
+
+          by sending each divisor #{D} of #{\overline{X}}, concentrated in #{S}, to the invertible sheaf #{\OO(D)}.
+        }
+      }
+
+      \lic{(b)}{
+        #{\HH^1(X,\CC)=\bHH^1(\overline{X}, [\OO_{\overline{X}}\to r_*\Omega_{\overline{X}'}^1(\log S)])} is the Lie algebra of #{\Pic^\natural(X)}.
+        It is
+      }
+    }
   }
 }
