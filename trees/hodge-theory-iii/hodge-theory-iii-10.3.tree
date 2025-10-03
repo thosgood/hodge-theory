@@ -356,8 +356,62 @@
 
       \lic{(b)}{
         #{\HH^1(X,\CC)=\bHH^1(\overline{X}, [\OO_{\overline{X}}\to r_*\Omega_{\overline{X}'}^1(\log S)])} is the Lie algebra of #{\Pic^\natural(X)}.
-        It is
+        It is the set of isomorphism classes of pairs #{(P,\alpha)}, where #{P} is an #{\OO_{\overline{X}}}-torsor and #{\alpha} is a connection on #{P} as in (a).
       }
+
+      \lic{(c)}{
+        \p{
+          #{\HH^1(X,\ZZ(1))=\bHH^1(\overline{X}, [\OO_{\overline{X}}\to j_*^\mm\OO_{\overline{X}}^*])} is the set of isomorphism classes of pairs #{(P,\alpha)}, where #{P} is an #{\OO_{\overline{X}}}-torsor and #{\alpha} is an isomorphism from the invertible sheaf #{\exp(P)} to an invertible sheaf #{\OO_X(D)} for some #{D} concentrated in #{S}.
+          The map
+          ##{
+            \Aut(P)
+            = \CC
+            \to \Aut(\exp(P))
+            = \CC^*
+          }
+          is surjective.
+          This allows us to also identify #{\HH^1(X,\ZZ(1))} with the set of pairs #{(p,d)}, where #{p} is an isomorphism class of #{\OO_{\overline{X}}}-torsors (i.e. an element of #{\Lie(\Pic\overline{X})}) and #{d\in\Ker(\alpha)}, defining a divisor concentrated in #{S} with whose image in #{\Pic^0(\overline{X})} is #{\exp(p)}.
+          In other words, we have defined an isomorphism
+
+          \subtree[hodge-theory-iii-10.3.10.2]{
+            \taxon{equation}
+            \number{10.3.10.2}
+            ##{
+              \HH^1(X,\ZZ(1))
+              \simto T_\ZZ(\HH_\mm^1(X)(1)).
+            \startverb\tag{10.3.10.2}\stopverb
+            }
+          }
+        }
+
+        \p{
+          From part (i) of \ref{hodge-theory-iii-10.3.11}, we deduce that this isomorphism is compatible with the weight filtration.
+        }
+      }
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.11]{
+  \taxon{lemma}
+  \number{10.3.11}
+
+  \olc{
+    \lic{(i)}{
+      \oldpage{73}
+      We have that
+      ##{
+        \begin{aligned}
+          W^1(\HH^1(X,\ZZ))
+          &= \Im\big( \HH^1(\overline{X},\ZZ)\to\HH^1(X,\ZZ) \big)
+        \\W^0(\HH^1(X,\ZZ))
+          &= \Ker\big( \HH^1(\overline{X},\ZZ)\to\HH^1(\overline{X}',\ZZ) \big).
+        \end{aligned}
+      }
+    }
+
+    \lic{(ii)}{
+      The
     }
   }
 }
