@@ -213,6 +213,115 @@
   \number{10.3.7}
 
   \p{
-    For
+    For #{\ell} coprime to the characteristic of #{k}, we have that
+    ##{
+      \HH^1(X_0,\ZZ_\ell(1))
+      \simeq T_\ell(\HH_\mm^1(X_0)(1)).
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.8]{
+  \taxon{construction}
+  \number{10.3.8}
+
+  \p{
+    Let #{X_0} be a curve on #{\CC}.
+    We will construct an isomorphism of mixed Hodge structures
+    ##{
+      \HH^1(X_0)(1)
+      \simeq T(\HH_\mm^1(X_0)(1)).
+    }
+  }
+
+  \proof{
+    We can and will suppose that #{X=X_0}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.9]{
+  \taxon{construction}
+  \number{10.3.9}
+
+  \olc{
+    \lic{(i)}{
+      Let #{j_*^\mm\OO_X^*} be the subsheaf of meromorphic functions in #{j_*\OO_X^*}.
+      We have that
+      ##{
+        \HH^1(X,\ZZ(1))
+        = \bHH^1(\overline{X},[\OO_{\overline{X}}\xrightarrow{\exp}j_*^\mm\OO_X^*]).
+      }
+    }
+
+    \lic{(ii)}{
+      We have that
+      ##{
+        \HH^1(X,\CC)
+        = \bHH^1(\overline{X},[\OO_{\overline{X}}\xrightarrow{\dd}r_*\Omega_{\overline{X}'}^1(\log S)]).
+      }
+    }
+
+    \lic{(iii)}{
+      The inclusion of #{\HH^1(X,\ZZ)} into #{\HH^1(X,\CC)} is defined by the morphism of complexes
+      ##{
+        \begin{CD}
+          \OO_{\overline{X}} @>{\exp}>> j_*^\mm\OO_X^*
+        \\@V{\simeq}VV @VV{\dd f/f}V
+        \\\OO_{\overline{X}} @>>> r_*\Omega_{\overline{X}'}^1(\log S)
+        \end{CD}
+      }
+    }
+  }
+
+  \proof{
+    \p{
+      Consider the commutative diagram
+      \talltikzcd{
+        \HH^1(X,\ZZ(1))
+          \ar[r,"\sim"]
+          \ar[d]
+          \ar[dr,phantom,"1"]
+      & \bHH^1(X, [\OO_X\xrightarrow{\exp}\OO_X^*])
+          \ar[d]
+          \ar[dr,phantom,"2"]
+      & \bHH^1(\overline{X}, [j_*\OO_X\xrightarrow{\exp}j_*\OO_X^*])
+          \ar[l,swap,"\sim"]
+          \ar[d]
+          \ar[dr,phantom,"3"]
+      & \bHH^1(\overline{X}, [\OO_{\overline{X}}\xrightarrow{\exp}j_*^\mm\OO_X^*])
+          \ar[l,swap,"\sim"]
+          \ar[d]
+      \\\HH^1(X,\CC)
+          \ar[r]
+      & \bHH^1(X, [\OO_X\xrightarrow{\dd}r_*\Omega_{\overline{X}'}^1])
+      & \bHH^1(\overline{X}, [j_*\OO_X\to j_*r_*\Omega_{X'}^1])
+          \ar[l]
+      & \bHH^1(\overline{X}, [\OO_{\overline{X}}\to r_*\Omega_{\overline{X}'}^1(\log S)])
+          \ar[l,swap,"\sim"]
+      }
+    }
+
+    \p{
+      \oldpage{72}
+      The horizontal arrows in the square labelled 1 are isomorphisms, since the sequences
+      ##{
+        \begin{gathered}
+          0 \to \ZZ(1) \to \OO_X \xrightarrow{\exp} \OO_X^* \to 0
+        \\0 \to \CC \to \OO_X \xrightarrow{\dd} r_*\Omega_{X'}^1 \to 0
+        \end{gathered}
+      }
+      are exact.
+      Those in 2 are isomorphisms since #{\Rd^1j_*\OO_X=0}.
+      Those in 3 are isomorphisms since the morphisms of the complexes that define them are quasi-isomorphisms.
+      This diagram defines the desired construction.
+    }
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.10]{
+  \number{10.3.10}
+
+  \p{
+    Recall that
   }
 }
