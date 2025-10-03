@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2197</fr:anchor>
+    <fr:addr type="user">hodge-theory-iii-10.3.10.2</fr:addr>
+    <fr:route>hodge-theory-iii-10.3.10.2.xml</fr:route>
+    <fr:taxon>Equation</fr:taxon>
+    <fr:authors />
+    <fr:number>10.3.10.2</fr:number>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="block"><![CDATA[               \operatorname {H}^1(X,\mathbb {Z}(1))               \xrightarrow {\sim } T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(X)(1)).             \tag{10.3.10.2}             ]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2198</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.3.10</fr:addr>
+            <fr:route>hodge-theory-iii-10.3.10.xml</fr:route>
+            <fr:authors />
+            <fr:number>10.3.10</fr:number>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Recall that if <fr:tex display="inline"><![CDATA[d\colon  F\to  G]]></fr:tex> is a morphism of abelian sheaves on a space <fr:tex display="inline"><![CDATA[Z]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\operatorname {\mathbb {H}}^1(Z,[F\to  G])]]></fr:tex> can be identified with the set of isomorphism classes of pairs <fr:tex display="inline"><![CDATA[(P,\alpha )]]></fr:tex>, where <fr:tex display="inline"><![CDATA[P]]></fr:tex> is an <fr:tex display="inline"><![CDATA[F]]></fr:tex>-torsor (i.e. a principal homogeneous space under <fr:tex display="inline"><![CDATA[F]]></fr:tex>) and <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is a trivialisation of the <fr:tex display="inline"><![CDATA[G]]></fr:tex>-torsor <fr:tex display="inline"><![CDATA[dP]]></fr:tex>.</fr:p>
+            <fr:p>In particular:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        <fr:p><fr:tex display="inline"><![CDATA[\operatorname {\mathbb {H}}^1(\overline {X}, [\mathcal {O}_{\overline {X}}^*\to  r_*\Omega _{\overline {X}'}^1(\log  S)])]]></fr:tex> can be identified with the set of isomorphism classes of pairs <fr:tex display="inline"><![CDATA[(\mathscr {L},\alpha )]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\mathscr {L}]]></fr:tex> is an invertible sheaf on <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is a connection on <fr:tex display="inline"><![CDATA[\overline {r}^*\mathscr {L}]]></fr:tex> that is holomorphic on <fr:tex display="inline"><![CDATA[X']]></fr:tex> and can present a simple pole at the points of <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+          Let <fr:tex display="inline"><![CDATA[a]]></fr:tex> be the projection from <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(\mathbb {C})]]></fr:tex> (i.e. a point).
+          In the fppf topology, the sheaf <fr:tex display="inline"><![CDATA[\mathrm {R}^1a_*([\mathscr {O}_{\overline {X}}^*\to  r_*\Omega _{\overline {X}'}^1(\log  S)])]]></fr:tex> is representable by a group scheme <fr:tex display="inline"><![CDATA[\operatorname {Pic}^\natural (X)]]></fr:tex>, of which <fr:tex display="inline"><![CDATA[\operatorname {\mathbb {H}}^1(\overline {X},[\mathscr {O}_{\overline {X}}^*\to  r_*\Omega _{\overline {X}'}^1(\log  S)])]]></fr:tex> is the set of points.
+          <fr:tex display="inline"><![CDATA[\operatorname {Pic}^\natural (X)]]></fr:tex> is an extension of a subgroup of <fr:tex display="inline"><![CDATA[\operatorname {Pic}(\overline {X})]]></fr:tex>, containing <fr:tex display="inline"><![CDATA[\operatorname {Pic}^0(\overline {X})]]></fr:tex>, by <fr:tex display="inline"><![CDATA[\operatorname {H}^0(\overline {X}',\Omega _{\overline {X}'}^1(\log  S))]]></fr:tex>.</fr:p>
+
+        <fr:p>We define a map
+
+          <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2189</fr:anchor><fr:addr type="user">hodge-theory-iii-10.3.10.1</fr:addr><fr:route>hodge-theory-iii-10.3.10.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.3.10.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[               \mathbb {Z}^S               \to  \operatorname {Pic}^\natural (X)             \tag{10.3.10.1}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+          by sending each divisor <fr:tex display="inline"><![CDATA[D]]></fr:tex> of <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex>, concentrated in <fr:tex display="inline"><![CDATA[S]]></fr:tex>, to the invertible sheaf <fr:tex display="inline"><![CDATA[\mathcal {O}(D)]]></fr:tex>.</fr:p>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        <fr:tex display="inline"><![CDATA[\operatorname {H}^1(X,\mathbb {C})=\operatorname {\mathbb {H}}^1(\overline {X}, [\mathcal {O}_{\overline {X}}\to  r_*\Omega _{\overline {X}'}^1(\log  S)])]]></fr:tex> is the Lie algebra of <fr:tex display="inline"><![CDATA[\operatorname {Pic}^\natural (X)]]></fr:tex>.
+        It is the set of isomorphism classes of pairs <fr:tex display="inline"><![CDATA[(P,\alpha )]]></fr:tex>, where <fr:tex display="inline"><![CDATA[P]]></fr:tex> is an <fr:tex display="inline"><![CDATA[\mathcal {O}_{\overline {X}}]]></fr:tex>-torsor and <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is a connection on <fr:tex display="inline"><![CDATA[P]]></fr:tex> as in (a).
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        <fr:p><fr:tex display="inline"><![CDATA[\operatorname {H}^1(X,\mathbb {Z}(1))=\operatorname {\mathbb {H}}^1(\overline {X}, [\mathcal {O}_{\overline {X}}\to  j_*^\mathrm {m}\mathcal {O}_{\overline {X}}^*])]]></fr:tex> is the set of isomorphism classes of pairs <fr:tex display="inline"><![CDATA[(P,\alpha )]]></fr:tex>, where <fr:tex display="inline"><![CDATA[P]]></fr:tex> is an <fr:tex display="inline"><![CDATA[\mathcal {O}_{\overline {X}}]]></fr:tex>-torsor and <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is an isomorphism from the invertible sheaf <fr:tex display="inline"><![CDATA[\exp (P)]]></fr:tex> to an invertible sheaf <fr:tex display="inline"><![CDATA[\mathcal {O}_X(D)]]></fr:tex> for some <fr:tex display="inline"><![CDATA[D]]></fr:tex> concentrated in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+          The map
+          <fr:tex display="block"><![CDATA[             \operatorname {Aut}(P)             = \mathbb {C}             \to  \operatorname {Aut}(\exp (P))             = \mathbb {C}^*           ]]></fr:tex>
+          is surjective.
+          This allows us to also identify <fr:tex display="inline"><![CDATA[\operatorname {H}^1(X,\mathbb {Z}(1))]]></fr:tex> with the set of pairs <fr:tex display="inline"><![CDATA[(p,d)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[p]]></fr:tex> is an isomorphism class of <fr:tex display="inline"><![CDATA[\mathcal {O}_{\overline {X}}]]></fr:tex>-torsors (i.e. an element of <fr:tex display="inline"><![CDATA[\operatorname {Lie}(\operatorname {Pic}\overline {X})]]></fr:tex>) and <fr:tex display="inline"><![CDATA[d\in \operatorname {Ker}(\alpha )]]></fr:tex>, defining a divisor concentrated in <fr:tex display="inline"><![CDATA[S]]></fr:tex> with whose image in <fr:tex display="inline"><![CDATA[\operatorname {Pic}^0(\overline {X})]]></fr:tex> is <fr:tex display="inline"><![CDATA[\exp (p)]]></fr:tex>.
+          In other words, we have defined an isomorphism
+
+          <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:addr type="user">hodge-theory-iii-10.3.10.2</fr:addr><fr:route>hodge-theory-iii-10.3.10.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.3.10.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[               \operatorname {H}^1(X,\mathbb {Z}(1))               \xrightarrow {\sim } T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(X)(1)).             \tag{10.3.10.2}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+
+        <fr:p>From part (i) of <fr:ref addr="hodge-theory-iii-10.3.11" href="hodge-theory-iii-10.3.11.xml" taxon="Lemma" number="10.3.11" />, we deduce that this isomorphism is compatible with the weight filtration.</fr:p>
+      </html:li>
+
+    </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

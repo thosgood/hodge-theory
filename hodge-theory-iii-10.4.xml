@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3867</fr:anchor>
+    <fr:anchor>3875</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-10.4</fr:addr>
     <fr:route>hodge-theory-iii-10.4.xml</fr:route>
     <fr:title text="Hodge Theory III › Hodge theory in level  1 › Translation of a theorem of Picard"><fr:link type="local" href="hodge-theory-iii-10.xml" addr="hodge-theory-iii-10" title="Hodge Theory III › Hodge theory in level  1"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:link> › Translation of a theorem of Picard</fr:title>
@@ -19,7 +19,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3868</fr:anchor>
+            <fr:anchor>3876</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10</fr:addr>
             <fr:route>hodge-theory-iii-10.xml</fr:route>
             <fr:title text="Hodge Theory III › Hodge theory in level  1"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:title>
@@ -29,7 +29,7 @@
           <fr:mainmatter>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3349</fr:anchor>
+                <fr:anchor>3357</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.1</fr:addr>
                 <fr:route>hodge-theory-iii-10.1.xml</fr:route>
                 <fr:title text="1-Motives">1-Motives</fr:title>
@@ -618,7 +618,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3350</fr:anchor>
+                <fr:anchor>3358</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.2</fr:addr>
                 <fr:route>hodge-theory-iii-10.2.xml</fr:route>
                 <fr:title text="1-Motives and bi-extensions">1-Motives and bi-extensions</fr:title>
@@ -1371,7 +1371,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3351</fr:anchor>
+                <fr:anchor>3359</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.3</fr:addr>
                 <fr:route>hodge-theory-iii-10.3.xml</fr:route>
                 <fr:title text="Algebraic interpretation of the mixed {H}^1: the case of curves">Algebraic interpretation of the mixed <fr:tex display="inline"><![CDATA[\operatorname {H}^1]]></fr:tex>: the case of curves</fr:title>
@@ -1716,11 +1716,54 @@
       
  <html:li style="list-style-type: &quot;(b) &quot;">
         <fr:tex display="inline"><![CDATA[\operatorname {H}^1(X,\mathbb {C})=\operatorname {\mathbb {H}}^1(\overline {X}, [\mathcal {O}_{\overline {X}}\to  r_*\Omega _{\overline {X}'}^1(\log  S)])]]></fr:tex> is the Lie algebra of <fr:tex display="inline"><![CDATA[\operatorname {Pic}^\natural (X)]]></fr:tex>.
-        It is
+        It is the set of isomorphism classes of pairs <fr:tex display="inline"><![CDATA[(P,\alpha )]]></fr:tex>, where <fr:tex display="inline"><![CDATA[P]]></fr:tex> is an <fr:tex display="inline"><![CDATA[\mathcal {O}_{\overline {X}}]]></fr:tex>-torsor and <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is a connection on <fr:tex display="inline"><![CDATA[P]]></fr:tex> as in (a).
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        <fr:p><fr:tex display="inline"><![CDATA[\operatorname {H}^1(X,\mathbb {Z}(1))=\operatorname {\mathbb {H}}^1(\overline {X}, [\mathcal {O}_{\overline {X}}\to  j_*^\mathrm {m}\mathcal {O}_{\overline {X}}^*])]]></fr:tex> is the set of isomorphism classes of pairs <fr:tex display="inline"><![CDATA[(P,\alpha )]]></fr:tex>, where <fr:tex display="inline"><![CDATA[P]]></fr:tex> is an <fr:tex display="inline"><![CDATA[\mathcal {O}_{\overline {X}}]]></fr:tex>-torsor and <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is an isomorphism from the invertible sheaf <fr:tex display="inline"><![CDATA[\exp (P)]]></fr:tex> to an invertible sheaf <fr:tex display="inline"><![CDATA[\mathcal {O}_X(D)]]></fr:tex> for some <fr:tex display="inline"><![CDATA[D]]></fr:tex> concentrated in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
+          The map
+          <fr:tex display="block"><![CDATA[             \operatorname {Aut}(P)             = \mathbb {C}             \to  \operatorname {Aut}(\exp (P))             = \mathbb {C}^*           ]]></fr:tex>
+          is surjective.
+          This allows us to also identify <fr:tex display="inline"><![CDATA[\operatorname {H}^1(X,\mathbb {Z}(1))]]></fr:tex> with the set of pairs <fr:tex display="inline"><![CDATA[(p,d)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[p]]></fr:tex> is an isomorphism class of <fr:tex display="inline"><![CDATA[\mathcal {O}_{\overline {X}}]]></fr:tex>-torsors (i.e. an element of <fr:tex display="inline"><![CDATA[\operatorname {Lie}(\operatorname {Pic}\overline {X})]]></fr:tex>) and <fr:tex display="inline"><![CDATA[d\in \operatorname {Ker}(\alpha )]]></fr:tex>, defining a divisor concentrated in <fr:tex display="inline"><![CDATA[S]]></fr:tex> with whose image in <fr:tex display="inline"><![CDATA[\operatorname {Pic}^0(\overline {X})]]></fr:tex> is <fr:tex display="inline"><![CDATA[\exp (p)]]></fr:tex>.
+          In other words, we have defined an isomorphism
+
+          <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:addr type="user">hodge-theory-iii-10.3.10.2</fr:addr><fr:route>hodge-theory-iii-10.3.10.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.3.10.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[               \operatorname {H}^1(X,\mathbb {Z}(1))               \xrightarrow {\sim } T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(X)(1)).             \tag{10.3.10.2}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+
+        <fr:p>From part (i) of <fr:ref addr="hodge-theory-iii-10.3.11" href="hodge-theory-iii-10.3.11.xml" taxon="Lemma" number="10.3.11" />, we deduce that this isomorphism is compatible with the weight filtration.</fr:p>
       </html:li>
 
     </html:ol></fr:p>
                   </fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>2191</fr:anchor>
+                    <fr:addr type="user">hodge-theory-iii-10.3.11</fr:addr>
+                    <fr:route>hodge-theory-iii-10.3.11.xml</fr:route>
+                    <fr:taxon>Lemma</fr:taxon>
+                    <fr:authors />
+                    <fr:number>10.3.11</fr:number>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      
+      We have that
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           W^1(\operatorname {H}^1(X,\mathbb {Z}))           &= \operatorname {Im}\big ( \operatorname {H}^1(\overline {X},\mathbb {Z})\to \operatorname {H}^1(X,\mathbb {Z}) \big )         \\W^0(\operatorname {H}^1(X,\mathbb {Z}))           &= \operatorname {Ker}\big ( \operatorname {H}^1(\overline {X},\mathbb {Z})\to \operatorname {H}^1(\overline {X}',\mathbb {Z}) \big ).         \end {aligned}       ]]></fr:tex>
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      The
+    </html:li>
+
+  </html:ol>
+</fr:mainmatter>
                   <fr:backmatter />
                 </fr:tree>
               </fr:mainmatter>
@@ -1728,7 +1771,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>3352</fr:anchor>
+                <fr:anchor>3360</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.4</fr:addr>
                 <fr:route>hodge-theory-iii-10.4.xml</fr:route>
                 <fr:title text="Translation of a theorem of Picard">Translation of a theorem of Picard</fr:title>
@@ -1752,7 +1795,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3869</fr:anchor>
+            <fr:anchor>3877</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Deligne's &quot;Hodge Theory I, II, and III&quot;">Deligne's "Hodge Theory I, II, and III"</fr:title>
