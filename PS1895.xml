@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>537</fr:anchor>
+    <fr:anchor>541</fr:anchor>
     <fr:addr type="user">PS1895</fr:addr>
     <fr:route>PS1895.xml</fr:route>
     <fr:title text="Théorie des fonctions algébriques de deux variables indépendantes, I">Théorie des fonctions algébriques de deux variables indépendantes, I</fr:title>
@@ -23,5 +23,81 @@
 }]]></fr:meta>
   </fr:frontmatter>
   <fr:mainmatter />
-  <fr:backmatter />
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>544</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.4.3</fr:addr>
+            <fr:route>hodge-theory-iii-10.4.3.xml</fr:route>
+            <fr:authors />
+            <fr:number>10.4.3</fr:number>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>We will not prove the above constructions and compatibilities.
+    The seed of the idea is in the following theorem of E. Picard ([<fr:link type="local" href="PS1895.xml" addr="PS1895" title="Théorie des fonctions algébriques de deux variables indépendantes, I">PS1895</fr:link>, p. 62]).
+    Here <fr:tex display="inline"><![CDATA[P]]></fr:tex> and <fr:tex display="inline"><![CDATA[A]]></fr:tex> denote polynomials.</fr:p>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>537</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-10.4.3.1</fr:addr>
+                <fr:route>hodge-theory-iii-10.4.3.1.xml</fr:route>
+                <fr:taxon>Theorem</fr:taxon>
+                <fr:authors />
+                <fr:number>10.4.3.1</fr:number>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Every residue of the double integral
+      <fr:tex display="block"><![CDATA[         \iint \frac {P(x,y)\mathrm {d} x\mathrm {d} y}{A(x,y)}       ]]></fr:tex>
+      can be thought of as a logarithmic or cyclic period of an abelian integral.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>Recall that:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        A <fr:em><fr:tex display="inline"><![CDATA[k]]></fr:tex>-iterated integral</fr:em> on a non-singular projective variety <fr:tex display="inline"><![CDATA[V]]></fr:tex> of dimension <fr:tex display="inline"><![CDATA[d]]></fr:tex> is a closed rational <fr:tex display="inline"><![CDATA[k]]></fr:tex>-form on <fr:tex display="inline"><![CDATA[V]]></fr:tex>, i.e. it is an element <fr:tex display="inline"><![CDATA[\alpha \in \operatorname {H}^0(U,\Omega ^k)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a dense open of <fr:tex display="inline"><![CDATA[V]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[\mathrm {d}\alpha =0]]></fr:tex>.
+        Here, <fr:tex display="inline"><![CDATA[k=2]]></fr:tex> and <fr:tex display="inline"><![CDATA[V=\mathbb {P}^2]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[k=\dim  V]]></fr:tex> and the condition <fr:tex display="inline"><![CDATA[\mathrm {d}\alpha =0]]></fr:tex> is trivial.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        A <fr:tex display="inline"><![CDATA[k]]></fr:tex>-iterated integral <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> defines an element, again denoted by <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>, of ${<fr:tex display="inline"><![CDATA[\operatorname {H}]]></fr:tex>^k(U,<fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>)}.
+        The <fr:em>periods</fr:em> of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> are the numbers <fr:tex display="inline"><![CDATA[\langle \alpha ,c\rangle ]]></fr:tex> for <fr:tex display="inline"><![CDATA[c\in \operatorname {H}_k(U,\mathbb {Z})]]></fr:tex>.
+        If <fr:tex display="inline"><![CDATA[c]]></fr:tex> is defined by a singular chain <fr:tex display="inline"><![CDATA[C]]></fr:tex>, then
+        <fr:tex display="block"><![CDATA[           \langle \alpha ,c\rangle            = \int _C\alpha .         ]]></fr:tex>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        The <fr:em>residues</fr:em> of a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-iterated integral <fr:tex display="inline"><![CDATA[\alpha \in \operatorname {H}^0(U,\Omega ^k)]]></fr:tex> are the numbers <fr:tex display="inline"><![CDATA[\langle \alpha ,c\rangle ]]></fr:tex> for
+        <fr:tex display="block"><![CDATA[           c\in \operatorname {Ker}\big ( \operatorname {H}_k(U,\mathbb {Z})\to \operatorname {H}_k(V,\mathbb {Z}) \big ).         ]]></fr:tex>
+        In the case considered by Picard, the map <fr:tex display="inline"><![CDATA[\operatorname {H}_2(U,\mathbb {Z})\to \operatorname {H}_2(\mathbb {P}^3,\mathbb {Z})]]></fr:tex> is zero, and there is no need to distinguish between periods and residues.
+        For the general case, see [<fr:link type="local" href="L1924.xml" addr="L1924" title="L'analysis situs et la géométrie algébrique">L1924</fr:link>, note I].
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(d) &quot;">
+        By
+      </html:li>
+
+    </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
 </fr:tree>

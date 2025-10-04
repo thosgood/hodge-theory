@@ -2,14 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2266</fr:anchor>
+    <fr:anchor>2272</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-10.4.1</fr:addr>
     <fr:route>hodge-theory-iii-10.4.1.xml</fr:route>
     <fr:authors />
     <fr:number>10.4.1</fr:number>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Let</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[\mathscr {H}]]></fr:tex> be a mixed Hodge structure such that <fr:tex display="inline"><![CDATA[h^{pq}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[p<0]]></fr:tex> or <fr:tex display="inline"><![CDATA[q<0]]></fr:tex> (resp. for <fr:tex display="inline"><![CDATA[p>n]]></fr:tex> or <fr:tex display="inline"><![CDATA[q>n]]></fr:tex>).
+    I provisionally denote by <fr:tex display="inline"><![CDATA[\operatorname {I}(\mathscr {H})]]></fr:tex> (resp. by <fr:tex display="inline"><![CDATA[\operatorname {II}_n(\mathscr {H})]]></fr:tex>) the 1-motive defined by the largest mixed Hodge sub-structure of <fr:tex display="inline"><![CDATA[(\mathscr {H}_\mathbb {Z}{/}\mathrm {torsion})(1)]]></fr:tex> (resp. by the largest quotient of <fr:tex display="inline"><![CDATA[(\mathscr {H}_\mathbb {Z}{/}\mathrm {torsion})(n)]]></fr:tex>) that is of pure of type
+    <fr:tex display="inline"><![CDATA[       \big \{ (-1,-1), (-1,0), (0,-1), (0,0) \big \}.     ]]></fr:tex>
+    If <fr:tex display="inline"><![CDATA[X]]></fr:tex> in a complex algebraic variety of dimension <fr:tex display="inline"><![CDATA[\leqslant  N]]></fr:tex>, I conjecture that the 1-motives <fr:tex display="inline"><![CDATA[\operatorname {I}(\operatorname {H}^n(X,\mathbb {Z}))]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {II}_n(\operatorname {H}^n(X,\mathbb {Z}))]]></fr:tex> (for <fr:tex display="inline"><![CDATA[n\leqslant  N]]></fr:tex>), and <fr:tex display="inline"><![CDATA[\operatorname {II}_n(\operatorname {H}^n(X,\mathbb {Z}))]]></fr:tex> (for <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>) admit a purely algebraic definition.
+    The morphisms
+    <fr:tex display="block"><![CDATA[       \begin {aligned}         T_\ell (\operatorname {I}(\operatorname {H}^n(X,\mathbb {Z})))         & \to  (\operatorname {H}^n(X,\mathbb {Z}_\ell )/\mathrm {torsion})(1)       \\T_\ell (\operatorname {II}_n(\operatorname {H}^n(X,\mathbb {Z})))         & \leftarrow  \operatorname {H}^n(X,\mathbb {Z}_\ell )(n)           \quad \text {for }n\leqslant  N       \\T_\ell (\operatorname {II}_N(\operatorname {H}^n(X,\mathbb {Z})))         & \leftarrow  \operatorname {H}^n(X,\mathbb {Z}_\ell )(N)           \quad \text {for }n\geqslant  N       \end {aligned}     ]]></fr:tex>
+    (and their analogues in de Rham cohomology) should also admit a purely algebraic definition.
+    This is what we have shown for <fr:tex display="inline"><![CDATA[\dim (X)=1]]></fr:tex>.
+    Here is another example.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -20,7 +28,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2267</fr:anchor>
+            <fr:anchor>2273</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10.4</fr:addr>
             <fr:route>hodge-theory-iii-10.4.xml</fr:route>
             <fr:title text="Hodge Theory III › Hodge theory in level  1 › Translation of a theorem of Picard"><fr:link type="local" href="hodge-theory-iii-10.xml" addr="hodge-theory-iii-10" title="Hodge Theory III › Hodge theory in level  1"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory in level <fr:tex display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:link> › Translation of a theorem of Picard</fr:title>
@@ -30,14 +38,138 @@
           <fr:mainmatter>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2268</fr:anchor>
+                <fr:anchor>2274</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-10.4.1</fr:addr>
                 <fr:route>hodge-theory-iii-10.4.1.xml</fr:route>
                 <fr:authors />
                 <fr:number>10.4.1</fr:number>
               </fr:frontmatter>
               <fr:mainmatter>
-                <fr:p>Let</fr:p>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[\mathscr {H}]]></fr:tex> be a mixed Hodge structure such that <fr:tex display="inline"><![CDATA[h^{pq}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[p<0]]></fr:tex> or <fr:tex display="inline"><![CDATA[q<0]]></fr:tex> (resp. for <fr:tex display="inline"><![CDATA[p>n]]></fr:tex> or <fr:tex display="inline"><![CDATA[q>n]]></fr:tex>).
+    I provisionally denote by <fr:tex display="inline"><![CDATA[\operatorname {I}(\mathscr {H})]]></fr:tex> (resp. by <fr:tex display="inline"><![CDATA[\operatorname {II}_n(\mathscr {H})]]></fr:tex>) the 1-motive defined by the largest mixed Hodge sub-structure of <fr:tex display="inline"><![CDATA[(\mathscr {H}_\mathbb {Z}{/}\mathrm {torsion})(1)]]></fr:tex> (resp. by the largest quotient of <fr:tex display="inline"><![CDATA[(\mathscr {H}_\mathbb {Z}{/}\mathrm {torsion})(n)]]></fr:tex>) that is of pure of type
+    <fr:tex display="inline"><![CDATA[       \big \{ (-1,-1), (-1,0), (0,-1), (0,0) \big \}.     ]]></fr:tex>
+    If <fr:tex display="inline"><![CDATA[X]]></fr:tex> in a complex algebraic variety of dimension <fr:tex display="inline"><![CDATA[\leqslant  N]]></fr:tex>, I conjecture that the 1-motives <fr:tex display="inline"><![CDATA[\operatorname {I}(\operatorname {H}^n(X,\mathbb {Z}))]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {II}_n(\operatorname {H}^n(X,\mathbb {Z}))]]></fr:tex> (for <fr:tex display="inline"><![CDATA[n\leqslant  N]]></fr:tex>), and <fr:tex display="inline"><![CDATA[\operatorname {II}_n(\operatorname {H}^n(X,\mathbb {Z}))]]></fr:tex> (for <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>) admit a purely algebraic definition.
+    The morphisms
+    <fr:tex display="block"><![CDATA[       \begin {aligned}         T_\ell (\operatorname {I}(\operatorname {H}^n(X,\mathbb {Z})))         & \to  (\operatorname {H}^n(X,\mathbb {Z}_\ell )/\mathrm {torsion})(1)       \\T_\ell (\operatorname {II}_n(\operatorname {H}^n(X,\mathbb {Z})))         & \leftarrow  \operatorname {H}^n(X,\mathbb {Z}_\ell )(n)           \quad \text {for }n\leqslant  N       \\T_\ell (\operatorname {II}_N(\operatorname {H}^n(X,\mathbb {Z})))         & \leftarrow  \operatorname {H}^n(X,\mathbb {Z}_\ell )(N)           \quad \text {for }n\geqslant  N       \end {aligned}     ]]></fr:tex>
+    (and their analogues in de Rham cohomology) should also admit a purely algebraic definition.
+    This is what we have shown for <fr:tex display="inline"><![CDATA[\dim (X)=1]]></fr:tex>.
+    Here is another example.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2275</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-10.4.2</fr:addr>
+                <fr:route>hodge-theory-iii-10.4.2.xml</fr:route>
+                <fr:authors />
+                <fr:number>10.4.2</fr:number>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a smooth projective surface, <fr:tex display="inline"><![CDATA[U]]></fr:tex> a dense Zariski open of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, and <fr:tex display="inline"><![CDATA[C=S\setminus  U]]></fr:tex>.
+    Set
+    <fr:tex display="block"><![CDATA[       \operatorname {H}_2^{\log }(U,\mathbb {Z})       = \operatorname {Ker}\big ( \operatorname {H}_2(U,\mathbb {Z})\to \operatorname {H}_2(S,\mathbb {Z}) \big ).     ]]></fr:tex>
+    By [<fr:link type="local" href="G1968.xml" addr="G1968" title="Le groupe de Brauer, III: Exemples et compléments">G1968</fr:link>, §9], this group does not depend on the chosen smooth compactification <fr:tex display="inline"><![CDATA[S]]></fr:tex> of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+    Modulo finite groups, this is nothing more (<fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" />) than <fr:tex display="inline"><![CDATA[W_{-3}\operatorname {H}_2(U,\mathbb {Z})]]></fr:tex> (<fr:tex display="inline"><![CDATA[\operatorname {H}_2(U,\mathbb {Q})]]></fr:tex>, the dual of <fr:tex display="inline"><![CDATA[\operatorname {H}^2(U,\mathbb {Q})]]></fr:tex>, is endowed with the dual mixed Hodge structure).
+    We can show that the 1-motive defined by <fr:tex display="inline"><![CDATA[(\operatorname {H}_2^{\log }(U,\mathbb {Z})/\mathrm {torsion})(-1)]]></fr:tex> admits the following description:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        By Poincaré duality, we have that <fr:tex display="inline"><![CDATA[\operatorname {H}_2(U,\mathbb {Z})=\operatorname {H}_\mathrm {c}^2(U,\mathbb {Z})]]></fr:tex>.
+        The long exact sequence of cohomology of <fr:tex display="inline"><![CDATA[(S,C)]]></fr:tex> gives an exact sequence
+        <fr:tex display="block"><![CDATA[           \operatorname {H}^1(S,\mathbb {Z})           \to  \operatorname {H}^1(C,\mathbb {Z})           \to  \operatorname {H}_2^{\log }(U,\mathbb {Z})           \to  0.         ]]></fr:tex>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        Let <fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(C)]]></fr:tex> be the quotient of <fr:tex display="inline"><![CDATA[\operatorname {Pic}^0(C)]]></fr:tex> by its unipotent radical.
+        We know that <fr:tex display="inline"><![CDATA[\operatorname {H}^1(C,\mathbb {Z})=T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(C))]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {H}^1(S,\mathbb {Z})=T_\mathbb {Z}(\operatorname {Pic}^0(S))]]></fr:tex>.
+        We thus have a map
+        <fr:tex display="block"><![CDATA[           \operatorname {H}_2^{\log }(U,\mathbb {Z})           \to  T_\mathbb {Z}(H_\mathrm {m}^1(C)/\operatorname {Pic}^0(S))         ]]></fr:tex>
+        which is an isomorphism modulo finite groups.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        The map
+
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>473</fr:anchor><fr:addr type="user">hodge-theory-iii-10.4.2.1</fr:addr><fr:route>hodge-theory-iii-10.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.4.2.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\operatorname {H}_2^{\log }(U,\mathbb {Z})/\mathrm {torsion})(-1)             \to  T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(C)/\operatorname {Pic}^0(S))           \tag{10.4.2.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+        induced from (b) is a morphism of mixed Hodge structures (and an isomorphism modulo finite groups).
+      </html:li>
+
+    </html:ol></fr:p>
+                <fr:p>We can define the isomorphisms (modulo finite groups) induced by <fr:ref addr="hodge-theory-iii-10.4.2.1" href="hodge-theory-iii-10.4.2.1.xml" taxon="Equation" number="10.4.2.1" /> between the analogues of <fr:tex display="inline"><![CDATA[\operatorname {H}_2^{\log }(U,\mathbb {Z})(-1)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\ell ]]></fr:tex>-adic or de Rham cohomology, as well as the <fr:tex display="inline"><![CDATA[\ell ]]></fr:tex>-adic or de Rham realisations of <fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(C)/\operatorname {Pic}^0(S)]]></fr:tex>, in a purely algebraic way.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2276</fr:anchor>
+                <fr:addr type="user">hodge-theory-iii-10.4.3</fr:addr>
+                <fr:route>hodge-theory-iii-10.4.3.xml</fr:route>
+                <fr:authors />
+                <fr:number>10.4.3</fr:number>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>We will not prove the above constructions and compatibilities.
+    The seed of the idea is in the following theorem of E. Picard ([<fr:link type="local" href="PS1895.xml" addr="PS1895" title="Théorie des fonctions algébriques de deux variables indépendantes, I">PS1895</fr:link>, p. 62]).
+    Here <fr:tex display="inline"><![CDATA[P]]></fr:tex> and <fr:tex display="inline"><![CDATA[A]]></fr:tex> denote polynomials.</fr:p>
+                <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+                  <fr:frontmatter>
+                    <fr:anchor>537</fr:anchor>
+                    <fr:addr type="user">hodge-theory-iii-10.4.3.1</fr:addr>
+                    <fr:route>hodge-theory-iii-10.4.3.1.xml</fr:route>
+                    <fr:taxon>Theorem</fr:taxon>
+                    <fr:authors />
+                    <fr:number>10.4.3.1</fr:number>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:p>Every residue of the double integral
+      <fr:tex display="block"><![CDATA[         \iint \frac {P(x,y)\mathrm {d} x\mathrm {d} y}{A(x,y)}       ]]></fr:tex>
+      can be thought of as a logarithmic or cyclic period of an abelian integral.</fr:p>
+                  </fr:mainmatter>
+                  <fr:backmatter />
+                </fr:tree>
+                <fr:p>Recall that:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        A <fr:em><fr:tex display="inline"><![CDATA[k]]></fr:tex>-iterated integral</fr:em> on a non-singular projective variety <fr:tex display="inline"><![CDATA[V]]></fr:tex> of dimension <fr:tex display="inline"><![CDATA[d]]></fr:tex> is a closed rational <fr:tex display="inline"><![CDATA[k]]></fr:tex>-form on <fr:tex display="inline"><![CDATA[V]]></fr:tex>, i.e. it is an element <fr:tex display="inline"><![CDATA[\alpha \in \operatorname {H}^0(U,\Omega ^k)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a dense open of <fr:tex display="inline"><![CDATA[V]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[\mathrm {d}\alpha =0]]></fr:tex>.
+        Here, <fr:tex display="inline"><![CDATA[k=2]]></fr:tex> and <fr:tex display="inline"><![CDATA[V=\mathbb {P}^2]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[k=\dim  V]]></fr:tex> and the condition <fr:tex display="inline"><![CDATA[\mathrm {d}\alpha =0]]></fr:tex> is trivial.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        A <fr:tex display="inline"><![CDATA[k]]></fr:tex>-iterated integral <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> defines an element, again denoted by <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>, of ${<fr:tex display="inline"><![CDATA[\operatorname {H}]]></fr:tex>^k(U,<fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>)}.
+        The <fr:em>periods</fr:em> of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> are the numbers <fr:tex display="inline"><![CDATA[\langle \alpha ,c\rangle ]]></fr:tex> for <fr:tex display="inline"><![CDATA[c\in \operatorname {H}_k(U,\mathbb {Z})]]></fr:tex>.
+        If <fr:tex display="inline"><![CDATA[c]]></fr:tex> is defined by a singular chain <fr:tex display="inline"><![CDATA[C]]></fr:tex>, then
+        <fr:tex display="block"><![CDATA[           \langle \alpha ,c\rangle            = \int _C\alpha .         ]]></fr:tex>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        The <fr:em>residues</fr:em> of a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-iterated integral <fr:tex display="inline"><![CDATA[\alpha \in \operatorname {H}^0(U,\Omega ^k)]]></fr:tex> are the numbers <fr:tex display="inline"><![CDATA[\langle \alpha ,c\rangle ]]></fr:tex> for
+        <fr:tex display="block"><![CDATA[           c\in \operatorname {Ker}\big ( \operatorname {H}_k(U,\mathbb {Z})\to \operatorname {H}_k(V,\mathbb {Z}) \big ).         ]]></fr:tex>
+        In the case considered by Picard, the map <fr:tex display="inline"><![CDATA[\operatorname {H}_2(U,\mathbb {Z})\to \operatorname {H}_2(\mathbb {P}^3,\mathbb {Z})]]></fr:tex> is zero, and there is no need to distinguish between periods and residues.
+        For the general case, see [<fr:link type="local" href="L1924.xml" addr="L1924" title="L'analysis situs et la géométrie algébrique">L1924</fr:link>, note I].
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(d) &quot;">
+        By
+      </html:li>
+
+    </html:ol></fr:p>
               </fr:mainmatter>
               <fr:backmatter />
             </fr:tree>
