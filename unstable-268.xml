@@ -2,15 +2,27 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3245</fr:anchor>
+    <fr:anchor>3257</fr:anchor>
     <fr:addr type="machine">#268</fr:addr>
     <fr:route>unstable-268.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-      <fr:p>Every biadditive morphism <fr:tex display="inline"><![CDATA[G_1\times  G_2\to \mathbb {G}_\mathrm {m}]]></fr:tex> is trivial.</fr:p>
-    </fr:mainmatter>
+    <fr:p>We first prove (i).
+      It suffices to prove the first claim: the second follows from <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" />.
+      We have a comparison of exact sequences
+      <fr:tex display="block"><![CDATA[         \begin {CD}           \operatorname {H}^1(\overline {X},\,\mathbb {Z}) @>>> \operatorname {H}^1(X,\,\mathbb {Z}) @>{\partial }>> \operatorname {H}^2(\overline {X}\,\operatorname {mod}\, X,\,\mathbb {Z})         \\@VVV @VVV @VV{\simeq }V         \\\operatorname {H}^1(\overline {X}',\,\mathbb {Z}) @>>> \operatorname {H}^1(X',\,\mathbb {Z}) @>{\partial }>> \operatorname {H}^2(\overline {X}'\,\operatorname {mod}\, X',\,\mathbb {Z}) @>>> \operatorname {H}^2(\overline {X}',\,\mathbb {Z})         \end {CD}       ]]></fr:tex>
+      It follows from <fr:ref addr="hodge-theory-iii-8.3.7" href="hodge-theory-iii-8.3.7.xml" taxon="Example" number="8.3.7" /> and <fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" /> that <fr:tex display="inline"><![CDATA[\operatorname {H}^2(\overline {X}'\operatorname {mod} X,\mathbb {Z})]]></fr:tex>, and thus <fr:tex display="inline"><![CDATA[\operatorname {H}^2(\overline {X}\operatorname {mod} X,\mathbb {Z})]]></fr:tex>, is pure of weight 2.
+      Taking <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />, this proves (i).</fr:p>
+
+    <fr:p>To prove (ii), we have to return to <fr:ref addr="hodge-theory-iii-8.2.1" href="hodge-theory-iii-8.2.1.xml" number="8.2.1" /> and use the fact that the simplicial scheme <fr:tex display="inline"><![CDATA[((X'/X)^{\Delta _n})_{n\geqslant 0}]]></fr:tex> is smooth (the <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex>-tuple <fr:tex display="inline"><![CDATA[(X'/X)^{\Delta _n}]]></fr:tex> given by the iterated fibre product is the disjoint sum of <fr:tex display="inline"><![CDATA[X']]></fr:tex>, the diagonal, and a finite number of points) and that it admits <fr:tex display="inline"><![CDATA[((\overline {X}'/\overline {X})^{\Delta _n})_{n\geqslant 0}]]></fr:tex> as a smooth compactification.
+      Let <fr:tex display="inline"><![CDATA[\varepsilon \colon ((\overline {X}'/\overline {X})^{\Delta _n})_{n\geqslant 0}\to \overline {X}]]></fr:tex> the augmentation morphism.
+      Let <fr:tex display="inline"><![CDATA[(K,F)]]></fr:tex> be the complex <fr:tex display="inline"><![CDATA[\mathcal {O}\to \Omega ^1(\log  S)]]></fr:tex> on <fr:tex display="inline"><![CDATA[((\overline {X}'/\overline {X})^{\Delta _n})_{n\geqslant 0}]]></fr:tex> endowed with the stupid filtration.
+      We have an augmentation morphism
+      <fr:tex display="block"><![CDATA[         \alpha \colon          [\mathcal {O}_{\overline {X}}\to \overline {r}_*\Omega _{\overline {X}'}^1(\log  S)]         \to  \mathrm {s}{\varepsilon _\bullet }_*K.       ]]></fr:tex>
+      The</fr:p>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -20,22 +32,47 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3246</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-10.2.2.1</fr:addr>
-            <fr:route>hodge-theory-iii-10.2.2.1.xml</fr:route>
+            <fr:anchor>3258</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.3.11</fr:addr>
+            <fr:route>hodge-theory-iii-10.3.11.xml</fr:route>
             <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>10.2.2.1</fr:number>
+            <fr:number>10.3.11</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[M_i=(X_i,A_i,T_i,G_i,u_i)]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be 1-motives.
-      Then
-      <fr:tex display="block"><![CDATA[         \operatorname {Biext}^0(M_1,M_2;\mathbb {G}_\mathrm {m})         = 0.       ]]></fr:tex>
-      Over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we similarly have that <fr:tex display="inline"><![CDATA[\operatorname {Biext}^0(M_1^\mathrm {an},M_2^\mathrm {an};\mathbb {G}_\mathrm {m})=0]]></fr:tex>.</fr:p>
+          <fr:mainmatter>
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li style="list-style-type: &quot;(i) &quot;">
+      
+      We have that
+      <fr:tex display="block"><![CDATA[         \begin {aligned}           W^1(\operatorname {H}^1(X,\mathbb {Z}))           &= \operatorname {Im}\big ( \operatorname {H}^1(\overline {X},\mathbb {Z})\to \operatorname {H}^1(X,\mathbb {Z}) \big )         \\W^0(\operatorname {H}^1(X,\mathbb {Z}))           &= \operatorname {Ker}\big ( \operatorname {H}^1(\overline {X},\mathbb {Z})\to \operatorname {H}^1(\overline {X}',\mathbb {Z}) \big ).         \end {aligned}       ]]></fr:tex>
+    </html:li>
+
+
+    
+ <html:li style="list-style-type: &quot;(ii) &quot;">
+      The spectral sequence defined by the stupid filtration of <fr:tex display="inline"><![CDATA[[\mathcal {O}_{\overline {X}}\to \overline {r}_*\Omega _{\overline {X}'}^1(\log  S)]]]></fr:tex> degenerates and abuts to the Hodge filtration of <fr:tex display="inline"><![CDATA[\operatorname {H}^*(X,\mathbb {C})]]></fr:tex>.
+    </html:li>
+
+  </html:ol>
+
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2020</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-      <fr:p>Every biadditive morphism <fr:tex display="inline"><![CDATA[G_1\times  G_2\to \mathbb {G}_\mathrm {m}]]></fr:tex> is trivial.</fr:p>
-    </fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1538</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>We first prove (i).
+      It suffices to prove the first claim: the second follows from <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" />.
+      We have a comparison of exact sequences
+      <fr:tex display="block"><![CDATA[         \begin {CD}           \operatorname {H}^1(\overline {X},\,\mathbb {Z}) @>>> \operatorname {H}^1(X,\,\mathbb {Z}) @>{\partial }>> \operatorname {H}^2(\overline {X}\,\operatorname {mod}\, X,\,\mathbb {Z})         \\@VVV @VVV @VV{\simeq }V         \\\operatorname {H}^1(\overline {X}',\,\mathbb {Z}) @>>> \operatorname {H}^1(X',\,\mathbb {Z}) @>{\partial }>> \operatorname {H}^2(\overline {X}'\,\operatorname {mod}\, X',\,\mathbb {Z}) @>>> \operatorname {H}^2(\overline {X}',\,\mathbb {Z})         \end {CD}       ]]></fr:tex>
+      It follows from <fr:ref addr="hodge-theory-iii-8.3.7" href="hodge-theory-iii-8.3.7.xml" taxon="Example" number="8.3.7" /> and <fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" /> that <fr:tex display="inline"><![CDATA[\operatorname {H}^2(\overline {X}'\operatorname {mod} X,\mathbb {Z})]]></fr:tex>, and thus <fr:tex display="inline"><![CDATA[\operatorname {H}^2(\overline {X}\operatorname {mod} X,\mathbb {Z})]]></fr:tex>, is pure of weight 2.
+      Taking <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />, this proves (i).</fr:p>
+
+    <fr:p>To prove (ii), we have to return to <fr:ref addr="hodge-theory-iii-8.2.1" href="hodge-theory-iii-8.2.1.xml" number="8.2.1" /> and use the fact that the simplicial scheme <fr:tex display="inline"><![CDATA[((X'/X)^{\Delta _n})_{n\geqslant 0}]]></fr:tex> is smooth (the <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex>-tuple <fr:tex display="inline"><![CDATA[(X'/X)^{\Delta _n}]]></fr:tex> given by the iterated fibre product is the disjoint sum of <fr:tex display="inline"><![CDATA[X']]></fr:tex>, the diagonal, and a finite number of points) and that it admits <fr:tex display="inline"><![CDATA[((\overline {X}'/\overline {X})^{\Delta _n})_{n\geqslant 0}]]></fr:tex> as a smooth compactification.
+      Let <fr:tex display="inline"><![CDATA[\varepsilon \colon ((\overline {X}'/\overline {X})^{\Delta _n})_{n\geqslant 0}\to \overline {X}]]></fr:tex> the augmentation morphism.
+      Let <fr:tex display="inline"><![CDATA[(K,F)]]></fr:tex> be the complex <fr:tex display="inline"><![CDATA[\mathcal {O}\to \Omega ^1(\log  S)]]></fr:tex> on <fr:tex display="inline"><![CDATA[((\overline {X}'/\overline {X})^{\Delta _n})_{n\geqslant 0}]]></fr:tex> endowed with the stupid filtration.
+      We have an augmentation morphism
+      <fr:tex display="block"><![CDATA[         \alpha \colon          [\mathcal {O}_{\overline {X}}\to \overline {r}_*\Omega _{\overline {X}'}^1(\log  S)]         \to  \mathrm {s}{\varepsilon _\bullet }_*K.       ]]></fr:tex>
+      The</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
           <fr:backmatter />

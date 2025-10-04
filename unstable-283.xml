@@ -2,15 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3275</fr:anchor>
+    <fr:anchor>3287</fr:anchor>
     <fr:addr type="machine">#283</fr:addr>
     <fr:route>unstable-283.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
-      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[X_2]]></fr:tex> over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the <fr:tex display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[\underline {\operatorname {Hom}}_S(X_1,X_2)]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, and thus has the same algebraic and holomorphic sections.</fr:p>
+    <fr:p>The <fr:tex display="inline"><![CDATA[\operatorname {Ext}^i(X,\mathbb {G}_\mathrm {a})]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {Ext}^i(A,\mathbb {G}_\mathrm {a})]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Ext}^i(T,\mathbb {G}_\mathrm {a})]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=0,1]]></fr:tex>) are the same in the algebraic and analytic categories.
+      Consider the map
+      <fr:tex display="block"><![CDATA[         T_\mathbb {C}(M)         = T_\mathbb {Z}(M)\otimes \mathbb {C}         \to  \operatorname {Lie}(G)         \to  G.       ]]></fr:tex>
+      The diagram
+      <fr:tex display="block"><![CDATA[         \begin {CD}           X @>>> T_\mathbb {C}(M)/\operatorname {H}_1(G)         \\@| @VVV         \\X @>>> G         \end {CD}       ]]></fr:tex>
+      
+      defines an extension of <fr:tex display="inline"><![CDATA[M^\mathrm {an}]]></fr:tex> by the vector group <fr:tex display="inline"><![CDATA[F^0T_\CCM ]]></fr:tex>, and thus an extension of <fr:tex display="inline"><![CDATA[M]]></fr:tex> by this group.
+      We have to prove that this is the universal extension.
+      For this, it suffices to verify that the category of extensions of <fr:tex display="inline"><![CDATA[[X\to  T_\mathbb {C}(M)/\operatorname {H}_1(G)]]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {a}]]></fr:tex> is trivial (i.e. that it has a single object, and no automorphisms).
+      This is also the category of extensions of <fr:tex display="inline"><![CDATA[T_\mathbb {C}(M)/T_\mathbb {Z}(M)]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {a}]]></fr:tex>, and, indeed,
+      <fr:tex display="block"><![CDATA[         \operatorname {Ext}^i(T_\mathbb {C}(M)/T_\mathbb {Z}(M),\mathbb {G}_\mathrm {a})         = 0         \qquad \text {for }i=0,1.       ]]></fr:tex></fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -21,34 +30,30 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3276</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-4.4.3</fr:addr>
-            <fr:route>hodge-theory-ii-4.4.3.xml</fr:route>
-            <fr:taxon>Reminder</fr:taxon>
+            <fr:anchor>3288</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.1.8</fr:addr>
+            <fr:route>hodge-theory-iii-10.1.8.xml</fr:route>
+            <fr:taxon>Construction</fr:taxon>
             <fr:authors />
-            <fr:number>4.4.3</fr:number>
+            <fr:number>10.1.8</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a smooth scheme of finite type over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
-    The construction of <fr:ref addr="hodge-theory-ii-4.4.2" href="hodge-theory-ii-4.4.2.xml" number="4.4.2" /> establishes an equivalence of categories between
-
-    
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li style="list-style-type: &quot;(a) &quot;">
-        the category of abelian schemes over <fr:tex display="inline"><![CDATA[S]]></fr:tex>; and
-      </html:li>
-
-      
- <html:li style="list-style-type: &quot;(b) &quot;">
-        the category of polarisable continuous families of Hodge structures <fr:tex display="inline"><![CDATA[H]]></fr:tex> of type <fr:tex display="inline"><![CDATA[(-1,0)+(0,-1)]]></fr:tex> on <fr:tex display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex display="inline"><![CDATA[H_\mathbb {Z}]]></fr:tex> is torsion free and the Hodge filtration varies holomorphically on <fr:tex display="inline"><![CDATA[S]]></fr:tex>.
-      </html:li>
-
-    </html:ol></fr:p>
+          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a 1-motive over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
+    We have that
+    <fr:tex display="block"><![CDATA[       (T_\mathrm {DR}(M),F,W)       \simeq  (T_\mathbb {C}(M),F,W).     ]]></fr:tex></fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1674</fr:anchor><fr:addr type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>The essential surjectivity of the functor that goes from (a) to (b) follows from Borel (<fr:em>unpublished</fr:em>);
-      the full faithfulness follows from the fact that, for two abelian schemes <fr:tex display="inline"><![CDATA[X_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[X_2]]></fr:tex> over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the <fr:tex display="inline"><![CDATA[S]]></fr:tex>-scheme <fr:tex display="inline"><![CDATA[\underline {\operatorname {Hom}}_S(X_1,X_2)]]></fr:tex> is unramified over <fr:tex display="inline"><![CDATA[S]]></fr:tex>, and thus has the same algebraic and holomorphic sections.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1967</fr:anchor><fr:addr type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>The <fr:tex display="inline"><![CDATA[\operatorname {Ext}^i(X,\mathbb {G}_\mathrm {a})]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {Ext}^i(A,\mathbb {G}_\mathrm {a})]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {Ext}^i(T,\mathbb {G}_\mathrm {a})]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=0,1]]></fr:tex>) are the same in the algebraic and analytic categories.
+      Consider the map
+      <fr:tex display="block"><![CDATA[         T_\mathbb {C}(M)         = T_\mathbb {Z}(M)\otimes \mathbb {C}         \to  \operatorname {Lie}(G)         \to  G.       ]]></fr:tex>
+      The diagram
+      <fr:tex display="block"><![CDATA[         \begin {CD}           X @>>> T_\mathbb {C}(M)/\operatorname {H}_1(G)         \\@| @VVV         \\X @>>> G         \end {CD}       ]]></fr:tex>
+      
+      defines an extension of <fr:tex display="inline"><![CDATA[M^\mathrm {an}]]></fr:tex> by the vector group <fr:tex display="inline"><![CDATA[F^0T_\CCM ]]></fr:tex>, and thus an extension of <fr:tex display="inline"><![CDATA[M]]></fr:tex> by this group.
+      We have to prove that this is the universal extension.
+      For this, it suffices to verify that the category of extensions of <fr:tex display="inline"><![CDATA[[X\to  T_\mathbb {C}(M)/\operatorname {H}_1(G)]]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {a}]]></fr:tex> is trivial (i.e. that it has a single object, and no automorphisms).
+      This is also the category of extensions of <fr:tex display="inline"><![CDATA[T_\mathbb {C}(M)/T_\mathbb {Z}(M)]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {a}]]></fr:tex>, and, indeed,
+      <fr:tex display="block"><![CDATA[         \operatorname {Ext}^i(T_\mathbb {C}(M)/T_\mathbb {Z}(M),\mathbb {G}_\mathrm {a})         = 0         \qquad \text {for }i=0,1.       ]]></fr:tex></fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
