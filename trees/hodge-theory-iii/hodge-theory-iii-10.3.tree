@@ -464,6 +464,68 @@
   \number{10.3.12}
 
   \p{
-    We now
+    We now realise \ref{hodge-theory-iii-10.3.8}.
+    The diagram
+    ##{
+      \begin{CD}
+        \HH^1(X,\ZZ(1)) @>{\simeq}>> T_\ZZ(\HH_\mm^1(X)(1)) @>>> \Lie\Pic(\overline{X}) = \HH^1(\overline{X},\OO_{\overline{X}})
+      \\ @| @. @|
+      \\\HH^1(X,\CC) @>{\simeq}>> \Lie\Pic^\natural(X) @>>> \Lie\Pic(\overline{X}) = \HH^1(\overline{X},\OO_{\overline{X}})
+      \end{CD}
+    }
+    commutes.
+    By (ii) of \ref{hodge-theory-iii-10.3.11} and the definition of Hodge filtrations, \ref{hodge-theory-iii-10.3.10.2} is compatible with the Hodge filtration.
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.13]{
+  \taxon{corollary}
+  \number{10.3.13}
+
+  \p{
+    #{\HH_\mm^1(X)(1)^\natural} is the extension
+    ##{
+      \Ker(\alpha)
+      \to \Pic^\natural(X)^0
+    }
+    of #{\HH_\mm^1(X)(1)} induced by \ref{hodge-theory-iii-10.3.10.1}.
+  }
+
+  \proof{
+    Indeed, we have a commutative diagram
+    ##{
+      \begin{CD}
+        \Ker(\alpha) @>>> \Pic^\natural(X)^0 @>>> \Pic^0(\overline{X})
+      \\@AAA @AAA @AAA
+      \\\HH^1(X,\ZZ) @>>> \Lie\Pic^\natural(X) @>>> \Lie\Pic(\overline{X})
+      \end{CD}
+    }
+    and we then apply \ref{hodge-theory-iii-10.1.9}.
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.14]{
+  \taxon{exercise}
+  \number{10.3.14}
+
+  \p{
+    Show that the diagram
+    ##{
+      \begin{CD}
+        \HH^1(X,\ZZ(1)) @= T_\ZZ(\HH_\mm^1(X)(1))
+      \\@VVV @VVV
+      \\\HH^1(X,\mu_n) @= T_{\ZZ{/}n\ZZ}(\HH_\mm^1(X)(1))
+      \end{CD}
+    }
+    commutes.
+  }
+}
+
+\subtree[hodge-theory-iii-10.3.15]{
+  \taxon{remark}
+  \number{10.3.15}
+
+  \p{
+    The isomorphism induced by \ref{hodge-theory-iii-10.3.8} and (ii) of \ref{hodge-theory-iii-10.3.9}, between #{\bHH(\overline{X},\OO_{\overline{X}}\to r_*\Omega_{\overline{X}'}^1(\log S))} (that we may call #{\HH_\DR^1(X)}) and #{T_\DR(\HH_\mm^1(X)(1))}, equal to #{\Lie\Pic^\natural(X)} by \ref{hodge-theory-iii-10.3.13}, has been defined in a purely algebraic manner.
   }
 }
