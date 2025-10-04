@@ -124,12 +124,12 @@
 
     \olc{
       \lic{(a)}{
-        A \em{#{k}-iterated integral} on a non-singular projective variety #{V} of dimension #{d} is a closed rational #{k}-form on #{V}, i.e. it is an element #{\alpha\in\HH^0(U,\Omega^k)}, where #{U} is a dense open of #{V}, such that #{\dd\alpha=0}.
+        A \em{#{k}-fold integral} on a non-singular projective variety #{V} of dimension #{d} is a closed rational #{k}-form on #{V}, i.e. it is an element #{\alpha\in\HH^0(U,\Omega^k)}, where #{U} is a dense open of #{V}, such that #{\dd\alpha=0}.
         Here, #{k=2} and #{V=\PP^2}, and so #{k=\dim V} and the condition #{\dd\alpha=0} is trivial.
       }
 
       \lic{(b)}{
-        A #{k}-iterated integral #{\alpha} defines an element, again denoted by #{\alpha}, of ${\HH^k(U,\CC)}.
+        A #{k}-fold integral #{\alpha} defines an element, again denoted by #{\alpha}, of ${\HH^k(U,\CC)}.
         The \em{periods} of #{\alpha} are the numbers #{\langle\alpha,c\rangle} for #{c\in\HH_k(U,\ZZ)}.
         If #{c} is defined by a singular chain #{C}, then
         ##{
@@ -139,7 +139,7 @@
       }
 
       \lic{(c)}{
-        The \em{residues} of a #{k}-iterated integral #{\alpha\in\HH^0(U,\Omega^k)} are the numbers #{\langle\alpha,c\rangle} for
+        The \em{residues} of a #{k}-fold integral #{\alpha\in\HH^0(U,\Omega^k)} are the numbers #{\langle\alpha,c\rangle} for
         ##{
           c\in\Ker\big( \HH_k(U,\ZZ)\to\HH_k(V,\ZZ) \big).
         }
@@ -148,8 +148,41 @@
       }
 
       \lic{(d)}{
-        By
+        To Picard, "logarithmic or cyclic period of an abelian integral" simply means "period of a simple integral #{\beta} on a curve #{Y}".
+        It is implicit that #{\beta} and #{Y} are rationally determined by #{P} and #{A}.
       }
     }
+  }
+}
+
+\subtree[hodge-theory-iii-10.4.4]{
+  \number{10.4.4}
+
+  \p{
+    Let us translate this theorem.
+    Let #{S} and #{U} be as in \ref{hodge-theory-iii-10.4.2} (for example, #{S=\PP^2(\CC)}), and let #{\beta\in\HH^0(U,\Omega_U^2)} be a double integral and #{c\in\HH_2^{\log}(U,\ZZ)} a cycle.
+    By definition,
+    ##{
+      \langle\beta,c\rangle
+      = \int_c\beta
+    }
+    is a residue of #{\beta}.
+    Let #{A=\HH_\mm^1(C)(1)/\Pic^0(S)} (an extension of an abelian variety by a torus).
+    The 2-form #{\beta} defines a cohomology class #{\operatorname{cl}(\beta)\in\HH_\DR^2(U)} and induces a linear form #{\beta'} on #{\HH_{\DR,2}^{\log}(U)=T_\DR(A)}.
+    \oldpage{77}
+    The map #{\beta\mapsto\beta'} is rational.
+    The class #{c} defines #{c'\in T_\ZZ(A)\otimes\QQ}, and we have that
+
+    \subtree[hodge-theory-iii-10.4.4.1]{
+      \taxon{equation}
+      \number{10.4.4.1}
+      ##{
+        \langle\beta,c\rangle
+        = 2\pi i\langle\beta',c'\rangle.
+      \startverb\tag{10.4.4.1}\stopverb
+      }
+    }
+
+    We can represent #{c'} by a cycle on #{C}, and #{\beta'} as a simple integral on #{C}.
   }
 }
