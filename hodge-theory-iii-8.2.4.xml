@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3068</fr:anchor>
+    <fr:anchor>3080</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-8.2.4</fr:addr>
     <fr:route>hodge-theory-iii-8.2.4.xml</fr:route>
     <fr:taxon>Theorem</fr:taxon>
@@ -76,7 +76,7 @@
   
     
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1535</fr:anchor><fr:addr type="machine">#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>Claim (ii) will be proven in [hodge-theory-iii-8.3.10 <fr:strong>(?)</fr:strong>].
+    <fr:p>Claim (ii) will be proven in <fr:ref addr="hodge-theory-iii-8.3.10" href="hodge-theory-iii-8.3.10.xml" number="8.3.10" />.
       Claim (i) follows from (iii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
       For proper <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can find a diagram as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" /> in which <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>, and (iii) then follows from (iv) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
       For smooth <fr:tex display="inline"><![CDATA[X]]></fr:tex>, (iv) follows from <fr:ref addr="hodge-theory-iii-8.2.3" href="hodge-theory-iii-8.2.3.xml" number="8.2.3" /> and <fr:ref addr="hodge-theory-ii-3.2.15" href="hodge-theory-ii-3.2.15.xml" taxon="Corollary" number="3.2.15" />.
@@ -93,7 +93,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3069</fr:anchor>
+            <fr:anchor>3081</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-8.2</fr:addr>
             <fr:route>hodge-theory-iii-8.2.xml</fr:route>
             <fr:title text="Hodge Theory III › Hodge theory of algebraic spaces › Separated algebraic spaces"><fr:link type="local" href="hodge-theory-iii-8.xml" addr="hodge-theory-iii-8" title="Hodge Theory III › Hodge theory of algebraic spaces"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory of algebraic spaces</fr:link> › Separated algebraic spaces</fr:title>
@@ -103,7 +103,7 @@
           <fr:mainmatter>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2976</fr:anchor>
+                <fr:anchor>2987</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.1</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.1.xml</fr:route>
                 <fr:authors />
@@ -113,12 +113,12 @@
                 <fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a scheme (or an algebraic space) of finite type over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, and assume it to be separated.
     Then there exists a diagram
 
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2224</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.1.1</fr:addr><fr:route>hodge-theory-iii-8.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.1.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         X         \xleftarrow {\alpha } Y_\bullet          \hookrightarrow  \overline {Y}_\bullet        \tag{8.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2225</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.1.1</fr:addr><fr:route>hodge-theory-iii-8.2.1.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.1.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         X         \xleftarrow {\alpha } Y_\bullet          \hookrightarrow  \overline {Y}_\bullet        \tag{8.2.1.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     in which <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> is the complement of a normal crossing divisor in a smooth and proper simplicial scheme <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex>, and is a proper hypercover of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
     We have ((II) of <fr:ref addr="hodge-theory-iii-5.3.5" href="hodge-theory-iii-5.3.5.xml" number="5.3.5" />)
 
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2225</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.1.2</fr:addr><fr:route>hodge-theory-iii-8.2.1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.1.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (X)         \xrightarrow {\sim } \operatorname {H}^\bullet (Y_\bullet ).       \tag{8.2.1.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2226</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.1.2</fr:addr><fr:route>hodge-theory-iii-8.2.1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.1.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (X)         \xrightarrow {\sim } \operatorname {H}^\bullet (Y_\bullet ).       \tag{8.2.1.2}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
                 <fr:p>In <fr:ref addr="hodge-theory-iii-8.1.19" href="hodge-theory-iii-8.1.19.xml" number="8.1.19" />, we endow <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y_\bullet )]]></fr:tex> with a mixed Hodge structure.
     Let <fr:tex display="inline"><![CDATA[\operatorname {\mathscr {H}}(\alpha )]]></fr:tex> be the mixed Hodge structure on <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X)]]></fr:tex> induced by <fr:ref addr="hodge-theory-iii-8.2.1.2" href="hodge-theory-iii-8.2.1.2.xml" taxon="Equation" number="8.2.1.2" />.</fr:p>
               </fr:mainmatter>
@@ -126,7 +126,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2977</fr:anchor>
+                <fr:anchor>2988</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.2</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.2.xml</fr:route>
                 <fr:taxon>Proposition</fr:taxon>
@@ -139,7 +139,7 @@
   
     
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1499</fr:anchor><fr:addr type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also [hodge-theory-iii-8.3.3 <fr:strong>(?)</fr:strong>]).</fr:p>
+    <fr:p>The proof uses <fr:ref addr="hodge-theory-iii-6.2.8" href="hodge-theory-iii-6.2.8.xml" number="6.2.8" />, and is parallel to that of (C) of <fr:ref addr="hodge-theory-ii-3.2.11" href="hodge-theory-ii-3.2.11.xml" number="3.2.11" /> (cf. also <fr:ref addr="hodge-theory-iii-8.3.3" href="hodge-theory-iii-8.3.3.xml" number="8.3.3" />).</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
@@ -147,7 +147,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2978</fr:anchor>
+                <fr:anchor>2989</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.3</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.3.xml</fr:route>
                 <fr:authors />
@@ -160,7 +160,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2979</fr:anchor>
+                <fr:anchor>2990</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.4</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.4.xml</fr:route>
                 <fr:taxon>Theorem</fr:taxon>
@@ -234,7 +234,7 @@
   
     
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1535</fr:anchor><fr:addr type="machine">#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>Claim (ii) will be proven in [hodge-theory-iii-8.3.10 <fr:strong>(?)</fr:strong>].
+    <fr:p>Claim (ii) will be proven in <fr:ref addr="hodge-theory-iii-8.3.10" href="hodge-theory-iii-8.3.10.xml" number="8.3.10" />.
       Claim (i) follows from (iii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
       For proper <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can find a diagram as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" /> in which <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>, and (iii) then follows from (iv) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />.
       For smooth <fr:tex display="inline"><![CDATA[X]]></fr:tex>, (iv) follows from <fr:ref addr="hodge-theory-iii-8.2.3" href="hodge-theory-iii-8.2.3.xml" number="8.2.3" /> and <fr:ref addr="hodge-theory-ii-3.2.15" href="hodge-theory-ii-3.2.15.xml" taxon="Corollary" number="3.2.15" />.
@@ -246,7 +246,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2980</fr:anchor>
+                <fr:anchor>2991</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.5</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.5.xml</fr:route>
                 <fr:taxon>Proposition</fr:taxon>
@@ -257,16 +257,16 @@
     If <fr:tex display="inline"><![CDATA[u\colon  Y\to  X]]></fr:tex> is a surjective proper morphism, with <fr:tex display="inline"><![CDATA[Y]]></fr:tex> smooth, then the weight-<fr:tex display="inline"><![CDATA[n]]></fr:tex> quotient of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
     The sequence
 
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2228</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.5.1</fr:addr><fr:route>hodge-theory-iii-8.2.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.5.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^n(X,\mathbb {Q})         \to  \operatorname {H}^n(Y,\mathbb {Q})         \xrightarrow {\operatorname {pr}_1^*-\operatorname {pr}_2^*} \operatorname {H}^n(Y\times _X Y,\mathbb {Q})       \tag{8.2.5.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2229</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.5.1</fr:addr><fr:route>hodge-theory-iii-8.2.5.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.5.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^n(X,\mathbb {Q})         \to  \operatorname {H}^n(Y,\mathbb {Q})         \xrightarrow {\operatorname {pr}_1^*-\operatorname {pr}_2^*} \operatorname {H}^n(Y\times _X Y,\mathbb {Q})       \tag{8.2.5.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     is exact.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2229</fr:anchor><fr:addr type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2230</fr:anchor><fr:addr type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
     <fr:p>Let <fr:tex display="inline"><![CDATA[Y_\bullet ]]></fr:tex> be as in <fr:ref addr="hodge-theory-iii-8.2.1.1" href="hodge-theory-iii-8.2.1.1.xml" taxon="Equation" number="8.2.1.1" />, with <fr:tex display="inline"><![CDATA[Y_0=Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y_\bullet =\overline {Y}_\bullet ]]></fr:tex>.
       By (ii) of <fr:ref addr="hodge-theory-iii-8.1.20" href="hodge-theory-iii-8.1.20.xml" taxon="Proposition" number="8.1.20" />, we have an exact sequence
 
-      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2230</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.5.2</fr:addr><fr:route>hodge-theory-iii-8.2.5.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.5.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           0           \to  \operatorname {H}^n(X,\mathbb {Q})/W^{n-1}\operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^n(Y_0,\mathbb {Q})           \underset {\delta _1}{\overset {\delta _0}{\rightrightarrows }} \operatorname {H}^n(Y_1,\mathbb {Q})         \tag{8.2.5.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2231</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.5.2</fr:addr><fr:route>hodge-theory-iii-8.2.5.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.5.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           0           \to  \operatorname {H}^n(X,\mathbb {Q})/W^{n-1}\operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^n(Y_0,\mathbb {Q})           \underset {\delta _1}{\overset {\delta _0}{\rightrightarrows }} \operatorname {H}^n(Y_1,\mathbb {Q})         \tag{8.2.5.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
       which implies <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" /> (conversely, this exact sequence can easily be deduced from <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" /> and <fr:ref addr="hodge-theory-iii-8.2.7" href="hodge-theory-iii-8.2.7.xml" taxon="Proposition" number="8.2.7" /> below).</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
@@ -276,7 +276,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2981</fr:anchor>
+                <fr:anchor>2992</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.6</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.6.xml</fr:route>
                 <fr:taxon>Proposition</fr:taxon>
@@ -319,7 +319,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2982</fr:anchor>
+                <fr:anchor>2993</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.7</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.7.xml</fr:route>
                 <fr:taxon>Proposition</fr:taxon>
@@ -333,7 +333,7 @@
     Then the kernels of <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[(f\pi )^*]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {Q})]]></fr:tex> are equal.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2983</fr:anchor><fr:addr type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2994</fr:anchor><fr:addr type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
     <fr:p>We will prove that <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {Gr}_i^W(f^*))=\operatorname {Ker}(\operatorname {Gr}_i^W((f\pi )^*))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
 
       
@@ -361,7 +361,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2984</fr:anchor>
+                <fr:anchor>2995</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.8</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.8.xml</fr:route>
                 <fr:taxon>Corollary</fr:taxon>
@@ -375,17 +375,17 @@
     Let <fr:tex display="inline"><![CDATA[q=f\pi ]]></fr:tex> and <fr:tex display="inline"><![CDATA[U=Y\setminus  X]]></fr:tex>.
     Then the sequence
 
-    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2985</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.1</fr:addr><fr:route>hodge-theory-iii-8.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \xrightarrow {q_!} \operatorname {H}^\bullet (Y,\mathbb {Q})         \to  \operatorname {H}^\bullet (U,\mathbb {Q})       \tag{8.2.8.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2996</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.1</fr:addr><fr:route>hodge-theory-iii-8.2.8.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[         \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \xrightarrow {q_!} \operatorname {H}^\bullet (Y,\mathbb {Q})         \to  \operatorname {H}^\bullet (U,\mathbb {Q})       \tag{8.2.8.1}       ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
     is exact.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2986</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2997</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
     <fr:p>By <fr:ref addr="hodge-theory-iii-8.2.7" href="hodge-theory-iii-8.2.7.xml" taxon="Proposition" number="8.2.7" />, we have that
       <fr:tex display="block"><![CDATA[         \operatorname {Ker}(f^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (X,\mathbb {Q}))         = \operatorname {Ker}(q^*\colon \operatorname {H}^\bullet (Y,\mathbb {Q})\to \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})).       ]]></fr:tex>
       The long exact sequence in cohomology of the pair <fr:tex display="inline"><![CDATA[Y,X]]></fr:tex> thus gives an exact sequence
 
-      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2987</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.2</fr:addr><fr:route>hodge-theory-iii-8.2.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}_c^\bullet (U,\mathbb {Q})           \to  \operatorname {H}^\bullet (Y,\mathbb {Q})           \to  \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \tag{8.2.8.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+      <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2998</fr:anchor><fr:addr type="user">hodge-theory-iii-8.2.8.2</fr:addr><fr:route>hodge-theory-iii-8.2.8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2.8.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[           \operatorname {H}_c^\bullet (U,\mathbb {Q})           \to  \operatorname {H}^\bullet (Y,\mathbb {Q})           \to  \operatorname {H}^\bullet (\widetilde {X},\mathbb {Q})         \tag{8.2.8.2}         ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
       and <fr:ref addr="hodge-theory-iii-8.2.8.1" href="hodge-theory-iii-8.2.8.1.xml" taxon="Equation" number="8.2.8.1" /> is the transpose sequence of <fr:ref addr="hodge-theory-iii-8.2.8.2" href="hodge-theory-iii-8.2.8.2.xml" taxon="Equation" number="8.2.8.2" /> under Poincaré duality.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
@@ -395,7 +395,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2988</fr:anchor>
+                <fr:anchor>2999</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.9</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.9.xml</fr:route>
                 <fr:taxon>Remark</fr:taxon>
@@ -411,7 +411,7 @@
             <fr:p>From <fr:ref addr="hodge-theory-iii-8.1.25" href="hodge-theory-iii-8.1.25.xml" number="8.1.25" /> we deduce the following:</fr:p>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2989</fr:anchor>
+                <fr:anchor>3000</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.10</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.10.xml</fr:route>
                 <fr:taxon>Proposition</fr:taxon>
@@ -427,7 +427,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2990</fr:anchor>
+                <fr:anchor>3001</fr:anchor>
                 <fr:addr type="user">hodge-theory-iii-8.2.11</fr:addr>
                 <fr:route>hodge-theory-iii-8.2.11.xml</fr:route>
                 <fr:taxon>Corollary</fr:taxon>
@@ -439,7 +439,7 @@
     is a morphism of mixed Hodge structures.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2991</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3002</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
     <fr:p>This follows from <fr:ref addr="hodge-theory-iii-8.2.10" href="hodge-theory-iii-8.2.10.xml" taxon="Proposition" number="8.2.10" /> and from <fr:ref addr="hodge-theory-iii-8.2.2" href="hodge-theory-iii-8.2.2.xml" taxon="Proposition" number="8.2.2" /> applied to the diagonal morphism <fr:tex display="inline"><![CDATA[\Delta \colon  X\to  X\times  X]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -460,7 +460,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3070</fr:anchor>
+            <fr:anchor>3082</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10.3.11</fr:addr>
             <fr:route>hodge-theory-iii-10.3.11.xml</fr:route>
             <fr:taxon>Lemma</fr:taxon>
@@ -527,7 +527,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3071</fr:anchor>
+            <fr:anchor>3083</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-8.2.6</fr:addr>
             <fr:route>hodge-theory-iii-8.2.6.xml</fr:route>
             <fr:taxon>Proposition</fr:taxon>
@@ -570,7 +570,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3072</fr:anchor>
+            <fr:anchor>3084</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-8.2.7</fr:addr>
             <fr:route>hodge-theory-iii-8.2.7.xml</fr:route>
             <fr:taxon>Proposition</fr:taxon>
@@ -584,7 +584,7 @@
     Then the kernels of <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[(f\pi )^*]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (Y,\mathbb {Q})]]></fr:tex> are equal.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2983</fr:anchor><fr:addr type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2994</fr:anchor><fr:addr type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
     <fr:p>We will prove that <fr:tex display="inline"><![CDATA[\operatorname {Ker}(\operatorname {Gr}_i^W(f^*))=\operatorname {Ker}(\operatorname {Gr}_i^W((f\pi )^*))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Gr}_i^W\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.
 
       
@@ -612,7 +612,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3073</fr:anchor>
+            <fr:anchor>3085</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-8.3.7</fr:addr>
             <fr:route>hodge-theory-iii-8.3.7.xml</fr:route>
             <fr:taxon>Example</fr:taxon>
@@ -632,7 +632,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3074</fr:anchor>
+            <fr:anchor>3086</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-9.1.1</fr:addr>
             <fr:route>hodge-theory-iii-9.1.1.xml</fr:route>
             <fr:taxon>Theorem</fr:taxon>
@@ -653,7 +653,7 @@
     <fr:p><fr:em>1st proof.</fr:em> —
       The cohomology of <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex> (i.e. of the projective line minus two points) is <fr:tex display="inline"><![CDATA[\operatorname {H}^0=\operatorname {H}^1=\mathbb {Z}]]></fr:tex>.
       The only Hodge numbers <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^1(\mathbb {G}_\mathrm {m})]]></fr:tex> that can be non-zero are <fr:tex display="inline"><![CDATA[h^{01}=h^{10}]]></fr:tex> and <fr:tex display="inline"><![CDATA[h^{11}]]></fr:tex> ((i) and (iv) of <fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
-      Since <fr:tex display="inline"><![CDATA[h^{01}+h^{10}+h^{11}=2h^{01}+h^{11}=1]]></fr:tex>, we have that <fr:tex display="inline"><![CDATA[h^{01}=0]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[\operatorname {H}^1(\mathbb {G}_\mathrm {m})]]></fr:tex> is pure of type <fr:tex display="inline"><![CDATA[(1,1)]]></fr:tex> (for another proof, see [hodge-theory-iii-10.3.8 <fr:strong>(?)</fr:strong>]).
+      Since <fr:tex display="inline"><![CDATA[h^{01}+h^{10}+h^{11}=2h^{01}+h^{11}=1]]></fr:tex>, we have that <fr:tex display="inline"><![CDATA[h^{01}=0]]></fr:tex>, and so <fr:tex display="inline"><![CDATA[\operatorname {H}^1(\mathbb {G}_\mathrm {m})]]></fr:tex> is pure of type <fr:tex display="inline"><![CDATA[(1,1)]]></fr:tex> (for another proof, see <fr:ref addr="hodge-theory-iii-10.3.8" href="hodge-theory-iii-10.3.8.xml" taxon="Construction" number="10.3.8" />).
       The <fr:tex display="inline"><![CDATA[E_2^{p,q}]]></fr:tex> page of the spectral sequence <fr:ref addr="hodge-theory-iii-6.1.5" href="hodge-theory-iii-6.1.5.xml" number="6.1.5" />, which is zero for odd <fr:tex display="inline"><![CDATA[p+q]]></fr:tex>, is thus pure of type <fr:tex display="inline"><![CDATA[((p+q)/2,(p+q)/2)]]></fr:tex>.
       Its abutment has the same homogeneity.</fr:p>
 
@@ -668,7 +668,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3075</fr:anchor>
+            <fr:anchor>3087</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-9.1.8</fr:addr>
             <fr:route>hodge-theory-iii-9.1.8.xml</fr:route>
             <fr:taxon>Variant</fr:taxon>
@@ -735,7 +735,7 @@
     </html:ol></fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2572</fr:anchor><fr:addr type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2582</fr:anchor><fr:addr type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
     <fr:p>It suffices to prove that, for <fr:tex display="inline"><![CDATA[i>0]]></fr:tex>, the Künneth components
       <fr:tex display="block"><![CDATA[         \begin {gathered}           \operatorname {H}^n(\overline {X},\mathbb {Q})           \to  \operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^{n-i}(X,\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})         \\(\text {resp.}\quad            \operatorname {H}^n(X,\mathbb {Q})           \to  \operatorname {H}^{n-i}(X,\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})           \to  \operatorname {H}^{n-i}(\widetilde {X},\mathbb {Q})\otimes \operatorname {H}^i(G,\mathbb {Q})           )         \end {gathered}       ]]></fr:tex>
       are zero.
@@ -749,6 +749,94 @@
 </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3088</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-introduction</fr:addr>
+            <fr:route>hodge-theory-iii-introduction.xml</fr:route>
+            <fr:title text="Hodge Theory III › Introduction"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Introduction</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>This article follows <fr:link type="local" href="hodge-theory-i.xml" addr="hodge-theory-i" title="Hodge Theory I">Hodge Theory I</fr:link> and <fr:link type="local" href="hodge-theory-ii.xml" addr="hodge-theory-ii" title="Hodge Theory II">Hodge Theory II</fr:link>;
+  the numbering of the sections here follows that of <fr:ref addr="hodge-theory-ii" href="hodge-theory-ii.xml" taxon="Volume" number="II" /> (which contains <fr:ref addr="hodge-theory-ii-1" href="hodge-theory-ii-1.xml" number="1" /> to <fr:ref addr="hodge-theory-ii-4" href="hodge-theory-ii-4.xml" number="4" />).</fr:p>
+            <fr:p>In <fr:ref addr="hodge-theory-ii" href="hodge-theory-ii.xml" taxon="Volume" number="II" />, we gave an introduction to the yoga that underlies <fr:ref addr="hodge-theory-ii" href="hodge-theory-ii.xml" taxon="Volume" number="II" /> and the present article <fr:ref addr="hodge-theory-iii" href="hodge-theory-iii.xml" taxon="Volume" number="III" />.
+  However, <fr:ref addr="hodge-theory-ii" href="hodge-theory-ii.xml" taxon="Volume" number="II" /> and <fr:ref addr="hodge-theory-iii" href="hodge-theory-iii.xml" taxon="Volume" number="III" /> are logically independent of <fr:ref addr="hodge-theory-i" href="hodge-theory-i.xml" taxon="Volume" number="I" />;
+  they also do not contain all the results that were stated in <fr:ref addr="hodge-theory-i" href="hodge-theory-i.xml" taxon="Volume" number="I" />.</fr:p>
+            <fr:p>In <fr:ref addr="hodge-theory-ii" href="hodge-theory-ii.xml" taxon="Volume" number="II" />, we introduced the Hodge theory of non-singular (not necessarily complete) algebraic varieties.
+  Here we treat the case of arbitrary singularities.
+  From <fr:ref addr="hodge-theory-iii-7" href="hodge-theory-iii-7.xml" number="7" /> onwards, we will make essential use of results from <fr:ref addr="hodge-theory-ii-1" href="hodge-theory-ii-1.xml" number="1" /> to <fr:ref addr="hodge-theory-ii-3" href="hodge-theory-ii-3.xml" number="3" />.</fr:p>
+            <fr:p>In the case of a <fr:em>complete</fr:em> singular algebraic variety <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the fundamental idea is to use the resolution of singularities to replace <fr:tex display="inline"><![CDATA[X]]></fr:tex> by a simplicial system of smooth projective schemes
+  
+  <fr:resource hash="7b89eea1ee0cd3c380e05a7a205e10a1"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuNC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzI2MS45NzU0NTJwdCcgaGVpZ2h0PSczNy44Mzc1MjRwdCcgdmlld0JveD0nLTcyIC03MiAxNzQuNjUwMzAxIDI1LjIyNTAxNic+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21yNztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBUXdBQW9BQUFBQUJMQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFTUFBQUJnaFV0MGdXTnRZWEFBQUFFNEFBQUFMQUFBQURRQURBQ0ZaMng1WmdBQUFXUUFBQUZ6QUFBQmlLcEJ4YkpvWldGa0FBQUMyQUFBQUNrQUFBQTJZZXBEa21ob1pXRUFBQU1FQUFBQUh3QUFBQ1FGUndJTGFHMTBlQUFBQXlRQUFBQU1BQUFBREFXS0FIUnNiMk5oQUFBRE1BQUFBQW9BQUFBS0FSWUFmbTFoZUhBQUFBTThBQUFBR0FBQUFDQUFCd0F5Ym1GdFpRQUFBMVFBQUFES0FBQUJNdTBPa2U1d2IzTjBBQUFFSUFBQUFCQUFBQUFnQUFNQUFYamFZMkJteW1LY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeHdBRWpBeEpJS1M1TEIwb2FNQmd4TS93SDhwa2gwa2hxL2dPRkFjZklETHdBZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0JTQU5Bc1FndmhHLy84RFNZUC8vLzlmQlBNWkFGRlVCbzU0MmhXUXkwN0NVQkNHejB4TEt5VUJ1YlNFUzhxbHRDZENSWVMwalJLcG1GUkNRcFVGU0F5SjBZVWFOU2lKUG9BTG93dGZSQmUrQUcvZ2U3ZzBMb3lKSzlIamF2TFBQNW41dnlGSUdyL3ZHTU1ua2lZMVFrQVJ3eUFLb2tHclFBM0hjRnJnMkk0S1NSVTR4V2JLc3BtakdRSWJTeXFzaTRzWUZITnE0MnBhejZrTFFXUXF6OVRHT0tXbFB3cjlXSkRuNVloWEtmcXhVQUE1S2RxRER2WExJODNsZVZjYmxYMUtlK1orcWMxRFhiZHU1eE9vZWF1WGEvZUQ1UnFZemNya1piM3ExZ21RS1V2MmhzOGt4V3BVVUpvZ3IwQUVyRWJkcHRFd1VJdEZzeFVZY2ZrdVBlMVB0MmszejVtRFJPR21JWWZ3OGVjMUxlc2NJT3B5R3FWRUVFcW9WRUZpcTBpYkVBd3c5aVZDZExIZzJDNjAwS0NNVGdVR3FBa0daZnlNUHN5dUNhTHovd0FIQTduNUdGRDh6bXh4dTc2eGw2SUtRREV1bFJHdWo0NGZPQncyaCtXZFR6MGtoWEUyeXdyQ1YrYms3aENoWXFFZXlXWkFOcm9YSEp3ZGRNNU5yK2dCOE5KbW5Qd0JvY28vTkFCNDJtTmdaR0JnQU9JSmt6SVU0L2x0dmpJd3N6Qmdndjl2bUM0enJRUXlPQmlZUUh3QXZYUUd5UUFBQUhqYVkyQmtZR0JtK00vQXdNQjBtY0dZd1pSSmlBRW9nZ0tZQUQzWEFsZ0FBdE1BQUFKSEFETUFjQUJCQUFBQUFBQlNBSDRBeEFBQWVOcGpZR1JnWUdCaE1HUmdZZ0FCUmdZMEFBQUZzd0E2ZU5vOWpERUx3akFRaGI5aUZhMkRnK0RnSU1FZlVKUVdYTndjbkZ3ZDNLd0owcUdwcExYb0l2NTByeUY0SWNkMzc3MDdJT0ZEUkY4Uk05LzdpdVhOQWcrWk1nODhFbjBWT0dISm1nRlJQQkZseFQ1d3pKaEw0Q0VMaXNBajBWK0JFM0sraDdwNlBGdmoxS25XeHRsYjVYWm40NXF5dG1xYmJ2cnhhS3h4MTlab1ZieVY3c3FtdTFjcVMvTTA0MEJOeFlNbkxRYUg0aVNLOW15NWllZlljZlp6UXltZWxjeVdsTTNmUFlwcmZlTHFyMmhKRkx5bGF6clphYVRmSmF2SVpDK1huLzBBV3F3dVV3QUFlTnBqWUdaQUJvd01hQUFBQUk0QUJRPT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbXIxMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTUVBQW9BQUFBQUEzd0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFUUFBQUJnaFZoMDhHTnRZWEFBQUFFNEFBQUFLUUFBQURRQURBQ1FaMng1WmdBQUFXUUFBQUJPQUFBQVdCbmpJR1ZvWldGa0FBQUJ0QUFBQUNjQUFBQTJZZmRDZG1ob1pXRUFBQUhjQUFBQUhnQUFBQ1FHSFFKYWFHMTBlQUFBQWZ3QUFBQUlBQUFBQ0FXY0FEcHNiMk5oQUFBQ0JBQUFBQVlBQUFBR0FDd0FBRzFoZUhBQUFBSU1BQUFBRmdBQUFDQUFCUUFaYm1GdFpRQUFBaVFBQUFEUEFBQUJPSUxsS3Exd2IzTjBBQUFDOUFBQUFCQUFBQUFnQUFNQUFYamFZMkJtT3NjNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdCaVNRVWx5V0RwUzBaYkJsWnZnUDVETkRwSkhVL0FjS0F3RHU3ZzA0ZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0JTQU5Bc1FndmkyLy85RHlQOUh3SHdHQUZKREJwa0FBQUI0Mm1OZ1lyQmlhR2Q2eUZqSndNMGd6c0RBcU1pbVptSW1ybWdtSnNMR2pzUm0ydjkzTG8rWUdEZFRHcmVvS1BmZldkeGlZanhNeWJ5aW9veitqT3l5N0l3ZzRoaWN4Y0FBQUZEUkRIa0FBSGphWTJCa1lHQUE0dGF5WHZsNGZwdXZETXdzRE5nQTAwUEdTaURGd2NBRTRnRUFuV29FdHdCNDJtTmdaR0JnWnZqUEFDUmxHS3dZckprZU1nQkZVQUFUQUR5T0FuNEFBQUtBQUFBREhBQTZBQUFBQUFBc0FBQjQybU5nWkdCZ1lHS1FBR0lRWUdSQUF3QUREQUFmQUFCNDJrV01QV3ZETUJSRmo2a1RxRHQwS1IwNnRCbzZHeHQ3N3BJaFU5Wk1YWkpJQ1I0c0I5a3hCRXJIL3U3ZXFJSSswT1BjanllZzRKdU0yMlE4eG4yYm5JWFVIeTk0NENueFV1b3RjY0VMNzl5UjVmZHlYdmxJbkN2NVRMemdtV1BpcGZ5dnhBVXRQNnVoUDE4bUY4eG1zQzc0UXgvcWF1dkMyQTNlMUdVVjlkcDVGM2FUczJaL05YYnV4dm5VbTZac3k0WVZBejFuTGt3NEFvYU5IQnZaYzFBV3FLbllSbWVrVStyVnFpbmwvdWRyNVQ1MmR2RW5xODZlcTdabDF0V29mVkxiME9peTFXdCtBV1ZOTHhjQWVOcGpZR1pBQm93TWFBQUFBSTRBQlE9PSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtc3k3O3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFMd0FBb0FBQUFBQTFnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVzQUFBQmdxQ3dTVG1OdFlYQUFBQUZBQUFBQUtnQUFBRFFBRENCMVoyeDVaZ0FBQVd3QUFBQTBBQUFBTktYOThXRm9aV0ZrQUFBQm9BQUFBQ2NBQUFBMllxZEMyV2hvWldFQUFBSElBQUFBSGdBQUFDUUZlUUFXYUcxMGVBQUFBZWdBQUFBSUFBQUFDQVhvQUU5c2IyTmhBQUFCOEFBQUFBWUFBQUFHQUJvQUFHMWhlSEFBQUFINEFBQUFGd0FBQUNBQUJBQU5ibUZ0WlFBQUFoQUFBQURQQUFBQk9CT0RLcjl3YjNOMEFBQUM0QUFBQUJBQUFBQWdBQU1BQVhqYVkyQm0rc0k0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0lBR0JsU1FVbHlXenNDbW9LU2d4S3o0eDRpQmdWbVIrUnhRbUJHaDR2OS9CZ1lBTXpvUEtBQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lGSUEwQ3hBQytRcEsvLzlEeVB2M3dmSU1BRkxNQnA0QUFBQUJBRThBSlFJSEFkd0FDd0FBQVE0QkJ5NEJKejRCTng0QkFnY0NmRjVkZlFJQ2ZGNWRmUUVBWEgwQ0FudGZYSDBDQW50NDJtTmdaR0JnQUdMV3k2Vys4ZncyWHhtWVdSaXdBZWFKakhlQUZBY0RFNGdIQUpxY0JMNEFlTnBqWUdSZ1lGYjhZd1FrSnpMNE13UXdzVE1BUlZBQUV3QkV1QUtUQUFBRGtRQUFBbGNBVHdBQUFBQUFHZ0FBZU5wallHUmdZR0JpNEdFQTBReFFFZ2tBQUFISkFCSUFlTnBOakwrTHdqQVV4ei9GVnJBM3VJakREWnJoNXFLMDRPYmk0T1RxZEl1YUtCMmFTbElMaGVORy8yNmZ1UXozSUkvUDk4Y0xrUE5Md25zU3BtRy9KeVVUOWNjWkg4d2lqMFV0SStkODhzV0lKSjJJczJBYk9aWGtPM0xHbkd2a3NmZy9rWE1xbnJ1MnVUODY0OVNoMWNiWlMrT0h6ZEU0WDdkV3JZdFYwSHRqalR0MVJxdnpvSFJmKy83V3FMS29pcElkTFExM0huUVlISXFET0RxdzVTS1paMkRETVRpZVdsSXJyVFVGcTMvNVhuSWJPcWZ3azViT1dSSWwxTXVWbDMyVHRxS1V5MHBlK1FMMWlUQlhBSGphWTJCbVFBYU1ER2dBQUFDT0FBVT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbWV4MTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQVBBQUFvQUFBQUFCQ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRXNBQUFCZ2NCbFphV050WVhBQUFBRkFBQUFBTGdBQUFEUUFET0JrWjJ4NVpnQUFBWEFBQUFEd0FBQUE4SEE3cEdOb1pXRmtBQUFDWUFBQUFDa0FBQUEyWVZVNkhXaG9aV0VBQUFLTUFBQUFId0FBQUNRRmUvYTBhRzEwZUFBQUFxd0FBQUFLQUFBQUNnUmRBTFpzYjJOaEFBQUN1QUFBQUFnQUFBQUlBRHdBZUcxaGVIQUFBQUxBQUFBQUZ3QUFBQ0FBQlFBamJtRnRaUUFBQXRnQUFBRFZBQUFCUHFBcmRjaHdiM04wQUFBRHNBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbU1tYWN3TURLd01BMGkrbnNQeEdHZmhETitJYnhEWU14SXljREVMQXhJSUFBRWp1bHVDeWRnZTJCd0FOQlp2RXZtZ3dNek9MYzE0SENqQWdWLy84ek1BQUEvVTBQUUFCNDJtTmdZR0JpWUdCZ0JtSVJJTWtJcGxrWUZJQTBDeEFDK1E4RS8vOEhrZ0wvLzh0L0JNc3pBQUJoNHdkTkFBQUFBUUMyK1BVQ1BnQXNBQ0VBQUFFdkFpWUNOelEyTno0Qk56WS9BVFlWRmdjR0FnTUdFaGNlQVJjV0ZRWW5Jd0lQS0RjcmQxZ0NJeUUybFVvSEJRMFRBUVNKcVFJQlIxSXdVQnNFQXdnVytRSWxQam0wQVlhNGdQQm1vdG8vQmdFQkF3MERCWWIrVVA2dXV2NlpsbE5nR3dRRkRBSUFBQUFBQVFBbCtQUUJyQUFzQUNFQUFBRVVCZ2NPQVFjR0R3RUdKelkzTmhJVE5nSW5MZ0VuSmljMkh3RVdId0lXRWdHcUlpSTJsRXNHQkE4UkFnRURqS1VDQVVaU01VNGJCQUlDRVE0RUJTb2psWHY4a0gzdmE2SGJQZ1lCQVFNTkJRT0tBYk1CU3JzQlo1WlRZQmtGQmcwREFRRUVLU1d3L2t0NDJtTmdaR0JnQU9Lek05dUw0L2x0dmpJd3N6QmdnaDlmbU93WWRJQU1EZ1ltRUI4QXo3OEdhd0FBQUhqYVkyQmtZR0FXLzZMSndNQ1V6S0RLb01wa3h3QVVRUUZNQURtOUFpc0FBZFVBQUFKakFMWUFKUUFBQUFBQUFBQThBSGg0Mm1OZ1pHQmdZR1pRWWdEUkRGQVNDUUFBQkFvQUtRQjQyazJPc1dyRE1CQ0dQMVBIVUxmUUtSazZGRTBkalkzOUFJVU1tYkptTENUUkVWeXdIR1RISkV2SUEvU2hlMUUwOUlSK1B2MzMzeUVnNTByQ3ZSTGVndDRySmRQWGcyZThNSStjNlRHUmM5NzU1SWtrZlZibmc2L0lLYTk4UjU2eDRDZHlwdjR0Y2s3RDc3THZqcWRSdkZuM1ZyemJkM0t1eW8zNG9lMmRxWXJ5WWF6RWlkK09ZczN1WXV6VUR0T2hNM1hSRkRWTGVqcU9uQmdSdlA1c3JZNE43TmhyVHpoVFViSUoza0NyZmFlNWlrTGQvNG1Wa2d1cGJkaG1OYlhqb21xWmRHNVFQV2plVU90c283ZitBKzc5TU44QUFBQjQybU5nWmtBR2pBeG9BQUFBamdBRikgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtbWkxMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBUGdBQW9BQUFBQUJJUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFTUFBQUJnaFVsMGlHTnRZWEFBQUFFNEFBQUFNUUFBQUR3QWxBQmhaMng1WmdBQUFXd0FBQUVhQUFBQlRKdExLQTVvWldGa0FBQUNpQUFBQUNrQUFBQTJZbjVEdUdob1pXRUFBQUswQUFBQUhnQUFBQ1FHaGdJOWFHMTBlQUFBQXRRQUFBQU1BQUFBREFiaUFIVnNiMk5oQUFBQzRBQUFBQWdBQUFBSUFCUUFwbTFoZUhBQUFBTG9BQUFBRndBQUFDQUFCUUJoYm1GdFpRQUFBd0FBQUFEVUFBQUJQcGtWZGNsd2IzTjBBQUFEMUFBQUFBd0FBQUFnQUFNQUFIamFZMkJtOG1hY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeHdBRWpBeEpJS1M1TEIwcnFNVVF3TS93SDhwa2gwa2hxL2dPRkFjQ1ZETUVBZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0RTQU5CdVFaZ1RLNmpGRS9QOFA1SVBwLzVmL3J3S3JBZ0lBa0ZvSTd3QUFBSGphTll5OVRzTkFFSVJ2OXV3N3h6bWZFL0NQa01KZFJKRGRnQ05Jc0N1U25vYUdCZ2tKR2tRS1JCR3FsTkR5SFBBQWxJZzI3OEFqMEZKUUJ5Y1cwbXExTy9QTk1MQkxCclprOTh4anJOTFl5OGJsY2JLRVBiVDFsTWw2VzhacXByZGE4VHY2Wk5mMVU1VlZRZmtFRmxWaUVZbUJoaFFoNnR0Z2xDYXh4aEF5ei9KeE9acmdaSWdRTmJDeDBvMlZEYkd4cHNRTERFVFRsQnFzaTJMOHZIVTQyVzBnY09jM0xTTGxGOU40cDNydTdwLzd1MGRLa2hMenA1WUw1Um5qenE1bTdRN0lldElCbFB2WUJQS3pMUGhhdUwyRG1OWmlRL2Q3ZUgzWGFhVGdhd25PNFFndHVJbVMwNWZpNHNPRUlGK0xXaWUwQXVsc3lmRDM5cUdkQmxHYnlQc1BoSUw2dWZxRzZYUzVia1NLcFJPN2pQMEIza1luL3dBQWVOcGpZR1JnWUFEaVFQRTdzdkg4Tmw4Wm1Ga1lNTUgvLzh6cFRIdUFEQTRHSmhBZkFLeEhCam9BQUFCNDJtTmdaR0JnWnZqUEFDUURHR1QrdjJST1p3Q0tvQUJtQUZvbkE4a0FBQUoyQUFBQkhBQlpBMUFBSEFBQUFBQUFGQUNtZU5wallHUmdZR0JtU0dBQTBReFFFZ2tBQUFvWUFHY0FlTnBOanJGcXd6QVVSWStwWTRnVDZOUU9IWUttanNiRy9vQkNoa3haTXhhU1NBUVhKQVhaTVdRcC9ZQjhkRjRVRFgxQ2o2UHpyb1NBa2w4eUhwWHhHdnVqY2dvNVBYbkdncmZFaFN5VnVPU0RUMTdJOHJtWUZWK0pjNVo4SjU3eHprL2lRdnhmNHBLTzI5cmI4MlUwUVcyOU5zRWRyZTJiZW1mQzBIdW5tcXAraW8xeEp1eEhvOVhocXZUVUQ5UEpxcmJxcXBZMUhzdVpDeU9HSUQvYml0R1JIVWVaV1hvYWFuYlJEWEx5TWxIaUtySC9FeHRKdUpqYXg5ZTBwQTVjcFdzbXlRelNUNUpXdEhLM2s5M2VBZUlVTU1ONDJtTmdac0FMQUFCOUFBUT0pIGZvcm1hdCgnd29mZicpO30KdGV4dC5mMCB7Zm9udC1mYW1pbHk6Y21zeTc7Zm9udC1zaXplOjYuOTczODQ4cHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5OmNtbWkxMDtmb250LXNpemU6OS45NjI2NHB4fQp0ZXh0LmYyIHtmb250LWZhbWlseTpjbXIxMDtmb250LXNpemU6OS45NjI2NHB4fQp0ZXh0LmYzIHtmb250LWZhbWlseTpjbXI3O2ZvbnQtc2l6ZTo2Ljk3Mzg0OHB4fQp0ZXh0LmY0IHtmb250LWZhbWlseTpjbWV4MTA7Zm9udC1zaXplOjkuOTYyNjRweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+CjxnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTUuMzI1MTQ1LC01OS4zODc0OTYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTg3LjY1MjYyLC0yLjQ5OTk4KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgxNS4zMjUxNDUsLTU5LjM4NzQ5NilzY2FsZSgtMSwtMSknPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNTQuNDYyOTg1LC01OS4zODc0OTYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zNC45NzkwNiwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDU0LjQ2Mjk4NSwtNTkuMzg3NDk2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9JzU0LjQ2Mjk4NScgeT0nLTU5LjM4NzQ5Nic+WDwvdGV4dD4KPHRleHQgY2xhc3M9J2YwJyB4PSc2Mi43MTY3NzQnIHk9Jy01Ny44OTMxMTUnPuKAojwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PSc3MC4wNjQxNicgeT0nLTU5LjM4NzQ5Nic+PTwvdGV4dD4KPHRleHQgY2xhc3M9J2Y0JyB4PSc4MC41ODAyNCcgeT0nLTcwLjQ0NjEyNCc+7oCQPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jzg4LjE5MDU1NicgeT0nLTU5LjM4NzQ5Nic+Ljx0c3BhbiB4PSc5Mi42MTgzNjQnPi48L3RzcGFuPjx0c3BhbiB4PSc5Ny4wNDYxNzInPi48L3RzcGFuPjx0c3BhbiB4PScxMTEuNDM2NjM1Jz5YPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMTE5LjY5MDQyNCcgeT0nLTU3Ljg5MzExNSc+MjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxMjguMTYyMTUzLC01OS4zODc0OTYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC02LjM4NTQyLDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMTI4LjE2MjE1MywtNTkuMzg3NDk2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9JzEyOC4xNjIxNTMnIHk9Jy01OS4zODc0OTYnPlg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMTM2LjQxNTk0MicgeT0nLTU3Ljg5MzExNSc+MTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxNzYuMzQ5NDYyLC01OS4zODc0OTYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC05LjM3MTU0LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMTc2LjM0OTQ2MiwtNTkuMzg3NDk2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9JzE3Ni4zNDk0NjInIHk9Jy01OS4zODc0OTYnPlg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMTg0LjYwMzI1MScgeT0nLTU3Ljg5MzExNSc+MDwvdGV4dD4KPHRleHQgY2xhc3M9J2Y0JyB4PScxODkuMDcyNjIxJyB5PSctNzAuNDQ2MTI0Jz7ugJE8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTS04Ljg4MzQgLjAwMDAySDE0LjMxNjYnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTQuNTE2NTksMC4wMDAwMiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00tOC44ODM0IDkuNjQ0MzZIMTQuMzE2NicgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxNC41MTY1OSw5LjY0NDM2KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTg4IDIuMzk5ODZDLTEuNjk5ODkgLjk1OTkyLS44NTMxMyAuMjc5OTggMCAwQy0uODUzMTMtLjI3OTk4LTEuNjk5ODktLjk1OTkyLTIuMDc5ODgtMi4zOTk4NicgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTS04Ljg4MzQtOS42NDQzM0gxNC4zMTY2JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDE0LjUxNjU5LC05LjY0NDMzKSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTg4IDIuMzk5ODZDLTEuNjk5ODkgLjk1OTkyLS44NTMxMyAuMjc5OTggMCAwQy0uODUzMTMtLjI3OTk4LTEuNjk5ODktLjk1OTkyLTIuMDc5ODgtMi4zOTk4NicgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTTM2LjQ5ODQ5IDQuODIyMTlINTkuNjk4NScgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg1OS44OTg0OCw0LjgyMjE5KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTg4IDIuMzk5ODZDLTEuNjk5ODkgLjk1OTkyLS44NTMxMyAuMjc5OTggMCAwQy0uODUzMTMtLjI3OTk4LTEuNjk5ODktLjk1OTkyLTIuMDc5ODgtMi4zOTk4NicgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTTM2LjQ5ODQ5LTQuODIyMTZINTkuNjk4NScgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg1OS44OTg0OCwtNC44MjIxNiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00xNC43MTY1NyA0LjgyMjE5SC04LjQ4MzQ0JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0nbWF0cml4KC0xLjAsMC4wLDAuMCwtMS4wLC04LjY4MzQzLDQuODIyMTkpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuMDc5ODggMi4zOTk4NkMtMS42OTk4OSAuOTU5OTItLjg1MzEzIC4yNzk5OCAwIDBDLS44NTMxMy0uMjc5OTgtMS42OTk4OS0uOTU5OTItMi4wNzk4OC0yLjM5OTg2JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzk5OTgnPgo8cGF0aCBkPSdNMTQuNzE2NTctNC44MjIxNkgtOC40ODM0NCcgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgtMS4wLDAuMCwwLjAsLTEuMCwtOC42ODM0MywtNC44MjIxNiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J002MC4wOTg0NiAuMDAwMDJIMzYuODk4NDUnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoLTEuMCwwLjAsMC4wLC0xLjAsMzYuNjk4NDcsMC4wMDAwMiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9zdmc+" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[\begin {tikzcd}
+    X_\bullet  = \Big (\ldots \quad 
+    X_2
+      \ar [r]
+      \ar [r,shift left=4]
+      \ar [r,shift right=4]
+    & X_1
+      \ar [r,shift left=2]
+      \ar [r,shift right=2]
+      \ar [l,shift right=2]
+      \ar [l,shift left=2]
+    & X_0\Big )
+      \ar [l]
+  \end {tikzcd}]]></fr:resource-source></fr:resource>
+
+  (or, as we will say, by a smooth projective simplicial scheme).
+  The results of <fr:ref addr="hodge-theory-iii-5" href="hodge-theory-iii-5.xml" number="5" /> and <fr:ref addr="hodge-theory-iii-6" href="hodge-theory-iii-6.xml" number="6" /> allow us to find such simplicial schemes <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> that have, in a suitable sense, the same cohomology as <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+  We can then "express", via a spectral sequence, the cohomology of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in terms of the cohomology of the <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>.
+  Following the general principles of <fr:ref addr="hodge-theory-i" href="hodge-theory-i.xml" taxon="Volume" number="I" />, we can then, on each <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>, use classical Hodge theory, and obtain an induced mixed Hodge structure on the cohomology of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>In the case of an arbitrary algebraic variety <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we "replace" <fr:tex display="inline"><![CDATA[X]]></fr:tex> by a smooth simplicial scheme <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> with compactification given by a smooth projective simplicial scheme <fr:tex display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex>.
+  We can further arrange things so that <fr:tex display="inline"><![CDATA[\overline {X}_n\setminus  X_n]]></fr:tex> is a normal crossing divisor, given by a union of smooth divisors <fr:tex display="inline"><![CDATA[D_{n,i}]]></fr:tex>.
+  We thus "express", via a spectral sequence, the cohomology of <fr:tex display="inline"><![CDATA[X]]></fr:tex> in terms of the cohomology of the <fr:tex display="inline"><![CDATA[p]]></fr:tex>-fold intersections of the <fr:tex display="inline"><![CDATA[D_{n,i}]]></fr:tex> (for <fr:tex display="inline"><![CDATA[n,p\geqslant 0]]></fr:tex>), and we obtain an induced mixed Hodge structure on <fr:tex display="inline"><![CDATA[H^\bullet (X)]]></fr:tex>.</fr:p>
+            <fr:p><fr:ref addr="hodge-theory-iii-5" href="hodge-theory-iii-5.xml" number="5" /> and <fr:ref addr="hodge-theory-iii-6" href="hodge-theory-iii-6.xml" number="6" /> constitute a summary (without proofs) of the theory of "cohomological descent".
+  This theory, in the more general framework of a topos, is laid out in <fr:link type="local" href="SD.xml" addr="SD" title="Techniques de descente cohomologique">[SD]</fr:link>.</fr:p>
+            <fr:p>In <fr:ref addr="hodge-theory-iii-7.1" href="hodge-theory-iii-7.1.xml" number="7.1" />, we restate certain results obtained previously, but in the language of filtered derived categories;
+  <fr:ref addr="hodge-theory-iii-7.2" href="hodge-theory-iii-7.2.xml" number="7.2" /> contains a simpler proof of the two-filtrations lemma than that of <fr:ref addr="hodge-theory-ii-1.3" href="hodge-theory-ii-1.3.xml" number="1.3" />.</fr:p>
+            <fr:p>The unappealing <fr:ref addr="hodge-theory-iii-8.1" href="hodge-theory-iii-8.1.xml" number="8.1" /> is the heart of this work.
+  The essential result is <fr:ref addr="hodge-theory-iii-8.1.15" href="hodge-theory-iii-8.1.15.xml" taxon="Theorem" number="8.1.15" />.
+  
+  In its proof, to be able to apply the two-filtrations lemma, we use the fact that every morphism of mixed Hodge structures is <fr:em>strictly</fr:em> compatible with the filtrations <fr:tex display="inline"><![CDATA[W]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> (<fr:ref addr="hodge-theory-ii-2.3.5" href="hodge-theory-ii-2.3.5.xml" taxon="Theorem" number="2.3.5" />).
+  In <fr:ref addr="hodge-theory-iii-8.2" href="hodge-theory-iii-8.2.xml" number="8.2" />, we define the mixed Hodge structure of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> (for <fr:tex display="inline"><![CDATA[X]]></fr:tex> a separated scheme).
+  We show that the Hodge numbers <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> can only be non-zero for <fr:tex display="inline"><![CDATA[(p,q)\in [0,n]\times [0,n]]]></fr:tex>.
+  For <fr:tex display="inline"><![CDATA[n>\dim  X]]></fr:tex>, we have a more precise result (<fr:ref addr="hodge-theory-iii-8.2.4" href="hodge-theory-iii-8.2.4.xml" taxon="Theorem" number="8.2.4" />).
+  If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is smooth (resp. complete), they can only be non-zero if, further, <fr:tex display="inline"><![CDATA[p+q\geqslant  n]]></fr:tex> (resp. <fr:tex display="inline"><![CDATA[p+q\leqslant  n]]></fr:tex>).
+  If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a complete subscheme of <fr:tex display="inline"><![CDATA[Z]]></fr:tex>, with complement <fr:tex display="inline"><![CDATA[U]]></fr:tex>, with <fr:tex display="inline"><![CDATA[Z]]></fr:tex> complete and smooth of dimension <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then we can, by N. Katz, interpret this "duality" between the complete case and the smooth case as coming from the "Alexander duality"
+  <fr:tex display="block"><![CDATA[     \to  \ldots      \to  \operatorname {H}^i(Z,\mathbb {Q})     \to  \operatorname {H}^i(X,\mathbb {Q})     \to  (\operatorname {H}^{2n-i-1}(U,\mathbb {Q}))^*     \to  \operatorname {H}^{i+1}(Z,\mathbb {Q})     \to \ldots .   ]]></fr:tex></fr:p>
+            <fr:p>From the functorial properties of the theory thus constructed, we obtain the useful corollaries <fr:ref addr="hodge-theory-iii-8.2.5" href="hodge-theory-iii-8.2.5.xml" taxon="Proposition" number="8.2.5" /> to <fr:ref addr="hodge-theory-iii-8.2.8" href="hodge-theory-iii-8.2.8.xml" taxon="Corollary" number="8.2.8" />, which we state in terms independent of any Hodge theory.</fr:p>
+            <fr:p>In <fr:ref addr="hodge-theory-iii-8.3" href="hodge-theory-iii-8.3.xml" number="8.3" />, we endow the cohomology of any simplicial scheme <fr:tex display="inline"><![CDATA[X_\bullet ]]></fr:tex> with a mixed Hodge structure.
+  This generality is not illusory.
+
+  
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li style="list-style-type: &quot;(a) &quot;">
+      We can interpret relative cohomology spaces as being the cohomology of suitable simplicial schemes.
+    </html:li>
+
+    
+ <html:li style="list-style-type: &quot;(b) &quot;">
+      Let <fr:tex display="inline"><![CDATA[B_G]]></fr:tex> be the classifying space of the underlying Lie group of an algebraic group <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+      We can interpret the cohomology of <fr:tex display="inline"><![CDATA[B_G]]></fr:tex> as being the cohomology of a suitable simplicial scheme.
+    </html:li>
+
+  </html:ol></fr:p>
+            <fr:p>In <fr:ref addr="hodge-theory-iii-9.1" href="hodge-theory-iii-9.1.xml" number="9.1" />, after having calculated the mixed Hodge structure on the cohomology of <fr:tex display="inline"><![CDATA[B_G]]></fr:tex> (for <fr:tex display="inline"><![CDATA[G]]></fr:tex> linear), we thus obtain that of <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+  As a corollary, we find that, if a linear group <fr:tex display="inline"><![CDATA[G]]></fr:tex> acts on a non-singular complete variety <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then the map
+  <fr:tex display="block"><![CDATA[     \operatorname {H}^\bullet (X,\mathbb {Q})     \to  \operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^\bullet (G,\mathbb {Q})   ]]></fr:tex>
+  factors through <fr:tex display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^0(G,\mathbb {Q})\subset \operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^\bullet (G,\mathbb {Q})]]></fr:tex>.</fr:p>
+            <fr:p>In <fr:ref addr="hodge-theory-iii-10" href="hodge-theory-iii-10.xml" number="10" />, we interpret in terms of abelian schemes the mixed Hodge structures of pure degree <fr:tex display="inline"><![CDATA[\{(-1,-1),(-1,0),(0,-1),(0,0)\}]]></fr:tex> (see <fr:ref addr="hodge-theory-iii-0.5" href="hodge-theory-iii-0.5.xml" number="III.0.5" />), and we consider in detail the <fr:tex display="inline"><![CDATA[\operatorname {H}^1]]></fr:tex> of curves.</fr:p>
+            <fr:p>The theory developed up until here is an absolute theory (we do not study the functors <fr:tex display="inline"><![CDATA[\mathrm {R} f_*]]></fr:tex>), and deals only with constant coefficients.
+  I conjecture that, if <fr:tex display="inline"><![CDATA[\mathscr {H}]]></fr:tex> is a variation of polarisable Hodge structures (in the sense of Griffiths <fr:link type="local" href="G1970a.xml" addr="G1970a" title="Periods of integrals on algebraic manifolds. Summary of main results and discussion of open problems">[G1970a]</fr:link>) on a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then the cohomology of <fr:tex display="inline"><![CDATA[X]]></fr:tex> with coefficients in the local system <fr:tex display="inline"><![CDATA[\mathscr {H}]]></fr:tex> is endowed with a natural mixed Hodge structure.
+  I can only prove this when <fr:tex display="inline"><![CDATA[X]]></fr:tex> is complete.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
       </fr:mainmatter>
       <fr:backmatter />
     </fr:tree>
@@ -760,7 +848,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3076</fr:anchor>
+            <fr:anchor>3089</fr:anchor>
             <fr:addr type="user">hodge-theory-ii-3.2.15</fr:addr>
             <fr:route>hodge-theory-ii-3.2.15.xml</fr:route>
             <fr:taxon>Corollary</fr:taxon>
@@ -795,7 +883,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3077</fr:anchor>
+            <fr:anchor>3090</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-8.1.20</fr:addr>
             <fr:route>hodge-theory-iii-8.1.20.xml</fr:route>
             <fr:taxon>Proposition</fr:taxon>
@@ -849,7 +937,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3078</fr:anchor>
+            <fr:anchor>3091</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-8.2.1.1</fr:addr>
             <fr:route>hodge-theory-iii-8.2.1.1.xml</fr:route>
             <fr:taxon>Equation</fr:taxon>
@@ -863,7 +951,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3079</fr:anchor>
+            <fr:anchor>3092</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-8.2.3</fr:addr>
             <fr:route>hodge-theory-iii-8.2.3.xml</fr:route>
             <fr:authors />
@@ -872,6 +960,98 @@
           <fr:mainmatter>
             <fr:p>For smooth <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can show, by taking <fr:tex display="inline"><![CDATA[\overline {Y}_\bullet ]]></fr:tex> to be a constant simplicial scheme, that the mixed Hodge structure in <fr:ref addr="hodge-theory-iii-8.2.2" href="hodge-theory-iii-8.2.2.xml" taxon="Proposition" number="8.2.2" /> coincides with that defined in <fr:ref addr="hodge-theory-ii-3.2.12" href="hodge-theory-ii-3.2.12.xml" taxon="Definition" number="3.2.12" />.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>3093</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-8.3.10</fr:addr>
+            <fr:route>hodge-theory-iii-8.3.10.xml</fr:route>
+            <fr:title text="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes › Proof of (ii) of (8.2.4)"><fr:link type="local" href="hodge-theory-iii-8.3.xml" addr="hodge-theory-iii-8.3" title="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes"><fr:link type="local" href="hodge-theory-iii-8.xml" addr="hodge-theory-iii-8" title="Hodge Theory III › Hodge theory of algebraic spaces"><fr:link type="local" href="hodge-theory-iii.xml" addr="hodge-theory-iii" title="Hodge Theory III">Hodge Theory III</fr:link> › Hodge theory of algebraic spaces</fr:link> › Hodge theory of simplicial schemes</fr:link> › Proof of (ii) of (8.2.4)</fr:title>
+            <fr:authors />
+            <fr:number>8.3.10</fr:number>
+          </fr:frontmatter>
+          <fr:mainmatter>
+  
+    
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1583</fr:anchor><fr:addr type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>The proof proceeds by induction on <fr:tex display="inline"><![CDATA[N=\dim (X)]]></fr:tex>.
+      We can assume <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be reduced.
+      Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> be a smooth dense Zariski open of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[Y=X\setminus  U]]></fr:tex>.
+      By the resolution of singularities, there exists a proper birational morphism <fr:tex display="inline"><![CDATA[p\colon  X'\to  X]]></fr:tex>, with smooth source <fr:tex display="inline"><![CDATA[X']]></fr:tex>, that induces an isomorphism from <fr:tex display="inline"><![CDATA[p^{-1}(U)]]></fr:tex> to <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+      Let <fr:tex display="inline"><![CDATA[Y'=p^{-1}(Y)]]></fr:tex>.
+      Consider, for <fr:tex display="inline"><![CDATA[n\geqslant  N]]></fr:tex>, the diagram of mixed Hodge structures
+      
+  <fr:resource hash="28bd29d371772ad1850e13dc1b7bbeff"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuNC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzQ4Mi4zMzAyNzFwdCcgaGVpZ2h0PSc4MC43MTQwNzdwdCcgdmlld0JveD0nLTcyIC03MiAzMjEuNTUzNTE0IDUzLjgwOTM4NSc+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21yNztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTUlBQW9BQUFBQUEzZ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFTUFBQUJnaFV4MG8yTnRZWEFBQUFFNEFBQUFLUUFBQURRQURBQ0VaMng1WmdBQUFXUUFBQUJZQUFBQVdPYStkQlZvWldGa0FBQUJ2QUFBQUNjQUFBQTJZZWxEcG1ob1pXRUFBQUhrQUFBQUlBQUFBQ1FGVmdJNWFHMTBlQUFBQWdRQUFBQUlBQUFBQ0FVYUFIQnNiMk5oQUFBQ0RBQUFBQVlBQUFBR0FDd0FBRzFoZUhBQUFBSVVBQUFBRndBQUFDQUFCQUFiYm1GdFpRQUFBaXdBQUFES0FBQUJNdTBPa2U1d2IzTjBBQUFDK0FBQUFCQUFBQUFnQUFNQUFYamFZMkJtNm1XY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeHdBRWpBeEpJS1M1TEIwb2FNaGd5TS93SDhwa2gwa2hxL2dPRkFkU0JETjhBZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0JTQU5Bc1FndmlHLy85RHlQOFh3SHdHQUZGSEJvMEFBQUFBQVFCd0FBQUI1QUtwQUJrQUFBRVJCaFk3QVJVdkFROEJOVE15TmljUkRnRW5OUlkyTnpZV0FWY0RJRWtuWjFCd1JpZEpJQU1zVkJRaGRETVZDd0tML2NrYUZTVURBUUlDSlJVYUFnb1VDUUVrQWhZdUFRb0FlTnBqWUdSZ1lBQmlLVlBSN0hoK202OE16Q3dNMkFEVFphYVZRSXFEZ1FuRUF3QjRUUVFDQUhqYVkyQmtZR0JtK00vQXdNQjBtYUdBSVpueENRTlFCQVV3QVFCV21nT1VBdE1BQUFKSEFIQUFBQUFBQUN3QUFIamFZMkJrWUdCZ1lwQmlBTkVNVUJJSkFBQURKd0FnQUhqYVBZd3hDOEl3RUlXL1loV3RnNFBnNENEQkgxQ1VGbHpjSEp4Y0hkeXNDZEtocWFTMTZDTCtkSzhoZUNISGQrKzlPeURoUTBSZkVUUGYrNHJselFJUG1USVBQQko5RlRoaHlab0JVVHdSWmNVK2NNeVlTK0FoQzRyQUk5RmZnUk55dm9lNmVqeGI0OVNwMXNiWlcrVjJaK09hc3JacW0yNzY4V2lzY2RmV2FGVzhsZTdLcHJ0WEtrdnpOT05BVGNXREp5MEdoK0lraXZac3VZbm4ySEgyYzBNcG5wWE1scFROM3oyS2EzM2k2cTlvU1JTOHBXczYyV21rM3lXcnlHUXZsNS85QUZxc0xsTUFBSGphWTJCbVFBYU1ER2dBQUFDT0FBVT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbXN5NztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTkFBQW9BQUFBQUE2UUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFMEFBQUJncWx4aU9XTnRZWEFBQUFGRUFBQUFNd0FBQUR5ZVgyUlJaMng1WmdBQUFYZ0FBQUIwQUFBQWRLcnprdXBvWldGa0FBQUI3QUFBQUNjQUFBQTJZcWRET1dob1pXRUFBQUlVQUFBQUhRQUFBQ1FHZGYvSGFHMTBlQUFBQWpRQUFBQU1BQUFBREFnRUFLRnNiMk5oQUFBQ1FBQUFBQWdBQUFBSUFCb0FPbTFoZUhBQUFBSklBQUFBRndBQUFDQUFCUUFRYm1GdFpRQUFBbUFBQUFEUEFBQUJPQk9ES3I5d2IzTjBBQUFETUFBQUFCQUFBQUFnQUFNQUFYamFZMkJtdXNnNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCalFBQUJCZ1lIR0R1bHVDeWRnVTFKNklFQnMrSWZJd1lHWmtYbWMwQmhSb1RxLy84WkdBQXd5UStWQUFBQWVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdEU0FOQnVRWm1SZ1VoSjZZUEQvUHdNRGhMNzdYdjRTV0JVUUFBQ203Z210QUFBQkFIQUE1Z01pQVJzQUN3QUFKU0VHSmpRMkZ5RTJGaFFHQXZyOW5nOFpHZzRDWWc0YUcrY0JDU01KQVFFSkl3a0FBQUFBQVFBeEFDY0JOQUk4QUE0QUFBRURCaTRCSnpjVFBnRTNIZ0VYRmdFcHdRY1FIZ0lGaHdRWUhSZ2pBUUlCNC81WUZBTU5DaEFCdXc0aEFRRWVHUWdBZU5wallHUmdZQURpTFd2WitlUDViYjR5TUxNd1lBUE1FNWxzZ0JRSEF4T0lCd0NQT2dQOEFIamFZMkJrWUdCVy9HTUVKQ2N5R0FKSkpRYWdDQXBnQmdBOWpBSkNBQUFBQTVFQUFBTWlBSEFCVVFBeEFBQUFBQUFhQURwNDJtTmdaR0JnWUdiZ1p3RFJERkFTQ1FBQUFpOEFGZ0I0MmsyTXY0dkNNQlRIUDhWV3NEZTRpTU1ObXVIbW9yVGc1dUxnNU9wMGk1b29IWnBLVWd1RjQwYi9icCs1RFBjZ2o4LzN4d3VRODB2Q2V4S21ZYjhuSlJQMXh4a2Z6Q0tQUlMwajUzenl4WWdrbllpellCczVsZVE3Y3NhY2ErU3grRCtSY3lxZXU3YTVQenJqMUtIVnh0bEw0NGZOMFRoZnQxYXRpMVhRZTJPTk8zVkdxL09nZEYvNy90YW9zcWlLa2gwdERYY2VkQmdjaW9NNE9yRGxJcGxuWU1NeE9KNWFVaXV0TlFXcmYvbGVjaHM2cC9DVGxzNVpFaVhVeTVXWGZaTzJvcFRMU2w3NUF2V0pNRmNBZU5wallHWkFCb3dNYUFBQUFJNEFCUT09KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6bXNibTEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFOZ0FBb0FBQUFBQThRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVnQUFBQmdodEYxSW1OdFlYQUFBQUU4QUFBQUtRQUFBRFFBREFDdFoyeDVaZ0FBQVdnQUFBQzRBQUFBdUtNODVidG9aV0ZrQUFBQ0lBQUFBQ2tBQUFBMllqTkR1bWhvWldFQUFBSk1BQUFBSGdBQUFDUUdWZ0dRYUcxMGVBQUFBbXdBQUFBSUFBQUFDQVhHQUJ0c2IyTmhBQUFDZEFBQUFBWUFBQUFHQUZ3QUFHMWhlSEFBQUFKOEFBQUFHQUFBQUNBQUJ3QTFibUZ0WlFBQUFwUUFBQUM3QUFBQklKOUxxUUJ3YjNOMEFBQURVQUFBQUJBQUFBQWdBQU1BQVhqYVkyQm1lc3c0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0FOR0JpU1FVbHlXRHBTTVlvaGlYdmN2aUlHQmVSM2pPbFExLy84ek1BQUFNdHdQNG5qYVkyQmdZR0pnWUdBR1loRWd5UWltV1JnVWdEUUxFSUw0VWYvL1E4ai95OEY4QmdCVXBBYTJBQUFBQUFRQUcvLy9Bb3NDdmdBbkFDc0FMd0F6QUFBSkFUTStBVGMyTXhZWEJ3NEJKeUVHSmpVbU53RWpKZzRDQnc0Qkp6OEJQZ0VYSVRZV0ZSWUZCelkzSlFFekFRTVhOd1lDWXY1L2tteDVEUUVVRHdJYkFnd1YvZklPRkFJTEFZRlRIRnhhSFFJREhBVUREd0VMR0FIVkRoUUMvZ1lGRWlrQkovNSthQUdDTWtZSkpBS1ovWXNEY1VJZkFSTEpGQW9CQVFZTkFoRUNkUUVQT1RzVURRTVVEb29UQ3dFQkJnMEJFQzRUR2dIOWlnSjIvWXNCUkNzQUFIamFZMkJrWUdBQVl0TWt4c0o0ZnB1dkRNd3NESmpnLzM5bUdhWjlRQVlIQXhPSUR3Q1pMUVdaQUFBQWVOcGpZR1JnWUY3M0x3aEl5akJJTThnemRUTUFSVkFBRXdCUFZRTHNBQUFESEFBQUFxb0FHd0FBQUFBQVhBQUFlTnBqWUdSZ1lHQmlNR0ZnWVFBQlJnWTBBQUFGOWdBOWVOcE5qTEdLZzBBVVJZK3NDbXRTcHdoYnpCZUlvbXk5VFVpVE9uM0VJUWlaQ1RpSllMUGZ2bGVkWXQ5ajNweTVuRGRBd1M4SlN5Vms2MXdxSmRkcjQ0eWRldU5jZlloY2NPU0xENUwwVTBuQmQrU1VQVCtSTTltWHlMbnlMbkpCaXorOUgzWjBvWE4xZGJWakdKN2UxR1cxQldmcjdYaDcyZDUwcyttbklVeDNaNXF5TFJ0T3ZIbGdHWEVFL2Vpb3FiaXVTV0RnaWNjb0s1WCtOODR5L0dyZGVPbnVaWFhNbWoyVDlvTG1YYTZoMFc2cjAvd0J6Q0VvY1FCNDJtTmdaa0FHakF4b0FBQUFqZ0FGKSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21zeTU7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU5nQUFvQUFBQUFBOHdBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRW9BQUFCZ3FtS1ZBbU50WVhBQUFBRkFBQUFBS2dBQUFEUUFEQ0pxWjJ4NVpnQUFBV3dBQUFDa0FBQUFxQjZ5dGVSb1pXRmtBQUFDRUFBQUFDY0FBQUEyWTJ0QzJXaG9aV0VBQUFJNEFBQUFId0FBQUNRR0hRRWdhRzEwZUFBQUFsZ0FBQUFJQUFBQUNBZEhBSTVzYjJOaEFBQUNZQUFBQUFZQUFBQUdBRlFBQUcxaGVIQUFBQUpvQUFBQUZ3QUFBQ0FBQkFBMmJtRnRaUUFBQW9BQUFBRE9BQUFCT0JOL0tydHdiM04wQUFBRFVBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbVhzdzRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpRQUVPTUVaS2NWazZBNXVTdUpJNHM5WWZTd1lHWmkzbTQwQmhSb1RTLy84WkdBQUdyUTZZQUFCNDJtTmdZR0JpWUdCZ0JtSVJJTWtJcGxrWUZJQTBDeEFDK1VyaS8vOUR5THV2d1BJTUFGSVJCcFVBQUhqYUxjbEJDb0pBR0liaCtTYjRCMHN0ZFJ5VktHbWljVmNvcHREQ0xsRzBTeUx3TUFVZG9hQmRkK293dVdqMXd2TXlzQWRiOGl1K3JHUU1kVlVvU1dPb1NFVXV6QVlwU0t4UjdpRW8wNmF2eVV6V29FaVJtVzFaMVNvU3VMM3NSSHIwT1IwRERwbFliNGU0OWdLeTd5dHl3cmgzeVJIR3p0T213Tk44aEdsclNlM3lacllRc1M5QmwyNDNIOENQOHU0UVF1ckpmMWh0bHc4ZEh6dzlzeDlWT3haYmVOcGpZR1JnWUFCaUxxWTdsZkg4Tmw4Wm1Ga1lzQUdXVU1ZN1FJcURnUW5FQXdDTTN3UktBSGphWTJCa1lHRFcrbVBKd01BU3l0REgwTStVekFBVVFRRk1BRktBQTBJQUJGVUFBQUx5QUk0QUFBQUFBRlFBQUhqYVkyQmtZR0JnWWpCbEFORU1VQklKQUFBRnlnQTdBSGphVFl3OWI4SXdFSWFmaUFTSmRHQkJEQjNBUStjSWxMQ3lNREN4TW5VQmJGQ0dPTWdPa1NKVkhmbmRISzZIbnVUVDgzNmNnWnhmRXQ2VE1BMzdQU21acUQvTytHQVdlU3hxR1Rubmt5OUdKT2xFbkFYYnlLa2szNUV6NWx3amo4WC9pWnhUOGR5MXpmM1JHYWNPclRiT1hoby9iSTdHK2JxMWFsMnNndDRiYTl5cE0xcWRCNlg3MnZlM1JwVkZWWlRzYUdtNDg2REQ0RkFjeE5HQkxSZkpQQU1ianNIeDFKSmFhYTBwV1AzTDk1TGIwRG1GbjdSMHpwSW9vVjZ1dk95YnRCV2xYRmJ5eWhmeCtUQlBBQUI0Mm1OZ1prQUdqQXhvQUFBQWpnQUYpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbW1pMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQVNrQUFvQUFBQUFCWkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRU1BQUFCZ2hVZDBpMk50WVhBQUFBRTRBQUFBTlFBQUFEd0Fsd0JkWjJ4NVpnQUFBWEFBQUFIVUFBQUNVRTRFbXZob1pXRmtBQUFEUkFBQUFDa0FBQUEyWW41QzgyaG9aV0VBQUFOd0FBQUFIZ0FBQUNRR2hnR2JhRzEwZUFBQUE1QUFBQUFRQUFBQUVBazBBSmhzYjJOaEFBQURvQUFBQUFvQUFBQUtBVkFBdW0xaGVIQUFBQU9zQUFBQUZ3QUFBQ0FBQmdCaGJtRnRaUUFBQThRQUFBRFVBQUFCUHBrVmRjbHdiM04wQUFBRW1BQUFBQXdBQUFBZ0FBTUFBSGphWTJCbThtV2N3TURLd01BMGkrbnNQeEdHZmhETitJYnhEWU14SXljREVMQXh3QUVqQXhKSUtTNUxCMHJxTUVReU0vd0g4cGtoMGtocS9nT0ZBY0V1RE1JQWVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdEU0FOQnVRWmdUSzZqQkUvdjhQNU9zd1JQei8vLy9xLzFWZ1ZVQUFBSkF6Q080QUFBQjQyazJSUFcvVFFCakg3MzluM3puTytSdzNmcEhUMkE1S1pLdW9PSlNrdGxxcHlZS0V4SUtRS3RHaEVrZ0k2QUpER1JBTEVtWGtjOEFIWUdCQVNIeUZqZ3g4QUNZa0J0YUVjeXhlYnJybi85eno4dnNmQVRsWkg1Skw4cFFFaE5UY2hVS1Ixd3ZVYzhISEplWlZIVjRhWXo0SndkekJWUmg5UDA2U2VJbDdjM3NQa3FyQnljR1c0V0swbThFZytvQU0xMnYyaEg0bTkzVlFWM1ZKaXdVeTFHRUduNDhWaEo2aDd5bG1VUmdvVENHS3ZKaFhzd1gycDJqR2kwMHEycVR5S1RhcEpXVWx4cnp0RktWb0dnWDQrYjdIYU5ZSEhQUDhRWWRTYVpmTElLNHZ2TWtkTzltVGdrcCsvcnBqUWxwcGFwNmRublY3b0prbERFQ2F6OXVDNG5idWZIMXBEbmNEMm9qdDY5RVE3ejZveUpld2xRQmpNTGppTFBYRG83Zmw4YWZVQmJVVjF6cEZ4eEhHbG5CL1BYcldqUnkvUzZuMXA4RGxkRlRJNzBoN0hsT3RTQU5oQk9iR280bjJTR3FQYnVxQUtZM05BNTZoK21kSEZGWkxXdndQSFVZK3o3blkxcDZXK292Mk4rcU4xbEw2Y01WTmRzMmthWjVBOGpjTmhsS0htYmppR0svTVFRUG50SEJPY0oyOStPRjJzZTF4T1B6eHNTT3QyVkZJYjYyK2Nhaysra0xEc2FSZDEzSUY0TzljSEhpNDIrLzlwZENJdE9PdHZzRHozY1J1NHNhTG1KczdNU0cvQVZLNFI3SjQybU5nWkdCZ0FPSW5MUjh5NC9sdHZqSXdzekJnZ3Y5V3pPbE1lNEFNRGdZbUVCOEEzb01HMVFBQUFIamFZMkJrWUdCbStNOEFKQU1ZWlA2N01hY3pBRVZRQUFzQVRNa0RKd0FBQW5ZQUFBRWNBRmdEVUFBY0FsSUFKQUFBQUFBQUtBQzZBU2dBQUhqYVkyQmtZR0JnWVVoZ0FORU1VQklKQUFBS013Qm9BSGphVFk2eGFzTXdGRVdQcVdPSUUralVEaDJDcG83R3h2NkFRb1pNV1RNV2trZ0VGeVFGMlRGa0tmMkFmSFJlRkExOVFvK2o4NjZFZ0pKZk1oNlY4UnI3bzNJS09UMTV4b0szeElVc2xiamtnMDlleVBLNW1CVmZpWE9XZkNlZThjNVA0a0w4WCtLU2p0dmEyL05sTkVGdHZUYkJIYTN0bTNwbnd0QjdwNXFxZm9xTmNTYnNSNlBWNGFyMDFBL1R5YXEyNnFxV05SN0xtUXNqaGlBLzI0clJrUjFIbVZsNkdtcDIwUTF5OGpKUjRpcXgveE1iU2JpWTJzZlh0S1FPWEtWckpza00waytTVnJSeXQ1UGQzZ0hpRkRERGVOcGpZR2JBQ3dBQWZRQUUpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbW1pNztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBUllBQW9BQUFBQUJSUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFUUFBQUJnaFlsMCsyTnRZWEFBQUFFNEFBQUFNUUFBQUR3QWhBREpaMng1WmdBQUFXd0FBQUdWQUFBQjVJeERMdEpvWldGa0FBQURCQUFBQUNzQUFBQTJZZHhCKzJob1pXRUFBQU13QUFBQUlBQUFBQ1FGb3dIM2FHMTBlQUFBQTFBQUFBQU1BQUFBREFmMEFDOXNiMk5oQUFBRFhBQUFBQWdBQUFBSUFIZ0E4bTFoZUhBQUFBTmtBQUFBR0FBQUFDQUFCZ0JSYm1GdFpRQUFBM3dBQUFEUEFBQUJPUE5qS3Fkd2IzTjBBQUFFVEFBQUFBd0FBQUFnQUFNQUFIamFZMkJtV3NZNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdCaVNRVWx5V0RwVE1ZeWhnWnZnUDVETkRwSkhVL0FjS0F3RHNIQTEwZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0RTQU5CdVFaZ1RLNWpFVS9QOFA1SVBwLzVQL1R3S3JBZ0lBbXRJSlJ3QUFBSGphWGRETGJ0TkFGQWJnT1dlY0dmbFNqeWUyWjZodzNOeXdXMXc1SmhjbmtPQTBHQlpRcWlJaEN0MTBqOFMySzlTWDZRdndGT1VGV0NKZWcyMHdFWXNLL2J1ai8xOThod0FwdHIveEZyNlRjMExXdEp4Tms5UUY3c0lJY2lqbkZTcGR3YnhVbWdsZ3pUbGtlbHpPeTRtT2diTW0vU1NkcnB0aWsyWklCYm8wU1c4eXgyYkNqL3QyaTFzMmcwQ2FhZjJTNjQ4bnh4Y1VBL1NkUFl0RzNXVWJwY1ZBMjNKUUhTNkFPa0lweENCN2VwcTV2Qk8wekRBS1lQT3R5TFVYUmdBbmVXQURvdGpFL2hBZnozcEx4UHgxdm1MTGg3MmU3T1A2ZVJ0UkYxcmx4dWpJc2J2REYvV1Q5b1RpcXVwMXJ0OEZ3Z1ZQRW9MYjdYYUJ6K0NPck1nWklkcWYvd2ZlWWYrUmQ4SWMwci8yVUIzQVdJVUJHNlNjcGRPeWVZUFBtZDUxSzVqbE1FalkyVFc5cDFiQ1NlUDlqVkJ2aThVVnBSdXZmWHFSajAzZjV3YUl2dVh0OFMrZmJDcnRqcndyd1ZlVHcxZitndzVrOGY2YkcvaHhjRS9zMVpIcUFzU1pIaUc4di94OEhzaWE0cEdzUDBRdU14RU15elVOQTZUZzRNSFBYODZqWVF0V2FmRjFNQjFCUXNnZk4ydzlvd0FBQUhqYVkyQmtZR0FBNGwwZVNkM3gvRFpmR1poWkdOREIvLy8vTFppT01SNERNamtZbUVBaUFPR2ZDR1lBZU5wallHUmdZR2I0ejhEQXdIVDUvMzhHQmFaRkRFQVJGTUFNQUhFTEJKOEN4Z0FBQXRNQU1BSmEvLzhBQUFBQUFIZ0E4bmphWTJCa1lHQmdaZ2hnWUdJQUFVWUdOQUFBQ0o4QVdIamFUWXc5YjhJd0VJYWZxQWxTdzlDbDZ0Q2g5Y0FjZ1JLSmpZV0JpWldKQmJCQkdXd2pKMFJDUW96ODdoNnVCMDd5NlhrL3prREpuWXpuWkh6RS9aeWNRdFEvRjR6NVREd1M5WnU0NUpzSmIyVDV1emcvTEJMbmttd1RGM3h4VER3Uy81YTRwT0d4OVBaODZVMVFhNjlOY0FkcjIvbkdoSzcxVHMycWFkUXI0MHpZOVVhci9WWHBvZTJHazFWMTFWUTFTenlXTXhkNkRBSEZXaHdkMlhHUXpOSXlaeE9kVHRpTHI1aFJNWDNKVjVLNzJObkZuN1IwOWx4bGF3WnBkTEpQMGxYVWN0bklxLzhBemJFdi93QjQybU5nWnNBTEFBQjlBQVE9KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21yMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQVZnQUFvQUFBQUFCcEFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVlBQUFCZ2hZdDBvbU50WVhBQUFBRThBQUFBUVFBQUFGUUExUUdBWjJ4NVpnQUFBWUFBQUFKMUFBQURNQmdpeXBwb1pXRmtBQUFEK0FBQUFDZ0FBQUEyWWxoQy9XaG9aV0VBQUFRZ0FBQUFIZ0FBQUNRR1lBSnhhRzEwZUFBQUJFQUFBQUFjQUFBQUhCQW5BU0JzYjJOaEFBQUVYQUFBQUJBQUFBQVFBalFDNUcxaGVIQUFBQVJzQUFBQUdBQUFBQ0FBQ2dCR2JtRnRaUUFBQklRQUFBRFBBQUFCT0lMbEtxMXdiM04wQUFBRlZBQUFBQXdBQUFBZ0FBTUFBSGphWTJCbThtT2N3TURLd01BMGkrbnNQeEdHZmhETitJYnhEWU14SXljREVMQXh3QUVqQXhKSUtTNUxCMHBxTU9Rek0vd0g4cGtoMGpBMUhnd00vNEhDQU1XRkRSMEFBSGphWTJCZ1lHSmdZR0FHWWhFZ3lRaW1XUmdjZ0RRUEF3ZFFqb1ZCazhHRElZVWhseUgvLzMrZ3FBYUM5Ly9tLzkzL0YveWY4WDg2V0I4Y0FBRElGeEJNQUFBQWVOcDFVazFQRTFFVWZmZStPbFBwQi9SajNyUjA2SFJtN0F4VlBtVEt6RkNSSWhVSkFob01ZSXdKVmltd1ltTmdZMkpDU2lRa3Jvd3hNUzdaK2hkMGFjTEM4QXNNaVNHdUNRdHhKY1UzQlNNeDRTWHY1ZDV6azNQUHZlY1JJSXNuQkdZcElUSWhsNUs2YWZXQVo3cGVHZXhXaUlJc3hGVmdNTU5xZlFVRlFESDdsaG1FbjR3RGpsWmI2YStXaGVxamowT1Y3Ym5hVXJqdDJlK3RGNDNHWWl4QStBRlM0cnlGVTE1Z2doZ0YzZUdzVnIvWkM2Ym4ya3pPQW5RMkdhWEkvQVRPVE1VcGdOVHNRODRZRjQ0M3R3L3Z4UVBZN01NNWRVSndEeitSUWM0WkU5Z2dTSlloT2tYYnRXTGFmN2xyWGdOSExucVNvUXV5cERubmMxekQ5bEpxOHNORWVpQ0RqVjNNREtSNWtpcTE0emtjaXVmd2xlTWZTakpIYVM2cFFMang4MitNU2taU0tWV2x6T0hoV2NSblIyS2NIS0dDTzN6MmJrTHlVUkI3d0NxRHgyUXVRM1E4THRXVHhKamxMOXZnMVNna21jeGsyL1ZjRHpZVGQvb2V2NlQwMWZ4c04zWTQ3L2g5RHhoTTMxQ3VsdHBZS0pUTWorbkRxU0FPcEF1QUc3WGxPZ1p1N3VVWnFPSGp0M2tKY2lGNG1CQWltZ0tkcVN2VHcxTmFPV0RrdzhLcEp4b2hkQVIyeUNnaGlhWVNpYXR5bWN6ZkxIQkRSQ2tMbm1TSkRuTXRMdFhTQlZIeXRWNkVQTWRzL3h0MnQyVE9SY0xqdDdyY0ZoWUNzRHBYMTJ3VklOdGJuRU5RN2RXMUlyZTZvN2YvTkZ2MWEwK2JnbGV1RHdLYUk3a0toVlNrdlRMeWhWMEdmN0VRMVE2NmIrUHM5R2N0ZWlIZzc3bmo1QWoyNFNzSitaUDkyM01XcUYxR2k4czF1ZHVpLzQyYjMyMmYxcXZ6R3hUWEY2cjE3MVpaRndHQ2lhN3gzRENMQlhrWVowUGZhblhFOWFYYWEwcTNHcnVGc1FsRnZhOVhkTjJZVkpVSGhxSC9BZi9nalRRQUFBQjQybU5nWkdCZ0FPS2NkdEhIOGZ3Mlh4bVlXUmd3d1g4R1prZG1FSU9EZ1FsRUFRQ3ErQVRrZU5wallHUmdZR2I0endBa1F4bGtHVVNZSFJtQUlpaUFIUUF3aWdIWkFBQUNnQUFBQVkwQVpBR05BRGtEQUFBaUFqZ0FJd05WQUNFQ0FBQWRBQUFBQUFBc0FGWUFxZ0QyQVY0Qm1IamFZMkJrWUdCZ1ozQmxZR0lBQVVZR05BQUFCL2dBVVhqYVJZdzlhOE13RkVXUHFST29PM1FwSFRxMEdqb2JHM3Z1a2lGVDFreGRra2dKSGl3SDJURUVTc2YrN3Q2b2dqN1E0OXlQSjZEZ200emJaRHpHZlp1Y2hkUWZMM2pnS2ZGUzZpMXh3UXZ2M0pIbDkzSmUrVWljSy9sTXZPQ1pZK0tsL0svRUJTMC9xNkUvWHlZWHpHYXdMdmhESCtwcTY4TFlEZDdVWlJYMTJua1hkcE96Wm44MWR1N0crZFNicG16TGhoVURQV2N1VERnQ2hvMGNHOWx6VUJhb3FkaEdaNlJUNnRXcUtlWCs1MnZsUG5aMjhTZXJ6cDZydG1YVzFhaDlVdHZRNkxMVmEzNEJaVTB2RndCNDJtTmdac0FMQUFCOUFBUT0pIGZvcm1hdCgnd29mZicpO30KdGV4dC5mMCB7Zm9udC1mYW1pbHk6bXNibTEwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5OmNtc3k3O2ZvbnQtc2l6ZTo2Ljk3Mzg0OHB4fQp0ZXh0LmYyIHtmb250LWZhbWlseTpjbXN5NTtmb250LXNpemU6NC45ODEzMnB4fQp0ZXh0LmYzIHtmb250LWZhbWlseTpjbW1pMTA7Zm9udC1zaXplOjkuOTYyNjRweH0KdGV4dC5mNCB7Zm9udC1mYW1pbHk6Y21taTc7Zm9udC1zaXplOjYuOTczODQ4cHh9CnRleHQuZjUge2ZvbnQtZmFtaWx5OmNtcjEwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9CnRleHQuZjYge2ZvbnQtZmFtaWx5OmNtcjc7Zm9udC1zaXplOjYuOTczODQ4cHh9Cl1dPgo8L3N0eWxlPgo8ZyBpZD0ncGFnZTEnPgo8ZyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDg4Ljc3Njc1MiwtNDUuMDk1MzEyKXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyBmaWxsPScjMDAwJyBzdHJva2U9JyMwMDAnPgo8ZyBzdHJva2Utd2lkdGg9JzAuNCc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0xNjEuMzc5NjcsLTIwLjg0NTg2KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSg4OC43NzY3NTIsLTQ1LjA5NTMxMilzY2FsZSgtMSwtMSknPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTE5LjQxODI1NSwtODEuNjQ5OTU5KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknLz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDIxNi42MzU4ODgsLTgxLjY0OTk1OSlzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTM0Ljg4MTM4LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMjE2LjYzNTg4OCwtODEuNjQ5OTU5KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjUnIHg9JzIxNi42MzU4ODgnIHk9Jy04MS42NDk5NTknPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNCcgeD0nMjI0LjEwNzg4MycgeT0nLTg1Ljk5NDc4Jz5uPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjUnIHg9JzIyOS41MzA4NzYnIHk9Jy04MS42NDk5NTknPig8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMjMzLjQwNTI1JyB5PSctODEuNjQ5OTU5Jz5YPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjUnIHg9JzI0NC4xMDEyMDUnIHk9Jy04MS42NDk5NTknPm1vPHRzcGFuIHg9JzI1Ny42NjE1MTgnPmQ8L3RzcGFuPjwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PScyNjQuODU2NzMnIHk9Jy04MS42NDk5NTknPlk8dHNwYW4geD0nMjcxLjE5NDA5MSc+LDwvdHNwYW4+PC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9JzI3NS42MjE4OTknIHk9Jy04MS42NDk5NTknPlo8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNScgeD0nMjgyLjI2MzY4MScgeT0nLTgxLjY0OTk1OSc+KTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgzMDkuMjczNDM3LC04MS42NDk5NTkpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0yMC4xNzMwNSwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDMwOS4yNzM0MzcsLTgxLjY0OTk1OSlzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2Y1JyB4PSczMDkuMjczNDM3JyB5PSctODEuNjQ5OTU5Jz5IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjQnIHg9JzMxNi43NDU0MzInIHk9Jy04NS45OTQ3OCc+bjwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSczMjIuMTY4NDI1JyB5PSctODEuNjQ5OTU5Jz4oPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9JzMyNi4wNDI3OTknIHk9Jy04MS42NDk5NTknPlg8dHNwYW4geD0nMzM0LjUyNDg3Mic+LDwvdHNwYW4+PC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9JzMzOC45NTI2OCcgeT0nLTgxLjY0OTk1OSc+WjwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSczNDUuNTk0NDYzJyB5PSctODEuNjQ5OTU5Jz4pPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDM4NC43ODc3MTMsLTgxLjY0OTk1OSlzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTE5LjA5NjY4LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMzg0Ljc4NzcxMywtODEuNjQ5OTU5KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjUnIHg9JzM4NC43ODc3MTMnIHk9Jy04MS42NDk5NTknPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNCcgeD0nMzkyLjI1OTcwOCcgeT0nLTg1Ljk5NDc4Jz5uPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjUnIHg9JzM5Ny42ODI3MDEnIHk9Jy04MS42NDk5NTknPig8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nNDAxLjU1NzA3NScgeT0nLTgxLjY0OTk1OSc+WTx0c3BhbiB4PSc0MDcuODk0NDM2Jz4sPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nNDEyLjMyMjI0NCcgeT0nLTgxLjY0OTk1OSc+WjwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSc0MTguOTY0MDI2JyB5PSctODEuNjQ5OTU5Jz4pPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDExOS40MTgyNTUsLTQ1LjA5NTMxMilzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTI2LjQ1MDg3LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMTE5LjQxODI1NSwtNDUuMDk1MzEyKXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjUnIHg9JzExOS40MTgyNTUnIHk9Jy00NS4wOTUzMTInPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNCcgeD0nMTI2Ljg5MDI1JyB5PSctNDkuNDQwMTM0Jz5uPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9JzEzMS44MTUxMTMnIHk9Jy00OS40NDAxMzQnPuKIkjwvdGV4dD4KPHRleHQgY2xhc3M9J2Y2JyB4PScxMzguMDQxNzkyJyB5PSctNDkuNDQwMTM0Jz4xPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjUnIHg9JzE0Mi41MTExNDYnIHk9Jy00NS4wOTUzMTInPig8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMTQ2LjM4NTUyJyB5PSctNDUuMDk1MzEyJz5ZPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9JzE1NC4zODMzMjYnIHk9Jy00OC43MTA2NzYnPu6AsDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PScxNTcuMTc4NDAxJyB5PSctNDUuMDk1MzEyJz4sPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9JzE2MS42MDYyMDknIHk9Jy00NS4wOTUzMTInPlo8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNScgeD0nMTY4LjI0Nzk5MicgeT0nLTQ1LjA5NTMxMic+KTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgyMTYuNjM1ODg4LC00NS4wOTUzMTIpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zOC41MjAyOCwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDIxNi42MzU4ODgsLTQ1LjA5NTMxMilzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2Y1JyB4PScyMTYuNjM1ODg4JyB5PSctNDUuMDk1MzEyJz5IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjQnIHg9JzIyNC4xMDc4ODMnIHk9Jy00OS40NDAxMzQnPm48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNScgeD0nMjI5LjUzMDg3NicgeT0nLTQ1LjA5NTMxMic+KDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PScyMzMuNDA1MjUnIHk9Jy00NS4wOTUzMTInPlg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nMjQyLjQ0MDgwNScgeT0nLTQ4LjcxMDY3Nic+7oCwPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjUnIHg9JzI0Ni44OTYyODEnIHk9Jy00NS4wOTUzMTInPm1vPHRzcGFuIHg9JzI2MC40NTY1OTQnPmQ8L3RzcGFuPjwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PScyNjcuNjUxODA2JyB5PSctNDUuMDk1MzEyJz5ZPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9JzI3NS42NDk2MTInIHk9Jy00OC43MTA2NzYnPu6AsDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PScyNzguNDQ0Njg4JyB5PSctNDUuMDk1MzEyJz4sPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9JzI4Mi44NzI0OTYnIHk9Jy00NS4wOTUzMTInPlo8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNScgeD0nMjg5LjUxNDI3OCcgeT0nLTQ1LjA5NTMxMic+KTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgzMDkuMjczNDM3LC00NS4wOTUzMTIpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0yMS44NTM2LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMzA5LjI3MzQzNywtNDUuMDk1MzEyKXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjUnIHg9JzMwOS4yNzM0MzcnIHk9Jy00NS4wOTUzMTInPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNCcgeD0nMzE2Ljc0NTQzMicgeT0nLTQ5LjQ0MDEzNCc+bjwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSczMjIuMTY4NDI1JyB5PSctNDUuMDk1MzEyJz4oPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9JzMyNi4wNDI3OTknIHk9Jy00NS4wOTUzMTInPlg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nMzM1LjA3ODM1NCcgeT0nLTQ4LjcxMDY3Nic+7oCwPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9JzMzNy44NzM0MycgeT0nLTQ1LjA5NTMxMic+LDwvdGV4dD4KPHRleHQgY2xhc3M9J2YwJyB4PSczNDIuMzAxMjM4JyB5PSctNDUuMDk1MzEyJz5aPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjUnIHg9JzM0OC45NDMwMicgeT0nLTQ1LjA5NTMxMic+KTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgzODQuNzg3NzEzLC00NS4wOTUzMTIpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0yMS4zMzI4LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMzg0Ljc4NzcxMywtNDUuMDk1MzEyKXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjUnIHg9JzM4NC43ODc3MTMnIHk9Jy00NS4wOTUzMTInPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNCcgeD0nMzkyLjI1OTcwOCcgeT0nLTQ5LjQ0MDEzNCc+bjwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSczOTcuNjgyNzAxJyB5PSctNDUuMDk1MzEyJz4oPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9JzQwMS41NTcwNzUnIHk9Jy00NS4wOTUzMTInPlk8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nNDA5LjU1NDg4MScgeT0nLTQ4LjcxMDY3Nic+7oCwPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9JzQxMi4zNDk5NTcnIHk9Jy00NS4wOTUzMTInPiw8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nNDE2Ljc3Nzc2NCcgeT0nLTQ1LjA5NTMxMic+WjwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSc0MjMuNDE5NTQ3JyB5PSctNDUuMDk1MzEyJz4pPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00tMzMuMDQxMDYgOS40ODYxNVYtOS4wNjgzNCcgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgwLjAsLTEuMCwxLjAsMC4wLC0zMy4wNDEwNiwtOS4yNjgzMyknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNDMuNjk2NzMsLTEuOTgyNiknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoODguNzc2NzUyLC00NS4wOTUzMTIpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmNCcgeD0nODguNzc2NzUyJyB5PSctNDUuMDk1MzEyJz5wPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjInIHg9JzkyLjg4MzcwOCcgeT0nLTQ4LjEwMTgyOSc+4oiXPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTTYuMzQ1ODYgMTguMzQ1ODdIMzQuODY1MzMnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMzUuMDY1MywxOC4zNDU4NyknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J001OS45NDM4OCA5LjQ4NjE1Vi05LjA2ODM0JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0nbWF0cml4KDAuMCwtMS4wLDEuMCwwLjAsNTkuOTQzODgsLTkuMjY4MzMpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuMDc5ODggMi4zOTk4NkMtMS42OTk4OSAuOTU5OTItLjg1MzEzIC4yNzk5OCAwIDBDLS44NTMxMy0uMjc5OTgtMS42OTk4OS0uOTU5OTItMi4wNzk4OC0yLjM5OTg2JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzk5OTgnPgo8cGF0aCBkPSdNODQuNjIyNDcgMTguMzQ1ODdIMTExLjczOTE1JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDExMS45MzkxMywxOC4zNDU4NyknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00xMzUuNzQxMzMgOS40ODYxNVYtOS4wNjgzNCcgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgwLjAsLTEuMCwxLjAsMC4wLDEzNS43NDEzMywtOS4yNjgzMyknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00tOTkuNjY2ODUtMTguMzQ1ODZILTc2LjQ2Njg0JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC03Ni4yNjY4NiwtMTguMzQ1ODYpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuMDc5ODggMi4zOTk4NkMtMS42OTk4OSAuOTU5OTItLjg1MzEzIC4yNzk5OCAwIDBDLS44NTMxMy0uMjc5OTgtMS42OTk4OS0uOTU5OTItMi4wNzk4OC0yLjM5OTg2JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzk5OTgnPgo8cGF0aCBkPSdNOS45ODQ3Ni0xOC4zNDU4NkgzMy4xODQ3NycgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgzMy4zODQ3NSwtMTguMzQ1ODYpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuMDc5ODggMi4zOTk4NkMtMS42OTk4OSAuOTU5OTItLjg1MzEzIC4yNzk5OCAwIDBDLS44NTMxMy0uMjc5OTgtMS42OTk4OS0uOTU5OTItMi4wNzk4OC0yLjM5OTg2JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzk5OTgnPgo8cGF0aCBkPSdNODYuMzAzMDItMTguMzQ1ODZIMTA5LjUwMzA0JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDEwOS43MDMwMiwtMTguMzQ1ODYpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuMDc5ODggMi4zOTk4NkMtMS42OTk4OSAuOTU5OTItLjg1MzEzIC4yNzk5OCAwIDBDLS44NTMxMy0uMjc5OTgtMS42OTk4OS0uOTU5OTItMi4wNzk4OC0yLjM5OTg2JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[\begin {tikzcd}
+        & \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})
+          \ar [d,swap,"p^*"]
+          \ar [r]
+        & \operatorname {H}^n(X,\mathbb {Z})
+          \ar [d]
+          \ar [r]
+        & \operatorname {H}^n(Y,\mathbb {Z})
+          \ar [d]
+      \\\operatorname {H}^{n-1}(Y',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(X',\mathbb {Z})
+          \ar [r]
+        & \operatorname {H}^n(Y',\mathbb {Z})
+      \end {tikzcd}]]></fr:resource-source></fr:resource>
+
+      Let <fr:tex display="inline"><![CDATA[\Phi ]]></fr:tex> be the family of supports of <fr:tex display="inline"><![CDATA[U]]></fr:tex> consisting of those <fr:tex display="inline"><![CDATA[A\subset  U]]></fr:tex> such that, in <fr:tex display="inline"><![CDATA[X]]></fr:tex> (or, equivalently, in <fr:tex display="inline"><![CDATA[X']]></fr:tex>), <fr:tex display="inline"><![CDATA[\overline {A}\subset  U]]></fr:tex>.
+      We have that
+      <fr:tex display="block"><![CDATA[         \operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})         = \operatorname {H}_\Phi ^n(U,\mathbb {Z})         = \operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})       ]]></fr:tex>
+      and so the arrow denoted <fr:tex display="inline"><![CDATA[p^*]]></fr:tex> is an isomorphism.</fr:p>
+
+    <fr:p>For <fr:tex display="inline"><![CDATA[h^{pq}]]></fr:tex> a non-zero Hodge number of one of the mixed Hodge structures in play, we have:
+      
+      
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+        
+ <html:li style="list-style-type: &quot;(a) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
+        </html:li>
+
+
+        
+ <html:li style="list-style-type: &quot;(b) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^{n-1}(Y',\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N-1]\times [n-N,N-1]]]></fr:tex>
+        </html:li>
+
+
+        
+ <html:li style="list-style-type: &quot;(c) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X'\operatorname {mod} Y',\mathbb {Z})=\operatorname {H}^n(X\operatorname {mod} Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
+        </html:li>
+
+
+        
+ <html:li style="list-style-type: &quot;(d) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N+1,N-1]\times [n-N+1,N-1]]]></fr:tex>
+        </html:li>
+
+
+        
+ <html:li style="list-style-type: &quot;(e) &quot;">
+          for <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex>, <fr:tex display="inline"><![CDATA[(p,q)\in [n-N,N]\times [n-N,N]]]></fr:tex>
+        </html:li>
+
+      </html:ol>
+
+
+      (a) follows from the fact that <fr:tex display="inline"><![CDATA[X']]></fr:tex> is smooth, and from the fact that the claim is true for the <fr:tex display="inline"><![CDATA[{}_WE_1]]></fr:tex> pages of the spectral sequence <fr:ref addr="hodge-theory-ii-3.2.4.1" href="hodge-theory-ii-3.2.4.1.xml" taxon="Equation" number="3.2.4.1" />.
+      (b) and (d) follow from the inductive hypothesis: we have that <fr:tex display="inline"><![CDATA[\dim  Y,\dim  Y'\leqslant  N-1]]></fr:tex>.
+      (c) follows from (a) and (b), and (e) follows from (c) and (d).
+      This finishes the proof.</fr:p>
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
