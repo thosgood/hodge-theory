@@ -2,23 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3285</fr:anchor>
+    <fr:anchor>3312</fr:anchor>
     <fr:addr type="machine">#279</fr:addr>
     <fr:route>unstable-279.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    Let <fr:tex display="inline"><![CDATA[P=P(\psi _1,\psi _2)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />).
-    A <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-structure on <fr:tex display="inline"><![CDATA[P]]></fr:tex> is, first of all, a connection on the trivial <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>-torsor over <fr:tex display="inline"><![CDATA[V_\mathbb {C}\times  W_\mathbb {C}]]></fr:tex>, i.e. a field of forms <fr:tex display="inline"><![CDATA[\Gamma _{v,w}(v'+w')]]></fr:tex> on <fr:tex display="inline"><![CDATA[V_\mathbb {C}\times  W_\mathbb {C}]]></fr:tex>.
-    This connection defines a <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-structure on this torsor if and only if
-    <fr:tex display="block"><![CDATA[       \Gamma _{v,w}(v'+w')       = \Phi _1(v,w') + \Phi _2(v',w)     ]]></fr:tex>
-    with <fr:tex display="inline"><![CDATA[\Phi _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Phi _2]]></fr:tex> bilinear.
-    The trivialisations <fr:tex display="inline"><![CDATA[\exp \psi _1(v_\mathbb {Z},w_\mathbb {C})]]></fr:tex> and <fr:tex display="inline"><![CDATA[\exp \psi _2(v_\mathbb {C},w_\mathbb {Z})]]></fr:tex> are horizontal if and only if <fr:tex display="inline"><![CDATA[\Phi _i=-\psi _i]]></fr:tex>.
-    The curvature of the connection is the field of 2-forms <fr:tex display="inline"><![CDATA[\mathrm {d}\Gamma ]]></fr:tex> :
-    <fr:tex display="block"><![CDATA[       R_{v,w}(v'+w',v''+w'')       = \Phi _1(v',w'') + \Phi _2(v'',w') - \Phi _1(v'',w') - \Phi _2(v',w'').     ]]></fr:tex>
-    The curvature of <fr:tex display="inline"><![CDATA[P]]></fr:tex> is thus of the form
-    <fr:tex display="block"><![CDATA[       \Phi _1(v',w'') - \Phi _2(v',w'')       = -(\psi _1(v',w'') - \psi _2(v',w''))       = -\psi (v',w'').     ]]></fr:tex>
+    The <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-biextension <fr:tex display="inline"><![CDATA[P^\natural ]]></fr:tex> defines, in the analytic category, a <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-biextension of <fr:tex display="inline"><![CDATA[[T_\mathbb {Z}(M_1)\to  T_\mathbb {C}(M_1)]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[T_\mathbb {Z}(M_2)\to  T_\mathbb {C}(M_2)]]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>.
+    The proposition then follows from the following lemma (<fr:ref addr="hodge-theory-iii-10.2.9" href="hodge-theory-iii-10.2.9.xml" taxon="Lemma" number="10.2.9" />).
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -29,28 +21,19 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3286</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-10.2.9</fr:addr>
-            <fr:route>hodge-theory-iii-10.2.9.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
+            <fr:anchor>3313</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.2.8</fr:addr>
+            <fr:route>hodge-theory-iii-10.2.8.xml</fr:route>
+            <fr:taxon>Proposition</fr:taxon>
             <fr:authors />
-            <fr:number>10.2.9</fr:number>
+            <fr:number>10.2.8</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[V_\mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {Z}]]></fr:tex> be two free <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-modules of finite rank, and <fr:tex display="inline"><![CDATA[P]]></fr:tex> a biextension of <fr:tex display="inline"><![CDATA[[V_\mathbb {Z}\to  V_\mathbb {C}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[W_\mathbb {Z}\to  W_\mathbb {C}]]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex> with underlying biextension <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
-    Then the curvature <fr:tex display="inline"><![CDATA[\psi \colon  V_\mathrm {c}\otimes  W_\mathbb {C}\to \mathbb {C}]]></fr:tex> of <fr:tex display="inline"><![CDATA[P^\natural ]]></fr:tex> agrees with the negative of the complexification of the form corresponding to <fr:tex display="inline"><![CDATA[P]]></fr:tex> under <fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />.</fr:p>
+          <fr:mainmatter><fr:p>Over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, the pairing in <fr:ref addr="hodge-theory-iii-10.2.7" href="hodge-theory-iii-10.2.7.xml" taxon="Construction" number="10.2.7" /> is the complexification of the pairing in <fr:ref addr="hodge-theory-iii-10.2.3" href="hodge-theory-iii-10.2.3.xml" taxon="Construction" number="10.2.3" />.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2054</fr:anchor><fr:addr type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    Let <fr:tex display="inline"><![CDATA[P=P(\psi _1,\psi _2)]]></fr:tex> (<fr:ref addr="hodge-theory-iii-10.2.3.4" href="hodge-theory-iii-10.2.3.4.xml" taxon="Lemma" number="10.2.3.4" />).
-    A <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-structure on <fr:tex display="inline"><![CDATA[P]]></fr:tex> is, first of all, a connection on the trivial <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>-torsor over <fr:tex display="inline"><![CDATA[V_\mathbb {C}\times  W_\mathbb {C}]]></fr:tex>, i.e. a field of forms <fr:tex display="inline"><![CDATA[\Gamma _{v,w}(v'+w')]]></fr:tex> on <fr:tex display="inline"><![CDATA[V_\mathbb {C}\times  W_\mathbb {C}]]></fr:tex>.
-    This connection defines a <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-structure on this torsor if and only if
-    <fr:tex display="block"><![CDATA[       \Gamma _{v,w}(v'+w')       = \Phi _1(v,w') + \Phi _2(v',w)     ]]></fr:tex>
-    with <fr:tex display="inline"><![CDATA[\Phi _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Phi _2]]></fr:tex> bilinear.
-    The trivialisations <fr:tex display="inline"><![CDATA[\exp \psi _1(v_\mathbb {Z},w_\mathbb {C})]]></fr:tex> and <fr:tex display="inline"><![CDATA[\exp \psi _2(v_\mathbb {C},w_\mathbb {Z})]]></fr:tex> are horizontal if and only if <fr:tex display="inline"><![CDATA[\Phi _i=-\psi _i]]></fr:tex>.
-    The curvature of the connection is the field of 2-forms <fr:tex display="inline"><![CDATA[\mathrm {d}\Gamma ]]></fr:tex> :
-    <fr:tex display="block"><![CDATA[       R_{v,w}(v'+w',v''+w'')       = \Phi _1(v',w'') + \Phi _2(v'',w') - \Phi _1(v'',w') - \Phi _2(v',w'').     ]]></fr:tex>
-    The curvature of <fr:tex display="inline"><![CDATA[P]]></fr:tex> is thus of the form
-    <fr:tex display="block"><![CDATA[       \Phi _1(v',w'') - \Phi _2(v',w'')       = -(\psi _1(v',w'') - \psi _2(v',w''))       = -\psi (v',w'').     ]]></fr:tex>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2055</fr:anchor><fr:addr type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    The <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-biextension <fr:tex display="inline"><![CDATA[P^\natural ]]></fr:tex> defines, in the analytic category, a <fr:tex display="inline"><![CDATA[\natural ]]></fr:tex>-biextension of <fr:tex display="inline"><![CDATA[[T_\mathbb {Z}(M_1)\to  T_\mathbb {C}(M_1)]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[T_\mathbb {Z}(M_2)\to  T_\mathbb {C}(M_2)]]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>.
+    The proposition then follows from the following lemma (<fr:ref addr="hodge-theory-iii-10.2.9" href="hodge-theory-iii-10.2.9.xml" taxon="Lemma" number="10.2.9" />).
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

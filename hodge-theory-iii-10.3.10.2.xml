@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2202</fr:anchor>
+    <fr:anchor>2209</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-10.3.10.2</fr:addr>
     <fr:route>hodge-theory-iii-10.3.10.2.xml</fr:route>
     <fr:taxon>Equation</fr:taxon>
@@ -21,7 +21,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2203</fr:anchor>
+            <fr:anchor>2210</fr:anchor>
             <fr:addr type="user">hodge-theory-iii-10.3.10</fr:addr>
             <fr:route>hodge-theory-iii-10.3.10.xml</fr:route>
             <fr:authors />
@@ -42,7 +42,7 @@
 
         <fr:p>We define a map
 
-          <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2193</fr:anchor><fr:addr type="user">hodge-theory-iii-10.3.10.1</fr:addr><fr:route>hodge-theory-iii-10.3.10.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.3.10.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[               \mathbb {Z}^S               \to  \operatorname {Pic}^\natural (X)             \tag{10.3.10.1}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+          <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2196</fr:anchor><fr:addr type="user">hodge-theory-iii-10.3.10.1</fr:addr><fr:route>hodge-theory-iii-10.3.10.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.3.10.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[               \mathbb {Z}^S               \to  \operatorname {Pic}^\natural (X)             \tag{10.3.10.1}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
           by sending each divisor <fr:tex display="inline"><![CDATA[D]]></fr:tex> of <fr:tex display="inline"><![CDATA[\overline {X}]]></fr:tex>, concentrated in <fr:tex display="inline"><![CDATA[S]]></fr:tex>, to the invertible sheaf <fr:tex display="inline"><![CDATA[\mathcal {O}(D)]]></fr:tex>.</fr:p>
       </html:li>
@@ -64,12 +64,38 @@
           This allows us to also identify <fr:tex display="inline"><![CDATA[\operatorname {H}^1(X,\mathbb {Z}(1))]]></fr:tex> with the set of pairs <fr:tex display="inline"><![CDATA[(p,d)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[p]]></fr:tex> is an isomorphism class of <fr:tex display="inline"><![CDATA[\mathcal {O}_{\overline {X}}]]></fr:tex>-torsors (i.e. an element of <fr:tex display="inline"><![CDATA[\operatorname {Lie}(\operatorname {Pic}\overline {X})]]></fr:tex>) and <fr:tex display="inline"><![CDATA[d\in \operatorname {Ker}(\alpha )]]></fr:tex>, defining a divisor concentrated in <fr:tex display="inline"><![CDATA[S]]></fr:tex> with whose image in <fr:tex display="inline"><![CDATA[\operatorname {Pic}^0(\overline {X})]]></fr:tex> is <fr:tex display="inline"><![CDATA[\exp (p)]]></fr:tex>.
           In other words, we have defined an isomorphism
 
-          <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2194</fr:anchor><fr:addr type="user">hodge-theory-iii-10.3.10.2</fr:addr><fr:route>hodge-theory-iii-10.3.10.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.3.10.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[               \operatorname {H}^1(X,\mathbb {Z}(1))               \xrightarrow {\sim } T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(X)(1)).             \tag{10.3.10.2}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
+          <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2197</fr:anchor><fr:addr type="user">hodge-theory-iii-10.3.10.2</fr:addr><fr:route>hodge-theory-iii-10.3.10.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.3.10.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[               \operatorname {H}^1(X,\mathbb {Z}(1))               \xrightarrow {\sim } T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(X)(1)).             \tag{10.3.10.2}             ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p>
 
         <fr:p>From part (i) of <fr:ref addr="hodge-theory-iii-10.3.11" href="hodge-theory-iii-10.3.11.xml" taxon="Lemma" number="10.3.11" />, we deduce that this isomorphism is compatible with the weight filtration.</fr:p>
       </html:li>
 
     </html:ol></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2211</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.3.12</fr:addr>
+            <fr:route>hodge-theory-iii-10.3.12.xml</fr:route>
+            <fr:authors />
+            <fr:number>10.3.12</fr:number>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>We now realise <fr:ref addr="hodge-theory-iii-10.3.8" href="hodge-theory-iii-10.3.8.xml" taxon="Construction" number="10.3.8" />.
+    The diagram
+    <fr:tex display="block"><![CDATA[       \begin {CD}         \operatorname {H}^1(X,\mathbb {Z}(1)) @>{\simeq }>> T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(X)(1)) @>>> \operatorname {Lie}\operatorname {Pic}(\overline {X}) = \operatorname {H}^1(\overline {X},\mathcal {O}_{\overline {X}})       \\ @| @. @|       \\\operatorname {H}^1(X,\mathbb {C}) @>{\simeq }>> \operatorname {Lie}\operatorname {Pic}^\natural (X) @>>> \operatorname {Lie}\operatorname {Pic}(\overline {X}) = \operatorname {H}^1(\overline {X},\mathcal {O}_{\overline {X}})       \end {CD}     ]]></fr:tex>
+    commutes.
+    By (ii) of <fr:ref addr="hodge-theory-iii-10.3.11" href="hodge-theory-iii-10.3.11.xml" taxon="Lemma" number="10.3.11" /> and the definition of Hodge filtrations, <fr:ref addr="hodge-theory-iii-10.3.10.2" href="hodge-theory-iii-10.3.10.2.xml" taxon="Equation" number="10.3.10.2" /> is compatible with the Hodge filtration.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>

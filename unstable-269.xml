@@ -2,15 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3265</fr:anchor>
+    <fr:anchor>3292</fr:anchor>
     <fr:addr type="machine">#269</fr:addr>
     <fr:route>unstable-269.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-      <fr:p>Every biadditive morphism <fr:tex display="inline"><![CDATA[G_1\times  G_2\to \mathbb {G}_\mathrm {m}]]></fr:tex> is trivial.</fr:p>
-    </fr:mainmatter>
+    Indeed, we have a commutative diagram
+    <fr:tex display="block"><![CDATA[       \begin {CD}         \operatorname {Ker}(\alpha ) @>>> \operatorname {Pic}^\natural (X)^0 @>>> \operatorname {Pic}^0(\overline {X})       \\@AAA @AAA @AAA       \\\operatorname {H}^1(X,\mathbb {Z}) @>>> \operatorname {Lie}\operatorname {Pic}^\natural (X) @>>> \operatorname {Lie}\operatorname {Pic}(\overline {X})       \end {CD}     ]]></fr:tex>
+    and we then apply <fr:ref addr="hodge-theory-iii-10.1.9" href="hodge-theory-iii-10.1.9.xml" taxon="Remark" number="10.1.9" />.
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -20,22 +22,23 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3266</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-10.2.2.1</fr:addr>
-            <fr:route>hodge-theory-iii-10.2.2.1.xml</fr:route>
-            <fr:taxon>Lemma</fr:taxon>
+            <fr:anchor>3293</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.3.13</fr:addr>
+            <fr:route>hodge-theory-iii-10.3.13.xml</fr:route>
+            <fr:taxon>Corollary</fr:taxon>
             <fr:authors />
-            <fr:number>10.2.2.1</fr:number>
+            <fr:number>10.3.13</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[M_i=(X_i,A_i,T_i,G_i,u_i)]]></fr:tex> (for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>) be 1-motives.
-      Then
-      <fr:tex display="block"><![CDATA[         \operatorname {Biext}^0(M_1,M_2;\mathbb {G}_\mathrm {m})         = 0.       ]]></fr:tex>
-      Over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, we similarly have that <fr:tex display="inline"><![CDATA[\operatorname {Biext}^0(M_1^\mathrm {an},M_2^\mathrm {an};\mathbb {G}_\mathrm {m})=0]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p><fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(X)(1)^\natural ]]></fr:tex> is the extension
+    <fr:tex display="block"><![CDATA[       \operatorname {Ker}(\alpha )       \to  \operatorname {Pic}^\natural (X)^0     ]]></fr:tex>
+    of <fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(X)(1)]]></fr:tex> induced by <fr:ref addr="hodge-theory-iii-10.3.10.1" href="hodge-theory-iii-10.3.10.1.xml" taxon="Equation" number="10.3.10.1" />.</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2024</fr:anchor><fr:addr type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-      <fr:p>Every biadditive morphism <fr:tex display="inline"><![CDATA[G_1\times  G_2\to \mathbb {G}_\mathrm {m}]]></fr:tex> is trivial.</fr:p>
-    </fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2020</fr:anchor><fr:addr type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    Indeed, we have a commutative diagram
+    <fr:tex display="block"><![CDATA[       \begin {CD}         \operatorname {Ker}(\alpha ) @>>> \operatorname {Pic}^\natural (X)^0 @>>> \operatorname {Pic}^0(\overline {X})       \\@AAA @AAA @AAA       \\\operatorname {H}^1(X,\mathbb {Z}) @>>> \operatorname {Lie}\operatorname {Pic}^\natural (X) @>>> \operatorname {Lie}\operatorname {Pic}(\overline {X})       \end {CD}     ]]></fr:tex>
+    and we then apply <fr:ref addr="hodge-theory-iii-10.1.9" href="hodge-theory-iii-10.1.9.xml" taxon="Remark" number="10.1.9" />.
+  </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
           <fr:backmatter />

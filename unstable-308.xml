@@ -2,15 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3343</fr:anchor>
+    <fr:anchor>3370</fr:anchor>
     <fr:addr type="machine">#308</fr:addr>
     <fr:route>unstable-308.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Since <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[(jf)^*]]></fr:tex> are strictly compatible with the weight filtration ((iii) of <fr:ref addr="hodge-theory-ii-3.2.5" href="hodge-theory-ii-3.2.5.xml" taxon="Theorem" number="3.2.5" />), it suffices to prove that <fr:tex display="inline"><![CDATA[\operatorname {Gr}^W(f^*)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Gr}^W(f^*j^*)]]></fr:tex> have the same image in <fr:tex display="inline"><![CDATA[\operatorname {Gr}^W(\operatorname {H}^n(Y,\mathbb {Q}))]]></fr:tex>.
-      By <fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" /> and <fr:ref addr="hodge-theory-ii-3.2.15" href="hodge-theory-ii-3.2.15.xml" taxon="Corollary" number="3.2.15" />, <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(j^*)]]></fr:tex> is an isomorphism, while <fr:tex display="inline"><![CDATA[\operatorname {Gr}_m^W(f^*)=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[m\neq  n]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_m^W(\operatorname {H}^n(Y,\mathbb {Q}))=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[m\neq  n]]></fr:tex>.</fr:p>
+    <fr:p>We can suppose that <fr:tex display="inline"><![CDATA[\overline {X}\setminus  X]]></fr:tex> is a normal crossing divisor.
+      The claim then follows from the fact that <fr:tex display="inline"><![CDATA[W[-n]]]></fr:tex> is the abutment of the Leray spectral sequence for the inclusion <fr:tex display="inline"><![CDATA[j\colon  X\hookrightarrow \overline {X}]]></fr:tex>.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -21,20 +21,19 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3344</fr:anchor>
-            <fr:addr type="user">hodge-theory-ii-3.2.18</fr:addr>
-            <fr:route>hodge-theory-ii-3.2.18.xml</fr:route>
+            <fr:anchor>3371</fr:anchor>
+            <fr:addr type="user">hodge-theory-ii-3.2.17</fr:addr>
+            <fr:route>hodge-theory-ii-3.2.17.xml</fr:route>
             <fr:taxon>Corollary</fr:taxon>
             <fr:authors />
-            <fr:number>3.2.18</fr:number>
+            <fr:number>3.2.17</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a morphism from a smooth proper scheme <fr:tex display="inline"><![CDATA[Y]]></fr:tex> to a smooth scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex>, with <fr:tex display="inline"><![CDATA[X]]></fr:tex> admitting a smooth compactification <fr:tex display="inline"><![CDATA[j\colon  X\hookrightarrow \overline {X}]]></fr:tex>.
-    Then the groups <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex> have the same image in <fr:tex display="inline"><![CDATA[\operatorname {H}^n(Y,\mathbb {Q})]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>Under the hypotheses of <fr:ref addr="hodge-theory-ii-3.2.16" href="hodge-theory-ii-3.2.16.xml" number="3.2.16" />, the image of <fr:tex display="inline"><![CDATA[\operatorname {H}^n(\overline {X},\mathbb {Q})]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Q})]]></fr:tex> is <fr:tex display="inline"><![CDATA[W_n(\operatorname {H}^n(X,\mathbb {Q}))]]></fr:tex> (where <fr:tex display="inline"><![CDATA[W]]></fr:tex> denotes the weight filtration (<fr:ref addr="hodge-theory-ii-3.2.12" href="hodge-theory-ii-3.2.12.xml" taxon="Definition" number="3.2.12" />)).</fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>624</fr:anchor><fr:addr type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    <fr:p>Since <fr:tex display="inline"><![CDATA[f^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[(jf)^*]]></fr:tex> are strictly compatible with the weight filtration ((iii) of <fr:ref addr="hodge-theory-ii-3.2.5" href="hodge-theory-ii-3.2.5.xml" taxon="Theorem" number="3.2.5" />), it suffices to prove that <fr:tex display="inline"><![CDATA[\operatorname {Gr}^W(f^*)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Gr}^W(f^*j^*)]]></fr:tex> have the same image in <fr:tex display="inline"><![CDATA[\operatorname {Gr}^W(\operatorname {H}^n(Y,\mathbb {Q}))]]></fr:tex>.
-      By <fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" /> and <fr:ref addr="hodge-theory-ii-3.2.15" href="hodge-theory-ii-3.2.15.xml" taxon="Corollary" number="3.2.15" />, <fr:tex display="inline"><![CDATA[\operatorname {Gr}_n^W(j^*)]]></fr:tex> is an isomorphism, while <fr:tex display="inline"><![CDATA[\operatorname {Gr}_m^W(f^*)=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[m\neq  n]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Gr}_m^W(\operatorname {H}^n(Y,\mathbb {Q}))=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[m\neq  n]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>623</fr:anchor><fr:addr type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+    <fr:p>We can suppose that <fr:tex display="inline"><![CDATA[\overline {X}\setminus  X]]></fr:tex> is a normal crossing divisor.
+      The claim then follows from the fact that <fr:tex display="inline"><![CDATA[W[-n]]]></fr:tex> is the abutment of the Leray spectral sequence for the inclusion <fr:tex display="inline"><![CDATA[j\colon  X\hookrightarrow \overline {X}]]></fr:tex>.</fr:p>
   </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
