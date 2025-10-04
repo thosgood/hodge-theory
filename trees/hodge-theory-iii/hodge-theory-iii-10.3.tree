@@ -411,6 +411,36 @@
     }
 
     \lic{(ii)}{
+      The spectral sequence defined by the stupid filtration of #{[\OO_{\overline{X}}\to\overline{r}_*\Omega_{\overline{X}'}^1(\log S)]} degenerates and abuts to the Hodge filtration of #{\HH^*(X,\CC)}.
+    }
+  }
+
+  \proof{
+    \p{
+      We first prove (i).
+      It suffices to prove the first claim: the second follows from \ref{hodge-theory-iii-8.2.5}.
+      We have a comparison of exact sequences
+      ##{
+        \begin{CD}
+          \HH^1(\overline{X},\,\ZZ) @>>> \HH^1(X,\,\ZZ) @>{\partial}>> \HH^2(\overline{X}\,\mod\, X,\,\ZZ)
+        \\@VVV @VVV @VV{\simeq}V
+        \\\HH^1(\overline{X}',\,\ZZ) @>>> \HH^1(X',\,\ZZ) @>{\partial}>> \HH^2(\overline{X}'\,\mod\, X',\,\ZZ) @>>> \HH^2(\overline{X}',\,\ZZ)
+        \end{CD}
+      }
+      It follows from \ref{hodge-theory-iii-8.3.7} and \ref{hodge-theory-ii-3.2.17} that #{\HH^2(\overline{X}'\mod X,\ZZ)}, and thus #{\HH^2(\overline{X}\mod X,\ZZ)}, is pure of weight 2.
+      Taking \ref{hodge-theory-iii-8.2.4}, this proves (i).
+    }
+
+    \p{
+      To prove (ii), we have to return to \ref{hodge-theory-iii-8.2.1} and use the fact that the simplicial scheme #{((X'/X)^{\Delta_n})_{n\geqslant0}} is smooth (the #{(n+1)}-tuple #{(X'/X)^{\Delta_n}} given by the iterated fibre product is the disjoint sum of #{X'}, the diagonal, and a finite number of points) and that it admits #{((\overline{X}'/\overline{X})^{\Delta_n})_{n\geqslant0}} as a smooth compactification.
+      Let #{\varepsilon\colon((\overline{X}'/\overline{X})^{\Delta_n})_{n\geqslant0}\to\overline{X}} the augmentation morphism.
+      Let #{(K,F)} be the complex #{\OO\to\Omega^1(\log S)} on #{((\overline{X}'/\overline{X})^{\Delta_n})_{n\geqslant0}} endowed with the stupid filtration.
+      We have an augmentation morphism
+      ##{
+        \alpha\colon
+        [\OO_{\overline{X}}\to\overline{r}_*\Omega_{\overline{X}'}^1(\log S)]
+        \to \simp{\varepsilon_\bullet}_*K.
+      }
       The
     }
   }
