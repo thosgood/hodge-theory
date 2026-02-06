@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2288</fr:anchor>
+    <fr:anchor>2287</fr:anchor>
     <fr:addr type="user">hodge-theory-iii-10.4.2.1</fr:addr>
     <fr:route>hodge-theory-iii-10.4.2.1.xml</fr:route>
     <fr:taxon>Equation</fr:taxon>
@@ -16,6 +16,65 @@
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
         <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2288</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.4.2</fr:addr>
+            <fr:route>hodge-theory-iii-10.4.2.xml</fr:route>
+            <fr:authors />
+            <fr:number>10.4.2</fr:number>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a smooth projective surface, <fr:tex display="inline"><![CDATA[U]]></fr:tex> a dense Zariski open of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, and <fr:tex display="inline"><![CDATA[C=S\setminus  U]]></fr:tex>.
+    Set
+    <fr:tex display="block"><![CDATA[       \operatorname {H}_2^{\log }(U,\mathbb {Z})       = \operatorname {Ker}\big ( \operatorname {H}_2(U,\mathbb {Z})\to \operatorname {H}_2(S,\mathbb {Z}) \big ).     ]]></fr:tex>
+    By [<fr:link type="local" href="G1968.xml" addr="G1968" title="Le groupe de Brauer, III: Exemples et compléments">G1968</fr:link>, §9], this group does not depend on the chosen smooth compactification <fr:tex display="inline"><![CDATA[S]]></fr:tex> of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+    Modulo finite groups, this is nothing more (<fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" />) than <fr:tex display="inline"><![CDATA[W_{-3}\operatorname {H}_2(U,\mathbb {Z})]]></fr:tex> (<fr:tex display="inline"><![CDATA[\operatorname {H}_2(U,\mathbb {Q})]]></fr:tex>, the dual of <fr:tex display="inline"><![CDATA[\operatorname {H}^2(U,\mathbb {Q})]]></fr:tex>, is endowed with the dual mixed Hodge structure).
+    We can show that the 1-motive defined by <fr:tex display="inline"><![CDATA[(\operatorname {H}_2^{\log }(U,\mathbb {Z})/\mathrm {torsion})(-1)]]></fr:tex> admits the following description:
+
+    
+ <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li style="list-style-type: &quot;(a) &quot;">
+        By Poincaré duality, we have that <fr:tex display="inline"><![CDATA[\operatorname {H}_2(U,\mathbb {Z})=\operatorname {H}_\mathrm {c}^2(U,\mathbb {Z})]]></fr:tex>.
+        The long exact sequence of cohomology of <fr:tex display="inline"><![CDATA[(S,C)]]></fr:tex> gives an exact sequence
+        <fr:tex display="block"><![CDATA[           \operatorname {H}^1(S,\mathbb {Z})           \to  \operatorname {H}^1(C,\mathbb {Z})           \to  \operatorname {H}_2^{\log }(U,\mathbb {Z})           \to  0.         ]]></fr:tex>
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(b) &quot;">
+        Let <fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(C)]]></fr:tex> be the quotient of <fr:tex display="inline"><![CDATA[\operatorname {Pic}^0(C)]]></fr:tex> by its unipotent radical.
+        We know that <fr:tex display="inline"><![CDATA[\operatorname {H}^1(C,\mathbb {Z})=T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(C))]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {H}^1(S,\mathbb {Z})=T_\mathbb {Z}(\operatorname {Pic}^0(S))]]></fr:tex>.
+        We thus have a map
+        <fr:tex display="block"><![CDATA[           \operatorname {H}_2^{\log }(U,\mathbb {Z})           \to  T_\mathbb {Z}(H_\mathrm {m}^1(C)/\operatorname {Pic}^0(S))         ]]></fr:tex>
+        which is an isomorphism modulo finite groups.
+      </html:li>
+
+
+      
+ <html:li style="list-style-type: &quot;(c) &quot;">
+        The map
+
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>472</fr:anchor><fr:addr type="user">hodge-theory-iii-10.4.2.1</fr:addr><fr:route>hodge-theory-iii-10.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.4.2.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\operatorname {H}_2^{\log }(U,\mathbb {Z})/\mathrm {torsion})(-1)             \to  T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(C)/\operatorname {Pic}^0(S))           \tag{10.4.2.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+        induced from (b) is a morphism of mixed Hodge structures (and an isomorphism modulo finite groups).
+      </html:li>
+
+    </html:ol></fr:p>
+            <fr:p>We can define the isomorphisms (modulo finite groups) induced by <fr:ref addr="hodge-theory-iii-10.4.2.1" href="hodge-theory-iii-10.4.2.1.xml" taxon="Equation" number="10.4.2.1" /> between the analogues of <fr:tex display="inline"><![CDATA[\operatorname {H}_2^{\log }(U,\mathbb {Z})(-1)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\ell ]]></fr:tex>-adic or de Rham cohomology, as well as the <fr:tex display="inline"><![CDATA[\ell ]]></fr:tex>-adic or de Rham realisations of <fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(C)/\operatorname {Pic}^0(S)]]></fr:tex>, in a purely algebraic way.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
         <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
@@ -59,66 +118,7 @@
  <html:li style="list-style-type: &quot;(c) &quot;">
         The map
 
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>473</fr:anchor><fr:addr type="user">hodge-theory-iii-10.4.2.1</fr:addr><fr:route>hodge-theory-iii-10.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.4.2.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\operatorname {H}_2^{\log }(U,\mathbb {Z})/\mathrm {torsion})(-1)             \to  T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(C)/\operatorname {Pic}^0(S))           \tag{10.4.2.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
-
-        induced from (b) is a morphism of mixed Hodge structures (and an isomorphism modulo finite groups).
-      </html:li>
-
-    </html:ol></fr:p>
-            <fr:p>We can define the isomorphisms (modulo finite groups) induced by <fr:ref addr="hodge-theory-iii-10.4.2.1" href="hodge-theory-iii-10.4.2.1.xml" taxon="Equation" number="10.4.2.1" /> between the analogues of <fr:tex display="inline"><![CDATA[\operatorname {H}_2^{\log }(U,\mathbb {Z})(-1)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\ell ]]></fr:tex>-adic or de Rham cohomology, as well as the <fr:tex display="inline"><![CDATA[\ell ]]></fr:tex>-adic or de Rham realisations of <fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(C)/\operatorname {Pic}^0(S)]]></fr:tex>, in a purely algebraic way.</fr:p>
-          </fr:mainmatter>
-          <fr:backmatter />
-        </fr:tree>
-      </fr:mainmatter>
-      <fr:backmatter />
-    </fr:tree>
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-      <fr:frontmatter>
-        <fr:title text="Backlinks">Backlinks</fr:title>
-        <fr:authors />
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-          <fr:frontmatter>
-            <fr:anchor>2290</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-10.4.2</fr:addr>
-            <fr:route>hodge-theory-iii-10.4.2.xml</fr:route>
-            <fr:authors />
-            <fr:number>10.4.2</fr:number>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a smooth projective surface, <fr:tex display="inline"><![CDATA[U]]></fr:tex> a dense Zariski open of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, and <fr:tex display="inline"><![CDATA[C=S\setminus  U]]></fr:tex>.
-    Set
-    <fr:tex display="block"><![CDATA[       \operatorname {H}_2^{\log }(U,\mathbb {Z})       = \operatorname {Ker}\big ( \operatorname {H}_2(U,\mathbb {Z})\to \operatorname {H}_2(S,\mathbb {Z}) \big ).     ]]></fr:tex>
-    By [<fr:link type="local" href="G1968.xml" addr="G1968" title="Le groupe de Brauer, III: Exemples et compléments">G1968</fr:link>, §9], this group does not depend on the chosen smooth compactification <fr:tex display="inline"><![CDATA[S]]></fr:tex> of <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
-    Modulo finite groups, this is nothing more (<fr:ref addr="hodge-theory-ii-3.2.17" href="hodge-theory-ii-3.2.17.xml" taxon="Corollary" number="3.2.17" />) than <fr:tex display="inline"><![CDATA[W_{-3}\operatorname {H}_2(U,\mathbb {Z})]]></fr:tex> (<fr:tex display="inline"><![CDATA[\operatorname {H}_2(U,\mathbb {Q})]]></fr:tex>, the dual of <fr:tex display="inline"><![CDATA[\operatorname {H}^2(U,\mathbb {Q})]]></fr:tex>, is endowed with the dual mixed Hodge structure).
-    We can show that the 1-motive defined by <fr:tex display="inline"><![CDATA[(\operatorname {H}_2^{\log }(U,\mathbb {Z})/\mathrm {torsion})(-1)]]></fr:tex> admits the following description:
-
-    
- <html:ol xmlns:html="http://www.w3.org/1999/xhtml">
-      
- <html:li style="list-style-type: &quot;(a) &quot;">
-        By Poincaré duality, we have that <fr:tex display="inline"><![CDATA[\operatorname {H}_2(U,\mathbb {Z})=\operatorname {H}_\mathrm {c}^2(U,\mathbb {Z})]]></fr:tex>.
-        The long exact sequence of cohomology of <fr:tex display="inline"><![CDATA[(S,C)]]></fr:tex> gives an exact sequence
-        <fr:tex display="block"><![CDATA[           \operatorname {H}^1(S,\mathbb {Z})           \to  \operatorname {H}^1(C,\mathbb {Z})           \to  \operatorname {H}_2^{\log }(U,\mathbb {Z})           \to  0.         ]]></fr:tex>
-      </html:li>
-
-
-      
- <html:li style="list-style-type: &quot;(b) &quot;">
-        Let <fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(C)]]></fr:tex> be the quotient of <fr:tex display="inline"><![CDATA[\operatorname {Pic}^0(C)]]></fr:tex> by its unipotent radical.
-        We know that <fr:tex display="inline"><![CDATA[\operatorname {H}^1(C,\mathbb {Z})=T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(C))]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {H}^1(S,\mathbb {Z})=T_\mathbb {Z}(\operatorname {Pic}^0(S))]]></fr:tex>.
-        We thus have a map
-        <fr:tex display="block"><![CDATA[           \operatorname {H}_2^{\log }(U,\mathbb {Z})           \to  T_\mathbb {Z}(H_\mathrm {m}^1(C)/\operatorname {Pic}^0(S))         ]]></fr:tex>
-        which is an isomorphism modulo finite groups.
-      </html:li>
-
-
-      
- <html:li style="list-style-type: &quot;(c) &quot;">
-        The map
-
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>473</fr:anchor><fr:addr type="user">hodge-theory-iii-10.4.2.1</fr:addr><fr:route>hodge-theory-iii-10.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.4.2.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\operatorname {H}_2^{\log }(U,\mathbb {Z})/\mathrm {torsion})(-1)             \to  T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(C)/\operatorname {Pic}^0(S))           \tag{10.4.2.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>472</fr:anchor><fr:addr type="user">hodge-theory-iii-10.4.2.1</fr:addr><fr:route>hodge-theory-iii-10.4.2.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>10.4.2.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex display="block"><![CDATA[             (\operatorname {H}_2^{\log }(U,\mathbb {Z})/\mathrm {torsion})(-1)             \to  T_\mathbb {Z}(\operatorname {H}_\mathrm {m}^1(C)/\operatorname {Pic}^0(S))           \tag{10.4.2.1}           ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
 
         induced from (b) is a morphism of mixed Hodge structures (and an isomorphism modulo finite groups).
       </html:li>
