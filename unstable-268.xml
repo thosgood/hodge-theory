@@ -2,17 +2,19 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3339</fr:anchor>
+    <fr:anchor>3341</fr:anchor>
     <fr:addr type="machine">#268</fr:addr>
     <fr:route>unstable-268.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    Indeed, we have a commutative diagram
-    <fr:tex display="block"><![CDATA[       \begin {CD}         \operatorname {Ker}(\alpha ) @>>> \operatorname {Pic}^\natural (X)^0 @>>> \operatorname {Pic}^0(\overline {X})       \\@AAA @AAA @AAA       \\\operatorname {H}^1(X,\mathbb {Z}) @>>> \operatorname {Lie}\operatorname {Pic}^\natural (X) @>>> \operatorname {Lie}\operatorname {Pic}(\overline {X})       \end {CD}     ]]></fr:tex>
-    and we then apply <fr:ref addr="hodge-theory-iii-10.1.9" href="hodge-theory-iii-10.1.9.xml" taxon="Remark" number="10.1.9" />.
-  </fr:mainmatter>
+        <fr:p>Let <fr:tex display="inline"><![CDATA[\psi _i\colon  V_\mathbb {C}\otimes  W_\mathbb {C}\to \mathbb {C}]]></fr:tex> be bilinear maps, with <fr:tex display="inline"><![CDATA[\psi =\psi _1-\psi _2]]></fr:tex> taking values in <fr:tex display="inline"><![CDATA[\mathbb {Z}(1)=2\pi  i\mathbb {Z}]]></fr:tex> on <fr:tex display="inline"><![CDATA[V_\mathbb {Z}\otimes  W_\mathbb {Z}]]></fr:tex>.
+          Let <fr:tex display="inline"><![CDATA[P(\psi _1,\psi _2)]]></fr:tex> be the following biextension of <fr:tex display="inline"><![CDATA[[V_\mathbb {Z}\to  V_\mathbb {C}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[W_\mathbb {Z}\to  W_\mathbb {C}]]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>: the trivial biextension of <fr:tex display="inline"><![CDATA[V_\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {C}]]></fr:tex> by {<fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>}, endowed with the trivialisations <fr:tex display="inline"><![CDATA[\varphi _i=\exp \psi _i\colon  V_\mathbb {Z}\otimes  W_\mathbb {C}\to \mathbb {G}_\mathrm {m}]]></fr:tex> for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>.
+          By <fr:ref addr="hodge-theory-iii-10.2.3.2-an" href="hodge-theory-iii-10.2.3.2-an.xml" taxon="Equation" number="10.2.3.2(an)" />, every biextension is of this form;
+          by <fr:ref addr="hodge-theory-iii-10.2.3.1-an" href="hodge-theory-iii-10.2.3.1-an.xml" taxon="Equation" number="10.2.3.1(an)" />, <fr:tex display="inline"><![CDATA[P(\psi _1,\psi _2)\simeq  P(\psi '_1,\psi '_2)]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[\psi '_1-\psi '_2=\psi _1-\psi _2]]></fr:tex>.
+          The <fr:tex display="inline"><![CDATA[P(\psi ,0)]]></fr:tex> thus represent each biextension exactly once.</fr:p>
+      </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -22,23 +24,30 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3340</fr:anchor>
-            <fr:addr type="user">hodge-theory-iii-10.3.13</fr:addr>
-            <fr:route>hodge-theory-iii-10.3.13.xml</fr:route>
-            <fr:taxon>Corollary</fr:taxon>
+            <fr:anchor>3342</fr:anchor>
+            <fr:addr type="user">hodge-theory-iii-10.2.3.4</fr:addr>
+            <fr:route>hodge-theory-iii-10.2.3.4.xml</fr:route>
+            <fr:taxon>Lemma</fr:taxon>
             <fr:authors />
-            <fr:number>10.3.13</fr:number>
+            <fr:number>10.2.3.4</fr:number>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p><fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(X)(1)^\natural ]]></fr:tex> is the extension
-    <fr:tex display="block"><![CDATA[       \operatorname {Ker}(\alpha )       \to  \operatorname {Pic}^\natural (X)^0     ]]></fr:tex>
-    of <fr:tex display="inline"><![CDATA[\operatorname {H}_\mathrm {m}^1(X)(1)]]></fr:tex> induced by <fr:ref addr="hodge-theory-iii-10.3.10.1" href="hodge-theory-iii-10.3.10.1.xml" taxon="Equation" number="10.3.10.1" />.</fr:p>
+          <fr:mainmatter><fr:p><html:ol xmlns:html="http://www.w3.org/1999/xhtml">
+          
+ <html:li style="list-style-type: &quot;(a) &quot;"><fr:tex display="inline"><![CDATA[\operatorname {Biext}^0(V_\mathbb {C}{/}V_\mathbb {Z},W_\mathbb {C}{/}W_\mathbb {Z};\mathbb {G}_\mathrm {m})=0]]></fr:tex></html:li>
+
+          
+ <html:li style="list-style-type: &quot;(b) &quot;"><fr:tex display="inline"><![CDATA[\operatorname {Biext}^1(V_\mathbb {C}{/}V_\mathbb {Z},W_\mathbb {C}{/}W_\mathbb {Z};\mathbb {G}_\mathrm {m})=\operatorname {Hom}(V_\mathbb {Z}\otimes  W_\mathbb {Z},\mathbb {Z}(1))]]></fr:tex>.</html:li>
+
+        </html:ol></fr:p>
   
     
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2026</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
-    Indeed, we have a commutative diagram
-    <fr:tex display="block"><![CDATA[       \begin {CD}         \operatorname {Ker}(\alpha ) @>>> \operatorname {Pic}^\natural (X)^0 @>>> \operatorname {Pic}^0(\overline {X})       \\@AAA @AAA @AAA       \\\operatorname {H}^1(X,\mathbb {Z}) @>>> \operatorname {Lie}\operatorname {Pic}^\natural (X) @>>> \operatorname {Lie}\operatorname {Pic}(\overline {X})       \end {CD}     ]]></fr:tex>
-    and we then apply <fr:ref addr="hodge-theory-iii-10.1.9" href="hodge-theory-iii-10.1.9.xml" taxon="Remark" number="10.1.9" />.
-  </fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2038</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter>
+        <fr:p>Let <fr:tex display="inline"><![CDATA[\psi _i\colon  V_\mathbb {C}\otimes  W_\mathbb {C}\to \mathbb {C}]]></fr:tex> be bilinear maps, with <fr:tex display="inline"><![CDATA[\psi =\psi _1-\psi _2]]></fr:tex> taking values in <fr:tex display="inline"><![CDATA[\mathbb {Z}(1)=2\pi  i\mathbb {Z}]]></fr:tex> on <fr:tex display="inline"><![CDATA[V_\mathbb {Z}\otimes  W_\mathbb {Z}]]></fr:tex>.
+          Let <fr:tex display="inline"><![CDATA[P(\psi _1,\psi _2)]]></fr:tex> be the following biextension of <fr:tex display="inline"><![CDATA[[V_\mathbb {Z}\to  V_\mathbb {C}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[W_\mathbb {Z}\to  W_\mathbb {C}]]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>: the trivial biextension of <fr:tex display="inline"><![CDATA[V_\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_\mathbb {C}]]></fr:tex> by {<fr:tex display="inline"><![CDATA[\mathbb {G}_\mathrm {m}]]></fr:tex>}, endowed with the trivialisations <fr:tex display="inline"><![CDATA[\varphi _i=\exp \psi _i\colon  V_\mathbb {Z}\otimes  W_\mathbb {C}\to \mathbb {G}_\mathrm {m}]]></fr:tex> for <fr:tex display="inline"><![CDATA[i=1,2]]></fr:tex>.
+          By <fr:ref addr="hodge-theory-iii-10.2.3.2-an" href="hodge-theory-iii-10.2.3.2-an.xml" taxon="Equation" number="10.2.3.2(an)" />, every biextension is of this form;
+          by <fr:ref addr="hodge-theory-iii-10.2.3.1-an" href="hodge-theory-iii-10.2.3.1-an.xml" taxon="Equation" number="10.2.3.1(an)" />, <fr:tex display="inline"><![CDATA[P(\psi _1,\psi _2)\simeq  P(\psi '_1,\psi '_2)]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[\psi '_1-\psi '_2=\psi _1-\psi _2]]></fr:tex>.
+          The <fr:tex display="inline"><![CDATA[P(\psi ,0)]]></fr:tex> thus represent each biextension exactly once.</fr:p>
+      </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
           <fr:backmatter />
