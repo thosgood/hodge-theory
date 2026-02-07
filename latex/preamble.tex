@@ -172,6 +172,9 @@
 
 
 %% Upright environments
+\newenvironment{chunk}[2][]%
+  {\begin{inenv}[#1]{#2}{}{}}%
+  {\end{inenv}}
 \newenvironment{definition}[2][]%
   {\begin{inenv}[#1]{#2}{Definition}{}}%
   {\end{inenv}}

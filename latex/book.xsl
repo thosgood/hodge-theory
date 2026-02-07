@@ -35,11 +35,11 @@
     <xsl:text>}</xsl:text>
   </xsl:template>
 
-  <xsl:template match="/f:tree/f:mainmatter/f:tree/f:mainmatter/f:tree/f:mainmatter/f:tree[not(f:frontmatter/f:taxon)]/f:frontmatter/f:title">
+  <!-- <xsl:template match="/f:tree/f:mainmatter/f:tree/f:mainmatter/f:tree/f:mainmatter/f:tree[not(f:frontmatter/f:taxon)]/f:frontmatter/f:title">
     <xsl:text>\subsection{</xsl:text>
     <xsl:apply-templates />
     <xsl:text>}</xsl:text>
-  </xsl:template>
+  </xsl:template> -->
 
   <xsl:template match="f:tree[not(f:frontmatter/f:taxon)]">
     <xsl:apply-templates select="f:frontmatter/f:title" />
