@@ -1,0 +1,88 @@
+% Choose between print and web versions
+\def\mode{WebMode}
+\def\WebMode{%
+  \documentclass[a4paper,oneside,fleqn]{book}
+  \usepackage{geometry}
+}
+\def\PrintMode{%
+  \documentclass[twoside,fleqn]{book}
+  \usepackage[paperwidth=15.6cm,paperheight=23.4cm]{geometry}
+}
+\csname\mode\endcsname
+
+% Preamble
+\usepackage{ifthen} % some settings in the preamble depend on PrintMode vs WebMode
+\input{preamble}
+
+% Design
+\usepackage{Baskervaldx}
+
+% Bibliography
+\addbibresource{hodge-theory-bibliography.bib}
+
+% Metadata
+\title{Hodge Theory I, II, and III}
+\author{Pierre Deligne}
+\date{1970--1974}
+
+% Document
+\begin{document}
+
+\frontmatter
+\pagestyle{plain}
+\maketitle
+
+\begin{abstract}
+  This is an English translation of \textbf{P. Deligne}'s three papers on Hodge theory:
+
+  \begin{itemize}
+    \item
+      "Théorie de Hodge I",
+      \emph{Actes du Congrès intern. math.} \textbf{1} (1970) pp. 425–430.
+      \\\url{publications.ias.edu/node/359}
+    
+    \item
+      "Théorie de Hodge II",
+      \emph{Pub. Math. de l'IHÉS} \textbf{40} (1971) pp. 5–58.
+      \\\url{publications.ias.edu/node/361}
+    
+    \item
+      "Théorie de Hodge III",
+      \emph{Pub. Math. de l'IHÉS} \textbf{44} (1974) pp. 5–77.
+      \\\url{publications.ias.edu/node/373}
+    
+  \end{itemize}
+
+
+  The translator (\href{https://thosgood.com}{Tim Hosgood}) takes full responsibility for any errors introduced, and claims no rights to any of the mathematical content herein.
+  Any notes by the translator are in italics and prefixed with "[Trans.]".
+  
+  You can view the entire source code of this translation (and contribute or submit corrections) in the GitHub repository \url{github.com/thosgood/hodge-theory/}.
+  Corrections and comments welcome.
+\end{abstract}
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\mainmatter
+\pagestyle{fancy}
+
+% Hodge Theory I
+\setcounter{chapter}{0}
+\renewcommand\thepart{\Roman{part}}
+\include{hodge-theory-i}
+
+% Hodge Theory II
+\setcounter{chapter}{-1}
+\include{hodge-theory-ii}
+
+% Hodge Theory III
+\include{hodge-theory-iii}
+
+% Bibliography
+\backmatter
+\nocite{*}
+\pagestyle{plain}
+\printbibliography[heading=bibintoc,title=Bibliography]
+
+\end{document}

@@ -1,4 +1,4 @@
-name: 🌲 Forester
+name: 🌲📄 Forester and PDF
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   forester:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -44,6 +44,23 @@ jobs:
 
       - name: Build forest
         run: opam exec -- forester build forest.toml
+
+      - name: Generate LaTeX files
+        run: |
+          sudo apt install xsltproc
+          cd latex
+          ./buildtex.sh
+          cd ..
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: latex
+
+      - name: Move PDF
+        run:
+          mv latex/main.pdf output/hodge-theory.pdf
 
       - name: Deploy to build branch
         uses: JamesIves/github-pages-deploy-action@3.6.2

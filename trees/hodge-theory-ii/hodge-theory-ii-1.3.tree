@@ -518,13 +518,13 @@
           \ar[uu]
           \ar[ur]
           \ar[rrr,near start,swap,"(3)"]
-          \ar[white,urr,near end,swap,"\color{black}(4)"]
         &&& B^{p+1}/W^{p+2}
           \ar[d]
       \\W^{p+1}/W^{p+2}
           \ar[u]
           \ar[rrr,near start,swap,"(1)"]
-          \ar[white,urrr,"\color{black}(2)"description]
+          \ar[urrr,phantom,"(2)"description]
+          \ar[uuurrr,phantom,"(4)"description]
         &&& W^{p+1}/W^{p+2}
       }
 

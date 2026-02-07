@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3624</fr:anchor><fr:addr
+type="user">hodge-theory-i</fr:addr><fr:route>hodge-theory-i.xml</fr:route><fr:title
+text="Hodge Theory I">Hodge Theory I</fr:title><fr:taxon>Volume</fr:taxon><fr:authors /><fr:number>I</fr:number></fr:frontmatter><fr:mainmatter><fr:p>P. Deligne.
+  "Théorie de Hodge I".
+  <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
+  <fr:link
+type="external"
+href="https://publications.ias.edu/node/359">publications.ias.edu/node/359</fr:link></fr:p><fr:p>We intend to give a heuristic dictionary between statements in <fr:tex
+display="inline"><![CDATA[l]]></fr:tex>-adic cohomology and statements in Hodge theory.
+  This dictionary has as its most notable sources <fr:link
+type="local"
+href="S1960.xml"
+addr="S1960"
+title="Analogues kählériens de certaines conjectures de Weil">[S1960]</fr:link> and the conjectural theory of Grothendieck motives <fr:link
+type="local"
+href="D1969.xml"
+addr="D1969"
+title="Motifs des variétés algébriques">[D1969]</fr:link>.
+  Up until this point, it has mainly served to formulate conjectures in Hodge theory, and it has sometimes even suggested a proof.</fr:p><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:addr
+type="user">hodge-theory-i-1</fr:addr><fr:route>hodge-theory-i-1.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>1</fr:number></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>365</fr:anchor><fr:addr
+type="user">hodge-theory-i-definition-1.1</fr:addr><fr:route>hodge-theory-i-definition-1.1.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:authors /><fr:number>1.1</fr:number></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>mixed Hodge structure</fr:em> <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> consists of
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+        a <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[H_\mathbb {Z}]]></fr:tex> of finite type (the "<fr:em>integer lattice</fr:em>");
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+        a finite increasing filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H_\mathbb {Q}=H_\mathbb {Z}\otimes \mathbb {Q}]]></fr:tex> (the "<fr:em>weight filtration</fr:em>");
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(c) &quot;">
+        a finite decreasing filtration <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H_\mathbb {C}=H_\mathbb {Z}\otimes \mathbb {C}]]></fr:tex> (the "<fr:em>Hodge filtration</fr:em>").
+      </html:li>
+
+    </html:ol>
+
+
+    This data is subject to the following condition:
+    there exists a (unique) bigradation of <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_W(H_\mathbb {C})]]></fr:tex> by subspaces <fr:tex
+display="inline"><![CDATA[H^{p,q}]]></fr:tex> such that
+
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot;(i) &quot;">
+        <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_W^n(H_\mathbb {C})=\bigoplus _{p+q=n}H^{p,q}]]></fr:tex>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(ii) &quot;">
+        the filtration <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> induces on <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_W(H_\mathbb {C})]]></fr:tex> the filtration
+        <fr:tex
+display="block"><![CDATA[           \operatorname {Gr}_W(F)^p           = \bigoplus _{p'\geq  p} H^{p',q'}         ]]></fr:tex>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;(iii) &quot;">
+        <fr:tex
+display="inline"><![CDATA[\overline {H^{pq}}=H^{qp}]]></fr:tex>.
+      </html:li>
+
+    </html:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>A <fr:em>morphism</fr:em> <fr:tex
+display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is a homomorphism <fr:tex
+display="inline"><![CDATA[f_\mathbb {Z}\colon  H_\mathbb {Z}\to  H'_\mathbb {Z}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f_\mathbb {Q}\colon  H_\mathbb {Q}\to  H'_\mathbb {Q}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f_\mathbb {C}\colon  H_\mathbb {C}\to  H'_\mathbb {C}]]></fr:tex> are compatible with the filtrations <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> (respectively).</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>366</fr:anchor><fr:addr
+type="user">hodge-theory-i-1.2</fr:addr><fr:route>hodge-theory-i-1.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>1.2</fr:number></fr:frontmatter><fr:mainmatter><fr:p>The <fr:em>Hodge numbers</fr:em> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> are the integers
+    <fr:tex
+display="block"><![CDATA[       h^{pq} = \dim  H^{pq} = h^{qp}.     \tag{1.2}     ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We say that <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is pure <fr:em>of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:em> if <fr:tex
+display="inline"><![CDATA[h^{pq}=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[p+q\neq  n]]></fr:tex> (i.e. if <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_W^i(H)=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i\neq  n]]></fr:tex>).
+  We also say that <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is a <fr:em>Hodge structure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:em>.</fr:p><fr:p>The <fr:em>Tate Hodge structure</fr:em> <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(1)]]></fr:tex> is the Hodge structure of weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>, of pure degree <fr:tex
+display="inline"><![CDATA[(-1,-1)]]></fr:tex>, for which <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(1)_\mathbb {C}=\mathbb {C}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(1)_\mathbb {Z} = 2\pi  i\mathbb {Z} = \operatorname {Ker}(\exp \colon \mathbb {C}\to \mathbb {C}^*)\subset \mathbb {C}]]></fr:tex>.
+  We set <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(n)=\mathbb {Z}(1)^{\otimes  n}]]></fr:tex>.</fr:p><fr:p>We can show that mixed Hodge structures form an abelian category.
+  If <fr:tex
+display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is a morphism, then <fr:tex
+display="inline"><![CDATA[f_\mathbb {Q}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f_\mathbb {C}]]></fr:tex> are strictly compatible with the filtrations <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> (cf. <fr:link
+type="local"
+href="hodge-theory-ii-2.3.5.xml"
+addr="hodge-theory-ii-2.3.5">[Hodge Theory II, 2.3.5]</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>367</fr:anchor><fr:addr
+type="user">hodge-theory-i-2</fr:addr><fr:route>hodge-theory-i-2.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>2</fr:number></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a normal integral ring of finite type over <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>, with field of fractions <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> an algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>.
+  
+  Let <fr:tex
+display="inline"><![CDATA[K_\mathrm {nr}]]></fr:tex> be the largest sub-extension of <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> that is unramified at each prime ideal of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.
+  We know that, or we set,
+  <fr:tex
+display="block"><![CDATA[     \pi _1(\operatorname {Spec}(A),\overline {K})     = \operatorname {Gal}(K_\mathrm {nr}/K).   ]]></fr:tex></fr:p><fr:p>For every closed point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, defined by some maximal ideal <fr:tex
+display="inline"><![CDATA[m_x]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, the residue field <fr:tex
+display="inline"><![CDATA[k_x=A/m_x]]></fr:tex> is finite;
+  the point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> defines a conjugation class of "Frobenius substitutions" <fr:tex
+display="inline"><![CDATA[\varphi _x\in \pi _1(\operatorname {Spec}(A),\overline {K})]]></fr:tex>.
+  We set <fr:tex
+display="inline"><![CDATA[q_x=\#k_x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F_x=\varphi _x^{-1}]]></fr:tex>.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> be a field of finite type over the prime field of characteristic <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> be an algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[l]]></fr:tex> be a prime number <fr:tex
+display="inline"><![CDATA[\neq  p]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> be a <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l]]></fr:tex>-module (or a <fr:tex
+display="inline"><![CDATA[\mathbb {Q}_l]]></fr:tex>-module) of finite type endowed with a continuous action <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {K}/K)]]></fr:tex>.
+  We will still suppose in what follows that there exists an <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> as above, with <fr:tex
+display="inline"><![CDATA[l]]></fr:tex> invertible in <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> factors through <fr:tex
+display="inline"><![CDATA[\pi _1(\operatorname {Spec}(A),\overline {K}) = \operatorname {Gal}(K_\mathrm {nr}/K)]]></fr:tex>.
+  We say that <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is <fr:em>pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:em> if, for every closed point <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> of an non-empty open subset of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, the eigenvalues <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[F_x]]></fr:tex> acting on <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> are algebraic integers whose complex conjugates are all of absolute value <fr:tex
+display="inline"><![CDATA[|\alpha |=q_x^{n/2}]]></fr:tex>.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>368</fr:anchor><fr:addr
+type="user">hodge-theory-i-principle-2.1</fr:addr><fr:route>hodge-theory-i-principle-2.1.xml</fr:route><fr:taxon>Principle</fr:taxon><fr:authors /><fr:number>2.1</fr:number></fr:frontmatter><fr:mainmatter><fr:p>If the Galois module <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[H_{\mathbb {Q}_l}=H\otimes _{\mathbb {Z}_l}\mathbb {Q}_l]]></fr:tex> (the "<fr:em>weight filtration</fr:em>") that is Galois invariant and such that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex> is pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can also further suppose that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex> is semi-simple.</fr:p><fr:p>When we have a resolution of singularities we can often give a conjectural definition of <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>, whose validity follows from the Weil conjectures <fr:link
+type="local"
+href="W1949.xml"
+addr="W1949"
+title="Number of solutions of equations in finite fields">[W1949]</fr:link> (cf. <fr:ref
+addr="hodge-theory-i-6"
+href="hodge-theory-i-6.xml"
+number="6" />).</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be the subgroup of <fr:tex
+display="inline"><![CDATA[\overline {K}^*]]></fr:tex> given by the roots of unity.
+  The <fr:em>Tate module</fr:em> <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>, defined by
+  <fr:tex
+display="block"><![CDATA[     \mathbb {Z}_l(1)     = \operatorname {Hom}(\mathbb {Q}_l/\mathbb {Z}_l,\mu )   ]]></fr:tex>
+  is pure of weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>.
+  We set <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(n)=\mathbb {Z}_l(1)^\otimes  n]]></fr:tex>.</fr:p><fr:p>It is trivial that every morphism <fr:tex
+display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is strictly compatible with the weight filtration.</fr:p><fr:p><fr:ref
+addr="hodge-theory-i-principle-2.1"
+href="hodge-theory-i-principle-2.1.xml"
+taxon="Principle"
+number="2.1" /> agrees with the fact that every extension of <fr:tex
+display="inline"><![CDATA[\mathbb {G}_m]]></fr:tex> ("weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>") by an abelian variety ("weight <fr:tex
+display="inline"><![CDATA[-1>-2]]></fr:tex>") is trivial.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>369</fr:anchor><fr:addr
+type="user">hodge-theory-i-3</fr:addr><fr:route>hodge-theory-i-3.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>3</fr:number></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>370</fr:anchor><fr:addr
+type="user">hodge-theory-i-3-translation</fr:addr><fr:route>hodge-theory-i-3-translation.xml</fr:route><fr:taxon>Translation</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>The Galois modules that appear in <fr:tex
+display="inline"><![CDATA[l]]></fr:tex>-adic cohomology have, as analogues, over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, mixed Hodge structures.
+    We further have the dictionary:</fr:p><html:table
+xmlns:html="http://www.w3.org/1999/xhtml">
+    <html:tr>
+      <html:td>pure module of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></html:td>
+      <html:td>Hodge structure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td>weight filtration</html:td>
+      <html:td>weight filtration</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td>Galois-compatible homomorphism</html:td>
+      <html:td>morphism</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td>Tate module <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex></html:td>
+      <html:td>Tate Hodge structure <fr:tex
+display="inline"><![CDATA[\mathbb {Z}(1)]]></fr:tex></html:td>
+    </html:tr>
+  </html:table></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>371</fr:anchor><fr:addr
+type="user">hodge-theory-i-4</fr:addr><fr:route>hodge-theory-i-4.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>4</fr:number></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a complex algebraic variety (i.e. a scheme of finite type over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex> that we assume to be separated).
+  Then there exists a subfield <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, of finite type over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, such that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> can be defined over <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> (i.e. it comes from an extension of scalars of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex> applied to a <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>-scheme <fr:tex
+display="inline"><![CDATA[X']]></fr:tex>).
+  Let <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> be the algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>.
+  The Galois group <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {K}/K)]]></fr:tex> then acts on the <fr:tex
+display="inline"><![CDATA[l]]></fr:tex>-adic cohomology groups <fr:tex
+display="inline"><![CDATA[H^\bullet (X,\mathbb {Z}_l)]]></fr:tex>;
+  we have
+  <fr:tex
+display="block"><![CDATA[     H^\bullet (X(\mathbb {C}),\mathbb {Z})\otimes \mathbb {Z}_l     = H^\bullet (X,\mathbb {Z}_l)     = H^\bullet (X'_{\overline {K}},\mathbb {Z}_l).   ]]></fr:tex></fr:p><fr:p>By <fr:ref
+addr="hodge-theory-i-3"
+href="hodge-theory-i-3.xml"
+number="3" />, we should expect for the cohomology groups <fr:tex
+display="inline"><![CDATA[H^n(X(\mathbb {C}),\mathbb {Z})]]></fr:tex> to carry natural mixed Hodge structures.
+  This is what we can prove (see [<fr:link
+type="local"
+href="hodge-theory-ii-3.2.5.xml"
+addr="hodge-theory-ii-3.2.5">Hodge Theory II, 3.2.5</fr:link>] in the case where <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is smooth; the proof is algebraic, using classical Hodge theory <fr:link
+type="local"
+href="W1958.xml"
+addr="W1958"
+title="Introduction à L'Étude des Variétés Kählériennes">[W1958]</fr:link>).
+  For <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> projective and smooth, the Weil conjectures imply that <fr:tex
+display="inline"><![CDATA[H^n(X,\mathbb {Z}_l)]]></fr:tex> is pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, while classical Hodge theory endows <fr:tex
+display="inline"><![CDATA[H^n(X,\mathbb {Z})]]></fr:tex> with a Hodge structure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.
+  For every morphism <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex>, and for <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> large enough, <fr:tex
+display="inline"><![CDATA[f^\bullet \colon  H^\bullet (Y,\mathbb {Z}_l)\to  H^\bullet (X,\mathbb {Z}_l)]]></fr:tex> Galois-commutes (by structure transport);
+  similarly, <fr:tex
+display="inline"><![CDATA[f^\bullet \colon  H^\bullet (Y,\mathbb {Z})\to  H^\bullet (X,\mathbb {Z})]]></fr:tex> is a morphism of mixed Hodge structures.
+  For <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> smooth, the cohomology class <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[H^{2n}(X,\mathbb {Z}_l(n))]]></fr:tex> of an algebraic cycle of codimension <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> defined over <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> is Galois invariant, i.e. it defines
+  <fr:tex
+display="block"><![CDATA[     c(Z) \in  \operatorname {Hom}_{\operatorname {Gal}}(\mathbb {Z}_l(-n),H^{2n}(X,\mathbb {Z}_l)).   ]]></fr:tex>
+  Similarly, the cohomology class <fr:tex
+display="inline"><![CDATA[c(Z)\in  H^{2n}(X(\mathbb {C}),\mathbb {Z})]]></fr:tex> is of pure degree <fr:tex
+display="inline"><![CDATA[(n,n)]]></fr:tex>, i.e. it corresponds to
+  <fr:tex
+display="block"><![CDATA[     c(Z) \in  \operatorname {Hom}_{\mathrm {H.M.}}(\mathbb {Z}(-n),H^{2n}(X(\mathbb {C}),\mathbb {Z})).   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>372</fr:anchor><fr:addr
+type="user">hodge-theory-i-5</fr:addr><fr:route>hodge-theory-i-5.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>5</fr:number></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is a Galois-compatible morphism between <fr:tex
+display="inline"><![CDATA[\mathbb {Q}_l]]></fr:tex>-vector spaces of different weights, then <fr:tex
+display="inline"><![CDATA[f=0]]></fr:tex>.
+  Similarly, if <fr:tex
+display="inline"><![CDATA[f\colon  H\to  H']]></fr:tex> is a morphism of pure mixed Hodge structures of different weights, then <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is torsion.
+  A more useful remark is</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>373</fr:anchor><fr:addr
+type="user">hodge-theory-i-5-scholium</fr:addr><fr:route>hodge-theory-i-5-scholium.xml</fr:route><fr:taxon>Scholium</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H']]></fr:tex> be Hodge structures of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[n']]></fr:tex> (respectively), with <fr:tex
+display="inline"><![CDATA[n>n']]></fr:tex>.
+    Let <fr:tex
+display="inline"><![CDATA[f\colon  H_\mathbb {Q}\to  H'_\mathbb {Q}]]></fr:tex> be a homomorphism such that <fr:tex
+display="inline"><![CDATA[f\colon  H_\mathbb {C}\to  H'_\mathbb {C}]]></fr:tex> respects <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>.
+    Then <fr:tex
+display="inline"><![CDATA[f=0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>374</fr:anchor><fr:addr
+type="user">hodge-theory-i-6</fr:addr><fr:route>hodge-theory-i-6.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>6</fr:number></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a smooth projective variety over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[D=\sum _1^n D_i]]></fr:tex> be a normal crossing divisor in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[D_i]]></fr:tex> all smooth divisors, and let <fr:tex
+display="inline"><![CDATA[j]]></fr:tex> be the inclusion of <fr:tex
+display="inline"><![CDATA[U=X\setminus  D]]></fr:tex> into <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
+  For <fr:tex
+display="inline"><![CDATA[Q\subset [1,n]]]></fr:tex>, we set <fr:tex
+display="inline"><![CDATA[D_q=\bigcap _{i\in  Q}D_i]]></fr:tex>.</fr:p><fr:p>In <fr:tex
+display="inline"><![CDATA[l]]></fr:tex>-adic cohomology, we canonically have
+
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>375</fr:anchor><fr:addr
+type="user">hodge-theory-i-6.1</fr:addr><fr:route>hodge-theory-i-6.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       R^q j_* \mathbb {Z}_l       = \bigoplus _{\#Q=q} \mathbb {Z}_l(-q)_{D_Q}     \tag{6.1}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+  and the Leray spectral sequence for <fr:tex
+display="inline"><![CDATA[j]]></fr:tex> is of the form
+
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>376</fr:anchor><fr:addr
+type="user">hodge-theory-i-6.2</fr:addr><fr:route>hodge-theory-i-6.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       E_2^{pq}       = \bigoplus _{\#Q=q} H^p(D_Q,\mathbb {Q}_l)\otimes \mathbb {Z}_l(-q)       \Rightarrow  H^{p+q}(U,\mathbb {Q}_l).     \tag{6.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+  <fr:em>By the Weil conjectures</fr:em> <fr:link
+type="local"
+href="W1949.xml"
+addr="W1949"
+title="Number of solutions of equations in finite fields">[W1949]</fr:link>, <fr:tex
+display="inline"><![CDATA[H^p(D_Q,\mathbb {Q}_l)]]></fr:tex> is pure of weight <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[E_2^{pq}]]></fr:tex> is pure of weight <fr:tex
+display="inline"><![CDATA[p+2q]]></fr:tex>.
+  As a quotient of a sub-object of <fr:tex
+display="inline"><![CDATA[E_2^{pq}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[E_r^{pq}]]></fr:tex> is also pure of weight <fr:tex
+display="inline"><![CDATA[p+2q]]></fr:tex>.
+  By <fr:ref
+addr="hodge-theory-i-5"
+href="hodge-theory-i-5.xml"
+number="5" />, <fr:tex
+display="inline"><![CDATA[d_r=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[r\geq 3]]></fr:tex>, since the weights <fr:tex
+display="inline"><![CDATA[p+2q]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p+2q-r+2]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[E_r^{pq}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[E_r^{p+q,q-r+1}]]></fr:tex> (respectively) are different.
+  Thus <fr:tex
+display="inline"><![CDATA[E_3^{pq}=E_\infty ^{pq}]]></fr:tex>.
+  Up to renumbering, the weight filtration of <fr:tex
+display="inline"><![CDATA[H^\bullet (U,\mathbb {Q}_l)]]></fr:tex> is the abutment of <fr:ref
+addr="hodge-theory-i-6.2"
+href="hodge-theory-i-6.2.xml"
+taxon="Equation"
+number="6.2" />:
+
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>377</fr:anchor><fr:addr
+type="user">hodge-theory-i-6.3</fr:addr><fr:route>hodge-theory-i-6.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>6.3</fr:number></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       \operatorname {Gr}_n^W(H^k(U,\mathbb {Q}_l))       = E_3^{2k-n,n-k}.     \tag{6.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>378</fr:anchor><fr:addr
+type="user">hodge-theory-i-7</fr:addr><fr:route>hodge-theory-i-7.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>7</fr:number></fr:frontmatter><fr:mainmatter><fr:p>In integer cohomology, for the usual topology, the Leray spectral sequence for <fr:tex
+display="inline"><![CDATA[j]]></fr:tex> is of the form
+
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>379</fr:anchor><fr:addr
+type="user">hodge-theory-i-7.1</fr:addr><fr:route>hodge-theory-i-7.1.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>7.1</fr:number></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       {'E_2}^{pq}       = \bigoplus _{\#Q=q} H^p(D_Q,\mathbb {Z})       \Rightarrow  H^{p+q}(U,\mathbb {Z}).     \tag{7.1}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+  
+  Since each <fr:tex
+display="inline"><![CDATA[D_Q]]></fr:tex> is a non-singular projective variety, <fr:tex
+display="inline"><![CDATA[{'E_2}^{pq}]]></fr:tex> is endowed with a Hodge structure of weight <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.
+  We set <fr:tex
+display="inline"><![CDATA[E_2^{pq}={'E_2}^{pq}\otimes \mathbb {Z}(-q)]]></fr:tex> (a Hodge structure of weight <fr:tex
+display="inline"><![CDATA[p+2q]]></fr:tex>).
+  As an abelian group, <fr:tex
+display="inline"><![CDATA[E_2^{pq}={'E_2}^{pq}]]></fr:tex>;
+  it is interesting to consider <fr:ref
+addr="hodge-theory-i-7.1"
+href="hodge-theory-i-7.1.xml"
+taxon="Equation"
+number="7.1" /> as a spectral sequence with initial page <fr:tex
+display="inline"><![CDATA[E_2^{pq}]]></fr:tex>.
+  By <fr:ref
+addr="hodge-theory-i-3"
+href="hodge-theory-i-3.xml"
+number="3" />, we should expect for <fr:tex
+display="inline"><![CDATA[d_2\colon  E_2^{pq}\to  E_2^{p+2,q-1}]]></fr:tex> to be a morphism of Hodge structures.
+  We prove this by thinking of <fr:tex
+display="inline"><![CDATA[d_2]]></fr:tex> as a Gysin morphism.
+  Then <fr:tex
+display="inline"><![CDATA[E_3^{pq}]]></fr:tex> is endowed with a Hodge structure of weight <fr:tex
+display="inline"><![CDATA[p+2q]]></fr:tex>.
+  By <fr:ref
+addr="hodge-theory-i-3"
+href="hodge-theory-i-3.xml"
+number="3" />, we expect, <fr:em>modulo torsion</fr:em>, for the spectral sequence (<fr:em>[Trans.] The original refers to (6.4) instead of (6.2), but this seems to be a typo.</fr:em>) <fr:ref
+addr="hodge-theory-i-6.2"
+href="hodge-theory-i-6.2.xml"
+taxon="Equation"
+number="6.2" /> to degenerate at the <fr:tex
+display="inline"><![CDATA[E_3]]></fr:tex> page (i.e. <fr:tex
+display="inline"><![CDATA[E_3=E_\infty ]]></fr:tex>), and for the vanishing of the <fr:tex
+display="inline"><![CDATA[d_r]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[r\geq 3]]></fr:tex>) to be an application of <fr:ref
+addr="hodge-theory-i-5"
+href="hodge-theory-i-5.xml"
+number="5" />.
+  This programme was successfully completed in <fr:link
+type="local"
+href="hodge-theory-ii-3.2.xml"
+addr="hodge-theory-ii-3.2"
+title="Hodge Theory II › Hodge theory of non-singular algebraic varieties › Mixed Hodge theory">[Hodge Theory II, 3.2]</fr:link>.
+  There, we <fr:em>define</fr:em> the weight filtration of <fr:tex
+display="inline"><![CDATA[H^\bullet (U,\mathbb {Q})]]></fr:tex> as the abutment of <fr:ref
+addr="hodge-theory-i-7.1"
+href="hodge-theory-i-7.1.xml"
+taxon="Equation"
+number="7.1" />, up to renumbering <fr:ref
+addr="hodge-theory-i-6.3"
+href="hodge-theory-i-6.3.xml"
+taxon="Equation"
+number="6.3" />.</fr:p><fr:p>In fact, to endow the cohomology groups <fr:tex
+display="inline"><![CDATA[H^\bullet ]]></fr:tex> with a mixed Hodge structure, the key point has always been, up until now, to find a spectral sequence <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> abutting to <fr:tex
+display="inline"><![CDATA[H^\bullet ]]></fr:tex> such that the <fr:tex
+display="inline"><![CDATA[l]]></fr:tex>-adic analogue of <fr:tex
+display="inline"><![CDATA[E_2^{pq}]]></fr:tex> be conjecturally pure (of weight <fr:tex
+display="inline"><![CDATA[p+2q]]></fr:tex>);
+  <fr:tex
+display="inline"><![CDATA[E_2^{pq}]]></fr:tex> should then carry a natural Hodge structure (of weight <fr:tex
+display="inline"><![CDATA[p+2q]]></fr:tex>), and the filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> is then the abutment of <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>380</fr:anchor><fr:addr
+type="user">hodge-theory-i-8</fr:addr><fr:route>hodge-theory-i-8.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>8</fr:number></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex> be the spectrum of a Henselian discrete valuation ring (a <fr:em>Henselian trait</fr:em>) with field of fractions <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, and residue field <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> that is of finite type over the prime field of characteristic <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.
+  Let <fr:tex
+display="inline"><![CDATA[\overline {K}]]></fr:tex> be an algebraic closure of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> be a vector space of finite dimension over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}_l]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[l\neq  p]]></fr:tex>) on which <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {K}/K)]]></fr:tex> acts continuously.
+  By Grothendieck, we know ([<fr:link
+type="local"
+href="ST1968.xml"
+addr="ST1968"
+title="Good reduction of abelian varieties">ST1968</fr:link>, Appendix]) that a subgroup of finite index of the inertia group <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> acts unipotently.
+  By replacing <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> with a finite extension, we arrive to the case where the action of all of <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is unipotent (the <fr:em>semi-stable</fr:em>case);
+  it then factors as the largest pro-<fr:tex
+display="inline"><![CDATA[l]]></fr:tex>-group <fr:tex
+display="inline"><![CDATA[I_l]]></fr:tex> that is a quotient of <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>, and canonically isomorphic to <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:addr
+type="user">hodge-theory-i-principle-8.1</fr:addr><fr:route>hodge-theory-i-principle-8.1.xml</fr:route><fr:taxon>Principle</fr:taxon><fr:authors /><fr:number>8.1</fr:number></fr:frontmatter><fr:mainmatter><fr:p>In the semi-stable case, if the Galois module <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> "comes from algebraic geometry", then there exists a (unique) increasing filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> (the "<fr:em>weight filtration</fr:em>") such that <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> acts trivially on <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex>, and such that <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H)]]></fr:tex>, as a Galois module under <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {k}/k)\simeq \operatorname {Gal}(\overline {K}/K)/I]]></fr:tex>, is pure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can compare this with <fr:ref
+addr="hodge-theory-i-principle-2.1"
+href="hodge-theory-i-principle-2.1.xml"
+taxon="Principle"
+number="2.1" /> and with the appendix of <fr:ref
+addr="ST1968"
+href="ST1968.xml"
+taxon="Reference" />.</fr:p><fr:p>If we have a resolution of singularities, then we can sometimes give a conjectural definition of <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> whose validity follows from the Weil conjectures.
+  With the help of the resolution and of Weil, it is sometimes easy to show that, in any case, <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> splits into pure Galois modules (under <fr:tex
+display="inline"><![CDATA[\operatorname {Gal}(\overline {k}/k)]]></fr:tex>).</fr:p><fr:p>Suppose that <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is semi-stable.
+  For <fr:tex
+display="inline"><![CDATA[T\in  I_t]]></fr:tex>, we define <fr:tex
+display="inline"><![CDATA[\log  T]]></fr:tex> by the <fr:em>finite</fr:em> sum <fr:tex
+display="inline"><![CDATA[-\sum _{n>0}(\mathrm {Id} -T)^n/n]]></fr:tex>.
+  The map <fr:tex
+display="inline"><![CDATA[(T,x)\mapsto \log  T(x)]]></fr:tex> can be identified with a homomorphism
+
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>382</fr:anchor><fr:addr
+type="user">hodge-theory-i-8.2</fr:addr><fr:route>hodge-theory-i-8.2.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.2</fr:number></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       M\colon  \mathbb {Z}_l(1)\otimes  H \to  H.     \tag{8.2}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+  Since <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex> is of weight <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>, we necessarily have (cf. <fr:ref
+addr="hodge-theory-i-5"
+href="hodge-theory-i-5.xml"
+number="5" />)
+
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>383</fr:anchor><fr:addr
+type="user">hodge-theory-i-8.3</fr:addr><fr:route>hodge-theory-i-8.3.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.3</fr:number></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       M(\mathbb {Z}_l(1)\otimes  W_n(H)) \subset  W_{n-2}(H),     \tag{8.3}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>
+
+  and <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> induces
+
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:addr
+type="user">hodge-theory-i-8.4</fr:addr><fr:route>hodge-theory-i-8.4.xml</fr:route><fr:taxon>Equation</fr:taxon><fr:authors /><fr:number>8.4</fr:number></fr:frontmatter><fr:mainmatter><fr:tex
+display="block"><![CDATA[       \operatorname {Gr}(M)\colon  \mathbb {Z}_l(1)\otimes \operatorname {Gr}_n^W(H) \to  \operatorname {Gr}_{n-2}^W(H).     \tag{8.4}     ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree></fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:addr
+type="user">hodge-theory-i-8.5</fr:addr><fr:route>hodge-theory-i-8.5.xml</fr:route><fr:authors /><fr:number>8.5</fr:number></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a non-singular projective variety over an algebraically closed field <fr:tex
+display="inline"><![CDATA[k_0]]></fr:tex>, then we define
+    <fr:tex
+display="block"><![CDATA[       L\colon  \mathbb {Z}_l(-1)\otimes  H^\bullet (X,\mathbb {Z}_l)       \to  H^\bullet (X,\mathbb {Z}_l)     ]]></fr:tex>
+    as being the cup product with the cohomology class of a hyperplane section.
+    We note that there is a formal analogy between <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>;
+    in the same way that <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is defined by an action of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(1)]]></fr:tex>, we can think of <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> as being defined by an action of <fr:tex
+display="inline"><![CDATA[\mathbb {Z}_l(-1)]]></fr:tex>;
+    <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> increases the degree by <fr:tex
+display="inline"><![CDATA[2]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\operatorname {Gr} M]]></fr:tex> <fr:ref
+addr="hodge-theory-i-8.4"
+href="hodge-theory-i-8.4.xml"
+taxon="Equation"
+number="8.4" /> decreases it by <fr:tex
+display="inline"><![CDATA[2]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:addr
+type="user">hodge-theory-i-9</fr:addr><fr:route>hodge-theory-i-9.xml</fr:route><fr:title
+text="" /><fr:authors /><fr:number>9</fr:number></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> be the unit disc, <fr:tex
+display="inline"><![CDATA[D^*=D\setminus \{0\}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>
+  <fr:tex
+display="block"><![CDATA[     \begin {CD}       X @>>> \mathbb {P}^r(\mathbb {C})\times  D     \\@VfVV @VV\mathrm {pr}_2V     \\D @= D     \end {CD}   ]]></fr:tex>
+  a family of projective varieties parameterised by <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> proper, and <fr:tex
+display="inline"><![CDATA[f|D^*]]></fr:tex> smooth.</fr:p><fr:p>Keeping the notation of <fr:ref
+addr="hodge-theory-i-8"
+href="hodge-theory-i-8.xml"
+number="8" />, and recalling that, in the analogy between Henselian traits and small neighbourhoods of <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> in the complex line, we have the following dictionary (note that the spectrum of the ring of germs at <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> of holomorphic functions is a Henselian trait):</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>387</fr:anchor><fr:addr
+type="user">hodge-theory-i-dictionary-9.1</fr:addr><fr:route>hodge-theory-i-dictionary-9.1.xml</fr:route><fr:taxon>Dictionary</fr:taxon><fr:authors /><fr:number>9.1</fr:number></fr:frontmatter><fr:mainmatter><html:table
+xmlns:html="http://www.w3.org/1999/xhtml">
+    <html:tr>
+      <html:td><fr:tex
+display="inline"><![CDATA[D]]></fr:tex></html:td>
+      <html:td><fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td><fr:tex
+display="inline"><![CDATA[D^*]]></fr:tex></html:td>
+      <html:td><fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(K)]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td>a universal covering <fr:tex
+display="inline"><![CDATA[\widetilde {D^*}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[D^*]]></fr:tex></html:td>
+      <html:td><fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(\overline {K})]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td>the fundamental group <fr:tex
+display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex></html:td>
+      <html:td>the inertia group <fr:tex
+display="inline"><![CDATA[I]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td>(with <fr:tex
+display="inline"><![CDATA[\pi _1(D^*)=\mathbb {Z}\simeq \mathbb {Z}(1)_\mathbb {Z}]]></fr:tex>)</html:td>
+      <html:td>(with <fr:tex
+display="inline"><![CDATA[I_l=\mathbb {Z}_l(1)]]></fr:tex>)</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td><fr:tex
+display="inline"><![CDATA[X]]></fr:tex></html:td>
+      <html:td>a projective scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(V)]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td><fr:tex
+display="inline"><![CDATA[X^*=f^{-1}(D^*)]]></fr:tex></html:td>
+      <html:td><fr:tex
+display="inline"><![CDATA[X_K]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td><fr:tex
+display="inline"><![CDATA[\widetilde {X}=X\times _D\widetilde {D^*}]]></fr:tex></html:td>
+      <html:td><fr:tex
+display="inline"><![CDATA[X_{\overline {K}}]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td>the local system <fr:tex
+display="inline"><![CDATA[R^if_*\mathbb {Z}|D^*]]></fr:tex></html:td>
+      <html:td>the Galois module <fr:tex
+display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex></html:td>
+    </html:tr>
+    <html:tr>
+      <html:td><fr:tex
+display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Z})]]></fr:tex></html:td>
+      <html:td><fr:tex
+display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex></html:td>
+    </html:tr>
+  </html:table></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Note that <fr:tex
+display="inline"><![CDATA[\widetilde {X}]]></fr:tex> is homotopically equivalent to each of the fibres <fr:tex
+display="inline"><![CDATA[X_t=f^{-1}(t)]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[t\in  D^*]]></fr:tex>): <fr:tex
+display="inline"><![CDATA[H^i(X_{\overline {K}},\mathbb {Z}_l)]]></fr:tex> is again analogous to <fr:tex
+display="inline"><![CDATA[H^i(X_t,\mathbb {Z})]]></fr:tex>, and the transformation of the monodromy <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> corresponds to the action of <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>.</fr:p><fr:p>Here, again, we know that a subgroup of finite index of <fr:tex
+display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex> acts unipotently on <fr:tex
+display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Q})=H^i(X_t,\mathbb {Q})]]></fr:tex>.
+  We place ourselves in the semi-stable case, where all of <fr:tex
+display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex> acts unipotently (this reduces to replacing <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> by a finite covering), and let <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> be the action of the canonical generator of <fr:tex
+display="inline"><![CDATA[\pi _1(D^*)]]></fr:tex>.</fr:p><fr:p>By <fr:ref
+addr="hodge-theory-i-3"
+href="hodge-theory-i-3.xml"
+number="3" /> and <fr:ref
+addr="hodge-theory-i-8"
+href="hodge-theory-i-8.xml"
+number="8" />, we expect for <fr:tex
+display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Q})\simeq  H^i(X_t,\mathbb {Q})]]></fr:tex> to be endowed with an increasing filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>, for <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H^i(\widetilde {X},\mathbb {Q}))]]></fr:tex> to be endowed with a Hodge structure of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, for <fr:tex
+display="inline"><![CDATA[\log  T(W_n)\subset  W_{n-2}]]></fr:tex>, and for <fr:tex
+display="inline"><![CDATA[\log  T]]></fr:tex> to induce a morphism of Hodge structures
+  <fr:tex
+display="block"><![CDATA[     M_n\colon  \mathbb {Z}(-1)\otimes \operatorname {Gr}_n^W(H^i)     \to  \operatorname {Gr}_{n-2}^W(H^i).   ]]></fr:tex>
+  We would further like for <fr:ref
+addr="hodge-theory-i-8.2"
+href="hodge-theory-i-8.2.xml"
+taxon="Equation"
+number="8.2" />, and not just <fr:ref
+addr="hodge-theory-i-8.3"
+href="hodge-theory-i-8.3.xml"
+taxon="Equation"
+number="8.3" /> and <fr:ref
+addr="hodge-theory-i-8.4"
+href="hodge-theory-i-8.4.xml"
+taxon="Equation"
+number="8.4" />, to have an analogue.</fr:p><fr:p>We have in fact managed to define, for each vector <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> of the tangent space to <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> at <fr:tex
+display="inline"><![CDATA[\{0\}]]></fr:tex>, a mixed Hodge structure <fr:tex
+display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[H^i(\widetilde {X},\mathbb {Z})]]></fr:tex>.
+  The filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> and the Hodge structures on the <fr:tex
+display="inline"><![CDATA[\operatorname {Gr}_n^W(H^i)]]></fr:tex> are independent of <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>, and the dependence on <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> can be expressed simply in terms of <fr:tex
+display="inline"><![CDATA[T]]></fr:tex>.
+  
+  Analogously to <fr:ref
+addr="hodge-theory-i-8.2"
+href="hodge-theory-i-8.2.xml"
+taxon="Equation"
+number="8.2" />, we find that, for any <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\log  T]]></fr:tex> induces a homomorphism of mixed Hodge structures
+  <fr:tex
+display="block"><![CDATA[     M\colon  \mathbb {Z}(1)\otimes  H^i(\widetilde {X},\mathbb {Z})     \to  H^i(\widetilde {X},\mathbb {Z}).   ]]></fr:tex></fr:p><fr:p>Finally, the analogy in <fr:ref
+addr="hodge-theory-i-8.5"
+href="hodge-theory-i-8.5.xml"
+number="8.5" /> is not misleading (but here, the fact that <fr:tex
+display="inline"><![CDATA[f|D^*]]></fr:tex> is assumed to be proper and smooth is probably essential).
+  We can prove that
+  <fr:tex
+display="block"><![CDATA[     (\log  T)^k\colon  \operatorname {Gr}_{n+k}^W(H^n(\widetilde {X},\mathbb {Q}))     \to  \operatorname {Gr}_{n-k}^W(H^n(\widetilde {X},\mathbb {Q}))   ]]></fr:tex>
+  is an isomorphism for all <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> (cf. [<fr:link
+type="local"
+href="W1958.xml"
+addr="W1958"
+title="Introduction à L'Étude des Variétés Kählériennes">W1958</fr:link>, IV 6, Corollary to Theorem 5]).
+  This characterises the filtration <fr:tex
+display="inline"><![CDATA[W]]></fr:tex>.
+  Until now, we have only had an analogue of the positivity theorem of Hodge (cf. [<fr:link
+type="local"
+href="W1958.xml"
+addr="W1958"
+title="Introduction à L'Étude des Variétés Kählériennes">W1958</fr:link>, IV 7, Corollary to Theorem 7]) in very particular cases.
+  We hope that the mixed structures <fr:tex
+display="inline"><![CDATA[\mathscr {H}_u]]></fr:tex> determine the asymptotic behaviour, for <fr:tex
+display="inline"><![CDATA[t\to 0]]></fr:tex>, of the family of pure structures <fr:tex
+display="inline"><![CDATA[H^i(X,\mathbb {Z})]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[t\in  D^*]]></fr:tex>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3625</fr:anchor><fr:addr
+type="user">D1969</fr:addr><fr:route>D1969.xml</fr:route><fr:title
+text="Motifs des variétés algébriques">Motifs des variétés algébriques</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1969</fr:year></fr:date><fr:authors><fr:author>M. Demazure</fr:author></fr:authors><fr:meta
+name="venue"><fr:em>Sém. Bourbaki</fr:em> (1969–70) no. 365</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{D1969,
+  author = {Demazure, M},
+  title = {Motifs des vari\'{e}t\'{e}s alg\'{e}briques},
+  journal = {S\'{e}m. Bourbaki},
+  year = {1969--70},
+  pages = {Talk no.~365},
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3627</fr:anchor><fr:addr
+type="user">ST1968</fr:addr><fr:route>ST1968.xml</fr:route><fr:title
+text="Good reduction of abelian varieties">Good reduction of abelian varieties</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author>J.-P. Serre</fr:author><fr:author>J. Tate</fr:author></fr:authors><fr:meta
+name="venue"><fr:em>Ann. of Math</fr:em> <fr:strong>88</fr:strong> pp. 492–517</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{ST1968,
+  author = {Serre, J-P and Tate, J},
+  title = {Good reduction of abelian varieties},
+  journal = {Ann. of Math.},
+  volume = {88},
+  year = {1968},
+  pages = {392--517},
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3630</fr:anchor><fr:addr
+type="user">S1960</fr:addr><fr:route>S1960.xml</fr:route><fr:title
+text="Analogues kählériens de certaines conjectures de Weil">Analogues kählériens de certaines conjectures de Weil</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1960</fr:year></fr:date><fr:authors><fr:author>J.-P. Serre</fr:author></fr:authors><fr:meta
+name="venue"><fr:em>Ann. of Math</fr:em> <fr:strong>71</fr:strong> pp. 392–294</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{S1960,
+  author = {Serre, J.-P.},
+  title = {Analogues k\"{a}hl\'{e}riens de certaines conjectures de Weil},
+  journal = {Ann. of Math.},
+  volume = {71},
+  year = {1960},
+  pages = {392--394},
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3632</fr:anchor><fr:addr
+type="user">W1958</fr:addr><fr:route>W1958.xml</fr:route><fr:title
+text="Introduction à L'Étude des Variétés Kählériennes">Introduction à L'Étude des Variétés Kählériennes</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1958</fr:year></fr:date><fr:authors><fr:author>A. Weil</fr:author></fr:authors><fr:meta
+name="venue">Hermann <fr:em>Act. Sci. et Ind.</fr:em> <fr:strong>1267</fr:strong></fr:meta><fr:meta
+name="bibtex"><![CDATA[@book{W1958,
+  author = {Weil, A},
+  title = {Introduction \`{a} L'\'{E}tude des Vari\'{e}t\'{e}s K\"{a}hl\'{e}riennes},
+  publisher = {Hermann},
+  year = {1958},
+  series = {Act. Sci. et Ind.},
+  volume = {1267},
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3634</fr:anchor><fr:addr
+type="user">W1949</fr:addr><fr:route>W1949.xml</fr:route><fr:title
+text="Number of solutions of equations in finite fields">Number of solutions of equations in finite fields</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1949</fr:year></fr:date><fr:authors><fr:author>A. Weil</fr:author></fr:authors><fr:meta
+name="venue"><fr:em>Bull. Amer. Math. Soc.</fr:em> <fr:strong>55</fr:strong> pp. 497–508</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{W1949,
+  author = {Weil, A},
+  title = {Number of solutions of equations in finite fields},
+  journal = {Bull. Amer. Math. Soc.},
+  volume = {55},
+  year = {1949},
+  pages = {497--508},
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="true"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3636</fr:anchor><fr:addr
+type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
+text="Deligne's &quot;Hodge Theory I, II, and III&quot;">Deligne's "Hodge Theory I, II, and III"</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:ul><fr:li><fr:strong><fr:em>TO-DO: search for all todo</fr:em></fr:strong></fr:li>
+    <fr:li><fr:strong><fr:em>TO-DO: check PDF output</fr:em></fr:strong></fr:li>
+    <fr:li><fr:strong><fr:em>TO-DO: name all <fr:code>proof</fr:code> trees something like <fr:code>proof-of-hodge-theory-iii-X.Y.Z</fr:code></fr:em></fr:strong></fr:li></fr:ul></fr:p><fr:p>This is an English translation of <fr:strong>P. Deligne</fr:strong>'s three papers on Hodge theory:
+  <fr:ul><fr:li>"Théorie de Hodge I", <fr:em>Actes du Congrès intern. math.</fr:em> <fr:strong>1</fr:strong> (1970) pp. 425–430.
+      <fr:link
+type="external"
+href="https://publications.ias.edu/node/359">[PDF]</fr:link></fr:li>
+    <fr:li>"Théorie de Hodge II", <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>40</fr:strong> (1971) pp. 5–58.
+      <fr:link
+type="external"
+href="https://publications.ias.edu/node/361">[PDF]</fr:link></fr:li>
+    <fr:li>"Théorie de Hodge III", <fr:em>Pub. Math. de l'IHÉS</fr:em> <fr:strong>44</fr:strong> (1974) pp. 5–77.
+      <fr:link
+type="external"
+href="https://publications.ias.edu/node/373">[PDF]</fr:link></fr:li></fr:ul></fr:p><fr:p>The translator (<fr:link
+type="external"
+href="https://thosgood.com">Tim Hosgood</fr:link>) takes full responsibility for any errors introduced, and claims no rights to any of the mathematical content herein.
+  Any notes by the translator are in italics and prefixed with "[Trans.]".</fr:p><fr:p>You can view the entire source code of this translation (and contribute or submit corrections) in the <fr:link
+type="external"
+href="https://github.com/thosgood/hodge-theory">GitHub repository</fr:link>.
+  Corrections and comments welcome.</fr:p><fr:ul><fr:li><fr:link
+type="local"
+href="hodge-theory-i.xml"
+addr="hodge-theory-i"
+title="Hodge Theory I"><fr:strong>Hodge Theory I</fr:strong></fr:link></fr:li>
+
+  <fr:li><fr:link
+type="local"
+href="hodge-theory-ii.xml"
+addr="hodge-theory-ii"
+title="Hodge Theory II"><fr:strong>Hodge Theory II</fr:strong></fr:link>
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-ii-introduction.xml"
+addr="hodge-theory-ii-introduction"
+title="Hodge Theory II › Introduction">Introduction</fr:link>
+      </html:li>
+
+
+      
+ <html:li
+style="list-style-type: &quot;1. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-ii-1.xml"
+addr="hodge-theory-ii-1"
+title="Hodge Theory II › Filtrations">Filtrations</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;1.1. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-1.1.xml"
+addr="hodge-theory-ii-1.1"
+title="Hodge Theory II › Filtrations › Filtered objects">Filtered objects</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.2. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-1.2.xml"
+addr="hodge-theory-ii-1.2"
+title="Hodge Theory II › Filtrations › Opposite filtrations">Opposite filtrations</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.3. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-1.3.xml"
+addr="hodge-theory-ii-1.3"
+title="Hodge Theory II › Filtrations › The two filtrations lemma">The two filtrations lemma</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;1.4. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-1.4.xml"
+addr="hodge-theory-ii-1.4"
+title="Hodge Theory II › Filtrations › Hypercohomology of filtered complexes">Hypercohomology of filtered complexes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;2. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-ii-2.xml"
+addr="hodge-theory-ii-2"
+title="Hodge Theory II › Hodge structures">Hodge structures</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;2.1. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-2.1.xml"
+addr="hodge-theory-ii-2.1"
+title="Hodge Theory II › Hodge structures › Pure structures">Pure structures</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;2.2. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-2.2.xml"
+addr="hodge-theory-ii-2.2"
+title="Hodge Theory II › Hodge structures › Hodge theory">Hodge theory</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;2.3. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-2.3.xml"
+addr="hodge-theory-ii-2.3"
+title="Hodge Theory II › Hodge structures › Mixed structures">Mixed structures</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;3. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-ii-3.xml"
+addr="hodge-theory-ii-3"
+title="Hodge Theory II › Hodge theory of non-singular algebraic varieties">Hodge theory of non-singular algebraic varieties</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;3.1. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-3.1.xml"
+addr="hodge-theory-ii-3.1"
+title="Hodge Theory II › Hodge theory of non-singular algebraic varieties › Logarithmic poles and residues">Logarithmic poles and residues</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;3.2. &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-3.2.xml"
+addr="hodge-theory-ii-3.2"
+title="Hodge Theory II › Hodge theory of non-singular algebraic varieties › Mixed Hodge theory">Mixed Hodge theory</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+      
+ <html:li
+style="list-style-type: &quot;4. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-ii-4.xml"
+addr="hodge-theory-ii-4"
+title="Hodge Theory II › Applications and supplements">Applications and supplements</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;4.1 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-4.1.xml"
+addr="hodge-theory-ii-4.1"
+title="Hodge Theory II › Applications and supplements › The fixed set theorem">The fixed set theorem</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.2 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-4.2.xml"
+addr="hodge-theory-ii-4.2"
+title="Hodge Theory II › Applications and supplements › The semi-simplicity theorem">The semi-simplicity theorem</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.3 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-4.3.xml"
+addr="hodge-theory-ii-4.3"
+title="Hodge Theory II › Applications and supplements › Supplement to [D1968]">Supplement to [D1968]</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;4.4 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-ii-4.4.xml"
+addr="hodge-theory-ii-4.4"
+title="Hodge Theory II › Applications and supplements › Homomorphisms of abelian schemes">Homomorphisms of abelian schemes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:li>
+
+  <fr:li><fr:link
+type="local"
+href="hodge-theory-iii.xml"
+addr="hodge-theory-iii"
+title="Hodge Theory III"><fr:strong>Hodge Theory III</fr:strong></fr:link>
+    
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-iii-introduction.xml"
+addr="hodge-theory-iii-introduction"
+title="Hodge Theory III › Introduction">Introduction</fr:link>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot; &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-iii-terminology-and-notation.xml"
+addr="hodge-theory-iii-terminology-and-notation"
+title="Hodge Theory III › Terminology and notation">Terminology and notation</fr:link>
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;5. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-iii-5.xml"
+addr="hodge-theory-iii-5"
+title="Hodge Theory III › Cohomological descent">Cohomological descent</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;5.1 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-5.1.xml"
+addr="hodge-theory-iii-5.1"
+title="Hodge Theory III › Cohomological descent › Simplicial topological spaces">Simplicial topological spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;5.2 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-5.2.xml"
+addr="hodge-theory-iii-5.2"
+title="Hodge Theory III › Cohomological descent › Cohomology of simplicial topological spaces">Cohomology of simplicial topological spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;5.3 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-5.3.xml"
+addr="hodge-theory-iii-5.3"
+title="Hodge Theory III › Cohomological descent › Cohomological descent">Cohomological descent</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;6. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-iii-6.xml"
+addr="hodge-theory-iii-6"
+title="Hodge Theory III › Examples of simplicial topological spaces">Examples of simplicial topological spaces</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;6.1 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-6.1.xml"
+addr="hodge-theory-iii-6.1"
+title="Hodge Theory III › Examples of simplicial topological spaces › Classifying spaces">Classifying spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.2 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-6.2.xml"
+addr="hodge-theory-iii-6.2"
+title="Hodge Theory III › Examples of simplicial topological spaces › Construction of hypercovers">Construction of hypercovers</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.3 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-6.3.xml"
+addr="hodge-theory-iii-6.3"
+title="Hodge Theory III › Examples of simplicial topological spaces › Relative cohomology">Relative cohomology</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;6.4 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-6.4.xml"
+addr="hodge-theory-iii-6.4"
+title="Hodge Theory III › Examples of simplicial topological spaces › Multisimplicial spaces">Multi-simplicial spaces</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;7. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-iii-7.xml"
+addr="hodge-theory-iii-7"
+title="Hodge Theory III › Supplements to §1">Supplements to §1</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;7.1 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-7.1.xml"
+addr="hodge-theory-iii-7.1"
+title="Hodge Theory III › Supplements to §1 › Filtered derived category">Filtered derived category</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;7.2 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-7.2.xml"
+addr="hodge-theory-iii-7.2"
+title="Hodge Theory III › Supplements to §1 › Supplements to the two filtrations lemma">Supplements to the two-filtrations lemma</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;8. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-iii-8.xml"
+addr="hodge-theory-iii-8"
+title="Hodge Theory III › Hodge theory of algebraic spaces">Hodge theory of algebraic spaces</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;8.1 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-8.1.xml"
+addr="hodge-theory-iii-8.1"
+title="Hodge Theory III › Hodge theory of algebraic spaces › Hodge complexes">Hodge complexes</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;8.2 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-8.2.xml"
+addr="hodge-theory-iii-8.2"
+title="Hodge Theory III › Hodge theory of algebraic spaces › Separated algebraic spaces">Separated algebraic spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;8.3 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-8.3.xml"
+addr="hodge-theory-iii-8.3"
+title="Hodge Theory III › Hodge theory of algebraic spaces › Hodge theory of simplicial schemes">Hodge theory of simplicial schemes</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;9. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-iii-9.xml"
+addr="hodge-theory-iii-9"
+title="Hodge Theory III › Examples and applications">Examples and applications</fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;9.1 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-9.1.xml"
+addr="hodge-theory-iii-9.1"
+title="Hodge Theory III › Examples and applications › Cohomology of groups and of classifying spaces">Cohomology of groups and of classifying spaces</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;9.2 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-9.2.xml"
+addr="hodge-theory-iii-9.2"
+title="Hodge Theory III › Examples and applications › Hodge theory of smooth hypersurfaces, following Griffiths">Hodge theory of smooth hypersurfaces, following Griffiths</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;9.3 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-9.3.xml"
+addr="hodge-theory-iii-9.3"
+title="Hodge Theory III › Examples and applications › Construction of complexes of first-order differential operators">Construction of complexes of first-order differential operators</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+      
+ <html:li
+style="list-style-type: &quot;10. &quot;">
+        <fr:link
+type="local"
+href="hodge-theory-iii-10.xml"
+addr="hodge-theory-iii-10"
+title="Hodge Theory III › Hodge theory in level  1">Hodge theory in level <fr:tex
+display="inline"><![CDATA[\leqslant  1]]></fr:tex></fr:link>
+        
+ <html:ol>
+          
+ <html:li
+style="list-style-type: &quot;10.1 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-10.1.xml"
+addr="hodge-theory-iii-10.1"
+title="Hodge Theory III › Hodge theory in level  1 › 1-motives">1-motives</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.2 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-10.2.xml"
+addr="hodge-theory-iii-10.2"
+title="Hodge Theory III › Hodge theory in level  1 › 1-motives and bi-extensions">1-motives and bi-extensions</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.3 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-10.3.xml"
+addr="hodge-theory-iii-10.3"
+title="Hodge Theory III › Hodge theory in level  1 › Algebraic interpretation of the mixed {H}^1: the case of curves">Algebraic interpretation of the mixed <fr:tex
+display="inline"><![CDATA[\operatorname {H}^1]]></fr:tex>: the case of curves</fr:link>
+          </html:li>
+
+          
+ <html:li
+style="list-style-type: &quot;10.4 &quot;">
+            <fr:link
+type="local"
+href="hodge-theory-iii-10.4.xml"
+addr="hodge-theory-iii-10.4"
+title="Hodge Theory III › Hodge theory in level  1 › Translation of a theorem of Picard">Translation of a theorem of Picard</fr:link>
+          </html:li>
+
+        </html:ol>
+
+      </html:li>
+
+    </html:ol></fr:li>
+
+  <fr:li><fr:link
+type="local"
+href="hodge-theory-bibliography.xml"
+addr="hodge-theory-bibliography"
+title="Complete list of references"><fr:strong>Bibliography</fr:strong></fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3637</fr:anchor><fr:addr
+type="user">hodge-theory-ii-introduction</fr:addr><fr:route>hodge-theory-ii-introduction.xml</fr:route><fr:title
+text="Hodge Theory II › Introduction"><fr:link
+type="local"
+href="hodge-theory-ii.xml"
+addr="hodge-theory-ii"
+title="Hodge Theory II">Hodge Theory II</fr:link> › Introduction</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:em>Work presented as a doctoral thesis at l'Université d'Orsay.</fr:em></fr:p><fr:p>By Hodge, the cohomology space <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {C})]]></fr:tex> of a compact Kähler variety <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is endowed with a "Hodge structure" of weight <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, i.e. a natural bigrading
+  <fr:tex
+display="block"><![CDATA[     \operatorname {H}^n(X,\mathbb {C})     = \bigoplus _{p+q=n} \operatorname {H}^{p,q}   ]]></fr:tex>
+  which satisfies <fr:tex
+display="inline"><![CDATA[\overline {\operatorname {H}^{p,q}}=\operatorname {H}^{q,p}]]></fr:tex>.
+  We will show here that the complex cohomology of a non-singular, not necessarily compact, algebraic variety is endowed with a structure of a slightly more general type, which presents <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {C})]]></fr:tex> as a "successive extension" of Hodge structures of decreasing weights, contained between <fr:tex
+display="inline"><![CDATA[2n]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, whose Hodge numbers <fr:tex
+display="inline"><![CDATA[h^{p,q}=\dim \operatorname {H}^{p,q}]]></fr:tex>, are zero for both <fr:tex
+display="inline"><![CDATA[p>n]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q>n]]></fr:tex>.</fr:p><fr:p>The reader will find an explanation in [<fr:link
+type="local"
+href="hodge-theory-i.xml"
+addr="hodge-theory-i"
+title="Hodge Theory I">Hodge Theory I</fr:link>] of the yoga that underlies this construction.</fr:p><fr:p>The proof, which is essentially algebraic, relies on one hand on Hodge theory, and on the other on Hironaka's resolution of singularities, which allows us, via a spectral sequence, to "express" the cohomology of a non-singular quasi-projective algebraic variety in terms of the cohomology of non-singular projective varieties.</fr:p><fr:p><fr:ref
+addr="hodge-theory-ii-1"
+href="hodge-theory-ii-1.xml"
+number="1" /> contains, apart from reminders on filtrations gathered together for the ease of the reader, two key results:
+
+  
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      <fr:ref
+addr="hodge-theory-ii-1.2.10"
+href="hodge-theory-ii-1.2.10.xml"
+taxon="Theorem"
+number="1.2.10" />, which will only be used via its corollary, <fr:ref
+addr="hodge-theory-ii-2.3.5"
+href="hodge-theory-ii-2.3.5.xml"
+taxon="Theorem"
+number="2.3.5" />, which gives the fundamental properties of "mixed Hodge structures".
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      The "two filtrations lemma", <fr:ref
+addr="hodge-theory-ii-1.3.16"
+href="hodge-theory-ii-1.3.16.xml"
+taxon="Theorem"
+number="1.3.16" />.
+    </html:li>
+
+  </html:ol></fr:p><fr:p><fr:ref
+addr="hodge-theory-ii-2"
+href="hodge-theory-ii-2.xml"
+number="2" /> recalls Hodge theory and introduces mixed Hodge structures.</fr:p><fr:p>The heart of this work is <fr:ref
+addr="hodge-theory-ii-3.2"
+href="hodge-theory-ii-3.2.xml"
+number="3.2" />, which defines the mixed Hodge structure on <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {C})]]></fr:tex>, and establishes some degenerations of spectral sequences.</fr:p><fr:p><fr:ref
+addr="hodge-theory-ii-4"
+href="hodge-theory-ii-4.xml"
+number="4" /> gives diverse applications, all following from <fr:ref
+addr="hodge-theory-ii-4.1.1"
+href="hodge-theory-ii-4.1.1.xml"
+taxon="Theorem"
+number="4.1.1" /> and the theory of the <fr:tex
+display="inline"><![CDATA[(K/k)]]></fr:tex>-trace, for the resulting Hodge structures (<fr:ref
+addr="hodge-theory-ii-4.1.2"
+href="hodge-theory-ii-4.1.2.xml"
+taxon="Corollary"
+number="4.1.2" />).
+  The principal ones are <fr:ref
+addr="hodge-theory-ii-4.2.6"
+href="hodge-theory-ii-4.2.6.xml"
+taxon="Theorem"
+number="4.2.6" /> and <fr:ref
+addr="hodge-theory-ii-4.4.15"
+href="hodge-theory-ii-4.4.15.xml"
+taxon="Corollary"
+number="4.4.15" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3638</fr:anchor><fr:addr
+type="user">hodge-theory-iii-introduction</fr:addr><fr:route>hodge-theory-iii-introduction.xml</fr:route><fr:title
+text="Hodge Theory III › Introduction"><fr:link
+type="local"
+href="hodge-theory-iii.xml"
+addr="hodge-theory-iii"
+title="Hodge Theory III">Hodge Theory III</fr:link> › Introduction</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This article follows <fr:link
+type="local"
+href="hodge-theory-i.xml"
+addr="hodge-theory-i"
+title="Hodge Theory I">Hodge Theory I</fr:link> and <fr:link
+type="local"
+href="hodge-theory-ii.xml"
+addr="hodge-theory-ii"
+title="Hodge Theory II">Hodge Theory II</fr:link>;
+  the numbering of the sections here follows that of <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Volume"
+number="II" /> (which contains <fr:ref
+addr="hodge-theory-ii-1"
+href="hodge-theory-ii-1.xml"
+number="1" /> to <fr:ref
+addr="hodge-theory-ii-4"
+href="hodge-theory-ii-4.xml"
+number="4" />).</fr:p><fr:p>In <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Volume"
+number="II" />, we gave an introduction to the yoga that underlies <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Volume"
+number="II" /> and the present article <fr:ref
+addr="hodge-theory-iii"
+href="hodge-theory-iii.xml"
+taxon="Volume"
+number="III" />.
+  However, <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Volume"
+number="II" /> and <fr:ref
+addr="hodge-theory-iii"
+href="hodge-theory-iii.xml"
+taxon="Volume"
+number="III" /> are logically independent of <fr:ref
+addr="hodge-theory-i"
+href="hodge-theory-i.xml"
+taxon="Volume"
+number="I" />;
+  they also do not contain all the results that were stated in <fr:ref
+addr="hodge-theory-i"
+href="hodge-theory-i.xml"
+taxon="Volume"
+number="I" />.</fr:p><fr:p>In <fr:ref
+addr="hodge-theory-ii"
+href="hodge-theory-ii.xml"
+taxon="Volume"
+number="II" />, we introduced the Hodge theory of non-singular (not necessarily complete) algebraic varieties.
+  Here we treat the case of arbitrary singularities.
+  From <fr:ref
+addr="hodge-theory-iii-7"
+href="hodge-theory-iii-7.xml"
+number="7" /> onwards, we will make essential use of results from <fr:ref
+addr="hodge-theory-ii-1"
+href="hodge-theory-ii-1.xml"
+number="1" /> to <fr:ref
+addr="hodge-theory-ii-3"
+href="hodge-theory-ii-3.xml"
+number="3" />.</fr:p><fr:p>In the case of a <fr:em>complete</fr:em> singular algebraic variety <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, the fundamental idea is to use the resolution of singularities to replace <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> by a simplicial system of smooth projective schemes
+  
+  <fr:resource
+hash="7b89eea1ee0cd3c380e05a7a205e10a1"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMi4yIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzI2MS45NzU0NTJwdCcgaGVpZ2h0PSczNy44Mzc1MjRwdCcgdmlld0JveD0nLTcyIC03MiAxNzQuNjUwMzAxIDI1LjIyNTAxNic+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21leDEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFQRUFBb0FBQUFBQkNBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVzQUFBQmdjQmxaYVdOdFlYQUFBQUZBQUFBQUxnQUFBRFFBRE9Ca1oyeDVaZ0FBQVhBQUFBRHdBQUFBOEhBN3BHTm9aV0ZrQUFBQ1lBQUFBQzRBQUFBMkoyZG1PMmhvWldFQUFBS1FBQUFBSHdBQUFDUUZlL2EwYUcxMGVBQUFBckFBQUFBS0FBQUFDZ1JkQUxac2IyTmhBQUFDdkFBQUFBZ0FBQUFJQUR3QWVHMWhlSEFBQUFMRUFBQUFGd0FBQUNBQUJRQWpibUZ0WlFBQUF0d0FBQURWQUFBQlBxQW5kY1p3YjNOMEFBQUR0QUFBQUJBQUFBQWdBQU1BQVhqYVkyQm1NbWFjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4SUlBQUVqdWx1Q3lkZ2UyQndBTkJadkV2bWd3TXpPTGMxNEhDakFnVi8vOHpNQUFBL1UwUFFBQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lGSUEwQ3hBQytROEUvLzhIa2dMLy84dC9CTXN6QUFCaDR3ZE5BQUFBQVFDMitQVUNQZ0FzQUNFQUFBRXZBaVlDTnpRMk56NEJOelkvQVRZVkZnY0dBZ01HRWhjZUFSY1dGUVluSXdJUEtEY3JkMWdDSXlFMmxVb0hCUTBUQVFTSnFRSUJSMUl3VUJzRUF3Z1crUUlsUGptMEFZYTRnUEJtb3RvL0JnRUJBdzBEQlliK1VQNnV1djZabGxOZ0d3UUZEQUlBQUFBQUFRQWwrUFFCckFBc0FDRUFBQUVVQmdjT0FRY0dEd0VHSnpZM05oSVROZ0luTGdFbkppYzJId0VXSHdJV0VnR3FJaUkybEVzR0JBOFJBZ0VEaktVQ0FVWlNNVTRiQkFJQ0VRNEVCU29qbFh2OGtIM3ZhNkhiUGdZQkFRTU5CUU9LQWJNQlNyc0JaNVpUWUJrRkJnMERBUUVFS1NXdy9rdDQybU5nWkdCZ0FHTEhXbjNyZUg2YnJ3ek1MQXdnOEpoVGpCOUIvL2pDWk1lZ0ErUnlNRENCUkFIUDB3ZFZBQUI0Mm1OZ1pHQmdGditpeWNEQWxNeWd5cURLWk1jQUZFRUJUQUE1dlFJckFBSFZBQUFDWXdDMkFDVUFBQUFBQUFBQVBBQjRlTnBqWUdSZ1lHQm1VR0lBMFF4UUVna0FBQVFLQUNrQWVOcE5qckZxd3pBUWhqOVR4MUMzMEtrZE1oUk5HWTN0OUFFS0dUSmx6UmhJb2lPNFlEbklqa21XMGdmb1EvZXNhT2dKL1h6Njc3OURRTTQzQ1ZNbHZBU2RLaVhUMTUxblBQRWFPZE5qSXVmTVdmQkFrajZxODg1bjVKUm5kcEZudlBFVk9WUC9KM0xPQjcrcnJqMWZCdkZtMDFueDd0akt0U3EzNHZ1bWM2WXF5cnV4RmlkK1A0ZzFoNXV4WTlPUHA5WXNpN3FvV2RIUmN1YkNnT0QxWnh0MWJHREhVWHZDbFlxU2JmQjZHdTA3elZVVTZ2NVBySlZjU08zRE5xdXBBemRWeTZoenZlcEo4NGFsenRiVC9RUHRhekRaQUFBQWVOcGpZR1pBQm93TWFBQUFBSTRBQlE9PSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtc3k3O3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFMMEFBb0FBQUFBQTFnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVzQUFBQmdxQ3dTVG1OdFlYQUFBQUZBQUFBQUtnQUFBRFFBRENCMVoyeDVaZ0FBQVd3QUFBQTBBQUFBTktYOThXRm9aV0ZrQUFBQm9BQUFBQ3dBQUFBMktMbHU5MmhvWldFQUFBSE1BQUFBSGdBQUFDUUZlUUFXYUcxMGVBQUFBZXdBQUFBSUFBQUFDQVhvQUU5c2IyTmhBQUFCOUFBQUFBWUFBQUFHQUJvQUFHMWhlSEFBQUFIOEFBQUFGd0FBQUNBQUJBQU5ibUZ0WlFBQUFoUUFBQURQQUFBQk9CT0JLcnR3YjNOMEFBQUM1QUFBQUJBQUFBQWdBQU1BQVhqYVkyQm0rc0k0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0lBR0JsU1FVbHlXenNDbW9LU2d4S3o0eDRpQmdWbVIrUnhRbUJHaDR2OS9CZ1lBTXpvUEtBQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lGSUEwQ3hBQytRcEsvLzlEeVB2M3dmSU1BRkxNQnA0QUFBQUJBRThBSlFJSEFkd0FDd0FBQVE0QkJ5NEJKejRCTng0QkFnY0NmRjVkZlFJQ2ZGNWRmUUVBWEgwQ0FudGZYSDBDQW50NDJtTmdaR0JnQU9MS3piS1M4ZncyWHhtWVdSaEE0REduR0Q4eXpUeVI4UTZRNG1CZ0F2RUF5S2dHcUhqYVkyQmtZR0JXL0dNRUpDY3krRE1FTUxFekFFVlFBQk1BUkxnQ2t3QUFBNUVBQUFKWEFFOEFBQUFBQUJvQUFIamFZMkJrWUdCZ1l1QmhBTkVNVUJJSkFBQUJ5UUFTQUhqYVRZdzliOEl3RUlhZmlBU0pNTEJVSFRxQUIrWUlRaVcyTGd4TXJFd3NnQTNLRUFmWklWS2txbU4vZHkrdUIwN3k2WGsvemtET0R3bkRKTXpDSGlZbEUvWFBHVlBlSW85RkxTTG5mTEJrUkpKT3hKbnpGVG1WNUJRNTQ1MWI1TEg0MzVGelB2bmROZlhqMlJxbkRvMDJ6bDVyMzIrUHh2bXFzV3BkcklMZUcydmN1VFZhWFhxbHU4cDM5MXB0aXJJbzJkRlE4K0JKaThHaE9JaWpBMXV1a25sNnRoeUQ0NmtrdGRKYVU3QjZ5ZmVTMjlBNWg1KzBkQzZTS0tGT3JyenN1N1FWRzdrc2gvY0g5QU13VVFCNDJtTmdaa0FHakF4b0FBQUFqZ0FGKSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21yNztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBUTBBQW9BQUFBQUJMQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFTUFBQUJnaFV0MGdXTnRZWEFBQUFFNEFBQUFMQUFBQURRQURBQ0ZaMng1WmdBQUFXUUFBQUZ6QUFBQmlLcEJ4YkpvWldGa0FBQUMyQUFBQUM4QUFBQTJKL3h2c0dob1pXRUFBQU1JQUFBQUh3QUFBQ1FGUndJTGFHMTBlQUFBQXlnQUFBQU1BQUFBREFXS0FIUnNiMk5oQUFBRE5BQUFBQW9BQUFBS0FSWUFmbTFoZUhBQUFBTkFBQUFBR0FBQUFDQUFCd0F5Ym1GdFpRQUFBMWdBQUFESkFBQUJNdTBLa2V4d2IzTjBBQUFFSkFBQUFCQUFBQUFnQUFNQUFYamFZMkJteW1LY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeHdBRWpBeEpJS1M1TEIwb2FNQmd4TS93SDhwa2gwa2hxL2dPRkFjZklETHdBZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0JTQU5Bc1FndmhHLy84RFNZUC8vLzlmQlBNWkFGRlVCbzU0MmhXUXkwN0NVQkNHejB4TEt5VUJ1YlNFUzhxbHRDZENSWVMwalJLcG1GUkNRcFVGU0F5SjBZVWFOU2lKUG9BTG93dGZSQmUrQUcvZ2U3ZzBMb3lKSzlIamF2TFBQNW41dnlGSUdyL3ZHTU1ua2lZMVFrQVJ3eUFLb2tHclFBM0hjRnJnMkk0S1NSVTR4V2JLc3BtakdRSWJTeXFzaTRzWUZITnE0MnBhejZrTFFXUXF6OVRHT0tXbFB3cjlXSkRuNVloWEtmcXhVQUE1S2RxRER2WExJODNsZVZjYmxYMUtlK1orcWMxRFhiZHU1eE9vZWF1WGEvZUQ1UnFZemNya1piM3ExZ21RS1V2MmhzOGt4V3BVVUpvZ3IwQUVyRWJkcHRFd1VJdEZzeFVZY2ZrdVBlMVB0MmszejVtRFJPR21JWWZ3OGVjMUxlc2NJT3B5R3FWRUVFcW9WRUZpcTBpYkVBd3c5aVZDZExIZzJDNjAwS0NNVGdVR3FBa0daZnlNUHN5dUNhTHovd0FIQTduNUdGRDh6bXh4dTc2eGw2SUtRREV1bFJHdWo0NGZPQncyaCtXZFR6MGtoWEUyeXdyQ1YrYms3aENoWXFFZXlXWkFOcm9YSEp3ZGRNNU5yK2dCOE5KbW5Qd0JvY28vTkFCNDJtTmdaR0JnQUdLV012Nlg4ZncyWHhtWVdSaEE0REduR0QrQy92K0c2VExUU2lDWGc0RUpKQW9BNkZ3SXNnQjQybU5nWkdCZ1p2alB3TURBZEpuQm1NR1VTWWdCS0lJQ21BQTkxd0pZQUFMVEFBQUNSd0F6QUhBQVFRQUFBQUFBVWdCK0FNUUFBSGphWTJCa1lHQmdZVEJrWUdJQUFVWUdOQUFBQmJNQU9uamFQWXd4QzhJd0VJVy9ZaFd0ZzRQZzRDREJIMUMwQ2k1dURrNnVEbTdXQk9uUVZOSmFkQkYvdXRjUXZKRGp1L2ZlSFpEd0lhS3JpSW52WGNYeUpvSDdqSmtHSG9pK0NKd3daMG1QS0I2SnNtQWZPR2JJSlhDZkdYbmdnZWl2d0FsYnZvZXFmRHdiNDlTcDBzYlpXK2wyWitQcW9ySnFuYTY2OFdpc2NkZkdhSlcvbFc2THVyMlhhcE5tYWNhQmlwSUhUeG9NRHNWSkZPM1pjaFBQc2VQczU1cENQQ3VaTlNtcnYzc1UxL3JFMVYvUmtzaDVTOWUwc2xOTHYwdFdzWkc5clBzL1dUSXVUUUFBQUhqYVkyQm1RQWFNREdnQUFBQ09BQVU9KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21yMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU1JQUFvQUFBQUFBM3dBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVFBQUFCZ2hWaDA4R050WVhBQUFBRTRBQUFBS1FBQUFEUUFEQUNRWjJ4NVpnQUFBV1FBQUFCT0FBQUFXQm5qSUdWb1pXRmtBQUFCdEFBQUFDd0FBQUEyS0FsdWxHaG9aV0VBQUFIZ0FBQUFIZ0FBQUNRR0hRSmFhRzEwZUFBQUFnQUFBQUFJQUFBQUNBV2NBRHBzYjJOaEFBQUNDQUFBQUFZQUFBQUdBQ3dBQUcxaGVIQUFBQUlRQUFBQUZnQUFBQ0FBQlFBWmJtRnRaUUFBQWlnQUFBRE5BQUFCT0lMaktxbHdiM04wQUFBQytBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbU9zYzRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFMwWmJCbFp2Z1A1RE5EcEpIVS9BY0tBd0R1N2cwNGVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdCU0FOQXNRZ3ZpMi8vOUR5UDlId0h3R0FGSkRCcGtBQUFCNDJtTmdZckJpYUdkNnlGakp3TTBnenNEQXFNaW1abUltcm1nbUpzTEdqc1JtMnY5M0xvK1lHRGRUR3Jlb0tQZmZXZHhpWWp4TXlieWlvb3orak95eTdJd2c0aGljeGNBQUFGRFJESGtBQUhqYVkyQmtZR0FBNHA5aEpxL2orVzIrTWpDek1JREFZMDR4Zm1TYTZTRmpKWkRpWUdBQzhRRDJTZ2VnZU5wallHUmdZR2I0endBa1pSaXNHS3laSGpJQVJWQUFFd0E4amdKK0FBQUNnQUFBQXh3QU9nQUFBQUFBTEFBQWVOcGpZR1JnWUdCaWtBQmlFR0JrUUFNQUF3d0FId0FBZU5wRmpEMkx3a0FRaHA5Z0loZ0xHN0d3dU52Q09pVFIraG9MSzF1cmE5UmRKVVUyc29rQlFTenZkenRaRjI1Z2grZjltQVZTWGtRTUV6SHplNWlZUk5TSEU2Yk1BNDlGZlFkT1diSmlSQlJQeFBuaUozQXN5Vy9naEFXWHdHUHhuNEZUTnZ4dG0vcDI3NHhUKzBZYlo4KzFLL0tEY1czVldGVmt1ZGM3WTQwN2RrYXIwMFBwdm1yN2E2M1dXWm1WYkdtb3VYR253K0JRN01YUm5pMW55UndGT1FmdnRGU1NXbWtWWk9MKzV6dkpyZThjL1U5YU9pY2Vzalc5WExXeXI5SldyT1d5SE40Ylk4Y3ZFUUFBQUhqYVkyQm1RQWFNREdnQUFBQ09BQVU9KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21taTEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFQa0FBb0FBQUFBQklRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVNQUFBQmdoVWwwaUdOdFlYQUFBQUU0QUFBQU1RQUFBRHdBbEFCaFoyeDVaZ0FBQVd3QUFBRWFBQUFCVEp0TEtBNW9aV0ZrQUFBQ2lBQUFBQzhBQUFBMktKQnYxbWhvWldFQUFBSzRBQUFBSGdBQUFDUUdoZ0k5YUcxMGVBQUFBdGdBQUFBTUFBQUFEQWJpQUhWc2IyTmhBQUFDNUFBQUFBZ0FBQUFJQUJRQXBtMWhlSEFBQUFMc0FBQUFGd0FBQUNBQUJRQmhibUZ0WlFBQUF3UUFBQURVQUFBQlBwa1JkY2R3YjNOMEFBQUQyQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm04bWFjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0FFakF4SklLUzVMQjBycU1VUXdNL3dIOHBraDBraHEvZ09GQWNDVkRNRUFlTnBqWUdCZ1ltQmdZQVppRVNESkNLWlpHRFNBTkJ1UVpnVEs2akZFL1A4UDVJUHAvNWYvcndLckFnSUFrRm9JN3dBQUFIamFOWXk5VHNOQUVJUnY5dXc3eHptZkUvQ1BrTUpkUkpEZGdDTklzQ3VTbm9hR0Jna0pHa1FLUkJHcWxORHlIUEFBbElnMjc4QWowRkpRQnljVzBtcTFPL1BOTUxCTEJyWms5OHhqck5MWXk4YmxjYktFUGJUMWxNbDZXOFpxcHJkYThUdjZaTmYxVTVWVlFma0VGbFZpRVltQmhoUWg2dHRnbENheHhoQXl6L0p4T1pyZ1pJZ1FOYkN4MG8yVkRiR3hwc1FMREVUVGxCcXNpMkw4dkhVNDJXMGdjT2MzTFNMbEY5TjRwM3J1N3AvN3UwZEtraEx6cDVZTDVSbmp6cTVtN1E3SWV0SUJsUHZZQlBLekxQaGF1TDJEbU5aaVEvZDdlSDNYYWFUZ2F3bk80UWd0dUltUzA1Zmk0c09FSUYrTFdpZTBBdWxzeWZEMzlxR2RCbEdieVBzUGhJTDZ1ZnFHNlhTNWJrU0twUk83alAwQjNrWW4vd0FBZU5wallHUmdZQURpSTcrYm44YnoyM3hsWUdaaEFJSEhuR0w4Q1ByL2YrWjBwajFBTGdjREUwZ1VBRElRQ2lJQWVOcGpZR1JnWUdiNHp3QWtBeGhrL3I5a1RtY0FpcUFBWmdCYUp3UEpBQUFDZGdBQUFSd0FXUU5RQUJ3QUFBQUFBQlFBcG5qYVkyQmtZR0JnWmtoZ0FORU1VQklKQUFBS0dBQm5BSGphVFk2eGFzTXdGRVdQcVdPb1c4aVVEQjJLcG96R2R2b0JoUXlac21Zc0pKRUlMa2dLc21QSUV2b0IvZWcrS3hyNmhCNUg1MTBKQVNWM01xYkttTWMrVlU0aHB3ZlBlR0dSdUpDbEVwZThzZUtKTEg4Vzg4NW40cHhYdmhMUFdQS2R1QkQvazdqa2c5K050NWZyWUlMYWVXMkNPMW5iTmZYZWhMN3pUalZWL1JCYjQwdzRERWFyNDAzcHNldkhzMVhycXExYU5uZ3NGNjRNR0lMOGJDZEdSM2FjWkdicGFLalpSOWZMeWN0RWlhdkUvazlzSmVGaTZoQmYwNUk2Y3BPdUdTWFRTejlMV3JHV3UrMjAvd0RnZ2pDOWVOcGpZR2JBQ3dBQWZRQUUpIGZvcm1hdCgnd29mZicpO30KdGV4dC5mMCB7Zm9udC1mYW1pbHk6Y21zeTc7Zm9udC1zaXplOjYuOTczODQ4cHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5OmNtbWkxMDtmb250LXNpemU6OS45NjI2NHB4fQp0ZXh0LmYyIHtmb250LWZhbWlseTpjbXIxMDtmb250LXNpemU6OS45NjI2NHB4fQp0ZXh0LmYzIHtmb250LWZhbWlseTpjbXI3O2ZvbnQtc2l6ZTo2Ljk3Mzg0OHB4fQp0ZXh0LmY0IHtmb250LWZhbWlseTpjbWV4MTA7Zm9udC1zaXplOjkuOTYyNjRweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+CjxnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTUuMzI1MTQ1LC01OS4zODc0OTYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTg3LjY1MjYyLC0yLjQ5OTk4KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgxNS4zMjUxNDUsLTU5LjM4NzQ5NilzY2FsZSgtMSwtMSknPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNTQuNDYyOTg1LC01OS4zODc0OTYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zNC45NzkwNiwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDU0LjQ2Mjk4NSwtNTkuMzg3NDk2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9JzU0LjQ2Mjk4NScgeT0nLTU5LjM4NzQ5Nic+WDwvdGV4dD4KPHRleHQgY2xhc3M9J2YwJyB4PSc2Mi43MTY3NzQnIHk9Jy01Ny44OTMxMTUnPuKAojwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PSc3MC4wNjQxNicgeT0nLTU5LjM4NzQ5Nic+PTwvdGV4dD4KPHRleHQgY2xhc3M9J2Y0JyB4PSc4MC41ODAyNCcgeT0nLTcwLjQ0NjEyNCc+7oCQPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jzg4LjE5MDU1NicgeT0nLTU5LjM4NzQ5Nic+Ljx0c3BhbiB4PSc5Mi42MTgzNjQnPi48L3RzcGFuPjx0c3BhbiB4PSc5Ny4wNDYxNzInPi48L3RzcGFuPjx0c3BhbiB4PScxMTEuNDM2NjM1Jz5YPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMTE5LjY5MDQyNCcgeT0nLTU3Ljg5MzExNSc+MjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxMjguMTYyMTUzLC01OS4zODc0OTYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC02LjM4NTQyLDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMTI4LjE2MjE1MywtNTkuMzg3NDk2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9JzEyOC4xNjIxNTMnIHk9Jy01OS4zODc0OTYnPlg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMTM2LjQxNTk0MicgeT0nLTU3Ljg5MzExNSc+MTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxNzYuMzQ5NDYyLC01OS4zODc0OTYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC05LjM3MTU0LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMTc2LjM0OTQ2MiwtNTkuMzg3NDk2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9JzE3Ni4zNDk0NjInIHk9Jy01OS4zODc0OTYnPlg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMTg0LjYwMzI1MScgeT0nLTU3Ljg5MzExNSc+MDwvdGV4dD4KPHRleHQgY2xhc3M9J2Y0JyB4PScxODkuMDcyNjIxJyB5PSctNzAuNDQ2MTI0Jz7ugJE8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTS04Ljg4MzQgLjAwMDAySDE0LjMxNjYnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTQuNTE2NTksMC4wMDAwMiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00tOC44ODM0IDkuNjQ0MzZIMTQuMzE2NicgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxNC41MTY1OSw5LjY0NDM2KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTg4IDIuMzk5ODZDLTEuNjk5ODkgLjk1OTkyLS44NTMxMyAuMjc5OTggMCAwQy0uODUzMTMtLjI3OTk4LTEuNjk5ODktLjk1OTkyLTIuMDc5ODgtMi4zOTk4NicgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTS04Ljg4MzQtOS42NDQzM0gxNC4zMTY2JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDE0LjUxNjU5LC05LjY0NDMzKSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTg4IDIuMzk5ODZDLTEuNjk5ODkgLjk1OTkyLS44NTMxMyAuMjc5OTggMCAwQy0uODUzMTMtLjI3OTk4LTEuNjk5ODktLjk1OTkyLTIuMDc5ODgtMi4zOTk4NicgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTTM2LjQ5ODQ5IDQuODIyMTlINTkuNjk4NScgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg1OS44OTg0OCw0LjgyMjE5KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTg4IDIuMzk5ODZDLTEuNjk5ODkgLjk1OTkyLS44NTMxMyAuMjc5OTggMCAwQy0uODUzMTMtLjI3OTk4LTEuNjk5ODktLjk1OTkyLTIuMDc5ODgtMi4zOTk4NicgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTTM2LjQ5ODQ5LTQuODIyMTZINTkuNjk4NScgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg1OS44OTg0OCwtNC44MjIxNiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00xNC43MTY1NyA0LjgyMjE5SC04LjQ4MzQ0JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0nbWF0cml4KC0xLjAsMC4wLDAuMCwtMS4wLC04LjY4MzQzLDQuODIyMTkpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuMDc5ODggMi4zOTk4NkMtMS42OTk4OSAuOTU5OTItLjg1MzEzIC4yNzk5OCAwIDBDLS44NTMxMy0uMjc5OTgtMS42OTk4OS0uOTU5OTItMi4wNzk4OC0yLjM5OTg2JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzk5OTgnPgo8cGF0aCBkPSdNMTQuNzE2NTctNC44MjIxNkgtOC40ODM0NCcgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgtMS4wLDAuMCwwLjAsLTEuMCwtOC42ODM0MywtNC44MjIxNiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J002MC4wOTg0NiAuMDAwMDJIMzYuODk4NDUnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoLTEuMCwwLjAsMC4wLC0xLjAsMzYuNjk4NDcsMC4wMDAwMiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9zdmc+" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[
+    \usepackage {amsmath}
+    \usepackage {amssymb}
+    \usepackage {tikz-cd}
+  ]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[\begin {tikzcd}
+    X_\bullet  = \Big (\ldots \quad 
+    X_2
+      \ar [r]
+      \ar [r,shift left=4]
+      \ar [r,shift right=4]
+    & X_1
+      \ar [r,shift left=2]
+      \ar [r,shift right=2]
+      \ar [l,shift right=2]
+      \ar [l,shift left=2]
+    & X_0\Big )
+      \ar [l]
+  \end {tikzcd}]]></fr:resource-source></fr:resource>
+
+  (or, as we will say, by a smooth projective simplicial scheme).
+  The results of <fr:ref
+addr="hodge-theory-iii-5"
+href="hodge-theory-iii-5.xml"
+number="5" /> and <fr:ref
+addr="hodge-theory-iii-6"
+href="hodge-theory-iii-6.xml"
+number="6" /> allow us to find such simplicial schemes <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> that have, in a suitable sense, the same cohomology as <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
+  We can then "express", via a spectral sequence, the cohomology of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> in terms of the cohomology of the <fr:tex
+display="inline"><![CDATA[X_n]]></fr:tex>.
+  Following the general principles of <fr:ref
+addr="hodge-theory-i"
+href="hodge-theory-i.xml"
+taxon="Volume"
+number="I" />, we can then, on each <fr:tex
+display="inline"><![CDATA[X_n]]></fr:tex>, use classical Hodge theory, and obtain an induced mixed Hodge structure on the cohomology of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p><fr:p>In the case of an arbitrary algebraic variety <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, we "replace" <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> by a smooth simplicial scheme <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> with compactification given by a smooth projective simplicial scheme <fr:tex
+display="inline"><![CDATA[\overline {X}_\bullet ]]></fr:tex>.
+  We can further arrange things so that <fr:tex
+display="inline"><![CDATA[\overline {X}_n\setminus  X_n]]></fr:tex> is a normal crossing divisor, given by a union of smooth divisors <fr:tex
+display="inline"><![CDATA[D_{n,i}]]></fr:tex>.
+  We thus "express", via a spectral sequence, the cohomology of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> in terms of the cohomology of the <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-fold intersections of the <fr:tex
+display="inline"><![CDATA[D_{n,i}]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[n,p\geqslant 0]]></fr:tex>), and we obtain an induced mixed Hodge structure on <fr:tex
+display="inline"><![CDATA[H^\bullet (X)]]></fr:tex>.</fr:p><fr:p><fr:ref
+addr="hodge-theory-iii-5"
+href="hodge-theory-iii-5.xml"
+number="5" /> and <fr:ref
+addr="hodge-theory-iii-6"
+href="hodge-theory-iii-6.xml"
+number="6" /> constitute a summary (without proofs) of the theory of "cohomological descent".
+  This theory, in the more general framework of a topos, is laid out in <fr:link
+type="local"
+href="SD.xml"
+addr="SD"
+title="Techniques de descente cohomologique">[SD]</fr:link>.</fr:p><fr:p>In <fr:ref
+addr="hodge-theory-iii-7.1"
+href="hodge-theory-iii-7.1.xml"
+number="7.1" />, we restate certain results obtained previously, but in the language of filtered derived categories;
+  <fr:ref
+addr="hodge-theory-iii-7.2"
+href="hodge-theory-iii-7.2.xml"
+number="7.2" /> contains a simpler proof of the two-filtrations lemma than that of <fr:ref
+addr="hodge-theory-ii-1.3"
+href="hodge-theory-ii-1.3.xml"
+number="1.3" />.</fr:p><fr:p>The unappealing <fr:ref
+addr="hodge-theory-iii-8.1"
+href="hodge-theory-iii-8.1.xml"
+number="8.1" /> is the heart of this work.
+  The essential result is <fr:ref
+addr="hodge-theory-iii-8.1.15"
+href="hodge-theory-iii-8.1.15.xml"
+taxon="Theorem"
+number="8.1.15" />.
+  
+  In its proof, to be able to apply the two-filtrations lemma, we use the fact that every morphism of mixed Hodge structures is <fr:em>strictly</fr:em> compatible with the filtrations <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> (<fr:ref
+addr="hodge-theory-ii-2.3.5"
+href="hodge-theory-ii-2.3.5.xml"
+taxon="Theorem"
+number="2.3.5" />).
+  In <fr:ref
+addr="hodge-theory-iii-8.2"
+href="hodge-theory-iii-8.2.xml"
+number="8.2" />, we define the mixed Hodge structure of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> a separated scheme).
+  We show that the Hodge numbers <fr:tex
+display="inline"><![CDATA[h^{pq}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {H}^n(X,\mathbb {Z})]]></fr:tex> can only be non-zero for <fr:tex
+display="inline"><![CDATA[(p,q)\in [0,n]\times [0,n]]]></fr:tex>.
+  For <fr:tex
+display="inline"><![CDATA[n>\dim  X]]></fr:tex>, we have a more precise result (<fr:ref
+addr="hodge-theory-iii-8.2.4"
+href="hodge-theory-iii-8.2.4.xml"
+taxon="Theorem"
+number="8.2.4" />).
+  If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is smooth (resp. complete), they can only be non-zero if, further, <fr:tex
+display="inline"><![CDATA[p+q\geqslant  n]]></fr:tex> (resp. <fr:tex
+display="inline"><![CDATA[p+q\leqslant  n]]></fr:tex>).
+  If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a complete subscheme of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex>, with complement <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> complete and smooth of dimension <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, then we can, by N. Katz, interpret this "duality" between the complete case and the smooth case as coming from the "Alexander duality"
+  <fr:tex
+display="block"><![CDATA[     \to  \ldots      \to  \operatorname {H}^i(Z,\mathbb {Q})     \to  \operatorname {H}^i(X,\mathbb {Q})     \to  (\operatorname {H}^{2n-i-1}(U,\mathbb {Q}))^*     \to  \operatorname {H}^{i+1}(Z,\mathbb {Q})     \to \ldots .   ]]></fr:tex></fr:p><fr:p>From the functorial properties of the theory thus constructed, we obtain the useful corollaries <fr:ref
+addr="hodge-theory-iii-8.2.5"
+href="hodge-theory-iii-8.2.5.xml"
+taxon="Proposition"
+number="8.2.5" /> to <fr:ref
+addr="hodge-theory-iii-8.2.8"
+href="hodge-theory-iii-8.2.8.xml"
+taxon="Corollary"
+number="8.2.8" />, which we state in terms independent of any Hodge theory.</fr:p><fr:p>In <fr:ref
+addr="hodge-theory-iii-8.3"
+href="hodge-theory-iii-8.3.xml"
+number="8.3" />, we endow the cohomology of any simplicial scheme <fr:tex
+display="inline"><![CDATA[X_\bullet ]]></fr:tex> with a mixed Hodge structure.
+  This generality is not illusory.
+
+  
+ <html:ol
+xmlns:html="http://www.w3.org/1999/xhtml">
+    
+ <html:li
+style="list-style-type: &quot;(a) &quot;">
+      We can interpret relative cohomology spaces as being the cohomology of suitable simplicial schemes.
+    </html:li>
+
+    
+ <html:li
+style="list-style-type: &quot;(b) &quot;">
+      Let <fr:tex
+display="inline"><![CDATA[B_G]]></fr:tex> be the classifying space of the underlying Lie group of an algebraic group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.
+      We can interpret the cohomology of <fr:tex
+display="inline"><![CDATA[B_G]]></fr:tex> as being the cohomology of a suitable simplicial scheme.
+    </html:li>
+
+  </html:ol></fr:p><fr:p>In <fr:ref
+addr="hodge-theory-iii-9.1"
+href="hodge-theory-iii-9.1.xml"
+number="9.1" />, after having calculated the mixed Hodge structure on the cohomology of <fr:tex
+display="inline"><![CDATA[B_G]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> linear), we thus obtain that of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.
+  As a corollary, we find that, if a linear group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts on a non-singular complete variety <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then the map
+  <fr:tex
+display="block"><![CDATA[     \operatorname {H}^\bullet (X,\mathbb {Q})     \to  \operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^\bullet (G,\mathbb {Q})   ]]></fr:tex>
+  factors through <fr:tex
+display="inline"><![CDATA[\operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^0(G,\mathbb {Q})\subset \operatorname {H}^\bullet (X,\mathbb {Q})\otimes \operatorname {H}^\bullet (G,\mathbb {Q})]]></fr:tex>.</fr:p><fr:p>In <fr:ref
+addr="hodge-theory-iii-10"
+href="hodge-theory-iii-10.xml"
+number="10" />, we interpret in terms of abelian schemes the mixed Hodge structures of pure degree <fr:tex
+display="inline"><![CDATA[\{(-1,-1),(-1,0),(0,-1),(0,0)\}]]></fr:tex> (see <fr:ref
+addr="hodge-theory-iii-0.5"
+href="hodge-theory-iii-0.5.xml"
+number="III.0.5" />), and we consider in detail the <fr:tex
+display="inline"><![CDATA[\operatorname {H}^1]]></fr:tex> of curves.</fr:p><fr:p>The theory developed up until here is an absolute theory (we do not study the functors <fr:tex
+display="inline"><![CDATA[\mathrm {R} f_*]]></fr:tex>), and deals only with constant coefficients.
+  I conjecture that, if <fr:tex
+display="inline"><![CDATA[\mathscr {H}]]></fr:tex> is a variation of polarisable Hodge structures (in the sense of Griffiths <fr:link
+type="local"
+href="G1970a.xml"
+addr="G1970a"
+title="Periods of integrals on algebraic manifolds. Summary of main results and discussion of open problems">[G1970a]</fr:link>) on a scheme <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then the cohomology of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with coefficients in the local system <fr:tex
+display="inline"><![CDATA[\mathscr {H}]]></fr:tex> is endowed with a natural mixed Hodge structure.
+  I can only prove this when <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is complete.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
